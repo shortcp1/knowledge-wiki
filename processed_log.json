@@ -10,12 +10,12 @@
       "relevance": 7,
       "relevant_topics": [
         "build-vs-buy-enterprise-ai",
-        "ai-engineering-agents",
-        "ai-in-product-and-engineering"
+        "ai-in-product-and-engineering",
+        "ai-governance-risk-compliance"
       ],
       "content_type": "enterprise_use_case",
       "status": "skipped",
-      "skip_reason": "Article is a brief announcement with no analysis, technical details, implementation insights, or novel frameworks - purely a surface-level press release summary."
+      "skip_reason": "Brief partnership announcement without technical details, implementation specifics, or original analysis of deployment implications."
     },
     "https://openai.com/index/malta-chatgpt-plus-partnership": {
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
@@ -31,24 +31,867 @@
       ],
       "content_type": "landscape",
       "status": "skipped",
-      "skip_reason": "Press release announcement with no analysis, novel insights, or actionable detail beyond a government partnership for consumer AI access."
+      "skip_reason": "Press release announcing a partnership with no analysis, technical details, frameworks, or insights into implementation, economics, or implications beyond surface-level access expansion."
     },
     "https://openai.com/index/databricks": {
       "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
       "source": "OpenAI News",
       "date": "Fri, 15 May 2026 00:00:00 GMT",
-      "composite": 4.0,
+      "composite": 3.67,
       "depth": 2,
-      "novelty": 3,
+      "novelty": 2,
       "relevance": 7,
       "relevant_topics": [
         "agentic-workflows-production",
         "ai-b2b-saas",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Brief announcement with no original analysis, implementation details, or insights beyond a product integration announcement and benchmark mention"
+    },
+    "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/": {
+      "title": "xAI\u2019s Colossus 2 \u2013 First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
+      "source": "SemiAnalysis",
+      "date": "Tue, 16 Sep 2025 17:38:01 +0000",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "lab-dynamics",
+        "funding-and-market-structure",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/": {
+      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
+      "source": "SemiAnalysis",
+      "date": "Wed, 10 Sep 2025 19:57:18 +0000",
+      "composite": 8.67,
+      "depth": 8,
+      "novelty": 8,
+      "relevance": 10,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "inference-efficiency",
+        "semiconductor-supply-chain"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/": {
+      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
+      "source": "SemiAnalysis",
+      "date": "Mon, 08 Sep 2025 09:54:57 +0000",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "semiconductor-supply-chain",
+        "gpu-architecture-training-infra",
+        "regulatory-policy",
+        "lab-dynamics"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon": {
+      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
+      "source": "Import AI (Jack Clark)",
+      "date": "Mon, 18 May 2026 13:31:17 GMT",
+      "composite": 5.67,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 5,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Newsletter-style roundup of loosely connected AI/tech topics with insufficient depth on any single topic; malware analysis piece is off-topic for AI knowledge base, optimizer bug report is moderately technical but incomplete excerpt, no clear mapping to specified enterprise AI or technical AI topics"
+    },
+    "https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth": {
+      "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
+      "source": "Import AI (Jack Clark)",
+      "date": "Mon, 11 May 2026 12:46:12 GMT",
+      "status": "error",
+      "composite": 0
+    },
+    "https://importai.substack.com/p/import-ai-455-automating-ai-research": {
+      "title": "Import AI 455: AI systems are about to start building themselves.",
+      "source": "Import AI (Jack Clark)",
+      "date": "Mon, 04 May 2026 12:32:09 GMT",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents",
+        "lab-dynamics",
+        "regulatory-policy",
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "landscape",
+      "status": "integrated"
+    },
+    "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model": {
+      "title": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "Sat, 16 May 2026 17:00:11 GMT",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "evals-production-deployment",
+        "lab-dynamics",
+        "inference-efficiency"
+      ],
+      "content_type": "landscape",
+      "status": "integrated"
+    },
+    "https://www.interconnects.ai/p/how-open-model-ecosystems-compound": {
+      "title": "How open model ecosystems compound",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "Tue, 12 May 2026 15:54:47 GMT",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics",
+        "funding-and-market-structure",
+        "build-vs-buy-enterprise-ai",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "status": "integrated"
+    },
+    "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs": {
+      "title": "Notes from inside China's AI labs",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "Thu, 07 May 2026 15:42:43 GMT",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 7,
+      "relevant_topics": [
+        "lab-dynamics",
+        "model-architecture",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "landscape",
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything": {
+      "title": "Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose",
+      "source": "Simon Willison",
+      "date": "2026-05-18T14:51:00+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "This is a personal bird-watching blog post with no connection to AI, semiconductors, or enterprise technology topics."
+    },
+    "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything": {
+      "title": "GDS weighs in on the NHS's decision to retreat from Open Source",
+      "source": "Simon Willison",
+      "date": "2026-05-17T15:59:41+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary on a UK government open source policy debate with minimal original analysis, no actionable insights, and tangential AI relevance."
+    },
+    "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything": {
+      "title": "Warelay -> OpenClaw",
+      "source": "Simon Willison",
+      "date": "2026-05-16T20:23:30+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Personal blog post documenting project naming history with no substantive technical content, analysis, or enterprise application relevance."
+    },
+    "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures": {
+      "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+      "source": "Ahead of AI (Raschka)",
+      "date": "Sat, 16 May 2026 11:33:51 GMT",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms": {
+      "title": "My Workflow for Understanding LLM Architectures",
+      "source": "Ahead of AI (Raschka)",
+      "date": "Sat, 18 Apr 2026 11:24:36 GMT",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Surface-level methodological overview without substantive content; actual workflow details are paywalled, leaving only introductory framing about reading config files and code."
+    },
+    "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent": {
+      "title": "Components of A Coding Agent",
+      "source": "Ahead of AI (Raschka)",
+      "date": "Sat, 04 Apr 2026 11:45:37 GMT",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "model-architecture",
+        "inference-time-compute"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/the-fourth-law": {
+      "title": "The Next War Is Already Here. The West Isn't Ready. \u2014 Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+      "source": "Latent Space Podcast",
+      "date": "Mon, 18 May 2026 13:45:32 GMT",
+      "composite": 5.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-operations",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Focuses on autonomous weapons/drone warfare rather than enterprise AI applications or semiconductor/AI infrastructure topics in the knowledge wiki scope"
+    },
+    "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then": {
+      "title": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once",
+      "source": "Latent Space",
+      "date": "Sat, 16 May 2026 04:36:50 GMT",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "inference-efficiency",
+        "funding-and-market-structure",
+        "semiconductor-supply-chain"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level IPO news aggregation from Twitter with minimal technical analysis or original insight; primarily rehashes public financial news and executive quotes without deeper architectural or strategic analysis"
+    },
+    "https://www.latent.space/p/ainews-everything-is-conductor": {
+      "title": "[AINews] Everything is Conductor",
+      "source": "Latent Space",
+      "date": "Fri, 15 May 2026 00:30:21 GMT",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary on product announcements and UI convergence trends without original analysis, data, or actionable insights beyond noting that multiple companies are copying Conductor's form factor."
+    },
+    "https://www.fabricatedknowledge.com/p/mythos-and-engels-pause": {
+      "title": "Engels' Pause and the Permanent Underclass",
+      "source": "Fabricated Knowledge",
+      "date": "Wed, 15 Apr 2026 19:15:28 GMT",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level historical analogy without substantive technical analysis, specific data, or actionable frameworks; draws vague parallels between industrial revolution and AI without rigorous examination of mechanisms or differentiated insights"
+    },
+    "https://www.fabricatedknowledge.com/p/another-conversation-with-val-bercovici": {
+      "title": "Another Conversation with Val Bercovici Memory Markets",
+      "source": "Fabricated Knowledge",
+      "date": "Mon, 16 Feb 2026 17:13:23 GMT",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "inference-efficiency",
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Conversational podcast transcript with surface-level discussion of KV cache and memory markets; lacks original analysis, specific technical depth, or novel data beyond general market observations."
+    },
+    "https://www.fabricatedknowledge.com/p/the-death-of-software-20-a-better": {
+      "title": "The Death of Software 2.0 (A Better Analogy!)",
+      "source": "Fabricated Knowledge",
+      "date": "Fri, 16 Jan 2026 14:26:18 GMT",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-in-product-and-engineering",
+        "ai-b2b-saas"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://lilianweng.github.io/posts/2025-05-01-thinking/": {
+      "title": "Why We Think",
+      "source": "Lilian Weng",
+      "date": "Thu, 01 May 2025 00:00:00 +0000",
+      "composite": 9.0,
+      "depth": 9,
+      "novelty": 8,
+      "relevance": 10,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-time-compute",
+        "inference-efficiency",
+        "prompt-architecture"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/": {
+      "title": "Reward Hacking in Reinforcement Learning",
+      "source": "Lilian Weng",
+      "date": "Thu, 28 Nov 2024 00:00:00 +0000",
+      "composite": 8.67,
+      "depth": 9,
+      "novelty": 7,
+      "relevance": 10,
+      "relevant_topics": [
+        "post-training-rlhf",
+        "model-architecture",
+        "evals-production-deployment",
+        "ai-governance-risk-compliance",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://lilianweng.github.io/posts/2024-07-07-hallucination/": {
+      "title": "Extrinsic Hallucinations in LLMs",
+      "source": "Lilian Weng",
+      "date": "Sun, 07 Jul 2024 00:00:00 +0000",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "rag-vs-finetuning-vs-wiki",
+        "evals-production-deployment",
+        "ai-governance-risk-compliance",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://www.dwarkesh.com/p/the-mistake-of-conflating-intelligence": {
+      "title": "The mistake of conflating intelligence and power",
+      "source": "Dwarkesh Podcast",
+      "date": "Sat, 16 May 2026 19:04:16 GMT",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [
+        "ai-org-design-headcount"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level philosophical discussion about intelligence definitions with minimal actionable insights; weak connection to core AI topics like model capabilities, deployment, or enterprise applications."
+    },
+    "https://www.dwarkesh.com/p/notes-on-pretraining-parallelisms": {
+      "title": "Notes on pretraining parallelisms and failed training runs.",
+      "source": "Dwarkesh Podcast",
+      "date": "Sat, 16 May 2026 19:01:16 GMT",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://www.dwarkesh.com/p/rlvr-might-be-disproportionately": {
+      "title": "RLVR might be disproportionately bad at science",
+      "source": "Dwarkesh Podcast",
+      "date": "Sat, 16 May 2026 19:00:59 GMT",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "post-training-rlhf",
+        "inference-time-compute",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/abridge": {
+      "title": "AI-Native Healthcare: 100M Doctor Visits, 10\u201320 Hours Saved, Prior Auth in Minutes \u2014 Janie Lee & Chai Asawa, Abridge",
+      "source": "Latent Space Podcast",
+      "date": "Thu, 14 May 2026 22:05:31 GMT",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "agentic-workflows-production",
+        "evals-production-deployment",
+        "ai-native-product-design",
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance",
+        "data-moats-proprietary-advantages"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/lupsasca": {
+      "title": "\ud83d\udd2cDoing Vibe Physics \u2014 Alex Lupsasca, OpenAI",
+      "source": "Latent Space Podcast",
+      "date": "Tue, 05 May 2026 20:34:11 GMT",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Surface-level anecdotal coverage of AI capabilities in theoretical physics without substantive technical detail, framework, or direct relevance to specified enterprise/AI engineering topics."
+    },
+    "https://deepmind.google/blog/alphaevolve-impact/": {
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "source": "Google DeepMind",
+      "date": "Wed, 06 May 2026 10:43:49 +0000",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Article contains only navigation menu content without actual article text, making substantive evaluation impossible; appears to be a page template or incomplete scrape."
+    },
+    "https://deepmind.google/blog/ai-co-clinician/": {
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "source": "Google DeepMind",
+      "date": "Thu, 30 Apr 2026 12:14:15 +0000",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Article appears to be only navigation menu content without actual substance about the AI co-clinician system, methodology, results, or implementation details."
+    },
+    "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/": {
+      "title": "Announcing our partnership with the Republic of Korea",
+      "source": "Google DeepMind",
+      "date": "Mon, 27 Apr 2026 07:00:06 +0000",
+      "composite": 2.0,
+      "depth": 1,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "This is a navigation page or incomplete article that contains only menu items and product listings without any substantive content about the Korea partnership announcement."
+    },
+    "https://sequoiacap.com/article/ai-ascent-2026/": {
+      "title": "AI Ascent 2026",
+      "source": "Sequoia",
+      "date": "Fri, 08 May 2026 16:47:31 +0000",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture",
+        "agentic-workflows-production",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Shallow event recap with no substantive analysis, specific data, frameworks, or actionable insights\u2014just high-level themes and speaker names from a conference."
+    },
+    "https://sequoiacap.com/article/standard-intelligence-training-general-intelligence-in-pixel-space/": {
+      "title": "Standard Intelligence: Training General Intelligence in Pixel Space",
+      "source": "Sequoia",
+      "date": "Thu, 30 Apr 2026 14:00:29 +0000",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "This is a venture capital marketing piece announcing a portfolio company investment. While it discusses an interesting technical approach (pixel-based agent training), it provides limited depth on implementation details, benchmarks, or comparative analysis. The article reads as promotional content rather than substantive technical analysis or novel research insights."
+    },
+    "https://sequoiacap.com/article/partnering-with-ineffable-intelligence-a-superlearner-for-the-era-of-experience/": {
+      "title": "Partnering with Ineffable Intelligence: A Superlearner for the Era of Experience",
+      "source": "Sequoia",
+      "date": "Mon, 27 Apr 2026 14:15:11 +0000",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Venture capital announcement with superficial technical discussion; lacks concrete technical details, research findings, or novel frameworks beyond restating known RL concepts and David Silver's past achievements."
+    },
+    "https://openviewpartners.com/blog/how-youtube-5xd-our-activation-rate-2/": {
+      "title": "How Youtube 5x\u2019d our Activation Rate",
+      "source": "OpenView Partners",
+      "date": "2026-05-18T17:34:03.827866+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [
+        "ai-in-marketing-content"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Article appears to be a truncated teaser/stub with no actual content beyond a headline and brief intro about YouTube marketing tactics; lacks substantive information for analysis."
+    },
+    "https://openviewpartners.com/blog/b2b-marketing-in-2024/": {
+      "title": "B2B Marketing in 2024: 8 Trends That Are Changing the Game and What They Mean for Your Business",
+      "source": "OpenView Partners",
+      "date": "2026-05-18T17:34:04.104877+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-marketing-content"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Article appears to be a shallow listicle of generic B2B marketing trends with minimal substantive content provided; lacks depth, original analysis, or actionable insights specific to AI applications in marketing."
+    },
+    "https://openviewpartners.com/blog/usage-based-pricing-playbook-3/": {
+      "title": "Usage-based Pricing Playbook",
+      "source": "OpenView Partners",
+      "date": "2026-05-18T17:34:04.399609+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Appears to be a promotional landing page or abstract for a playbook with no substantive content, analysis, or actionable insights provided in the article text itself."
+    },
+    "https://www.tomtunguz.com/first-derivative-of-inference/": {
+      "title": "The First Derivative of Inference",
+      "source": "Tomasz Tunguz",
+      "date": "Fri, 15 May 2026 00:00:00 +0000",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "inference-efficiency",
+        "ai-b2b-saas",
+        "build-vs-buy-enterprise-ai",
+        "evals-production-deployment"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level market observation with cited earnings data but no original analysis or actionable frameworks; primarily restates the obvious correlation between AI growth and infrastructure revenue without deeper insight into mechanisms or strategic implications."
+    },
+    "https://www.tomtunguz.com/cost-of-ai-email/": {
+      "title": "What Would AI Email Cost?",
+      "source": "Tomasz Tunguz",
+      "date": "Thu, 14 May 2026 00:00:00 +0000",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "inference-efficiency",
+        "ai-pricing-packaging-saas",
         "build-vs-buy-enterprise-ai"
       ],
       "content_type": "enterprise_use_case",
       "status": "skipped",
-      "skip_reason": "Surface-level press release summary with no analysis, implementation details, or insights about the technology, benchmark, or enterprise implications."
+      "skip_reason": "Surface-level cost calculation exercise with basic assumptions and no original analysis; presents widely-known concepts (local inference, model sizing) without new frameworks or data."
+    },
+    "https://www.tomtunguz.com/the-disappearance-of-email/": {
+      "title": "The 6 Messages That Actually Matter",
+      "source": "Tomasz Tunguz",
+      "date": "Wed, 13 May 2026 00:00:00 +0000",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-native-product-design"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level speculation about AI email triage without original analysis, novel frameworks, or technical depth; presents commonly discussed concepts about inbox automation without new data or implementation insights."
+    },
+    "https://www.lennysnewsletter.com/p/how-i-ai-html-is-the-new-markdown": {
+      "title": "\ud83c\udf99\ufe0f How I AI: HTML is the new Markdown: How Anthropic engineers are building with Claude Code",
+      "source": "Lenny's Newsletter",
+      "date": "Mon, 18 May 2026 15:00:52 GMT",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "prompt-architecture",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://www.lennysnewsletter.com/p/html-is-the-new-markdown-how-anthropic": {
+      "title": "HTML is the new Markdown: How Anthropic engineers are building with Claude Code | Thariq Shihipar",
+      "source": "Lenny's Newsletter",
+      "date": "Mon, 18 May 2026 12:02:11 GMT",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "prompt-architecture",
+        "ai-in-product-and-engineering",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the": {
+      "title": "Why we\u2019re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex\u2013OpenAI, Meta, Apple)",
+      "source": "Lenny's Newsletter",
+      "date": "Sun, 17 May 2026 12:31:57 GMT",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 6,
+      "relevant_topics": [
+        "semiconductor-supply-chain",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Podcast transcript offering career retrospective and general hardware commentary rather than substantive technical analysis or novel insights on AI systems; mentions memory price shocks and supply chain but lacks depth on semiconductor supply chain specifics or actionable intelligence."
+    },
+    "https://kylepoyar.substack.com/p/update-ive-moved-from-substack-to": {
+      "title": "Update: I've moved from Substack to beehiiv",
+      "source": "Growth Unhinged (Kyle Poyar)",
+      "date": "Mon, 12 Jan 2026 19:13:56 GMT",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Administrative announcement about newsletter platform migration with no substantive content related to AI, technology infrastructure, or enterprise topics."
+    },
+    "https://kylepoyar.substack.com/p/the-best-growth-tactics-of-2025": {
+      "title": "The best growth tactics of 2025",
+      "source": "Growth Unhinged (Kyle Poyar)",
+      "date": "Wed, 17 Dec 2025 11:50:25 GMT",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-sales-gtm",
+        "ai-in-marketing-content"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level compilation of growth tactics with minimal analysis; mostly lists common GTM experiments without deep insights or novel frameworks"
+    },
+    "https://engineering.fb.com/2026/05/13/ml-applications/reel-friends-building-social-discovery-that-scales-to-billions/": {
+      "title": "Reel Friends: Building Social Discovery that Scales to Billions",
+      "source": "Meta AI / FB Engineering",
+      "date": "Wed, 13 May 2026 13:00:44 +0000",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a podcast announcement about Meta's Friend Bubbles feature for Reels, which shows users which reels their friends have watched and reacted to. The episode discusses the machine learning model, platform differences between iOS and Android, and engineering challenges in scaling the feature. It provides no substantive technical details or insights, serving purely as promotional content for the podcast.",
+      "tags": [
+        "social-recommendation",
+        "friend-discovery",
+        "reels",
+        "meta-engineering",
+        "ml-ranking"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a podcast announcement with no actual technical content, analysis, or substantive information about the feature's implementation, ML approach, or engineering challenges."
+    },
+    "https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/": {
+      "title": "Migrating Data Ingestion Systems at Meta Scale",
+      "source": "Meta AI / FB Engineering",
+      "date": "Tue, 12 May 2026 16:00:57 +0000",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Meta describes migrating their petabyte-scale data ingestion system from customer-owned pipelines to a self-managed warehouse service, processing social graph data from MySQL to power analytics and ML training. The migration used a phased approach with shadow testing, validation criteria (data quality, latency, resource utilization), and rollout controls to transition thousands of jobs. This is a large-scale infrastructure migration case study focused on data engineering practices rather than AI-specific techniques.",
+      "tags": [
+        "data-ingestion",
+        "system-migration",
+        "mysql",
+        "data-warehouse",
+        "social-graph",
+        "shadow-testing"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on general data infrastructure migration at Meta rather than AI/ML systems, architectures, or applications covered in the specified topic areas."
+    },
+    "https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/": {
+      "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable",
+      "source": "Meta AI / FB Engineering",
+      "date": "Mon, 11 May 2026 16:00:55 +0000",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Meta announces Labyrinth 1.1, an updated end-to-end encrypted storage protocol for Messenger that improves backup reliability by allowing messages to be stored in encrypted backups immediately rather than waiting for devices to come online. The system uses a mechanism where senders directly place message encryption keys into recipients' encrypted backups, ensuring messages survive device loss or long offline periods. This represents an incremental improvement to Meta's existing E2EE messaging infrastructure deployed at scale.",
+      "tags": [
+        "end-to-end-encryption",
+        "encrypted-backups",
+        "message-storage",
+        "cryptographic-protocol",
+        "messenger"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement with surface-level technical description; no relevance to specified AI/ML, semiconductor, or business use case topics."
+    },
+    "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex": {
+      "title": "How business operations teams use Codex",
+      "source": "OpenAI News",
+      "date": "Fri, 15 May 2026 00:00:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article claims business operations teams can use Codex to generate various business documents like initiative briefs and strategy updates from work inputs. No specific evidence, mechanisms, or case studies are provided beyond a general assertion of capability. The article appears to be a promotional piece without substantive detail about implementation, results, or novel applications.",
+      "tags": [
+        "codex",
+        "business-operations",
+        "document-generation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional content with no specific evidence, implementation details, case studies, or novel insights about how Codex is actually used in business operations."
+    },
+    "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex": {
+      "title": "How sales teams use Codex",
+      "source": "OpenAI News",
+      "date": "Fri, 15 May 2026 00:00:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-sales-gtm"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article describes how sales teams can apply OpenAI's Codex to generate sales documents including pipeline briefs, meeting prep packets, forecast reviews, account plans, and deal diagnoses. The content appears to be a high-level overview or promotional piece without detailed implementation evidence, specific examples, or quantitative results. It offers minimal actionable insight beyond identifying potential use cases for code-generation models in sales workflows.",
+      "tags": [
+        "codex",
+        "sales-automation",
+        "document-generation",
+        "sales-enablement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional content listing use cases without depth, novel insights, implementation details, or measurable outcomes."
     },
     "https://openai.com/index/personal-finance-chatgpt": {
       "title": "A new personal finance experience in ChatGPT",
@@ -62,721 +905,1119 @@
         "ai-in-finance-accounting"
       ],
       "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Brief product announcement lacking technical details, implementation insights, or substantive analysis of AI application in personal finance."
-    },
-    "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex": {
-      "title": "How data science teams use Codex",
-      "source": "OpenAI News",
-      "date": "Fri, 15 May 2026 00:00:00 GMT",
-      "composite": 3.0,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-in-product-and-engineering"
+      "summary": "OpenAI announces a personal finance experience in ChatGPT Pro for U.S. users that allows secure connection of financial accounts for AI-powered insights. The feature provides guidance based on individual financial context, goals, and priorities. This represents OpenAI's expansion into vertical-specific consumer applications beyond general-purpose chat.",
+      "tags": [
+        "personal-finance",
+        "chatgpt-pro",
+        "financial-account-integration",
+        "vertical-ai-application"
       ],
-      "content_type": "enterprise_use_case",
       "status": "skipped",
-      "skip_reason": "Surface-level promotional content listing use cases without original analysis, implementation details, or meaningful insights into how Codex actually performs these tasks or delivers value."
+      "skip_reason": "Surface-level product announcement with no technical details, implementation specifics, or novel insights about AI application in finance beyond basic feature description."
     },
-    "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex": {
-      "title": "How sales teams use Codex",
-      "source": "OpenAI News",
-      "date": "Fri, 15 May 2026 00:00:00 GMT",
-      "composite": 4.33,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 8,
+    "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/": {
+      "title": "Amazon\u2019s AI Resurgence: AWS & Anthropic\u2019s Multi-Gigawatt Trainium Expansion",
+      "source": "SemiAnalysis",
+      "date": "Wed, 03 Sep 2025 20:55:46 +0000",
+      "composite": 8.67,
+      "depth": 8,
+      "novelty": 8,
+      "relevance": 10,
       "relevant_topics": [
-        "ai-in-sales-gtm"
+        "gpu-architecture-training-infra",
+        "semiconductor-supply-chain",
+        "lab-dynamics",
+        "build-vs-buy-enterprise-ai",
+        "funding-and-market-structure"
       ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Surface-level promotional content listing generic sales use cases without original analysis, implementation details, or novel insights about Codex application in sales workflows."
-    },
-    "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex": {
-      "title": "How business operations teams use Codex",
-      "source": "OpenAI News",
-      "date": "Fri, 15 May 2026 00:00:00 GMT",
-      "composite": 3.0,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-in-operations"
+      "content_type": "landscape",
+      "summary": "The article argues AWS is experiencing an AI resurgence through a multi-gigawatt Anthropic partnership centered on Trainium2 custom silicon, reversing earlier momentum losses to Azure and Google Cloud. Key evidence includes proprietary satellite-based datacenter tracking showing over a gigawatt of AWS capacity under construction, Anthropic's 5x revenue growth to $5B annualized, and Trainium2's memory bandwidth advantages for reinforcement learning workloads. This matters because it positions Anthropic alongside Google DeepMind as the only AI labs with tight hardware-software co-design, potentially reshaping competitive dynamics in both cloud infrastructure and frontier model development.",
+      "tags": [
+        "trainium2",
+        "anthropic",
+        "aws-infrastructure",
+        "custom-silicon",
+        "reinforcement-learning",
+        "datacenter-capacity",
+        "hardware-software-codesign"
       ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Surface-level marketing content describing generic business operations use cases without original analysis, specific implementation details, or novel frameworks."
+      "status": "integrated"
     },
-    "https://openai.com/index/sea-david-chen": {
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "source": "OpenAI News",
-      "date": "Thu, 14 May 2026 20:30:00 GMT",
-      "composite": 2.67,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 4,
+    "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/": {
+      "title": "H100 vs GB200 NVL72 Training Benchmarks \u2013 Power, TCO, and Reliability Analysis, Software Improvement Over Time",
+      "source": "SemiAnalysis",
+      "date": "Wed, 20 Aug 2025 04:56:35 +0000",
+      "composite": 8.67,
+      "depth": 8,
+      "novelty": 8,
+      "relevance": 10,
       "relevant_topics": [
-        "ai-engineering-agents",
-        "ai-in-product-and-engineering"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Superficial promotional content with no substantive details on implementation, outcomes, or frameworks; appears to be a brief case study teaser without original analysis or data."
-    },
-    "https://openai.com/index/work-with-codex-from-anywhere": {
-      "title": "Work with Codex from anywhere",
-      "source": "OpenAI News",
-      "date": "Thu, 14 May 2026 13:00:00 GMT",
-      "composite": 2.67,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-engineering-agents",
-        "ai-in-product-and-engineering"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Brief product announcement with no substantive technical details, implementation guidance, or novel insights about coding assistants or agentic workflows."
-    },
-    "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations": {
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "source": "OpenAI News",
-      "date": "Thu, 14 May 2026 00:00:00 GMT",
-      "composite": 3.33,
-      "depth": 3,
-      "novelty": 3,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-governance-risk-compliance"
+        "gpu-architecture-training-infra",
+        "semiconductor-supply-chain"
       ],
       "content_type": "technical",
-      "status": "skipped",
-      "skip_reason": "Surface-level product announcement about safety features without technical details, novel frameworks, or actionable insights for enterprise implementation."
+      "summary": "This article presents detailed benchmarking data comparing H100 and GB200 NVL72 GPUs for frontier model training, measuring model flops utilization (MFU), total cost of ownership (TCO), energy per token, and reliability across clusters of up to 2,048 GPUs. The analysis reveals that GB200 NVL72's performance advantages are currently undermined by significant reliability issues and immature software, with no large-scale training runs yet completed successfully, while H100/H200 and Google TPUs remain the only proven options for frontier-scale training. The findings matter because they challenge Nvidia's marketing narratives and provide operators with realistic expectations for hardware selection, showing that new architectures require substantial ecosystem maturation time before delivering on theoretical performance promises.",
+      "tags": [
+        "h100-benchmark",
+        "gb200-nvl72",
+        "model-flops-utilization",
+        "training-tco",
+        "gpu-reliability",
+        "energy-per-token",
+        "frontier-model-training",
+        "cluster-scaling"
+      ],
+      "status": "integrated"
     },
-    "https://openai.com/index/building-codex-windows-sandbox": {
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "source": "OpenAI News",
-      "date": "Wed, 13 May 2026 11:00:00 GMT",
+    "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/": {
+      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
+      "source": "SemiAnalysis",
+      "date": "Wed, 13 Aug 2025 00:27:14 +0000",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-pricing-packaging-saas",
+        "ai-native-product-design",
+        "model-architecture",
+        "inference-time-compute",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that GPT-5's real innovation is not model capabilities but a router system designed to monetize ChatGPT's 700M+ free users through ad-based revenue, positioning ChatGPT as a SuperApp. The key evidence includes the router's ability to dynamically allocate queries between model tiers based on complexity and commercial value, plus OpenAI's hiring of Facebook monetization expert Fidji Simo as CEO of Applications. This matters because it represents a strategic shift from subscription-only to ad-supported monetization, directly challenging Google's search ad business by capturing high-intent purchasing queries.",
+      "tags": [
+        "router-architecture",
+        "ad-monetization",
+        "free-user-monetization",
+        "chain-of-thought-routing",
+        "query-commercial-value",
+        "superapp-strategy"
+      ],
+      "status": "integrated"
+    },
+    "https://importai.substack.com/p/import-ai-454-automating-alignment": {
+      "title": "Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4",
+      "source": "Import AI (Jack Clark)",
+      "date": "Mon, 20 Apr 2026 12:30:19 GMT",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "inference-efficiency",
+        "model-architecture",
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "technical",
+      "summary": "The article reports on three developments: Huawei's HiFloat4 4-bit precision format outperforming Western MXFP4 on Ascend chips with ~1% vs ~1.5% relative loss, Anthropic's demonstration of automated AI safety research where Claude agents outperform human researchers on weak-to-strong supervision tasks, and a safety study of a Chinese model. The key evidence includes systematic benchmarking across OpenPangu-1B, Llama3-8B, and Qwen3-MoE-30B models showing HiFloat4's superior performance, and successful automation of research workflows from hypothesis generation through experimentation. This matters because it shows how export controls may be driving Chinese innovation in training efficiency and provides early evidence that AI research itself can be automated, potentially accelerating both capability development and safety research.",
+      "tags": [
+        "low-precision-training",
+        "hifloat4",
+        "ascend-npu",
+        "export-controls",
+        "automated-research",
+        "weak-to-strong-supervision",
+        "anthropic"
+      ],
+      "status": "integrated"
+    },
+    "https://importai.substack.com/p/import-ai-453-breaking-ai-agents": {
+      "title": "Import AI 453: Breaking AI agents; MirrorCode; and ten views on gradual disempowerment",
+      "source": "Import AI (Jack Clark)",
+      "date": "Mon, 13 Apr 2026 10:02:22 GMT",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "evals-production-deployment",
+        "agentic-workflows-production",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on MirrorCode, a benchmark showing AI systems can autonomously reverse-engineer and reimplement complex software with thousands of lines of code, with Claude Opus 4.6 successfully reimplementing a 16,000-line bioinformatics toolkit. The key evidence is that models can achieve tasks estimated to take human engineers 2-17 weeks, with performance scaling with inference compute. This matters because it demonstrates AI systems have already reached sophistication levels comparable to full-time software engineers on certain long-horizon coding tasks, suggesting AI capabilities may be advancing faster than widely understood.",
+      "tags": [
+        "autonomous-coding",
+        "reverse-engineering",
+        "inference-scaling",
+        "long-horizon-tasks",
+        "metr-evals",
+        "code-reimplementation"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar": {
+      "title": "Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting",
+      "source": "Import AI (Jack Clark)",
+      "date": "Mon, 06 Apr 2026 12:31:31 GMT",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "evals-production-deployment",
+        "ai-governance-risk-compliance",
+        "regulatory-policy",
+        "lab-dynamics",
+        "build-vs-buy-enterprise-ai",
+        "ai-in-operations"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on two key findings: (1) Lyptus Research demonstrates a scaling law for AI-enabled cyberattacks, showing frontier models can now complete 50% of offensive security tasks that take human experts 3.2 hours, with capability doubling every 5.7-9.8 months, and (2) a field experiment with 515 startups shows that those taught to integrate AI across business functions discovered 44% more use cases and generated 1.9x higher revenue. The evidence includes systematic benchmarking across seven cybersecurity datasets spanning models from GPT-2 to GPT-5.3 Codex, and a randomized controlled trial with startup accelerator participants. This matters because it quantifies both the dual-use risk trajectory of increasingly capable AI systems and provides empirical evidence for AI's measurable business impact when strategically adopted.",
+      "tags": [
+        "scaling-laws",
+        "cybersecurity",
+        "offensive-capabilities",
+        "dual-use",
+        "startup-adoption",
+        "ai-integration",
+        "benchmark-evals",
+        "frontier-models"
+      ],
+      "status": "integrated"
+    },
+    "https://www.interconnects.ai/p/the-distillation-panic": {
+      "title": "The distillation panic",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "Mon, 04 May 2026 15:56:44 GMT",
       "composite": 7.0,
       "depth": 7,
       "novelty": 6,
       "relevance": 8,
       "relevant_topics": [
-        "ai-engineering-agents",
-        "agentic-workflows-production",
-        "ai-governance-risk-compliance"
+        "model-architecture",
+        "post-training-rlhf",
+        "regulatory-policy",
+        "lab-dynamics",
+        "build-vs-buy-enterprise-ai"
       ],
-      "content_type": "technical",
+      "content_type": "landscape",
+      "summary": "The article argues that referring to unauthorized model training as 'distillation attacks' conflates legitimate distillation techniques (widely used for post-training and model compression) with illicit API abuse, potentially stigmatizing a core AI development method. Lambert explains that distillation encompasses multiple legitimate uses including data generation for post-training, skill transfer, and creating smaller specialized models, while actual problematic behavior involves jailbreaking or API manipulation. This framing matters because imprecise terminology could lead to policy overreach that restricts beneficial research and development techniques used throughout the industry.",
+      "tags": [
+        "distillation",
+        "model-compression",
+        "synthetic-data",
+        "api-abuse",
+        "teacher-student-learning",
+        "post-training"
+      ],
       "status": "integrated"
     },
-    "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack": {
-      "title": "Our response to the TanStack npm supply chain attack",
-      "source": "OpenAI News",
-      "date": "Wed, 13 May 2026 00:00:00 GMT",
-      "composite": 2.67,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 3,
-      "relevant_topics": [
-        "ai-governance-risk-compliance"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Incident response announcement with minimal depth; focuses on a specific security event rather than providing analysis, frameworks, or insights applicable to AI systems or enterprise deployment"
-    },
-    "https://openai.com/academy/how-finance-teams-use-codex": {
-      "title": "How finance teams use Codex",
-      "source": "OpenAI News",
-      "date": "Tue, 12 May 2026 15:00:00 GMT",
-      "composite": 4.0,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 7,
-      "relevant_topics": [
-        "ai-in-finance-accounting",
-        "ai-engineering-agents"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Minimal content with only a single-sentence description of use cases; lacks depth, analysis, or novel insights about Codex implementation in finance teams."
-    },
-    "https://openai.com/index/what-parameter-golf-taught-us": {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "source": "OpenAI News",
-      "date": "Tue, 12 May 2026 00:00:00 GMT",
-      "composite": 4.33,
-      "depth": 4,
-      "novelty": 3,
-      "relevance": 6,
+    "https://www.interconnects.ai/p/reading-todays-open-closed-performance": {
+      "title": "Reading today's open-closed performance gap",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "Mon, 20 Apr 2026 18:25:02 GMT",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
       "relevant_topics": [
         "model-architecture",
-        "ai-engineering-agents"
+        "evals-production-deployment",
+        "lab-dynamics",
+        "data-moats-proprietary-advantages"
       ],
       "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "Surface-level announcement of competition results without substantive technical insights, novel findings, or actionable frameworks from the 2,000+ submissions."
-    },
-    "https://openai.com/index/nvidia": {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "source": "OpenAI News",
-      "date": "Tue, 12 May 2026 00:00:00 GMT",
-      "composite": 3.0,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-engineering-agents",
-        "ai-in-product-and-engineering"
+      "summary": "The article argues that the open vs. closed model performance gap is more nuanced than a single benchmark number suggests, with the focus of model capabilities shifting every 12-18 months from chat/math to coding to specialized knowledge work. It provides evidence through the evolution of training paradigms (instruction tuning to RLHF to RLVR) and the observation that benchmarks like Artificial Analysis Intelligence Index mask which specific capabilities are being optimized. This matters because open models will increasingly struggle to catch up in newer specialized domains that require expensive, proprietary training data and evaluation environments, creating data moats similar to semiconductor fab dynamics.",
+      "tags": [
+        "open-vs-closed-models",
+        "benchmark-evolution",
+        "rlvr",
+        "post-training",
+        "agentic-tasks",
+        "data-moats"
       ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Extremely brief marketing snippet lacking substance, concrete examples, technical details, or meaningful insights about implementation or outcomes."
+      "status": "integrated"
     },
-    "https://openai.com/index/autoscout24": {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "source": "OpenAI News",
-      "date": "Tue, 12 May 2026 00:00:00 GMT",
-      "composite": 3.33,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 5,
+    "https://www.interconnects.ai/p/my-bets-on-open-models-mid-2026": {
+      "title": "My bets on open models, mid-2026",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "Wed, 15 Apr 2026 18:20:00 GMT",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
       "relevant_topics": [
-        "ai-in-product-and-engineering",
-        "ai-engineering-agents"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Surface-level case study announcement with no specific technical details, implementation insights, or quantitative results about how AutoScout24 uses AI in engineering workflows."
-    },
-    "https://openai.com/signals/research/2026q1-update": {
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "source": "OpenAI News",
-      "date": "Mon, 11 May 2026 15:00:00 GMT",
-      "composite": 3.0,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-in-product-and-engineering"
-      ],
-      "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "Surface-level announcement of user demographic trends without substantive analysis, frameworks, or actionable insights for enterprise AI strategy or technical implementation."
-    },
-    "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai": {
-      "title": "How enterprises are scaling AI",
-      "source": "OpenAI News",
-      "date": "Mon, 11 May 2026 10:00:00 GMT",
-      "composite": 4.0,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 7,
-      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics",
+        "funding-and-market-structure",
         "build-vs-buy-enterprise-ai",
-        "ai-governance-risk-compliance",
-        "ai-org-design-headcount",
-        "agentic-workflows-production"
+        "regulatory-policy"
       ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Surface-level marketing content from OpenAI with generic statements about enterprise AI scaling lacking specific frameworks, data, or novel insights beyond widely-known concepts like trust and governance."
+      "content_type": "landscape",
+      "summary": "Lambert argues that open models will not fully catch up to closed models across all dimensions, with the capability gap being driven by economic staying power, funding dynamics (especially for Chinese labs), and hard-to-measure qualities like robustness that favor closed models. He presents evidence that while open models excel at benchmark performance through fast-following and distillation, closed models maintain advantages in real-world robustness and RL-driven agent capabilities tied to actual user workflows. This matters because it suggests a bifurcated market where open models serve certain use cases but closed models dominate knowledge worker assistance and enterprise deployment requiring reliability.",
+      "tags": [
+        "open-models",
+        "capability-gap",
+        "model-distillation",
+        "benchmark-performance",
+        "chinese-ai-labs",
+        "rl-training",
+        "fast-following"
+      ],
+      "status": "integrated"
     },
-    "https://openai.com/index/openai-campus-network-student-club-interest-form": {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "source": "OpenAI News",
-      "date": "Mon, 11 May 2026 10:00:00 GMT",
+    "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything": {
+      "title": "Quoting Julia Evans",
+      "source": "Simon Willison",
+      "date": "2026-05-16T16:45:37+00:00",
       "composite": 1.67,
-      "depth": 1,
+      "depth": 2,
       "novelty": 2,
-      "relevance": 2,
+      "relevance": 1,
       "relevant_topics": [],
       "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "This is a promotional announcement for a student club program with no substantive content about AI technology, implementation, or business applications."
-    },
-    "https://openai.com/index/openai-launches-the-deployment-company": {
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "source": "OpenAI News",
-      "date": "Mon, 11 May 2026 06:00:00 GMT",
-      "composite": 3.67,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 6,
-      "relevant_topics": [
-        "build-vs-buy-enterprise-ai",
-        "ai-org-design-headcount"
+      "summary": "Julia Evans reflects on learning to respect CSS as a technology after initially finding it frustrating, noting that many perceived difficulties (like centering) have been solved and CSS is hard because it solves genuinely hard problems. The quote advocates for taking CSS seriously rather than dismissing it as difficult. This is a brief personal reflection on web development practices with no connection to AI, enterprise systems, or related technologies.",
+      "tags": [
+        "css",
+        "web-development",
+        "frontend-engineering"
       ],
-      "content_type": "enterprise_use_case",
       "status": "skipped",
-      "skip_reason": "Brief announcement with no substantive details about deployment methodologies, specific capabilities, pricing, or differentiation from existing enterprise AI consulting offerings."
+      "skip_reason": "This is a brief quote about CSS/web development with no relevance to AI, semiconductors, enterprise AI deployment, or any of the specified topic areas."
     },
-    "https://openai.com/index/running-codex-safely": {
-      "title": "Running Codex safely at OpenAI",
-      "source": "OpenAI News",
-      "date": "Fri, 08 May 2026 12:30:00 GMT",
-      "composite": 3.0,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-governance-risk-compliance",
-        "evals-production-deployment"
-      ],
-      "content_type": "technical",
-      "status": "skipped",
-      "skip_reason": "Surface-level overview of security practices without substantive technical detail, implementation specifics, or novel insights into production deployment of coding agents."
-    },
-    "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber": {
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "source": "OpenAI News",
-      "date": "Thu, 07 May 2026 13:00:00 GMT",
-      "composite": 3.0,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 4,
-      "relevant_topics": [
-        "regulatory-policy",
-        "ai-governance-risk-compliance"
-      ],
-      "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "Brief announcement with no technical details, analysis, or implementation insights; lacks depth on model capabilities, access criteria, or practical applications for cybersecurity use cases."
-    },
-    "https://openai.com/index/parloa": {
-      "title": "Parloa builds service agents customers want to talk to",
-      "source": "OpenAI News",
-      "date": "Thu, 07 May 2026 11:00:00 GMT",
-      "composite": 4.0,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 7,
-      "relevant_topics": [
-        "ai-in-customer-success-support",
-        "agentic-workflows-production"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Shallow promotional content describing a vendor use case without original analysis, specific implementation details, novel frameworks, or substantive technical/business insights."
-    },
-    "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api": {
-      "title": "Advancing voice intelligence with new models in the API",
-      "source": "OpenAI News",
-      "date": "Thu, 07 May 2026 10:00:00 GMT",
-      "composite": 4.33,
-      "depth": 3,
-      "novelty": 4,
-      "relevance": 6,
-      "relevant_topics": [
-        "model-architecture",
-        "multimodal-models"
-      ],
-      "content_type": "technical",
-      "status": "skipped",
-      "skip_reason": "Surface-level product announcement without technical depth, implementation details, or novel insights beyond basic capability listing."
-    },
-    "https://openai.com/index/introducing-trusted-contact-in-chatgpt": {
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "source": "OpenAI News",
-      "date": "Thu, 07 May 2026 00:00:00 GMT",
-      "composite": 2.67,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 3,
-      "relevant_topics": [
-        "ai-governance-risk-compliance"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Brief product announcement with minimal technical detail or strategic insight; lacks depth on implementation, effectiveness data, or broader implications for AI safety governance."
-    },
-    "https://openai.com/index/testing-ads-in-chatgpt": {
-      "title": "Testing ads in ChatGPT",
-      "source": "OpenAI News",
-      "date": "Thu, 07 May 2026 00:00:00 GMT",
-      "composite": 3.0,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-pricing-packaging-saas",
-        "ai-native-product-design"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Brief announcement with no analysis, implementation details, or business model insights beyond surface-level advertising introduction."
-    },
-    "https://openai.com/index/simplex": {
-      "title": "Simplex rethinks software development with Codex",
-      "source": "OpenAI News",
-      "date": "Thu, 07 May 2026 00:00:00 GMT",
-      "composite": 2.67,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-engineering-agents",
-        "ai-in-product-and-engineering"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Superficial marketing announcement with no specific details about implementation, results, or frameworks; lacks concrete data or novel insights about AI-driven software development workflows."
-    },
-    "https://openai.com/index/how-chatgpt-protects-privacy": {
-      "title": "How ChatGPT learns about the world while protecting privacy",
-      "source": "OpenAI News",
-      "date": "Wed, 06 May 2026 08:00:00 GMT",
-      "composite": 2.33,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 3,
-      "relevant_topics": [
-        "ai-governance-risk-compliance"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Marketing-focused summary of privacy features without technical depth, novel insights, or substantive analysis of implementation details or trade-offs."
-    },
-    "https://openai.com/index/introducing-b2b-signals": {
-      "title": "How frontier firms are pulling ahead",
-      "source": "OpenAI News",
-      "date": "Wed, 06 May 2026 00:00:00 GMT",
-      "composite": 3.67,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 6,
-      "relevant_topics": [
-        "agentic-workflows-production",
-        "build-vs-buy-enterprise-ai",
-        "ai-b2b-saas"
-      ],
-      "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "Appears to be promotional summary lacking substantive analysis, specific data, frameworks, or actionable insights about enterprise AI adoption patterns."
-    },
-    "https://openai.com/index/singular-bank": {
-      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-      "source": "OpenAI News",
-      "date": "Wed, 06 May 2026 00:00:00 GMT",
-      "composite": 4.0,
-      "depth": 3,
-      "novelty": 2,
-      "relevance": 7,
-      "relevant_topics": [
-        "ai-in-finance-accounting",
-        "ai-wealth-management-advisory"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Surface-level case study with no technical detail, implementation insights, or novel frameworks\u2014just a brief productivity claim without substantive analysis."
-    },
-    "https://openai.com/index/uber": {
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "source": "OpenAI News",
-      "date": "Wed, 06 May 2026 00:00:00 GMT",
-      "composite": 3.0,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 5,
-      "relevant_topics": [
-        "ai-in-product-and-engineering",
-        "ai-in-operations"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Extremely shallow marketing announcement with no technical details, implementation specifics, business metrics, or insights about how the AI features actually work or their impact."
-    },
-    "https://openai.com/index/introducing-chatgpt-futures-class-of-2026": {
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "source": "OpenAI News",
-      "date": "Wed, 06 May 2026 00:00:00 GMT",
-      "composite": 2.33,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 3,
-      "relevant_topics": [],
-      "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "Promotional announcement about a student program with no substantive technical details, use case analysis, or insights into AI implementation or strategy."
-    },
-    "https://openai.com/index/mrc-supercomputer-networking": {
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "source": "OpenAI News",
-      "date": "Tue, 05 May 2026 10:00:00 GMT",
-      "composite": 4.67,
-      "depth": 3,
-      "novelty": 4,
-      "relevance": 7,
-      "relevant_topics": [
-        "gpu-architecture-training-infra"
-      ],
-      "content_type": "technical",
-      "status": "skipped",
-      "skip_reason": "Brief announcement with minimal technical detail or analysis; lacks depth on protocol design, implementation specifics, or comparative performance data that would make it actionable knowledge"
-    },
-    "https://openai.com/index/gpt-5-5-instant-system-card": {
-      "title": "GPT-5.5 Instant System Card",
-      "source": "OpenAI News",
-      "date": "Tue, 05 May 2026 10:00:00 GMT",
+    "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything": {
+      "title": "inaturalist-clumper 0.1",
+      "source": "Simon Willison",
+      "date": "2026-05-15T23:53:11+00:00",
       "composite": 1.67,
       "depth": 2,
       "novelty": 2,
       "relevance": 1,
       "relevant_topics": [],
       "content_type": "technical",
-      "status": "skipped",
-      "skip_reason": "Article appears to be just a title/header with no actual content, analysis, or information about GPT-5.5 Instant's capabilities, safety evaluations, or system design."
-    },
-    "https://openai.com/index/gpt-5-5-instant": {
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "source": "OpenAI News",
-      "date": "Tue, 05 May 2026 10:00:00 GMT",
-      "composite": 2.67,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 4,
-      "relevant_topics": [
-        "model-architecture"
+      "summary": "This is a brief release announcement for inaturalist-clumper 0.1, a tool that groups iNaturalist wildlife sightings into geographic or temporal clumps for blog publishing. The author mentions using it in production for a few weeks and provides a link to example JSON output. This is a personal infrastructure tool with no connection to AI, enterprise software, or any covered topic areas.",
+      "tags": [
+        "inaturalist",
+        "data-clustering",
+        "personal-tooling",
+        "open-source-release"
       ],
-      "content_type": "technical",
       "status": "skipped",
-      "skip_reason": "Extremely brief product announcement with no technical details, analysis, or substantive information beyond basic feature claims."
+      "skip_reason": "Personal hobby project for wildlife sighting organization with no relevance to AI, semiconductor, or enterprise technology topics."
     },
-    "https://openai.com/index/advancing-youth-safety-in-emea": {
-      "title": "Advancing youth safety and wellbeing in EMEA",
-      "source": "OpenAI News",
-      "date": "Tue, 05 May 2026 00:00:00 GMT",
-      "composite": 2.0,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 2,
+    "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything": {
+      "title": "Western Gull, Rock Pigeon",
+      "source": "Simon Willison",
+      "date": "2026-05-15T14:42:00+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
       "relevant_topics": [],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Corporate social responsibility announcement about youth safety grants and policies, not substantive technical or business AI content relevant to specified topics."
-    },
-    "https://openai.com/index/new-ways-to-buy-chatgpt-ads": {
-      "title": "New ways to buy ChatGPT ads",
-      "source": "OpenAI News",
-      "date": "Tue, 05 May 2026 00:00:00 GMT",
-      "composite": 3.0,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-pricing-packaging-saas",
-        "ai-in-marketing-content"
+      "content_type": "landscape",
+      "summary": "This is a personal blog post about bird watching before a PyCon conference, documenting sightings of a Western Gull and Rock Pigeon. The post contains no technical content, research, or analysis\u2014just a casual observation about seeing a seagull near a Starbucks. It has no relevance to AI, semiconductors, enterprise technology, or any of the specified topic areas.",
+      "tags": [
+        "bird-watching",
+        "pycon",
+        "personal-blog"
       ],
-      "content_type": "enterprise_use_case",
       "status": "skipped",
-      "skip_reason": "Surface-level product announcement about advertising features with no substantive analysis, technical details, or strategic insights into AI business models or implementation."
+      "skip_reason": "Personal blog post about bird watching with no connection to AI, semiconductors, enterprise technology, or any specified topic area of interest."
     },
-    "https://openai.com/index/openai-pwc-finance-collaboration": {
-      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
-      "source": "OpenAI News",
-      "date": "Mon, 04 May 2026 21:00:00 GMT",
-      "composite": 4.0,
-      "depth": 2,
-      "novelty": 2,
+    "https://magazine.sebastianraschka.com/p/visual-attention-variants": {
+      "title": "A Visual Guide to Attention Variants in Modern LLMs",
+      "source": "Ahead of AI (Raschka)",
+      "date": "Sun, 22 Mar 2026 11:55:40 GMT",
+      "composite": 6.67,
+      "depth": 7,
+      "novelty": 5,
       "relevance": 8,
       "relevant_topics": [
-        "ai-in-finance-accounting",
-        "build-vs-buy-enterprise-ai",
+        "model-architecture",
+        "inference-efficiency"
+      ],
+      "content_type": "technical",
+      "summary": "This article provides a visual guide cataloging modern attention mechanism variants used in large language models, from multi-head attention (MHA) to grouped-query attention (GQA), multi-latent attention (MLA), and sparse attention patterns. The author presents 45 LLM architectures with visual model cards showing how each architecture implements attention, drawing from examples like GPT-2, OLMo, and anticipated DeepSeek V4. This matters as a comprehensive reference resource for understanding the architectural choices that impact inference efficiency and model performance across contemporary LLMs.",
+      "tags": [
+        "multi-head-attention",
+        "grouped-query-attention",
+        "sparse-attention",
+        "attention-mechanisms",
+        "llm-architecture",
+        "inference-efficiency"
+      ],
+      "status": "integrated"
+    },
+    "https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight": {
+      "title": "A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026",
+      "source": "Ahead of AI (Raschka)",
+      "date": "Wed, 25 Feb 2026 13:26:56 GMT",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics"
+      ],
+      "content_type": "technical",
+      "summary": "This article surveys 10 open-weight LLM releases from January-February 2026, comparing their architectural innovations including mixture-of-experts designs, sliding window attention patterns, and gating mechanisms. The author provides detailed technical comparisons focusing on architectural components like QK-Norm, multi-head latent attention, local vs global attention ratios, and parameter counts across models ranging from 3B to 400B parameters. This matters as a comprehensive reference for understanding the current state of open-weight model architecture evolution and the diverse approaches different labs are taking to improve efficiency and performance.",
+      "tags": [
+        "mixture-of-experts",
+        "sliding-window-attention",
+        "qk-norm",
+        "open-weight-models",
+        "model-architecture-comparison",
+        "gated-attention"
+      ],
+      "status": "integrated"
+    },
+    "https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling": {
+      "title": "Categories of Inference-Time Scaling for Improved LLM Reasoning",
+      "source": "Ahead of AI (Raschka)",
+      "date": "Sat, 24 Jan 2026 11:23:18 GMT",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "inference-time-compute",
+        "model-architecture",
+        "inference-efficiency"
+      ],
+      "content_type": "technical",
+      "summary": "This article categorizes inference-time scaling techniques for LLMs, covering methods like chain-of-thought prompting, self-consistency, best-of-N ranking, rejection sampling, self-refinement, and search over solution paths. The author provides practical experimental results showing accuracy improvements from ~15% to ~52% through these techniques, drawing from work developing a book chapter with thousands of experimental runs. The piece synthesizes recent academic literature and proprietary approaches into a taxonomy of inference-scaling methods that trade compute for improved reasoning accuracy.",
+      "tags": [
+        "inference-time-scaling",
+        "chain-of-thought",
+        "self-consistency",
+        "best-of-n-sampling",
+        "rejection-sampling",
+        "self-refinement",
+        "reasoning-models"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/ainews-codex-rises-claude-meters": {
+      "title": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
+      "source": "Latent Space",
+      "date": "Thu, 14 May 2026 03:53:26 GMT",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-pricing-packaging-saas",
+        "ai-engineering-agents",
         "agentic-workflows-production"
       ],
-      "content_type": "enterprise_use_case",
+      "content_type": "landscape",
+      "summary": "The article reports on shifting competitive dynamics between OpenAI's Codex and Anthropic's Claude, particularly around pricing changes where Claude now meters programmatic API usage by giving subscription holders API credits equal to their subscription cost. This represents a strategic shift where Anthropic is ending its historical pricing subsidy for third-party harnesses and favoring its own Claude Code platform, while OpenAI's Codex gains developer sentiment through more generous limits. The pricing changes matter as they reflect both companies' attempts to optimize monetization while competing for developer mindshare in the coding agent market.",
+      "tags": [
+        "claude-api-pricing",
+        "codex-agent",
+        "coding-agents",
+        "api-metering",
+        "third-party-harnesses",
+        "developer-tooling"
+      ],
       "status": "skipped",
-      "skip_reason": "Press release announcement with no technical details, implementation specifics, or original analysis of how AI agents will transform CFO workflows."
+      "skip_reason": "Surface-level competitive landscape reporting with limited technical depth or novel insights; primarily summarizes pricing policy changes and developer sentiment shifts without substantive analysis of underlying technology or business implications."
     },
-    "https://openai.com/index/delivering-low-latency-voice-ai-at-scale": {
-      "title": "How OpenAI delivers low-latency voice AI at scale",
-      "source": "OpenAI News",
-      "date": "Mon, 04 May 2026 00:00:00 GMT",
+    "https://www.latent.space/p/ainews-the-end-of-finetuning": {
+      "title": "[AINews] The End of Finetuning",
+      "source": "Latent Space",
+      "date": "Wed, 13 May 2026 02:47:22 GMT",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "rag-vs-finetuning-vs-wiki",
+        "model-architecture",
+        "inference-efficiency",
+        "ai-engineering-agents",
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on OpenAI's deprecation of finetuning APIs and argues this signals a broader industry shift away from finetuning for most AI engineering use cases, though top-tier applications continue to use it heavily. The key evidence includes OpenAI's API shutdown, contrasting behavior between the \"bottom 99%\" moving to long prompts and the \"top 1%\" (Cursor, Cognition) increasing finetuning usage, and historical predictions from Jeremy Howard in 2023. This matters because it reveals a bifurcation in AI engineering practices where the modal approach is diverging from cutting-edge techniques, with implications for compute allocation, product strategy, and the build-vs-buy decision in enterprise AI.",
+      "tags": [
+        "finetuning-deprecation",
+        "prompt-engineering",
+        "rlft",
+        "open-models",
+        "compute-constraints",
+        "p-d-disaggregation"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.latent.space/p/ainews-thinking-machines-native-interaction": {
+      "title": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+      "source": "Latent Space",
+      "date": "Tue, 12 May 2026 04:33:46 GMT",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "multimodal-models",
+        "inference-efficiency",
+        "ai-native-product-design"
+      ],
+      "content_type": "technical",
+      "summary": "Thinking Machines released TML-Interaction-Small, a 276B parameter MoE model with 12B active parameters that treats real-time multimodal interaction as a first-class capability rather than layering speech/vision onto turn-based LLMs. The model uses encoder-free early fusion to process audio and images in under 200ms 'microturns', introduces new benchmarks for time awareness and proactive visual responses, and demonstrates full-duplex continuous interaction that handles interruptions, simultaneous speech, and background tool use without explicit mode boundaries. This represents a fundamental architectural shift from retrofitting conversational capabilities onto text models to training interaction as the native paradigm, potentially obsoleting voice activity detection and turn-taking systems.",
+      "tags": [
+        "realtime-voice",
+        "mixture-of-experts",
+        "full-duplex-interaction",
+        "encoder-free-early-fusion",
+        "multimodal-fusion",
+        "voice-activity-detection"
+      ],
+      "status": "integrated"
+    },
+    "https://www.dwarkesh.com/p/eric-jang": {
+      "title": "Eric Jang \u2013 Building AlphaGo from scratch",
+      "source": "Dwarkesh Podcast",
+      "date": "Fri, 15 May 2026 16:04:58 GMT",
       "composite": 8.0,
       "depth": 8,
       "novelty": 7,
       "relevance": 9,
       "relevant_topics": [
-        "inference-efficiency",
         "model-architecture",
-        "ai-in-product-and-engineering"
+        "post-training-rlhf",
+        "inference-time-compute",
+        "ai-engineering-agents"
       ],
       "content_type": "technical",
+      "summary": "The podcast explores how AlphaGo's architecture\u2014combining Monte Carlo Tree Search with neural networks and self-play\u2014provides fundamental insights into building more capable AI systems, particularly addressing the credit assignment problem that plagues current RL approaches in LLMs. The discussion contrasts AlphaGo's MCTS approach, which provides clear training targets at every step, with naive policy gradient methods in LLMs that struggle to attribute success across 100k+ token trajectories. The conversation extends to automated AI research capabilities, identifying that while LLMs can implement experiments and optimize hyperparameters, they still struggle with choosing research directions and escaping dead ends\u2014insights directly relevant to intelligence explosion timelines.",
+      "tags": [
+        "alphago",
+        "monte-carlo-tree-search",
+        "reinforcement-learning",
+        "credit-assignment-problem",
+        "self-play",
+        "policy-gradient",
+        "ai-research-automation",
+        "mcts",
+        "off-policy-training"
+      ],
       "status": "integrated"
     },
-    "https://openai.com/index/advanced-account-security": {
-      "title": "Introducing Advanced Account Security",
-      "source": "OpenAI News",
-      "date": "Thu, 30 Apr 2026 00:00:00 GMT",
-      "composite": 2.0,
-      "depth": 2,
-      "novelty": 1,
-      "relevance": 3,
-      "relevant_topics": [
-        "ai-governance-risk-compliance"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Generic product announcement about standard security features (MFA, account recovery) with no analysis, technical details, or novel insights about AI-specific security challenges."
-    },
-    "https://openai.com/index/where-the-goblins-came-from": {
-      "title": "Where the goblins came from",
-      "source": "OpenAI News",
-      "date": "Wed, 29 Apr 2026 20:00:00 GMT",
+    "https://www.dwarkesh.com/p/david-reich-2": {
+      "title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
+      "source": "Dwarkesh Podcast",
+      "date": "Fri, 08 May 2026 16:38:22 GMT",
       "composite": 2.67,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 3,
-      "relevant_topics": [
-        "model-architecture"
-      ],
-      "content_type": "technical",
-      "status": "skipped",
-      "skip_reason": "Surface-level anecdote about quirky model behavior without substantive technical analysis, root cause investigation, or actionable insights for AI systems development."
-    },
-    "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age": {
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "source": "OpenAI News",
-      "date": "Wed, 29 Apr 2026 15:00:00 GMT",
-      "composite": 2.67,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 4,
-      "relevant_topics": [
-        "gpu-architecture-training-infra"
-      ],
-      "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "Article is a brief announcement with no technical details, analysis, or novel insights about compute infrastructure; lacks depth on architecture, implementation, or strategic implications."
-    },
-    "https://openai.com/index/cybersecurity-in-the-intelligence-age": {
-      "title": "Cybersecurity in the Intelligence Age",
-      "source": "OpenAI News",
-      "date": "Wed, 29 Apr 2026 04:00:00 GMT",
-      "composite": 3.33,
-      "depth": 3,
-      "novelty": 3,
-      "relevance": 4,
-      "relevant_topics": [
-        "ai-governance-risk-compliance"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Surface-level announcement of action plan without substantive analysis, technical details, or novel frameworks for AI cybersecurity implementation"
-    },
-    "https://openai.com/index/openai-on-aws": {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "source": "OpenAI News",
-      "date": "Tue, 28 Apr 2026 00:00:00 GMT",
-      "composite": 3.33,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 5,
-      "relevant_topics": [
-        "build-vs-buy-enterprise-ai",
-        "ai-b2b-saas"
-      ],
-      "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "Brief partnership announcement with no implementation details, technical analysis, or insights into enterprise adoption patterns or strategic implications."
-    },
-    "https://openai.com/index/our-commitment-to-community-safety": {
-      "title": "Our commitment to community safety",
-      "source": "OpenAI News",
-      "date": "Tue, 28 Apr 2026 00:00:00 GMT",
-      "composite": 2.33,
-      "depth": 2,
-      "novelty": 2,
-      "relevance": 3,
-      "relevant_topics": [
-        "ai-governance-risk-compliance"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Generic corporate blog post about safety commitments with no specific technical details, novel frameworks, or actionable insights beyond surface-level PR messaging."
-    },
-    "https://openai.com/index/openai-available-at-fedramp-moderate": {
-      "title": "OpenAI available at FedRAMP Moderate",
-      "source": "OpenAI News",
-      "date": "Mon, 27 Apr 2026 14:00:00 GMT",
-      "composite": 3.67,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 6,
-      "relevant_topics": [
-        "ai-governance-risk-compliance",
-        "regulatory-policy"
-      ],
-      "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Brief announcement with no analysis of implementation details, compliance implications, or strategic context beyond stating FedRAMP authorization achievement."
-    },
-    "https://openai.com/index/next-phase-of-microsoft-partnership": {
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "source": "OpenAI News",
-      "date": "Mon, 27 Apr 2026 06:00:00 GMT",
-      "composite": 3.0,
-      "depth": 2,
-      "novelty": 3,
-      "relevance": 4,
-      "relevant_topics": [
-        "lab-dynamics",
-        "funding-and-market-structure"
-      ],
-      "content_type": "landscape",
-      "status": "skipped",
-      "skip_reason": "Brief corporate announcement with no substantive details about the partnership changes, investment terms, governance modifications, or strategic implications\u2014lacks depth and actionable insights."
-    },
-    "https://openai.com/index/open-source-codex-orchestration-symphony": {
-      "title": "An open-source spec for orchestration: Symphony",
-      "source": "OpenAI News",
-      "date": "Mon, 27 Apr 2026 00:00:00 GMT",
-      "composite": 4.67,
       "depth": 3,
       "novelty": 4,
-      "relevance": 7,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This podcast announcement discusses David Reich's new research finding that natural selection has accelerated in humans over the last 10,000 years, particularly during the Bronze Age, including selection for cognitive performance. The evidence comes from scaling ancient DNA sequencing and developing new statistical methods to track gene frequency changes. Reich also proposes a heretical model that Neanderthals were genetically-swamped modern humans rather than a separate archaic lineage.",
+      "tags": [
+        "ancient-dna",
+        "natural-selection",
+        "bronze-age",
+        "cognitive-evolution",
+        "neanderthals",
+        "human-genetics"
+      ],
+      "status": "skipped",
+      "skip_reason": "Content focuses on human evolutionary biology and ancient DNA research, which does not map to any of the specified AI, semiconductor, or enterprise technology topic areas."
+    },
+    "https://www.dwarkesh.com/p/reiner-pope": {
+      "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+      "source": "Dwarkesh Podcast",
+      "date": "Wed, 29 Apr 2026 17:07:03 GMT",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "model-architecture",
+        "inference-efficiency",
+        "semiconductor-supply-chain"
+      ],
+      "content_type": "technical",
+      "summary": "This is a technical blackboard lecture where Reiner Pope (MatX CEO, former Google TPU architect) explains the mathematical foundations of how frontier LLMs are trained and served across GPU clusters, covering batch size economics, MoE model layouts, pipeline parallelism, and how to deduce infrastructure details from API pricing. The lecture provides concrete equations and frameworks showing how hardware constraints (memory, interconnects, parallelism strategies) drive architectural decisions, training costs, and the economics of inference, including why models may be 100x over-trained beyond Chinchilla-optimal due to RL requirements. This matters because it reveals the fundamental engineering and economic constraints shaping frontier AI development, making lab strategies and pricing structures legible through first-principles analysis.",
+      "tags": [
+        "batch-size-optimization",
+        "mixture-of-experts",
+        "pipeline-parallelism",
+        "chinchilla-scaling",
+        "tpu-architecture",
+        "inference-cost",
+        "model-parallelism",
+        "gpu-cluster-design",
+        "api-pricing-economics"
+      ],
+      "status": "integrated"
+    },
+    "https://www.anthropic.com/news/anthropic-acquires-stainless": {
+      "title": "Anthropic Acquires Stainless",
+      "source": "Anthropic Blog",
+      "date": "2026-05-18T20:53:35.912468+00:00",
+      "composite": 5.33,
+      "depth": 3,
+      "novelty": 5,
+      "relevance": 8,
       "relevant_topics": [
         "ai-engineering-agents",
         "agentic-workflows-production",
         "ai-in-product-and-engineering"
       ],
-      "content_type": "technical",
+      "content_type": "landscape",
+      "summary": "Anthropic is acquiring Stainless, a company that generates SDKs, CLIs, and MCP servers across multiple programming languages, to enhance agent connectivity and developer experience. Stainless has been powering Anthropic's official SDKs since the company's early days and enables developers and agents to connect to APIs through auto-generated, language-native tooling. The acquisition positions Anthropic to strengthen Claude's ability to connect to external systems as AI shifts from answering questions to taking autonomous actions.",
+      "tags": [
+        "sdk-generation",
+        "mcp-servers",
+        "agent-connectivity",
+        "developer-tooling",
+        "api-integration",
+        "ma-acquisition"
+      ],
       "status": "skipped",
-      "skip_reason": "Surface-level announcement of a spec without technical depth, original research, or substantial implementation details about the orchestration framework."
+      "skip_reason": "Brief acquisition announcement with minimal technical depth or strategic analysis beyond connecting agents to systems"
     },
-    "https://openai.com/index/choco": {
-      "title": "Choco automates food distribution with AI agents",
-      "source": "OpenAI News",
-      "date": "Mon, 27 Apr 2026 00:00:00 GMT",
-      "composite": 3.0,
-      "depth": 3,
-      "novelty": 2,
+    "https://www.fabricatedknowledge.com/p/2026-ai-and-semiconductor-outlook": {
+      "title": "2026 AI & Semiconductor Outlook",
+      "source": "Fabricated Knowledge",
+      "date": "Wed, 07 Jan 2026 21:37:33 GMT",
+      "composite": 6.33,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "semiconductor-supply-chain",
+        "gpu-architecture-training-infra",
+        "optical-interconnects"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reviews 2025 semiconductor performance and argues that AI spending shifted down the stack from GPUs to memory and optics, creating bottlenecks that made these components the year's winners. It provides specific stock performance data (optics companies up 100-331%, memory up 228%) and DRAM pricing charts showing historic price increases as evidence of supply constraints. This matters because it demonstrates how AI infrastructure buildout creates cascading effects through the supply chain, with bottleneck identification being key to investment and procurement strategy.",
+      "tags": [
+        "hbm-memory",
+        "optical-transceivers",
+        "dram-pricing",
+        "ai-supply-chain",
+        "semiconductor-bottlenecks",
+        "semicap-equipment"
+      ],
+      "status": "integrated"
+    },
+    "https://www.fabricatedknowledge.com/p/lessons-from-history-the-great-railroad": {
+      "title": "Lessons from History: The Great Railroad Buildout",
+      "source": "Fabricated Knowledge",
+      "date": "Wed, 17 Dec 2025 17:09:33 GMT",
+      "composite": 5.0,
+      "depth": 6,
+      "novelty": 5,
       "relevance": 4,
       "relevant_topics": [
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article draws parallels between the 19th-century railroad capital cycle and today's AI infrastructure buildout, examining how railroads were financed through land grants, overbought during boom cycles, and eventually consolidated. It details the Pacific Railroad Act of 1862, the land grant financing mechanism where railroads received alternating sections of land in corridors to sell for capital, and how the Civil War demonstrated railroad value while post-war expansion accelerated from 1,000 to 7,000 miles per year. The historical analogy suggests today's AI infrastructure may follow a similar pattern of speculative overbuilding followed by consolidation, though the article appears incomplete and doesn't fully develop the contemporary implications.",
+      "tags": [
+        "capital-cycles",
+        "infrastructure-financing",
+        "overbuilding",
+        "historical-parallels",
+        "land-grants"
+      ],
+      "status": "skipped",
+      "skip_reason": "While historically interesting, the article provides limited actionable insight into AI markets and appears incomplete; the connection to AI infrastructure remains underdeveloped and primarily serves as historical context rather than novel analysis of current dynamics."
+    },
+    "https://www.fabricatedknowledge.com/p/market-volatility-some-thoughts": {
+      "title": "Market Volatility: Some Thoughts",
+      "source": "Fabricated Knowledge",
+      "date": "Mon, 24 Nov 2025 14:53:13 GMT",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article appears to discuss market volatility and market corrections, but the full content is paywalled and not accessible. Based on the visible title and subtitle, it suggests a market correction is occurring and may be more technical in nature than anticipated. Without access to the actual analysis, evidence, or specific claims about semiconductor markets or AI infrastructure, the relevance and depth cannot be properly assessed.",
+      "tags": [
+        "market-volatility",
+        "market-correction",
+        "financial-markets"
+      ],
+      "status": "skipped",
+      "skip_reason": "Content is paywalled and inaccessible; visible fragments discuss general market volatility without clear connection to specified AI, semiconductor, or enterprise technology topics."
+    },
+    "https://lilianweng.github.io/posts/2024-04-12-diffusion-video/": {
+      "title": "Diffusion Models for Video Generation",
+      "source": "Lilian Weng",
+      "date": "Fri, 12 Apr 2024 00:00:00 +0000",
+      "composite": 7.0,
+      "depth": 8,
+      "novelty": 6,
+      "relevance": 7,
+      "relevant_topics": [
+        "multimodal-models",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "This article provides a technical deep-dive into adapting diffusion models from image generation to video generation, covering both training-from-scratch approaches and techniques for adapting pre-trained image models. It explains the mathematical foundations (v-parameterization, noise schedules), architectural choices (3D U-Net, DiT), and practical adaptation methods (fine-tuning vs training-free). The work matters because video generation represents a significant leap in complexity from images, requiring temporal consistency and world knowledge that pushes the boundaries of generative modeling.",
+      "tags": [
+        "diffusion-models",
+        "video-generation",
+        "v-parameterization",
+        "3d-unet",
+        "temporal-consistency",
+        "ddim"
+      ],
+      "status": "integrated"
+    },
+    "https://lilianweng.github.io/posts/2024-02-05-human-data-quality/": {
+      "title": "Thinking about High-Quality Human Data",
+      "source": "Lilian Weng",
+      "date": "Mon, 05 Feb 2024 00:00:00 +0000",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "post-training-rlhf",
+        "evals-production-deployment",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "technical",
+      "summary": "This article examines how to ensure high-quality human-generated training data for machine learning models, particularly for tasks like RLHF and classification labeling. It explores both the crowdsourcing approach (wisdom of the crowd, rater agreement metrics, handling disagreement) and technical methods to assess data quality (influence functions, prediction changes during training, noisy cross-validation). The work matters because data quality fundamentally determines model performance, yet is often undervalued compared to model architecture work.",
+      "tags": [
+        "human-annotation",
+        "data-quality",
+        "rlhf-labeling",
+        "rater-agreement",
+        "crowdsourcing",
+        "influence-functions"
+      ],
+      "status": "integrated"
+    },
+    "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/": {
+      "title": "Adversarial Attacks on LLMs",
+      "source": "Lilian Weng",
+      "date": "Wed, 25 Oct 2023 00:00:00 +0000",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "evals-production-deployment",
+        "ai-governance-risk-compliance",
+        "prompt-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "This article provides a comprehensive taxonomy and technical analysis of adversarial attacks on large language models, covering token manipulation, gradient-based attacks, jailbreak prompting, and red-teaming approaches. It frames the problem mathematically for both classification and generation tasks, distinguishes white-box from black-box attacks, and discusses mitigation strategies including the saddle point optimization problem inherent in adversarial robustness. This matters because adversarial attacks remain a critical security concern for production LLM deployments, requiring systematic understanding of attack surfaces and defense mechanisms.",
+      "tags": [
+        "adversarial-attacks",
+        "jailbreak-prompting",
+        "red-teaming",
+        "model-safety",
+        "rlhf",
+        "white-box-black-box"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/appliedintuition": {
+      "title": "Physical AI that Moves the World \u2014 Qasar Younis & Peter Ludwig, Applied Intuition",
+      "source": "Latent Space Podcast",
+      "date": "Mon, 27 Apr 2026 23:02:37 GMT",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "inference-efficiency",
+        "model-architecture",
+        "evals-production-deployment",
         "agentic-workflows-production",
-        "ai-in-operations"
+        "ai-engineering-agents"
       ],
       "content_type": "enterprise_use_case",
-      "status": "skipped",
-      "skip_reason": "Surface-level promotional case study with no technical depth, novel frameworks, or actionable insights beyond generic 'AI streamlined operations' narrative."
+      "summary": "Applied Intuition founders explain how they built a $15B physical AI company focused on deploying AI onto safety-critical machines (vehicles, trucks, construction equipment, defense systems) rather than screen-based applications. They argue the real bottleneck is no longer model intelligence but deployment constraints\u2014onboard models need millisecond latency, low power, and extreme reliability, requiring real operating systems, simulation infrastructure, and statistical safety validation beyond binary pass/fail tests. This matters because physical AI deployment requires fundamentally different architectures, tooling, and validation approaches than LLMs, creating a platform opportunity comparable to Android for all moving machines.",
+      "tags": [
+        "physical-ai",
+        "autonomy",
+        "safety-critical-systems",
+        "edge-deployment",
+        "simulation",
+        "reinforcement-learning",
+        "vehicle-operating-systems",
+        "model-distillation",
+        "statistical-safety",
+        "sim-to-real"
+      ],
+      "status": "integrated"
     },
-    "https://openai.com/index/our-principles": {
-      "title": "Our principles",
-      "source": "OpenAI News",
-      "date": "Sun, 26 Apr 2026 16:00:00 GMT",
-      "composite": 2.0,
-      "depth": 2,
-      "novelty": 1,
-      "relevance": 3,
+    "https://www.latent.space/p/unsupervised-learning-2026": {
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "source": "Latent Space Podcast",
+      "date": "Thu, 23 Apr 2026 19:37:19 GMT",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
       "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "ai-engineering-agents",
+        "evals-production-deployment",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-native-product-design",
         "lab-dynamics"
       ],
       "content_type": "landscape",
+      "summary": "This podcast crossover discusses the state of AI engineering in 2026, covering infrastructure stabilization, the vertical vs horizontal startup debate, and the 'agent lab' playbook of starting with frontier models before training domain-specific ones. The conversation examines how coding products have become sticky despite model volatility, why domain-specific model training is becoming viable, and how companies like Cursor justify in-house models through search and specialization. It argues that AI coding represents a template for how other vertical AI markets will develop, with foundation labs colliding with application companies while leaving room for workflow-focused startups.",
+      "tags": [
+        "ai-coding-assistants",
+        "domain-specific-models",
+        "agent-labs",
+        "model-distillation",
+        "agentic-workflows",
+        "vertical-ai-applications",
+        "open-source-models"
+      ],
       "status": "skipped",
-      "skip_reason": "Generic mission statement with no substantive analysis, new information, or actionable insights about AI development or deployment."
+      "skip_reason": null
+    },
+    "https://www.latent.space/p/shopify": {
+      "title": "Shopify\u2019s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym \u2014 with Mikhail Parakhin, Shopify CTO",
+      "source": "Latent Space Podcast",
+      "date": "Wed, 22 Apr 2026 19:33:00 GMT",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering",
+        "agentic-workflows-production",
+        "model-architecture",
+        "evals-production-deployment",
+        "ai-native-product-design",
+        "data-moats-proprietary-advantages",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Shopify's CTO Mikhail Parakhin reveals the company's comprehensive AI transformation, including unlimited Opus-4.6 token budgets, universal internal AI tool adoption after a December 2024 model-quality inflection, and three major internal platforms: Tangle (reproducible ML workflows), Tangent (auto-research optimization), and SimGym (customer behavior simulation). The key insight is that code generation is no longer the bottleneck\u2014review, CI/CD, deployment stability, and PR volume have become the critical constraints, requiring new tooling and potentially new metaphors beyond Git/pull requests for machine-speed code generation. This matters because it provides concrete evidence of what enterprise AI adoption looks like at scale in a $200B company, reveals that AI coding can still increase production bugs despite cleaner code, and demonstrates how proprietary behavioral data creates defensible moats in customer simulation.",
+      "tags": [
+        "shopify-ai-stack",
+        "tangle-ml-workflows",
+        "tangent-auto-research",
+        "simgym-customer-simulation",
+        "ai-code-review-bottleneck",
+        "liquid-ai-architecture",
+        "token-budget-unlimited",
+        "cicd-deployment-constraints",
+        "content-addressed-caching",
+        "behavioral-data-moats"
+      ],
+      "status": "integrated"
+    },
+    "https://deepmind.google/blog/decoupled-diloco/": {
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "source": "Google DeepMind",
+      "date": "Wed, 22 Apr 2026 10:20:03 +0000",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "technical",
+      "summary": "The article appears to announce Decoupled DiLoCo, a distributed training approach designed for resilience and scale in AI model training. However, the provided text contains only navigation elements and page structure from Google DeepMind's website without actual article content describing the technical mechanism or evidence. Without the substantive content, it's impossible to assess the specific contributions, performance claims, or implementation details of the training methodology.",
+      "tags": [
+        "distributed-training",
+        "diloco",
+        "training-resilience"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text consists only of website navigation elements without substantive technical content about the Decoupled DiLoCo method, making meaningful evaluation impossible."
+    },
+    "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/": {
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "source": "Google DeepMind",
+      "date": "Tue, 21 Apr 2026 14:54:15 +0000",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Google DeepMind announces partnerships with global consultancies to help enterprises adopt AI technologies. The article provides no specific details about which consultancies, what services, deployment models, or case studies. This is a brief announcement without substance that fails to offer actionable insights or evidence about how these partnerships accelerate AI transformation.",
+      "tags": [
+        "enterprise-adoption",
+        "consulting-partnerships",
+        "google-deepmind"
+      ],
+      "status": "skipped",
+      "skip_reason": "Marketing announcement with no substantive content, analysis, or details about partnership structure, implementation approach, or outcomes."
+    },
+    "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/": {
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "source": "Google DeepMind",
+      "date": "Wed, 15 Apr 2026 16:03:19 +0000",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 5,
+      "relevant_topics": [
+        "multimodal-models"
+      ],
+      "content_type": "technical",
+      "summary": "Google DeepMind announces Gemini 3.1 Flash TTS, a new text-to-speech model that features granular audio tags for precise control over AI-generated speech expressiveness. The key technical mechanism is the use of detailed audio tags that allow users to direct specific characteristics of the synthesized speech. This represents an incremental improvement in TTS control and expressiveness but the article provides minimal technical detail or evidence about the architecture, performance benchmarks, or real-world applications.",
+      "tags": [
+        "text-to-speech",
+        "audio-generation",
+        "gemini-models",
+        "expressive-synthesis"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with minimal technical depth, no novel claims or data, limited implementation details, and insufficient evidence to evaluate impact or differentiation from existing TTS systems."
+    },
+    "https://sequoiacap.com/article/partnering-with-auctor/": {
+      "title": "Partnering with Auctor",
+      "source": "Sequoia",
+      "date": "Wed, 15 Apr 2026 16:00:05 +0000",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-professional-services",
+        "ai-in-operations",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Sequoia announces a Series A investment in Auctor, which automates enterprise software implementation using AI, targeting the $500B+ market of 9M consultants who implement platforms like Salesforce and ServiceNow. The article argues that implementation consultants are limited by human context windows while LLMs can track thousands of platform updates and dependencies simultaneously, reducing weeks of scoping work to a single session. This matters as a potential disruption to one of technology's largest and least-automated service markets, though the article provides no technical details or customer evidence beyond general claims.",
+      "tags": [
+        "software-implementation",
+        "professional-services-automation",
+        "enterprise-deployment",
+        "consulting-automation",
+        "context-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "Generic funding announcement with surface-level market description and no technical depth, evidence of product performance, or novel insights beyond basic pitch deck talking points."
+    },
+    "https://sequoiacap.com/article/from-hierarchy-to-intelligence/": {
+      "title": "From Hierarchy to Intelligence",
+      "source": "Sequoia",
+      "date": "Tue, 31 Mar 2026 15:11:54 +0000",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article traces organizational hierarchy from Roman military structures through Prussian staff systems and American railroads to argue that AI enables a fundamental rethinking of corporate organization design beyond traditional span-of-control constraints. It positions Block (Jack Dorsey's company) as an example of using AI to flatten hierarchies and increase organizational speed rather than merely enhancing individual productivity. The historical context suggests AI could be as transformative to organizational structure as the telegraph or railroad were in their eras.",
+      "tags": [
+        "organizational-hierarchy",
+        "span-of-control",
+        "ai-organizational-design",
+        "enterprise-structure",
+        "organizational-speed"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article provides historical context but lacks depth on actual AI implementation mechanisms, specific technical approaches, or novel frameworks for AI-driven organizational design; appears to be introductory thought leadership rather than original analysis or detailed case study."
+    },
+    "https://sequoiacap.com/article/partnering-with-edra-context-for-agents-at-scale/": {
+      "title": "Partnering with Edra: Context for Agents at Scale",
+      "source": "Sequoia",
+      "date": "Wed, 18 Mar 2026 14:00:05 +0000",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "rag-over-proprietary-content",
+        "ai-in-customer-success-support",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Edra is building a system that automatically extracts enterprise tribal knowledge from existing data streams (tickets, emails, logs) to create dynamic context for AI agents, rather than relying on manual documentation. The company's approach creates a transparent, editable knowledge base that learns from usage and enables agent automation in IT service management and technical support. Founded by former Palantir executives who created the Forward Deployed AI Engineer role, Edra represents a shift from manual enterprise AI configuration to automated knowledge extraction.",
+      "tags": [
+        "knowledge-extraction",
+        "agentic-context",
+        "forward-deployed-engineering",
+        "enterprise-tribal-knowledge",
+        "itsm-automation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Investment announcement with limited technical depth; describes problem and high-level approach but provides minimal detail on methodology, architecture, or differentiation beyond 'analyzes data' and 'transparent/editable'"
+    },
+    "https://openviewpartners.com/blog/the-pre-pmf-guide-to-product-management/": {
+      "title": "The Pre-PMF Guide to Product Management: How to Move Faster and Stop Throwing Away Your Roadmaps",
+      "source": "OpenView Partners",
+      "date": "2026-05-18T20:53:10.864188+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This is a promotional post announcing a guide about product management before achieving product-market fit, authored by Enzo Avigo from June. The post contains no actual content, analysis, or insights\u2014only a headline and byline directing readers to download the full guide elsewhere. It provides no actionable information or frameworks that could be evaluated for depth or novelty.",
+      "tags": [
+        "product-management",
+        "product-market-fit",
+        "roadmap-planning"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a promotional announcement with no substantive content to analyze; it contains only a title and redirect to download a guide elsewhere, providing no insights, frameworks, or analysis."
+    },
+    "https://openviewpartners.com/blog/2023-pricing-data/": {
+      "title": "What\u2019s going on with pricing this year? A deep dive into 2023 pricing data.",
+      "source": "OpenView Partners",
+      "date": "2026-05-18T20:53:11.417415+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "This article appears to be a brief teaser for OpenView's 2023 SaaS Benchmarks report focusing on pricing trends. The actual content provided contains no substantive analysis, evidence, data points, or specific findings. The article is essentially a redirect to another resource without meaningful information in the excerpt itself.",
+      "tags": [
+        "saas-pricing",
+        "benchmarks",
+        "pricing-trends"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is only a brief teaser/redirect with no actual analysis, data, or substantive content to evaluate; contains no original insights or actionable information."
+    },
+    "https://openviewpartners.com/blog/the-definitive-guide-product-analytics-for-product-led-growth/": {
+      "title": "The Definitive Guide: Product Analytics for Product-Led Growth",
+      "source": "OpenView Partners",
+      "date": "2026-05-18T20:53:11.797017+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a promotional teaser for a guide about product analytics in product-led growth strategies. The text provides no actual evidence, frameworks, or mechanisms beyond mentioning generic PLG concepts like freemium models and virality. It offers no substantive content and functions purely as marketing copy to drive clicks.",
+      "tags": [
+        "product-led-growth",
+        "product-analytics",
+        "freemium"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is only a promotional teaser with no actual content, analysis, frameworks, or actionable insights about PLG or product analytics."
+    },
+    "https://www.tomtunguz.com/observations-on-writing-with-ai/": {
+      "title": "Observations on Writing with AI",
+      "source": "Tomasz Tunguz",
+      "date": "Mon, 18 May 2026 00:00:00 +0000",
+      "composite": 4.33,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "prompt-architecture"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The author argues that AI writing tools fail to produce authentic content because each model (Gemini, Claude, OpenAI) has its own distinct voice, and using multiple models together creates inconsistent tone rather than improved quality. Through personal experiments fine-tuning models and testing multi-model editorial councils, the author finds that AI-generated content lacks the imperfections (analogies, punctuation quirks) that make writing authentic and memorable. The conclusion is that as AI makes perfect content ubiquitous, human imperfections become the marker of authenticity and quality in writing.",
+      "tags": [
+        "ai-writing-tools",
+        "model-voice",
+        "content-authenticity",
+        "multi-model-synthesis",
+        "fine-tuning"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level personal reflection on AI writing tools without novel frameworks, data, or actionable insights for enterprise AI deployment or technical architecture."
+    },
+    "https://www.tomtunguz.com/2026-gtm-survey/": {
+      "title": "2026 Theory GTM Survey",
+      "source": "Tomasz Tunguz",
+      "date": "Tue, 12 May 2026 00:00:00 +0000",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-sales-gtm",
+        "ai-org-design-headcount",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article announces a 2026 GTM survey investigating five hypotheses about AI's impact on sales and marketing teams, including whether augmented human-AI teams outperform autonomous AI or unaugmented humans. The survey focuses on measuring conversion rates, productivity gains, headcount changes, and the impact of buyer-side AI adoption on sales cycles. The research aims to determine whether AI efficiency gains manifest as headcount reduction rather than revenue growth, and whether founder expectations have recalibrated after initial over-optimism.",
+      "tags": [
+        "gtm-survey",
+        "augmented-sales-teams",
+        "ai-sdr",
+        "buyer-side-ai",
+        "headcount-efficiency",
+        "productivity-gains"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a survey announcement rather than analysis or findings; presents hypotheses to be tested rather than original research, data, or frameworks with actionable insights."
+    },
+    "https://www.tomtunguz.com/localmaxxing/": {
+      "title": "Localmaxxing",
+      "source": "Tomasz Tunguz",
+      "date": "Mon, 11 May 2026 00:00:00 +0000",
+      "composite": 7.3,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The author reports that after five weeks of testing, approximately 50% of daily work tasks (1,400 total) can be successfully handled by local 35B parameter models instead of cloud-based trillion-parameter models, with scheduling, email, summarization, and admin tasks being most suitable. Through head-to-head benchmarking, local models (Qwen 3.6 35B) deliver significantly lower latency than cloud models (Claude Opus 4.5) despite being 20% lower on reasoning benchmarks, with both completing routine agent tasks correctly. This matters because latency\u2014not capability, cost, or privacy\u2014is the dominant factor driving \"localmaxxing,\" the shift of inference workloads from cloud to edge devices, which will accelerate as local models continue closing the gap with frontier models.",
+      "tags": [
+        "local-inference",
+        "latency-optimization",
+        "edge-compute",
+        "agentic-tasks",
+        "qwen",
+        "claude-opus",
+        "tokenmaxxing"
+      ],
+      "status": "integrated"
+    },
+    "https://kylepoyar.substack.com/p/the-ai-churn-wave": {
+      "title": "The AI churn wave?",
+      "source": "Growth Unhinged (Kyle Poyar)",
+      "date": "Wed, 10 Dec 2025 11:50:36 GMT",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "The article appears to be a newsletter intro or header without substantive content, referencing a podcast and GTM report. No actual analysis, data, or arguments are presented in the provided text. This is merely a newsletter masthead with promotional links.",
+      "tags": [
+        "b2b-gtm",
+        "newsletter",
+        "growth"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only newsletter header/promotional content with no substantive analysis, claims, or insights to evaluate."
     }
   }
 }
