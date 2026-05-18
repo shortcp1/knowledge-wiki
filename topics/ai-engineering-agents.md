@@ -7,7 +7,11 @@ Key questions tracked: What agent patterns are actually working in production? H
 ## Key Claims
 <!-- agent-maintained -->
 
+### Sandboxing & Security
+- **OpenAI Codex Windows Sandbox (May 2026)**: OpenAI implemented a secure sandbox architecture for Codex on Windows to enable safe code execution with controlled file access and network restrictions. This represents production deployment patterns for coding agents that require file system and network access while maintaining security boundaries.
+
 ## Cross-References
 - [[rag-vs-finetuning-vs-wiki]]
 - [[evals-production-deployment]]
 - [[agentic-workflows-production]]
+- [[ai-governance-risk-compliance]]

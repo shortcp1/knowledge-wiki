@@ -7,7 +7,16 @@ Key questions tracked: What does the EU AI Act require of different risk-tier sy
 ## Key Claims
 <!-- agent-maintained -->
 
+### Code Execution Security
+- **Sandboxing for Code-Generating Agents (OpenAI Codex, May 2026)**: Production deployment of code-generating agents like Codex requires sandbox architectures with:
+  - Controlled file access permissions
+  - Network restriction capabilities
+  - Isolated execution environments
+  - This establishes a security baseline for agents that generate and execute code on user systems.
+
 ## Cross-References
 - [[regulatory-policy]]
 - [[evals-production-deployment]]
 - [[ai-in-legal-compliance]]
+- [[ai-engineering-agents]]
+- [[agentic-workflows-production]]

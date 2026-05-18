@@ -7,6 +7,13 @@ Key questions tracked: What agent architectures are actually in production at sc
 ## Key Claims
 <!-- agent-maintained -->
 
+### Coding Agents
+- **Codex Windows Deployment (OpenAI, May 2026)**: OpenAI shipped Codex on Windows with a secure sandbox implementation. Key production requirements included:
+  - Controlled file system access
+  - Network access restrictions
+  - Safe code execution environment
+  - This represents a production-grade coding agent deployment pattern addressing security constraints.
+
 ## Cross-References
 - [[ai-engineering-agents]]
 - [[evals-production-deployment]]

@@ -1,3 +1,782 @@
 {
-  "processed": {}
+  "processed": {
+    "https://openai.com/index/dell-codex-enterprise-partnership": {
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "source": "OpenAI News",
+      "date": "Mon, 18 May 2026 10:00:00 GMT",
+      "composite": 4.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Article is a brief announcement with no analysis, technical details, implementation insights, or novel frameworks - purely a surface-level press release summary."
+    },
+    "https://openai.com/index/malta-chatgpt-plus-partnership": {
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "source": "OpenAI News",
+      "date": "Sat, 16 May 2026 00:00:00 GMT",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Press release announcement with no analysis, novel insights, or actionable detail beyond a government partnership for consumer AI access."
+    },
+    "https://openai.com/index/databricks": {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "source": "OpenAI News",
+      "date": "Fri, 15 May 2026 00:00:00 GMT",
+      "composite": 4.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-b2b-saas",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level press release summary with no analysis, implementation details, or insights about the technology, benchmark, or enterprise implications."
+    },
+    "https://openai.com/index/personal-finance-chatgpt": {
+      "title": "A new personal finance experience in ChatGPT",
+      "source": "OpenAI News",
+      "date": "Fri, 15 May 2026 00:00:00 GMT",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Brief product announcement lacking technical details, implementation insights, or substantive analysis of AI application in personal finance."
+    },
+    "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex": {
+      "title": "How data science teams use Codex",
+      "source": "OpenAI News",
+      "date": "Fri, 15 May 2026 00:00:00 GMT",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional content listing use cases without original analysis, implementation details, or meaningful insights into how Codex actually performs these tasks or delivers value."
+    },
+    "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex": {
+      "title": "How sales teams use Codex",
+      "source": "OpenAI News",
+      "date": "Fri, 15 May 2026 00:00:00 GMT",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-sales-gtm"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional content listing generic sales use cases without original analysis, implementation details, or novel insights about Codex application in sales workflows."
+    },
+    "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex": {
+      "title": "How business operations teams use Codex",
+      "source": "OpenAI News",
+      "date": "Fri, 15 May 2026 00:00:00 GMT",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level marketing content describing generic business operations use cases without original analysis, specific implementation details, or novel frameworks."
+    },
+    "https://openai.com/index/sea-david-chen": {
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "source": "OpenAI News",
+      "date": "Thu, 14 May 2026 20:30:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Superficial promotional content with no substantive details on implementation, outcomes, or frameworks; appears to be a brief case study teaser without original analysis or data."
+    },
+    "https://openai.com/index/work-with-codex-from-anywhere": {
+      "title": "Work with Codex from anywhere",
+      "source": "OpenAI News",
+      "date": "Thu, 14 May 2026 13:00:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Brief product announcement with no substantive technical details, implementation guidance, or novel insights about coding assistants or agentic workflows."
+    },
+    "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations": {
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "source": "OpenAI News",
+      "date": "Thu, 14 May 2026 00:00:00 GMT",
+      "composite": 3.33,
+      "depth": 3,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement about safety features without technical details, novel frameworks, or actionable insights for enterprise implementation."
+    },
+    "https://openai.com/index/building-codex-windows-sandbox": {
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "source": "OpenAI News",
+      "date": "Wed, 13 May 2026 11:00:00 GMT",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack": {
+      "title": "Our response to the TanStack npm supply chain attack",
+      "source": "OpenAI News",
+      "date": "Wed, 13 May 2026 00:00:00 GMT",
+      "composite": 2.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Incident response announcement with minimal depth; focuses on a specific security event rather than providing analysis, frameworks, or insights applicable to AI systems or enterprise deployment"
+    },
+    "https://openai.com/academy/how-finance-teams-use-codex": {
+      "title": "How finance teams use Codex",
+      "source": "OpenAI News",
+      "date": "Tue, 12 May 2026 15:00:00 GMT",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-engineering-agents"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Minimal content with only a single-sentence description of use cases; lacks depth, analysis, or novel insights about Codex implementation in finance teams."
+    },
+    "https://openai.com/index/what-parameter-golf-taught-us": {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "source": "OpenAI News",
+      "date": "Tue, 12 May 2026 00:00:00 GMT",
+      "composite": 4.33,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement of competition results without substantive technical insights, novel findings, or actionable frameworks from the 2,000+ submissions."
+    },
+    "https://openai.com/index/nvidia": {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "source": "OpenAI News",
+      "date": "Tue, 12 May 2026 00:00:00 GMT",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Extremely brief marketing snippet lacking substance, concrete examples, technical details, or meaningful insights about implementation or outcomes."
+    },
+    "https://openai.com/index/autoscout24": {
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "source": "OpenAI News",
+      "date": "Tue, 12 May 2026 00:00:00 GMT",
+      "composite": 3.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-engineering-agents"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level case study announcement with no specific technical details, implementation insights, or quantitative results about how AutoScout24 uses AI in engineering workflows."
+    },
+    "https://openai.com/signals/research/2026q1-update": {
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "source": "OpenAI News",
+      "date": "Mon, 11 May 2026 15:00:00 GMT",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement of user demographic trends without substantive analysis, frameworks, or actionable insights for enterprise AI strategy or technical implementation."
+    },
+    "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai": {
+      "title": "How enterprises are scaling AI",
+      "source": "OpenAI News",
+      "date": "Mon, 11 May 2026 10:00:00 GMT",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance",
+        "ai-org-design-headcount",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level marketing content from OpenAI with generic statements about enterprise AI scaling lacking specific frameworks, data, or novel insights beyond widely-known concepts like trust and governance."
+    },
+    "https://openai.com/index/openai-campus-network-student-club-interest-form": {
+      "title": "OpenAI Campus Network: Student club interest form",
+      "source": "OpenAI News",
+      "date": "Mon, 11 May 2026 10:00:00 GMT",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "This is a promotional announcement for a student club program with no substantive content about AI technology, implementation, or business applications."
+    },
+    "https://openai.com/index/openai-launches-the-deployment-company": {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "source": "OpenAI News",
+      "date": "Mon, 11 May 2026 06:00:00 GMT",
+      "composite": 3.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Brief announcement with no substantive details about deployment methodologies, specific capabilities, pricing, or differentiation from existing enterprise AI consulting offerings."
+    },
+    "https://openai.com/index/running-codex-safely": {
+      "title": "Running Codex safely at OpenAI",
+      "source": "OpenAI News",
+      "date": "Fri, 08 May 2026 12:30:00 GMT",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Surface-level overview of security practices without substantive technical detail, implementation specifics, or novel insights into production deployment of coding agents."
+    },
+    "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber": {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "source": "OpenAI News",
+      "date": "Thu, 07 May 2026 13:00:00 GMT",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Brief announcement with no technical details, analysis, or implementation insights; lacks depth on model capabilities, access criteria, or practical applications for cybersecurity use cases."
+    },
+    "https://openai.com/index/parloa": {
+      "title": "Parloa builds service agents customers want to talk to",
+      "source": "OpenAI News",
+      "date": "Thu, 07 May 2026 11:00:00 GMT",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-customer-success-support",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Shallow promotional content describing a vendor use case without original analysis, specific implementation details, novel frameworks, or substantive technical/business insights."
+    },
+    "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api": {
+      "title": "Advancing voice intelligence with new models in the API",
+      "source": "OpenAI News",
+      "date": "Thu, 07 May 2026 10:00:00 GMT",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "multimodal-models"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement without technical depth, implementation details, or novel insights beyond basic capability listing."
+    },
+    "https://openai.com/index/introducing-trusted-contact-in-chatgpt": {
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "source": "OpenAI News",
+      "date": "Thu, 07 May 2026 00:00:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Brief product announcement with minimal technical detail or strategic insight; lacks depth on implementation, effectiveness data, or broader implications for AI safety governance."
+    },
+    "https://openai.com/index/testing-ads-in-chatgpt": {
+      "title": "Testing ads in ChatGPT",
+      "source": "OpenAI News",
+      "date": "Thu, 07 May 2026 00:00:00 GMT",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-pricing-packaging-saas",
+        "ai-native-product-design"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Brief announcement with no analysis, implementation details, or business model insights beyond surface-level advertising introduction."
+    },
+    "https://openai.com/index/simplex": {
+      "title": "Simplex rethinks software development with Codex",
+      "source": "OpenAI News",
+      "date": "Thu, 07 May 2026 00:00:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Superficial marketing announcement with no specific details about implementation, results, or frameworks; lacks concrete data or novel insights about AI-driven software development workflows."
+    },
+    "https://openai.com/index/how-chatgpt-protects-privacy": {
+      "title": "How ChatGPT learns about the world while protecting privacy",
+      "source": "OpenAI News",
+      "date": "Wed, 06 May 2026 08:00:00 GMT",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Marketing-focused summary of privacy features without technical depth, novel insights, or substantive analysis of implementation details or trade-offs."
+    },
+    "https://openai.com/index/introducing-b2b-signals": {
+      "title": "How frontier firms are pulling ahead",
+      "source": "OpenAI News",
+      "date": "Wed, 06 May 2026 00:00:00 GMT",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 6,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Appears to be promotional summary lacking substantive analysis, specific data, frameworks, or actionable insights about enterprise AI adoption patterns."
+    },
+    "https://openai.com/index/singular-bank": {
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "source": "OpenAI News",
+      "date": "Wed, 06 May 2026 00:00:00 GMT",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level case study with no technical detail, implementation insights, or novel frameworks\u2014just a brief productivity claim without substantive analysis."
+    },
+    "https://openai.com/index/uber": {
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "source": "OpenAI News",
+      "date": "Wed, 06 May 2026 00:00:00 GMT",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Extremely shallow marketing announcement with no technical details, implementation specifics, business metrics, or insights about how the AI features actually work or their impact."
+    },
+    "https://openai.com/index/introducing-chatgpt-futures-class-of-2026": {
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "source": "OpenAI News",
+      "date": "Wed, 06 May 2026 00:00:00 GMT",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Promotional announcement about a student program with no substantive technical details, use case analysis, or insights into AI implementation or strategy."
+    },
+    "https://openai.com/index/mrc-supercomputer-networking": {
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "source": "OpenAI News",
+      "date": "Tue, 05 May 2026 10:00:00 GMT",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Brief announcement with minimal technical detail or analysis; lacks depth on protocol design, implementation specifics, or comparative performance data that would make it actionable knowledge"
+    },
+    "https://openai.com/index/gpt-5-5-instant-system-card": {
+      "title": "GPT-5.5 Instant System Card",
+      "source": "OpenAI News",
+      "date": "Tue, 05 May 2026 10:00:00 GMT",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Article appears to be just a title/header with no actual content, analysis, or information about GPT-5.5 Instant's capabilities, safety evaluations, or system design."
+    },
+    "https://openai.com/index/gpt-5-5-instant": {
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "source": "OpenAI News",
+      "date": "Tue, 05 May 2026 10:00:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Extremely brief product announcement with no technical details, analysis, or substantive information beyond basic feature claims."
+    },
+    "https://openai.com/index/advancing-youth-safety-in-emea": {
+      "title": "Advancing youth safety and wellbeing in EMEA",
+      "source": "OpenAI News",
+      "date": "Tue, 05 May 2026 00:00:00 GMT",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Corporate social responsibility announcement about youth safety grants and policies, not substantive technical or business AI content relevant to specified topics."
+    },
+    "https://openai.com/index/new-ways-to-buy-chatgpt-ads": {
+      "title": "New ways to buy ChatGPT ads",
+      "source": "OpenAI News",
+      "date": "Tue, 05 May 2026 00:00:00 GMT",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-pricing-packaging-saas",
+        "ai-in-marketing-content"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement about advertising features with no substantive analysis, technical details, or strategic insights into AI business models or implementation."
+    },
+    "https://openai.com/index/openai-pwc-finance-collaboration": {
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "source": "OpenAI News",
+      "date": "Mon, 04 May 2026 21:00:00 GMT",
+      "composite": 4.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "build-vs-buy-enterprise-ai",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Press release announcement with no technical details, implementation specifics, or original analysis of how AI agents will transform CFO workflows."
+    },
+    "https://openai.com/index/delivering-low-latency-voice-ai-at-scale": {
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "source": "OpenAI News",
+      "date": "Mon, 04 May 2026 00:00:00 GMT",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "inference-efficiency",
+        "model-architecture",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "status": "integrated"
+    },
+    "https://openai.com/index/advanced-account-security": {
+      "title": "Introducing Advanced Account Security",
+      "source": "OpenAI News",
+      "date": "Thu, 30 Apr 2026 00:00:00 GMT",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Generic product announcement about standard security features (MFA, account recovery) with no analysis, technical details, or novel insights about AI-specific security challenges."
+    },
+    "https://openai.com/index/where-the-goblins-came-from": {
+      "title": "Where the goblins came from",
+      "source": "OpenAI News",
+      "date": "Wed, 29 Apr 2026 20:00:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 3,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Surface-level anecdote about quirky model behavior without substantive technical analysis, root cause investigation, or actionable insights for AI systems development."
+    },
+    "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age": {
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "source": "OpenAI News",
+      "date": "Wed, 29 Apr 2026 15:00:00 GMT",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Article is a brief announcement with no technical details, analysis, or novel insights about compute infrastructure; lacks depth on architecture, implementation, or strategic implications."
+    },
+    "https://openai.com/index/cybersecurity-in-the-intelligence-age": {
+      "title": "Cybersecurity in the Intelligence Age",
+      "source": "OpenAI News",
+      "date": "Wed, 29 Apr 2026 04:00:00 GMT",
+      "composite": 3.33,
+      "depth": 3,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement of action plan without substantive analysis, technical details, or novel frameworks for AI cybersecurity implementation"
+    },
+    "https://openai.com/index/openai-on-aws": {
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "source": "OpenAI News",
+      "date": "Tue, 28 Apr 2026 00:00:00 GMT",
+      "composite": 3.33,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Brief partnership announcement with no implementation details, technical analysis, or insights into enterprise adoption patterns or strategic implications."
+    },
+    "https://openai.com/index/our-commitment-to-community-safety": {
+      "title": "Our commitment to community safety",
+      "source": "OpenAI News",
+      "date": "Tue, 28 Apr 2026 00:00:00 GMT",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Generic corporate blog post about safety commitments with no specific technical details, novel frameworks, or actionable insights beyond surface-level PR messaging."
+    },
+    "https://openai.com/index/openai-available-at-fedramp-moderate": {
+      "title": "OpenAI available at FedRAMP Moderate",
+      "source": "OpenAI News",
+      "date": "Mon, 27 Apr 2026 14:00:00 GMT",
+      "composite": 3.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "regulatory-policy"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Brief announcement with no analysis of implementation details, compliance implications, or strategic context beyond stating FedRAMP authorization achievement."
+    },
+    "https://openai.com/index/next-phase-of-microsoft-partnership": {
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "source": "OpenAI News",
+      "date": "Mon, 27 Apr 2026 06:00:00 GMT",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Brief corporate announcement with no substantive details about the partnership changes, investment terms, governance modifications, or strategic implications\u2014lacks depth and actionable insights."
+    },
+    "https://openai.com/index/open-source-codex-orchestration-symphony": {
+      "title": "An open-source spec for orchestration: Symphony",
+      "source": "OpenAI News",
+      "date": "Mon, 27 Apr 2026 00:00:00 GMT",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement of a spec without technical depth, original research, or substantial implementation details about the orchestration framework."
+    },
+    "https://openai.com/index/choco": {
+      "title": "Choco automates food distribution with AI agents",
+      "source": "OpenAI News",
+      "date": "Mon, 27 Apr 2026 00:00:00 GMT",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional case study with no technical depth, novel frameworks, or actionable insights beyond generic 'AI streamlined operations' narrative."
+    },
+    "https://openai.com/index/our-principles": {
+      "title": "Our principles",
+      "source": "OpenAI News",
+      "date": "Sun, 26 Apr 2026 16:00:00 GMT",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "status": "skipped",
+      "skip_reason": "Generic mission statement with no substantive analysis, new information, or actionable insights about AI development or deployment."
+    }
+  }
 }
