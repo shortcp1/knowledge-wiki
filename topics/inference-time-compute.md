@@ -1,5 +1,5 @@
 ---
-tags: [ai-research-automation, alphago, best-of-n-sampling, chain-of-thought, credit-assignment, credit-assignment-problem, inference-time-compute, inference-time-scaling, mcts, monte-carlo-tree-search, off-policy-training, policy-gradient, reasoning-models, reinforcement-learning, rejection-sampling, rl-training-targets, self-consistency, self-play, self-refinement]
+tags: [ai-research-automation, alphago, best-of-n-sampling, chain-of-thought, credit-assignment, credit-assignment-problem, deepseek-r1, grpo, inference-time-compute, inference-time-scaling, mcts, monte-carlo-tree-search, off-policy-training, policy-gradient, post-training, reasoning-models, reinforcement-learning, rejection-sampling, rl-training-targets, rlvr, self-consistency, self-play, self-refinement, training-costs]
 ---
 
 # Inference-Time Compute & Reasoning Models
@@ -24,31 +24,17 @@ Key questions tracked: What is the scaling law for inference-time compute? When 
 
 **Latent variable modeling perspective**: 
 - Mathematical formulation: $P(y \mid x) = \sum_{z \sim p(z\mid x)} P(y \mid x, z)$
-  - $x$ = problem statement
-  - $y$ = ground truth answer/proof  
-  - $z$ = free-form thought process (CoT)
-- **Implication**: Multiple parallel CoTs or CoT search can be viewed as sampling from posterior
 
-### MCTS and Credit Assignment (Jang, May 2026)
+### Reasoning Model Definition (Raschka, Dec 2025)
+- **Operational definition**: In LLM context, reasoning means the model explains its answer, and this explanation itself often leads to improved answer accuracy
+- **Behavior characterization**: Model generates intermediate steps/traces rather than direct short responses
+- **Alternative terminology**: Often called "thinking" models in industry
 
-**AlphaGo's MCTS advantage**: Monte Carlo Tree Search provides "a strictly better action every single move, giving you a training target that sidesteps the credit assignment problem" (Jang)
-- **Credit assignment in naive policy gradient RL**: Must figure out which of the 100k+ tokens in a trajectory actually led to the correct answer
-- **MCTS superiority**: Suggests an improved action at each decision point, avoiding the need to attribute credit across long sequences
-- **Human learning analogy**: "The way humans learn is surely closer to" the MCTS approach rather than naive policy gradient (Jang assessment)
+### OpenAI o1 and DeepSeek R1 Timeline (2024-2025)
+- **OpenAI o1**: Released before January 2025, "added reasoning traces" and changed how LLMs behaved/felt in practice
+- **Pre-R1 observation**: "Scaling still worked, but it didn't really change how LLMs behaved or felt in practice (the only exception to that was OpenAI's freshly released o1)" (Raschka assessment)
+- **DeepSeek R1 significance**: Released January 2025, "showed that reasoning-like behavior can be developed with reinforcement learning" - described as "a really big deal"
+- **Industry shift**: Following DeepSeek R1, every major open-weight and proprietary LLM developer released reasoning variant (observation through 2025)
+- **Training approach**: See [[post-training-rlhf]] for RLVR/GRPO methods used to develop reasoning capabilities
 
-**MCTS limitations for LLMs**: Discussion notes that MCTS "doesn't work for LLMs" (context suggests architectural or computational barriers, specifics from episode timestamps 01:45:47)
-
-### Historical Context (Jang, May 2026)
-
-**AlphaGo as foundational example**: "AlphaGo is still the cleanest worked example of the primitives of intelligence: search, learning from experience, and self-play" (Jang)
-- **Retrospective value**: Understanding AlphaGo (2017 technology) provides insight into "how the more general AIs of the future might learn"
-- **Computational complexity**: AlphaGo solved a problem "long understood to be intractable for search" through deep learning
-- **Amortization mystery**: How a "ten-layer network can amortize the simulation of something so deep in the game tree" remains conceptually interesting
-
-**KataGo efficiency gains (2020)**: Open-source project by David Wu (Jane Street) achieved "40x reduction in the compute needed to train a really strong Go bot tabula rasa"
-- **Performance**: Uncertain if stronger than AlphaGo Zero/AlphaZero/MuZero, but "very strong" and widely used by Go practitioners
-- **Modern accessibility**: What required "a whole team of research scientists at DeepMind and millions of dollars" can now be done "for a few thousand [dollars]" with LLM coding assistance (as of 2026)
-
-## Cross-References
-
-See [[post-training-rlhf]] for related reinforcement learning training approaches and credit assignment challenges.
+##

@@ -1,5 +1,5 @@
 ---
-tags: [agentic-tasks, api-pricing-economics, attention-mechanisms, autonomy, batch-size-latency-tradeoff, batch-size-optimization, chinchilla-scaling, claude-opus, edge-compute, edge-deployment, encoder-free-early-fusion, full-duplex-interaction, gpu-cluster-design, grouped-query-attention, inference-cost, inference-efficiency, latency-optimization, llm-architecture, local-inference, local-vs-cloud-tradeoffs, low-latency-inference, mixture-of-experts, model-distillation, model-parallelism, multi-head-attention, multimodal-fusion, onboard-ai, physical-ai, pipeline-parallelism, qwen, realtime-voice, reinforcement-learning, safety-critical-systems, sglang, sim-to-real, simulation, sparse-attention, statistical-safety, token-cost-optimization, tokenmaxxing, tpu-architecture, vehicle-operating-systems, voice-activity-detection]
+tags: [agentic-ai, agentic-inference, agentic-tasks, api-pricing-economics, attention-mechanisms, autonomy, aws-inferentia, aws-infrastructure, aws-trainium, batch-size-latency-tradeoff, batch-size-optimization, capital-cost-conversion, cerebras, chinchilla-scaling, claude-opus, cloud-infrastructure, commodity-markets, custom-silicon, edge-compute, edge-deployment, encoder-free-early-fusion, full-duplex-interaction, gpu-alternatives, gpu-cluster-design, graviton, grouped-query-attention, hbm, heterogeneous-compute, inference-cost, inference-efficiency, inference-era, inference-workloads, latency-optimization, latency-vs-throughput, llm-architecture, local-inference, local-vs-cloud-tradeoffs, logistics-as-service, low-latency-inference, memory-bandwidth, memory-bandwidth-bound, mixture-of-experts, model-distillation, model-parallelism, multi-head-attention, multimodal-fusion, nitro, onboard-ai, physical-ai, pipeline-parallelism, prefill-decode, prefill-decode-disaggregation, primitives-strategy, qwen, realtime-voice, reinforcement-learning, safety-critical-systems, sglang, sim-to-real, simulation, sparse-attention, statistical-safety, token-cost-optimization, tokenmaxxing, tpu-architecture, vehicle-operating-systems, voice-activity-detection]
 ---
 
 # Inference Efficiency
@@ -16,35 +16,26 @@ Key questions tracked: What is the current cost-per-token trajectory? Where does
   - Reduces long-context memory footprint and compute requirements
   - Implemented in Gemma 4 E2B and E4B models (April 2026)
   - Based on research: Brandon et al., "Reducing Transformer Key-Value Cache Size with Cross-Layer Attention" (NeurIPS 2024)
-- **Compressed attention**: Multiple architectures implementing compressed attention variants for KV cache reduction
-  - ZAYA1-8B: Compressed convolutional attention
-  - DeepSeek V4: mHC (multi-head compressed) plus compressed attention
-  - See [[model-architecture]] for attention mechanism variants
-- **Layer-wise attention budgeting**: Poolside
 
-### Local vs. Cloud Inference Economics (May 2026)
-- **Localmaxxing Pattern (Tunguz, Theory Ventures, May 2026)**: Individual user experiment running local models for routine work to optimize for latency over quality
-  - **Business problem**: Reducing latency for high-frequency, low-complexity agent tasks
-  - **Pattern**: Local inference on consumer hardware (MacBook Pro M5 with Qwen 3.6 35B-A3B-4bit quantized model)
-  - **User**: VC/knowledge worker
-  - **Workload analysis** (1,478 AI tasks over 5 weeks):
-    - 50% of tasks suitable for local models
-    - Suitable categories: Email & Inbound (11.5%), Scheduling (17.2%), Summarization (12.4%), Admin (0.7%) = 41.8%
-    - Split categories: Market Research (13.0%), Engineering (9.9%) - simple tasks work locally, complex require cloud
-    - Cloud-required: Other/unstructured (35.3%), complex synthesis, architectural decisions
-  - **Performance comparison** (Local Qwen 3.6 35B vs. Cloud Claude Opus 4.5):
-    - **Latency**: Local 2x faster for routine agent tasks
-    - **Quality gap**: Cloud model ~20% higher on reasoning benchmarks
-    - **Output characteristics**: Cloud produces better structure/polish; local produces terser output ("often half the tokens")
-    - **Task completion**: Both completed test tasks correctly for routine work
-  - **Key insight**: "For agent tasks where output feeds into another system, terseness is a feature"
-  - **Trade-off calculus**: For 50% of workload, 2x latency improvement worth quality trade-off
-  - **Economic drivers**:
-    1. **Latency** (primary): "the only one that really matters"
-    2. Privacy (secondary)
-    3. Cost (secondary)
-    4. Asset depreciation ("MacBook Pro depreciates whether you use it or not. Running local inference extracts compute value from a sinking asset before resale.")
-  - **Lag dynamics**: "Local models lag frontier by 3-4 months, and for large-scale complex tasks, that gap matters. But for routine agent tasks, it rarely does."
-  - **Trend prediction**: "As local models improve & close the gap with frontier, more users will shift workloads to their own hardware"
-  - **Generalizability**: Pattern applies to any high-frequency knowledge work with mix of routine and complex tasks - especially roles with >10 agent interactions/day where latency compounds
-  - See [[agentic-workflows-production]] for task categorization patterns
+### Custom Silicon for Inference Cost Advantage (May 2026)
+- **AWS Graviton (ARM processors) strategy**: Amazon developed custom ARM chips as cost-optimized alternative to Intel/AMD for Platform-as-a-Service workloads
+  - Early generations (Graviton 1-2) were inferior in raw performance to Intel/AMD but viable for managed services (RDS, etc.) where Amazon controls the stack
+  - Provides structural cost advantage by allowing AWS to offer PaaS services at lower internal cost
+  - Works in tandem with Nitro system (specialized chips for server management, networking, storage, hypervisor offloading)
+  - Strategic pattern: Convert commodity compute into differentiated cost structure through custom silicon + vertical integration
+  - *Context: Thompson (May 2026) frames this as Amazon's long-term infrastructure bet paying off in "inference era" vs. "training era"*
+
+- **Nitro system architecture**: AWS custom chip system that offloads server management from main CPU
+  - Functions: Network management, storage management, hypervisor management
+  - Impact: Increases virtual machine density per physical server (higher utilization rate)
+  - Provides structural cost advantage in commodity cloud market
+
+### Inference Era vs. Training Era Market Dynamics (May 2026)
+- **Amazon positioning shift**: Thompson thesis (May 2026) argues Amazon appeared behind in AI during "training era" but is well-positioned for "inference era"
+  - Reasoning: Inference workloads favor companies with (1) existing large-scale infrastructure, (2) custom silicon for cost optimization, (3) decade-long capital investment cycles
+  - AWS custom chip investments (Graviton, Nitro, Inferentia, Trainium) provide structural cost advantages for inference workloads at scale
+  - *Note: This is analytical framework, not empirical measurement. Would require market share data, customer migration patterns, and comparative pricing analysis to validate.*
+
+## Cross-References
+- [[build-vs-buy-enterprise-ai]] - Cloud vendor selection and cost models
+- [[custom-silicon-ai-chips]] - Broader landscape of custom AI accelerators

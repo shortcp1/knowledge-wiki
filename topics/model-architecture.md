@@ -1,5 +1,5 @@
 ---
-tags: [anthropic, arcee-ai, ascend-npu, attention-mechanisms, automated-research, export-controls, gated-attention, gemma, glm, grouped-query-attention, hifloat4, inference-efficiency, llm-architecture, low-precision-training, mixture-of-experts, model-architecture, model-architecture-comparison, multi-head-attention, nope, open-weight-models, qk-norm, sliding-window-attention, sparse-attention, weak-to-strong-supervision]
+tags: [anthropic, arcee-ai, ascend-npu, attention-mechanisms, automated-research, context-length, deepseek, encoder-decoder-architecture, export-controls, gated-attention, gemma, glm, grouped-query-attention, hifloat4, inference-efficiency, llm-architecture, low-precision-training, mixture-of-experts, model-architecture, model-architecture-comparison, model-efficiency, model-training-pipeline, multi-head-attention, nope, open-weight-models, positional-encoding, qk-norm, reasoning-models, relative-position-encoding, rotary-embeddings, rotary-position-embedding, scaled-dot-product-attention, self-attention, sliding-window-attention, sparse-attention, transformer-architecture, weak-to-strong-supervision]
 ---
 
 # Model Architecture
@@ -10,42 +10,59 @@ Key questions tracked: Is MoE the dominant path to scale? Where are SSMs competi
 
 ## Key Claims
 
-### DeepSeek V4 Architecture (May 2026)
-- **V4 Pro**: 1.6T total parameters with 49B active parameters (MoE architecture)
-- **V4 Flash**: 284B total parameters with 13B active parameters (MoE architecture)
-- **Performance observation**: Flash variant reported as "real star of the show" with relatively strong performance despite smaller size, while Pro "seems to underdeliver relative to its size" (community assessment, not formal benchmark)
-- **Long-context optimizations**: Tech report details architectural changes for "better and cheaper long-context performance" (specifics not provided in excerpt)
-- **mHC (multi-head compressed attention)**: DeepSeek V4 implements mHC plus compressed attention for KV cache reduction (May 2026)
-- **Design motivation**: Architecture focused on reducing KV cache size, memory traffic, and attention cost for reasoning models and agent workflows that maintain many tokens over long contexts
-- **Release status**: As of March 22, 2026, DeepSeek V4 had not yet been released (Raschka observation)
+### Vanilla Transformer Architecture (2017)
+- **Encoder-decoder architecture**: Original Transformer uses encoder-decoder structure, as commonly used in NMT models (Vaswani et al., 2017)
+- **Simplified variants**: Later simplified Transformers showed strong performance:
+  - **Encoder-only**: BERT architecture
+  - **Decoder-only**: GPT architecture
+- **Core mechanism**: Scaled dot-product attention as fundamental operation
 
-### MoE Model Size Trends (May 2026)
-- **Xiaomi MiMo-V2.5-Pro**: Unspecified MoE architecture, competitive with other flagship models
-- **Google Gemma 4*
+### Attention Mechanisms
 
-### Arcee AI Trinity Large (January 2026)
-- **Model family**: Three variants released Jan 27, 2026
-  - Trinity Large: 400B total parameters, 13B active (MoE)
-  - Trinity Mini: 26B total, 3B active
-  - Trinity Nano: 6B total, 1B active
-- **Sliding window attention (SWA)**: Alternating local:global attention layers with 3:1 ratio (differs from Gemma 3/Xiaomi's 5:1)
-  - Window size: 4096 tokens (similar to Olmo 3)
-  - Reduces attention cost from O(n²) to O(n·t) for sequence length n and window size t
-  - Global layers support up to 256K token context
-- **QK-Norm**: Applies RMSNorm to keys and queries for training stability
-- **NoPE (No Positional Embeddings)**: Used in global attention layers (similar to SmolLM3)
-- **Gated attention**: Modified attention mechanism with elementwise gating to scaled dot-product before output projection
-  - Similar to Qwen3-Next approach (not full Gated DeltaNet)
-  - Purpose: Reduces attention sinks, improves long-sequence generalization, aids training stability
-- **RMSNorm placement**: Four RMSNorm layers per block (Gemma 3-like placement)
-  - Second RMSNorm in each block is depth-scaled: initialized to ~1/sqrt(L) where L = total layers
-  - Residual updates start small early in training, grow as model learns appropriate scale
-- **Base model performance**: Trinity Large and GLM-4.5 (355B) base models show "practically identical" performance (technical report comparison)
-- **Release format**: Open-weight with technical report on GitHub (Feb 18 also on arXiv)
+#### Scaled Dot-Product Attention (2017)
+- **Formula**: $\text{attn}(\mathbf{Q}, \mathbf{K}, \mathbf{V}) = \text{softmax}(\frac{\mathbf{Q} {\mathbf{K}}^\top}{\sqrt{d_k}})\mathbf{V}$
+- **Scalar attention score**: Between query $\mathbf{q}_i$ and key $\mathbf{k}_j$: $a_{ij} = \text{softmax}(\frac{\mathbf{q}_i {\mathbf{k}_j}^\top}{\sqrt{d_k}})$
+- **Output**: Weighted sum of value vectors, where weights determined by dot-product of query with corresponding key
+- **Scaling factor**: Division by $\sqrt{d_k}$ where $d_k$ is key dimension
 
-### Architectural Pattern Convergence (Jan-Feb 2026)
-- **Sliding window attention ratios**:
-  - 3:1 local:global: Arcee Trinity, Olmo 3
-  - 5:1 local:global: Gemma 3, Xiaomi MiMo
-- **QK-Norm adoption**: Increasingly common for training stability
-- **Gated attention mechanisms**: Appearing in multiple architectures (Qwen3-Next, Trinity) as alternative to full Gated DeltaNet
+#### Self-Attention Properties
+- **Definition**: Mechanism where model makes predictions for one part of data sample using other parts of same sample
+- **Permutation invariance**: Self-attention is an operation on sets (order-independent without positional encoding)
+- **Conceptual similarity**: Related to non-local means in signal processing
+
+#### Multi-Head Self-Attention
+- **Weight matrices per head**: $\mathbf{W}^k_i, \mathbf{W}^q_i \in \mathbb{R}^{d \times d_k/h}$; $\mathbf{W}^v_i \in \mathbb{R}^{d \times d_v/h}$ where $h$ is number of heads
+- **Output projection**: $\mathbf{W}^o \in \mathbb{R}^{d_v \times d}$
+- **Standard dimensions**: Often $d_k = d_v = d$ (model dimension)
+
+### Positional Encoding Variants
+
+#### Sinusoidal Positional Encoding (2017)
+- **Type**: Fixed, non-learned positional encoding in original Transformer
+- **Encoding matrix**: $\mathbf{P} \in \mathbb{R}^{L \times d}$ where $\mathbf{p}_i$ is positional encoding for input $\mathbf{x}_i$
+
+#### Learned Positional Encoding
+- **Type**: Trainable positional embeddings (alternative to sinusoidal)
+
+#### Relative Position Encoding
+- **Type**: Encodes relative rather than absolute positions
+- **Cross-reference**: See [[attention-mechanisms]] for implementation details
+
+#### Rotary Position Embedding (RoPE)
+- **Type**: Rotation-based positional encoding
+- **Cross-reference**: See [[attention-mechanisms]] for technical details
+
+### DeepSeek V3 Architecture (December 2024)
+- **Base model release**: DeepSeek V3 released December 2024 as base model
+- **Architecture foundation**: Used as base for DeepSeek R1 reasoning model (identical architecture with additional post-training)
+- **Design pattern**: Base model approach (as opposed to hybrid reasoning model)
+
+### DeepSeek V3.2 Architecture (December 2025)
+- **Release date**: January 1, 2026 (final update); initial release December 2025
+- **Performance claim**: Benchmarks show performance on par with GPT-5 and Gemini 3.0 Pro level (per DeepSeek V3.2 report)
+- **Status**: Available as open-weight model
+- **Sparse attention variant**: Uses "non-standard sparse attention variant that requires custom code" (specifics not detailed in excerpt)
+- **Experimental release**: DeepSeek V3.2-Exp released prior to V3.2 to prepare ecosystem and inference infrastructure for custom sparse attention implementation
+
+### DeepSeek V3.1 (2025)
+- **Release status**: Smaller

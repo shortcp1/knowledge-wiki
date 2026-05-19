@@ -210,3 +210,75 @@ This content would fit better in a dedicated topic on data quality, active learn
 ---
 **Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO** (Latent Space Podcast, Wed, 22 Apr 2026 19:33:00 GMT)
 **Sydney AI Personality Context (Historical)**: Mikhail Parakhin was involved in Bing's Sydney era. Key claim: "Sydney's personality was not an accident" - it was deliberately shaped. This suggests early intentional design choices around AI character and personality that later became controversial. Parakhin "learned from deliberately shaping AI character early on" during this period. This is historical context about AI personality design but doesn't fit cleanly into current production agent patterns.
+
+---
+**Project Glasswing: what Mythos showed us** (manual, 2026-05-18T22:26:05.581302+00:00)
+## Mythos Preview Security Model Capabilities (Anthropic, May 2026)
+
+**Source**: Cloudflare Project Glasswing evaluation
+
+### Core Capability Claims
+
+**Exploit Chain Construction**
+- **Capability**: Can chain multiple low-severity bugs into single, more severe exploit
+- **Process**: Takes several attack primitives and reasons about combining them into working proof
+- **Example workflow**: Turn use-after-free bug → arbitrary read/write primitive → hijack control flow → ROP chains → full system control
+- **Quality observation**: "Reasoning it shows along the way looks like the work of a senior researcher rather than the output of an automated scanner" (Cloudflare assessment)
+- **Comparative advantage**: Other frontier models in same harness found same underlying bugs but "fell short at the point of stitching the pieces together" - would identify bug, write description, then stop without completing exploit chain
+
+**Proof Generation with Iteration Loop**
+- **Capability**: Writes code to trigger suspected bug, compiles in scratch environment, runs it
+- **Iteration**: If program doesn't behave as expected, reads failure, adjusts hypothesis, tries again
+- **Significance**: "A suspected flaw without a working proof is speculation, and Mythos Preview closes that gap on its own"
+- **Distinguishing factor**: Finding bug vs. proving exploitability - model does both
+
+### Architectural Characteristics
+- **Model type**: Security-focused LLM (specialized variant, not general-purpose)
+- **Release context**: Part of "Project Glasswing" early access program
+- **Safeguard status**: Version tested did not have "additional safeguards that are present in generally available models (like Opus 4.7 or GPT-5.5)"
+- **Relationship to general models**: Unclear if Mythos Preview is architectural variant or fine-tuned version of existing Anthropic model
+
+### Characterization
+- **Cloudflare assessment**: "Real step forward" representing qualitative capability jump
+- **Nature of advancement**: "Not just a refinement of what came before" but "different kind of tool doing a different kind of work"
+- **Timeline**: Testing conducted "last few months" prior to May 18, 2026 publication
+
+**Cross-references needed**: [[ai-safety-and-dual-use]] for dual-use implications, [[evals-production-deployment]] for evaluation methodology
+
+---
+**Amazon's Durability** (Stratechery (Ben Thompson), Tue, 05 May 2026 10:01:14 +0000)
+**Amazon Primitives Strategy Pattern (May 2026)**
+- Amazon's consistent playbook across business lines: (1) Build infrastructure "primitives" with Amazon as first customer, (2) justify massive capital expenditure through internal use, (3) sell primitives to third parties for leverage
+- Pattern repeated: AWS (2006+), Amazon.com marketplace/fulfillment (2000s+), Amazon Logistics/Supply Chain Services (2016 prediction → 2026 formal launch as ASCS)
+- ASCS offering: Consolidated package of air/ocean freight, trucking, last-mile delivery to enterprises (P&G, 3M cited as early customers)
+- Bloomberg reported impact: FedEx and UPS shares declined on announcement
+- Strategic timeline: Thompson's 2016 Article "The Amazon Tax" predicted logistics-as-a-service; formal launch 10 years later validates decade-long capital investment cycles
+
+*This content covers Amazon's business model evolution and competitive positioning. It connects to AI through infrastructure economics but doesn't fit cleanly into existing technical or organizational topics. Potential new topic: [[platform-primitives-strategy]] or [[infrastructure-capex-strategies]].*
+
+---
+**Notion’s Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future — Simon Last & Sarah Sachs of Notion** (Latent Space Podcast, Wed, 15 Apr 2026 00:31:14 GMT)
+**Notion AI Organization & Culture (April 2026)**
+- **AI Engineering Leadership (Sarah Sachs, "Token Town")**: 
+  - Objective-setting over idea ownership
+  - Low-ego teams comfortable deleting their own work
+  - Culture designed to swarm around fast-changing opportunities
+  - "Demos over memos" - prototypes built in Notion are easier to share internally
+- **Company Structure for AI**:
+  - Core AI capabilities and infrastructure team
+  - Product packaging teams
+  - Broader mandate: every product surface must increasingly work for both humans and agents
+- **"Simon Vortex"**: Pattern of cross-functional swarming, including pulling security in early rather than late
+- **Company Hackathons**: Used to explore AI capabilities
+- **Role Evolution**: Software engineers shifting from typing code to supervising rigorous outer systems of agents, PRs, and verification loops
+
+**Notion Technical Investment Areas (April 2026)**
+- **Not building foundation models**: Notion is "not eager to train a foundation model"
+- **Active fine-tuning and optimization**: Doing targeted model work but not foundational pre-training
+- **Retrieval/Ranking as Critical Investment**: One of most important areas as more searches come from agents rather than humans
+- **Meeting Notes as Growth Loop**: Positioned as high-signal data capture, not just transcription; became one of strongest growth drivers
+
+**Software Factory Concept (Notion, April 2026)**
+- **Vision**: Agents handling specs, self-verification, bug flows, subagents
+- **Design Principle**: Minimize human intervention while preserving critical invariants
+- **Implication**: Coding agents seen as "kernel of AGI" - the primitive from which more complex agent systems can be built
