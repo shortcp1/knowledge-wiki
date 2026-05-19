@@ -196,6 +196,8 @@
   },
   "active": "c4e7452b52329e07",
   "lastOpenFiles": [
+    "topics/attention-mechanisms.md",
+    "logs/2026-05-19.md",
     "topics/ai-engineering-agents.md",
     "topics/ai-b2b-saas.md",
     "topics/agentic-workflows-production.md",
@@ -220,7 +222,6 @@
     "topics/lab-dynamics.md",
     "topics/gpu-architecture-training-infra.md",
     "topics/data-moats-proprietary-advantages.md",
-    "topics/ai-professional-services.md",
-    "topics/evals-production-deployment.md"
+    "topics/ai-professional-services.md"
   ]
 }
