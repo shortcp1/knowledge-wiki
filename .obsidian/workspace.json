@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/(38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work..md",
+                "file": "Clippings/Is It Really Impossible To Cool A Datacenter In Space?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work."
+              "title": "Is It Really Impossible To Cool A Datacenter In Space?"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/(38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work..md",
+                "file": "Clippings/Is It Really Impossible To Cool A Datacenter In Space?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for (38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work."
+              "title": "Backlinks for Is It Really Impossible To Cool A Datacenter In Space?"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/(38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work..md",
+                "file": "Clippings/Is It Really Impossible To Cool A Datacenter In Space?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from (38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work."
+              "title": "Outgoing links from Is It Really Impossible To Cool A Datacenter In Space?"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/(38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work..md",
+                "file": "Clippings/Is It Really Impossible To Cool A Datacenter In Space?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work."
+              "title": "Outline of Is It Really Impossible To Cool A Datacenter In Space?"
             }
           },
           {
@@ -196,8 +196,9 @@
   },
   "active": "c4e7452b52329e07",
   "lastOpenFiles": [
-    "ARCHIVE.md",
     "Clippings/(38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work..md",
+    "Clippings/Is It Really Impossible To Cool A Datacenter In Space?.md",
+    "ARCHIVE.md",
     "logs/2026-05-19.md",
     "Clippings",
     "logs/2026-05-18.md",
@@ -222,7 +223,6 @@
     "topics/ai-pricing-packaging-saas.md",
     "topics/build-vs-buy-enterprise-ai.md",
     "topics/lab-dynamics.md",
-    "topics/gpu-architecture-training-infra.md",
-    "topics/data-moats-proprietary-advantages.md"
+    "topics/gpu-architecture-training-infra.md"
   ]
 }
