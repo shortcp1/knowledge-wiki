@@ -3279,6 +3279,1247 @@
       ],
       "status": "skipped",
       "skip_reason": "Article provides only a landing page description with no substantive content, analysis, or data to evaluate."
+    },
+    "https://www.anthropic.com/news/widening-conversation-ai": {
+      "title": "Widening Conversation Ai",
+      "source": "Anthropic Blog",
+      "date": "2026-05-20T13:13:55.626999+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-governance-risk-compliance",
+        "prompt-architecture"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Anthropic announces an initiative to engage with scholars from religious, philosophical, and cultural traditions to inform the moral formation of Claude AI. The company is seeking input from diverse wisdom traditions to shape Claude's constitution, values, and character development through training. This work aims to address questions about what it means for an AI system to be 'good' and how to develop AI character that remains resilient without becoming sycophantic.",
+      "tags": [
+        "claude-constitution",
+        "ai-values",
+        "moral-formation",
+        "character-development",
+        "constitutional-ai",
+        "wisdom-traditions"
+      ],
+      "status": "skipped",
+      "skip_reason": "Corporate announcement about stakeholder engagement process rather than substantive technical or strategic insights; lacks concrete findings, frameworks, or implementation details."
+    },
+    "https://www.anthropic.com/news/anthropic-kpmg": {
+      "title": "Anthropic Kpmg",
+      "source": "Anthropic Blog",
+      "date": "2026-05-20T13:13:55.620823+00:00",
+      "composite": 4.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-professional-services",
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "KPMG announces a global strategic alliance with Anthropic to deploy Claude across its 276,000+ workforce and embed it into Digital Gateway, its core client work platform, starting with tax, legal, and private equity services. The integration enables KPMG professionals to build AI agents and tools in minutes rather than weeks, with applications spanning cybersecurity vulnerability detection, tax regulation compliance, and client-facing services guided by KPMG's Trusted AI framework. This represents one of the largest enterprise AI deployments in professional services, with Claude becoming the infrastructure layer for knowledge work across audit, tax, legal, and advisory functions.",
+      "tags": [
+        "enterprise-deployment",
+        "professional-services",
+        "ai-agents",
+        "digital-gateway",
+        "tax-automation",
+        "cybersecurity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Press release announcement with minimal technical depth or novel insights into implementation mechanics, primarily focused on partnership scale and aspirational use cases rather than concrete outcomes or architectural decisions."
+    },
+    "https://www.deeplearning.ai/the-batch/ai-mammogram-diagnosis-under-real-world-conditions": {
+      "title": "Ai Mammogram Diagnosis Under Real World Conditions",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-20T13:13:49.408631+00:00",
+      "composite": 6.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-healthcare",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "summary": "Two studies evaluated Google's 2020 breast cancer detection AI system in real-world UK clinical settings, finding it identified slightly more cancers than the first human evaluator and 25% of cancers initially missed by doctors. The system achieved comparable performance to a second expert evaluator while potentially reducing human workload by 40%, though it sent 4% more cases to arbitration panels and faced trust issues from some clinicians. This represents an important real-world validation of medical AI beyond controlled research settings, though the system still hasn't been deployed for actual patient diagnosis.",
+      "tags": [
+        "medical-imaging",
+        "real-world-deployment",
+        "convolutional-neural-networks",
+        "sensitivity-specificity",
+        "human-ai-collaboration",
+        "clinical-validation"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/us-to-evaluate-upcoming-models": {
+      "title": "Us To Evaluate Upcoming Models",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-20T13:13:49.408587+00:00",
+      "composite": 6.0,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "regulatory-policy",
+        "evals-production-deployment",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The U.S. government announced a new multi-agency task force (TRAINS) that will evaluate AI models for national security risks before public deployment, marking a reversal from prior deregulatory policy. Leading AI companies including Google, Microsoft, xAI, Anthropic, and OpenAI agreed to submit models without guardrails for testing against cybersecurity, biosecurity, and chemical weapons benchmarks. This policy shift represents a significant change in AI governance, moving toward pre-deployment approval requirements that could fundamentally alter model release timelines and competitive dynamics.",
+      "tags": [
+        "pre-deployment-testing",
+        "nist-evaluation",
+        "national-security-ai",
+        "model-approval-process",
+        "trains-task-force",
+        "ai-safety-benchmarks"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/china-nixes-meta-manus-tie-up": {
+      "title": "China Nixes Meta Manus Tie Up",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-20T13:13:48.728875+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "agentic-workflows-production",
+        "funding-and-market-structure",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "China's National Development and Reform Commission blocked Meta's $2.5 billion acquisition of Manus, a Singapore-based agentic AI startup originally founded in China. The regulatory intervention cited security concerns over data transfers and foreign ownership, asserting Beijing's authority over strategically important technology developed by Chinese engineers regardless of relocation. This action has created a chilling effect on the \"Singapore strategy\" that Chinese AI startups used to pursue international investment and partnerships, forcing founders to cancel plans to move abroad or raise foreign capital.",
+      "tags": [
+        "ai-agents",
+        "regulatory-intervention",
+        "cross-border-acquisition",
+        "singapore-strategy",
+        "technology-sovereignty",
+        "china-us-tech-competition"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article provides timely reporting on regulatory action but lacks deeper analysis of mechanisms, implications for agentic technology development, or frameworks for understanding technology sovereignty dynamics beyond surface-level summary of events."
+    },
+    "https://mistral.ai/news/la-plateforme": {
+      "title": "La Plateforme",
+      "source": "Mistral Blog",
+      "date": "2026-05-20T13:13:43.635833+00:00",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "inference-efficiency",
+        "model-architecture",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "Mistral AI announces beta access to their API platform offering three generative text endpoints (mistral-tiny, mistral-small, mistral-medium) with varying performance/price tradeoffs and one embedding endpoint. The endpoints serve instruction-tuned versions of their open models including Mistral 7B and Mixtral 8x7B, with mistral-medium using an unreleased prototype model scoring 8.6 on MT-Bench. This represents Mistral's commercial deployment strategy, competing directly with OpenAI's API specifications while leveraging their mixture-of-experts architecture and NVIDIA's TensorRT-LLM for efficient inference.",
+      "tags": [
+        "mistral-api",
+        "mixture-of-experts",
+        "instruction-tuning",
+        "direct-preference-optimization",
+        "tensorrt-llm",
+        "mt-bench"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement with limited technical depth or novel insights; primarily describes endpoint availability and benchmark scores without original analysis or research"
+    },
+    "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/": {
+      "title": "Boston Metal gets a $75 million lifeline to produce critical metals",
+      "source": "MIT Technology Review",
+      "date": "2026-05-20T13:00:00+00:00",
+      "composite": 2.7,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "Boston Metal raised $75 million to pivot from clean steel production to critical metals (niobium, tantalum, tin, vanadium, nickel, chromium) using molten oxide electrolysis technology after an industrial accident at its Brazil facility caused cash-flow problems and layoffs. The company's MOE technology runs electric current through ore dissolved in molten electrolyte at 1,600\u00b0C to separate metals, with a commercial Brazil facility expected to restart in September 2026. The pivot to higher-value critical metals aims to prove the technology commercially before returning to the more challenging steel decarbonization market where customers are unwilling to pay green premiums.",
+      "tags": [
+        "molten-oxide-electrolysis",
+        "critical-metals",
+        "industrial-decarbonization",
+        "steel-production",
+        "niobium",
+        "tantalum"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers clean industrial manufacturing and critical metals production technology, with no connection to AI, semiconductors, or any of the specified enterprise AI use case topics."
+    },
+    "https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial/": {
+      "title": "The Download: fully artificial chicken eggs and why Musk lost",
+      "source": "MIT Technology Review",
+      "date": "2026-05-20T12:10:00+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a newsletter roundup from MIT Technology Review covering multiple unrelated stories including artificial chicken eggs at Colossal Biosciences, the Musk v. Altman lawsuit outcome, and various other tech news briefs. The content provides surface-level summaries and links to other articles without original analysis or depth. It does not meaningfully address any of the specified AI/tech topic areas relevant to an enterprise AI knowledge base.",
+      "tags": [
+        "newsletter",
+        "news-roundup",
+        "biotech",
+        "legal-dispute",
+        "cryopreservation"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a surface-level news digest with no original analysis, novel insights, or relevance to the specified topic areas around AI/ML systems, enterprise applications, or semiconductor/infrastructure domains."
+    },
+    "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction": {
+      "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
+      "source": "Last Week in AI",
+      "date": "2026-05-20T07:45:49+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance",
+        "ai-in-legal-compliance",
+        "evals-production-deployment",
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This podcast episode summarizes AI news from May 2026, covering OpenAI's voice API updates, Thinking Machines' conversational system, Anthropic's Claude for Legal vertical product, and various safety/policy developments. The discussion touches on latency-reasoning tradeoffs, platform-vs-application competition dynamics, alignment research including ethical reasoning training, and evaluation challenges for long-horizon tasks. It provides a broad weekly news roundup format rather than deep analysis of any single development.",
+      "tags": [
+        "voice-intelligence",
+        "conversational-ai",
+        "legal-tech",
+        "model-alignment",
+        "chain-of-thought",
+        "agent-evaluation",
+        "platform-competition"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news roundup covering multiple topics without original analysis or deep investigation into any single development."
+    },
+    "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash": {
+      "title": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+      "source": "Latent Space",
+      "date": "2026-05-20T03:34:17+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "multimodal-models",
+        "agentic-workflows-production",
+        "inference-efficiency"
+      ],
+      "content_type": "landscape",
+      "summary": "This article summarizes Google I/O 2026 announcements including Gemini 3.5 Flash (with 1M context, 4 thinking levels, thought preservation), Gemini Omni for multimodal video generation, and Antigravity 2.0 agent platform. The article primarily aggregates official claims about capabilities, benchmarks, and deployment metrics (3.2 quadrillion tokens/month, 900M+ users) from Google's announcements and social media. It provides a factual roundup of product launches but lacks original analysis or evaluation of the technical architecture or strategic implications.",
+      "tags": [
+        "gemini-3-5",
+        "multimodal-video-generation",
+        "agentic-models",
+        "thinking-levels",
+        "thought-preservation",
+        "context-length"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level summary of company announcements without original analysis, technical depth, or evaluation of claims; primarily aggregates press release content and official benchmarks without critical assessment or novel insights."
+    },
+    "https://openai.com/index/the-next-phase-of-education-for-countries": {
+      "title": "The next phase of OpenAI\u2019s Education for Countries",
+      "source": "OpenAI News",
+      "date": "2026-05-20T00:00:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "OpenAI announces an expansion of its Education for Countries initiative to increase AI adoption in schools through partnerships and teacher training programs. The article provides only high-level claims about partnerships and tools without specific technical details, implementation data, or concrete outcomes. This represents a corporate announcement about educational market expansion rather than substantive analysis of AI deployment or effectiveness.",
+      "tags": [
+        "education-initiative",
+        "teacher-training",
+        "government-partnerships",
+        "market-expansion"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate announcement without technical depth, specific implementation details, or clear mapping to enterprise AI topics; lacks data, frameworks, or novel insights about AI deployment."
+    },
+    "https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything": {
+      "title": "llm-gemini 0.32",
+      "source": "Simon Willison",
+      "date": "2026-05-19T23:46:27+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for llm-gemini plugin version 0.32, which adds support for Google's new Gemini 3.5 Flash model. The article provides no technical details, analysis, or evidence beyond stating the model is now available in the plugin. It references external notes that might contain more substantive content but the article itself is just a changelog entry.",
+      "tags": [
+        "gemini",
+        "llm-plugin",
+        "model-release"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a minimal changelog/release note with no analysis, technical depth, or substantive information about the model or its implications."
+    },
+    "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything": {
+      "title": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
+      "source": "Simon Willison",
+      "date": "2026-05-19T22:40:25+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-pricing-packaging-saas",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "Google released Gemini 3.5 Flash at general availability with a significant price increase (3x over 3 Flash Preview, 6x over 3.1 Flash-Lite) at $1.50/million input and $9/million output tokens, while deploying it across billions of users in their consumer products. The article provides benchmark cost comparisons showing 3.5 Flash costs more to run than the previous 3.1 Pro model, and notes this fits a broader industry trend of AI labs testing price tolerance with GPT-5.5 and Claude Opus 4.7 also showing significant price increases. This matters because it signals the major AI labs are simultaneously raising prices while expanding free consumer deployment, suggesting a shift in go-to-market strategy and willingness to absorb costs for market position.",
+      "tags": [
+        "gemini-3-5-flash",
+        "llm-pricing",
+        "model-release",
+        "api-pricing",
+        "price-increase",
+        "benchmark-costs"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement and price comparison without deep analysis of technical improvements, business strategy rationale, or novel insights beyond reporting the price increase trend"
+    },
+    "https://simonwillison.net/2026/May/19/datasette-llm-accountant/#atom-everything": {
+      "title": "datasette-llm-accountant 0.1a4",
+      "source": "Simon Willison",
+      "date": "2026-05-19T20:45:43+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a brief release note for datasette-llm-accountant version 0.1a4, announcing a bug fix for tracking chains of responses. The only technical detail provided is a reference to an issue (datasette-llm#7). This is a minimal changelog entry with no analysis, context, or implications discussed.",
+      "tags": [
+        "datasette",
+        "llm-tracking",
+        "release-notes"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a minimal software release note with no substantive content, analysis, or insights\u2014just a bug fix announcement."
+    },
+    "https://openai.com/index/introducing-openai-for-singapore": {
+      "title": "Introducing OpenAI for Singapore",
+      "source": "OpenAI News",
+      "date": "2026-05-19T20:30:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "OpenAI announces a multi-year partnership with Singapore to expand AI deployment across businesses and public services. The initiative focuses on three pillars: deployment expansion, local talent development, and business/public service support. This is a brief press announcement without technical details, evidence of impact, or specific frameworks that would inform AI strategy or implementation.",
+      "tags": [
+        "openai-partnership",
+        "singapore",
+        "public-sector-ai",
+        "talent-development",
+        "regional-deployment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level press announcement with no technical depth, novel insights, or actionable frameworks relevant to enterprise AI implementation, specific use cases, or technical architecture."
+    },
+    "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/": {
+      "title": "Roundtables: Inside the Musk v. Altman Trial",
+      "source": "MIT Technology Review",
+      "date": "2026-05-19T20:15:18+00:00",
+      "composite": 3.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a roundtable discussion recapping the Musk v. Altman trial, in which Elon Musk unsuccessfully sued OpenAI over allegations of deception regarding its non-profit status. The article provides links to related trial coverage but appears to be primarily a promotional piece for a video/audio discussion between MIT Technology Review staff. It offers retrospective commentary on a concluded legal case rather than original analysis or new information about AI development, governance, or business implications.",
+      "tags": [
+        "openai",
+        "elon-musk",
+        "sam-altman",
+        "nonprofit-governance",
+        "litigation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional content for a discussion about a concluded trial; lacks original analysis, new data, or actionable insights for AI business or technical decisions."
+    },
+    "https://www.fabricatedknowledge.com/p/nvidia-should-buyback-stock": {
+      "title": "Nvidia should buyback stock",
+      "source": "Fabricated Knowledge",
+      "date": "2026-05-19T14:34:11+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article appears to discuss Nvidia's stock buyback strategy following an earnings report. No actual content is accessible beyond the title and paywall notice. The article cannot be evaluated for substantive analysis, evidence, or impact.",
+      "tags": [
+        "nvidia",
+        "stock-buyback",
+        "earnings"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is behind a paywall and inaccessible; only title and subscription prompt are visible, preventing any meaningful evaluation of depth, novelty, or relevance to specified topic areas."
+    },
+    "https://openai.com/index/advancing-content-provenance": {
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "source": "OpenAI News",
+      "date": "2026-05-19T10:45:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI announces implementation of content provenance technologies including Content Credentials and SynthID to identify AI-generated media. The article mentions these tools as mechanisms to improve transparency and trust in AI-generated content. This represents an incremental step in AI safety infrastructure but provides no technical details, implementation specifics, or novel frameworks.",
+      "tags": [
+        "content-provenance",
+        "content-credentials",
+        "synthid",
+        "ai-generated-media",
+        "transparency"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement with no technical depth, implementation details, or novel insights beyond stating that provenance tools are being adopted."
+    },
+    "https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier": {
+      "title": "[AINews] How to land a job at a frontier lab (on Pretraining)",
+      "source": "Latent Space",
+      "date": "2026-05-19T07:31:40+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "lab-dynamics",
+        "gpu-architecture-training-infra",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Vlad Feinberg's guide for securing jobs at frontier AI labs, emphasizing kernel-level optimization work and pretraining expertise as the most direct entry path. The key evidence includes references to DeepMind's scaling handbook, the importance of DSL knowledge for kernel development, and a concrete exercise involving deriving Chinchilla laws and implementing custom Pallas kernels in JAX. This matters as it provides practical guidance for aspiring researchers on the specific technical skills frontier labs prioritize, particularly low-level performance optimization rather than just high-level ML knowledge.",
+      "tags": [
+        "kernel-optimization",
+        "pretraining",
+        "chinchilla-laws",
+        "mixture-of-experts",
+        "jax",
+        "pallas",
+        "frontier-labs",
+        "hiring"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/": {
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "source": "Google DeepMind",
+      "date": "2026-05-18T18:21:39+00:00",
+      "composite": 2.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article reports on DeepMind's application of AI to accelerate discovery of genetic interventions that could reverse cellular aging. The research uses machine learning models to identify promising genetic targets more quickly than traditional experimental methods. This represents a biotech/longevity application of AI but does not address AI technology infrastructure, enterprise deployment, or product applications.",
+      "tags": [
+        "cellular-aging",
+        "genetic-research",
+        "biotech-applications",
+        "drug-discovery"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on AI application in biological aging research, which does not map to any of the specified enterprise AI, AI infrastructure, or business deployment topic areas."
+    },
+    "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/": {
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "source": "Google DeepMind",
+      "date": "2026-05-17T19:53:18+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "Google DeepMind announces expanded access to Project Genie for Google AI Ultra subscribers, introducing a new capability that simulates real-world places using Street View data. The article provides minimal technical detail about the underlying mechanism or architecture of how Street View integration works with Genie's generative capabilities. This represents an incremental product announcement rather than a substantive technical or strategic development in AI deployment.",
+      "tags": [
+        "project-genie",
+        "street-view",
+        "world-simulation",
+        "google-deepmind",
+        "product-announcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with no technical depth, novel insights, or clear relevance to specified topic areas around AI deployment, architecture, or enterprise applications."
+    },
+    "https://deepmind.google/blog/introducing-gemini-omni/": {
+      "title": "Introducing Gemini Omni",
+      "source": "Google DeepMind",
+      "date": "2026-05-17T19:50:57+00:00",
+      "composite": 3.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "multimodal-models",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "Google DeepMind announces Gemini Omni, a new multimodal AI model. The article provides minimal technical details about capabilities, architecture, or performance benchmarks. This appears to be a brief product announcement rather than substantive technical documentation or analysis.",
+      "tags": [
+        "gemini",
+        "multimodal",
+        "google-deepmind",
+        "product-announcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement lacking technical depth, novel insights, or meaningful evidence about capabilities, architecture, or real-world performance"
+    },
+    "https://www.bain.com/insights/events/retails-big-show-asia-pacific/": {
+      "title": "Retails Big Show Asia Pacific",
+      "source": "Bain Insights",
+      "date": "2026-05-20T13:13:48.728620+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation page or website header from Bain & Company's website for 'Retail's Big Show Asia Pacific' event. The content consists entirely of navigation menus, office locations, and site structure elements with no substantive article content. There is no actual analysis, research, or information about retail, AI, or any substantive topic.",
+      "tags": [
+        "retail",
+        "asia-pacific",
+        "navigation-page"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content; this is merely a website navigation page with menus and office listings rather than an actual article with analysis or information."
+    },
+    "https://www.bvp.com/atlas/ada-architecting-fanatical-cx-loops-that-power-ai-agents": {
+      "title": "Ada Architecting Fanatical Cx Loops That Power Ai Agents",
+      "source": "Bessemer Atlas",
+      "date": "2026-05-20T13:13:33.180318+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-customer-success-support",
+        "ai-native-product-design",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article describes Ada's founding story, where co-founders spent months working as customer service agents before building an AI customer experience platform that now processes 1.5 trillion tokens monthly. The key insight was treating customer service as something to embrace rather than minimize at scale, leading them to build ML-powered automation that replicates what made great human agents effective. The company now serves 350+ enterprises with AI agents that in 2025 reportedly outperform human support teams.",
+      "tags": [
+        "customer-experience",
+        "ai-agents",
+        "token-processing",
+        "customer-support-automation",
+        "enterprise-cx"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level founder story and company overview without technical depth, novel frameworks, or actionable insights about how the AI system works or how enterprises should approach AI-powered customer service."
+    },
+    "https://www.bvp.com/atlas/inside-the-biggest-bet-in-corporate-history": {
+      "title": "Inside The Biggest Bet In Corporate History",
+      "source": "Bessemer Atlas",
+      "date": "2026-05-20T13:13:33.112179+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "inference-efficiency",
+        "ai-native-product-design",
+        "build-vs-buy-enterprise-ai",
+        "funding-and-market-structure",
+        "ai-in-product-and-engineering",
+        "ai-in-sales-gtm",
+        "ai-in-legal-compliance",
+        "ai-in-finance-accounting",
+        "ai-in-hr-talent"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that hyperscalers (AMZN, MSFT, GOOGL, META, ORCL) are making an $8T cumulative capex bet through 2031 on AI infrastructure, requiring $3T in incremental annual revenue to justify a 15% ROIC. It provides specific financial math showing this would require global software revenue to grow 4x to $6T (30% CAGR) over five to six years, with ~70% of compute serving external AI applications spending ~35% of revenue on inference costs. This represents the largest greenfield opportunity in business history, targeting $40T+ in annual knowledge worker services that will be displaced by AI-native applications built around tokens and outcomes rather than traditional software models.",
+      "tags": [
+        "hyperscaler-capex",
+        "inference-compute-economics",
+        "ai-native-applications",
+        "knowledge-worker-displacement",
+        "return-on-invested-capital",
+        "gpu-infrastructure"
+      ],
+      "status": "integrated"
+    },
+    "https://www.bvp.com/atlas/graph-ai-a-service-firm-turned-ai-native-solution-for-pharma-and-life-sciences": {
+      "title": "Graph Ai A Service Firm Turned Ai Native Solution For Pharma And Life Sciences",
+      "source": "Bessemer Atlas",
+      "date": "2026-05-20T13:13:33.036619+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai",
+        "ai-native-product-design"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Graph AI, founded by four enterprise tech veterans, pivoted from AI services to building an AI-native SaaS platform for pharmaceutical drug safety monitoring (pharmacovigilance), reducing adverse event processing from 3+ hours to minutes. The company identified that pharma's manual regulatory reporting workflow\u2014currently outsourced to legacy IT services with Word/Excel-based processes\u2014could be reimagined with domain-specific AI trained on regulatory context. This case study illustrates how vertical AI solutions can transform highly regulated, manual enterprise workflows by building purpose-built tools rather than horizontal platforms.",
+      "tags": [
+        "pharmacovigilance",
+        "drug-safety",
+        "vertical-ai",
+        "services-to-saas-pivot",
+        "pharmaceutical-workflows",
+        "regulatory-compliance"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study overview with limited technical depth or novel insights about AI implementation; primarily a company profile without substantive analysis of AI architecture, deployment challenges, or replicable frameworks."
+    },
+    "https://openviewpartners.com/blog/how-to-maximize-roi-on-your-early-paid-advertising-efforts/": {
+      "title": "How to Maximize ROI on Your Early Paid Advertising Efforts",
+      "source": "OpenView Partners",
+      "date": "2026-05-20T13:13:32.165544+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a guide about paid advertising strategies for B2B startups. Based on the extremely minimal content provided, no specific evidence, frameworks, or mechanisms are presented. The actual substance of the article is not available in the provided text.",
+      "tags": [
+        "paid-advertising",
+        "b2b-marketing",
+        "customer-acquisition",
+        "roi-optimization"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only title and meta description with no substantive content to evaluate; does not map to any specified AI, semiconductor, or enterprise AI deployment topics."
+    },
+    "https://openviewpartners.com/blog/how-an-ai-sidecar-product-drove-30-percent-of-sign-ups-eraser/": {
+      "title": "How an AI sidecar product drove 30% of sign-ups: Eraser\u2019s founder on building and growing DiagramGPT",
+      "source": "OpenView Partners",
+      "date": "2026-05-20T13:13:31.807047+00:00",
+      "composite": 3.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-native-product-design",
+        "ai-b2b-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Eraser's founder discusses building DiagramGPT, an AI sidecar product for their engineering whiteboard tool, which drove 30% of product sign-ups. The article appears to be a brief announcement or teaser linking to fuller content about this product strategy. It touches on using AI as a growth driver for an existing B2B SaaS product targeting engineering teams.",
+      "tags": [
+        "ai-sidecar-product",
+        "product-led-growth",
+        "diagramgpt",
+        "engineering-tools",
+        "b2b-saas-growth"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is only a brief teaser/excerpt with insufficient detail for analysis; lacks concrete evidence, frameworks, or mechanisms about how the AI sidecar was built or why it succeeded."
+    },
+    "https://tearsheet.co/podcasts/the-bank-account-is-the-product-slashs-bet-on-vertical-smb-banking/?utm_source=rss&utm_medium=rss&utm_campaign=the-bank-account-is-the-product-slashs-bet-on-vertical-smb-banking": {
+      "title": "The bank account is the product: Slash\u2019s bet on vertical SMB banking",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-20T11:45:00+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Slash is a $1.4B vertical SMB banking platform that combines bank accounts with industry-specific financial software, serving niches like performance marketing agencies and import-export businesses. The company recently raised a $100M Series C and processes nearly $3B in stablecoin payments annually, betting that deep vertical integration trumps horizontal fintech tools. The CEO aspires for Slash to become 'the J.P. Morgan for SMBs' by owning both the account and the workflow automation that legacy banks won't build.",
+      "tags": [
+        "vertical-banking",
+        "smb-fintech",
+        "stablecoin-payments",
+        "embedded-finance",
+        "workflow-automation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers vertical SMB banking and fintech business model, which does not map to any of the specified AI, semiconductor, or enterprise AI adoption topic areas."
+    },
+    "https://www.lennysnewsletter.com/p/what-launched-at-google-io-2026-30": {
+      "title": "What launched at Google I/O 2026 (30-minute day 1 recap)",
+      "source": "Lenny's Newsletter",
+      "date": "2026-05-20T01:59:31+00:00",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering",
+        "ai-native-product-design"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a 30-minute recap of Google I/O 2026 day 1 announcements covering Gemini 3.5 model family, Anti-Gravity 2.0 coding agent, Google AI Studio workspace integration, and creative tools (Omni video generation, Flow video editing, Stitch UI design, Pomelli branding). The host live-tests each announced feature and reports on which tools actually work versus which are not yet available despite being showcased. The article matters primarily as a timely product launch summary with hands-on testing, but offers limited analytical depth or novel insights beyond surface-level feature descriptions.",
+      "tags": [
+        "gemini-3-5",
+        "anti-gravity",
+        "agentic-coding",
+        "google-ai-studio",
+        "video-generation",
+        "product-launches"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement recap with minimal original analysis, limited novel insights, and primarily descriptive coverage of feature releases rather than deeper technical evaluation or strategic implications."
+    },
+    "https://www.lennysnewsletter.com/p/the-lenny-and-friends-summit-is-back": {
+      "title": "The Lenny and Friends Summit is back!",
+      "source": "Lenny's Newsletter",
+      "date": "2026-05-19T15:27:24+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This is an announcement for the Lenny and Friends Summit, a product leadership conference scheduled for September 10 in San Francisco. The article promotes the event with testimonials from previous attendees and lists speakers, emphasizing intimate networking and practical learning for senior product and AI leaders. It is purely promotional content with no substantive insights, analysis, or frameworks related to any technical or strategic topics.",
+      "tags": [
+        "product-leadership",
+        "conference-announcement",
+        "networking-event"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is promotional event marketing content with no substantive analysis, research, technical insights, or strategic frameworks relevant to any of the specified topic areas."
+    },
+    "https://airealizednow.substack.com/p/ai-realized-now-issue-19": {
+      "title": "AI Realized Now Issue #19",
+      "source": "AI Realized Now",
+      "date": "2026-05-19T15:06:45+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-governance-risk-compliance",
+        "build-vs-buy-enterprise-ai",
+        "agentic-workflows-production",
+        "ai-b2b-saas",
+        "inference-efficiency",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This newsletter issue presents three enterprise AI operating models: a governed inference portfolio framework for deciding where AI workloads run based on Stanford data showing open-weight models closing the performance gap to 1.7%; a four-level B2B marketing AI maturity model explaining why only 7% of the 87% of marketers using AI see measurable results; and a GEO (generative engine optimization) playbook responding to ThoughtSpot data showing only 13-15% of AI citations about brands come from owned content. The frameworks address the 2026 shift from whether AI can do work to whether organizations can govern it systematically with proper controls and orchestration. This matters because it provides practical operating models for the transition from experimental AI adoption to production-grade, governed deployment across marketing, inference architecture, and brand presence in AI answer layers.",
+      "tags": [
+        "governed-inference-portfolio",
+        "geo-playbook",
+        "b2b-marketing-maturity",
+        "open-weight-models",
+        "inference-costs",
+        "agentic-operations",
+        "ai-governance",
+        "answer-layer"
+      ],
+      "status": "integrated"
+    },
+    "https://airealizednow.substack.com/p/your-brand-now-lives-in-the-answer": {
+      "title": "Your Brand Now Lives in the Answer Layer. Here\u2019s the GEO Playbook.",
+      "source": "AI Realized Now",
+      "date": "2026-05-19T15:03:08+00:00",
+      "composite": 6.33,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that marketing discoverability is shifting from traditional SEO (search engine optimization) to GEO (generative engine optimization), where brands must optimize for how AI systems synthesize and present information across multiple AI platforms rather than ranking on Google. It provides evidence through case studies like ThoughtSpot's growth from 2,500 to 17,000 monthly AI-driven sessions and RealSense's multi-year effort to correct AI misrepresentations, while distinguishing between slow-changing training signals and more actionable retrieval signals. This matters because it represents a fundamental shift in how B2B companies need to structure their marketing operations, moving from optimizing for clicks to optimizing for accurate representation in AI-generated answers across platforms like ChatGPT, Claude, Copilot, and Gemini.",
+      "tags": [
+        "geo-optimization",
+        "generative-engine-optimization",
+        "ai-discoverability",
+        "brand-representation",
+        "retrieval-signals",
+        "training-signals"
+      ],
+      "status": "integrated"
+    },
+    "https://airealizednow.substack.com/p/the-governed-inference-portfolio": {
+      "title": "The Governed Inference Portfolio: A New Operating Model for Enterprise AI",
+      "source": "AI Realized Now",
+      "date": "2026-05-19T14:59:25+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance",
+        "evals-production-deployment",
+        "rag-over-proprietary-content",
+        "data-moats-proprietary-advantages",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that enterprises must shift from asking whether AI models can perform tasks to whether they can do so without exposing proprietary organizational intelligence, leading to 'governed inference portfolios' where companies control which models handle which workloads and where inference runs. It distinguishes between two independent axes\u2014model openness (proprietary vs open-weight) and inference location (public API vs private infrastructure)\u2014and shows how regulatory requirements (EU AI Act, HIPAA, GDPR) create hard constraints on data movement. This matters because it reframes enterprise AI architecture decisions around protecting accumulated organizational knowledge and competitive advantages rather than just optimizing for model performance.",
+      "tags": [
+        "governed-inference",
+        "organizational-intelligence",
+        "private-inference",
+        "model-openness",
+        "inference-location",
+        "regulatory-compliance"
+      ],
+      "status": "integrated"
+    },
+    "https://tearsheet.co/10-q/the-week-in-market-moves-3/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-in-market-moves-3": {
+      "title": "The Week in Market Moves | May 7\u201314, 2026",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-19T12:45:00+00:00",
+      "composite": 2.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a weekly fintech market digest covering five company developments: SoFi's acquisition of equity issuance infrastructure, Remitly's SMB expansion, Coinbase's Solana-backed lending, Affirm's usage frequency growth, and an unfinished Chase item. Each entry provides basic company news with brief commentary on strategic implications for market positioning. The article offers surface-level observation of publicly announced moves rather than original analysis or insights relevant to AI deployment or technical infrastructure.",
+      "tags": [
+        "fintech",
+        "cross-border-payments",
+        "crypto-lending",
+        "bnpl",
+        "capital-markets"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level financial news digest with no depth of analysis, no novel insights, and no relevance to AI technical infrastructure, enterprise AI deployment, or any specified topic areas."
+    },
+    "https://tearsheet.co/building-a-platform/affirm-bets-on-banks-bots-and-shopify-to-reach-100-billion-in-gmv/?utm_source=rss&utm_medium=rss&utm_campaign=affirm-bets-on-banks-bots-and-shopify-to-reach-100-billion-in-gmv": {
+      "title": "Affirm bets on banks, bots, and Shopify to reach $100 billion in GMV",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-19T11:45:00+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-in-sales-gtm",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Affirm announced three growth strategies to reach $100 billion in GMV: Affirm Edge (embedding BNPL into bank apps), expanding its Shopify partnership globally, and positioning in AI-driven agentic commerce. The company is leveraging three years of revenue growth and margin improvement to pursue these longer-horizon bets while its core merchant and card businesses sustain near-term growth. The move represents a shift from competing with banks to becoming infrastructure, and an early bet on AI agents as a commerce layer.",
+      "tags": [
+        "bnpl",
+        "embedded-finance",
+        "agentic-commerce",
+        "banking-infrastructure",
+        "fintech-partnership"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level strategic announcement without technical depth, novel frameworks, or substantive evidence about AI implementation or agentic commerce mechanics."
+    },
+    "https://www.exponentialview.co/p/monday-data-the-cost-of-tokenmaxxing": {
+      "title": "\ud83d\udcc8 Data to start your week: The cost of tokenmaxxing",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-05-18T10:53:34+00:00",
+      "composite": 6.33,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-pricing-packaging-saas",
+        "ai-org-design-headcount",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports that enterprises are experiencing explosive token consumption, with companies like Uber and ServiceNow depleting entire 2026 budgets in just four months, driven by agentic AI adoption. It provides evidence that 71% of companies exceeded their AI budgets in 2025, with average monthly enterprise AI spend growing 36% to $85,000, while CFOs struggle with variable costs unlike traditional fixed-seat SaaS. This matters because the shift from predictable SaaS costs to variable token consumption represents a fundamental budgeting and financial planning challenge for enterprises adopting AI at scale.",
+      "tags": [
+        "token-consumption",
+        "ai-budgeting",
+        "agentic-ai",
+        "enterprise-adoption",
+        "variable-costs",
+        "saas-pricing"
+      ],
+      "status": "integrated"
+    },
+    "https://www.exponentialview.co/p/ev-574": {
+      "title": "\ud83d\udd2e Exponential View #574: Inside Anthropic\u2019s rocket ship; AI pluralism; love commoditized, context-maxxing & Voltaire++",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-05-17T03:32:49+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "lab-dynamics",
+        "ai-b2b-saas",
+        "funding-and-market-structure",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter curates recent AI industry developments, focusing on Anthropic's rapid revenue growth (from $250M to $50B annualized in 2 years), enterprise adoption trends, and the evolving Microsoft-OpenAI partnership structure. The article presents financial metrics and market observations, including that Chinese AI labs are developing efficiency advantages under export controls and that Anthropic leads OpenAI in business adoption. It matters as a market signal about competitive dynamics between frontier labs and enterprise adoption patterns, though it offers mainly surface-level reporting rather than deep analysis.",
+      "tags": [
+        "anthropic",
+        "openai",
+        "microsoft-azure",
+        "enterprise-adoption",
+        "lab-revenue-growth",
+        "chinese-ai-efficiency"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level curation of industry news and metrics without original analysis or novel frameworks; mostly aggregates publicly available information about company developments and partnerships."
+    },
+    "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop": {
+      "title": "\ud83e\udde0 Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more",
+      "source": "Lenny's Newsletter",
+      "date": "2026-05-16T21:46:34+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This is a subscriber-only newsletter roundup of community discussions covering AI screening in hiring, voice transcription tools, and multi-agent architectures. The article appears to be a weekly community digest format but the actual content is paywalled and not accessible. Without access to the actual discussion content, it's impossible to assess the depth of analysis or novelty of insights shared.",
+      "tags": [
+        "hiring",
+        "voice-transcription",
+        "multi-agent",
+        "community-discussion"
+      ],
+      "status": "skipped",
+      "skip_reason": "Paywalled newsletter digest with no accessible substantive content to evaluate; appears to be a surface-level community Q&A roundup rather than original analysis or research."
+    },
+    "https://cutlefish.substack.com/p/tbm-422-exception-presence-delegation": {
+      "title": "TBM 422: Exception, Presence, Delegation",
+      "source": "The Beautiful Mess (John Cutler)",
+      "date": "2026-05-16T18:14:50+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article explores a management framework of Exception, Presence, and Delegation as a way to understand current organizational dysfunction and leadership challenges in the AI era. It references established management concepts (Mintzberg's configurations, genchi genbutsu, management by exception) and examples from leaders like Mulally, Chesky, and Huang to examine why traditional management principles feel harder to apply now. The piece attempts to provide a lens for understanding organizational stress and leadership approaches, though it appears incomplete and offers more questions than answers.",
+      "tags": [
+        "management-frameworks",
+        "organizational-design",
+        "leadership-patterns",
+        "exception-based-management",
+        "presence-based-leadership"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level synthesis of existing management concepts without new data, frameworks, or specific insights into AI-era organizational challenges; incomplete article with limited actionable analysis."
+    },
+    "https://cloudedjudgement.substack.com/p/clouded-judgement-51426-the-real": {
+      "title": "Clouded Judgement 5.15.26 - The Real App Store Opportunity",
+      "source": "Clouded Judgement (Jamin Ball)",
+      "date": "2026-05-15T13:07:58+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-engineering-agents",
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that Anthropic's Claude 'skills' (markdown-based agent instructions) represent an emerging B2B app store opportunity, contrasting with OpenAI's less successful consumer app store moment. The key evidence is the bottoms-up adoption of skills within organizations, enabled by tools like /skill-creator, and the observation that distribution resembles internal tooling rather than consumer apps. This matters because it suggests a strategic shift where 'having a skill' may become as critical for enterprise software vendors as integrations have been, fundamentally changing how B2B products achieve workflow visibility.",
+      "tags": [
+        "claude-skills",
+        "b2b-marketplace",
+        "agent-onboarding",
+        "bottoms-up-adoption",
+        "workflow-integration",
+        "enterprise-distribution"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.exponentialview.co/p/cerebras-and-the-ipo-pop": {
+      "title": "\ud83d\udcc8 Cerebras and the IPO pop",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-05-15T09:17:16+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "inference-efficiency",
+        "semiconductor-supply-chain",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Cerebras Systems' IPO, which saw its stock price surge 107% on the first day, and argues this signals growing market recognition of AI inference demand rather than mere hype. The author draws comparisons to dotcom-era IPO pops that ended in disaster, noting similarities in low revenues and fast growth, but distinguishes Cerebras as potentially different. The piece matters because it frames the IPO performance as validation of specialized AI chip demand, particularly for inference workloads.",
+      "tags": [
+        "cerebras",
+        "ipo",
+        "ai-chips",
+        "inference-demand",
+        "wafer-scale-engine",
+        "market-valuation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level market commentary with minimal technical analysis or novel insights; primarily observational reporting on stock performance with limited depth on the underlying technology or business fundamentals."
+    },
+    "https://share.transistor.fm/s/9ac73d0a": {
+      "title": "U.S. Congressman Beyer on AI challenges facing America and the World",
+      "source": "Practical AI (Changelog)",
+      "date": "2026-05-14T09:00:00+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "U.S. Congressman Don Beyer discusses AI policy challenges including regulation, cybersecurity, U.S.-China AI competition, job displacement, surveillance, autonomous weapons, and existential risk. The conversation blends his congressional perspective with his technical background as an AI Ph.D. student at George Mason University. The discussion covers broad policy landscape issues but appears to be a general policy conversation rather than detailed analysis or new frameworks.",
+      "tags": [
+        "ai-regulation",
+        "cybersecurity",
+        "us-china-competition",
+        "job-displacement",
+        "autonomous-weapons",
+        "existential-risk"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level policy discussion without novel frameworks, original research, or technical depth; appears to be a general conversation covering widely-discussed AI governance topics."
+    },
+    "https://feeds.feedblitz.com/~/956763461/0/kitcesnerdseyeview~Implications-Of-The-SEC-Proposals-For-New-B-AUM-Thresholds-For-Small-Entities-And-Federal-Registration/": {
+      "title": "Implications Of The SEC Proposal(s) For New $1B AUM Threshold(s) For Small Entities And Federal Registration",
+      "source": "Kitces.com",
+      "date": "2026-05-20T11:02:04+00:00",
+      "composite": 2.3,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article discusses two proposed SEC regulatory changes for RIAs: raising the 'small entity' AUM threshold from $25M to $1B (affecting regulatory flexibility analysis) and potentially raising the federal registration threshold from $100M to $1B (shifting thousands of firms to state oversight). The first change would slow SEC rulemaking by expanding the number of firms requiring impact analysis from 3% to 75% of SEC-registered RIAs, while the second would increase compliance complexity for mid-sized firms forced into multi-state registration. These changes primarily impact traditional wealth management firms' compliance burden and may drive consolidation toward larger RIA platforms.",
+      "tags": [
+        "ria-regulation",
+        "sec-compliance",
+        "wealth-management",
+        "regulatory-thresholds",
+        "multi-state-registration"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on traditional RIA regulatory compliance and does not address AI applications in wealth management, advisory, or financial services."
+    },
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsYTAxU0g2VS11bG9Gazh3M0lyQ0xCbXoydVFXLWc3RUJxTmdnQmtnbnR2cVRjdTN6Z0Q0aDhnMy1BT2MwTEpqVXlySUdpd1ROMnFBZGVGZ1hNWDBqVExFUEphTXFOUmt1bk1jUXByNnhzRHJHR2F5eUVyd3B4UQ?oc=5": {
+      "title": "Anthropic and KPMG sign Big Four AI alliance for 276,000 staff - Resultsense",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-20T08:40:06+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-professional-services",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce a partnership between Anthropic and KPMG to deploy AI capabilities across KPMG's 276,000 staff members. However, the actual content provided is only a Google cookie consent page with no substantive information about the partnership, its scope, implementation details, or strategic implications. Without access to the actual article content, no meaningful evaluation of the partnership's significance or innovation can be made.",
+      "tags": [
+        "anthropic",
+        "kpmg",
+        "big-four",
+        "enterprise-deployment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible (only shows Google cookie consent page); cannot evaluate depth, novelty, or provide meaningful analysis of the announced Anthropic-KPMG partnership."
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLWlYNnRSVHpFWFkybXhGMDc5Zmd6TloyekNtUy1kS25hWXI1UkRkbzhiYXMzRHd6ZERrRndDUXEzM3VNSFVjQVhzRWdOWWgzcUN2STJaT1J5QjdCNWpjU1F6VzU2OXBEQ0FsMDZwcFdMTGY3TW1UYVEwRVNVODZuRW9QTQ?oc=5": {
+      "title": "Finding a good financial advisor | The Informed Investor - Rochester Business Journal",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-05-19T14:05:08+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than an actual article about finding financial advisors. The text contains only standard Google terms of service and privacy policy language about cookies and data usage. No substantive content about financial advisory services, AI workflows, or any relevant technical or business topic is present.",
+      "tags": [
+        "cookie-consent",
+        "privacy-policy",
+        "google-services"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content - only a Google sign-in/cookie consent page with no substantive information about financial advisors or AI workflows."
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQllHYjBPOUNEeUQ5VkE4MzlTMmlHY1psOXgtRWRMdEIwdm1IR0lQcU1UWHBTdWtTWmVyU3Jwd0diZkdMZ29TV192Z3IwUmExMmx3YTUtaFhSdzg2RXd1cHljU2ZUWVNUcldoT3hUdzRBV1BZNFJPR1RKWV95eWpIMVNDdXRxNFJxSGltVE1pMUtib0dIVEN4T1lTeGc3VDExOURCNmQtZjMtdE9oQ3ZHWFNfQTAxRHBP?oc=5": {
+      "title": "Wealth Management Marketing Is in its AI Era. Will Authenticity Be the Trade-Off? - AdvisorHub",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-05-19T13:16:22+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-wealth-management-advisory",
+        "ai-in-marketing-content"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to discuss the adoption of AI tools in wealth management marketing and questions whether this technological shift will compromise authenticity in client communications. However, the provided text is only a Google cookie consent page and does not contain the actual article content. Without access to the substantive article, it's impossible to assess the depth of analysis, novelty of insights, or specific claims made.",
+      "tags": [
+        "wealth-management",
+        "ai-marketing",
+        "authenticity",
+        "financial-services"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not accessible - only cookie consent page provided; cannot evaluate depth, novelty, or substantive arguments without actual article text."
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWXdWcWp5QUo3b2djY29pQ1JxWG94X1lCSEFTLXVRWWFVYnVsWkQwMklELTVnQ3piZXhGTVQxRTRNendGVF90VktBMEFITXpkckZ2VkNrQmIxWmRrZWdIbGh1VjBCRVVaZDljOThNejlzUXVVanBqNzNUY2JVWmpYck5GR2R2QkFUWGl4bVVjQUE?oc=5": {
+      "title": "Can AI double advisor productivity? - InvestmentNews",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-05-19T12:39:36+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article cannot be evaluated as the provided text only contains a Google cookie consent dialog and no actual article content. The title suggests it would discuss AI's potential to double financial advisor productivity. Without access to the actual article text, no meaningful assessment of claims, evidence, or impact can be made.",
+      "tags": [
+        "financial-advisors",
+        "productivity",
+        "wealth-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "No article content provided - only cookie consent page text without substantive information to evaluate."
+    },
+    "https://feeds.feedblitz.com/~/956650382/0/kitcesnerdseyeview~Attracting-And-Retaining-HNW-Clients-By-Being-More-Available-For-Their-Multigenerational-Family-Needs-FASuccess-Ep-With-Liz-Miller/": {
+      "title": "Attracting And Retaining HNW Clients By Being More Available For Their Multigenerational Family Needs: #FASuccess Ep 490 With Liz Miller",
+      "source": "Kitces.com",
+      "date": "2026-05-19T11:02:52+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This podcast episode discusses how financial advisor Liz Miller grows her RIA by offering high-touch services to high-net-worth clients and serving multiple generations within client families. The key mechanisms include using checklists to demonstrate thoroughness, starting with client pain points in discovery meetings, and cultivating relationships with children and grandchildren at different life stages. The article briefly mentions AI but only to assert that human advisors will remain valuable for complex planning requiring interpersonal communication.",
+      "tags": [
+        "wealth-management",
+        "multigenerational-planning",
+        "high-net-worth-clients",
+        "financial-advisory"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level interview about traditional wealth management practices with only passing reference to AI; lacks depth, novelty, and strong relevance to target topics."
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTUVkMUZHWHAweGRVTzNuV2FTSDJCSi1UVEkzQUtGTXlLYUdHSzU0VkkyQmpNeHA2bV9LeldrUlREd3FPOTNBMTFQYlZCd1JIOUw5UHZKZTFaUHFRb2ZMeDhhcW9FUXZjM01rSWgweE5qZlF4T0JwOC1nbl9jdkJFYXBSR0MwSkpIcElRcDd0eVdWX2hPYjZoZA?oc=5": {
+      "title": "Mid-market AI adoption demands data readiness - SiliconANGLE",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-18T21:07:58+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to discuss AI adoption challenges in mid-market companies with emphasis on data readiness requirements. However, the provided text is entirely a Google cookie consent dialog without any actual article content. No substantive analysis, evidence, or insights can be extracted from this submission.",
+      "tags": [
+        "mid-market",
+        "data-readiness",
+        "enterprise-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided - only a Google cookie consent page was captured instead of the substantive article text."
+    },
+    "https://www.linkedin.com/pulse/i-built-second-brain-using-ai-its-changed-way-work-future-madden-0tote/": {
+      "title": "(38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work.",
+      "source": "Web Clip",
+      "date": "2026-05-19T00:00:00+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "rag-vs-finetuning-vs-wiki",
+        "ai-engineering-agents"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article describes the author's personal implementation of an AI-powered 'second brain' system where plain text files on their laptop are continuously read and updated by AI during every conversation, eliminating manual knowledge management. The key mechanism is inverting the typical AI workflow: instead of loading context into AI for each session, the AI persistently maintains a local folder of files that it autonomously updates based on conversations, meetings, and new inputs. This creates a self-updating, compounding knowledge system that the author claims will fundamentally transform knowledge work by making expertise continuously accessible and maintained without manual filing or tagging.",
+      "tags": [
+        "second-brain",
+        "knowledge-management",
+        "rag-personal",
+        "ai-personal-assistant",
+        "context-persistence",
+        "autonomous-filing"
+      ],
+      "status": "skipped",
+      "skip_reason": "Personal productivity anecdote with limited technical depth, no novel frameworks or data, and focuses on individual use case rather than enterprise architecture or systematic analysis of knowledge work transformation."
+    },
+    "https://www.youtube.com/watch?v=FlQYU3m1e80": {
+      "title": "Is It Really Impossible To Cool A Datacenter In Space?",
+      "source": "Web Clip",
+      "date": "2026-05-19T00:00:00+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This video explains the physics of cooling data centers in space, arguing that while space lacks conduction and convection, radiation cooling is feasible but requires understanding the Stefan-Boltzmann law and surface emissivity. The analysis uses a simplified model of a 20kW Starlink satellite to demonstrate the calculations for determining radiator sizes needed to dissipate heat via thermal radiation. The video aims to provide intuitive, pen-and-paper level physics rather than professional thermal modeling software.",
+      "tags": [
+        "thermal-management",
+        "space-computing",
+        "datacenter-cooling",
+        "stefan-boltzmann-law",
+        "heat-dissipation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Educational physics content about space-based thermal management with no direct relevance to AI/ML infrastructure, enterprise AI applications, or semiconductor topics in the specified domain areas."
     }
   }
 }

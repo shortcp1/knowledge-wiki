@@ -1,5 +1,5 @@
 ---
-tags: [router-architecture, ad-monetization, free-user-monetization, chain-of-thought-routing, query-commercial-value, superapp-strategy, ai-native-product-design]
+tags: [ad-monetization, ai-native-applications, ai-native-business-models, ai-native-product-design, ai-value-creation, chain-of-thought-routing, free-user-monetization, gpu-infrastructure, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, knowledge-worker-automation, knowledge-worker-displacement, query-commercial-value, return-on-invested-capital, router-architecture, service-displacement, superapp-strategy]
 ---
 
 # AI-Native Product Design
@@ -20,10 +20,28 @@ Key questions tracked: Which UI patterns are winning in AI-native products? How 
 - **Product Strategy**: "In the near future, we plan to integrate these capabilities into a single model" - router as transitional architecture
 - **User Impact**: 7x increase in free users exposed to thinking models (CoT reasoning) on day 1; 99%+ of free users had never interacted with thinking models before GPT-5
 - **Design Philosophy**: Release optimized for largest user segment (free users) rather than power users (Pro/Plus subscribers)
-- **What Made It Succeed**: Centralized routing enables dynamic performance/cost tradeoffs, user experience improvements, and future monetization paths through single control point
-- **Generalizability**: Multi-model routing pattern applicable to any AI product needing to balance cost, performance, and user experience across heterogeneous user base; explicit intent detection ("think hard") as UI pattern for model selection
+- **What Made It Succeed**: Centralized routing enables dynamic performance/cost tradeoffs, user experience improvements, and future monetization
 
-## Cross-References
-- [[ai-pricing-packaging-saas]]
-- [[ai-engineering-agents]]
-- [[model-routing-orchestration]]
+### The $6T AI Software Revenue Opportunity (2026-2031 projection)
+- **Market size**: Hyperscaler capex buildout implies **~$6T of customer-facing global software revenue needed** by 2031-2032 to justify infrastructure investments (source: Bessemer Atlas, May 2026)
+  - Represents 4x+ growth from ~$1.4T global software revenue in 2026
+  - Described as "largest greenfield money-making opportunity in history" across all business categories
+- **Primary displacement target**: **$40T+ paid annually to knowledge workers globally**
+  - Categories: legal, accounting, consulting, healthcare administration, customer support, sales, recruiting, claims processing
+  - Pattern: "Next generation of founders is rebuilding the service itself as software"
+- **Value creation magnitude**: At 6x revenue multiple, $6T revenue opportunity = **~$36T+ of new market cap**
+  - Represents ~14% of entire global corporate ecosystem (~$260T+ total enterprise value)
+  - "If it doesn't materialize, the capex doesn't pencil"
+
+### AI-Native Economic Model Characteristics
+- **Unit economics**: "Tokens as the fuel, outcomes as the unit of value" (vs. seat-based SaaS)
+- **Revenue sources**: Mix of service displacement (automating knowledge work) and category expansion
+- **Infrastructure dependency**: Success of AI applications directly tied to hyperscaler capex justification (see [[gpu-architecture-training-infra]])
+- **Distribution prediction**: "Winners of the AI era will be more distributed than people expect" - differs from cloud consolidation pattern
+
+### Infrastructure Platform Economics
+- **Picks-and-shovel layer**: Platforms making inference/training "cheap, fast, and reliable" will become new infrastructure fabric
+- **Stack categories**: Orchestration, evals, observability, fine-tuning, memory, inference, agent runtime, data management, networking
+- **Historical parallel**: Cloud era created generational infrastructure companies (Snowflake, Databricks, Datadog, MongoDB, HashiCorp, Confluent)
+- **Prediction**: "Same wave is coming for the AI stack (and the energy stack), and it's still early innings"
+- **Key difference from cloud**: "How the economic [distribution differs]" - article cuts off but implies different concentration dynamics than cloud era

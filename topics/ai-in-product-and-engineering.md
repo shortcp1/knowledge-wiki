@@ -1,5 +1,5 @@
 ---
-tags: [agent-legibility, agent-orchestration, ai-code-review-bottleneck, ai-in-product-and-engineering, autonomous-agents, autoregressive-transformer, behavioral-data-moats, biotech-ai-tools, cancer-treatment-matching, cicd-deployment-constraints, codex, codex-adoption, content-addressed-caching, dark-factory, ghost-libraries, harness-engineering, liquid-ai-architecture, multimodal-biotech-data, openai-frontier, pharma-licensing, proprietary-datasets, shopify-ai-stack, simgym-customer-simulation, spatial-transcriptomics, symphony, symphony-orchestration, tangent-auto-research, tangle-ml-workflows, token-billionaires, token-budget-unlimited, virtual-cells, zero-human-code]
+tags: [agent-legibility, agent-orchestration, agentic-ai, agentic-token-consumption, ai-budgeting, ai-code-review-bottleneck, ai-in-product-and-engineering, autonomous-agents, autoregressive-transformer, behavioral-data-moats, biotech-ai-tools, cancer-treatment-matching, cicd-deployment-constraints, codex, codex-adoption, content-addressed-caching, dark-factory, enterprise-adoption, ghost-libraries, harness-engineering, liquid-ai-architecture, multimodal-biotech-data, openai-frontier, pharma-licensing, proprietary-datasets, saas-pricing, shopify-ai-stack, simgym-customer-simulation, spatial-transcriptomics, symphony, symphony-orchestration, tangent-auto-research, tangle-ml-workflows, token-billionaires, token-budget-explosion, token-budget-unlimited, token-consumption, variable-costs, virtual-cells, zero-human-code]
 ---
 
 # AI in Product & Engineering
@@ -17,41 +17,34 @@ Key questions tracked: What is the actual productivity multiplier from coding AI
   - **Industry**: E-commerce platform / Software
   - **Scale**: 20-year-old, $200B company
 
-- **OpenAI Internal Codex Adoption (April 2026)**: OpenAI Frontier team became OpenAI's top Codex users, demonstrating extreme internal adoption:
-  - **Token Usage**: >1B tokens/day (~$2-3k/day spend)
-  - **"Token Billionaires"**: Term emerging for teams/individuals running massive token budgets as standard practice
-  - **Philosophy**: Ryan Lopopolo (Frontier lead) calls it borderline "negligent" if not using >1B tokens/day
-  - **Scale**: 5-month project produced >1M LOC codebase with 0 human-written code
-  - **Industry**: AI Research & Development
-  - **Pattern**: Shift from "copilots" to "real teammates anyone can use"
+- **OpenAI Internal Codex Adoption (April 2026)**: OpenAI Frontier team became OpenAI's top Codex users, demonstrating extreme internal ado
 
-### AI Coding: Generation vs. Review Bottleneck
-- **Real Bottleneck Is Review, Not Generation (Parakhin, Shopify CTO, April 2026)**: The fundamental constraint in AI-assisted coding has shifted from code generation capability to downstream processes:
-  - Review processes
-  - CI/CD pipeline capacity
-  - Deployment stability
-  - PR volume management
-  - Test f
+### Token Budget Crisis and Engineering AI Adoption
 
-- **Bottleneck Is Now Human Attention (OpenAI Frontier, April 2026)**: Ryan Lopopolo's team identified that with fully autonomous coding agents, the real constraint becomes:
-  - Human attention and willingness to fully delegate
-  - Organizational capacity to trust autonomous systems
-  - **Solution**: Build systems, observability, and context that eliminate human review entirely rather than optimize human review processes
-  - **Result**: 0% human code review before merge in production system
+**Uber Token Budget Depletion (April 2026)**
+- **Business Problem**: Managing unpredictable, exponentially growing token consumption costs from AI coding assistant adoption across engineering organization
+- **Industry**: Technology / Ride-sharing platform
+- **Business Function**: Engineering / Software Development
+- **Quantitative Outcomes**:
+  - 5,000 engineers depleted entire 2026 token budget in just 4 months (by April 2026)
+  - Pattern also observed at ServiceNow in same timeframe
+- **AI Pattern Applied**: Agentic coding assistants (pattern not specified, but implies autonomous code generation/assistance tools)
+- **What Made It Fail/Challenge**:
+  - Token consumption significantly underestimated during budget planning
+  - Agentic adoption drove demand far beyond initial projections
+  - Variable cost model (tokens) vs. fixed-seat SaaS made forecasting difficult
+  - Finance teams signed off on "modest pilots" that quickly scaled organization-wide
+- **Cost Management Context**:
+  - 71% of companies exceeded their AI budgets in 2025
+  - CTOs increasing tech budgets by ~10% in 2026 (considered "marginal" given token explosion)
+  - Over 50% of finance leaders cite cost management as greatest AI concern
+- **Generalizability**: Applies to any organization deploying agentic AI tools at scale across engineering teams—particularly SaaS companies, financial services, healthcare systems, and large enterprises with significant engineering headcount. The variable cost model challenge applies universally across industries adopting consumption-based AI tooling.
 
-### Harness Engineering & Token Economics
-- **Harness Engineering Paradigm (April 2026)**: New discipline emerging focused on building infrastructure optimized for agent operation rather than human workflows:
-  - **Core principle**: When agents fail, ask "what capability, context, or structure is missing?" rather than improving prompts
-  - **Key components**: Fast build loops (<1 min), observability, skills encoding, spec-driven development, disposable code mindset
-  - **Symphony**: OpenAI's internal Elixir-based orchestration system for coordinating large numbers of coding agents
-  - **Ghost Libraries**: High-fidelity specifications from which agents can reproduce complex systems without shared source code
+**Enterprise AI Spend Growth (2024-2025)**
+- **Quantitative Outcome**: Average monthly AI spend by large US enterprises grew 36% year-over-year, from ~$62,000 (2024) to $85,000 (2025)
+- **Pattern**: Exponential token use driven by diffusion and adoption across organizations
 
-- **Token Budget Philosophy**: Massive token spend becoming normalized:
-  - 1B tokens/day = ~$2-3k/day baseline for serious agent-driven development
-  - Represents shift from token conservation to token maximization
-  - Cost justified by elimination of human engineering time on routine tasks
-
-- **Generalizability**: Pattern applies to:
-  - Any software development organization
-  - Enterprise automation requiring complex multi-step workflows
-  - Any domain where fast iteration and autonomous operation can replace human review bottlenecks
+**Chinese AI Lab Engineering Priorities (May 2026)**
+- **Strategic Focus**: Chinese labs identified coding assistance as "P0" (top priority) in engineering resource allocation
+- **Implication**: Coding AI tools represent highest-value use case for frontier AI labs' internal operations
+- **Generalizability**: Suggests coding assistance delivers measurable productivity gains that justify prioritization even among organizations building AI systems themselves

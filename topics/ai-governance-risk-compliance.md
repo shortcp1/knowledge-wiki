@@ -1,5 +1,5 @@
 ---
-tags: [adversarial-attacks, adversarial-prompting, agent-delegation, ai-constitutions, ai-delegates, ai-governance-risk-compliance, ai-integration, benchmark-evals, cybersecurity, democratic-governance, dual-use, frontier-models, institutional-design, jailbreak-prompting, jailbreaking, model-safety, offensive-capabilities, political-ai, political-superintelligence, red-teaming, rlhf, scaling-laws, startup-adoption, transparency-regime, white-box-black-box]
+tags: [adversarial-attacks, adversarial-prompting, agent-delegation, agentic-operations, ai-constitutions, ai-delegates, ai-governance, ai-governance-risk-compliance, ai-integration, answer-layer, b2b-marketing-maturity, benchmark-evals, cybersecurity, data-residency, democratic-governance, dual-use, frontier-models, geo-playbook, governed-inference, governed-inference-portfolio, inference-costs, inference-governance, inference-location, institutional-design, jailbreak-prompting, jailbreaking, model-openness, model-safety, offensive-capabilities, open-weight-models, organizational-intelligence, organizational-intelligence-protection, political-ai, political-superintelligence, private-inference, red-teaming, regulatory-compliance, regulatory-compliance-architecture, rlhf, scaling-laws, startup-adoption, transparency-regime, white-box-black-box]
 ---
 
 # AI Governance, Risk & Compliance
@@ -21,21 +21,23 @@ Key questions tracked: What does the EU AI Act require of different risk-tier sy
 ### Offensive Cybersecurity Capabilities and Dual-Use Concerns (April 2026)
 - **Scaling law for cyberoffense**: Lyptus Research found clear trend of more advanced models achieving better cyberattack capabilities
   - Capability doubling time: 9.8 months across frontier models since 2019; 5.7 months for models since 2024
-  - GPT-5.3 Codex and Opus 4.6 achieve 50% success on tasks taking human experts 3.1-3.2 hours ("roughly half a working day of professional offensive security work")
-- **Open-weight diffusion risk**: GLM-5 lags closed-source frontier by only 5.7 months, suggesting "frontier offensive-cyber capability may diffuse into open-weight form on relatively short timelines"
-- **Dual-use challenge**: Research highlights fundamental AI challenge as "
+  - GPT-5.3 Codex and Opus 4.6 achieve 50% success on tasks taking h
 
-### Political AI and Agent Delegation (March 2026)
-- **"Political superintelligence" concept (Andy Hall, Stanford)**: Proposes AI could enable "political superintelligence" - systems allowing "tools that help citizens, representatives, and institutions perceive reality more sharply, understand tradeoffs, contest power, and act more effectively"
-  - Analogy: "AI is like the printing press... Instead of making information cheap and easily available, it makes intelligence cheap and easily available"
-  - **Three-layer framework** for political superintelligence:
-    1. **Information layer**: AI changes how governments access/understand data, identify problems, hear from citizens, distribute services. Requires better [[benchmark-evals]] for government-relevant information and purpose-built policy tools.
-    2. **Representation layer**: AI agents as "tireless, automated delegates" that monitor politics, suggest votes, or serve as policymakers alongside human supervisors. Key risks: adversarial prompting of agents (politicians funding campaigns to sway agent beliefs), agent ownership conflicts (policy preferences vs. AI company interests).
-    3. **Governance layer**: Challenge of private company ownership of political AI infrastructure. Requires mechanisms to govern model "constitutions" and effective oversight systems.
-- **Agent reliability requirements**: Political agent deployment requires protection against adversarial prompting and resolution of principal-agent conflicts between users, agents, and operating companies
-- **Transparency regime need**: Hall argues for regulations establishing transparency regime for AI systems involved in political/civic functions
-- Note: This represents advocacy for governance structures rather than empirical findings about current capabilities
+### Regulatory Constraints on Inference Architecture (May 2026)
+- **Compliance-driven inference location requirements**: Multiple regulatory frameworks create hard constraints (not preferences) on data movement and processing:
+  - **EU AI Act**: High-risk categories impose specific requirements
+  - **HIPAA (U.S. Healthcare)**: Restricts PHI processing and location
+  - **GLBA (Financial Services)**: Sectoral exam requirements for financial data
+  - **GDPR**: Data-processor obligations and data residency requirements
+  - **Architectural implication**: Inference architecture must meet auditability and data sovereignty requirements by design
+  - **Risk-tiered approach**: Regulation sharpens both model openness and inference location decisions independently
 
-## Cross-References
-- [[regulatory-policy]]
-- [[lab-dynamics]]
+### Sensitive Data Exposure Through Inference (May 2026)
+- **Inference input scope in enterprise systems**: Every inference operation potentially exposes multiple sensitive data types:
+  - Technical: Prompts, retrieved documents, embeddings, source code, agent traces, workflow logs, tool calls
+  - Business: Customer records, product data, support histories
+  - **Risk assessment**: Each element can expose sensitive information, requiring workload-by-workload evaluation
+  - **Industry-specific examples of protected organizational intelligence**:
+    - Manufacturing: Process-improvement data, plant telemetry, defect patterns, supplier bottlenecks, product tolerances
+    - Banking: Underwriting logic, compliance workflows, transaction patterns, risk models
+    - Pharma: Molecule data, clinical trial signals, regulatory strategy, research hypotheses
