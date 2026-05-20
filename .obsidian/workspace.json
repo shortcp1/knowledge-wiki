@@ -196,6 +196,7 @@
   },
   "active": "c4e7452b52329e07",
   "lastOpenFiles": [
+    "logs/2026-05-20.md",
     "Clippings/(38) I built a second brain using AI, and it's changed the way I work. THIS is the future of knowledge work..md",
     "Clippings/Is It Really Impossible To Cool A Datacenter In Space?.md",
     "ARCHIVE.md",
@@ -222,7 +223,6 @@
     "topics/ai-org-design-headcount.md",
     "topics/ai-pricing-packaging-saas.md",
     "topics/build-vs-buy-enterprise-ai.md",
-    "topics/lab-dynamics.md",
-    "topics/gpu-architecture-training-infra.md"
+    "topics/lab-dynamics.md"
   ]
 }
