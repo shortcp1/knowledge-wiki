@@ -282,3 +282,22 @@ This content would fit better in a dedicated topic on data quality, active learn
 - **Vision**: Agents handling specs, self-verification, bug flows, subagents
 - **Design Principle**: Minimize human intervention while preserving critical invariants
 - **Implication**: Coding agents seen as "kernel of AGI" - the primitive from which more complex agent systems can be built
+
+---
+**Railway: The Agent-Native Cloud — Jake Cooper** (Latent Space Podcast, 2026-05-20T22:42:06+00:00)
+### Railway Growth Journey Context
+- **Railway founding story (2020-2026)**: Founded by Jake Cooper (ex-Bloomberg, Uber) with mission to reduce "activation energy" to ship to production to near zero
+- **Early traction**: First 18 months hand-acquiring first 100 users, Jake personally greeting every Discord signup
+- **Pivot moment**: Survived losing $500K/month (context: likely from ending free tier abuse)
+- **Current scale (May 2026)**: $124M raised, 3M users, ~100K signups/week, 35-person team
+- **Philosophy**: "Push code, get a URL, iterate" - no Dockerfiles, no K8s manifests, no Ansible
+
+### Technical Infrastructure Details
+- **Railpack/Nixpacks**: Railway's packaging system built on Nix
+- **Lazy-loaded content-addressable filesystems**: Infrastructure primitive for reproducible, cacheable environments
+- **Temporal integration**: Used for workflow orchestration (strengths and pain points acknowledged but not detailed)
+
+### Founder Lessons
+- **Solo founder path**: Jake Cooper as solo founder ("conductor")
+- **Focus and writing**: Cooper emphasizes importance of focus and writing for company building
+- **Six-year grind**: Railway spent six years before reaching current growth inflection

@@ -705,7 +705,84 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-21
+
+**✗ 1.3** — [Decision Insights 5 Embed Decision Capabilities In Your Organization](https://www.bain.com/insights/decision-insights-5-embed-decision-capabilities-in-your-organization/)  
+*Bain Insights* · 
+#decision_capabilities #organizational_structure
+> This appears to be a navigation page or broken link from Bain & Company's website about embedding decision capabilities in organizations. The content consists entirely of website navigation menus, office locations, and site structure with no actual article text or substantive content. There is no analysis, framework, or insight to evaluate.
+
+**✗ 2.3** — [Decision Insights 7 Create A Decision Focused Culture](https://www.bain.com/insights/decision-insights-7-create-a-decision-focused-culture/)  
+*Bain Insights* · 
+#decision_making #organizational_culture #management_consulting
+> The article appears to be a navigation page or index for Bain & Company's website focused on 'creating a decision-focused culture.' The content provided consists entirely of website navigation elements (offices, industries, services) with no actual substantive article content. There is no analysis, framework, or evidence presented about decision-making culture or any other topic.
+
+**✗ 2.3** — [Decision Insights 4 Build An Organization That Decides And Delivers](https://www.bain.com/insights/decision-insights-4-build-an-organization-that-decides-and-delivers/)  
+*Bain Insights* · 
+#organizational_design #decision_making #enterprise_consulting
+> This appears to be a navigation page or broken article from Bain & Company's website about organizational decision-making and delivery. The article text provided consists entirely of website navigation menus, office locations, and structural elements with no actual content visible. Without substantive content to evaluate, this cannot be assessed for its claims, evidence, or impact on organizational design or AI implementation.
+
+**✗ 5.3** — [Thinking Machines Debuts A New Type Of Model](https://www.deeplearning.ai/the-batch/thinking-machines-debuts-a-new-type-of-model)  
+*The Batch (DeepLearning.AI)* · model-architecture · multimodal-models · inference-efficiency
+#interaction_models #real_time_multimodal #micro_turn_architecture #streaming_inference
+> The article reports on several AI product and model announcements, including Thinking Machines' "interaction model" architecture that processes multimodal input in 200ms micro-turns for real-time conversation, Google's AI-enabled cursor for gesture-based interaction, GitHub's restructured Copilot pricing with usage-based tiers, and Baidu's compressed ERNIE 5.1 model. The key evidence includes architectural details like streaming inference in SGLang, the micro-turn design for continuous input/output interleaving, and ERNIE's elastic training framework that reduces parameters to one-third while using only six percent of typical pre-training compute. These developments matter because they represent different strategies for making AI more responsive (real-time multimodal), accessible (gesture-based UI), economically viable (usage-based pricing), and efficient (model compression).
+
+**✗ 5.3** — [Openai Challenges Speech To Speech Leaders](https://www.deeplearning.ai/the-batch/openai-challenges-speech-to-speech-leaders)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency
+#speech_to_speech #audio_models #reasoning_effort #latency_tradeoff
+> OpenAI released three new audio models in its Realtime API: GPT-Realtime-2 (speech-to-speech with configurable reasoning effort), GPT-Realtime-Translate (70+ input languages to 13 output languages), and GPT-Realtime-Whisper (speech-to-text transcription). The models feature end-to-end audio processing with reasoning effort levels that trade latency (1.12-2.33 seconds to first audio) for performance, with GPT-Realtime-2 leading some conversational benchmarks but trailing in speech reasoning. This represents an architectural shift from cascaded speech-to-text-to-speech pipelines to unified audio models, though latency remains high for true real-time applications.
+
+**✗ 5.0** — [Cursor Composer Undercuts Competition](https://www.deeplearning.ai/the-batch/cursor-composer-undercuts-competition)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · ai-engineering-agents
+#cursor_composer #coding_models #synthetic_training_data #swe_bench
+> The article reports on Cursor's Composer 2.5 coding model, built on Moonshot's open-source Kimi K2.5, which achieves near-frontier performance (79.8% on SWE-Bench Multilingual) at dramatically lower costs ($0.50/$2.50 per million tokens versus competitors' higher rates). The key evidence is benchmark performance comparable to GPT-5.5 and Claude Opus 4.7, though comparisons mix self-reported numbers and lack independent verification on unified scaffolds. This matters because it demonstrates a viable cost-competitive alternative to frontier coding models, potentially shifting enterprise build-vs-buy economics for AI coding assistants.
+
+**✗ 4.3** — [Recall Ai Building The Infrastructure Behind Ai Tools And Products For Video Conference Recording](https://www.bvp.com/atlas/recall-ai-building-the-infrastructure-behind-ai-tools-and-products-for-video-conference-recording)  
+*Bessemer Atlas* · ai-engineering-agents · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#conversation_data #video_conference_api #infrastructure_layer #meeting_intelligence
+> Recall.ai built API infrastructure for capturing and processing video conference conversation data, solving the problem that AI agents need access to meeting context to function effectively. The founders pivoted from a direct video recording product after realizing 80% of their time was spent on backend infrastructure, turning that pain point into a B2B API business. The company now serves 3,000+ companies including HubSpot, ClickUp, and monday.com by providing the infrastructure layer for AI products that need conversation data.
+
+**✗ 4.7** — [Roadmap The Ai Data Center Stack](https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack)  
+*Bessemer Atlas* · gpu-architecture-training-infra · regulatory-policy · funding-and-market-structure
+#data_center_infrastructure #power_grid_constraints #hyperscale_capacity #defense_production_act
+> The article outlines infrastructure investment opportunities in AI data centers, arguing that power and grid constraints are now the primary bottleneck to AI deployment, with 25% of 2025 data centers delayed due to power/permitting issues. It provides market data showing 190 GW of hyperscale capacity announced, data center electricity consumption doubling by 2030, and 78% of built-environment VC ($4.5B) going to data centers in 2025. This matters because it frames physical infrastructure—not chips or software—as the critical path for AI scaling, creating opportunities across six categories from permitting to cooling.
+
 ## 2026-05-20
+
+**✓ 6.3** — [Railway: The Agent-Native Cloud — Jake Cooper](https://www.latent.space/p/railway)  
+*Latent Space Podcast* · agentic-workflows-production · ai-engineering-agents · build-vs-buy-enterprise-ai
+#bare_metal_infrastructure #deployment_automation #agent_deployment #cloud_economics
+> Railway, a deployment platform founded in 2020, has evolved into what it calls an 'agent-native cloud' with 3 million users and $124m raised, arguing that agents need fundamentally different infrastructure than human-driven software deployment. The company built its own bare metal data centers with 3-month payback periods and 70% margins, implementing features like agent-safe production forks, content-addressable filesystems, and version control designed for autonomous software agents deploying at scale. This matters because it represents a concrete infrastructure bet that AI agents will become the dominant software deployment paradigm, requiring new primitives beyond traditional CI/CD and static cloud resources.
+
+**✓ 6.3** — [Quoting SpaceX S-1](https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything)  
+*Simon Willison* · gpu-architecture-training-infra · funding-and-market-structure · lab-dynamics
+#compute_capacity #colossus #anthropic_anthropic #grok_5
+> The article quotes a SpaceX S-1 filing revealing that Anthropic has agreed to pay $1.25 billion per month (totaling $45 billion over three years) for access to compute capacity on xAI's COLOSSUS and COLOSSUS II infrastructure starting May 2026. The filing shows SpaceX/xAI positioning itself as both an AI model developer (training Grok 5) and a cloud compute provider to third-party customers like Anthropic. This represents a major shift in AI infrastructure economics and lab dynamics, with one frontier lab providing massive compute resources to a competitor while maintaining termination flexibility with just 90 days notice.
+
+**✗ 1.3** — [Mid-Market Healthcare Races Ahead On AI – But Cybersecurity Fears Are Holding Back Full Deployment - Citeline News & Insights](https://news.google.com/rss/articles/CBMinwJBVV95cUxORXZHMnZtTFdaYWphb3ZDbEZBemJyZV91dVA0LXBvUC1ZbmZlQmpPM0ZoT2UwenNJclBMM1p1OVNsZmV3cFdxLWUwN3Q0eGFLTjVwQjNnaHU1V1hwaER4RzdNMk0yYUtHODRBdTFXRlgybHN3X0k4ajJFQTRyMEdrbU9lTXBYTDFkb3RmYlU2NGFwNkNiLTIyLWNOSWhwWGZBdDhWZ2hGTnh4R1RRNkNQdk1KYTNvajFfRWFzMDZwX3hlNnVsT3owMGhJMndFU1ZTSmxFUTRueHNhWmN6ejBfYTRqcHladHdHdWR4SnRuNGprbmxiNTY1NEExckc0MlJ2RF9Ea2Z0QkNMY05HWnB3eTBkXzBWSmd0TlZPc0dncw?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#healthcare_ai #mid_market #cybersecurity #access_blocked
+> Unable to access article content due to cookie consent wall. Only metadata (title and source) visible, suggesting mid-market healthcare AI adoption with cybersecurity concerns. No actual analysis, data, or claims accessible for evaluation.
+
+**✗ 2.7** — [How fast is 10 tokens per second really?](https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything)  
+*Simon Willison* · inference-efficiency
+#token_generation_speed #inference_visualization #llm_performance
+> This is a brief link blog post highlighting an HTML tool by Mike Veerman that simulates LLM token output speeds ranging from 5 to 800 tokens per second. The tool helps users visualize what advertised token generation speeds actually feel like in practice. It provides a simple user experience reference for understanding inference performance claims.
+
+**✗ 5.0** — [When the funnel collapses: Rebuilding inbound marketing with Christian Westcott, Director of AI visibility](https://writer.com/blog/humans-of-ai-christian-westcott/)  
+*Writer.com Blog* · ai-in-marketing-content · ai-org-design-headcount · agentic-workflows-production
+#ai_visibility #inbound_marketing_collapse #llm_search_displacement #qa_automation_agent
+> This article profiles a Director of AI Visibility at Writer who pivoted from traditional SEO/inbound marketing as the funnel collapsed due to buyers using LLMs instead of search engines. He rebuilt his role by creating AI agents for workflow automation (QA agent saving 80 hours/month) and monitoring brand visibility across AI engines rather than traditional search. The piece illustrates practical organizational adaptation to AI-driven buyer behavior changes, though it remains a high-level case study without technical implementation details.
+
+**✗ 5.7** — [Google I/O, Gemini Spark, Antigravity](https://simonwillison.net/2026/May/20/google-io/#atom-everything)  
+*Simon Willison* · agentic-workflows-production · ai-governance-risk-compliance · prompt-architecture
+#gemini_spark #prompt_injection #agentic_security #isolated_execution
+> The article reports on Google I/O announcements including Gemini Spark, a personal AI agent that integrates with Google services and runs on Gemini 3.5 Flash and a mysterious "Antigravity" system. Key security details reveal Spark uses isolated VMs and a secure gateway with DLP enforcement to prevent data leakage, though the author questions whether this adequately addresses prompt injection risks. This matters because Gemini Spark's integration with sensitive user data across Google services makes it a high-stakes test case for agent security vulnerabilities.
+
+**✗ 3.0** — [Your AI journey starts here](https://writer.com/blog/ai-academy-passport-curriculum/)  
+*Writer.com Blog* · agentic-workflows-production · ai-in-marketing-content · ai-org-design-headcount
+#agentic_workflows #ai_upskilling #workflow_automation #prompting_techniques
+> Writer announces the opening of their AI Academy to the public, featuring a 'Passport' curriculum designed to help marketers and business leaders move from basic AI task prompting to building enterprise-wide agentic workflows. The curriculum offers LinkedIn-shareable badges for skills like designing agentic solutions, prompting for outcomes, and creating on-brand AI outputs, with no coding required. This represents a vendor-led educational initiative to address the gap between basic AI experimentation and transformative workflow automation in enterprise settings.
 
 **✗ 4.7** — [Widening Conversation Ai](https://www.anthropic.com/news/widening-conversation-ai)  
 *Anthropic Blog* · model-architecture · ai-governance-risk-compliance · prompt-architecture
@@ -812,6 +889,21 @@ All articles scanned since the wiki started. Updated nightly.
 #education_initiative #teacher_training #government_partnerships #market_expansion
 > OpenAI announces an expansion of its Education for Countries initiative to increase AI adoption in schools through partnerships and teacher training programs. The article provides only high-level claims about partnerships and tools without specific technical details, implementation data, or concrete outcomes. This represents a corporate announcement about educational market expansion rather than substantive analysis of AI deployment or effectiveness.
 
+**✗ 3.0** — [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture)  
+*OpenAI News* · 
+#mathematical_reasoning #discrete_geometry #formal_verification #ai_mathematics
+> An OpenAI model reportedly solved the 80-year-old unit distance problem in discrete geometry, disproving a longstanding mathematical conjecture. The article provides no details about the methodology, the specific conjecture disproved, or how the AI system approached the problem. While significant for mathematics, this achievement has minimal direct relevance to AI product development, enterprise deployment, or the listed focus areas.
+
+**✗ 3.7** — [How Ramp engineers accelerate code review with Codex](https://openai.com/index/ramp)  
+*OpenAI News* · ai-in-product-and-engineering
+#code_review #codex #developer_productivity #software_engineering_ai
+> The article reports that Ramp engineers use OpenAI's Codex with GPT-5.5 to automate code review processes, reducing feedback time from hours to minutes. The key mechanism appears to be AI-assisted review that provides substantive technical feedback on code submissions. This matters as an early example of AI tooling being deployed in software engineering workflows, though the article provides minimal detail on implementation or impact.
+
+**✗ 4.7** — [The Unsustainable Subsidy](https://www.tomtunguz.com/ai-model-inflation/)  
+*Tomasz Tunguz* · ai-pricing-packaging-saas · build-vs-buy-enterprise-ai · funding-and-market-structure
+#llm_pricing #token_economics #pricing_strategy #market_share_vs_margins
+> The article tracks pricing trajectories of major AI model providers (Google, OpenAI, Anthropic) from their initial launches through 2026, showing Google tripling prices annually while remaining cheapest, OpenAI initially subsidizing then raising prices, and Anthropic maintaining premium pricing. The evidence is comparative price tables showing Google at $2-12/1M tokens versus competitors at $5-30/1M tokens, with price changes correlating to funding conditions. This matters because it reveals the unsustainability of early AI pricing strategies as capital becomes constrained and vendors shift from market-share to margin optimization.
+
 ## 2026-05-19
 
 **✗ 3.0** — [llm-gemini 0.32](https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything)  
@@ -859,6 +951,11 @@ All articles scanned since the wiki started. Updated nightly.
 #governed_inference #organizational_intelligence #private_inference #model_openness
 > The article argues that enterprises must shift from asking whether AI models can perform tasks to whether they can do so without exposing proprietary organizational intelligence, leading to 'governed inference portfolios' where companies control which models handle which workloads and where inference runs. It distinguishes between two independent axes—model openness (proprietary vs open-weight) and inference location (public API vs private infrastructure)—and shows how regulatory requirements (EU AI Act, HIPAA, GDPR) create hard constraints on data movement. This matters because it reframes enterprise AI architecture decisions around protecting accumulated organizational knowledge and competitive advantages rather than just optimizing for model performance.
 
+**✗ 5.0** — [The Four Levels of AI Maturity in B2B Marketing](https://airealizednow.substack.com/p/the-four-levels-of-ai-maturity-in)  
+*AI Realized Now* · ai-in-marketing-content · ai-in-sales-gtm · ai-org-design-headcount
+#ai_maturity_framework #b2b_marketing #prompt_engineering #organizational_ai_adoption
+> The article proposes a four-level maturity framework for AI adoption in B2B marketing, progressing from basic chat interactions (Level 0) to systematic prompt engineering (Level 1) and beyond. It argues that 87% of marketers use generative AI but only 7% achieve measurable business results, identifying this as a maturity problem rather than an adoption problem. The framework matters because most marketing teams are stuck at Level 0 (conversational AI usage) without systematic approaches, shared methodology, or institutional knowledge transfer.
+
 **✗ 1.0** — [Nvidia should buyback stock](https://www.fabricatedknowledge.com/p/nvidia-should-buyback-stock)  
 *Fabricated Knowledge* · 
 #nvidia #stock_buyback #earnings
@@ -874,6 +971,11 @@ All articles scanned since the wiki started. Updated nightly.
 #wealth_management #ai_marketing #authenticity #financial_services
 > The article appears to discuss the adoption of AI tools in wealth management marketing and questions whether this technological shift will compromise authenticity in client communications. However, the provided text is only a Google cookie consent page and does not contain the actual article content. Without access to the substantive article, it's impossible to assess the depth of analysis, novelty of insights, or specific claims made.
 
+**✗ 2.3** — [Understanding the modern cybercrime landscape](https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/)  
+*MIT Technology Review* · ai-governance-risk-compliance
+#cybersecurity #threat_landscape #enterprise_security #digital_transformation
+> The article describes how cybercriminals have industrialized their operations in 2025, using automation and AI to exploit vulnerabilities with corporate-like hierarchies. It outlines five factors influencing the cybersecurity landscape: high network expectations, financial pressures on security budgets, complex multivendor infrastructure, evolving threats, and regulatory compliance demands. The piece is a generic overview of enterprise cybersecurity challenges without specific data, novel frameworks, or actionable insights.
+
 **✗ 2.3** — [The Week in Market Moves | May 7–14, 2026](https://tearsheet.co/10-q/the-week-in-market-moves-3/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-in-market-moves-3)  
 *Tearsheet (fintech)* · 
 #fintech #cross_border_payments #crypto_lending #bnpl
@@ -883,6 +985,16 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory
 #financial_advisors #productivity #wealth_management
 > This article cannot be evaluated as the provided text only contains a Google cookie consent dialog and no actual article content. The title suggests it would discuss AI's potential to double financial advisor productivity. Without access to the actual article text, no meaningful assessment of claims, evidence, or impact can be made.
+
+**✗ 3.3** — [The Download: Musk v. Altman, smart glasses for warfare, and Google I/O](https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/)  
+*MIT Technology Review* · lab-dynamics · regulatory-policy
+#openai_lawsuit #military_ar #foundation_models #google_io
+> This newsletter summarizes recent AI industry news including Elon Musk's failed lawsuit against OpenAI, Anduril and Meta's military AR glasses collaboration, and Google I/O preview focusing on foundation model competition. The article provides surface-level coverage of multiple stories without original analysis, primarily serving as news aggregation with brief context on each development. It matters mainly as a snapshot of concurrent industry events but offers no deeper insights or original frameworks.
+
+**✗ 3.0** — [Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell](https://www.technologyreview.com/2026/05/19/1137471/colossal-biosciences-is-growing-chickens-in-a-3d-printed-container/)  
+*MIT Technology Review* · 
+#synthetic_biology #de_extinction #biotech_reproduction #3d_printing_biotech
+> Colossal Biosciences claims to have developed a 3D-printed artificial eggshell system for growing chickens outside natural eggs, positioned as part of their effort to resurrect extinct bird species like the dodo and moa. The technology uses a printed lattice with an oxygen-permeable silicone membrane, though scientists note this is an incremental improvement on methods dating back to 1998 and criticize Colossal for overstating novelty. The article highlights ongoing tensions between Colossal's marketing approach and the scientific community's assessment of their actual technical contributions.
 
 **✗ 5.3** — [Affirm bets on banks, bots, and Shopify to reach $100 billion in GMV](https://tearsheet.co/building-a-platform/affirm-bets-on-banks-bots-and-shopify-to-reach-100-billion-in-gmv/?utm_source=rss&utm_medium=rss&utm_campaign=affirm-bets-on-banks-bots-and-shopify-to-reach-100-billion-in-gmv)  
 *Tearsheet (fintech)* · ai-in-finance-accounting · ai-in-sales-gtm · agentic-workflows-production
@@ -988,13 +1100,33 @@ All articles scanned since the wiki started. Updated nightly.
 **✗ 2.0** — [How Youtube 5x’d our Activation Rate](https://openviewpartners.com/blog/how-youtube-5xd-our-activation-rate-2/)  
 *OpenView Partners* · ai-in-marketing-content
 
+**✗ 1.7** — [AI Deployment in Finance Nearly Doubles in One Year [New Consero Research] - newswire.com](https://news.google.com/rss/articles/CBMipAFBVV95cUxQUUlyWmFIQ2JYVVVNUkxIQ01JRXFSZHZDU3RIUU5qTW9NWXhueUpQeDBRbW5rRHdUNV85blpaWklVQUpsek1OdHFINGFFQUszODBhbFRvbFpQMWE4YTVNQVVnSHQ1TmlLM0cwN19LdTdGalNqVzZwSExmbmY3TXFxemp4dFVScDk3SVgzazRTSzRoOGhhdDJUTUl1UHg2bTBtOWtCQg?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-finance-accounting
+#ai_deployment #finance #enterprise_adoption
+> The article title suggests Consero research found AI deployment in finance nearly doubled in one year. However, the actual article content is only a Google cookie consent page with no substantive information. This appears to be a crawling or access error rather than actual article content.
+
 **✗ 1.0** — [Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose](https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything)  
 *Simon Willison* · 
+
+**✗ 5.7** — [BNPL moves into the conversation layer of commerce](https://tearsheet.co/10-q/bnpl-moves-into-the-conversation-layer-of-commerce/?utm_source=rss&utm_medium=rss&utm_campaign=bnpl-moves-into-the-conversation-layer-of-commerce)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-native-product-design · agentic-workflows-production
+#bnpl #agentic_commerce #conversational_ai #payment_integration
+> Affirm and Klarna are embedding BNPL (buy-now-pay-later) payment options directly into Google Search and the Gemini AI app, moving payments upstream from traditional checkout flows into conversational AI interfaces. The integration enables discovery, comparison, and purchasing within a single AI-driven interaction rather than through separate search funnels and checkout pages. This represents a shift toward 'agentic commerce' where payment infrastructure adapts to AI-mediated shopping experiences.
+
+**✓ 7.3** — [Citi’s AI teammate signals a new model for wealth management](https://tearsheet.co/artificial-intelligence/citis-ai-teammate-signals-a-new-model-for-wealth-management/?utm_source=rss&utm_medium=rss&utm_campaign=citis-ai-teammate-signals-a-new-model-for-wealth-management)  
+*Tearsheet (fintech)* · ai-wealth-management-advisory · agentic-workflows-production · ai-in-finance-accounting
+#wealth_management #conversational_ai #non_deterministic_outputs #runtime_personalization
+> Citi has launched Citi Sky, an AI-powered wealth assistant built with Google Cloud and DeepMind that provides always-on conversational access to portfolio insights and market data while keeping human advisors in control of execution. The technical challenge centers on constraining non-deterministic generative AI through strict routing, controlled tool use, and runtime personalization rather than training-time embedding to maintain regulatory compliance. This signals a shift from scheduled advisory interactions to continuous AI presence, compressing routine advisor touchpoints into fewer high-stakes moments requiring human judgment.
 
 **✓ 6.3** — [📈 Data to start your week: The cost of tokenmaxxing](https://www.exponentialview.co/p/monday-data-the-cost-of-tokenmaxxing)  
 *Exponential View (Azeem Azhar)* · ai-in-product-and-engineering · ai-pricing-packaging-saas · ai-org-design-headcount
 #token_consumption #ai_budgeting #agentic_ai #enterprise_adoption
 > The article reports that enterprises are experiencing explosive token consumption, with companies like Uber and ServiceNow depleting entire 2026 budgets in just four months, driven by agentic AI adoption. It provides evidence that 71% of companies exceeded their AI budgets in 2025, with average monthly enterprise AI spend growing 36% to $85,000, while CFOs struggle with variable costs unlike traditional fixed-seat SaaS. This matters because the shift from predictable SaaS costs to variable token consumption represents a fundamental budgeting and financial planning challenge for enterprises adopting AI at scale.
+
+**✗ 1.7** — [How wealth management firms, advisors can make the most of AI - Advisor.ca](https://news.google.com/rss/articles/CBMipwFBVV95cUxPTXVnUHpkTW5jQ0Uyc3ZlTUZYZkN0S01rTWlWZk54THQyckl3ZDBjMUtJbEtNeWlCYVJlM2Q0VXZ3MWw0b0lpcXdZN1JBVzQ5TEZvY0Y5cmQ4Y1VzU1hKc2VqakIyU2dXaGRKQ2tOS3BxUUVGdkJ2RXgwMVlaVkZQVGZLUnRfdXUtbm91NzFJU3A0X2F5Tmg1b0w3a09DN3Y0RzJRZE1Dbw?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #financial_advisors #ai_adoption
+> This article appears to discuss how wealth management firms and advisors can leverage AI technologies. However, the actual article content is blocked by a Google cookie consent page, preventing access to the substantive analysis or recommendations. Without access to the actual content, no meaningful evaluation of depth, novelty, or specific insights can be made.
 
 ## 2026-05-17
 
@@ -1008,8 +1140,23 @@ All articles scanned since the wiki started. Updated nightly.
 #gemini #multimodal #google_deepmind #product_announcement
 > Google DeepMind announces Gemini Omni, a new multimodal AI model. The article provides minimal technical details about capabilities, architecture, or performance benchmarks. This appears to be a brief product announcement rather than substantive technical documentation or analysis.
 
+**✗ 1.0** — [Introducing Google Antigravity 2.0](https://deepmind.google/blog/introducing-google-antigravity-2-0/)  
+*Google DeepMind* · 
+#google_deepmind #product_announcement
+> The article title suggests an announcement about 'Google Antigravity 2.0' but contains no actual content beyond the title repetition. Without substantive text, there is no analysis, research, claims, data, or frameworks to evaluate. This appears to be either a placeholder, formatting error, or fictional content that provides no actionable information.
+
 **✗ 2.7** — [GDS weighs in on the NHS's decision to retreat from Open Source](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)  
 *Simon Willison* · ai-governance-risk-compliance
+
+**✗ 2.3** — [Gemini for Science: AI experiments and tools for a new era of discovery](https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/)  
+*Google DeepMind* · 
+#gemini #scientific_discovery #google_deepmind #product_announcement
+> This is a brief announcement from Google DeepMind about Gemini for Science, a collection of AI tools intended to support scientific discovery. The article provides no evidence, specific tools, technical details, or concrete use cases—only a one-sentence description. It matters only as a signal of Google's intent to position Gemini in scientific applications, but offers no actionable or substantive information.
+
+**✗ 3.3** — [Making it easier to understand how content was created and edited](https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/)  
+*Google DeepMind* · ai-governance-risk-compliance
+#content_provenance #c2pa_standard #synthid_watermarking #ai_generated_content
+> Google DeepMind announces tooling and metadata standards to help users understand whether content was AI-generated or human-created. The approach centers on implementing C2PA (Coalition for Provenance and Authenticity) standards and SynthID watermarking technology across Google products. This matters for content authenticity and transparency but represents incremental adoption of existing industry standards rather than novel research or frameworks.
 
 **✗ 5.3** — [🔮 Exponential View #574: Inside Anthropic’s rocket ship; AI pluralism; love commoditized, context-maxxing & Voltaire++](https://www.exponentialview.co/p/ev-574)  
 *Exponential View (Azeem Azhar)* · lab-dynamics · ai-b2b-saas · funding-and-market-structure
@@ -1043,6 +1190,11 @@ All articles scanned since the wiki started. Updated nightly.
 #inaturalist #data_clustering #personal_tooling #open_source_release
 > This is a brief release announcement for inaturalist-clumper 0.1, a tool that groups iNaturalist wildlife sightings into geographic or temporal clumps for blog publishing. The author mentions using it in production for a few weeks and provides a link to example JSON output. This is a personal infrastructure tool with no connection to AI, enterprise software, or any covered topic areas.
 
+**✗ 1.7** — [Citi Sky’s AI Reshapes Wealth Management - Global Finance Magazine](https://news.google.com/rss/articles/CBMieEFVX3lxTFA1bEJhX3cxOERhV2V2dUlRNXVISkNKd183YXk5VllYbWZxYkV0SW1odklSUXY5Zk56dmZQZlJEbXB2ZkVqQm1vejRVb2VMZm1pbkJNXzFweTc0MGFhdS1xbGdpZklQd2ZRVGo0TG41SUMtanM4Y05PTg?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #financial_services #ai_adoption
+> The article title suggests coverage of Citi Sky's AI implementation in wealth management. However, the provided text contains only Google's cookie consent dialog with no actual article content. Without the substantive article text, no meaningful analysis, evidence, or insights can be evaluated.
+
 **✗ 1.0** — [Western Gull, Rock Pigeon](https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything)  
 *Simon Willison* · 
 #bird_watching #pycon #personal_blog
@@ -1052,6 +1204,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Clouded Judgement (Jamin Ball)* · agentic-workflows-production · ai-engineering-agents · build-vs-buy-enterprise-ai
 #claude_skills #b2b_marketplace #agent_onboarding #bottoms_up_adoption
 > The article argues that Anthropic's Claude 'skills' (markdown-based agent instructions) represent an emerging B2B app store opportunity, contrasting with OpenAI's less successful consumer app store moment. The key evidence is the bottoms-up adoption of skills within organizations, enabled by tools like /skill-creator, and the observation that distribution resembles internal tooling rather than consumer apps. This matters because it suggests a strategic shift where 'having a skill' may become as critical for enterprise software vendors as integrations have been, fundamentally changing how B2B products achieve workflow visibility.
+
+**✗ 4.7** — [Letter from the Editor: We keep giving small businesses more tools when what they want is relief](https://tearsheet.co/opinion/letter-from-the-editor-we-keep-giving-small-businesses-more-tools-when-what-they-want-is-relief/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-we-keep-giving-small-businesses-more-tools-when-what-they-want-is-relief)  
+*Tearsheet (fintech)* · 
+#smb_finance #cognitive_overload #ai_agents #workflow_integration
+> This editorial argues that SMB finance has shifted from an access problem to a coordination problem, where small businesses are overwhelmed by fragmented tools rather than lacking capabilities. The key evidence is the observation that fintechs unbundled and optimized individual functions but created cognitive overload by requiring business owners to serve as the integration layer between disconnected tools. The piece suggests AI agents represent a structural correction by embedding decision support into workflows rather than just adding more dashboards.
 
 **✗ 4.7** — [📈 Cerebras and the IPO pop](https://www.exponentialview.co/p/cerebras-and-the-ipo-pop)  
 *Exponential View (Azeem Azhar)* · gpu-architecture-training-infra · inference-efficiency · semiconductor-supply-chain
@@ -1070,7 +1227,27 @@ All articles scanned since the wiki started. Updated nightly.
 
 ## 2026-05-14
 
+**✗ 4.0** — [Use this AI agent to stage your blog posts](https://writer.com/blog/ai-agent-stage-publish-blog-post-cms-wordpress/)  
+*Writer.com Blog* · ai-in-marketing-content · agentic-workflows-production · ai-engineering-agents
+#wordpress_automation #content_publishing_workflow #ai_agent_skills #staged_publishing
+> This article describes Writer's AI agent capability that automates blog publishing workflows by handling tasks from content creation to WordPress staging with human oversight. The agent uses 'skills' to execute multi-step processes including generating content in brand voice, selecting categories, creating images, and integrating with Asana and Slack for review workflows. It positions this as moving beyond chatbots to action-oriented digital teammates that orchestrate complete workflows.
+
+**✗ 1.0** — [AI Needs Customers More Than Chips - PYMNTS.com](https://news.google.com/rss/articles/CBMikwFBVV95cUxNa0pRakowdjR0MDJkN0txWVV5Uk9TdFQxdGxjRFZwUU5yaE53NDJ2WXpMNmhuZk9LWFh1WUYzNHlPbHpLQUFSN2VWMTdKN2R3MTYzU0pBUkFmNFdTM2RBaWZzZDFpRHJmM2U3MDRwQldCbmtNdk9jNWJvVEZ0VWpibFdoN3FxamlOeld5NFgzc2tNNGc?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#cookie_consent #privacy_policy #non_content
+> This appears to be a Google cookie consent page rather than an actual article about AI and customers. No substantive content about AI business strategy, customer acquisition, or chip supply is present. The article text consists entirely of standard Google privacy policy language and cookie consent options.
+
+**✗ 1.3** — [Frustrated former advisor launches AI-powered CRM with $8B RIA client - InvestmentNews](https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXVONkIweW80VGloZ3RHUWdLb0NLcmR4cjI0ZnJnMHBoeUtiNjlYQmtfcjZJR2ZBOWIxZmlqQmlZQlIxUm4yVUM2S3JTV3RnRVlhendqX2ZVNm1tSmJoRVNDRUZVdEhYSEpOeEJtX0pzcFR3RU1sdlZSNFRZWWdZMEF4dnJuZFVxenlvWVFQZm5aX2lleURZZjI1dEhNZUFrc3Utd3VjQkI2RmxnQi0tTUJPMUI?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#ai_crm #wealth_management #ria
+> This article appears to report on an AI-powered CRM being launched for the wealth management industry by a former advisor with an $8B RIA client. No actual article content is provided beyond cookie consent dialogs and language selection menus. The lack of substantive content makes it impossible to assess claims, evidence, or impact.
+
 **✗ 4.7** — [U.S. Congressman Beyer on AI challenges facing America and the World](https://share.transistor.fm/s/9ac73d0a)  
 *Practical AI (Changelog)* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
 #ai_regulation #cybersecurity #us_china_competition #job_displacement
 > U.S. Congressman Don Beyer discusses AI policy challenges including regulation, cybersecurity, U.S.-China AI competition, job displacement, surveillance, autonomous weapons, and existential risk. The conversation blends his congressional perspective with his technical background as an AI Ph.D. student at George Mason University. The discussion covers broad policy landscape issues but appears to be a general policy conversation rather than detailed analysis or new frameworks.
+
+**✗ 1.7** — [Where’s Wealth Management Going with this Whole AI Thing? - The Daily Upside](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRVJLc2tad0Z5T1YyZmlJaUtrUlFzc21GTmNqN1dqOVBWYk9hRnFYeGN5OFZJRk00YkdCT2ZKNlozdDRZNWxNRGtqdWxOM2NXWUIxRnFldHJxaW56ekF4Z2ZmZVF5aDBkdENmYldjbzVEdTJCbi1RbUNYalBrUUhnczVNcmhrVk5Zb0UzbDVVaEFoMkMtNVFXa1BXQWVtZmVMaUtVb2pvc3Y2QQ?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #inaccessible_content
+> This article appears to be inaccessible as the provided text only contains Google's cookie consent dialog and no actual article content. Without the substantive content about AI in wealth management, no evaluation of arguments, evidence, or impact can be made. The article cannot be assessed for depth, novelty, or analytical value.

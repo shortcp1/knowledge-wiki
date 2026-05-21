@@ -4520,6 +4520,802 @@
       ],
       "status": "skipped",
       "skip_reason": "Educational physics content about space-based thermal management with no direct relevance to AI/ML infrastructure, enterprise AI applications, or semiconductor topics in the specified domain areas."
+    },
+    "https://www.deeplearning.ai/the-batch/thinking-machines-debuts-a-new-type-of-model": {
+      "title": "Thinking Machines Debuts A New Type Of Model",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-21T02:00:41.942143+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "multimodal-models",
+        "inference-efficiency",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on several AI product and model announcements, including Thinking Machines' \"interaction model\" architecture that processes multimodal input in 200ms micro-turns for real-time conversation, Google's AI-enabled cursor for gesture-based interaction, GitHub's restructured Copilot pricing with usage-based tiers, and Baidu's compressed ERNIE 5.1 model. The key evidence includes architectural details like streaming inference in SGLang, the micro-turn design for continuous input/output interleaving, and ERNIE's elastic training framework that reduces parameters to one-third while using only six percent of typical pre-training compute. These developments matter because they represent different strategies for making AI more responsive (real-time multimodal), accessible (gesture-based UI), economically viable (usage-based pricing), and efficient (model compression).",
+      "tags": [
+        "interaction-models",
+        "real-time-multimodal",
+        "micro-turn-architecture",
+        "streaming-inference",
+        "sglang",
+        "model-compression",
+        "usage-based-pricing",
+        "gesture-based-ui"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a surface-level news roundup of multiple announcements without deep technical analysis or novel insights into any single development; primarily summarizes press releases and product launches rather than providing original research or frameworks."
+    },
+    "https://www.deeplearning.ai/the-batch/openai-challenges-speech-to-speech-leaders": {
+      "title": "Openai Challenges Speech To Speech Leaders",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-21T02:00:41.734480+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency"
+      ],
+      "content_type": "technical",
+      "summary": "OpenAI released three new audio models in its Realtime API: GPT-Realtime-2 (speech-to-speech with configurable reasoning effort), GPT-Realtime-Translate (70+ input languages to 13 output languages), and GPT-Realtime-Whisper (speech-to-text transcription). The models feature end-to-end audio processing with reasoning effort levels that trade latency (1.12-2.33 seconds to first audio) for performance, with GPT-Realtime-2 leading some conversational benchmarks but trailing in speech reasoning. This represents an architectural shift from cascaded speech-to-text-to-speech pipelines to unified audio models, though latency remains high for true real-time applications.",
+      "tags": [
+        "speech-to-speech",
+        "audio-models",
+        "reasoning-effort",
+        "latency-tradeoff",
+        "realtime-api",
+        "multimodal-architecture"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with minimal technical depth; primarily reports features and benchmark results without original analysis or novel insights into architecture or implementation."
+    },
+    "https://www.deeplearning.ai/the-batch/cursor-composer-undercuts-competition": {
+      "title": "Cursor Composer Undercuts Competition",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-21T02:00:41.453684+00:00",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "ai-engineering-agents",
+        "build-vs-buy-enterprise-ai",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Cursor's Composer 2.5 coding model, built on Moonshot's open-source Kimi K2.5, which achieves near-frontier performance (79.8% on SWE-Bench Multilingual) at dramatically lower costs ($0.50/$2.50 per million tokens versus competitors' higher rates). The key evidence is benchmark performance comparable to GPT-5.5 and Claude Opus 4.7, though comparisons mix self-reported numbers and lack independent verification on unified scaffolds. This matters because it demonstrates a viable cost-competitive alternative to frontier coding models, potentially shifting enterprise build-vs-buy economics for AI coding assistants.",
+      "tags": [
+        "cursor-composer",
+        "coding-models",
+        "synthetic-training-data",
+        "swe-bench",
+        "inference-cost",
+        "open-source-models"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with limited technical depth and unverified benchmark claims; primarily aggregated news rather than original analysis"
+    },
+    "https://www.latent.space/p/railway": {
+      "title": "Railway: The Agent-Native Cloud \u2014 Jake Cooper",
+      "source": "Latent Space Podcast",
+      "date": "2026-05-20T22:42:06+00:00",
+      "composite": 6.33,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-engineering-agents",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Railway, a deployment platform founded in 2020, has evolved into what it calls an 'agent-native cloud' with 3 million users and $124m raised, arguing that agents need fundamentally different infrastructure than human-driven software deployment. The company built its own bare metal data centers with 3-month payback periods and 70% margins, implementing features like agent-safe production forks, content-addressable filesystems, and version control designed for autonomous software agents deploying at scale. This matters because it represents a concrete infrastructure bet that AI agents will become the dominant software deployment paradigm, requiring new primitives beyond traditional CI/CD and static cloud resources.",
+      "tags": [
+        "bare-metal-infrastructure",
+        "deployment-automation",
+        "agent-deployment",
+        "cloud-economics",
+        "feature-flags",
+        "temporal-workflows"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything": {
+      "title": "Quoting SpaceX S-1",
+      "source": "Simon Willison",
+      "date": "2026-05-20T22:26:36+00:00",
+      "composite": 6.33,
+      "depth": 3,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "funding-and-market-structure",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "The article quotes a SpaceX S-1 filing revealing that Anthropic has agreed to pay $1.25 billion per month (totaling $45 billion over three years) for access to compute capacity on xAI's COLOSSUS and COLOSSUS II infrastructure starting May 2026. The filing shows SpaceX/xAI positioning itself as both an AI model developer (training Grok 5) and a cloud compute provider to third-party customers like Anthropic. This represents a major shift in AI infrastructure economics and lab dynamics, with one frontier lab providing massive compute resources to a competitor while maintaining termination flexibility with just 90 days notice.",
+      "tags": [
+        "compute-capacity",
+        "colossus",
+        "anthropic-anthropic",
+        "grok-5",
+        "cloud-services",
+        "ai-infrastructure-costs"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything": {
+      "title": "How fast is 10 tokens per second really?",
+      "source": "Simon Willison",
+      "date": "2026-05-20T17:57:45+00:00",
+      "composite": 2.7,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "inference-efficiency"
+      ],
+      "content_type": "technical",
+      "summary": "This is a brief link blog post highlighting an HTML tool by Mike Veerman that simulates LLM token output speeds ranging from 5 to 800 tokens per second. The tool helps users visualize what advertised token generation speeds actually feel like in practice. It provides a simple user experience reference for understanding inference performance claims.",
+      "tags": [
+        "token-generation-speed",
+        "inference-visualization",
+        "llm-performance"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level link post with no original analysis, novel insights, or substantive content beyond pointing to a simple visualization tool."
+    },
+    "https://simonwillison.net/2026/May/20/google-io/#atom-everything": {
+      "title": "Google I/O, Gemini Spark, Antigravity",
+      "source": "Simon Willison",
+      "date": "2026-05-20T15:32:17+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance",
+        "prompt-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Google I/O announcements including Gemini Spark, a personal AI agent that integrates with Google services and runs on Gemini 3.5 Flash and a mysterious \"Antigravity\" system. Key security details reveal Spark uses isolated VMs and a secure gateway with DLP enforcement to prevent data leakage, though the author questions whether this adequately addresses prompt injection risks. This matters because Gemini Spark's integration with sensitive user data across Google services makes it a high-stakes test case for agent security vulnerabilities.",
+      "tags": [
+        "gemini-spark",
+        "prompt-injection",
+        "agentic-security",
+        "isolated-execution",
+        "dlp-enforcement",
+        "antigravity"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://openai.com/index/model-disproves-discrete-geometry-conjecture": {
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "source": "OpenAI News",
+      "date": "2026-05-20T00:00:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "An OpenAI model reportedly solved the 80-year-old unit distance problem in discrete geometry, disproving a longstanding mathematical conjecture. The article provides no details about the methodology, the specific conjecture disproved, or how the AI system approached the problem. While significant for mathematics, this achievement has minimal direct relevance to AI product development, enterprise deployment, or the listed focus areas.",
+      "tags": [
+        "mathematical-reasoning",
+        "discrete-geometry",
+        "formal-verification",
+        "ai-mathematics"
+      ],
+      "status": "skipped",
+      "skip_reason": "Pure mathematics research with no connection to AI infrastructure, product design, enterprise use cases, or market dynamics covered in the knowledge base topics."
+    },
+    "https://openai.com/index/ramp": {
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "source": "OpenAI News",
+      "date": "2026-05-20T00:00:00+00:00",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports that Ramp engineers use OpenAI's Codex with GPT-5.5 to automate code review processes, reducing feedback time from hours to minutes. The key mechanism appears to be AI-assisted review that provides substantive technical feedback on code submissions. This matters as an early example of AI tooling being deployed in software engineering workflows, though the article provides minimal detail on implementation or impact.",
+      "tags": [
+        "code-review",
+        "codex",
+        "developer-productivity",
+        "software-engineering-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study with insufficient technical depth, implementation details, or quantitative evidence of impact; reads as promotional content rather than substantive analysis."
+    },
+    "https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/": {
+      "title": "Understanding the modern cybercrime landscape",
+      "source": "MIT Technology Review",
+      "date": "2026-05-19T13:00:00+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article describes how cybercriminals have industrialized their operations in 2025, using automation and AI to exploit vulnerabilities with corporate-like hierarchies. It outlines five factors influencing the cybersecurity landscape: high network expectations, financial pressures on security budgets, complex multivendor infrastructure, evolving threats, and regulatory compliance demands. The piece is a generic overview of enterprise cybersecurity challenges without specific data, novel frameworks, or actionable insights.",
+      "tags": [
+        "cybersecurity",
+        "threat-landscape",
+        "enterprise-security",
+        "digital-transformation",
+        "multivendor-infrastructure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level cybersecurity overview with generic enterprise challenges and no specific data, novel frameworks, or direct relevance to AI/ML infrastructure or applications."
+    },
+    "https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/": {
+      "title": "The Download: Musk v. Altman, smart glasses for warfare, and Google I/O",
+      "source": "MIT Technology Review",
+      "date": "2026-05-19T12:10:00+00:00",
+      "composite": 3.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter summarizes recent AI industry news including Elon Musk's failed lawsuit against OpenAI, Anduril and Meta's military AR glasses collaboration, and Google I/O preview focusing on foundation model competition. The article provides surface-level coverage of multiple stories without original analysis, primarily serving as news aggregation with brief context on each development. It matters mainly as a snapshot of concurrent industry events but offers no deeper insights or original frameworks.",
+      "tags": [
+        "openai-lawsuit",
+        "military-ar",
+        "foundation-models",
+        "google-io",
+        "anduril-meta"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter-style news aggregation with minimal depth or novel analysis; provides only surface summaries of multiple unrelated stories without substantive insights or original research."
+    },
+    "https://www.technologyreview.com/2026/05/19/1137471/colossal-biosciences-is-growing-chickens-in-a-3d-printed-container/": {
+      "title": "Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell",
+      "source": "MIT Technology Review",
+      "date": "2026-05-19T12:00:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Colossal Biosciences claims to have developed a 3D-printed artificial eggshell system for growing chickens outside natural eggs, positioned as part of their effort to resurrect extinct bird species like the dodo and moa. The technology uses a printed lattice with an oxygen-permeable silicone membrane, though scientists note this is an incremental improvement on methods dating back to 1998 and criticize Colossal for overstating novelty. The article highlights ongoing tensions between Colossal's marketing approach and the scientific community's assessment of their actual technical contributions.",
+      "tags": [
+        "synthetic-biology",
+        "de-extinction",
+        "biotech-reproduction",
+        "3d-printing-biotech",
+        "gene-editing"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers synthetic biology and de-extinction technology which does not map to any of the specified topic areas focused on semiconductors, AI/ML systems, or enterprise AI applications."
+    },
+    "https://deepmind.google/blog/introducing-google-antigravity-2-0/": {
+      "title": "Introducing Google Antigravity 2.0",
+      "source": "Google DeepMind",
+      "date": "2026-05-17T19:43:45+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article title suggests an announcement about 'Google Antigravity 2.0' but contains no actual content beyond the title repetition. Without substantive text, there is no analysis, research, claims, data, or frameworks to evaluate. This appears to be either a placeholder, formatting error, or fictional content that provides no actionable information.",
+      "tags": [
+        "google-deepmind",
+        "product-announcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no substantive content beyond a title, making it impossible to extract meaningful analysis, evidence, or relevance to any knowledge domain."
+    },
+    "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/": {
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "source": "Google DeepMind",
+      "date": "2026-05-17T13:50:34+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a brief announcement from Google DeepMind about Gemini for Science, a collection of AI tools intended to support scientific discovery. The article provides no evidence, specific tools, technical details, or concrete use cases\u2014only a one-sentence description. It matters only as a signal of Google's intent to position Gemini in scientific applications, but offers no actionable or substantive information.",
+      "tags": [
+        "gemini",
+        "scientific-discovery",
+        "google-deepmind",
+        "product-announcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content\u2014just a single promotional sentence with no technical depth, specific claims, data, frameworks, or relevant enterprise AI use cases."
+    },
+    "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/": {
+      "title": "Making it easier to understand how content was created and edited",
+      "source": "Google DeepMind",
+      "date": "2026-05-17T13:43:50+00:00",
+      "composite": 3.3,
+      "depth": 3,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "technical",
+      "summary": "Google DeepMind announces tooling and metadata standards to help users understand whether content was AI-generated or human-created. The approach centers on implementing C2PA (Coalition for Provenance and Authenticity) standards and SynthID watermarking technology across Google products. This matters for content authenticity and transparency but represents incremental adoption of existing industry standards rather than novel research or frameworks.",
+      "tags": [
+        "content-provenance",
+        "c2pa-standard",
+        "synthid-watermarking",
+        "ai-generated-content",
+        "metadata-standards"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement about implementing existing industry standards for content provenance without original research, novel frameworks, or deep technical analysis."
+    },
+    "https://www.bain.com/insights/decision-insights-5-embed-decision-capabilities-in-your-organization/": {
+      "title": "Decision Insights 5 Embed Decision Capabilities In Your Organization",
+      "source": "Bain Insights",
+      "date": "2026-05-21T02:00:46.920819+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or broken link from Bain & Company's website about embedding decision capabilities in organizations. The content consists entirely of website navigation menus, office locations, and site structure with no actual article text or substantive content. There is no analysis, framework, or insight to evaluate.",
+      "tags": [
+        "decision-capabilities",
+        "organizational-structure"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content present; page contains only website navigation and structural elements with no actual article text or insights."
+    },
+    "https://www.bain.com/insights/decision-insights-7-create-a-decision-focused-culture/": {
+      "title": "Decision Insights 7 Create A Decision Focused Culture",
+      "source": "Bain Insights",
+      "date": "2026-05-21T02:00:46.892223+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a navigation page or index for Bain & Company's website focused on 'creating a decision-focused culture.' The content provided consists entirely of website navigation elements (offices, industries, services) with no actual substantive article content. There is no analysis, framework, or evidence presented about decision-making culture or any other topic.",
+      "tags": [
+        "decision-making",
+        "organizational-culture",
+        "management-consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content provided - only website navigation elements with no analysis, data, or insights to evaluate."
+    },
+    "https://www.bain.com/insights/decision-insights-4-build-an-organization-that-decides-and-delivers/": {
+      "title": "Decision Insights 4 Build An Organization That Decides And Delivers",
+      "source": "Bain Insights",
+      "date": "2026-05-21T02:00:46.430948+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or broken article from Bain & Company's website about organizational decision-making and delivery. The article text provided consists entirely of website navigation menus, office locations, and structural elements with no actual content visible. Without substantive content to evaluate, this cannot be assessed for its claims, evidence, or impact on organizational design or AI implementation.",
+      "tags": [
+        "organizational-design",
+        "decision-making",
+        "enterprise-consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided; only website navigation and structural elements are visible in the scraped text."
+    },
+    "https://www.bvp.com/atlas/recall-ai-building-the-infrastructure-behind-ai-tools-and-products-for-video-conference-recording": {
+      "title": "Recall Ai Building The Infrastructure Behind Ai Tools And Products For Video Conference Recording",
+      "source": "Bessemer Atlas",
+      "date": "2026-05-21T02:00:27.362204+00:00",
+      "composite": 4.33,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Recall.ai built API infrastructure for capturing and processing video conference conversation data, solving the problem that AI agents need access to meeting context to function effectively. The founders pivoted from a direct video recording product after realizing 80% of their time was spent on backend infrastructure, turning that pain point into a B2B API business. The company now serves 3,000+ companies including HubSpot, ClickUp, and monday.com by providing the infrastructure layer for AI products that need conversation data.",
+      "tags": [
+        "conversation-data",
+        "video-conference-api",
+        "infrastructure-layer",
+        "meeting-intelligence",
+        "api-platform"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study promoting a portfolio company with minimal technical depth, novel insights, or actionable frameworks beyond a standard founder pivot narrative."
+    },
+    "https://www.bvp.com/atlas/roadmap-the-ai-data-center-stack": {
+      "title": "Roadmap The Ai Data Center Stack",
+      "source": "Bessemer Atlas",
+      "date": "2026-05-21T02:00:27.069620+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "regulatory-policy",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article outlines infrastructure investment opportunities in AI data centers, arguing that power and grid constraints are now the primary bottleneck to AI deployment, with 25% of 2025 data centers delayed due to power/permitting issues. It provides market data showing 190 GW of hyperscale capacity announced, data center electricity consumption doubling by 2030, and 78% of built-environment VC ($4.5B) going to data centers in 2025. This matters because it frames physical infrastructure\u2014not chips or software\u2014as the critical path for AI scaling, creating opportunities across six categories from permitting to cooling.",
+      "tags": [
+        "data-center-infrastructure",
+        "power-grid-constraints",
+        "hyperscale-capacity",
+        "defense-production-act",
+        "energy-infrastructure",
+        "permitting-delays"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level market landscape with limited analytical depth; presents known challenges (power constraints, permitting delays) without novel frameworks or original research beyond citing aggregate statistics"
+    },
+    "https://www.tomtunguz.com/ai-model-inflation/": {
+      "title": "The Unsustainable Subsidy",
+      "source": "Tomasz Tunguz",
+      "date": "2026-05-20T00:00:00+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-pricing-packaging-saas",
+        "build-vs-buy-enterprise-ai",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article tracks pricing trajectories of major AI model providers (Google, OpenAI, Anthropic) from their initial launches through 2026, showing Google tripling prices annually while remaining cheapest, OpenAI initially subsidizing then raising prices, and Anthropic maintaining premium pricing. The evidence is comparative price tables showing Google at $2-12/1M tokens versus competitors at $5-30/1M tokens, with price changes correlating to funding conditions. This matters because it reveals the unsustainability of early AI pricing strategies as capital becomes constrained and vendors shift from market-share to margin optimization.",
+      "tags": [
+        "llm-pricing",
+        "token-economics",
+        "pricing-strategy",
+        "market-share-vs-margins",
+        "capex-constraints"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level price comparison without analysis of underlying cost structures, competitive dynamics, or strategic implications for enterprise buyers beyond observing correlation between funding and pricing changes."
+    },
+    "https://airealizednow.substack.com/p/the-four-levels-of-ai-maturity-in": {
+      "title": "The Four Levels of AI Maturity in B2B Marketing",
+      "source": "AI Realized Now",
+      "date": "2026-05-19T14:58:58+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-in-sales-gtm",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article proposes a four-level maturity framework for AI adoption in B2B marketing, progressing from basic chat interactions (Level 0) to systematic prompt engineering (Level 1) and beyond. It argues that 87% of marketers use generative AI but only 7% achieve measurable business results, identifying this as a maturity problem rather than an adoption problem. The framework matters because most marketing teams are stuck at Level 0 (conversational AI usage) without systematic approaches, shared methodology, or institutional knowledge transfer.",
+      "tags": [
+        "ai-maturity-framework",
+        "b2b-marketing",
+        "prompt-engineering",
+        "organizational-ai-adoption",
+        "marketing-workflows"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level enterprise thought leadership that introduces a basic maturity framework without novel data, methodology, or operational depth beyond anecdotal observations and industry statistics."
+    },
+    "https://tearsheet.co/10-q/bnpl-moves-into-the-conversation-layer-of-commerce/?utm_source=rss&utm_medium=rss&utm_campaign=bnpl-moves-into-the-conversation-layer-of-commerce": {
+      "title": "BNPL moves into the conversation layer of commerce",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-18T12:45:00+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-native-product-design",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Affirm and Klarna are embedding BNPL (buy-now-pay-later) payment options directly into Google Search and the Gemini AI app, moving payments upstream from traditional checkout flows into conversational AI interfaces. The integration enables discovery, comparison, and purchasing within a single AI-driven interaction rather than through separate search funnels and checkout pages. This represents a shift toward 'agentic commerce' where payment infrastructure adapts to AI-mediated shopping experiences.",
+      "tags": [
+        "bnpl",
+        "agentic-commerce",
+        "conversational-ai",
+        "payment-integration",
+        "google-gemini"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://tearsheet.co/artificial-intelligence/citis-ai-teammate-signals-a-new-model-for-wealth-management/?utm_source=rss&utm_medium=rss&utm_campaign=citis-ai-teammate-signals-a-new-model-for-wealth-management": {
+      "title": "Citi\u2019s AI teammate signals a new model for wealth management",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-18T11:45:00+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-wealth-management-advisory",
+        "agentic-workflows-production",
+        "ai-in-finance-accounting",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Citi has launched Citi Sky, an AI-powered wealth assistant built with Google Cloud and DeepMind that provides always-on conversational access to portfolio insights and market data while keeping human advisors in control of execution. The technical challenge centers on constraining non-deterministic generative AI through strict routing, controlled tool use, and runtime personalization rather than training-time embedding to maintain regulatory compliance. This signals a shift from scheduled advisory interactions to continuous AI presence, compressing routine advisor touchpoints into fewer high-stakes moments requiring human judgment.",
+      "tags": [
+        "wealth-management",
+        "conversational-ai",
+        "non-deterministic-outputs",
+        "runtime-personalization",
+        "regulatory-compliance",
+        "human-in-the-loop"
+      ],
+      "status": "integrated"
+    },
+    "https://tearsheet.co/opinion/letter-from-the-editor-we-keep-giving-small-businesses-more-tools-when-what-they-want-is-relief/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-we-keep-giving-small-businesses-more-tools-when-what-they-want-is-relief": {
+      "title": "Letter from the Editor: We keep giving small businesses more tools when what they want is relief",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-15T11:45:00+00:00",
+      "composite": 4.67,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This editorial argues that SMB finance has shifted from an access problem to a coordination problem, where small businesses are overwhelmed by fragmented tools rather than lacking capabilities. The key evidence is the observation that fintechs unbundled and optimized individual functions but created cognitive overload by requiring business owners to serve as the integration layer between disconnected tools. The piece suggests AI agents represent a structural correction by embedding decision support into workflows rather than just adding more dashboards.",
+      "tags": [
+        "smb-finance",
+        "cognitive-overload",
+        "ai-agents",
+        "workflow-integration",
+        "fintech-coordination"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on SMB financial services and AI workflow automation, which does not map to any of the specified topic areas centered on AI infrastructure, enterprise AI deployment patterns, or specific functional AI use cases in larger organizations."
+    },
+    "https://news.google.com/rss/articles/CBMinwJBVV95cUxORXZHMnZtTFdaYWphb3ZDbEZBemJyZV91dVA0LXBvUC1ZbmZlQmpPM0ZoT2UwenNJclBMM1p1OVNsZmV3cFdxLWUwN3Q0eGFLTjVwQjNnaHU1V1hwaER4RzdNMk0yYUtHODRBdTFXRlgybHN3X0k4ajJFQTRyMEdrbU9lTXBYTDFkb3RmYlU2NGFwNkNiLTIyLWNOSWhwWGZBdDhWZ2hGTnh4R1RRNkNQdk1KYTNvajFfRWFzMDZwX3hlNnVsT3owMGhJMndFU1ZTSmxFUTRueHNhWmN6ejBfYTRqcHladHdHdWR4SnRuNGprbmxiNTY1NEExckc0MlJ2RF9Ea2Z0QkNMY05HWnB3eTBkXzBWSmd0TlZPc0dncw?oc=5": {
+      "title": "Mid-Market Healthcare Races Ahead On AI \u2013 But Cybersecurity Fears Are Holding Back Full Deployment - Citeline News & Insights",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-20T20:16:12+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Unable to access article content due to cookie consent wall. Only metadata (title and source) visible, suggesting mid-market healthcare AI adoption with cybersecurity concerns. No actual analysis, data, or claims accessible for evaluation.",
+      "tags": [
+        "healthcare-ai",
+        "mid-market",
+        "cybersecurity",
+        "access-blocked"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content inaccessible behind cookie consent screen; only title visible, providing no substantive information to evaluate."
+    },
+    "https://writer.com/blog/humans-of-ai-christian-westcott/": {
+      "title": "When the funnel collapses: Rebuilding inbound marketing with Christian Westcott, Director of AI visibility",
+      "source": "Writer.com Blog",
+      "date": "2026-05-20T15:45:04+00:00",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-org-design-headcount",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article profiles a Director of AI Visibility at Writer who pivoted from traditional SEO/inbound marketing as the funnel collapsed due to buyers using LLMs instead of search engines. He rebuilt his role by creating AI agents for workflow automation (QA agent saving 80 hours/month) and monitoring brand visibility across AI engines rather than traditional search. The piece illustrates practical organizational adaptation to AI-driven buyer behavior changes, though it remains a high-level case study without technical implementation details.",
+      "tags": [
+        "ai-visibility",
+        "inbound-marketing-collapse",
+        "llm-search-displacement",
+        "qa-automation-agent",
+        "workflow-automation",
+        "role-reinvention"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study with limited technical depth or novel frameworks; primarily promotional content for Writer with anecdotal evidence rather than systematic analysis or transferable insights."
+    },
+    "https://writer.com/blog/ai-academy-passport-curriculum/": {
+      "title": "Your AI journey starts here",
+      "source": "Writer.com Blog",
+      "date": "2026-05-20T14:44:01+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-marketing-content",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Writer announces the opening of their AI Academy to the public, featuring a 'Passport' curriculum designed to help marketers and business leaders move from basic AI task prompting to building enterprise-wide agentic workflows. The curriculum offers LinkedIn-shareable badges for skills like designing agentic solutions, prompting for outcomes, and creating on-brand AI outputs, with no coding required. This represents a vendor-led educational initiative to address the gap between basic AI experimentation and transformative workflow automation in enterprise settings.",
+      "tags": [
+        "agentic-workflows",
+        "ai-upskilling",
+        "workflow-automation",
+        "prompting-techniques",
+        "enterprise-ai-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Marketing announcement for a vendor training program with no original research, novel frameworks, or substantive technical/strategic insights; primarily promotional content about course offerings."
+    },
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUUlyWmFIQ2JYVVVNUkxIQ01JRXFSZHZDU3RIUU5qTW9NWXhueUpQeDBRbW5rRHdUNV85blpaWklVQUpsek1OdHFINGFFQUszODBhbFRvbFpQMWE4YTVNQVVnSHQ1TmlLM0cwN19LdTdGalNqVzZwSExmbmY3TXFxemp4dFVScDk3SVgzazRTSzRoOGhhdDJUTUl1UHg2bTBtOWtCQg?oc=5": {
+      "title": "AI Deployment in Finance Nearly Doubles in One Year [New Consero Research] - newswire.com",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-18T16:00:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article title suggests Consero research found AI deployment in finance nearly doubled in one year. However, the actual article content is only a Google cookie consent page with no substantive information. This appears to be a crawling or access error rather than actual article content.",
+      "tags": [
+        "ai-deployment",
+        "finance",
+        "enterprise-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content, only a Google sign-in/cookie consent page; impossible to evaluate substantive claims or quality."
+    },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTXVnUHpkTW5jQ0Uyc3ZlTUZYZkN0S01rTWlWZk54THQyckl3ZDBjMUtJbEtNeWlCYVJlM2Q0VXZ3MWw0b0lpcXdZN1JBVzQ5TEZvY0Y5cmQ4Y1VzU1hKc2VqakIyU2dXaGRKQ2tOS3BxUUVGdkJ2RXgwMVlaVkZQVGZLUnRfdXUtbm91NzFJU3A0X2F5Tmg1b0w3a09DN3Y0RzJRZE1Dbw?oc=5": {
+      "title": "How wealth management firms, advisors can make the most of AI - Advisor.ca",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-05-18T08:10:30+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to discuss how wealth management firms and advisors can leverage AI technologies. However, the actual article content is blocked by a Google cookie consent page, preventing access to the substantive analysis or recommendations. Without access to the actual content, no meaningful evaluation of depth, novelty, or specific insights can be made.",
+      "tags": [
+        "wealth-management",
+        "financial-advisors",
+        "ai-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible due to cookie consent wall; only title and metadata available, providing no substantive analysis or insights to evaluate."
+    },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1bEJhX3cxOERhV2V2dUlRNXVISkNKd183YXk5VllYbWZxYkV0SW1odklSUXY5Zk56dmZQZlJEbXB2ZkVqQm1vejRVb2VMZm1pbkJNXzFweTc0MGFhdS1xbGdpZklQd2ZRVGo0TG41SUMtanM4Y05PTg?oc=5": {
+      "title": "Citi Sky\u2019s AI Reshapes Wealth Management - Global Finance Magazine",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-05-15T19:46:29+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article title suggests coverage of Citi Sky's AI implementation in wealth management. However, the provided text contains only Google's cookie consent dialog with no actual article content. Without the substantive article text, no meaningful analysis, evidence, or insights can be evaluated.",
+      "tags": [
+        "wealth-management",
+        "financial-services",
+        "ai-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not accessible; only cookie consent page provided with no substantive information about AI in wealth management."
+    },
+    "https://writer.com/blog/ai-agent-stage-publish-blog-post-cms-wordpress/": {
+      "title": "Use this AI agent to stage your blog posts",
+      "source": "Writer.com Blog",
+      "date": "2026-05-14T17:51:03+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "agentic-workflows-production",
+        "ai-engineering-agents"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article describes Writer's AI agent capability that automates blog publishing workflows by handling tasks from content creation to WordPress staging with human oversight. The agent uses 'skills' to execute multi-step processes including generating content in brand voice, selecting categories, creating images, and integrating with Asana and Slack for review workflows. It positions this as moving beyond chatbots to action-oriented digital teammates that orchestrate complete workflows.",
+      "tags": [
+        "wordpress-automation",
+        "content-publishing-workflow",
+        "ai-agent-skills",
+        "staged-publishing",
+        "cms-integration"
+      ],
+      "status": "skipped",
+      "skip_reason": "Marketing content from vendor promoting their own product feature with minimal technical depth or novel insights into agentic workflows; primarily a product announcement disguised as thought leadership."
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa0pRakowdjR0MDJkN0txWVV5Uk9TdFQxdGxjRFZwUU5yaE53NDJ2WXpMNmhuZk9LWFh1WUYzNHlPbHpLQUFSN2VWMTdKN2R3MTYzU0pBUkFmNFdTM2RBaWZzZDFpRHJmM2U3MDRwQldCbmtNdk9jNWJvVEZ0VWpibFdoN3FxamlOeld5NFgzc2tNNGc?oc=5": {
+      "title": "AI Needs Customers More Than Chips - PYMNTS.com",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-14T17:19:50+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a Google cookie consent page rather than an actual article about AI and customers. No substantive content about AI business strategy, customer acquisition, or chip supply is present. The article text consists entirely of standard Google privacy policy language and cookie consent options.",
+      "tags": [
+        "cookie-consent",
+        "privacy-policy",
+        "non-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content present; appears to be a navigation/consent page that was scraped instead of the intended article."
+    },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXVONkIweW80VGloZ3RHUWdLb0NLcmR4cjI0ZnJnMHBoeUtiNjlYQmtfcjZJR2ZBOWIxZmlqQmlZQlIxUm4yVUM2S3JTV3RnRVlhendqX2ZVNm1tSmJoRVNDRUZVdEhYSEpOeEJtX0pzcFR3RU1sdlZSNFRZWWdZMEF4dnJuZFVxenlvWVFQZm5aX2lleURZZjI1dEhNZUFrc3Utd3VjQkI2RmxnQi0tTUJPMUI?oc=5": {
+      "title": "Frustrated former advisor launches AI-powered CRM with $8B RIA client - InvestmentNews",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-05-14T10:31:56+00:00",
+      "composite": 1.33,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to report on an AI-powered CRM being launched for the wealth management industry by a former advisor with an $8B RIA client. No actual article content is provided beyond cookie consent dialogs and language selection menus. The lack of substantive content makes it impossible to assess claims, evidence, or impact.",
+      "tags": [
+        "ai-crm",
+        "wealth-management",
+        "ria"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided - only cookie consent dialogs and navigation elements were extracted, making substantive evaluation impossible."
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRVJLc2tad0Z5T1YyZmlJaUtrUlFzc21GTmNqN1dqOVBWYk9hRnFYeGN5OFZJRk00YkdCT2ZKNlozdDRZNWxNRGtqdWxOM2NXWUIxRnFldHJxaW56ekF4Z2ZmZVF5aDBkdENmYldjbzVEdTJCbi1RbUNYalBrUUhnczVNcmhrVk5Zb0UzbDVVaEFoMkMtNVFXa1BXQWVtZmVMaUtVb2pvc3Y2QQ?oc=5": {
+      "title": "Where\u2019s Wealth Management Going with this Whole AI Thing? - The Daily Upside",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-05-14T04:01:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be inaccessible as the provided text only contains Google's cookie consent dialog and no actual article content. Without the substantive content about AI in wealth management, no evaluation of arguments, evidence, or impact can be made. The article cannot be assessed for depth, novelty, or analytical value.",
+      "tags": [
+        "wealth-management",
+        "inaccessible-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible; only cookie consent dialog was provided with no substantive information about AI in wealth management."
     }
   }
 }
