@@ -301,3 +301,44 @@ This content would fit better in a dedicated topic on data quality, active learn
 - **Solo founder path**: Jake Cooper as solo founder ("conductor")
 - **Focus and writing**: Cooper emphasizes importance of focus and writing for company building
 - **Six-year grind**: Railway spent six years before reaching current growth inflection
+
+---
+**Sony And University Researchers Train Robots To Learn Without Catastrophic Forgetting** (The Batch (DeepLearning.AI), 2026-05-22T02:00:42.110835+00:00)
+## Robotics: Continual Learning Without Catastrophic Forgetting
+
+**Research**: Sony and university researchers (UT Austin, UCLA, Nanyang Technological, Sony) (2024-2026)
+
+**Problem Addressed**: Neural networks typically exhibit catastrophic forgetting when learning new tasks sequentially - they lose ability to perform earlier tasks as they learn new ones.
+
+**Solution Recipe** (Hu, Shim et al., 2026):
+- **Large pretrained vision-language-action (VLA) models** + **LoRA (Low-Rank Adaptation)** + **On-policy reinforcement learning (GRPO)**
+- Applied to: OpenVLA-OFT model fine-tuned on LIBERO benchmark (simulated robot arm tasks: opening drawers, moving objects to targets)
+
+**Key Insight**: The combination limits how much information can be forgotten during training:
+1. **Large pretrained models**: Huge parameter count means small updates are unlikely to interfere with existing knowledge
+2. **LoRA**: Adjusts weights by adding product of two small matrices, limiting total change magnitude
+3. **On-policy RL (GRPO)**: Rewards actions the model itself generated, limiting update size. Contrast with supervised fine-tuning and off-policy RL (which rewards externally-chosen actions), which can cause large updates.
+
+**Results on LIBERO-spatial tasks**:
+- **81.2% average success rate** on new tasks learned sequentially
+- **Near-zero forgetting** (0.3 percentage point drop on previously learned tasks)
+- **57.1% success on unseen tasks** (generalization beyond training)
+- Outperformed baseline methods: Dark Experience Replay (73.4%), SLCA (69.9%), Elastic Weight Consolidation (66.1%)
+
+**Training Protocol**:
+- Sequential fine-tuning on 5 tasks per suite
+- No data reuse from previous tasks when learning new tasks
+- Model input: image + instruction → output: continuous action sequence for robot arm/gripper control
+- GRPO provides reward signal for task completion
+
+**Methodological Note**: Comparison methods (Dark Experience Replay, SLCA, Elastic Weight Consolidation) were modified to use LoRA + GRPO for fair comparison, though these weren't designed for that combination. Original implementations may have performed differently.
+
+**Component Ablation**: Removing any single component (large pretrained model, LoRA, or GRPO) caused "performance collapse" and "strong forgetting" - all three are necessary.
+
+---
+
+**Relevance**: This is a robotics/continual learning paper, not directly about model architecture or AI agents/engineering. It relates to [[post-training]] methods and [[low-rank-adaptation]] (LoRA) but focuses on robotics applications and catastrophic forgetting mitigation. May warrant a separate topic file for continual-learning or robotics if this becomes a recurring theme.
+
+---
+**Giving Agents Computers — Ivan Burazin, Daytona** (Latent Space, 2026-05-21T20:37:40+00:00)
+**Founder Journey Context**: Ivan Burazin's decade-long thesis about "end of localhost" - started with CodeAnywhere (early browser-based IDE), founded Shift conference (Infobip Shift 2022 mentioned), pivoted Daytona from human dev environments to AI sandboxes. Company has ~25 people as of 2026. This historical context explains why Daytona was positioned to capture the agent compute market - the thesis was directionally correct but market timing required agents to materialize.

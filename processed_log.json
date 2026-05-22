@@ -5316,6 +5316,763 @@
       ],
       "status": "skipped",
       "skip_reason": "Article content is inaccessible; only cookie consent dialog was provided with no substantive information about AI in wealth management."
+    },
+    "https://www.deeplearning.ai/the-batch/sony-and-university-researchers-train-robots-to-learn-without-catastrophic-forgetting": {
+      "title": "Sony And University Researchers Train Robots To Learn Without Catastrophic Forgetting",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-22T02:00:42.110835+00:00",
+      "composite": 6.0,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "Sony and university researchers developed a method combining large pretrained vision-language-action models with LoRA and on-policy reinforcement learning (GRPO) to train robots on sequential tasks without catastrophic forgetting. The approach achieved 81.2% success rate on LIBERO robotics benchmarks, outperforming methods like Dark Experience Replay (73.4%) and SLCA (69.9%), with near-zero forgetting across tasks. This matters because it enables robots to continuously learn new skills without losing previously learned capabilities, addressing a fundamental challenge in sequential robot training.",
+      "tags": [
+        "catastrophic-forgetting",
+        "vision-language-action-models",
+        "lora",
+        "grpo",
+        "robotics-training",
+        "continual-learning"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/gallup-poll-shows-ai-boosts-productivity-but-many-workers-havent-tried-it": {
+      "title": "Gallup Poll Shows Ai Boosts Productivity But Many Workers Havent Tried It",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-22T02:00:42.110760+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "A Gallup poll of 23,700 U.S. workers found that 50% used AI at work in the past year, with 65% reporting productivity improvements, though daily usage remains at only 13%. The survey shows managerial support and organizational integration are key drivers of adoption, while barriers include ethical concerns, privacy issues, and perceived lack of usefulness. The findings suggest AI is augmenting rather than replacing workers, though the macro-level economic impact remains unclear.",
+      "tags": [
+        "worker-productivity",
+        "ai-adoption-rates",
+        "organizational-support",
+        "employee-surveys",
+        "job-automation-concerns"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level summary of a poll with widely reported themes about AI adoption and productivity; lacks novel insights or deep analysis beyond reporting survey results"
+    },
+    "https://www.deeplearning.ai/the-batch/speak-with-ai-andrew": {
+      "title": "Speak With Ai Andrew",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-22T02:00:41.558798+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "prompt-architecture",
+        "ai-native-product-design"
+      ],
+      "content_type": "technical",
+      "summary": "Andrew Ng announces AI Andrew, a voice-to-voice AI avatar shaped by his communication style and personality, designed as a conversational companion for discussing AI concepts and career decisions. The system uses an agentic harness with RAG, multiple model sizes, guardrails, extensive evals, and memory systems, refined through months of error analysis to align responses with Ng's actual communication patterns including respect, empathy, and carefully calibrated confidence. The project highlights the difficulty of codifying personal communication style into agentic workflows, with acknowledged gaps like occasional hallucinations despite extensive engineering.",
+      "tags": [
+        "ai-avatar",
+        "agentic-harness",
+        "error-analysis",
+        "voice-to-voice",
+        "rag",
+        "guardrails"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily a product announcement with surface-level technical details about system architecture; lacks depth on novel technical contributions or detailed implementation insights that would inform knowledge base development."
+    },
+    "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/": {
+      "title": "Roundtables: Can AI Learn to Understand the World?",
+      "source": "MIT Technology Review",
+      "date": "2026-05-21T20:41:05+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a roundtable discussion from MIT Technology Review exploring how AI systems might develop world models to understand the physical world beyond current LLM limitations. The article provides no substantive content beyond listing speakers and related story titles, offering no analysis, data, or frameworks. It appears to be a promotional stub for a video/audio session rather than a standalone analytical piece.",
+      "tags": [
+        "world-models",
+        "physical-ai",
+        "llm-limitations"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is merely a promotional stub for a video roundtable with no substantive analysis, novel claims, or actionable insights provided in text form."
+    },
+    "https://www.latent.space/p/daytona": {
+      "title": "Giving Agents Computers \u2014 Ivan Burazin, Daytona",
+      "source": "Latent Space Podcast",
+      "date": "2026-05-21T20:37:40+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "evals-production-deployment",
+        "build-vs-buy-enterprise-ai",
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article discusses Daytona's evolution from browser-based IDE to infrastructure provider for AI agent compute, arguing that agents need full composable computers rather than simple code execution sandboxes. Key evidence includes Daytona's ability to spin up 50,000 sandboxes in 75 seconds, one customer running 850,000 sandboxes daily, and RL/eval workloads growing from 0% to 50% of usage in months. This matters because it represents a fundamental infrastructure shift where AI agents require stateful, isolated, API-accessible computing environments that can handle zero-to-100,000 CPU spikes for training and evaluation workflows.",
+      "tags": [
+        "ai-sandboxes",
+        "stateful-environments",
+        "rl-evaluation-workloads",
+        "agent-compute-infrastructure",
+        "bare-metal-scheduling",
+        "agentic-ci-cd"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything": {
+      "title": "Datasette Agent",
+      "source": "Simon Willison",
+      "date": "2026-05-21T19:52:19+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "rag-over-proprietary-content"
+      ],
+      "content_type": "technical",
+      "summary": "Simon Willison announces Datasette Agent, an extensible AI assistant that provides conversational interfaces for querying databases stored in Datasette, with plugin support for charts and code execution. The system uses LLMs (like Gemini 3.1 Flash-Lite) to generate SQLite queries from natural language questions and can run against both cloud and local models. This represents a convergence of his LLM Python library and Datasette projects, enabling personal AI assistants built around imported personal data.",
+      "tags": [
+        "datasette",
+        "ai-assistant",
+        "text-to-sql",
+        "plugin-architecture",
+        "local-models",
+        "personal-data-assistant"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement/release note with limited technical depth or novel insights; primarily describes features and capabilities of a new tool rather than providing original analysis, research, or strategic frameworks."
+    },
+    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/": {
+      "title": "We\u2019re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "source": "Google DeepMind",
+      "date": "2026-05-21T19:46:42+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Google DeepMind announces a new accelerator program in Asia Pacific focused on applying AI to environmental risks. The article provides no technical details, specific use cases, or evidence about how the program will work or what approaches will be used. This is a corporate announcement with minimal substantive information about AI capabilities, deployment strategies, or outcomes.",
+      "tags": [
+        "google-deepmind",
+        "accelerator-program",
+        "environmental-applications",
+        "asia-pacific"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate announcement without technical depth, novel insights, or clear mapping to specified AI implementation topics; lacks actionable information about AI systems, architectures, or deployment strategies."
+    },
+    "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/": {
+      "title": "Scaling creativity in the age of AI",
+      "source": "MIT Technology Review",
+      "date": "2026-05-21T19:16:43+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-marketing-content"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article argues that companies must adopt AI for content creation to meet exponentially growing demand (5x in two years) while maintaining brand integrity and creative quality. It provides case study evidence from Nestl\u00e9 using Adobe Firefly Custom Models, which reduced workflow cycle times by 50% and saved creative teams an average of 17 hours per week. The piece positions AI as essential infrastructure for scaling creative production while emphasizing that human judgment remains critical for brand coherence and authentic storytelling.",
+      "tags": [
+        "content-creation",
+        "brand-integrity",
+        "creative-workflows",
+        "adobe-firefly",
+        "agentic-automation",
+        "media-production"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional content for Adobe products with minimal novel insights; reads as thought leadership marketing rather than substantive analysis of AI implementation challenges, costs, quality tradeoffs, or comparative approaches."
+    },
+    "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything": {
+      "title": "datasette-agent-sprites 0.1a0",
+      "source": "Simon Willison",
+      "date": "2026-05-21T18:21:07+00:00",
+      "composite": 2.0,
+      "depth": 1,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for datasette-agent-sprites version 0.1a0, a Datasette Agent plugin that enables running commands in a Fly Sprites sandbox environment. The article provides no technical detail, implementation specifics, or analysis beyond stating the plugin's basic purpose. This is a minimal product release note with no substantive content for analysis.",
+      "tags": [
+        "datasette-agent",
+        "fly-sprites",
+        "sandboxing",
+        "plugin-release"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a one-sentence release announcement with no meaningful technical content, analysis, use cases, or insights to extract."
+    },
+    "https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything": {
+      "title": "datasette-agent-charts 0.1a2",
+      "source": "Simon Willison",
+      "date": "2026-05-21T15:15:58+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a release note announcing version 0.1a2 of datasette-agent-charts, a tool that adds Observable Plot charts to Datasette Agent. The only feature mentioned is the addition of 'View SQL query' buttons below rendered charts. This is a minor product update with no substantive analysis or insights.",
+      "tags": [
+        "datasette",
+        "release-note",
+        "data-visualization"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a brief release note for a minor feature update with no analysis, novel insights, or substantive content relevant to AI/ML topics."
+    },
+    "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/": {
+      "title": "Anthropic\u2019s Code with Claude showed off coding\u2019s future\u2014whether you like it or not",
+      "source": "MIT Technology Review",
+      "date": "2026-05-21T14:30:45+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Anthropic's Code with Claude event where developers revealed that roughly half have shipped pull requests entirely written by Claude without reading the code themselves, demonstrating rapid normalization of AI-generated software. The key evidence includes new features like 'dreaming' (agents learning from previous coding sessions via self-written notes) and the principle of 'letting Claude cook' by having it self-prompt and self-correct without human intervention. This matters because it shows the software development workflow is fundamentally shifting from human-written code to human-supervised AI agents, raising questions about developer roles and code quality assurance.",
+      "tags": [
+        "ai-code-generation",
+        "claude-code",
+        "autonomous-agents",
+        "self-correction",
+        "dreaming-feature",
+        "developer-tools"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://openai.com/index/adventhealth": {
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "source": "OpenAI News",
+      "date": "2026-05-21T12:00:00+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-customer-success-support"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "AdventHealth has deployed ChatGPT for Healthcare to reduce administrative tasks and allow healthcare workers to spend more time with patients. The article provides no specific evidence, mechanisms, data points, or details about implementation, outcomes, or technical architecture. This is a brief announcement with minimal substantive content about the actual deployment or results.",
+      "tags": [
+        "healthcare",
+        "chatgpt-enterprise",
+        "administrative-automation",
+        "workflow-optimization"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level press release with no original analysis, specific implementation details, measurable outcomes, or novel insights about AI deployment in healthcare."
+    },
+    "https://www.latent.space/p/ainews-openai-gpt-next-disproves": {
+      "title": "[AINews] OpenAI GPT-next disproves 80 year old Erd\u0151s planar unit distance problem for under $1000",
+      "source": "Latent Space",
+      "date": "2026-05-21T07:28:36+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 7,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-time-compute"
+      ],
+      "content_type": "technical",
+      "summary": "OpenAI's GPT-next model reportedly disproved an 80-year-old mathematics problem (Erd\u0151s planar unit distance problem) using under $1000 in compute and 32 hours of runtime. The model produced 125 pages of reasoning output and represents a general-purpose LLM rather than a specialized math solver, suggesting extended reasoning capabilities may generalize beyond mathematics. Mathematicians including Timothy Gowers validated this as the first clear example of AI solving a well-known open math problem, distinguishing it from previous olympiad-level results.",
+      "tags": [
+        "inference-time-compute",
+        "test-time-compute",
+        "mathematical-reasoning",
+        "long-horizon-reasoning",
+        "gpt-next"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily a news roundup with limited technical depth or actionable enterprise insights, focusing on a single mathematical result rather than systematic analysis of capabilities or deployment considerations"
+    },
+    "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/": {
+      "title": "Strengthening Singapore\u2019s AI Future: A New National Partnership",
+      "source": "Google DeepMind",
+      "date": "2026-05-16T09:13:34+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "regulatory-policy",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "Google DeepMind announces a partnership with Singapore to apply frontier AI to challenges in health, education, and sustainability. The article provides no details on the technical approach, implementation mechanisms, or specific use cases beyond high-level domain mentions. This appears to be a press release announcing the partnership without substantive information about what will actually be built or deployed.",
+      "tags": [
+        "government-partnership",
+        "singapore",
+        "frontier-ai",
+        "public-sector-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level press release with no substantive technical details, implementation specifics, or analytical insights about the partnership or its applications."
+    },
+    "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/": {
+      "title": "Finding the molecular switches behind new infectious diseases",
+      "source": "Google DeepMind",
+      "date": "2026-05-16T08:16:06+00:00",
+      "composite": 2.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article discusses how AI/computational methods can identify molecular mechanisms that enable pathogens to jump species barriers and cause new infectious diseases. It likely covers protein structure prediction or molecular interaction modeling to understand viral evolution and host adaptation. While scientifically interesting, this focuses on biological research applications rather than AI systems, products, or business deployment.",
+      "tags": [
+        "protein-structure",
+        "molecular-biology",
+        "disease-research",
+        "computational-biology",
+        "alphafold"
+      ],
+      "status": "skipped",
+      "skip_reason": "Content focuses on biological/medical research application rather than AI systems architecture, deployment, business use cases, or enterprise implementation topics covered in the knowledge base."
+    },
+    "https://www.bain.com/insights/decision-insights-10-great-decisions-not-a-solo-performance/": {
+      "title": "Decision Insights 10 Great Decisions Not A Solo Performance",
+      "source": "Bain Insights",
+      "date": "2026-05-22T02:00:42.804483+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a navigation page or broken link from Bain & Company's website rather than actual content. No substantive information, analysis, or insights about decision-making are provided in the extracted text. The text consists entirely of website navigation elements, office locations, and menu items without any article body.",
+      "tags": [
+        "decision-making",
+        "consulting",
+        "navigation-page"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content\u2014only website navigation elements and office listings from a Bain & Company webpage."
+    },
+    "https://www.bain.com/insights/decision-insights-11-how-organizations-make-great-decisions/": {
+      "title": "Decision Insights 11 How Organizations Make Great Decisions",
+      "source": "Bain Insights",
+      "date": "2026-05-22T02:00:42.690545+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation/template page from Bain & Company's website about organizational decision-making. No actual article content is provided beyond the title and site navigation structure. Without substantive content, no evaluation of arguments, evidence, or impact can be made.",
+      "tags": [
+        "organizational-decision-making",
+        "management-consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "No article content provided - only website navigation structure and metadata without substantive analysis or insights to evaluate."
+    },
+    "https://a16z.com/need-series-c-call-a16z/": {
+      "title": "Need Series C Call A16Z",
+      "source": "a16z",
+      "date": "2026-05-22T02:00:42.690139+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-sales-gtm",
+        "ai-in-marketing-content",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that personal injury law firms offer an instructive model for AI adoption, emphasizing leadgen, underwriting, and recall-based customer acquisition as the relevant business mechanics. It draws parallels between how plaintiff attorneys use marketing to make legal services economically viable at scale and how AI can enable similar transformations in lead qualification and bet-sizing across industries. The piece matters as a reframing of AI adoption through the lens of established service business models rather than pure technology capabilities.",
+      "tags": [
+        "leadgen",
+        "customer-acquisition",
+        "bet-sizing",
+        "service-business-models",
+        "ai-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level analogy without substantive analysis of AI capabilities, implementation details, or empirical evidence; uses personal injury law as extended metaphor rather than providing actionable insights about AI deployment or business model innovation."
+    },
+    "https://a16z.com/welcome-general-bryan-p-fenton/": {
+      "title": "Welcome General Bryan P Fenton",
+      "source": "a16z",
+      "date": "2026-05-22T02:00:42.690081+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "Andreessen Horowitz announces General Bryan P. Fenton (retired) as a Special Advisor to their American Dynamism practice focused on defense technology. The announcement emphasizes that technology should enhance rather than replace human military missions, with Fenton bringing decades of special operations command experience to guide defense tech startups. The hire reflects a16z's thesis that defense companies need strategic guidance from mission-experienced advisors, not just capital.",
+      "tags": [
+        "defense-tech",
+        "special-operations",
+        "government-adoption",
+        "defense-industrial-base",
+        "autonomous-systems"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a standard announcement post with no technical depth, novel insights, or analysis relevant to AI/technology focus areas; it's a PR piece about a hiring decision."
+    },
+    "https://www.bain.com/insights/decision-insights-8-shape-your-companys-decision-style-and-behaviors/": {
+      "title": "Decision Insights 8 Shape Your Companys Decision Style And Behaviors",
+      "source": "Bain Insights",
+      "date": "2026-05-22T02:00:42.642235+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Bain consulting article about shaping corporate decision-making styles and behaviors, though the actual article content is mostly navigation menu HTML rather than substantive text. The minimal content suggests it's likely a generic management framework about organizational decision processes. Without actual article content, it's impossible to assess whether it contains meaningful insights about AI-era organizational design or decision-making.",
+      "tags": [
+        "decision-making",
+        "organizational-behavior",
+        "corporate-strategy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is primarily website navigation HTML with no substantive analysis or insights accessible; appears to be a scraping error or paywall content."
+    },
+    "https://www.bvp.com/atlas/agentic-commerce-the-rise-of-the-delegated-buyer": {
+      "title": "Agentic Commerce The Rise Of The Delegated Buyer",
+      "source": "Bessemer Atlas",
+      "date": "2026-05-22T02:00:26.728080+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-sales-gtm",
+        "ai-in-marketing-content",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "This article predicts the emergence of 'agentic commerce' where AI agents will handle purchasing decisions for consumers and businesses, potentially orchestrating $1-3T in revenue by 2030. The piece offers eight predictions about how this shift will change buyer behavior (increased loyalty to agents over brands, fewer impulse purchases) and brand strategy (optimizing for agent-readability, direct human marketing becoming premium). The article is primarily a forward-looking framework from a VC perspective with limited technical depth or evidence beyond early traffic statistics (15-20% of retail referrals from AI chat).",
+      "tags": [
+        "agentic-commerce",
+        "ai-shopping-agents",
+        "delegated-purchasing",
+        "agent-orchestration",
+        "brand-discoverability",
+        "payment-infrastructure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level trend speculation with limited original analysis, concrete evidence, or technical depth; primarily repackages emerging narratives about AI agents in commerce without substantive new frameworks or data"
+    },
+    "https://sequoiacap.com/article/all-systems-nominal-nominal-spotlight/": {
+      "title": "All Systems Nominal \u2013 Nominal Spotlight",
+      "source": "Sequoia",
+      "date": "2026-05-21T15:35:44+00:00",
+      "composite": 2.3,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article profiles Cameron McCord and his company Nominal, which provides data analysis tools for hardware testing, highlighting a case study where Hermeus used the platform to rapidly analyze test data for a hypersonic aircraft. The key evidence is a single use case where Nominal's platform compressed weeks/months of data review into minutes during a flight test at Edwards Air Force Base. The article is primarily a founder profile and company spotlight rather than substantive analysis of technology or business dynamics.",
+      "tags": [
+        "hardware-testing",
+        "aerospace",
+        "data-analysis-tooling",
+        "hermeus",
+        "hypersonics"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level founder profile and promotional case study with minimal technical depth, no novel insights, and no clear mapping to specified AI/semiconductor topic areas."
+    },
+    "https://tearsheet.co/numbers-with-narrative/capital-is-flowing-again-just-not-where-the-consensus-says/?utm_source=rss&utm_medium=rss&utm_campaign=capital-is-flowing-again-just-not-where-the-consensus-says": {
+      "title": "Capital is flowing again, just not where the consensus says",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-21T12:45:00+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 6,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "agentic-workflows-production",
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports that US fintech funding reached $5.1 billion in Q1 2026 (up 47% YoY), with early-stage capital surging 53% while late-stage funding dropped 60% QoQ, suggesting investors are backing AI infrastructure and agentic solutions like Parallel Web and Rogo. The key evidence is the contrast between renewed early-stage conviction and late-stage hesitation, with only 9 companies raising $100M+ rounds versus 21 in Q4 2025. This signals a fundamental reweighting of capital toward new AI-native fintech models rather than scaling existing approaches.",
+      "tags": [
+        "fintech-funding",
+        "early-stage-capital",
+        "agentic-solutions",
+        "ai-infrastructure",
+        "late-stage-hesitation",
+        "funding-patterns"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level market overview with limited analytical depth; presents funding statistics without original frameworks or mechanisms explaining the shift to AI infrastructure beyond noting that 'capital is flowing' to agentic solutions."
+    },
+    "https://tearsheet.co/blockchain-crypto/stablecoins-and-wallets-are-being-redesigned-for-systems-where-humans-are-no-longer-the-primary-users/?utm_source=rss&utm_medium=rss&utm_campaign=stablecoins-and-wallets-are-being-redesigned-for-systems-where-humans-are-no-longer-the-primary-users": {
+      "title": "Stablecoins and wallets are being redesigned for systems where humans are no longer the primary users",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-21T11:45:00+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article argues that Circle and Coinbase are building infrastructure for AI agents to operate as independent economic actors using stablecoins and programmable wallets. Circle is developing Agent Stack for machine-native micropayments while Coinbase is creating constrained wallets with programmable guardrails for autonomous agent spending. This represents a shift from human-centric payment rails to systems designed for machine-to-machine value transfer at computational speed.",
+      "tags": [
+        "ai-agents",
+        "stablecoins",
+        "programmable-wallets",
+        "machine-to-machine-payments",
+        "crypto-infrastructure",
+        "micropayments"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on crypto payment infrastructure for AI agents, which does not map to the specified topic areas covering enterprise AI applications, model architecture, or AI product deployment strategies."
+    },
+    "https://share.transistor.fm/s/451da102": {
+      "title": "Hermes Agent: Agents that grow with you",
+      "source": "Practical AI (Changelog)",
+      "date": "2026-05-21T09:00:00+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "This podcast episode discusses Hermes Agent from Nous Research, focusing on self-improving AI agents and recursive learning systems. The conversation covers the distinction between models and harnesses, the evolving role of developers in an AI-enabled world, and philosophical questions about human uniqueness as AI capabilities advance. The article provides promotional overview content rather than deep technical analysis or novel insights into agent architecture.",
+      "tags": [
+        "hermes-agent",
+        "self-improving-agents",
+        "recursive-learning",
+        "nous-research",
+        "agentic-systems"
+      ],
+      "status": "skipped",
+      "skip_reason": "Podcast promotional description lacks substantive technical depth, original analysis, or novel claims about agent architectures beyond high-level discussion topics."
+    },
+    "https://cutlefish.substack.com/p/tbm-423-why-defining-teams-is-so": {
+      "title": "TBM 423: Why Defining Teams Is So Hard",
+      "source": "The Beautiful Mess (John Cutler)",
+      "date": "2026-05-21T02:08:09+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that defining teams in product and technology organizations is difficult not due to complexity but because honest descriptions threaten existing power structures and narratives (\"undiscussables\"). It describes how different organizational functions (product, design, technology, platform) hold incompatible mental models of team structure that create misalignment, especially visible in how designers and PMs are assigned across engineering teams. The piece matters for understanding why org design changes face political resistance rather than just technical challenges.",
+      "tags": [
+        "organizational-design",
+        "cross-functional-teams",
+        "product-management",
+        "team-structure",
+        "organizational-politics"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on general organizational dynamics and team structure challenges without substantive connection to AI systems, AI product development, or AI-specific enterprise use cases."
+    },
+    "https://www.tomtunguz.com/spacex-s1-analysis/": {
+      "title": "SpaceX's Limitless Ambition : An AI Conglomerate",
+      "source": "Tomasz Tunguz",
+      "date": "2026-05-21T00:00:00+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "funding-and-market-structure",
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "landscape",
+      "summary": "The article analyzes SpaceX's hypothetical 2026 S-1 filing, revealing three business segments: Starlink (profitable cash engine at $11.4B revenue), Space launches (operating at a loss), and AI infrastructure including xAI's COLOSSUS data centers ($12.7B capex with $3.2B revenue). The key evidence is segment-level financial data showing Starlink's 39% operating margin funding massive AI infrastructure investment of $12.7B, though this represents only 4.5% of Big Tech's collective AI spending. This matters as a speculative model of how vertically-integrated companies might use profitable infrastructure businesses to subsidize capital-intensive AI development, though the article appears to be fictional forward-looking analysis rather than actual S-1 data.",
+      "tags": [
+        "conglomerate-structure",
+        "ai-capex",
+        "satellite-infrastructure",
+        "vertical-integration",
+        "colossus-datacenter",
+        "revenue-subsidization"
+      ],
+      "status": "skipped",
+      "skip_reason": "Speculative financial analysis of a hypothetical future S-1 filing with limited actionable insights or novel frameworks for AI strategy; primarily a financial landscape piece rather than technical depth or substantive enterprise use case."
+    },
+    "https://writer.com/blog/detect-destroy-ai-isms-marketing-copy/": {
+      "title": "Detect and Destroy the AI-isms Ruining Your Marketing Copy",
+      "source": "Writer.com Blog",
+      "date": "2026-05-21T17:16:43+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "prompt-architecture"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article describes Writer.com's approach to using AI agents and 'Skills' to refine marketing copy by detecting and removing AI-generated clich\u00e9s and maintaining brand voice. The mechanism involves layering files (brand guidelines), Voice mode (trained on past copy), and specialized Skills (fact-checking, AI-ism detection) within reusable Playbooks. The piece positions this as solving the problem of maintaining quality and brand consistency when using AI for marketing content at scale.",
+      "tags": [
+        "ai-generated-copy",
+        "brand-voice",
+        "marketing-automation",
+        "content-quality",
+        "ai-detection"
+      ],
+      "status": "skipped",
+      "skip_reason": "Shallow product marketing content that describes features without substantive analysis, novel frameworks, or meaningful technical depth; primarily a vendor showcase rather than actionable insight."
+    },
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZUhxMGNiaUo1ZmFnbURJWTc1c3B2YmdfM1BCaERVWDdaUFFsR2FzbGljNWNaTDJUdk1pX1hHY1Vaemx4M0pLckMtMzc5UTN5WjBDdHM2ZmVPdzdvV0ZuZi1IZTJ5aGxVOVVwZWY1dERpNWlUYU9tcXVTZXpsX1BkOXpxb19lNVhVOXFUY1pvOFJQTmNJWW5GMGFhSng5XzJzTEpPWlRRMXpwSl9iTmZ2TmFZbXBCYWkxLVlhNlRxRkpsWWE0blE3RTJGSV9UYmM?oc=5": {
+      "title": "94% of Mid-Market Companies Use Generative AI \u2014 But Few Have What It Takes to Scale - CPA Practice Advisor",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-21T13:12:54+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article title suggests a report on mid-market generative AI adoption rates and scaling challenges. However, the actual content provided consists entirely of Google's cookie consent dialog and language selection options, with no substantive article text. This appears to be a scraping error or paywall block that captured only the website's frontend rather than the actual article content.",
+      "tags": [
+        "mid-market",
+        "generative-ai",
+        "enterprise-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content available\u2014only cookie consent dialog and navigation elements were captured, making it impossible to evaluate substantive claims or analysis."
+    },
+    "https://feeds.feedblitz.com/~/956525153/0/kitcesnerdseyeview~Generating-More-Unsolicited-Referrals-That-Actually-Turn-Into-GoodFit-Clients/": {
+      "title": "Generating More Unsolicited Referrals That Actually Turn Into Good-Fit Clients",
+      "source": "Kitces.com",
+      "date": "2026-05-18T11:02:24+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-sales-gtm"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article discusses strategies for financial advisors to generate more client referrals by demonstrating value, creating client transformations, and educating clients about ideal prospect profiles. The key mechanisms include asking clients what 'tipped the scales' in their decision, showing tangible financial outcomes, and planting 'referral seeds' through phrases like 'share the experience' rather than directly asking for referrals. The article matters primarily for traditional sales and client relationship practices in wealth management, but offers no insights into AI or technology-enabled approaches.",
+      "tags": [
+        "client-referrals",
+        "wealth-management",
+        "relationship-marketing",
+        "sales-process"
+      ],
+      "status": "skipped",
+      "skip_reason": "Generic sales advice for financial advisors with no connection to AI, technology infrastructure, or enterprise AI topics; purely traditional relationship marketing guidance."
+    },
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZmNmR3Zyc0w5czJkMDdnRTFKenpYc2RRdnZtSk1FZ1U4bmRuRGFwTVFEakNFOVRCUC1TeDZhTGZnM2R1dzJYWm03T09XZzBiWlQ2QzJ3OGF4UTNlbGtySTIydmg0NTA1S1AtZUt6LUNWZmZweWNxaUNMTl85Q25faWxZQk5hakFaVDRaMUp3d25ocGpxTjV5VHB3YmpSZGNqM3JGWi1UR0tfaGdfUnBUZDdER2hFaUMyTC1FdTd3?oc=5": {
+      "title": "AutoMSP Launches Agentic AI Infrastructure Delivered in 14 Days - The Clarion-Ledger",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-18T07:00:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce AutoMSP's launch of an agentic AI infrastructure offering with a 14-day delivery promise, targeting mid-market enterprises. No actual article content was provided beyond the title and source metadata, only Google's cookie consent dialog. Without substantive content to evaluate, it's impossible to assess the depth of analysis, novelty of claims, or practical relevance.",
+      "tags": [
+        "agentic-ai",
+        "infrastructure",
+        "enterprise-deployment"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided; only cookie consent page metadata preventing evaluation of substance, claims, or analysis."
+    },
+    "https://feeds.feedblitz.com/~/956118398/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-May/": {
+      "title": "Weekend Reading For Financial Planners (May 16-17)",
+      "source": "Kitces.com",
+      "date": "2026-05-15T18:00:06+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "landscape",
+      "summary": "This article is a weekly roundup for financial advisors covering industry news, including findings that AI chatbots frequently give incorrect answers to high-net-worth clients and that advisors maintain strong pricing power despite AI competition concerns. The article presents survey data and study findings on advisor fees, AI chatbot performance in wealth management, and various tax and education planning topics. It offers surface-level summaries of multiple studies without original analysis, serving primarily as a news aggregator for financial planning professionals.",
+      "tags": [
+        "financial-advisors",
+        "chatbot-accuracy",
+        "wealth-management",
+        "high-net-worth-clients",
+        "advisor-fees"
+      ],
+      "status": "skipped",
+      "skip_reason": "Content is a shallow news roundup with brief summaries of multiple studies rather than substantive analysis; provides no depth on any single topic and lacks actionable insights or original frameworks."
+    },
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeExWN0NUTkp2VlRxNEFvMS16WlFyRHM3azhSY2lmV28ycFNKYVRNNDRBU0RYNmFEdGFvRC1Sb0NES09lZU9pVk13WGJGczBrdHVESUpZT2cwbFZkd3BvSlhBa0szd2xxTXBEUi14aGpJejNXRy1OOGkzRzZVSUljSEJyUUJQbGtKRzQzRzgtdGZ5SDZiQlkyTDJlb01sM2NnT3R1VFdFcFpoRVlqOEpqdFVCb2w0OU5mWGctSFJPVFo1UUdM?oc=5": {
+      "title": "NexusTek Launches Managed IT and Cybersecurity Services for Mid-Market Energy and Utilities Organizations - The AI Journal",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-15T15:08:56+00:00",
+      "composite": 1.33,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a corporate press release about NexusTek launching managed IT and cybersecurity services for mid-market energy and utilities companies. No actual article content is provided\u2014only a Google cookie consent page is visible. Without access to the actual article content, no meaningful analysis of claims, evidence, or impact can be made.",
+      "tags": [
+        "managed-services",
+        "cybersecurity",
+        "energy-utilities",
+        "mid-market"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible (only shows Google cookie consent page); appears to be a generic press release about managed IT services with no apparent AI focus or substantive analysis."
     }
   }
 }
