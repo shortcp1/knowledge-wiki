@@ -705,7 +705,99 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-23
+
+**✗ 3.3** — [Parsing How Winners Use Ai Commercial Excellence Agenda 2025](https://www.bain.com/insights/parsing-how-winners-use-ai-commercial-excellence-agenda-2025/)  
+*Bain Insights* · ai-in-sales-gtm · ai-in-product-and-engineering · ai-in-marketing-content
+#commercial_excellence #enterprise_ai #consulting
+> This appears to be a navigation/landing page from Bain & Company about how companies use AI for commercial excellence. The article text provided contains only website navigation menus and headers without substantive content about AI implementation, strategies, or case studies. Without actual article content, it's impossible to assess the depth of analysis, novel insights, or actionable frameworks presented.
+
+**✗ 2.7** — [Agentic Ai](https://www.bain.com/insights/topics/agentic-ai/)  
+*Bain Insights* · agentic-workflows-production · ai-in-product-and-engineering
+#agentic_ai #executive_guide #consulting
+> This appears to be a navigation page or article stub from Bain & Company about agentic AI, lacking substantive content beyond the title and site navigation structure. No actual analysis, frameworks, evidence, or insights about agentic AI are provided in the extracted text. The absence of meaningful content makes it impossible to evaluate the quality or contribution of the piece.
+
+**✗ 2.3** — [Decision Insights 12 Networked Organizations Making The Matrix Work](https://www.bain.com/insights/decision-insights-12-networked-organizations-making-the-matrix-work/)  
+*Bain Insights* · ai-org-design-headcount
+#organizational_structure #matrix_management #networked_organizations
+> This appears to be a Bain & Company article about networked organizations and matrix management structures, based on the title and navigation structure. The actual article content is not provided - only the website navigation menu and regional selection interface is visible. Without the actual article text, it's impossible to assess the substantive claims, evidence, or insights about organizational design.
+
+**✓ 8.0** — [Toward Agent Benchmarks That Reflect Human Work](https://www.deeplearning.ai/the-batch/toward-agent-benchmarks-that-reflect-human-work)  
+*The Batch (DeepLearning.AI)* · evals-production-deployment · agentic-workflows-production · ai-engineering-agents
+#agent_benchmarks #benchmark_design #economic_alignment #occupational_taxonomy
+> Carnegie Mellon and Stanford researchers analyzed 43 agent benchmarks and found they disproportionately measure software engineering capabilities rather than the broader range of economically valuable work humans perform. They used Claude 3.5 Sonnet to map 10,000+ benchmark examples to U.S. O*NET occupational data, revealing that benchmarks emphasize computer/mathematical tasks (8,622 examples) despite those occupations representing far less employment and capital than office/administrative support and management roles. This mismatch suggests that current agent evaluations may not accurately predict AI's ability to automate the full range of labor markets, creating a false picture of agent capabilities for real-world economic impact.
+
+**✓ 8.0** — [Built In Conversational Interactivity](https://www.deeplearning.ai/the-batch/built-in-conversational-interactivity)  
+*The Batch (DeepLearning.AI)* · multimodal-models · model-architecture · inference-efficiency
+#mixture_of_experts #real_time_inference #concurrent_processing #encoder_free_fusion
+> Thinking Machines Lab introduced TML-Interaction-Small, a 276B-parameter mixture-of-experts multimodal model that processes audio, video, and text concurrently while generating responses simultaneously rather than waiting for turn-taking. The system uses "micro-turns" of 200ms chunks with encoder-free early fusion architecture, paired with an asynchronous background reasoning model, achieving 0.40s response latency compared to 1.18s for GPT-Realtime-2. This represents a fundamental architectural shift from sequential turn-based interaction to truly concurrent multimodal processing, enabling real-time translation, interruption handling, and proactive visual-cue-based responses.
+
+**✗ 4.7** — [Hermes Agent Challenges Openclaw](https://www.deeplearning.ai/the-batch/hermes-agent-challenges-openclaw)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production
+#hermes_agent #openclaw #skill_creation #agent_memory_architecture
+> The article reports that Hermes Agent, an open-source AI agent from Nous Research, has surpassed OpenClaw in daily token consumption on OpenRouter's leaderboard, despite concerns about token efficiency. Hermes Agent differentiates itself through automatic skill creation (specialized instructions/workflows) and a Curator system that manages skills by archiving unused ones and using LLMs to determine which to keep, merge, or archive. This highlights self-improvement and skill management as emerging core capabilities for production AI agents.
+
 ## 2026-05-22
+
+**✓ 7.3** — [The memory shortage is causing a repricing of consumer electronics](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything)  
+*Simon Willison* · semiconductor-supply-chain · gpu-architecture-training-infra
+#hbm_memory #wafer_capacity #memory_shortage #consumer_electronics_pricing
+> The article explains how AI datacenter growth is causing memory shortages that will increase consumer electronics prices, as the three remaining memory manufacturers shift wafer capacity from DDR/LPDDR (consumer) to HBM (AI GPUs) from 2% to 20% by end of 2026. HBM production consumes over 3x the wafer capacity per gigabyte compared to consumer RAM, and manufacturers deliberately under-provision capacity to avoid past competitors' fate of bankruptcy through overprovisioning. This shift is already impacting sub-$100 smartphones in emerging markets like Africa and South Asia, representing a significant redistribution of semiconductor manufacturing resources driven by AI infrastructure demand.
+
+**✗ 2.3** — [Weekend Reading For Financial Planners (May 23-24)](https://feeds.feedblitz.com/~/956999930/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-May/)  
+*Kitces.com* · 
+#financial_planning #client_trust #administrative_automation #survey_data
+> This is a weekly roundup article summarizing multiple survey findings and articles about financial planning, with emphasis on client attitudes toward AI use in advisory practices. The article reports that clients accept AI for administrative tasks but not for investment recommendations, and covers tangential topics like retirement planning and compensation structures. It provides no original analysis, data, or frameworks—just surface-level summaries of other sources.
+
+**✗ 1.0** — [Goodbye, Lenny's Reads!](https://www.lennysnewsletter.com/p/goodbye-lennys-reads)  
+*Lenny's Newsletter* · 
+#audio_newsletter #content_distribution #newsletter_format
+> This is a brief announcement that Lenny Rachitsky is discontinuing his audio newsletter experiment after one year. The post provides no substantive content, analysis, or insights—only links to where readers can continue following his work. It contains no information relevant to AI, technology, or business strategy.
+
+**✓ 7.7** — [Reiner Pope – Chip design from the bottom up](https://www.dwarkesh.com/p/reiner-pope-2)  
+*Dwarkesh Podcast* · gpu-architecture-training-infra · semiconductor-supply-chain
+#chip_architecture #systolic_arrays #multiply_accumulate #tpu_design
+> This is a technical lecture by MatX CEO Reiner Pope explaining chip design fundamentals from logic gates up through GPU, TPU, FPGA, and brain architectures, with focus on how multiply-accumulate operations, systolic arrays, and data movement economics shape AI chip design. The lecture walks through concrete examples including building circuits from gates, understanding clock cycles and pipeline registers, and explaining why GPU cores differ architecturally from CPU cores. This provides foundational knowledge for understanding AI hardware trade-offs and design decisions that affect training and inference infrastructure.
+
+**✗ 4.7** — [Clouded Judgement 5.22.26 - The Neocloud Boom](https://cloudedjudgement.substack.com/p/clouded-judgement-52226-the-neocloud)  
+*Clouded Judgement (Jamin Ball)* · semiconductor-supply-chain · gpu-architecture-training-infra · funding-and-market-structure
+#neocloud #data_center_buildout #gpu_capacity #infrastructure_financing
+> The article projects that AI infrastructure buildout could reach 150GW over 4.5 years (~$7.5Tn spend, ~5% of US GDP annually), driven largely by OpenAI and Anthropic's expansion plans. Using rough multiples from current public neoclouds (Coreweave, IREN, Nebius at ~$90b enterprise value per GW), the author estimates this could create $13.5Tn in total enterprise value, with neoclouds capturing $2.5Tn+ even at 20% market share. The piece argues this scale necessitates a boom in neocloud providers beyond hyperscalers, similar to the independent power provider market structure.
+
+**✗ 2.7** — [The Download: coding’s future, the ‘Steroid Olympics,’ and AI-driven science](https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/)  
+*MIT Technology Review* · ai-engineering-agents · model-architecture · ai-in-product-and-engineering
+#code_generation #agentic_ai #ai_for_science #world_models
+> This is a newsletter digest covering multiple AI-related news items, including Anthropic's Code with Claude adoption, Google's shift toward agentic AI systems for science (Gemini for Science), and warnings about AI-generated code quality. The article provides brief summaries of several developments without deep analysis, primarily linking to other full-length articles. It serves as a curated news roundup rather than original reporting or analysis.
+
+**✗ 4.0** — [Beyond “the AI show”: Operationalizing agents at the WRITER Chicago roadshow](https://writer.com/blog/beyond-the-ai-show/)  
+*Writer.com Blog* · agentic-workflows-production · ai-in-marketing-content · ai-governance-risk-compliance
+#ai_agents #brand_governance #no_code_deployment #marketing_automation
+> Writer.com hosted a Chicago roadshow event demonstrating how marketing executives can build enterprise-grade AI agents without coding, addressing the 73% of CEOs experiencing AI strategy stress. The event showcased three practical use cases including competitive intelligence dashboards, autonomous marketing digests, and field marketing lookbooks, all built in minutes with brand governance controls. The article argues this bridges the gap between AI ambition and operational reality by making agents immediately deployable with brand safety and transparency features.
+
+**✓ 7.0** — [Letter from the Editor: Finance is becoming ambient infrastructure underneath everything, but what are we giving up](https://tearsheet.co/opinion/letter-from-the-editor-finance-is-becoming-ambient-infrastructure-underneath-everything-but-what-are-we-giving-up/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-finance-is-becoming-ambient-infrastructure-underneath-everything-but-what-are-we-giving-up)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · agentic-workflows-production · ai-native-product-design
+#ambient_finance #embedded_finance #conversational_ai #agentic_systems
+> The article argues that financial services are evolving from episodic request-response interfaces to ambient, always-on AI layers that continuously interpret context and participate alongside users rather than waiting for explicit queries. It provides evidence through examples like the Plaid-OpenAI integration and embedded finance platforms (Shopify, Klarna) that show finance moving from standalone apps into conversational intelligence layers and background workflows. This matters because it signals a fundamental shift in who owns the interpretation layer of financial services—banks own accounts, fintechs own experiences, but AI systems are positioning to own the continuous interpretation that drives decisions.
+
+**✓ 6.0** — [Google I/O showed how the path for AI-driven science is shifting](https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/)  
+*MIT Technology Review* · ai-engineering-agents · model-architecture · lab-dynamics
+#agentic_systems #scientific_ai #alphafold #recursive_self_improvement
+> The article argues that Google and the AI industry are shifting from specialized, domain-specific AI tools (like AlphaFold or WeatherNext) toward agentic LLM-based systems capable of autonomous scientific research. Key evidence includes Google reassigning Nobel Prize winner John Jumper from AlphaFold to AI coding work, and OpenAI's model disproving a mathematics conjecture with minimal human guidance. This matters because it signals a strategic pivot in AI research toward recursive self-improvement and autonomous agents, potentially deprioritizing specialized scientific tools despite their proven real-world impact.
+
+**✗ 2.7** — [The Enhanced Games fit right in with the rest of 2026’s longevity vibes](https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes/)  
+*MIT Technology Review* · 
+#performance_enhancement #pharmaceutical_optimization #longevity_trends #regulatory_approval
+> The article reports on the inaugural Enhanced Games in Las Vegas, where 42 athletes will compete using FDA-approved performance-enhancing drugs with a $25 million prize pool. The piece contextualizes this event within broader 2026 cultural trends toward optimization, longevity, and pharmaceutical enhancement, noting controversies around safety and fairness. It matters as a cultural commentary on society's shifting boundaries around human enhancement, though it lacks connection to AI or semiconductor topics.
+
+**✗ 5.3** — [[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer](https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa)  
+*Latent Space* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai · funding-and-market-structure
+#ai_infrastructure #fundraising #tokenization #linear_attention
+> This is a weekly AI news roundup highlighting three infrastructure companies (Turbopuffer, Exa, Modal) that reached major milestones, alongside technical research updates on representation autoencoders (RAEv2), Gated DeltaNet-2, and data filtering studies. The article provides surface-level coverage of multiple technical developments including tokenization experiments, mechanistic interpretability approaches, and OpenAI's work on mathematical problem-solving. The piece serves as a broad landscape scan for AI engineering practitioners but offers limited original analysis or depth on any single topic.
+
+**✗ 4.0** — [FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything)  
+*Simon Willison* · ai-in-marketing-content · regulatory-policy
+#active_listening #ad_targeting #ftc_enforcement #voice_data_privacy
+> The FTC settled with Cox Media Group and two other firms for falsely advertising an "Active Listening" AI service that claimed to use smart device microphones for ad targeting, when they actually just resold email lists from data brokers. The settlement confirms that the companies neither captured voice data nor performed sophisticated targeting, while the FTC clarified that even if they had, clicking through terms of service does not constitute adequate consent for such invasive data collection. This provides concrete regulatory precedent debunking the conspiracy theory that devices spy through microphones for ad targeting purposes.
 
 **✗ 1.0** — [Decision Insights 10 Great Decisions Not A Solo Performance](https://www.bain.com/insights/decision-insights-10-great-decisions-not-a-solo-performance/)  
 *Bain Insights* · 
@@ -751,6 +843,21 @@ All articles scanned since the wiki started. Updated nightly.
 *Bessemer Atlas* · agentic-workflows-production · ai-in-sales-gtm · ai-in-marketing-content
 #agentic_commerce #ai_shopping_agents #delegated_purchasing #agent_orchestration
 > This article predicts the emergence of 'agentic commerce' where AI agents will handle purchasing decisions for consumers and businesses, potentially orchestrating $1-3T in revenue by 2030. The piece offers eight predictions about how this shift will change buyer behavior (increased loyalty to agents over brands, fewer impulse purchases) and brand strategy (optimizing for agent-readability, direct human marketing becoming premium). The article is primarily a forward-looking framework from a VC perspective with limited technical depth or evidence beyond early traffic statistics (15-20% of retail referrals from AI chat).
+
+**✗ 2.7** — [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader)  
+*OpenAI News* · ai-engineering-agents
+#gartner_magic_quadrant #codex #enterprise_coding_agents #analyst_recognition
+> OpenAI announces its recognition as a leader in Gartner's 2026 Magic Quadrant for Enterprise AI Coding Agents, with Codex specifically cited. The article provides no evidence, mechanisms, or details beyond the analyst recognition itself. This represents a vendor announcement of third-party validation rather than substantive analysis of the technology or its deployment.
+
+**✗ 3.3** — [How Virgin Atlantic ships faster with Codex](https://openai.com/index/virgin-atlantic)  
+*OpenAI News* · ai-in-product-and-engineering
+#codex #code_generation #unit_testing #mobile_app_development
+> Virgin Atlantic used OpenAI's Codex to accelerate development of their mobile app redesign, meeting a tight holiday travel deadline. The company claims Codex enabled them to achieve near-complete unit test coverage and ship with zero priority-1 defects. This case study demonstrates early enterprise adoption of AI coding assistants in production software development at a major airline.
+
+**✓ 7.3** — [Plastic User Interfaces](https://www.tomtunguz.com/plastic-user-interfaces/)  
+*Tomasz Tunguz* · ai-native-product-design · ai-in-product-and-engineering · prompt-architecture
+#dynamic_ui_generation #headless_systems #ai_native_interfaces #mcp
+> The article argues that AI is enabling a shift from headless (text-only) interfaces to dynamically generated, context-specific UIs that adapt to user needs and tasks. It presents evidence from companies like Salesforce going headless and quotes from leaders at Airbnb and Anthropic advocating for richer, purpose-built interfaces over plain text. This matters because it reframes the future of software UX as multi-modal interface management rather than elimination of traditional UIs, creating new product opportunities in dynamic UI generation and artifact management.
 
 ## 2026-05-21
 
@@ -798,6 +905,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · 
 #datasette #release_note #data_visualization
 > This is a release note announcing version 0.1a2 of datasette-agent-charts, a tool that adds Observable Plot charts to Datasette Agent. The only feature mentioned is the addition of 'View SQL query' buttons below rendered charts. This is a minor product update with no substantive analysis or insights.
+
+**✗ 2.7** — [datasette-agent 0.1a3](https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything)  
+*Simon Willison* · ai-engineering-agents
+#datasette #release_notes #sql_agents #ui_improvements
+> This is a release note for datasette-agent version 0.1a3, announcing minor UI improvements including SQL query viewing buttons, better handling of empty reasoning chunks, and improved display of truncated responses. The changes are incremental bug fixes and UI polish rather than substantial feature additions. This represents routine maintenance work on an AI agent tool for the Datasette database platform.
 
 **✗ 5.7** — [Anthropic’s Code with Claude showed off coding’s future—whether you like it or not](https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/)  
 *MIT Technology Review* · ai-engineering-agents · ai-in-product-and-engineering
@@ -1275,6 +1387,11 @@ All articles scanned since the wiki started. Updated nightly.
 #agentic_ai #infrastructure #enterprise_deployment
 > The article appears to announce AutoMSP's launch of an agentic AI infrastructure offering with a 14-day delivery promise, targeting mid-market enterprises. No actual article content was provided beyond the title and source metadata, only Google's cookie consent dialog. Without substantive content to evaluate, it's impossible to assess the depth of analysis, novelty of claims, or practical relevance.
 
+**✗ 1.7** — [How wealth management firms, advisors can make the most of AI - Advisor.ca](https://news.google.com/rss/articles/CBMiogFBVV95cUxOUEt0NWhQWHAxMElQQTRMQ1VUdzUzSEp2cEJzWXZtc0M0VHFISTROazZxdXRja3plbUJTYWVxNnN6cENoZEd5UWlLaGdfUmV1enZXY1JtRzlHTDhmejYwNzFVQjVTSldNX2doLVBzckxSNDdHdEtuWXFRb1ZkVWs2NFZ3U3RSV3JNZHAxRFNKak9SYjNFQUMwMl92ekRXMjk2QVE?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #financial_advisory #inaccessible_content
+> This article appears to be about how wealth management firms and advisors can leverage AI, but the actual content is inaccessible behind a Google cookie consent wall. The text provided contains only Google's standard cookie policy and language selection interface with no substantive content about AI in wealth management. Without access to the actual article content, it's impossible to evaluate the claims, evidence, or impact.
+
 ## 2026-05-17
 
 **✗ 3.0** — [Simulate real-world places with Project Genie and Street View](https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/)  
@@ -1339,6 +1456,21 @@ All articles scanned since the wiki started. Updated nightly.
 *Google DeepMind* · 
 #protein_structure #molecular_biology #disease_research #computational_biology
 > The article discusses how AI/computational methods can identify molecular mechanisms that enable pathogens to jump species barriers and cause new infectious diseases. It likely covers protein structure prediction or molecular interaction modeling to understand viral evolution and host adaptation. While scientifically interesting, this focuses on biological research applications rather than AI systems, products, or business deployment.
+
+**✗ 2.3** — [Opening new paths in aging research](https://deepmind.google/blog/opening-new-paths-in-aging-research/)  
+*Google DeepMind* · 
+#co_scientist #calico #aging_research #scientific_discovery
+> Calico Life Sciences is using Google DeepMind's Co-Scientist tool to synthesize dispersed findings in aging research and generate new research directions. The article provides minimal detail about the methodology, results, or specific capabilities of Co-Scientist beyond its general purpose. This represents a brief case study announcement rather than substantive analysis of AI application in life sciences research.
+
+**✗ 2.3** — [Accelerating discovery of liver disease mechanisms](https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/)  
+*Google DeepMind* · 
+#co_scientist #drug_discovery #medical_research #liver_disease
+> This article reports on Filippo Menolascina's use of Google DeepMind's Co-Scientist tool to discover liver disease mechanisms and treatment targets. The article appears to be a brief announcement or case study summary without detailed methodology, data, or findings. It represents an application of AI in medical research but lacks sufficient technical depth or enterprise/product focus to be relevant to the specified topic areas.
+
+**✗ 2.0** — [Uniting biological toolkits for a new approach to ALS](https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/)  
+*Google DeepMind* · 
+#als_research #rna_therapeutics #biomedical_collaboration
+> The article announces Co-Scientist, a collaboration between Boston Children's Hospital and MIT to investigate RNA-based treatments for ALS (amyotrophic lateral sclerosis). It provides minimal detail about the actual research methods, computational approaches, or findings. This appears to be a brief announcement rather than substantive technical content about AI systems or enterprise applications.
 
 ## 2026-05-15
 

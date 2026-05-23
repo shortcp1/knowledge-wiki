@@ -342,3 +342,12 @@ This content would fit better in a dedicated topic on data quality, active learn
 ---
 **Giving Agents Computers — Ivan Burazin, Daytona** (Latent Space, 2026-05-21T20:37:40+00:00)
 **Founder Journey Context**: Ivan Burazin's decade-long thesis about "end of localhost" - started with CodeAnywhere (early browser-based IDE), founded Shift conference (Infobip Shift 2022 mentioned), pivoted Daytona from human dev environments to AI sandboxes. Company has ~25 people as of 2026. This historical context explains why Daytona was positioned to capture the agent compute market - the thesis was directionally correct but market timing required agents to materialize.
+
+---
+**Google I/O showed how the path for AI-driven science is shifting** (MIT Technology Review, 2026-05-22T10:00:00+00:00)
+### AI for Science Achievements & Examples
+- **WeatherNext (Google DeepMind)**: Weather prediction software that "provided an advance alert about Hurricane Melissa's catastrophic landfall in Jamaica" in 2025, potentially saving lives. Latest version released November 2025.
+- **AlphaFold Impact**: Over 3 million researchers worldwide used protein structure predictions from AlphaFold as of 2025. [[lab-dynamics]] notes Nobel Prize awarded to DeepMind scientists for this work.
+- **Isomorphic Labs**: Google subsidiary using AlphaFold and related technologies for drug development raised $2B Series B funding round (timing: ~2025-2026).
+- **AlphaGenome & AlphaEarth Foundations**: Released summer 2025, trained for genetics and Earth science applications respectively.
+- **Demis Hassabis Quote (May 2026, Google I/O)**: "Standing in the foothills of the singularity"—stated in context of scientific AI segment, highlighting gap between lofty AGI rhetoric and current real-world scientific tool achievements.

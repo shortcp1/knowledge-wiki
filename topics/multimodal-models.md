@@ -1,5 +1,5 @@
 ---
-tags: [3d-unet, chameleon, ddim, diffusion-models, encoder-free-early-fusion, full-duplex-interaction, mixture-of-experts, multimodal-fusion, multimodal-models, realtime-voice, temporal-consistency, thinking-machines, v-parameterization, video-generation, vision-language-models, voice-activity-detection]
+tags: [3d-unet, audio-latency, chameleon, concurrent-processing, ddim, diffusion-models, encoder-free-early-fusion, encoder-free-fusion, flow-matching-decoder, full-duplex-interaction, hierarchical-mlp, mixture-of-experts, multimodal-fusion, multimodal-models, real-time-inference, realtime-voice, temporal-consistency, thinking-machines, v-parameterization, video-generation, vision-language-models, voice-activity-detection]
 ---
 
 # Multimodal Models
@@ -20,18 +20,25 @@ Key questions tracked: Where are multimodal models actually being deployed in pr
 - **Visual proactivity**: Zero-shot capabilities like "tell me when I start slouching" or "count my pushups" emerge as native primitives rather than requiring special-purpose systems
 - **Benchmark performance**: Reports beating GPT-Realtime-2 and Gemini 3.1-Flash on BigBench Audio, IFEval, and FD-bench
 - **New internal benchmarks** (developed for interaction-specific evaluation):
-  - **TimeSpeak**: Tests model's ability to initiate speech at user-specified times (e.g., "remind me to
+  - **FD-bench V1**: Measures audio latency in conversational turns (TML-Interaction-Small: 0.40s vs GPT-Realtime-2 minimal reasoning: 1.18s)
+  - **FD-bench V1.5**: Gauges interruption handling, interjections like "uh huh", and foreground vs background speech (TML-Interaction-Small: 77.8 average quality vs GPT-Realtime-2 xhigh reasoning: 47.8)
+  - **Audio MultiChallenge**: Tests reasoning and instruction-following in multi-turn audio dialogue (TML-Interaction-Small: 43.4% APR vs GPT-Realtime-2 xhigh reasoning: 48.5% APR)
 
-### Video Generation: Diffusion Models (Lilian Weng, April 2024)
-- **Challenge expansion**: Video generation is "a superset of the image case" with extra requirements:
-  - Temporal consistency across frames demanding more world knowledge encoded in models
-  - Data scarcity: More difficult to collect large amounts of high-quality, high-dimensional video data and text-video pairs
-- **Parameterization approaches**:
-  - **v-prediction parameterization** ($\mathbf{v} = \alpha_t \boldsymbol{\epsilon} - \sigma_t \mathbf{x}$): Proposed by Salimans & Ho (2022), shown to be "helpful for avoiding color shift in video generation compared to $\boldsymbol{\epsilon}$-parameterization"
-  - Derived using angular coordinate trick with $\phi_t = \arctan(\sigma_t / \alpha_t)$
-- **Architecture**: 3D U-Net and DiT (Diffusion Transformer) used for video generation from scratch
-- **Adaptation strategies**: Two approaches to leverage pre-trained image models for video:
-  - Fine-tuning on video data
-  - Training-free adaptation
-- **Forward process**: Gaussian noise-adding process with differentiable noise schedule defined by $\alpha_t, \sigma_t$
-- **DDIM sampling**: Uses log signal-to-noise-ratio $\lambda_t = \log[\alpha^2_t / \sigma^2_t]$ for updates
+#### Technical Architecture Details (May 2026)
+- **Two-component system**: Fast interaction model + asynchronous background reasoning model
+- **Interaction model**: Processes 200ms micro-turns, interleaving input processing and output generation rather than alternating turns
+- **Input processing**:
+  - Discretized audio tokens (direct, no large pretrained encoder like Whisper)
+  - Image patch embeddings of 40×40 pixels via hierarchical multilayer perceptron (MLP)
+  - Text embeddings
+  - All streams processed in parallel
+- **Output generation**: Flow-matching decoder for audio and text
+- **Training approach**: Transformer, hierarchical MLP, and flow-matching decoder trained together from scratch ("encoder-free early fusion" - skips large pretrained encoders)
+- **Background model**: Handles reasoning, web browsing, and tool calls asynchronously; shares context with interaction model; outputs woven into conversation when appropriate
+- **Architecture undisclosed**: Background model architecture, training data/methods, knowledge cutoff, context window not publicly revealed
+- **Performance tradeoff**: Leads on interactivity benchmarks but trails GPT-Realtime-2's strongest reasoning mode on intelligence benchmarks (BigBench Audio: 96.5% vs 96.6% for GPT-Realtime-2 high reasoning)
+- **Availability**: Closed research preview in coming months, wider release later in 2026; pricing undisclosed
+
+### Cross-Reference Links
+- See [[model-architecture]] for encoder-free early fusion and MoE transformer details
+- See [[inference-efficiency]] for latency optimization techniques enabling <200ms processing

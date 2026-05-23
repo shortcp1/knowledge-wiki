@@ -1,5 +1,5 @@
 ---
-tags: [ad-monetization, ai-native-applications, ai-native-business-models, ai-native-product-design, ai-value-creation, chain-of-thought-routing, free-user-monetization, gpu-infrastructure, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, knowledge-worker-automation, knowledge-worker-displacement, query-commercial-value, return-on-invested-capital, router-architecture, service-displacement, superapp-strategy]
+tags: [ad-monetization, agentic-systems, ai-native-applications, ai-native-business-models, ai-native-interfaces, ai-native-product-design, ai-value-creation, always-on-interpretation, ambient-ai, ambient-finance, artifact-library, chain-of-thought-routing, context-management, conversational-ai, conversational-interfaces, dynamic-ui, dynamic-ui-generation, embedded-finance, embedded-interpretation, financial-cognition-layer, financial-interpretation-layer, free-user-monetization, gpu-infrastructure, headless-architecture, headless-systems, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, knowledge-worker-automation, knowledge-worker-displacement, mcp, mcp-integration, plaid-openai-integration, plastic-ui, query-commercial-value, return-on-invested-capital, router-architecture, service-displacement, superapp-strategy]
 ---
 
 # AI-Native Product Design
@@ -17,31 +17,37 @@ Key questions tracked: Which UI patterns are winning in AI-native products? How 
 - **Router Decision Factors**: Conversation type, query complexity, tool needs, explicit user intent (e.g., "think hard about this" in prompt)
 - **Continuous Learning**: Router trained on real usage signals (user model switches, preference rates, measured correctness) and improves over time
 - **Tiering Behavior**: After usage limits reached, mini versions of each model handle remaining queries
-- **Product Strategy**: "In the near future, we plan to integrate these capabilities into a single model" - router as transitional architecture
-- **User Impact**: 7x increase in free users exposed to thinking models (CoT reasoning) on day 1; 99%+ of free users had never interacted with thinking models before GPT-5
-- **Design Philosophy**: Release optimized for largest user segment (free users) rather than power users (Pro/Plus subscribers)
-- **What Made It Succeed**: Centralized routing enables dynamic performance/cost tradeoffs, user experience improvements, and future monetization
+- **Product Strategy**: "In the near future, we plan to integrate these 
 
-### The $6T AI Software Revenue Opportunity (2026-2031 projection)
-- **Market size**: Hyperscaler capex buildout implies **~$6T of customer-facing global software revenue needed** by 2031-2032 to justify infrastructure investments (source: Bessemer Atlas, May 2026)
-  - Represents 4x+ growth from ~$1.4T global software revenue in 2026
-  - Described as "largest greenfield money-making opportunity in history" across all business categories
-- **Primary displacement target**: **$40T+ paid annually to knowledge workers globally**
-  - Categories: legal, accounting, consulting, healthcare administration, customer support, sales, recruiting, claims processing
-  - Pattern: "Next generation of founders is rebuilding the service itself as software"
-- **Value creation magnitude**: At 6x revenue multiple, $6T revenue opportunity = **~$36T+ of new market cap**
-  - Represents ~14% of entire global corporate ecosystem (~$260T+ total enterprise value)
-  - "If it doesn't materialize, the capex doesn't pencil"
+### Plastic User Interfaces and Headless Architecture (May 2026)
+- **Business Problem**: Traditional fixed UIs force users into single interaction mode regardless of context, task, or preference
+- **AI Pattern Applied**: Dynamic UI generation - AI creates context-appropriate interfaces on-demand ("plastic UIs" vs. single "head")
+- **Core Innovation**: "English as an interface to complex systems" enabling headless operation while supporting rich, varied interfaces when needed
+- **Example Implementation - Salesforce Headless**: Sales people can "update their deal sheet without ever logging into salesforce.com through AI" using MCP (Model Context Protocol)
+- **Industry**: Enterprise SaaS, CRM, E-commerce
+- **Business Function**: Sales operations, customer-facing interfaces, internal workflows
 
-### AI-Native Economic Model Characteristics
-- **Unit economics**: "Tokens as the fuel, outcomes as the unit of value" (vs. seat-based SaaS)
-- **Revenue sources**: Mix of service displacement (automating knowledge work) and category expansion
-- **Infrastructure dependency**: Success of AI applications directly tied to hyperscaler capex justification (see [[gpu-architecture-training-infra]])
-- **Distribution prediction**: "Winners of the AI era will be more distributed than people expect" - differs from cloud consolidation pattern
+#### Interface Modality Examples
+- **Audio**: Email summaries "on the go"
+- **Interactive web app**: Marketing copy review
+- **Interactive spreadsheet with charts**: Financial planning and expense review
+- **Markdown/text**: Simple command execution
+- **HTML**: Rich visualizations, color, diagrams (preferred by Claude Code team over Markdown)
 
-### Infrastructure Platform Economics
-- **Picks-and-shovel layer**: Platforms making inference/training "cheap, fast, and reliable" will become new infrastructure fabric
-- **Stack categories**: Orchestration, evals, observability, fine-tuning, memory, inference, agent runtime, data management, networking
-- **Historical parallel**: Cloud era created generational infrastructure companies (Snowflake, Databricks, Datadog, MongoDB, HashiCorp, Confluent)
-- **Prediction**: "Same wave is coming for the AI stack (and the energy stack), and it's still early innings"
-- **Key difference from cloud**: "How the economic [distribution differs]" - article cuts off but implies different concentration dynamics than cloud era
+#### Product Architecture Implications
+- **Not truly "headless"**: "Headless systems don't decapitate the system; they enable many user interfaces"
+- **Multi-head evolution**: Systems will have "many heads" that "evolve as business does"
+- **Artifact Management**: Need to "decide which [interfaces] to keep over time & which are disposable"
+- **New Value Creation**: "This dynamic UI management is the future of software value: the harness to control the interface/ensure it's correct & the knowledge management to rationalize all the AI products over time as a context database & library of artifacts"
+
+#### Design Philosophy Tension
+- **Pro-rich UI camp**: Brian Chesky (Airbnb CEO): "Imagine using iMessage to do everything, when in fact every other app has a unique interface…With e-commerce, you want a very rich user interface"
+- **Pro-rich visualization**: Thariq Shihipar (Claude Code engineer): "I want richer visualizations, color, and diagrams and I want to be able to share them easily…I've started preferring HTML as an output format instead of Markdown"
+- **Resolution**: Not either/or but context-dependent - "plastic" interfaces adapt to user needs and task requirements
+
+#### Generalizability
+- **Broad application**: Any software with multiple user contexts or task types
+- **E-commerce**: Rich product browsing and purchasing experiences
+- **Enterprise systems**: CRM, ERP, project management (different interfaces for different roles/tasks)
+- **Knowledge work**: Documentation, analysis, communication (format varies by use case)
+- **Pattern**: High generalizability across industries where user needs vary by context, urgency, complexity, or personal preference

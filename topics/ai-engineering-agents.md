@@ -1,5 +1,5 @@
 ---
-tags: [agent-architecture, ai-engineering-agents, ai-rd-automation, autonomous-agents, autonomous-fine-tuning, benchmark-contamination, chain-of-thought, llm-capability-eval, memory-systems, planning-architectures, post-training, react, reflection-mechanisms, reflexion, reward-hacking, self-reflection, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store]
+tags: [agent-architecture, agentic-science, agentic-systems, ai-engineering-agents, ai-rd-automation, ai-scientists, alphafold, autonomous-agents, autonomous-fine-tuning, autonomous-research, benchmark-contamination, chain-of-thought, llm-capability-eval, memory-systems, planning-architectures, post-training, react, recursive-self-improvement, reflection-mechanisms, reflexion, reward-hacking, scientific-ai, self-reflection, specialized-tools, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store]
 ---
 
 # AI Engineering & Agents
@@ -15,60 +15,31 @@ Key questions tracked: What agent patterns are actually working in production? H
 - **SWE-Bench Progress (2023-2026)**: AI coding capabilities on real-world GitHub issues improved from ~2% (Claude 2, late 2023) to 93.9% (Claude Mythos Preview, May 2026), effectively saturating the benchmark. This represents a ~47x improvement in solving real-world software engineering problems over ~2.5 years.
 - **METR Time Horizons**: AI systems show rapid progress in completing increasingly complex tasks measured by human-equivalent time horizons. GPT-3.5 (2022) could handle tasks taking a person a few minutes; frontier models by 2026 can reliably complete multi-hour tasks (specific 50% reliability threshold not provided in excerpt, but trend indicates continuous expansion of task complexity).
 - **Industry Adoption Pattern (2026)**: "Vast majority" of people at frontier labs and Silicon Valley now code entirely through AI systems, with increasing use of AI for test writing and code verification. This suggests AI has automated a major component of AI R&D itself.
-- **Claude Code as "ChatGPT Moment" (O'Laughlin, Jan 2026)**: Claude Code is characterized as repeating the transformative impact of ChatGPT's launch. Claim: "Claude Code is the ChatGPT moment repeated" and represents "the first genuine website built in the age of AI" if tokens are analogized to TCP/IP. Author asserts it pr
+- **Claude Code as "ChatGPT Moment" (O'Laughlin, Jan 2026)**: Claude Code is characterize
 
-## Foundational Agent Architecture Concepts
+### Agentic Science & Research Automation
+- **Scientific Contributions (May 2026)**: Agentic, LLM-based systems are "now making real research contributions, sometimes with limited human guidance" (MIT Tech Review, May 2026). OpenAI model disproved an important mathematics conjecture using a general-purpose reasoning model (GPT-5.5 class), described as "perhaps the most meaningful contribution that generative AI has made to mathematics so far" by some mathematicians.
+- **General vs. Specialized Agents**: The model that disproved the math conjecture was "not specialized for solving mathematical problems, or even for research"—it's a general-purpose reasoning model. This demonstrates potential for general agents to make independent contributions across domains.
+- **Recursive Self-Improvement**: Growing industry enthusiasm around the idea that "AI systems could eventually become the primary drivers of AI advancement—a process that would get faster and faster as the AI systems grow smarter" (May 2026).
+- **Vision for Autonomous Science (Google Cloud, May 2026)**: Pushmeet Kohli (Google Cloud Chief Scientist) stated "We are moving toward AI that doesn't just facilitate science but begins to do science." Characterized as movement toward "autonomous AI scientists" where "humans and AI systems collaborate as peers—or AI even makes scientific progress on its own."
+- **Domain Complexity**: Science presents tougher challenges for AI agents than mathematics because "ideas in science must be verified experimentally" rather than purely through formal proof.
 
-### Three-Component Agent System (Weng, June 2023)
-Lilian Weng's foundational framing identifies three core components of LLM-powered autonomous agents:
+### Strategic Shifts in AI for Science
+- **Tool vs. Agent Paradigm (2026)**: Two competing approaches to AI for science:
+  1. **Specialized tools**: Designed and trained for specific scientific problems (e.g., AlphaFold, WeatherNext)
+  2. **Agentic systems**: LLM-based systems that could execute cutting-edge research projects without human involvement
+- **Resource Realignment at Google (2026)**: John Jumper (Google Fellow, Nobel Prize winner for AlphaFold) moved from science-specific AI tools to AI coding work as of ~April 2026. This may signal prioritization of agentic science, as "coding abilities are key to the success of some of those systems."
+- **Justification Challenge**: With autonomous AI scientists on the horizon, it's "harder to justify massive efforts to develop super-specialized tools—even one like AlphaFold, for which DeepMind scientists won a Nobel Prize."
+- **Note**: Google has not abandoned specialized tools—AlphaGenome and AlphaEarth Foundations released summer 2025, WeatherNext updated November 2025, and such tools remain "extremely popular among scientists" (AlphaFold used by 3M+ researchers).
 
-1. **Planning**: LLM serves as the agent's "brain" for task decomposition and strategy
-2. **Memory**: Both short-term (in-context learning) and long-term (external vector stores)
-3. **Tool Use**: Calling external APIs for information beyond model weights
+### Google Gemini for Science Package (May 2026)
+- Unites several LLM-based scientific systems under one brand
+- Includes:
+  - **AI Co-Scientist**: Hypothesis-generating system (not yet publicly available as of May 2026)
+  - **AlphaEvolve**: Algorithm-optimizing system (not yet publicly available)
+- Google now allowing any researcher to apply for access to Gemini for Science
+- Early testing scientists reported enthusiasm (specific details not provided in excerpt)
 
-This framework established terminology and conceptual structure widely used in subsequent agent research and development. Early proof-of-concept demos cited: AutoGPT, GPT-Engineer, BabyAGI.
-
-### Planning Architectures
-
-#### Task Decomposition Approaches
-- **Chain of Thought (CoT)** (Wei et al. 2022): Standard prompting technique using "think step by step" to decompose complex tasks. Utilizes test-time computation to break hard tasks into simpler steps.
-- **Tree of Thoughts (ToT)** (Yao et al. 2023): Extends CoT by exploring multiple reasoning possibilities at each step. Generates tree structure of thought steps, searchable via BFS or DFS with state evaluation via classifier/majority vote.
-- **LLM+P** (Liu et al. 2023): Outsources long-horizon planning to external classical planner using PDDL (Planning Domain Definition Language) as intermediate interface. LLM translates problem to/from PDDL format. Limited to domains with existing PDDL specifications (common in robotics, less so elsewhere).
-
-**Decomposition Methods**:
-1. LLM prompting: "Steps for XYZ.\n1." or "What are the subgoals for achieving XYZ?"
-2. Task-specific instructions: e.g., "Write a story outline" for novel writing
-3. Human inputs
-
-#### Self-Reflection Mechanisms
-- **ReAct Framework** (Yao et al. 2023): Integrates reasoning and acting by extending action space to combine:
-  - Task-specific discrete actions (e.g., Wikipedia search API)
-  - Language space for generating reasoning traces
-  
-  Template format:
-  ```
-  Thought: ...
-  Action: ...
-  Observation: ...
-  ... (Repeated)
-  ```
-  
-  Demonstrated effectiveness on knowledge-intensive tasks (HotpotQA, FEVER) and decision-making tasks (AlfWorld, WebShop). Enables iterative improvement through trial-and-error with explicit reasoning traces.
-
-### Memory Systems
-
-#### Memory Types (Weng Framework)
-- **Short-term memory**: In-context learning using the model's context window for immediate task information
-- **Long-term memory**: External vector stores enabling retention and recall of information over extended periods. Relies on fast retrieval mechanisms (see [[vector-databases]] for MIPS details)
-
-**Maximum Inner Product Search (MIPS)**: Referenced as key retrieval mechanism for long-term memory, though specific implementation details defer to vector database topic.
-
-### Tool Use Patterns
-
-Agents learn to call external APIs to access:
-- Current/real-time information
-- Code execution capabilities  
-- Proprietary information sources
-- Information missing from model weights (typically fixed after pre-training)
-
-This addresses fundamental limitation that model weights are static and cannot incorporate post-training information updates without fine-tuning or retrieval augmentation.
+## Cross-References
+- [[lab-dynamics]] - Google DeepMind strategic positioning in AI for science
+- [[model-architecture]] - General-purpose reasoning models vs. specialized architectures
