@@ -351,3 +351,62 @@ This content would fit better in a dedicated topic on data quality, active learn
 - **Isomorphic Labs**: Google subsidiary using AlphaFold and related technologies for drug development raised $2B Series B funding round (timing: ~2025-2026).
 - **AlphaGenome & AlphaEarth Foundations**: Released summer 2025, trained for genetics and Earth science applications respectively.
 - **Demis Hassabis Quote (May 2026, Google I/O)**: "Standing in the foothills of the singularity"—stated in context of scientific AI segment, highlighting gap between lofty AGI rhetoric and current real-world scientific tool achievements.
+
+---
+**How Anthropic Aligns Its Models** (The Batch (DeepLearning.AI), 2026-05-24T02:00:42.522507+00:00)
+### OpenAI Realtime API Updates (May 2026)
+- **GPT-Realtime-2**: GPT-5-class reasoning in voice with adjustable reasoning levels (minimal through xhigh)
+  - Context window expanded from 32K to 128K tokens
+  - 15.2% higher on audio intelligence benchmarks than predecessor
+  - Parallel tool calling with audible status updates
+  - Pricing: $32 per million audio input tokens
+- **GPT-Realtime-Translate**: Live speech translation across 70 input languages and 13 output languages
+  - 12.5% reduction in word error rates on Indian language variants
+  - Per-minute pricing model
+- **GPT-Realtime-Whisper**: Streaming transcription for live captions, meeting notes, voice agents
+- **Real-world impact**: Zillow reported 26-point improvement in call success rates on adversarial benchmarks
+
+### Hermes Agent vs OpenClaw (May 2026)
+- **Market shift**: Hermes Agent surpassed OpenClaw on May 10, 2026 (224B vs 186B daily tokens)
+- **Architectural differences**:
+  - **OpenClaw**: Optimizes for breadth, routing tasks across 50+ messaging channels through central WebSocket gateway
+  - **Hermes**: Pursues depth through self-improving execution loop that autonomously generates reusable skill files
+- **Security concerns**:
+  - OpenClaw disclosed 9 CVEs in 4 days (March 2026), one scoring 9.9
+  - Koi Security audit found 341 malicious entries among 2,857 ClawHub skills
+  - Hermes patched 8 priority-zero issues in latest release (v0.13.0)
+- **Usage pattern**: Developers increasingly run both in parallel—OpenClaw for orchestration, Hermes for repeatable task execution
+- **Project status**: OpenClaw's founder joined OpenAI; project moved to independent foundation
+
+### Direct Corpus Interaction (DCI)
+- **Claim**: New retrieval technique that beats vector-based RAG
+- **Note**: Article text was truncated; insufficient detail to extract technical claims
+
+---
+**[AINews] All Model Labs are now Agent Labs** (Latent Space, 2026-05-23T04:21:17+00:00)
+### Frontier Model Economics & Performance (May 2026)
+
+#### DeepSeek V4-Pro Pricing Shift
+- **Permanent 75% discount**: Made permanent May 2026, materially shifting cost/performance frontier
+- **First-party pricing**: $0.435/M input, $0.87/M output, $0.0036/M cached input
+- **Blended estimate**: ~$0.18/M total cost
+- **Cost comparison** (Intelligence Index runs):
+  - ~3x less than Gemini 3.1 Pro Preview
+  - ~12x less than GPT-5.5
+  - ~19x less than Claude Opus 4.7
+- **Market positioning**: Described as push toward "intelligence too cheap to meter"
+- **Pareto frontier**: V4 Pro now on Pareto frontier for intelligence vs run cost
+
+#### Gemini 3.5 Flash Performance
+- **Benchmark progress**: Major improvement over 3.1 Pro on GDPval; Logan Kilpatrick claims "competing at the frontier"
+- **Design Arena**: Ranked 16th overall, 16-position jump from Gemini 3 Flash Preview
+- **Builder skepticism**: 
+  - Only slight browser-agent improvement at higher cost
+  - Concerns model optimized for eval maximization rather than human cooperation
+  - "Flash" brand confusion if no longer implies cheapness
+- **Eval methodology concerns**: Current tooling criticized for underweighting qualitative, human-in-the-loop judgment
+
+#### Chinese Frontier Models
+- **Qwen3.7-Max improvements**: Meaningful step up in instruction following, context reliability, stability
+- **Remaining issues**: Verbosity and high token usage
+- **ALE-Bench performance**: Kimi-K2.6, DeepSeek-V4, GLM-5.1 reported outperforming several [text cuts off]
