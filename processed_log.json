@@ -7088,6 +7088,200 @@
       ],
       "status": "skipped",
       "skip_reason": "No actual article content provided; only cookie consent page and navigation elements were captured instead of the substantive news story."
+    },
+    "https://www.deeplearning.ai/the-batch/issue-352": {
+      "title": "Issue 352",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-25T02:00:42.071354+00:00",
+      "composite": 3.3,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "ai-engineering-agents"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues against the 'AI jobpocalypse' narrative, claiming that AI will create more jobs than it destroys, similar to previous technological waves. It cites evidence that software engineering hiring remains strong despite AI coding agents, U.S. unemployment remains at 4.3%, and suggests that AI labs and businesses have incentives to exaggerate job displacement for marketing and pricing purposes. The article matters because it challenges dominant narratives about AI-driven unemployment and attempts to reframe the discussion toward skill changes rather than mass job loss.",
+      "tags": [
+        "ai-job-displacement",
+        "coding-agents",
+        "ai-pricing",
+        "workforce-transformation",
+        "ai-adoption-narratives"
+      ],
+      "status": "skipped",
+      "skip_reason": "Opinion piece with surface-level analysis, no original data or research, mostly rehashes existing counter-arguments to AI unemployment concerns without novel frameworks or evidence"
+    },
+    "https://www.deeplearning.ai/the-batch/issue-353": {
+      "title": "Issue 353",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-25T02:00:42.071305+00:00",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-engineering-agents",
+        "prompt-architecture"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Andrew Ng describes the development of 'AI Andrew,' an AI companion designed to emulate his communication style and provide guidance on AI concepts and career topics. The system uses a complex agentic harness combining RAG, multiple model sizes, guardrails, evals, memory systems, and offline improvement loops, refined through error analysis to match his communication principles. The article is primarily a product announcement and personal reflection rather than technical documentation or novel research.",
+      "tags": [
+        "agentic-harness",
+        "error-analysis",
+        "rag",
+        "guardrails",
+        "evals",
+        "short-long-term-memory"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with minimal technical detail, limited novelty in claims or frameworks, and primarily promotional rather than analytical content"
+    },
+    "https://www.deeplearning.ai/the-batch/bytedance-adds-state-of-the-art-seedance-2-0-video-to-capcut-while-openai-retreats": {
+      "title": "Bytedance Adds State Of The Art Seedance 2 0 Video To Capcut While Openai Retreats",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-25T02:00:41.828542+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "multimodal-models",
+        "ai-in-product-and-engineering",
+        "ai-pricing-packaging-saas",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "ByteDance has launched Seedance 2.0, a multimodal video generation model, through its CapCut app to hundreds of millions of users globally, while OpenAI prepares to shut down Sora. The model generates synchronized audio-video in a unified system with features like multi-language lip-sync, camera control, and sequential shot generation, ranking first or second on independent video generation leaderboards. This represents a significant competitive move in the generative video market, establishing ByteDance as a leader while a major competitor retreats.",
+      "tags": [
+        "video-generation",
+        "multimodal-generation",
+        "seedance",
+        "capcut",
+        "audio-video-synthesis",
+        "generative-ai-deployment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily a product announcement and competitive landscape update with surface-level technical details; lacks depth on architecture, training methods, or novel research insights that would score above 6."
+    },
+    "https://simonwillison.net/2026/May/24/datasette/#atom-everything": {
+      "title": "datasette 1.0a30",
+      "source": "Simon Willison",
+      "date": "2026-05-24T23:52:37+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article announces the release of datasette 1.0a30, an open-source data exploration tool, with a new customizable 'Jump to...' menu feature. The key evidence is a screenshot of the new menu interface and mention of a new plugin hook (jump_items_sql()) that allows plugins to extend the search functionality. This is a routine product release note for a data tool unrelated to AI/ML systems.",
+      "tags": [
+        "datasette",
+        "data-exploration",
+        "plugin-architecture",
+        "open-source"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a release note for a data exploration tool with no connection to AI systems, model architectures, AI deployment, or any specified topic areas; purely a software update announcement."
+    },
+    "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything": {
+      "title": "datasette-agent 0.1a4",
+      "source": "Simon Willison",
+      "date": "2026-05-24T23:19:34+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for datasette-agent 0.1a4, an LLM-powered agent integrated into Datasette's interface. The key technical detail is that it uses a new JavaScript plugin hook (makeJumpSections()) from Datasette 1.0a30 to add an agent chat interface accessible via the Jump menu. The article is essentially a changelog entry with minimal context about the agent's capabilities or use cases.",
+      "tags": [
+        "datasette",
+        "llm-agents",
+        "product-integration",
+        "javascript-plugins"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a minimal product release note lacking depth, original analysis, or substantive technical details about the agent's functionality, implementation, or impact."
+    },
+    "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything": {
+      "title": "datasette-fixtures 0.1a0",
+      "source": "Simon Willison",
+      "date": "2026-05-24T21:38:32+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article announces the release of datasette-fixtures 0.1a0, a plugin that adds a fixtures test database to Datasette for testing purposes. It provides a code example showing how to run the plugin using uvx to query a sample database of roadside attractions. This is a minor developer tooling update for the Datasette ecosystem with no broader implications.",
+      "tags": [
+        "datasette",
+        "testing-fixtures",
+        "plugin-development",
+        "developer-tooling"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a minor release announcement for a niche developer tool with no connection to AI, semiconductors, or enterprise topics in scope."
+    },
+    "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper": {
+      "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
+      "source": "Lenny's Newsletter",
+      "date": "2026-05-24T12:31:49+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount",
+        "build-vs-buy-enterprise-ai",
+        "ai-native-product-design"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Dan Shipper argues that AI automation will paradoxically increase both human involvement and total work output, predicting that most work will occur inside AI coding environments like Codex/Claude Code, with 'super-agents' in Slack and forward-deployed engineers becoming critical roles. His evidence comes from running Every, a 30-person company where all employees heavily use AI tools, observing that SaaS won't die but will shift to user-provided token economics and that PMs/designers will thrive as AI handles implementation. This matters because it presents a contrarian view on AI's impact on work\u2014rejecting job apocalypse narratives and the death of SaaS while identifying specific organizational patterns and roles that will emerge in AI-native companies.",
+      "tags": [
+        "claude-code",
+        "codex",
+        "forward-deployed-engineer",
+        "super-agents",
+        "saas-economics",
+        "ai-native-organization",
+        "human-in-the-loop"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.exponentialview.co/p/ev-575": {
+      "title": "\ud83d\udd2e Exponential View #575: AI\u2019s math breakthrough and its creative limits",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-05-24T02:44:54+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "The article discusses OpenAI's reasoning model solving an 80-year-old discrete geometry problem by bridging two separate mathematical fields, and a multi-agent system called Robin that completed a full scientific research cycle from hypothesis to drug repurposing. The key evidence is that AI systems can connect isolated domains of knowledge due to their ability to span different fields without human specialization constraints, and can accelerate the scientific method through autonomous hypothesis-experiment-analysis loops. This matters because it suggests AI's research value lies less in narrow task performance and more in cross-domain synthesis and experimental acceleration.",
+      "tags": [
+        "reasoning-models",
+        "cross-domain-synthesis",
+        "scientific-method-acceleration",
+        "multi-agent-systems",
+        "drug-discovery"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level reporting of existing developments without original analysis, data, or frameworks; primarily summarizes two AI research examples with limited actionable insight for enterprise or technical implementation"
     }
   }
 }

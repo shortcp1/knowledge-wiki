@@ -705,7 +705,49 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-25
+
+**✗ 3.3** — [Issue 352](https://www.deeplearning.ai/the-batch/issue-352)  
+*The Batch (DeepLearning.AI)* · ai-org-design-headcount · ai-engineering-agents
+#ai_job_displacement #coding_agents #ai_pricing #workforce_transformation
+> The article argues against the 'AI jobpocalypse' narrative, claiming that AI will create more jobs than it destroys, similar to previous technological waves. It cites evidence that software engineering hiring remains strong despite AI coding agents, U.S. unemployment remains at 4.3%, and suggests that AI labs and businesses have incentives to exaggerate job displacement for marketing and pricing purposes. The article matters because it challenges dominant narratives about AI-driven unemployment and attempts to reframe the discussion toward skill changes rather than mass job loss.
+
+**✗ 3.7** — [Issue 353](https://www.deeplearning.ai/the-batch/issue-353)  
+*The Batch (DeepLearning.AI)* · agentic-workflows-production · ai-engineering-agents · prompt-architecture
+#agentic_harness #error_analysis #rag #guardrails
+> Andrew Ng describes the development of 'AI Andrew,' an AI companion designed to emulate his communication style and provide guidance on AI concepts and career topics. The system uses a complex agentic harness combining RAG, multiple model sizes, guardrails, evals, memory systems, and offline improvement loops, refined through error analysis to match his communication principles. The article is primarily a product announcement and personal reflection rather than technical documentation or novel research.
+
+**✗ 5.3** — [Bytedance Adds State Of The Art Seedance 2 0 Video To Capcut While Openai Retreats](https://www.deeplearning.ai/the-batch/bytedance-adds-state-of-the-art-seedance-2-0-video-to-capcut-while-openai-retreats)  
+*The Batch (DeepLearning.AI)* · multimodal-models · ai-in-product-and-engineering · ai-pricing-packaging-saas
+#video_generation #multimodal_generation #seedance #capcut
+> ByteDance has launched Seedance 2.0, a multimodal video generation model, through its CapCut app to hundreds of millions of users globally, while OpenAI prepares to shut down Sora. The model generates synchronized audio-video in a unified system with features like multi-language lip-sync, camera control, and sequential shot generation, ranking first or second on independent video generation leaderboards. This represents a significant competitive move in the generative video market, establishing ByteDance as a leader while a major competitor retreats.
+
 ## 2026-05-24
+
+**✗ 1.7** — [datasette 1.0a30](https://simonwillison.net/2026/May/24/datasette/#atom-everything)  
+*Simon Willison* · 
+#datasette #data_exploration #plugin_architecture #open_source
+> This article announces the release of datasette 1.0a30, an open-source data exploration tool, with a new customizable 'Jump to...' menu feature. The key evidence is a screenshot of the new menu interface and mention of a new plugin hook (jump_items_sql()) that allows plugins to extend the search functionality. This is a routine product release note for a data tool unrelated to AI/ML systems.
+
+**✗ 3.0** — [datasette-agent 0.1a4](https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
+#datasette #llm_agents #product_integration #javascript_plugins
+> This is a brief release announcement for datasette-agent 0.1a4, an LLM-powered agent integrated into Datasette's interface. The key technical detail is that it uses a new JavaScript plugin hook (makeJumpSections()) from Datasette 1.0a30 to add an agent chat interface accessible via the Jump menu. The article is essentially a changelog entry with minimal context about the agent's capabilities or use cases.
+
+**✗ 1.7** — [datasette-fixtures 0.1a0](https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything)  
+*Simon Willison* · 
+#datasette #testing_fixtures #plugin_development #developer_tooling
+> This article announces the release of datasette-fixtures 0.1a0, a plugin that adds a fixtures test database to Datasette for testing purposes. It provides a code example showing how to run the plugin using uvx to query a sample database of roadside attractions. This is a minor developer tooling update for the Datasette ecosystem with no broader implications.
+
+**✗ 5.7** — [The AI paradox: More automation, more humans, more work | Dan Shipper](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)  
+*Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#claude_code #codex #forward_deployed_engineer #super_agents
+> Dan Shipper argues that AI automation will paradoxically increase both human involvement and total work output, predicting that most work will occur inside AI coding environments like Codex/Claude Code, with 'super-agents' in Slack and forward-deployed engineers becoming critical roles. His evidence comes from running Every, a 30-person company where all employees heavily use AI tools, observing that SaaS won't die but will shift to user-provided token economics and that PMs/designers will thrive as AI handles implementation. This matters because it presents a contrarian view on AI's impact on work—rejecting job apocalypse narratives and the death of SaaS while identifying specific organizational patterns and roles that will emerge in AI-native companies.
+
+**✗ 5.0** — [🔮 Exponential View #575: AI’s math breakthrough and its creative limits](https://www.exponentialview.co/p/ev-575)  
+*Exponential View (Azeem Azhar)* · model-architecture · lab-dynamics
+#reasoning_models #cross_domain_synthesis #scientific_method_acceleration #multi_agent_systems
+> The article discusses OpenAI's reasoning model solving an 80-year-old discrete geometry problem by bridging two separate mathematical fields, and a multi-agent system called Robin that completed a full scientific research cycle from hypothesis to drug repurposing. The key evidence is that AI systems can connect isolated domains of knowledge due to their ability to span different fields without human specialization constraints, and can accelerate the scientific method through autonomous hypothesis-experiment-analysis loops. This matters because it suggests AI's research value lies less in narrow task performance and more in cross-domain synthesis and experimental acceleration.
 
 **✗ 1.0** — [Cannes Lions](https://www.bain.com/insights/events/cannes-lions/)  
 *Bain Insights* · 
