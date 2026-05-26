@@ -705,7 +705,49 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-26
+
+**✗ 4.0** — [Chris Olah Pope Leo Encyclical](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)  
+*Anthropic Blog* · ai-governance-risk-compliance · lab-dynamics
+#ai_safety #lab_incentives #external_oversight #ai_interpretability
+> Chris Olah argues that AI labs operate under commercial and geopolitical pressures that can conflict with doing the right thing, and therefore external critics and stakeholders (like the Church) are essential for ensuring AI safety. He emphasizes that AI systems are 'grown' rather than engineered, making them mysterious even to their creators and raising questions beyond computer science. The remarks position external moral and philosophical guidance as necessary counterweights to the structural incentives facing frontier AI companies.
+
+**✗ 1.3** — [Writing](https://eugeneyan.com/tag/writing/)  
+*Eugene Yan* · 
+#writing_process #technical_documentation #career_advice #zettelkasten
+> This is an archive page listing 17 blog posts about writing processes, career advice, and documentation practices from Eugene Yan's personal blog. The page provides titles, dates, and brief descriptions of articles covering topics like writing online, technical documentation, note-taking methods, and career development. It serves as a navigation hub rather than substantive content, offering no analysis, data, or frameworks itself.
+
+**✗ 2.3** — [Writing](https://eugeneyan.com/writing/)  
+*Eugene Yan* · 
+#blog_index #content_catalog #navigation
+> This is an index page listing Eugene Yan's blog articles across topics like AI, machine learning, recommendation systems, and career advice. The page shows article titles, dates, reading times, and topic tags but contains no substantive content itself. It serves as a navigation hub rather than a content piece with original analysis or insights.
+
 ## 2026-05-25
+
+**✗ 2.3** — [Notes on Pope Leo XIV's encyclical on AI](https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything)  
+*Simon Willison* · 
+#ai_ethics #interpretability #cultural_bias #sycophancy
+> This article provides commentary on Pope Leo XIV's encyclical addressing AI ethics, drawing parallels to Pope Leo XIII's 1891 labor encyclical during the industrial revolution. The piece highlights selected passages discussing AI interpretability, human dignity in development, and concerns about cultural biases and sycophancy in AI systems. While the encyclical offers ethical perspectives on AI's societal impact, the article itself is a surface-level summary of selected quotes without technical depth or novel analysis.
+
+**✗ 4.7** — [🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026](https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind)  
+*Lenny's Newsletter* · ai-engineering-agents · ai-in-product-and-engineering · prompt-architecture
+#claude_cowork #live_artifacts #personal_automation #prompt_patterns
+> This podcast episode features Felix Rieseberg from Anthropic discussing practical applications of Claude Cowork, including building 3D floor planners from email data, creating live dashboards, and a philosophy of 'going one abstraction layer up' when working with AI. The key evidence comes from concrete examples like parsing email receipts to inventory furniture and using live artifacts that refresh with real-time data from connected services. The episode argues that the main barrier to AI adoption is psychological rather than technical, with users not recognizing they can delegate tedious tasks to AI.
+
+**✗ 5.7** — [How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)](https://www.lennysnewsletter.com/p/how-the-engineer-behind-claude-cowork)  
+*Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#claude_cowork #live_artifacts #agentic_workflows #connectors
+> This podcast episode features an Anthropic engineer demonstrating practical applications of Claude Cowork and Claude Code, including converting 2D floor plans to interactive 3D walkthroughs, automatically tracking Twitter promises, and building a $20 hardware approval device. The engineer shares workflows like using email as an inventory database, the "go one abstraction layer up" philosophy for automation, and introduces live artifacts for real-time dashboards connected to personal data sources. The content matters as a practical demonstration of current agentic AI capabilities from the perspective of someone building the tools, though it primarily showcases existing features rather than novel technical insights.
+
+**✗ 3.0** — [Designing A (Scalable) Advisory Firm PTO Policy For Your First Hire And Beyond](https://feeds.feedblitz.com/~/957229334/0/kitcesnerdseyeview~Designing-A-Scalable-Advisory-Firm-PTO-Policy-For-Your-First-Hire-And-Beyond/)  
+*Kitces.com* · ai-in-hr-talent
+#pto_policy #professional_services #operational_redundancy #cross_training
+> The article argues that advisory firms need well-designed PTO policies as they grow beyond solo practices, emphasizing that effective time-off policies depend more on operational implementation than nominal days offered. It provides evidence that small firms struggle most with PTO because employees wear multiple hats, and recommends building redundancy through cross-training and documentation. The piece matters for understanding how professional services firms can balance employee wellbeing with operational continuity, though it offers conventional HR guidance rather than AI-specific insights.
+
+**✓ 7.3** — [📈 Why AI bills rise as costs fall](https://www.exponentialview.co/p/data-to-start-your-week-one-ai-task-many-bills)  
+*Exponential View (Azeem Azhar)* · inference-efficiency · agentic-workflows-production · ai-pricing-packaging-saas
+#token_amplification #agentic_workflows #inference_cost #ai_cost_forecasting
+> The article argues that despite falling token prices, AI bills are rising dramatically because of token amplification—agents consume 17,000x more tokens than four years ago due to hidden context re-reading and tool calls that multiply visible output by 55x or more. The evidence centers on how agentic workflows require extensive invisible token processing (only 15-20% of consumption is visible inference) through repeated context loading across multiple turns and 5-25 tool calls per task. This matters because enterprises struggle to forecast AI costs when the relationship between visible outputs and actual token consumption is non-linear and opaque, creating budget surprises despite unit price decreases.
 
 **✗ 3.3** — [Issue 352](https://www.deeplearning.ai/the-batch/issue-352)  
 *The Batch (DeepLearning.AI)* · ai-org-design-headcount · ai-engineering-agents
@@ -721,6 +763,11 @@ All articles scanned since the wiki started. Updated nightly.
 *The Batch (DeepLearning.AI)* · multimodal-models · ai-in-product-and-engineering · ai-pricing-packaging-saas
 #video_generation #multimodal_generation #seedance #capcut
 > ByteDance has launched Seedance 2.0, a multimodal video generation model, through its CapCut app to hundreds of millions of users globally, while OpenAI prepares to shut down Sora. The model generates synchronized audio-video in a unified system with features like multi-language lip-sync, camera control, and sequential shot generation, ranking first or second on independent video generation leaderboards. This represents a significant competitive move in the generative video market, establishing ByteDance as a leader while a major competitor retreats.
+
+**✗ 2.7** — [OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership](https://openai.com/index/grupo-folha-grupo-uol-partnership)  
+*OpenAI News* · ai-media-content-businesses · rag-over-proprietary-content
+#content_licensing #news_partnership #chatgpt_integration #brazilian_market
+> OpenAI announced a content partnership with Brazilian media groups Grupo Folha and Grupo UOL to integrate their journalism into ChatGPT. The partnership focuses on attribution and transparency when serving news content to users. This represents OpenAI's continued expansion of licensed content partnerships with regional news organizations.
 
 ## 2026-05-24
 
@@ -738,6 +785,16 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · 
 #datasette #testing_fixtures #plugin_development #developer_tooling
 > This article announces the release of datasette-fixtures 0.1a0, a plugin that adds a fixtures test database to Datasette for testing purposes. It provides a code example showing how to run the plugin using uvx to query a sample database of roadside attractions. This is a minor developer tooling update for the Datasette ecosystem with no broader implications.
+
+**✗ 4.3** — [Quoting Armin Ronacher](https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
+#github_issues #developer_workflow #ai_slop #bug_reports
+> Armin Ronacher describes a frustrating failure mode where developers submit AI-reworded bug reports that obscure the actual observed problem with overconfident but inaccurate analysis. He advocates for condensing issue reports to human-observed facts: the command run, expected behavior, actual behavior, and exact errors. This highlights a friction point in developer workflows where AI intermediation degrades the quality of technical communication.
+
+**✗ 2.3** — [Mad House — Usborne Creepy Computer Games](https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything)  
+*Simon Willison* · prompt-architecture
+#claude #code_generation #pdf_to_code #retro_gaming
+> The article describes a personal experiment where the author used Claude to recreate a 1980s text-based game from a Usborne programming book by feeding the PDF into the LLM and prompting it to build a JavaScript/HTML version. The key mechanism is direct PDF-to-code generation via a simple prompt instruction to Claude. This represents a casual example of using LLMs for code generation from legacy documentation, but offers no analysis, novel insights, or broader implications.
 
 **✗ 5.7** — [The AI paradox: More automation, more humans, more work | Dan Shipper](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)  
 *Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering

@@ -410,3 +410,14 @@ This content would fit better in a dedicated topic on data quality, active learn
 - **Qwen3.7-Max improvements**: Meaningful step up in instruction following, context reliability, stability
 - **Remaining issues**: Verbosity and high token usage
 - **ALE-Bench performance**: Kimi-K2.6, DeepSeek-V4, GLM-5.1 reported outperforming several [text cuts off]
+
+---
+**📈 Why AI bills rise as costs fall** (Exponential View (Azeem Azhar), 2026-05-25T07:00:52+00:00)
+### Token Economics and Demand Elasticity (2022-2026)
+- **Market Pattern**: Token prices collapsed while total tokens processed grew 17,000x over 4 years
+- **Demand Elasticity**: Machine intelligence demand is highly elastic - as prices fall, consumption increases by more than the price decline
+- **Geographic Distribution**: Significant growth driven by China's domestic demand and model providers (ByteDance, Alibaba)
+- **Agent Economics**: Cheaper tokens made agents economically viable, but agents consume tokens at orders of magnitude higher rates than single-turn chatbot queries
+- **Infrastructure Implication**: Total tokens processed per output token has exploded due to agents doing extensive invisible processing
+
+This content describes macro-level token economics and market dynamics that doesn't cleanly fit into existing production workflows, pricing/packaging, or pure inference efficiency topics. Consider creating a new topic like 'ai-token-economics' or 'ai-market-dynamics' if this pattern continues.
