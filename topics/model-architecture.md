@@ -1,5 +1,10 @@
 ---
-tags: [anthropic, arcee-ai, ascend-npu, attention-mechanisms, audio-latency, automated-research, concurrent-processing, context-length, deepseek, encoder-decoder-architecture, encoder-free-early-fusion, encoder-free-fusion, export-controls, flow-matching-decoder, gated-attention, gemma, glm, grouped-query-attention, hierarchical-mlp, hifloat4, inference-efficiency, llm-architecture, low-precision-training, mixture-of-experts, model-architecture, model-architecture-comparison, model-efficiency, model-training-pipeline, multi-head-attention, nope, open-weight-models, positional-encoding, qk-norm, real-time-inference, reasoning-models, relative-position-encoding, rotary-embeddings, rotary-position-embedding, scaled-dot-product-attention, self-attention, sliding-window-attention, sparse-attention, transformer-architecture, weak-to-strong-supervision]
+tags: [compute-costs, transformer-architecture, training-cost, inference-cost, flops-calculation, model-parameters, token-length, model-architecture]
+---
+
+=== model-architecture ===
+---
+tags: [agentic-coding-tools, anthropic, arcee-ai, ascend-npu, attention-mechanisms, audio-latency, automated-research, benchmark-vs-deployment, claude-code, concurrent-processing, context-length, deepseek, encoder-decoder-architecture, encoder-free-early-fusion, encoder-free-fusion, export-controls, flow-matching-decoder, frontier-model-competition, gated-attention, gemini, gemma, glm, grouped-query-attention, hierarchical-mlp, hifloat4, inference-efficiency, llm-architecture, low-precision-training, mixture-of-experts, model-architecture, model-architecture-comparison, model-efficiency, model-specialization, model-training-pipeline, multi-head-attention, nope, open-closed-model-gap, open-weight-models, positional-encoding, qk-norm, real-time-inference, reasoning-models, relative-position-encoding, rotary-embeddings, rotary-position-embedding, scaled-dot-product-attention, self-attention, sliding-window-attention, sparse-attention, transformer-architecture, weak-to-strong-supervision]
 ---
 
 # Model Architecture
@@ -17,20 +22,22 @@ Key questions tracked: Is MoE the dominant path to scale? Where are SSMs competi
   - **Decoder-only**: GPT architecture
 - **Core mechanism**: Scaled dot-product attention as fundamental operation
 
+### Transformer Computational Costs
+- **Training cost rule of thumb**: ~6*p FLOPs per token for model with p parameters
+  - Includes forward pass (2p) and backward pass (4p additional operations)
+  - Total training cost = 6*p * number of training tokens
+  - **Source**: a16z framework, April 2023
+- **Inference cost**: ~2*n*p FLOPs for n tokens (see [[inference-efficiency]])
+- **GPT-3 training example**: 175B parameters requires ~3.14*10^23 FLOPs total
+- **Memory requirements for training**: >1 TB for 175B parameter model at 32-bit precision
+  - Exceeds single GPU capacity, requires model splitting across cards
+  - **Optimization**: Moving to 16-bit (common as of 2023) and 8-bit (anticipated)
+
+### Model Scale Examples (as of April 2023)
+- **GPT-3**: ~175B parameters
+- **Meta LLaMA**: Even higher compute requirements than GPT-3
+- **Note**: Training these models among most computationally intensive tasks
+
 ### Attention Mechanisms
 
-#### Scaled Dot-Product Attention (2017)
-- **Formula**: $\text{attn}(\mathbf{Q}, \mathbf{K}, \mathbf{V}) = \text{softmax}(\frac{\mathbf{Q} {\mathbf{K}}^\top}{\sqrt{d_k}})\mathbf{V}$
-- **Scalar attention score**: Between query $\mathbf{q}_i$ and key $\mathbf{k}_j$: $a_{ij} = \text{softmax}(\frac{\mathbf{q}_i \cdot \mathbf{k}_j}{\sqrt{d_k}})$
-
-### Encoder-Free Early Fusion (Thinking Machines, May 2026)
-- **Design principle**: Skip large pretrained encoders (e.g., OpenAI Whisper for audio, vision transformers for images) and instead train all components together from scratch
-- **TML-Interaction-Small implementation**:
-  - **Audio**: Direct discretized audio tokens (no large pretrained encoder)
-  - **Vision**: Image patch embeddings (40×40 pixels) via hierarchical multilayer perceptron
-  - **Text**: Direct text embeddings
-  - **Training**: Transformer, hierarchical MLP, and flow-matching decoder trained end-to-end
-- **Output**: Flow-matching decoder generates both audio and text
-- **Rationale**: Enables tighter integration for real-time multimodal interaction; eliminates encoder bottlenecks
-- **Related**: Similar philosophy to Meta's Chameleon for multimodal fusion
-- See [[multimodal-models]] for full system architecture and [[inference-efficiency]] for latency implications
+#### Scaled D

@@ -1,5 +1,5 @@
 ---
-tags: [agent-architecture, agentic-science, agentic-systems, ai-engineering-agents, ai-rd-automation, ai-scientists, alphafold, autonomous-agents, autonomous-fine-tuning, autonomous-research, benchmark-contamination, chain-of-thought, llm-capability-eval, memory-systems, planning-architectures, post-training, react, recursive-self-improvement, reflection-mechanisms, reflexion, reward-hacking, scientific-ai, self-reflection, specialized-tools, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store]
+tags: [agent-architecture, agentic-coding-tools, agentic-science, agentic-systems, ai-engineering-agents, ai-rd-automation, ai-scientists, alphafold, autonomous-agents, autonomous-fine-tuning, autonomous-research, benchmark-contamination, benchmark-vs-deployment, chain-of-thought, claude-code, frontier-model-competition, llm-capability-eval, memory-systems, model-specialization, open-closed-model-gap, planning-architectures, post-training, react, recursive-self-improvement, reflection-mechanisms, reflexion, reward-hacking, scientific-ai, self-reflection, specialized-tools, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store]
 ---
 
 # AI Engineering & Agents
@@ -14,32 +14,20 @@ Key questions tracked: What agent patterns are actually working in production? H
 ### Coding Capabilities & Automation
 - **SWE-Bench Progress (2023-2026)**: AI coding capabilities on real-world GitHub issues improved from ~2% (Claude 2, late 2023) to 93.9% (Claude Mythos Preview, May 2026), effectively saturating the benchmark. This represents a ~47x improvement in solving real-world software engineering problems over ~2.5 years.
 - **METR Time Horizons**: AI systems show rapid progress in completing increasingly complex tasks measured by human-equivalent time horizons. GPT-3.5 (2022) could handle tasks taking a person a few minutes; frontier models by 2026 can reliably complete multi-hour tasks (specific 50% reliability threshold not provided in excerpt, but trend indicates continuous expansion of task complexity).
-- **Industry Adoption Pattern (2026)**: "Vast majority" of people at frontier labs and Silicon Valley now code entirely through AI systems, with increasing use of AI for test writing and code verification. This suggests AI has automated a major component of AI R&D itself.
-- **Claude Code as "ChatGPT Moment" (O'Laughlin, Jan 2026)**: Claude Code is characterize
+- **Industry Adoption Pattern (2026)**: "Vast majority" of people at frontier labs and Silicon Valley now code entirely through AI systems, with increasing use of AI for test writing and code verification. This suggests
 
-### Agentic Science & Research Automation
-- **Scientific Contributions (May 2026)**: Agentic, LLM-based systems are "now making real research contributions, sometimes with limited human guidance" (MIT Tech Review, May 2026). OpenAI model disproved an important mathematics conjecture using a general-purpose reasoning model (GPT-5.5 class), described as "perhaps the most meaningful contribution that generative AI has made to mathematics so far" by some mathematicians.
-- **General vs. Specialized Agents**: The model that disproved the math conjecture was "not specialized for solving mathematical problems, or even for research"—it's a general-purpose reasoning model. This demonstrates potential for general agents to make independent contributions across domains.
-- **Recursive Self-Improvement**: Growing industry enthusiasm around the idea that "AI systems could eventually become the primary drivers of AI advancement—a process that would get faster and faster as the AI systems grow smarter" (May 2026).
-- **Vision for Autonomous Science (Google Cloud, May 2026)**: Pushmeet Kohli (Google Cloud Chief Scientist) stated "We are moving toward AI that doesn't just facilitate science but begins to do science." Characterized as movement toward "autonomous AI scientists" where "humans and AI systems collaborate as peers—or AI even makes scientific progress on its own."
-- **Domain Complexity**: Science presents tougher challenges for AI agents than mathematics because "ideas in science must be verified experimentally" rather than purely through formal proof.
+### Open-Closed Model Gap in Agentic Performance
+- **Claude Opus 4.5 Agentic Benchmark (December 2025)**: Claude Opus 4.5 integrated with Claude Code represented a distinct capability threshold for agentic harnesses that became "loud and obvious" in real-world usage. This moment is used as a litmus test for true agentic capability beyond benchmarks.
+- **Open Model Lag in Agentic Robustness (May 2026)**: As of May 2026, ~5-6 months after Opus 4.5 launch, no open-weight model has achieved equivalent robustness in agentic harnesses. Predicted timeline extends to 12+ months total, suggesting open models may lag 1+ year behind frontier closed models in this dimension.
+- **Real-world Use as Divergence Point**: Benchmarks continue climbing for open models, but real-world agentic use (particularly in coding harnesses) reveals a larger capability gap than benchmarks suggest. Open-closed gap becomes "more interpretable as real-world use becomes the real litmus test."
+- **Specialization Prediction**: Open models predicted to specialize for "automated, enterprise agents and low-cost domains" rather than competing directly with frontier closed models for knowledge work applications.
 
-### Strategic Shifts in AI for Science
-- **Tool vs. Agent Paradigm (2026)**: Two competing approaches to AI for science:
-  1. **Specialized tools**: Designed and trained for specific scientific problems (e.g., AlphaFold, WeatherNext)
-  2. **Agentic systems**: LLM-based systems that could execute cutting-edge research projects without human involvement
-- **Resource Realignment at Google (2026)**: John Jumper (Google Fellow, Nobel Prize winner for AlphaFold) moved from science-specific AI tools to AI coding work as of ~April 2026. This may signal prioritization of agentic science, as "coding abilities are key to the success of some of those systems."
-- **Justification Challenge**: With autonomous AI scientists on the horizon, it's "harder to justify massive efforts to develop super-specialized tools—even one like AlphaFold, for which DeepMind scientists won a Nobel Prize."
-- **Note**: Google has not abandoned specialized tools—AlphaGenome and AlphaEarth Foundations released summer 2025, WeatherNext updated November 2025, and such tools remain "extremely popular among scientists" (AlphaFold used by 3M+ researchers).
+### Claude Code & Codex Market Position
+- **Revenue Driver Hypothesis (2026)**: Agentic coding tools like Claude Code and Codex positioned as "current best path to massive AI revenue growth" compared to other agent applications.
+- **Competitive Moat Duration**: If open models take 12+ months to match Opus 4.5 agentic performance, Claude Code and Codex may establish themselves as "different categories of products" before open alternatives emerge.
 
-### Google Gemini for Science Package (May 2026)
-- Unites several LLM-based scientific systems under one brand
-- Includes:
-  - **AI Co-Scientist**: Hypothesis-generating system (not yet publicly available as of May 2026)
-  - **AlphaEvolve**: Algorithm-optimizing system (not yet publicly available)
-- Google now allowing any researcher to apply for access to Gemini for Science
-- Early testing scientists reported enthusiasm (specific details not provided in excerpt)
+### Mythos Specialization
+- **Domain Excellence (May 2026)**: Claude Mythos characterized as "remarkable technical achievement in software engineering and cybersecurity" and "watershed moment for those fields," though not considered a general "god model."
+- **Capability Ceiling Example**: 93.9% on SWE-Bench represents effective benchmark saturation in software engineering domain.
 
-## Cross-References
-- [[lab-dynamics]] - Google DeepMind strategic positioning in AI for science
-- [[model-architecture]] - General-purpose reasoning models vs. specialized architectures
+See also: [[model-architecture]], [[agentic-workflows-production]], [[open-weight-models]]

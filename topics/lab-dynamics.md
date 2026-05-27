@@ -1,5 +1,5 @@
 ---
-tags: [agentic-tasks, ai-infrastructure-costs, ai-leadership, anthropic, anthropic-anthropic, anthropic-financials, arcee-ai, aws-infrastructure, benchmark-competition, benchmark-evolution, benchmark-performance, capability-gap, china-ai-labs, chinese-ai-labs, claude-mythos, cloud-services, colossus, community-impact, compute-capacity, consortium-funding, custom-silicon, cybersecurity-capabilities, cybersecurity-risk, data-center-infrastructure, data-moats, datacenter-capacity, distillation, fast-following, fine-tunable-models, gated-attention, grok-5, hardware-software-codesign, lab-dynamics, lab-sustainability, mixture-of-experts, model-architecture-comparison, model-distillation, model-release-policy, model-release-strategy, nemotron, nvidia-nemotron, online-rl, open-closed-debate, open-closed-gap, open-model-sustainability, open-models, open-vs-closed-models, open-weight-models, post-training, public-backlash, qk-norm, reflection-ai, reinforcement-learning, rl-training, rlvr, sliding-window-attention, social-license, trainium2]
+tags: [agentic-tasks, agi-progress, ai-infrastructure-costs, ai-leadership, ai-milestones, anthropic, anthropic-anthropic, anthropic-financials, arcee-ai, aws-infrastructure, benchmark-competition, benchmark-evolution, benchmark-performance, capability-gap, china-ai-labs, chinese-ai-labs, claude-mythos, cloud-services, colossus, community-impact, compute-capacity, consortium-funding, custom-silicon, cybersecurity-capabilities, cybersecurity-risk, data-center-infrastructure, data-moats, datacenter-capacity, distillation, epoch-capabilities-index, fast-following, fine-tunable-models, gated-attention, grok-5, hardware-software-codesign, lab-dynamics, lab-sustainability, mixture-of-experts, model-architecture-comparison, model-distillation, model-release-policy, model-release-strategy, nemotron, nvidia-nemotron, online-rl, open-closed-debate, open-closed-gap, open-model-sustainability, open-models, open-vs-closed-models, open-weight-models, post-training, public-backlash, qk-norm, reflection-ai, reinforcement-learning, rl-training, rlvr, sliding-window-attention, social-license, societal-implications, technology-governance, trainium2]
 ---
 
 # Lab Dynamics & Competitive Landscape
@@ -12,12 +12,14 @@ Key questions tracked: Who is leading on capability vs. safety vs. deployment? H
 
 ### Anthropic Competitive Position (September 2025)
 - **Revenue trajectory**: "Clear outperformer in the GenAI market in 2025," multiplying revenue fivefold year-to-date to reach $5B annualized (source: The Information, Reuters, Bloomberg, SemiAnalysis, September 2025).
-- **Compute commitment**: AWS building "well over a gigawatt of datacenter capacity" for Anthropic as anchor customer, with largest campus hosting ~1 million Trainium2 chips (late 2025).
-- **Scaling Laws commitment**: Anthropic "betting hard on Scaling Laws" despite drawing
+- **Compute commitment**: AWS building "well over a gigawatt of datacenter capacity" for Anthropic as anchor customer, with largest campus hosting ~1 million
 
-### Anthropic Financial Performance (Q2 2026)
-- **Profitability milestone**: Anthropic projected to turn profit in Q2 2026, two years ahead of schedule (source: Exponential View, May 2026)
-- **Q2 2026 revenue**: Expected to gross $10.9B in Q2 2026 alone—more than entire lifetime revenue to date
-- **Operating profit**: Projected $559M operating profit for Q2 2026
-- **Historical significance**: "Extraordinary achievement" set to feature in business history annals (Azeem Azhar assessment)
-- **Note**: This represents dramatic acceleration from September 2025 $5B annualized figure, suggesting exponential growth trajectory continued
+### Claude Mythos Capabilities (2025)
+- **Software vulnerability detection**: Claude Mythos demonstrated capability to find "novel flaws in software" (source: Import AI 458, Jack Clark, May 2026)
+- **Context**: Achievement cited as example of rapid AI capability advancement in cybersecurity domain
+- **Cross-reference**: See [[ai-governance-risk-compliance]] for security implications
+
+### Investment Trajectory (May 2026)
+- **Capital commitment**: Companies investing "hundreds of billions of dollars in the computing facilities to train future AI systems" (source: Import AI 458, Jack Clark)
+- **Implication**: "Some amount of future progress is already locked in" due to committed infrastructure investment
+- **Cross-reference**: See [[regulatory-policy]] for infrastructure policy implications

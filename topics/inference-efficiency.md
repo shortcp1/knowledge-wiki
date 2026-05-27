@@ -1,4 +1,9 @@
 ---
+tags: [compute-costs, transformer-architecture, training-cost, inference-cost, flops-calculation, model-parameters, token-length, inference-efficiency]
+---
+
+=== inference-efficiency ===
+---
 tags: [agentic-ai, agentic-inference, agentic-tasks, api-pricing-economics, attention-mechanisms, audio-latency, autonomy, aws-inferentia, aws-infrastructure, aws-trainium, batch-size-latency-tradeoff, batch-size-optimization, capital-cost-conversion, cerebras, chinchilla-scaling, claude-opus, cloud-infrastructure, commodity-markets, concurrent-processing, custom-silicon, edge-compute, edge-deployment, encoder-free-early-fusion, encoder-free-fusion, flow-matching-decoder, full-duplex-interaction, gpu-alternatives, gpu-cluster-design, graviton, grouped-query-attention, hbm, heterogeneous-compute, hierarchical-mlp, inference-cost, inference-efficiency, inference-era, inference-workloads, latency-optimization, latency-vs-throughput, llm-architecture, local-inference, local-vs-cloud-tradeoffs, logistics-as-service, low-latency-inference, memory-bandwidth, memory-bandwidth-bound, microturn-processing, mixture-of-experts, model-distillation, model-parallelism, multi-head-attention, multimodal-fusion, nitro, onboard-ai, physical-ai, pipeline-parallelism, prefill-decode, prefill-decode-disaggregation, primitives-strategy, qwen, real-time-inference, realtime-voice, reinforcement-learning, safety-critical-systems, sglang, sim-to-real, simulation, sparse-attention, statistical-safety, token-cost-optimization, tokenmaxxing, tpu-architecture, vehicle-operating-systems, voice-activity-detection]
 ---
 
@@ -11,23 +16,19 @@ Key questions tracked: What is the current cost-per-token trajectory? Where does
 ## Key Claims
 <!-- agent-maintained -->
 
-### KV Cache Optimization Techniques (April-May 2026)
-- **KV sharing (cross-layer attention)**: Architecture technique where later transformer layers reuse key-value states from earlier layers
-  - Reduces long-context memory footprint
+### Inference Computational Cost (Transformer Models)
+- **FLOP calculation for forward pass**: For transformer model with p parameters and input/output sequence of n tokens each: ~2*n*p FLOPs required
+  - **Source**: a16z analysis, April 2023
+  - **Example**: GPT-3 (175B parameters) with 1,024 token input/output = ~350 TFLOPs
+- **Memory requirements for inference**: p parameters must fit in memory
+  - **32-bit precision**: Standard requirement
+  - **Optimization path**: 16-bit becoming common, 8-bit anticipated near-term (as of April 2023)
+  - **Storage per parameter**: ~8 bytes additional for backpropagation intermediate values
 
-### Real-Time Multimodal Latency (Thinking Machines, May 2026)
-- **Microturn processing**: TML-Interaction-Small processes conversations in 200ms chunks ("micro-turns") rather than waiting for full turns
-  - Interleaves input processing and output generation continuously
-  - Eliminates perceived boundary between end of input and start of output
-- **Encoder-free early fusion**: Skipping large pretrained encoders (Whisper for audio, ViT for images) and training components end-to-end enables <200ms multimodal processing
-  - Direct audio tokenization instead of Whisper preprocessing
-  - Hierarchical MLP for 40×40 pixel image patches instead of vision transformer
-  - Flow-matching decoder for audio/text output
-- **Measured latency**: 0.40s response time on FD-bench V1 conversational turn test
-  - vs Gemini-3.1-flash-live-preview minimal reasoning: 0.57s
-  - vs GPT-Realtime-2 minimal reasoning: 1.18s
-- **Asynchronous background reasoning**: Separates fast interaction model from slower reasoning/tool-use model running in parallel
-  - Background model shares context but doesn't block interaction
-  - Outputs woven into conversation when appropriate
-- **Interactivity vs intelligence tradeoff**: System optimized for low latency leads on interactivity benchmarks but slightly trails on pure reasoning (96.5% vs 96.6% BigBench Audio accuracy)
-- See [[multimodal-models]] for full architecture and [[model-architecture]] for encoder-free early fusion details
+### Token Economics
+- **Token definition**: Short sequences of ~4 characters on average (GPT-3)
+  - Correspond to words or parts of words
+  - Tokenization varies by model
+
+### KV Cache Optimization Techniques (April-May 2026)
+- **KV sharing (cross-layer attention)**

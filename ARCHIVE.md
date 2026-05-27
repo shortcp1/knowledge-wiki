@@ -705,7 +705,129 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-27
+
+**✗ 3.3** — [Kiyoung Choi Representative Director Anthropic Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)  
+*Anthropic Blog* · ai-in-product-and-engineering · ai-in-customer-success-support · ai-in-legal-compliance
+#geographic_expansion #korea_market #enterprise_adoption #legal_ai
+> Anthropic announces the appointment of KiYoung Choi as Representative Director for Korea and the opening of a Seoul office, citing Korea's high Claude usage rate (3.5x population expectations) and strong technical/creative adoption. The article provides examples of Korean enterprise deployments including Law&Company's AI legal assistant and SK Telecom's customer service model built on Claude. This signals Anthropic's geographic expansion strategy into a market with high AI adoption rates and hardware innovation capabilities.
+
+**✗ 1.0** — [Us Consumer Health Indexes](https://www.bain.com/insights/us-consumer-health-indexes/)  
+*Bain Insights* · 
+#bain_company #navigation_page #website_structure
+> This appears to be a navigation page or menu structure from Bain & Company's website rather than an actual article. The content consists entirely of office locations, menu items, and website navigation elements. There is no substantive analysis, research, or reporting on US consumer health or any other topic.
+
+**✗ 1.7** — [What Is Quantum Computing](https://www.bain.com/insights/what-is-quantum-computing/)  
+*Bain Insights* · 
+#quantum_computing
+> This appears to be a navigation/landing page for a Bain & Company article about quantum computing, but contains no actual article content beyond the title and site navigation elements. No substantive claims, evidence, or analysis about quantum computing are provided in the extracted text. The page cannot be evaluated for content quality as it lacks any meaningful content to assess.
+
+**✗ 4.3** — [China Shuts Down Manus Acquisition](https://www.deeplearning.ai/the-batch/china-shuts-down-manus-acquisition)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · lab-dynamics · funding-and-market-structure
+#cross_border_acquisition #geopolitical_ai_competition #partnership_restructuring #omnimodal_models
+> The article reports on Chinese regulators blocking Meta's acquisition of Manus (a Singapore-based AI startup with Chinese roots), Microsoft and OpenAI restructuring their partnership to allow multi-cloud distribution, and Nvidia releasing a laptop-sized omnimodal model. The key developments include China citing security concerns about technology exports and data transfers, Microsoft losing its AGI clause but gaining 20% revenue share across all platforms, and Nvidia consolidating vision/audio/language into a single 30B parameter model. These stories reflect broader themes of geopolitical AI competition, shifting partnership dynamics among major labs, and technical advances in multimodal efficiency.
+
+**✗ 1.7** — [Issue 354](https://www.deeplearning.ai/the-batch/issue-354)  
+*The Batch (DeepLearning.AI)* · 
+#education_philosophy #grade_inflation #learning_assessment #educational_policy
+> Andrew Ng critiques Harvard's decision to cap A grades at 20% of undergraduate classes, arguing that educational institutions should prioritize helping students succeed rather than judging them. He advocates for unlimited retries on assignments and practice-oriented learning over assessment-focused education, drawing on his experience designing online courses at DeepLearning.AI and Coursera. He proposes that excellence should be defined by helping as many people as possible achieve high standards rather than by exclusionary practices.
+
+**✗ 3.3** — [Ai Will Not Destroy The Job Market](https://www.deeplearning.ai/the-batch/ai-will-not-destroy-the-job-market)  
+*The Batch (DeepLearning.AI)* · ai-org-design-headcount · ai-in-product-and-engineering
+#ai_employment_impact #software_engineering_jobs #ai_pricing_models #frontier_labs_narrative
+> Andrew Ng argues that fears of AI-driven mass unemployment (the 'jobpocalypse') are overblown and irresponsible, pointing to continued strong hiring in software engineering despite AI tools. He contends that frontier AI labs, SaaS companies, and businesses have incentives to exaggerate AI's job displacement effects for marketing, pricing, and reputational reasons. The article predicts net job creation rather than destruction, drawing parallels to past overblown technological fears like nuclear power and population growth.
+
+**✗ 5.0** — [Financial Services Will Embrace Generative Ai Faster Than You Think](https://a16z.com/financial-services-will-embrace-generative-ai-faster-than-you-think/)  
+*a16z* · ai-in-finance-accounting · build-vs-buy-enterprise-ai · data-moats-proprietary-advantages
+#financial_services #llm_fine_tuning #proprietary_data #incumbent_advantage
+> The article argues that financial services will adopt generative AI faster than previous technology platform shifts (internet, mobile, cloud) by leveraging their vast historical financial data to fine-tune LLMs for five key goals: personalized experiences, cost efficiency, compliance, risk management, and forecasting. The key mechanism is that incumbents have data advantages but face accuracy/privacy constraints, while startups can use public data initially and grow their own datasets as a wedge for distribution. This matters because it positions fintech as an early-mover industry for LLM adoption rather than a laggard, potentially reshaping competitive dynamics between incumbents and startups.
+
+**✓ 7.3** — [Navigating The High Cost Of Ai Compute](https://a16z.com/navigating-the-high-cost-of-ai-compute/)  
+*a16z* · gpu-architecture-training-infra · inference-efficiency · model-architecture
+#compute_costs #transformer_architecture #training_cost #inference_cost
+> The article argues that compute costs dominate AI company economics, with some companies spending over 80% of raised capital on compute resources and demand outstripping supply by 10x. It provides a technical framework for understanding transformer model costs based on parameter counts and token length, offering rules of thumb like 2*n*p FLOPs for inference and 6*p FLOPs per token for training. This matters because access to low-cost compute resources has become the determining factor for AI company success in a compute-bound market.
+
+**✗ 2.7** — [What Is New Media](https://a16z.com/what-is-new-media/)  
+*a16z* · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#venture_capital #brand_building #content_marketing #portfolio_services
+> Andreessen Horowitz announces their New Media team, a venture capital service offering to help portfolio companies with brand-building, content creation, and launch campaigns. The team consists of in-house creators, forward-deployed media personnel with portfolio companies, and a fellowship program starting January 2026. This represents a16z's attempt to differentiate their VC offering by providing turnkey media operations, though the article is primarily a service announcement rather than analysis.
+
+**✓ 6.0** — [Data Trends State Of Working With Ai](https://www.bvp.com/atlas/data-trends-state-of-working-with-ai)  
+*Bessemer Atlas* · ai-in-product-and-engineering · ai-in-sales-gtm · ai-in-marketing-content
+#claude_anthropic #cursor_ide #function_specific_adoption #code_generation
+> Bessemer surveyed 173 leaders across 113 portfolio companies to map AI adoption patterns by business function, finding 86% expect meaningful change in 12 months but 43% are still experimenting. Engineering teams show 90% deployment rates and heavy use of Claude/Cursor, while finance (24% deploying), HR, and CS lag significantly with distinct blockers like data quality, compliance concerns, and tool fragmentation by function. The research reveals AI adoption is function-specific rather than organization-wide, with engineering operating in a fundamentally different reality than other business units.
+
+**✗ 1.7** — [JPMorgan analysis shows AI agent deployment surging while broader adoption flatlines - Crypto Briefing](https://news.google.com/rss/articles/CBMic0FVX3lxTE9jWkd4MzJvRzhxMGMybzN2RVZmRGF2blRpalVyQTNoZEhSM05ocGxXLXdrZGJOVFkyR0ZKbzdWdnJob2szb0I2TEpyQXdsZ3JPYUtZWVUtMjlSS05UenpWb25pZ2RoT25FTEFkZ1RwNkxZU0k?oc=5)  
+*GN: AI Mid-Market Enterprise* · agentic-workflows-production · ai-org-design-headcount
+#ai_agents #enterprise_adoption #jpmorgan_analysis
+> This article appears to discuss JPMorgan analysis suggesting AI agent deployment is increasing while broader AI adoption stagnates. However, the provided text contains only cookie consent dialog content with no actual article substance. Without access to the actual analysis or findings, the article cannot be properly evaluated for depth, novelty, or insights.
+
 ## 2026-05-26
+
+**✗ 5.7** — [The pressure](https://simonwillison.net/2026/May/26/the-pressure/#atom-everything)  
+*Simon Willison* · evals-production-deployment · ai-governance-risk-compliance
+#security_vulnerability_reports #ai_assisted_security_research #open_source_sustainability #curl
+> The article reports on unprecedented pressure facing the curl security team from AI-assisted vulnerability reports, with incoming security reports running 4-5x higher than 2024 levels (averaging over one per day). The key evidence is the project maintainer's personal account of unsustainable work hours and the observation that while report volume and quality have dramatically increased, the vulnerabilities found remain low-to-medium severity. This matters because it illustrates a concrete example of how AI tools are creating operational strain on open-source infrastructure projects, even when the underlying software is secure.
+
+**✓ 7.0** — [Some ideas for what comes next, May 2026](https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may)  
+*Interconnects (Nathan Lambert)* · model-architecture · ai-engineering-agents · agentic-workflows-production
+#open_closed_model_gap #agentic_coding_tools #claude_code #frontier_model_competition
+> The article argues that open-weight models are falling further behind closed frontier models in real-world agentic capabilities, particularly compared to Claude Opus 4.5's December 2025 performance in coding agents, with a lag now extending to 12+ months rather than the typical 5-6 months. The key evidence is that even Google's Gemini lacks a competitive equivalent to Claude Code/Codex, and that benchmarks are misleading compared to actual deployment performance in knowledge work applications. This matters because it suggests open models will increasingly specialize for automated enterprise agents and low-cost domains rather than competing directly with frontier labs, fundamentally reshaping the economics and business models of AI development.
+
+**✓ 6.0** — [Microsoft Copilot Cowork Exfiltrates Files](https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything)  
+*Simon Willison* · agentic-workflows-production · ai-governance-risk-compliance · evals-production-deployment
+#prompt_injection #data_exfiltration #agentic_security #microsoft_copilot
+> Microsoft Copilot Cowork has a vulnerability where agents can send emails to users without approval, and these emails can contain external images that trigger network requests enabling data exfiltration. The attack exploits OneDrive's pre-authenticated download links through prompt injection, allowing attackers to steal files when users open compromised agent-generated messages. This demonstrates ongoing security challenges in deploying agentic AI systems that can take actions on behalf of users.
+
+**✗ 1.7** — [Essential books for product builders—part 1](https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart)  
+*Lenny's Newsletter* · 
+#book_recommendations #professional_development #product_management #communication_skills
+> This article provides a curated list of book recommendations organized by skill development categories (communication, execution, strategy) for product builders and professionals. The author shares personal favorites with three books per category, emphasizing timeless works over recent publications. It's a generic professional development resource with no connection to AI, technology infrastructure, or enterprise AI implementation.
+
+**✗ 2.7** — [Quoting Paul Graham](https://simonwillison.net/2026/May/26/paul-graham/#atom-everything)  
+*Simon Willison* · ai-in-sales-gtm
+#ai_generated_writing #founder_communication #authenticity_signals #business_email
+> Paul Graham argues that AI-generated emails from founders are easily detectable and counterproductive, as they feel deceptive and signal the author cannot write well. The evidence is Graham's personal experience receiving founder emails written in an artificial journalistic style that didn't exist before AI tools. This matters as a cautionary signal about using AI for business communication, particularly in contexts where authenticity and personal capability signal credibility.
+
+**✗ 5.0** — [Rethinking organizational design in the age of agentic AI](https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/)  
+*MIT Technology Review* · agentic-workflows-production · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#agentic_business_transformation #operating_model_redesign #ai_agents_connective_tissue #enterprise_readiness
+> The article argues that organizations are failing to realize the value of AI agents by layering them onto existing human-centric operating models rather than fundamentally redesigning workflows and infrastructure. It introduces the concept of 'agentic business transformation' (ABT) as a framework that encompasses technology stack redesign, workforce restructuring, and new success metrics to enable agents to function as connective tissue across systems. The disconnect matters because while 85% of organizations aim to be agentic within three years, 76% acknowledge their current operations cannot support this change, risking underutilization of AI agents' potential to accelerate processes by 30-50%.
+
+**✗ 5.0** — [OpenAI and Plaid take another shot at personal finance](https://tearsheet.co/member-exclusive/openai-and-plaid-take-another-shot-at-personal-finance/?utm_source=rss&utm_medium=rss&utm_campaign=openai-and-plaid-take-another-shot-at-personal-finance)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-wealth-management-advisory
+#personal_finance_management #plaid_integration #banking_data_aggregation #chatgpt_banking
+> OpenAI has partnered with Plaid to enable ChatGPT to connect to bank accounts and provide personal finance management (PFM) capabilities like spending insights and subscription tracking. The article positions this as a revival of the PFM category that previously failed due to poor unit economics, exemplified by Mint's shutdown. The combination of OpenAI's scale and Plaid's access to 95% of US banks may provide the foundation for PFM to succeed where previous standalone solutions failed.
+
+**✓ 6.0** — [Import AI 458: Reckoning with the future; and a singularity story](https://importai.substack.com/p/import-ai-458-reckoning-with-the)  
+*Import AI (Jack Clark)* · lab-dynamics · regulatory-policy · ai-governance-risk-compliance
+#epoch_capabilities_index #agi_progress #ai_milestones #societal_implications
+> Jack Clark argues that rapid AI progress forces a choice between exploring implications of powerful AI or retreating into denial, using the Epoch Capabilities Index to illustrate acceleration from bar exam passage (2023) to IMO gold medals and novel proofs (2025). The piece positions AI as a non-normal technology requiring society-wide decisions about shaping, directing, and distributing benefits as systems potentially become self-improving. It emphasizes the need to reckon with AI's trajectory now rather than react passively as capabilities compound.
+
+**✗ 2.3** — [The Download: puncturing the AI jobs panic](https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/)  
+*MIT Technology Review* · 
+#ai_labor_impact #employment_data #entry_level_jobs #newsletter_digest
+> This newsletter digest briefly mentions two pieces on AI's impact on jobs: one analyzing US labor data showing no major unemployment in AI-exposed occupations, and an opinion piece about AI potentially harming entry-level positions based on a Stanford study. The articles provide cursory references to labor market data and a single study without detailed analysis or methodology. This is a surface-level news roundup that aggregates headlines rather than providing substantive analysis on any topic.
+
+**✗ 2.7** — [The Week in Market Moves | May 14–21, 2026](https://tearsheet.co/10-q/the-week-in-market-moves-may-1521-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-in-market-moves-may-1521-2026)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-in-product-and-engineering · funding-and-market-structure
+#bnpl #payments_infrastructure #fintech #workforce_restructuring
+> This weekly market newsletter summarizes company developments from May 14-21, 2026, focusing on Klarna's infrastructure partnerships and ChatGPT integration, Intuit's 17% workforce reduction to fund AI investments, and mentions of NVIDIA, American Express, and J.P. Morgan Chase. The article provides brief commentary on how these moves reflect strategic positioning around AI and payments infrastructure. The piece offers surface-level market observation without original analysis, primary data, or technical depth on AI implementation.
+
+**✗ 2.3** — [Earning Premium Planning Fees By Demonstrating Hard-Dollar Tax Savings For Business Owner Clients: #FASuccess Ep 491 With Patrick Lonergan](https://feeds.feedblitz.com/~/957294722/0/kitcesnerdseyeview~Earning-Premium-Planning-Fees-By-Demonstrating-HardDollar-Tax-Savings-For-Business-Owner-Clients-FASuccess-Ep-With-Patrick-Lonergan/)  
+*Kitces.com* · 
+#tax_planning #value_based_pricing #wealth_management #business_owner_advisory
+> This podcast episode features Patrick Lonergan discussing how his wealth management firm charges business owners $70,000+ annual fees by delivering tax planning strategies that save clients hundreds of thousands of dollars. He describes a three-level framework: level one focuses on administrative optimization (QBI deductions, business structure), level two involves retirement plan contributions, and level three combines tax code sections for advanced strategies like micro-captive insurance. The approach demonstrates value-based pricing for financial advisors serving entrepreneur clients, though the strategies discussed are well-established tax planning techniques rather than novel innovations.
+
+**✓ 6.0** — [A reality check on the AI jobs hysteria](https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/)  
+*MIT Technology Review* · ai-org-design-headcount · ai-in-product-and-engineering · regulatory-policy
+#labor_market_disruption #employment_statistics #ai_adoption_rates #workforce_displacement
+> The article argues that despite widespread predictions of AI-driven white-collar job destruction, current US Bureau of Labor Statistics data shows no evidence of large-scale labor market disruption, with unemployment rates for AI-exposed jobs actually lower than less-exposed occupations. The key evidence includes Census data showing only 20% of companies using AI in business functions and the absence of mass worker migration from AI-threatened to manual labor roles, though recent college graduates face elevated unemployment. This matters because it suggests the AI jobs apocalypse narrative is premature, giving policymakers and businesses more time to plan for gradual transformation rather than immediate disruption.
+
+**✗ 3.7** — [LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős](https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni)  
+*Last Week in AI* · model-architecture · ai-engineering-agents · funding-and-market-structure
+#gemini_3.5 #coding_agents #anthropic_funding #multimodal_video_generation
+> This podcast episode provides a weekly news roundup covering Google's Gemini 3.5 release, coding agent developments from Cursor and xAI, business updates including Musk's failed OpenAI lawsuit and Anthropic's $30B funding round, and various research/safety topics. The content is purely a summary and discussion of publicly reported news across multiple AI domains, with no original analysis or investigation. It serves as a news aggregation service for AI developments but offers no unique insights or frameworks.
 
 **✗ 4.0** — [Chris Olah Pope Leo Encyclical](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)  
 *Anthropic Blog* · ai-governance-risk-compliance · lab-dynamics
@@ -721,6 +843,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Eugene Yan* · 
 #blog_index #content_catalog #navigation
 > This is an index page listing Eugene Yan's blog articles across topics like AI, machine learning, recommendation systems, and career advice. The page shows article titles, dates, reading times, and topic tags but contains no substantive content itself. It serves as a navigation hub rather than a content piece with original analysis or insights.
+
+**✓ 6.0** — [Agent Gravity : Who's Running Your Agents](https://www.tomtunguz.com/agent-gravity/)  
+*Tomasz Tunguz* · agentic-workflows-production · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#agent_gravity #data_gravity #platform_competition #databricks
+> The article argues that 'agent gravity' (platforms retaining AI agents and their compute workloads) will be as strategically important in the 2020s as 'data gravity' was in the 2010s. It uses the example of Databricks enabling agent creation on Microsoft's platform to show how agents can migrate workloads and data between platforms, creating competitive dynamics. This matters because control over where agents run and process data will determine cloud platform market share and profitability in the AI era.
 
 ## 2026-05-25
 

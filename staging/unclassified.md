@@ -421,3 +421,52 @@ This content would fit better in a dedicated topic on data quality, active learn
 - **Infrastructure Implication**: Total tokens processed per output token has exploded due to agents doing extensive invisible processing
 
 This content describes macro-level token economics and market dynamics that doesn't cleanly fit into existing production workflows, pricing/packaging, or pure inference efficiency topics. Consider creating a new topic like 'ai-token-economics' or 'ai-market-dynamics' if this pattern continues.
+
+---
+**Some ideas for what comes next, May 2026** (Interconnects (Nathan Lambert), 2026-05-26T15:39:02+00:00)
+### Gemini Competitive Position (May 2026)
+- **Agentic Coding Gap**: As of Gemini 3.5 Flash launch (May 2026), Google characterized as not having "a clear competitor for Claude Code and Codex." Reviews suggest Gemini 3.5 Flash "not a substitute" for current agentic coding workflows.
+- **Product Specialization Hypothesis**: Gemini models may be "explicitly specializing for Google's existing products (search, YouTube, etc.)" rather than general-purpose coding agents.
+- **Inference from Google's Position**: If Google "doesn't have a powerful tool here soon," used as evidence that open model labs are even further behind in agentic coding capabilities.
+
+Note: This content about Gemini's competitive positioning and product strategy may warrant a dedicated topic on model provider strategies or competitive dynamics, but doesn't clearly fit existing architecture or agent topics.
+
+---
+**Import AI 458: Reckoning with the future; and a singularity story** (Import AI (Jack Clark), 2026-05-26T12:32:03+00:00)
+### AI Progress Observations (Cosmos HAI Lab Lecture, May 2026)
+
+**Source**: Jack Clark, 2026 Cosmos HAI Lab Lecture at University of Oxford HAI Lab (in collaboration with Cosmos Institute), published Import AI 458, May 26, 2026
+
+**Core thesis**: "The rapid advance in AI technology presents all of us with a choice: explore the future, or retreat from the present."
+
+**Epoch Capabilities Index (ECI)**: Comprehensive benchmark aggregating 40+ distinct benchmarks to track AI progress over time, showing consistent upward trajectory across frontier models
+
+**Notable capability milestones cited**:
+- March 2023: AI systems passing bar exam
+- July 2024: LLM-based systems achieving silver medal in International Math Olympiad
+- July 2025: Gold medal achievement in International Math Olympiad
+- 2025: AI co-authoring new mathematical proofs
+- 2025: Claude Mythos finding novel software flaws
+
+**Key observations**:
+- Progress stems from "common underlying technology" being "continually pushed forward"
+- Performance "keeps growing somewhat predictably in direct relation to the resources invested in it, namely compute and data"
+- "The growth rate of the whole forest is increasing over time" (referring to breadth of AI capabilities)
+- Technology characterized as "tremendously powerful" (statement incomplete in source)
+
+**Framing**: Clark positions AI advancement as requiring society to actively choose how to "shape AI, how we want to use it, how we want to direct it, and how we want to distribute its benefits" rather than remaining passive or reactive
+
+[Note: This represents high-level strategic framing from a senior AI researcher/policy figure but doesn't fit cleanly into existing technical or policy topic files. Consider creating new topic file for "ai-progress-narratives" or "ai-futures-discourse" if this type of content recurs.]
+
+---
+**Data Trends State Of Working With Ai** (Bessemer Atlas, 2026-05-27T02:00:30.713088+00:00)
+**Bessemer Portfolio Cross-Functional AI Survey Context (May 2026)**
+- **Survey methodology**: 173 leaders across 113 Bessemer portfolio companies, covering Tech & Engineering, Finance, People, GTM & Sales, Marketing & Communications, and Customer Success
+- **Conviction vs. Execution Gap**: 86% of tech leaders confident AI will meaningfully change operations in next 12 months; 60% say AI already core or actively deployed; yet 43% still experimenting or just getting started
+- **Function-Specific Reality**: "AI adoption looks different depending on workflows, data environment, and compliance constraints a team operates under. Every function has to figure out the workflows and use cases for the jobs to be done, given their context and conditions."
+- **Finance AI Adoption**: 24% actively deploying; blockers include data quality and system fragmentation (56%), security and compliance (41%)
+- **People/HR AI Adoption**: 52% still experimenting or just getting started; primary blocker is data privacy and compliance (41%) — characterized as "is it safe to use"
+- **Customer Success AI Adoption**: Primary blockers are data fragmentation (40%) and proving impact on NRR (30%)
+- **Key Insight**: "Engineering teams are operating in a fundamentally different reality than Finance, HR, GTM, and CS teams. But that gap isn't a failure; it reflects the fact that AI adoption looks different depending on workflows (e.g., ubiquity of code generation), the data environment, and the compliance constraints a team operates under."
+
+Note: This cross-functional survey data may warrant a new topic file on [[ai-adoption-by-function]] or [[enterprise-ai-maturity-benchmarks]] if tracking comparative adoption patterns becomes a recurring theme.
