@@ -196,6 +196,11 @@
   },
   "active": "c4e7452b52329e07",
   "lastOpenFiles": [
+    "logs/2026-05-27.md",
+    "logs/2026-05-26.md",
+    "logs/2026-05-25.md",
+    "logs/2026-05-24.md",
+    "logs/2026-05-23.md",
     "logs/2026-05-22.md",
     "logs/2026-05-21.md",
     "logs/2026-05-20.md",
@@ -218,11 +223,6 @@
     "topics/ai-in-legal-compliance.md",
     "topics/ai-in-marketing-content.md",
     "staging/unclassified.md",
-    "topics/hallucination-mitigation.md",
-    "logs",
-    "topics/ai-media-content-businesses.md",
-    "topics/ai-native-product-design.md",
-    "topics/ai-org-design-headcount.md",
-    "topics/ai-pricing-packaging-saas.md"
+    "logs"
   ]
 }
