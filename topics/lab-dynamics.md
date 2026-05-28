@@ -1,5 +1,5 @@
 ---
-tags: [agentic-tasks, agi-progress, ai-infrastructure-costs, ai-leadership, ai-milestones, anthropic, anthropic-anthropic, anthropic-financials, arcee-ai, aws-infrastructure, benchmark-competition, benchmark-evolution, benchmark-performance, capability-gap, china-ai-labs, chinese-ai-labs, claude-mythos, cloud-services, colossus, community-impact, compute-capacity, consortium-funding, custom-silicon, cybersecurity-capabilities, cybersecurity-risk, data-center-infrastructure, data-moats, datacenter-capacity, distillation, epoch-capabilities-index, fast-following, fine-tunable-models, gated-attention, grok-5, hardware-software-codesign, lab-dynamics, lab-sustainability, mixture-of-experts, model-architecture-comparison, model-distillation, model-release-policy, model-release-strategy, nemotron, nvidia-nemotron, online-rl, open-closed-debate, open-closed-gap, open-model-sustainability, open-models, open-vs-closed-models, open-weight-models, post-training, public-backlash, qk-norm, reflection-ai, reinforcement-learning, rl-training, rlvr, sliding-window-attention, social-license, societal-implications, technology-governance, trainium2]
+tags: [agentic-tasks, agi-progress, ai-infrastructure-costs, ai-leadership, ai-milestones, anthropic, anthropic-anthropic, anthropic-financials, arcee-ai, aws-infrastructure, benchmark-competition, benchmark-evolution, benchmark-performance, biohub, bitter-lesson, capability-gap, china-ai-labs, chinese-ai-labs, claude-mythos, cloud-services, colossus, community-impact, compute-capacity, consortium-funding, custom-silicon, cybersecurity-capabilities, cybersecurity-risk, czb, data-center-infrastructure, data-moats, datacenter-capacity, distillation, epoch-capabilities-index, fast-following, fine-tunable-models, gated-attention, grok-5, hardware-software-codesign, inference-time-scaling, lab-dynamics, lab-sustainability, mit-license, mixture-of-experts, model-architecture-comparison, model-distillation, model-release-policy, model-release-strategy, nemotron, nvidia-nemotron, online-rl, open-closed-debate, open-closed-gap, open-model-sustainability, open-models, open-science, open-vs-closed-models, open-weight-models, post-training, protein-folding, public-backlash, qk-norm, reflection-ai, reinforcement-learning, rl-training, rlvr, scaling-laws, sliding-window-attention, social-license, societal-implications, technology-governance, trainium2, unsupervised-learning, world-models]
 ---
 
 # Lab Dynamics & Competitive Landscape
@@ -12,14 +12,42 @@ Key questions tracked: Who is leading on capability vs. safety vs. deployment? H
 
 ### Anthropic Competitive Position (September 2025)
 - **Revenue trajectory**: "Clear outperformer in the GenAI market in 2025," multiplying revenue fivefold year-to-date to reach $5B annualized (source: The Information, Reuters, Bloomberg, SemiAnalysis, September 2025).
-- **Compute commitment**: AWS building "well over a gigawatt of datacenter capacity" for Anthropic as anchor customer, with largest campus hosting ~1 million
+- **Compute commitment**: AWS building "well over a gigaw
 
-### Claude Mythos Capabilities (2025)
-- **Software vulnerability detection**: Claude Mythos demonstrated capability to find "novel flaws in software" (source: Import AI 458, Jack Clark, May 2026)
-- **Context**: Achievement cited as example of rapid AI capability advancement in cybersecurity domain
-- **Cross-reference**: See [[ai-governance-risk-compliance]] for security implications
+## Bio/Scientific AI Labs
 
-### Investment Trajectory (May 2026)
-- **Capital commitment**: Companies investing "hundreds of billions of dollars in the computing facilities to train future AI systems" (source: Import AI 458, Jack Clark)
-- **Implication**: "Some amount of future progress is already locked in" due to committed infrastructure investment
-- **Cross-reference**: See [[regulatory-policy]] for infrastructure policy implications
+### Chan Zuckerberg BioHub (CZB)
+- **Leadership**: Alex Rives, Head of Science (formerly led EvoScale, acquired by BioHub)
+- **Funding model**: Priscilla Chan and Mark Zuckerberg backing
+- **Release strategy**: Open science approach with MIT license releases
+- **Compute philosophy**: Strong belief in scaling laws and "Bitter Lesson" applied to biology
+
+**ESM Team Timeline**:
+- **ESM-1**: Early protein language model work
+- **ESM2**: Demonstrated predictable scaling with compute
+- **ESM3**: Continued scaling
+- **ESMFold2 (May 2026)**: State-of-the-art protein structure prediction
+  - Base model ESMC trained on 2.8B sequences
+  - Released under MIT license
+  - Atlas of 6.8B proteins, 1.1B predicted structures
+  - Wet-lab validation program for predicted molecules
+
+**Strategic positioning**:
+- **Conviction in scale over domain knowledge**: Doubled down on MSA-free approach after AlphaFold2's 2020 success
+- **Generalization focus**: Prioritized performance on novel domains (antibodies, cancer, immunology targets) over maximizing in-distribution performance
+- **Open release model**: Full MIT license, contrasts with DeepMind's more restricted AlphaFold releases
+- **Integration strategy**: Combines Cryo-EM data with language modeling (see [[model-architecture]])
+
+### Google DeepMind (Protein Folding)
+- **AlphaFold2 (2020)**: Revolutionary protein structure prediction
+  - Nobel Prize in Chemistry for John Jumper and Demis Hassabis
+  - MSA-based architecture with strong inductive biases
+- **AlphaFold3**: Continued development, now reportedly beaten by ESMFold2 on some hard problems (per BioHub claims, May 2026)
+
+### Open Science vs. Controlled Release
+**BioHub approach (2026)**:
+- Full MIT license for models and predictions
+- Public web interface for structure atlas
+- Emphasis on enabling downstream research
+
+**Implications**: Growing divergence between "open science" releases (BioHub, some academic labs) and commercial/safety-gated releases (major AI labs)

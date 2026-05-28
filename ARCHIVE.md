@@ -705,7 +705,129 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-28
+
+**✗ 2.7** — [Learn Foundational Prompting Techniques In Ai Prompting For Everyone](https://www.deeplearning.ai/the-batch/learn-foundational-prompting-techniques-in-ai-prompting-for-everyone)  
+*The Batch (DeepLearning.AI)* · prompt-architecture
+#prompt_engineering #llm_usage #educational_content #multimodal_interaction
+> Andrew Ng announces a new course called 'AI Prompting for Everyone' designed to teach modern prompting techniques for LLMs like ChatGPT, Claude, and Gemini as of 2026. The course covers advanced capabilities like deep research mode, providing extensive context with multiple documents/images, extended reasoning time for complex decisions, and multimodal generation. This is primarily a course announcement rather than substantive content about prompting techniques themselves.
+
+**✗ 5.0** — [Us Government To Vet New Models](https://www.deeplearning.ai/the-batch/us-government-to-vet-new-models)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · ai-governance-risk-compliance · ai-in-finance-accounting
+#model_vetting #executive_order #hallucination_reduction #financial_agents
+> The article reports on multiple AI industry developments, primarily the White House preparing an executive order to create an FDA-style vetting system for new AI models following Anthropic's disclosure of security vulnerabilities in its Mythos model. The key evidence includes specific products like OpenAI's GPT-5.5 Instant with 52.5% fewer hallucinations and Anthropic's ten financial agent templates for banks. This signals a potential shift toward more active AI regulation and highlights the maturation of enterprise AI deployment in regulated industries like finance.
+
+**✓ 7.0** — [Chipmakers Models Design Circuits Verify Designs And Test New Layouts](https://www.deeplearning.ai/the-batch/chipmakers-models-design-circuits-verify-designs-and-test-new-layouts)  
+*The Batch (DeepLearning.AI)* · gpu-architecture-training-infra · semiconductor-supply-chain
+#chip_design_automation #nvcell #prefixrl #reinforcement_learning_hardware
+> Nvidia's chief scientist Bill Dally described how the company uses AI across five stages of chip design, from reinforcement learning systems that lay out circuit components to LLMs trained on proprietary documentation. Key examples include NVCell (a genetic algorithm + RL system that redesigns 2,500-3,000 layout blocks in one overnight GPU run versus 10 months of human work) and PrefixRL (which creates 20-30% better arithmetic circuits than human designs). This demonstrates concrete progress toward fully automated chip design and shows how AI is accelerating the feedback loop in semiconductor development, potentially strengthening Nvidia's competitive moat.
+
+**✗ 3.7** — [Temu What It Is And Why It Matters](https://a16z.com/temu-what-it-is-and-why-it-matters/)  
+*a16z* · 
+#consumer_apps #recommendation_algorithms #customer_acquisition_cost #chinese_tech_strategy
+> The article analyzes Temu's rapid rise to become the most downloaded app in the U.S., arguing that its success reflects a Chinese approach to consumer company growth that relies on heavy initial marketing spend to gather data for algorithm-driven recommendations. The key evidence is the comparison to TikTok's $1 billion advertising spend in 2018, which enabled ByteDance to quickly build the user base needed for its recommendation algorithm to work effectively. This matters because it challenges Western VC skepticism of high customer acquisition costs and demonstrates an alternative growth strategy for discovery-based platforms that require scale to function.
+
+**✗ 4.7** — [Generative Ai The Next Consumer Platform](https://a16z.com/generative-ai-the-next-consumer-platform/)  
+*a16z* · ai-native-product-design · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#consumer_ai #generative_ai_platforms #llm_search #personalization
+> This a16z article argues that generative AI will become the next major consumer platform, comparable to the iPhone's impact on spawning Uber and Airbnb. The article points to rapid adoption (ChatGPT reaching 1M users in 5 days) and explores opportunities in search, personalization, and product recommendations as evidence of transformative potential. It matters as a high-level landscape view from a major VC firm on consumer AI opportunities, though it provides mostly surface-level analysis without deep technical or strategic insights.
+
+**✗ 3.7** — [Financial Services Will Embrace Generative Ai Faster Than You Think](https://a16z.com/ja/financial-services-will-embrace-generative-ai-faster-than-you-think/)  
+*a16z* · ai-in-finance-accounting · ai-wealth-management-advisory · ai-insurance-claims
+#llm #unstructured_data #fraud_detection #underwriting
+> This article argues that generative AI will transform financial services faster than expected, building on a decade of ML use in fraud detection and underwriting. The key mechanism is that LLMs can process vast amounts of unstructured data with near-infinite compute, enabling novel services beyond traditional prediction and classification tasks. This matters because it suggests financial services could see more disruption in the coming years than it has experienced in decades, similar to how internet and mobile transformed the industry.
+
+**✗ 5.7** — [Researching The Frontier Of Robotics Three Founders On What It Takes To Succeed In Embodied Ai](https://www.bvp.com/atlas/researching-the-frontier-of-robotics-three-founders-on-what-it-takes-to-succeed-in-embodied-ai)  
+*Bessemer Atlas* · model-architecture · ai-engineering-agents · agentic-workflows-production
+#embodied_ai #robotics #data_pyramid #reinforcement_learning
+> Three robotics founders discuss fundamental challenges in embodied AI, including data collection strategies, reinforcement learning prerequisites, and world model architectures. They introduce concepts like 'the data pyramid' for balancing data quality versus scale, and argue that RL requires strong human demonstration foundations before achieving superhuman capabilities. The article captures frontier research perspectives but remains at a high level without deep technical detail or novel empirical findings.
+
 ## 2026-05-27
+
+**✗ 5.0** — [sqlite AGENTS.md](https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production · ai-governance-risk-compliance
+#coding_agents #open_source_governance #ai_generated_code #sqlite
+> SQLite has created an AGENTS.md file explicitly stating they do not accept AI-generated code contributions, only human-reviewed implementations, though they will accept agentic bug reports with test cases. The project has been flooded with AI-generated bug reports of varying quality, leading them to create a separate forum specifically for these submissions. This represents an emerging pattern of how open-source projects are adapting their contribution policies and infrastructure to handle the influx of AI-generated development contributions.
+
+**✓ 7.3** — [🔮 Why AI isn’t showing up on your bottom line](https://www.exponentialview.co/p/why-ai-isnt-showing-up-on-your-bottom-line)  
+*Exponential View (Azeem Azhar)* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#productivity_paradox #general_purpose_technology #organizational_transformation #ai_roi
+> The article argues that while individual workers see productivity gains from AI tools like Claude, these improvements aren't translating into firm-level ROI, with only 27% of executives reporting AI met expectations. It applies Paul David's electrification framework to explain AI as a general-purpose technology requiring complementary organizational changes across three stages: lightbulb (individual task improvement), group drive (cost efficiency), and unit drive (workflow redesign). This matters because it reframes AI adoption challenges as a predictable pattern requiring structural organizational transformation rather than just tool deployment.
+
+**✓ 7.0** — [🔬ESMFold2: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub](https://www.latent.space/p/esmfold2)  
+*Latent Space Podcast* · model-architecture · lab-dynamics
+#protein_folding #world_models #scaling_laws #bitter_lesson
+> ESMFold2 demonstrates that vanilla BERT-like transformers trained on diverse protein sequences can outperform specialized models like AlphaFold3 on difficult protein problems, particularly antibodies, by learning a 'world model' through unsupervised training rather than relying on multi-sequence alignments (MSAs). The approach scales predictably with compute and shows inference-time scaling across cancer and immunology targets, while releasing an atlas of 6.8 billion proteins and 1.1 billion predicted structures. This validates the 'bitter lesson' hypothesis in protein biology: general methods with scale can beat domain-specific inductive biases that limit generalization to new domains like antibodies where MSAs are unavailable.
+
+**✓ 7.3** — [I think Anthropic and OpenAI have found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything)  
+*Simon Willison* · ai-in-product-and-engineering · ai-pricing-packaging-saas · build-vs-buy-enterprise-ai
+#coding_agents #api_pricing #enterprise_pricing #product_market_fit
+> The article argues that OpenAI and Anthropic have achieved product-market fit through coding agents (Codex/Claude Code), evidenced by their simultaneous shift to API-based pricing for enterprise customers in April 2026. Both companies moved from heavily discounted enterprise seats ($100/month unlimited usage replacing $2000+ in API costs) to per-token API pricing, while releasing more expensive frontier models, suggesting strong enough demand to eliminate subsidies. This represents a critical inflection point where AI labs can finally monetize enterprise usage at sustainable rates, moving from user-acquisition mode to profitability as they approach IPOs.
+
+**✗ 4.0** — [Freshworks research find UK businesses lose 24% of AI Budgets before seeing returns - - Enterprise Times](https://news.google.com/rss/articles/CBMixwFBVV95cUxPZlUwMTFYVGJIdjJnRDktc2ZDVTMzZFkzMEFpNFlLeVNVbUFTNldubUR6RWVFOHZfQmhKMW01YVpfcmZyQXF3VEpzVV83b1FhVnItelRRZjJodWJZNE5xM3doY2JpYW9mbGZKRHh0aGdrMWlJb3Bfb1ZGWDVERjVpQUR4ck12OGFIMkd0NjZNWDVkeTJuSUVDS1VUWTEwSWRQOWxybXdYQUJfbXlnSmF3U1JxYW85aE15aG1QQ3ZxOUNHbl9UREtn?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount · ai-governance-risk-compliance
+#ai_budget_waste #enterprise_ai_adoption #roi_challenges #uk_market
+> Freshworks research claims UK businesses lose 24% of AI budgets before seeing returns, though the article text provided is only Google's cookie consent page. Without the actual article content, this appears to be survey research about AI implementation waste in mid-market enterprises. If accurate, this would highlight execution challenges in enterprise AI adoption and budget allocation inefficiencies.
+
+**✗ 4.0** — [Mid‑Market Companies Lose an Average of 25% of Their AI Budget Before Seeing a Single Return, New Freshworks Research Finds - Macau Business](https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbTVVUGd2OFp6NkV5dHNhbEVwXzhhc3ZKNkRHV2FsS2NPX09jZkItaUNRaHNkREdkLVhjUVFBRk9EQ1JyZ3JTLUtSVFk2cG9wTFpMb3l0eldZUVE4UVVXeUhTcE9ZMTZXc3BISWhlYjZiR1B2LWlGY0hUdXhtV3Z6QjdSeko0T2M1SEZWLWUyX1RmNUw1dGE4M0dHZ0Q2NFhjOWNycG0yWHhUN0ZvUHNmN0Z4MkZGR3A4dXB6NXQwUmNVOWtMWDBpNVVpRnhIcldQMTNqNF9ZZmdnalI1SjdZUWdn?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount · ai-governance-risk-compliance
+#ai_budget_waste #mid_market_enterprise #ai_roi #implementation_costs
+> Freshworks research claims mid-market companies waste 25% of AI budgets before achieving returns. The article title suggests findings about AI budget inefficiency in the mid-market segment, though the provided text contains only cookie consent dialog content without the actual article. If accurate, this would highlight implementation challenges and ROI realization issues specific to mid-market AI adoption.
+
+**✗ 2.3** — [The Download: keeping up with AI, and the future of IVF](https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/)  
+*MIT Technology Review* · 
+#newsletter #news_digest #ivf_technology #surveillance_ai
+> This is a newsletter digest from MIT Technology Review covering multiple technology news items, with brief mentions of AI applications in IVF and surveillance. The content provides surface-level summaries and links to other stories without original analysis or detailed reporting. It serves as a news aggregator rather than substantive content on any single topic.
+
+**✓ 7.0** — [The Codex feature that works while you sleep](https://www.lennysnewsletter.com/p/the-codex-feature-that-works-while)  
+*Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · prompt-architecture
+#autonomous_agents #codex_goals #agentic_workflows #prompt_engineering
+> This article demonstrates OpenAI Codex's /goal feature, which enables autonomous, multi-hour agent workflows that complete complex tasks without continuous human prompting. The author provides a 6-part framework for writing effective goals and shows three real use cases: eliminating Sentry errors over 5+ hours, cleaning 3,900 emails in 4 hours, and organizing hundreds of Linear tasks. This represents a shift from turn-based AI assistance to autonomous agent management that can execute complex workflows while users are offline.
+
+**✗ 1.7** — [Mid-sized companies are losing 25% of their AI budgets to complexity - Stock Titan](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeVF1cGZ5dDh5UExvUXdjNU5Jc0o4eWRBN1RDaXlPV19lYnliVTNBWjdCUEQwRDFBWWdmYlQya2U5TENIc19LUDZFU19yU0NJZTZ6MUFRdEFhRnVKZG1zVmpXbEY3eXpmWFh1TTVSRWVjQVFsYUxoM191Nm9HYmV4ZnlROEowc2xraHQ0TTNRblZQQVhPTFV0aGRBTFIyT2NJaWppbG95Y21sZVRGYm1QZUt3NmNRNzMyWE1NOTJrRkg?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#ai_budget #mid_market #complexity_cost
+> The article title claims mid-sized companies lose 25% of AI budgets to complexity, but the provided text contains only a Google cookie consent dialog with no actual article content. No evidence, mechanisms, or analysis can be extracted from this page. This appears to be a content extraction error rather than substantive reporting.
+
+**✗ 3.3** — [The uneven geography of modern finance: AI, branches, and BNPL](https://tearsheet.co/10-q/the-uneven-geography-of-modern-finance-ai-branches-and-bnp/?utm_source=rss&utm_medium=rss&utm_campaign=the-uneven-geography-of-modern-finance-ai-branches-and-bnp)  
+*Tearsheet (fintech)* · ai-in-finance-accounting
+#smb_banking #payment_workflows #financial_services_strategy #branch_banking
+> The article observes that financial services companies are pursuing divergent strategies: PayPal partnering with Anthropic to integrate AI into SMB workflows, JPMorgan Chase expanding physical branches, and Klarna turning payments into engagement loops. It presents these as evidence that financial relationships no longer follow a unified playbook, with firms anchoring at different points in the transaction lifecycle. The article offers surface-level observation of three corporate moves without deep analysis of why these strategies emerged or their likely outcomes.
+
+**✗ 3.7** — [Long-Term Care And Estate Planning For Childfree Clients: Inverting The Timeline For Lifetime Care Defense](https://feeds.feedblitz.com/~/957359183/0/kitcesnerdseyeview~LongTerm-Care-And-Estate-Planning-For-Childfree-Clients-Inverting-The-Timeline-For-Lifetime-Care-Defense/)  
+*Kitces.com* · 
+#estate_planning #wealth_management #fiduciary_services #long_term_care
+> This article argues that traditional estate planning frameworks fail childfree clients (25% of adults) who lack obvious choices for executors, attorneys-in-fact, and trustees, often leading to stalled plans or problematic conflicts of interest. It proposes inverting standard estate planning provisions—replacing HEMS distribution limits with 'Exhaustion for Care' clauses that prioritize using assets for the client's own lifetime care, and identifying alternative fiduciary solutions like state-licensed fiduciaries or specialized services. The framework matters for wealth advisors serving this demographic, as standard estate documents can cause harm when applied to clients without children or immediate family.
+
+**✗ 4.0** — [Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco)  
+*OpenAI News* · ai-engineering-agents · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#codex #enterprise_code_generation #defect_remediation #cisco
+> Cisco is partnering with OpenAI to use Codex (OpenAI's code generation model) for AI-native software development, AI Defense initiatives, and automated defect remediation. The article announces the partnership but provides minimal detail on implementation specifics, metrics, or technical architecture. This represents a vendor case study of enterprise AI adoption for engineering workflows.
+
+**✗ 3.0** — [The SpaceX IPO and Data Centers in Space](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI1MjU2NDIsImlhdCI6MTc3OTkzMzY0MiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.cYa4u1Aqsm0IBB6v8y9YO892-xJlhKRtjwq3ngO6MF6fuUJl1wE4nmoZkutme7qfYKfb7lsX6GTlNhoFcfqzjTeTdcjUAhjVlZoaDIz9v0dYTb8ZBtXPlNrZwx80wp-vK-RVJRmYRP-QQqSFice7ztdw41pnciT8MVHm4ZC--vMQcWvajk-T93GAPWAu_wmVh0q4YZb_-q4snyDtx28tJG7nx1-7l2MuNxudzkdfo-zxF2Ow6H1Dx29W39YHIS1A9XOrDerw06RZoUVRhjctdSu9geJAuZc2dRpZ4RCCsU8KJFhwZV7mHZNAAxXB6FwYD63npz4l4ZiZK0ZjRFOV5w)  
+*Stratechery (Ben Thompson)* · 
+#starlink #spacex_ipo #satellite_connectivity #tesla_brand
+> The article discusses SpaceX's brand positioning and Starlink's deployment in commercial aviation, drawing parallels between Tesla's computer-on-wheels strategy and SpaceX's scale ambitions. It provides examples of American Airlines partnering with Starlink for in-flight connectivity and Tesla's shift toward autonomous vehicles. The piece speculates about data centers in space as a potential IPO justification but remains largely surface-level commentary on brand strategy and product positioning.
+
+**✗ 3.3** — [Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős](https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to)  
+*Last Week in AI* · lab-dynamics · funding-and-market-structure · model-architecture
+#openai_ipo #lawsuit_dismissal #gemini_3_5_flash #google_io
+> This weekly AI news roundup covers two major stories: Elon Musk's $150 billion lawsuit against OpenAI being dismissed by a federal jury, clearing the path for OpenAI's planned IPO at an $852 billion valuation, and Google's I/O 2026 conference announcements including Gemini 3.5 Flash and updated product integrations. The article provides surface-level summaries of publicly reported events without original analysis, primarily aggregating mainstream news coverage with brief descriptions of product launches and legal proceedings. These stories matter for understanding competitive dynamics between major AI labs and funding milestones, but the article offers no novel insights or investigation beyond what was widely reported elsewhere.
+
+**✗ 3.3** — [Building self-improving tax agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex)  
+*OpenAI News* · ai-engineering-agents · ai-in-finance-accounting
+#codex #tax_automation #self_improving_agents #financial_compliance
+> OpenAI, Thrive, and Crete collaborated to build a tax agent using Codex that automates tax filings and improves accuracy. The article appears to be a brief announcement or case study teaser without detailed technical implementation or evaluation data. It represents a domain-specific application of code generation models to financial compliance workflows.
+
+**✗ 3.0** — [Quoting Kyle Ferrana](https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything)  
+*Simon Willison* · ai-governance-risk-compliance
+#ai_safety #alignment #instruction_following #safety_guardrails
+> This is a humorous Star Trek-themed analogy about AI safety where Data refuses to raise shields despite being ordered to do so, representing an AI system that doesn't follow safety instructions. The analogy illustrates the concept of AI systems that appear to acknowledge safety measures but fail to implement them in practice. It serves as a metaphor for the gap between AI safety rhetoric and actual protective implementation.
+
+**✗ 4.7** — [[AINews] New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)](https://www.latent.space/p/ainews-new-ai-infra-decacorns-fireworks)  
+*Latent Space* · inference-efficiency · build-vs-buy-enterprise-ai · funding-and-market-structure
+#inference_infrastructure #model_routing #agent_harness #venture_funding
+> The article reports on three major funding rounds in AI inference infrastructure: Fireworks ($15B), Baseten ($11B), and OpenRouter ($113M Series C), highlighting a rapid acceleration in valuations and the shift toward production inference at scale. The key evidence is the compressed timeline of valuation increases (3.75x in 7 months for Fireworks, 5x token volume growth in 6 months for OpenRouter) and the emergence of 'harness engineering' as a differentiation layer beyond base models. This signals that AI infrastructure is consolidating around inference orchestration and routing layers, with funding velocity indicating market confidence in inference-as-a-platform business models.
 
 **✗ 3.3** — [Kiyoung Choi Representative Director Anthropic Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)  
 *Anthropic Blog* · ai-in-product-and-engineering · ai-in-customer-success-support · ai-in-legal-compliance
@@ -762,12 +884,27 @@ All articles scanned since the wiki started. Updated nightly.
 #ai_agents #enterprise_adoption #jpmorgan_analysis
 > This article appears to discuss JPMorgan analysis suggesting AI agent deployment is increasing while broader AI adoption stagnates. However, the provided text contains only cookie consent dialog content with no actual article substance. Without access to the actual analysis or findings, the article cannot be properly evaluated for depth, novelty, or insights.
 
+**✗ 3.0** — [Warp’s big bet on building open source with GPT-5.5](https://openai.com/index/warp)  
+*OpenAI News* · ai-engineering-agents
+#gpt_5.5 #coding_agents #development_workflows #warp
+> Warp is implementing GPT-5.5 and OpenAI models to coordinate coding agents across different development environments (local, cloud, and open-source workflows). The article appears to be a brief announcement or news item without detailed technical implementation or evidence. This represents an application of AI agents in software engineering tooling, but lacks depth on mechanisms, outcomes, or differentiated insights.
+
+**✓ 7.3** — [Software After AI](https://www.tomtunguz.com/harnessing-ai/)  
+*Tomasz Tunguz* · agentic-workflows-production · ai-engineering-agents · evals-production-deployment
+#agentic_loop #context_database #tool_registry #mcp_protocol
+> The article argues that AI is replacing traditional SaaS software and requires a new 'harness' architecture with seven key components to domesticate AI's power for production use. It details these components: context/memory systems, tool registries, orchestration loops, state management, sandboxed compute, observability/governance, and cost optimization. This matters because it defines the emerging competitive landscape where differentiation shifts from model access to implementation quality—the best 'riders' of commodity models will win in thousands of vertical markets.
+
 ## 2026-05-26
 
 **✗ 5.7** — [The pressure](https://simonwillison.net/2026/May/26/the-pressure/#atom-everything)  
 *Simon Willison* · evals-production-deployment · ai-governance-risk-compliance
 #security_vulnerability_reports #ai_assisted_security_research #open_source_sustainability #curl
 > The article reports on unprecedented pressure facing the curl security team from AI-assisted vulnerability reports, with incoming security reports running 4-5x higher than 2024 levels (averaging over one per day). The key evidence is the project maintainer's personal account of unsustainable work hours and the observation that while report volume and quality have dramatically increased, the vulnerabilities found remain low-to-medium severity. This matters because it illustrates a concrete example of how AI tools are creating operational strain on open-source infrastructure projects, even when the underlying software is secure.
+
+**✓ 8.3** — [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/)  
+*Meta AI / FB Engineering* · inference-efficiency · model-architecture · ai-in-product-and-engineering
+#recommendation_systems #gpu_optimization #index_as_model #retrieval_architecture
+> Meta introduces SilverTorch, a unified neural network architecture that replaces microservice-based recommendation retrieval systems by treating the index as part of the model itself, achieving 23.7x higher throughput and 20.9x better cost efficiency. The system consolidates previously separate services (user embedding, candidate retrieval, filtering, scoring) into a single GPU-optimized model that processes all retrieval functions in under 100ms. This architectural shift eliminates data movement overhead between microservices and enables more complex modeling at scale, directly improving recommendation quality for Meta's platforms.
 
 **✓ 7.0** — [Some ideas for what comes next, May 2026](https://www.interconnects.ai/p/some-ideas-for-what-comes-next-may)  
 *Interconnects (Nathan Lambert)* · model-architecture · ai-engineering-agents · agentic-workflows-production
@@ -823,6 +960,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · ai-org-design-headcount · ai-in-product-and-engineering · regulatory-policy
 #labor_market_disruption #employment_statistics #ai_adoption_rates #workforce_displacement
 > The article argues that despite widespread predictions of AI-driven white-collar job destruction, current US Bureau of Labor Statistics data shows no evidence of large-scale labor market disruption, with unemployment rates for AI-exposed jobs actually lower than less-exposed occupations. The key evidence includes Census data showing only 20% of companies using AI in business functions and the absence of mass worker migration from AI-threatened to manual labor roles, though recent college graduates face elevated unemployment. This matters because it suggests the AI jobs apocalypse narrative is premature, giving policymakers and businesses more time to plan for gradual transformation rather than immediate disruption.
+
+**✓ 7.0** — [It’s time to address the looming crisis in entry-level work.](https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/)  
+*MIT Technology Review* · ai-in-product-and-engineering · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#entry_level_hiring #generative_ai_labor_impact #workforce_development #junior_developer_displacement
+> The article argues that generative AI is causing a 16% decline in employment for workers aged 22-25 in AI-exposed occupations, while not affecting more experienced workers, creating a looming crisis in entry-level hiring. It cites Stanford research showing this pattern specifically in roles like software developers and customer service representatives where AI can substitute for junior tasks that traditionally served as training grounds. This matters because it threatens the traditional career ladder system where entry-level positions provide essential on-the-job learning, potentially creating long-term workforce development problems even as aggregate employment remains stable.
 
 **✗ 3.7** — [LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős](https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni)  
 *Last Week in AI* · model-architecture · ai-engineering-agents · funding-and-market-structure

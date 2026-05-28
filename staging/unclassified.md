@@ -470,3 +470,29 @@ Note: This content about Gemini's competitive positioning and product strategy m
 - **Key Insight**: "Engineering teams are operating in a fundamentally different reality than Finance, HR, GTM, and CS teams. But that gap isn't a failure; it reflects the fact that AI adoption looks different depending on workflows (e.g., ubiquity of code generation), the data environment, and the compliance constraints a team operates under."
 
 Note: This cross-functional survey data may warrant a new topic file on [[ai-adoption-by-function]] or [[enterprise-ai-maturity-benchmarks]] if tracking comparative adoption patterns becomes a recurring theme.
+
+---
+**Chipmakers Models Design Circuits Verify Designs And Test New Layouts** (The Batch (DeepLearning.AI), 2026-05-28T02:00:45.511329+00:00)
+### Related Work in AI Chip Design (2023-2026)
+
+**Verkoran autonomous CPU design (April 2026)**:
+- Agentic AI system designed 1.48 GHz RISC-V CPU from 219-word specification
+- Performance: Roughly equivalent to 2011-vintage Intel Celeron SU2300
+- Status: Validated in simulation, not fabricated
+- Confidence: Medium (published paper, simulation-only validation)
+
+**Princeton/IIT Madras wireless communications circuits (2025)**:
+- Deep learning + evolutionary algorithm generated wireless circuits
+- Produced high-performing designs defying conventional rules of thumb
+- Confidence: Medium (academic research)
+
+**Google reinforcement learning for chip arrangement (2023)**:
+- Used RL to arrange chip components
+- Details truncated in source material
+- Confidence: Medium (Google published work)
+
+Note: These represent broader industry trends in AI-assisted chip design beyond NVIDIA-specific infrastructure.
+
+---
+**SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems** (Meta AI / FB Engineering, 2026-05-26T16:00:01+00:00)
+**Potential new topic: recommendation-systems or retrieval-systems** — SilverTorch represents a domain-specific architecture (recommendation/retrieval) that may warrant its own topic file if more content emerges. Currently integrated into [[model-architecture]] and [[inference-efficiency]], but the "Index as Model" paradigm, multi-task scoring, eligibility filtering, and user-tower/item-index concepts are recommendation-specific rather than general LLM architecture.

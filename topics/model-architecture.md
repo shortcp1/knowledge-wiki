@@ -1,10 +1,5 @@
 ---
-tags: [compute-costs, transformer-architecture, training-cost, inference-cost, flops-calculation, model-parameters, token-length, model-architecture]
----
-
-=== model-architecture ===
----
-tags: [agentic-coding-tools, anthropic, arcee-ai, ascend-npu, attention-mechanisms, audio-latency, automated-research, benchmark-vs-deployment, claude-code, concurrent-processing, context-length, deepseek, encoder-decoder-architecture, encoder-free-early-fusion, encoder-free-fusion, export-controls, flow-matching-decoder, frontier-model-competition, gated-attention, gemini, gemma, glm, grouped-query-attention, hierarchical-mlp, hifloat4, inference-efficiency, llm-architecture, low-precision-training, mixture-of-experts, model-architecture, model-architecture-comparison, model-efficiency, model-specialization, model-training-pipeline, multi-head-attention, nope, open-closed-model-gap, open-weight-models, positional-encoding, qk-norm, real-time-inference, reasoning-models, relative-position-encoding, rotary-embeddings, rotary-position-embedding, scaled-dot-product-attention, self-attention, sliding-window-attention, sparse-attention, transformer-architecture, weak-to-strong-supervision]
+tags: [agentic-coding-tools, anthropic, arcee-ai, ascend-npu, attention-mechanisms, audio-latency, automated-research, benchmark-vs-deployment, bert-architecture, claude-code, concurrent-processing, context-length, deepseek, encoder-decoder-architecture, encoder-free-early-fusion, encoder-free-fusion, export-controls, flow-matching-decoder, frontier-model-competition, gated-attention, gemini, gemma, glm, gpu-optimization, grouped-query-attention, hierarchical-mlp, hifloat4, index-as-model, inductive-bias, inference-efficiency, inference-throughput, llm-architecture, low-precision-training, mixture-of-experts, model-architecture, model-architecture-comparison, model-efficiency, model-specialization, model-training-pipeline, msa, multi-head-attention, nope, open-closed-model-gap, open-weight-models, positional-encoding, protein-structure-prediction, qk-norm, real-time-inference, reasoning-models, recommendation-systems, relative-position-encoding, retrieval-architecture, retrieval-systems, rotary-embeddings, rotary-position-embedding, scaled-dot-product-attention, self-attention, sliding-window-attention, sparse-attention, transformer-architecture, unified-architecture, unified-model-architecture, unsupervised-pretraining, weak-to-strong-supervision, world-models]
 ---
 
 # Model Architecture
@@ -16,28 +11,21 @@ Key questions tracked: Is MoE the dominant path to scale? Where are SSMs competi
 ## Key Claims
 
 ### Vanilla Transformer Architecture (2017)
-- **Encoder-decoder architecture**: Original Transformer uses encoder-decoder structure, as commonly used in NMT models (Vaswani et al., 2017)
-- **Simplified variants**: Later simplified Transformers showed strong performance:
-  - **Encoder-only**: BERT architecture
-  - **Decoder-only**: GPT architecture
-- **Core mechanism**: Scaled dot-product attention as fundamental operation
+- **Encoder-decoder
 
-### Transformer Computational Costs
-- **Training cost rule of thumb**: ~6*p FLOPs per token for model with p parameters
-  - Includes forward pass (2p) and backward pass (4p additional operations)
-  - Total training cost = 6*p * number of training tokens
-  - **Source**: a16z framework, April 2023
-- **Inference cost**: ~2*n*p FLOPs for n tokens (see [[inference-efficiency]])
-- **GPT-3 training example**: 175B parameters requires ~3.14*10^23 FLOPs total
-- **Memory requirements for training**: >1 TB for 175B parameter model at 32-bit precision
-  - Exceeds single GPU capacity, requires model splitting across cards
-  - **Optimization**: Moving to 16-bit (common as of 2023) and 8-bit (anticipated)
+## Unified Model Architectures for Retrieval
 
-### Model Scale Examples (as of April 2023)
-- **GPT-3**: ~175B parameters
-- **Meta LLaMA**: Even higher compute requirements than GPT-3
-- **Note**: Training these models among most computationally intensive tasks
+### SilverTorch "Index as Model" (Meta, May 2026)
+- **Paradigm**: Replace microservice-based retrieval with single integrated neural network
+- **Architecture components expressed as model modules**:
+  - User-tower (user embedding computation)
+  - Item index (becomes tensor inside model rather than external service)
+  - Similarity search
+  - Eligibility filtering (language, geography, etc.)
+  - Neural reranking
+  - Multi-task scoring (multiple engagement actions)
+- **Design rationale**: Eliminates version inconsistency between components (user model v2 querying item index v1), enables joint optimization across retrieval stages
+- **Scale**: Deployed for 80M+ item retrieval at sub-100ms latency
+- **Context**: Represents shift from CPU-era microservice design to GPU-native unified architecture for recommendation systems
 
-### Attention Mechanisms
-
-#### Scaled D
+See also: [[inference-efficiency]] for performance characteristics
