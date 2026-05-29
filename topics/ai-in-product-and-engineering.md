@@ -1,5 +1,5 @@
 ---
-tags: [agent-legibility, agent-orchestration, agent-token-costs, agentic-ai, agentic-token-consumption, ai-budgeting, ai-code-review-bottleneck, ai-in-product-and-engineering, anthropic-claude, api-pricing, autonomous-agents, autoregressive-transformer, behavioral-data-moats, biotech-ai-tools, cancer-treatment-matching, cicd-deployment-constraints, claude-anthropic, code-generation, code-quality-bottleneck, codex, codex-adoption, coding-agents, content-addressed-caching, cursor-adoption, cursor-ide, dark-factory, data-quality-blockers, engineering-ai-maturity, enterprise-adoption, enterprise-pricing, function-specific-adoption, ghost-libraries, harness-engineering, liquid-ai-architecture, monetization-strategy, multimodal-biotech-data, openai-codex, openai-frontier, pharma-licensing, product-market-fit, productivity-measurement, proprietary-datasets, saas-pricing, shopify-ai-stack, simgym-customer-simulation, spatial-transcriptomics, symphony, symphony-orchestration, tangent-auto-research, tangle-ml-workflows, token-billionaires, token-budget-explosion, token-budget-unlimited, token-consumption, tool-fragmentation, variable-costs, virtual-cells, zero-human-code]
+tags: [agent-legibility, agent-orchestration, agent-token-costs, agentic-ai, agentic-token-consumption, ai-budgeting, ai-code-review-bottleneck, ai-in-product-and-engineering, anthropic-claude, api-pricing, async-agents, autonomous-agents, autoregressive-transformer, background-agents, behavioral-data-moats, biotech-ai-tools, cancer-treatment-matching, cicd-deployment-constraints, claude-anthropic, code-generation, code-quality-bottleneck, codex, codex-adoption, coding-agents, cognition-devin, content-addressed-caching, context-engineering, cursor-adoption, cursor-agents-pane, cursor-ide, cursor-michael-truell, dark-factory, data-quality-blockers, devin, engineering-ai-maturity, enterprise-adoption, enterprise-pricing, function-specific-adoption, ghost-libraries, harness-engineering, liquid-ai-architecture, monetization-strategy, multimodal-biotech-data, openai-codex, openai-frontier, pharma-licensing, product-market-fit, productivity-measurement, proprietary-datasets, ramp-coding-agent, saas-pricing, shopify-ai-stack, simgym-customer-simulation, spatial-transcriptomics, spec-to-pr, spec-to-pull-request, symphony, symphony-orchestration, tangent-auto-research, tangle-ml-workflows, three-waves-coding-tools, token-billionaires, token-budget-explosion, token-budget-unlimited, token-consumption, tool-fragmentation, variable-costs, virtual-cells, windsurf, zero-human-code]
 ---
 
 # AI in Product & Engineering
@@ -12,28 +12,51 @@ Key questions tracked: What is the actual productivity multiplier from coding AI
 <!-- agent-maintained -->
 
 ### Enterprise AI Adoption Patterns
-- **Shopify Internal AI Adoption (December 2025 - April 2026)**: Shopify experienced a "phase transition" in internal AI usage following a December 2025 model-quality inflection. By April 2026, the company had "near-universal AI tool adoption" internally. The CTO characterized this as the company "going all-in on AI."
-  - **Tool Preference Shift**: 
+- **Shopify Internal AI Adoption (December 2025 - April 2026)**: Shopify experienced a "phase transition" in internal AI usage following a December 2025 model-quality inflection. By April 2026, the company had "near-universal A
 
-### Coding Agent Product-Market Fit Evidence (November 2025 - May 2026)
-- **Product-Market Fit Thesis (Willison, May 2026)**: Analysis suggests OpenAI Codex and Anthropic Claude Code/Cowork achieved product-market fit around November 2025, evidenced by:
-  - Power user consumption: Individual heavy users consuming $1,000-$2,180/month in API tokens while paying only $200/month for Max/Pro plans
-  - Enterprise willingness to pay: Companies now accepting API-rate pricing (~10-20x previous discounted enterprise rates) as of April 2026
-  - "Coding agents really did change everything" - described as daily drivers for "extremely well-compensated professionals"
-  - **Critical inflection**: Models released November 2025 elevated agents to "genuinely useful" threshold
-  - **Applicable scope**: Positioned as tools that can "automate anything you can do by typing commands into a computer" - extending beyond software engineers to broader knowledge workers
+### Three Waves of AI Coding Tools (2023-2026)
+- **First Wave - Developer Acceleration**: GitHub Copilot and Cursor tab autocomplete made developers faster but kept them heavily in the loop. Workflow bottlenecked by developer's local IDE-centered flow.
+- **Second Wave - Local Agents**: Claude Code, Windsurf, Cursor's agents pane - concurrent terminal execution within local environment.
+- **Third Wave - Async/Background Agents (2025-2026)**: Shift to agent orchestration driving end-to-end development. "Spec to pull request" workflows becoming production-viable after December 2025 model inflection. Developers now "build the factory that creates their software" - managing fleets of agents as teammates rather than embedded tools.
 
-### Token Consumption Reality Checks
-- **Power User Token Costs (May 2026, Individual Developer)**: 30-day measurement via ccusage tool:
-  - Anthropic Claude Code: $1,199.79 in API-equivalent tokens
-  - OpenAI Codex: $980.37 in API-equivalent tokens
-  - Total: $2,180.16 in token consumption for $200 subscription cost
-  - User self-assessment: "moderately heavy user", not running agents continuously
-  - *Note: This represents individual developer usage, not enterprise-wide deployment*
+*Source: Cognition CPO Walden Yan and Cursor's Michael Truell, May 2026*
 
-### Consumer vs. Enterprise Economics Gap
-- **ChatGPT Consumer Conversion (February 2026)**: Despite 900 million weekly active users, only 50 million (5.6%) were paying consumer subscribers at $10-$20/month
-- **Enterprise Revenue Potential**: Companies now spending $200+/month/user (and heavy users consuming $1,000+/month in tokens) creates fundamentally different revenue trajectory than consumer subscriptions
-- **Infrastructure Payback Math**: "Charging $10-$20/month per user is an OK business, but you'd need 1-2 billion subscribers sticking around for four years to cover $1 trillion in infrastructure. Companies spending $200+/month/user will get you there a whole lot faster."
+### Cursor Product Evolution
+- **Michael Truell (Cursor) - May 2026**: "Cursor is no longer primarily about writing code. It is about helping developers build the factory that creates their software. This factory is made up of fleets of agents that they interact with as teammates: providing initial direction, equipping them with the tools to work independently, and reviewing their work."
+- **Product Components**: Tab autocomplete (first wave), agents pane (second wave), moving toward background agent orchestration (third wave)
 
-See also: [[ai-pricing-packaging-saas]] for enterprise pricing transitions, [[build-vs-buy-enterprise-ai]] for adoption decision frameworks
+### Cognition Devin Adoption Metrics
+- **Internal Usage at Cognition**: Devin grew from 16% to 80% of commits across Cognition's own repositories
+- **PR Volume**: 7x growth in merged pull requests
+- **Context Engineering**: Walden Yan coined term to describe structuring information for agent consumption
+- **Funding**: $1B Series D (announced ~May 2026), "way oversubscribed"
+
+### Enterprise Custom Agent Development (2025-2026)
+Wave of major companies building proprietary background agents despite availability of commercial products:
+- **Shopify**: Building custom background agents
+- **Stripe**: Building custom background agents  
+- **Paradigm**: Building custom background agents
+- **Razorpay**: Building custom background agents
+- **Ramp**: Built coding agent using Modal infrastructure
+
+*Pattern suggests companies prefer control/customization over off-the-shelf solutions even as products mature*
+
+### Windsurf Evolution
+- **Windsurf 2.0**: Released with enhanced capabilities (specific features not detailed in source)
+- **Product Category**: Second-wave local agent (concurrent terminals)
+
+### December 2025 Model Inflection
+- **Industry-Wide Shift**: December 2025 marked a model quality inflection point that made spec-to-PR workflows practical in production
+- **Workflow Enablement**: Enabled transition from second-wave (local agents) to third-wave (async/background agents)
+- **Adoption Impact**: Triggered "phase transition" in enterprise adoption (see Shopify case)
+
+### Coding Agent Market Structure
+- **Major Agent-First Companies**: Sierra, Decagon, Notion, Cursor described as "major decacorn agent labs"
+- **DIY Ecosystem**: LangGraph, Pydantic, Flue frameworks making custom agents easier
+- **Managed Services**: Anthropic, Gemini (Google), Amazon offering managed agent platforms
+- **Seat Pricing**: $20/seat model for agent products faces "tricky" monetization economics
+
+## Cross-References
+- See [[agentic-workflows-production]] for detailed architecture patterns and background agent infrastructure
+- See [[ai-engineering-agents]] for agent frameworks and orchestration approaches
+- See [[mcp-protocol]] for tool integration standards

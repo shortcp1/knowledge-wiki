@@ -705,7 +705,154 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-29
+
+**✗ 1.0** — [Chro Insights](https://www.bain.com/insights/topics/chro-insights/)  
+*Bain Insights* · 
+#navigation_page #bain_company #website_template
+> This appears to be a navigation page or header template from Bain & Company's website listing their global offices and main menu structure. No actual content about CHRO insights, HR strategy, or talent management is present in the provided text. This is not an article but rather website navigation elements.
+
+**✗ 4.0** — [What Is Agentic Ai And How Does It Work In Enterprises](https://www.bain.com/insights/what-is-agentic-ai-and-how-does-it-work-in-enterprises/)  
+*Bain Insights* · agentic-workflows-production · ai-in-product-and-engineering
+#agentic_ai #enterprise_ai #autonomous_systems
+> This article provides a basic introduction to agentic AI and its enterprise applications, defining it as AI systems that can autonomously plan and execute tasks. It appears to cover standard definitions and general enterprise use cases without deep technical details or novel frameworks. The article is a surface-level overview likely aimed at business executives seeking foundational understanding rather than practitioners needing actionable insights.
+
+**✗ 2.3** — [The 560 Billion Energy Question Infographic](https://www.bain.com/insights/the-560-billion-energy-question-infographic/)  
+*Bain Insights* · 
+#energy #infographic #consulting
+> This appears to be a navigation/structural page for a Bain & Company infographic titled 'The $560 Billion Energy Question' rather than the actual content. The article text consists entirely of website navigation menus listing Bain's offices, industries, and services. Without access to the actual infographic content, it's impossible to assess the substantive claims, evidence, or relevance to AI/semiconductor topics.
+
+**✓ 6.0** — [Deepswe Claims To Measure Agents Better](https://www.deeplearning.ai/the-batch/deepswe-claims-to-measure-agents-better)  
+*The Batch (DeepLearning.AI)* · evals-production-deployment · ai-engineering-agents · agentic-workflows-production
+#agentic_coding #benchmark_contamination #test_verifier_accuracy #swe_bench
+> DeepSWE is a new software engineering benchmark claiming to address critical flaws in SWE-bench Pro, including contamination risk and test verifier accuracy problems (8.5% false positives, 25% false negatives). The benchmark contains 113 original tasks requiring an average of 668 lines of code with minimal prompting, forcing agents to discover implementation details independently, and shows 70 percentage point separation between frontier models versus 30 points on existing benchmarks. This wider separation suggests current leaderboards significantly understate real capability gaps that developers experience in production environments.
+
+**✗ 5.7** — [Qwen3 7 Max Chinas Latest Top Model](https://www.deeplearning.ai/the-batch/qwen3-7-max-chinas-latest-top-model)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-time-compute · lab-dynamics
+#extended_thinking #reasoning_models #agentic_tasks #tool_calling
+> The article reports on Qwen3.7-Max, Alibaba's latest reasoning model with extended-thinking mode and 1M token context, ranking fifth globally behind GPT-5.5 and Claude Opus 4.7. The model trades off simple question accuracy for complex agentic task performance, demonstrating 1000+ tool calls for autonomous chip kernel optimization. This reflects a design shift toward multi-step reasoning over quick responses, showing how Chinese AI labs are competing on complex reasoning benchmarks rather than general-purpose chat.
+
+**✓ 7.0** — [Researchers At Ut Austin And Google Model Human Decision Making In Rock Paper Scissors](https://www.deeplearning.ai/the-batch/researchers-at-ut-austin-and-google-model-human-decision-making-in-rock-paper-scissors)  
+*The Batch (DeepLearning.AI)* · model-architecture · evals-production-deployment
+#strategic_reasoning #llm_interpretability #code_evolution #behavioral_modeling
+> Researchers at UT-Austin and Google developed a method using AlphaEvolve to reverse-engineer decision-making strategies by having LLMs play rock-paper-scissors and then evolving Python code to predict their moves. They found that advanced LLMs (Gemini 2.5 Pro/Flash, GPT-5.1) used similar, more sophisticated opponent-modeling strategies than humans or smaller models, achieving evaluation likelihoods around 0.507 versus 0.476 for human-like strategies. This work demonstrates a novel interpretability approach that uses evolved code as a window into understanding strategic reasoning differences between AI systems and humans.
+
+**✓ 6.3** — [Everything Everywhere Is Compliance](https://a16z.com/everything-everywhere-is-compliance/)  
+*a16z* · ai-in-legal-compliance · ai-governance-risk-compliance · build-vs-buy-enterprise-ai
+#compliance_automation #vision_language_models #document_processing #regulatory_compliance
+> The article argues that compliance work, representing $40+ billion in annual US labor costs with 400,000+ officers, has historically resisted automation but is now ripe for AI transformation. It provides evidence that previous technologies like OCR achieved only ~90% accuracy (insufficient for compliance), while new Vision Language Models can meet the "100% correct" threshold required for trust in regulated activities like mortgage underwriting and KYC. This matters because it identifies a massive, previously intractable market now becoming accessible to AI startups due to a fundamental technology capability shift from "good enough to pilot" to "good enough to trust."
+
+**✗ 2.3** — [Foreign Exchange 101](https://a16z.com/foreign-exchange-101/)  
+*a16z* · 
+#cross_border_payments #foreign_exchange #correspondent_banking #swift
+> This article provides a basic explainer of how cross-border payments work, using nostro/vostro accounts and the Swift messaging system as the core mechanism. It walks through a simple example of sending money from a U.S. bank (Chase) to a Japanese bank (MUFJ) using pre-funded correspondent banking relationships. The piece is an introductory educational resource that explains foundational fintech infrastructure but contains no novel insights or analysis.
+
+**✓ 7.3** — [Avoiding Death On The Yellow Brick Road](https://a16z.com/avoiding-death-on-the-yellow-brick-road/)  
+*a16z* · lab-dynamics · build-vs-buy-enterprise-ai · ai-native-product-design
+#vertical_ai #horizontal_vs_vertical #application_layer_defensibility #foundation_model_labs
+> The article argues that AI application layer startups should avoid competing directly with foundation model labs (OpenAI, Anthropic) on horizontal use cases like code generation and writing, which improve with raw model capability—termed the 'Yellow Brick Road.' Instead, startups should focus on vertical, industry-specific problems where value comes from custom scaffolding, compliance, and operational integration rather than base model performance. This matters because it provides a strategic framework for AI entrepreneurs to identify defensible market positions against well-funded labs that are signaling they cannot solve every enterprise problem with generic AI.
+
+**✗ 4.7** — [Claude Opus 4 8](https://www.anthropic.com/news/claude-opus-4-8)  
+*Anthropic Blog* · model-architecture · agentic-workflows-production · ai-engineering-agents
+#claude_opus #agentic_tasks #tool_calling #legal_agents
+> Anthropic announces Claude Opus 4.8, an incremental upgrade over 4.7 with improvements in coding, agentic tasks, reasoning, and practical knowledge work benchmarks. The article provides testimonials from early testers highlighting better judgment, tool calling efficiency, and reliability in agentic workflows, with notable performance gains on legal benchmarks and browser-agent tasks. The model is available at the same price as 4.7, with a new fast mode that is 3× cheaper and features like user-controlled effort levels and dynamic workflows in Claude Code.
+
+**✗ 5.0** — [Claude Design Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)  
+*Anthropic Blog* · ai-in-product-and-engineering · ai-in-marketing-content · ai-native-product-design
+#claude_design #vision_models #design_automation #prototype_generation
+> Anthropic announces Claude Design, a new product that allows users to collaborate with Claude Opus 4.7 to create visual designs, prototypes, slides, and marketing materials through natural language and iterative refinement. The system can ingest design systems from codebases, supports real-time editing with inline comments and custom sliders, and exports to various formats including direct handoff to Claude Code for implementation. This represents a move by Anthropic into multimodal creative tooling for non-technical users while maintaining enterprise design consistency.
+
+**✗ 3.3** — [Series H](https://www.anthropic.com/news/series-h)  
+*Anthropic Blog* · funding-and-market-structure · lab-dynamics · semiconductor-supply-chain
+#funding_round #valuation #compute_capacity #chip_manufacturers
+> Anthropic announces a $65 billion Series H funding round at a $965 billion valuation, led by major VCs and including strategic investments from memory chip manufacturers. The company reports $47 billion in run-rate revenue and plans to use funds for safety research, compute expansion, and product scaling, including partnerships with AWS, Google, and SpaceX for gigawatt-scale compute capacity. This represents a significant milestone in AI lab funding scale and signals deepening integration between AI companies and semiconductor supply chain partners.
+
+**✗ 5.0** — [Anthropic's run-rate revenue hits $47 billion](https://simonwillison.net/2026/May/29/anthropic/#atom-everything)  
+*Simon Willison* · funding-and-market-structure · ai-b2b-saas · lab-dynamics
+#anthropic #run_rate_revenue #fundraising #enterprise_adoption
+> The article reports that Anthropic's run-rate revenue reached $47 billion in May 2026, up from $30 billion in April and $14 billion in February, representing unprecedented growth velocity for any company. It presents a timeline of Anthropic's revenue announcements tied to fundraising rounds, with context about run-rate methodology (annualizing recent monthly revenue) and anecdotal evidence of enterprise spending. The piece argues these numbers are credible because they were disclosed to investors in securities contexts where fraud would have serious legal consequences.
+
 ## 2026-05-28
+
+**✗ 4.3** — [Claude Opus 4.8: "a modest but tangible improvement"](https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything)  
+*Simon Willison* · model-architecture · inference-efficiency · prompt-architecture
+#model_honesty #hallucination_reduction #prompt_caching #system_messages
+> The article reports on Anthropic's Claude Opus 4.8 release, which the company explicitly describes as a 'modest but tangible improvement' focused on honesty and uncertainty flagging rather than major capability gains. The key evidence is that the model is 4x less likely to allow code flaws to pass unremarked and achieves lower hallucination rates by abstaining when uncertain, plus technical improvements like mid-conversation system messages and lower prompt cache minimums. This matters primarily as an example of more honest AI lab communication about incremental progress rather than as a significant technical advancement.
+
+**✗ 3.0** — [llm-anthropic 0.25.1](https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything)  
+*Simon Willison* · model-architecture
+#llm_cli_tools #claude_models #anthropic #developer_tooling
+> This article announces version 0.25.1 of llm-anthropic, a tool for accessing Anthropic's Claude models via command line. The release adds support for Claude Opus 4.8, introduces a fast mode option for enterprise accounts, and changes the default max_tokens to use each model's maximum output instead of 8,192. This is a minor incremental update to a developer tool rather than substantive analysis or research.
+
+**✗ 4.7** — [Claude Opus 4.8 is here. Is it as good as they say?](https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good)  
+*Lenny's Newsletter* · model-architecture · ai-engineering-agents · ai-in-product-and-engineering
+#claude_opus #model_comparison #coding_agents #hallucination_problems
+> This podcast transcript reviews early hands-on testing of Anthropic's Claude Opus 4.8, comparing it against Opus 4.7 across coding, design, and business strategy tasks. The reviewer finds Opus 4.8 excels at greenfield prototypes and one-shot features but struggles with edge cases in existing codebases, the 'last 10%' of completion, and hallucinations, with Opus 4.7 remaining preferable for data-heavy strategy work. The review provides practical insights into model selection and prompting strategies for different use cases.
+
+**✓ 7.0** — [The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray](https://www.latent.space/p/cognition)  
+*Latent Space Podcast* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#async_agents #background_agents #coding_agents #agent_orchestration
+> The article argues that AI coding tools are evolving from synchronous, developer-in-the-loop systems (like Copilot) to asynchronous background agents that work independently on full tasks from spec to pull request. It provides evidence through Cognition's Devin evolution (16% to 80% of commits) and discusses architectural components like separated "brain" and machine, VMs, repo setup challenges, and orchestration patterns. This shift matters because it represents a fundamental change in software development workflow from AI-assisted coding to AI-driven end-to-end development with human oversight and orchestration.
+
+**✗ 5.3** — [How a new extraction process could unlock the world’s lithium](https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/)  
+*MIT Technology Review* · 
+#lithium_extraction #battery_materials #spodumene_processing #ammonium_fluoride
+> MIT researchers have developed a new lithium extraction process using ammonium fluoride (a weak acid found in glass etching cream) to dissolve silicate minerals at low temperatures, avoiding the energy-intensive roasting step used in conventional hard-rock mining. The method can extract lithium from spodumene ore in under 12 hours using simple plastic tanks at temperatures up to 95°C, while also recovering valuable byproducts like alumina and silica. A startup called Rock Zero is commercializing this technique, which could reduce extraction costs and carbon emissions while enabling processing of iron-rich ores that can't be handled by conventional methods.
+
+**✗ 3.3** — [New at WRITER: Brand systems built for an AI era](https://writer.com/blog/new-roundup-may-2026/)  
+*Writer.com Blog* · ai-in-marketing-content · ai-in-product-and-engineering
+#brand_consistency #content_generation #enterprise_ai_tools #marketing_automation
+> Writer announces product features that enforce brand consistency across AI-generated content by integrating style guides, terminology lists, and voice profiles into a unified system. The platform aims to reduce manual review bottlenecks by automatically applying brand standards to AI outputs and integrating with tools like Semrush and Google Drive. The value proposition is shifting brand governance from post-creation review to pre-configured enforcement at the generation layer.
+
+**✗ 4.3** — [Everyday automations: two simple agents that save marketers hours of work each week](https://writer.com/blog/simple-ai-agent-marketing-project-management-save-hours-automate/)  
+*Writer.com Blog* · ai-in-marketing-content · agentic-workflows-production
+#meeting_summarization #workflow_automation #slack_integration #marketing_operations
+> The article describes two AI agents built by a marketing operations professional: one that automatically summarizes meeting transcripts from Gong and posts action items to Slack, and another that aggregates updates from multiple tools (Slack, Gmail, Asana) into a daily briefing. These agents reportedly save 5-6 hours per week by eliminating manual review and summarization work. The piece positions these as practical examples of simple workflow automation for marketing teams.
+
+**✗ 3.7** — [Intuit wants to turn workforce management into a financial operating system](https://tearsheet.co/payments/intuit-wants-to-turn-workforce-management-into-a-financial-operating-system/?utm_source=rss&utm_medium=rss&utm_campaign=intuit-wants-to-turn-workforce-management-into-a-financial-operating-system)  
+*Tearsheet (fintech)* · ai-in-hr-talent · ai-b2b-saas · build-vs-buy-enterprise-ai
+#smb_workforce_management #hcm_platform #ai_native_integration #operational_fragmentation
+> Intuit is launching QuickBooks Workforce, an AI-native human capital management platform integrated into QuickBooks, to solve the operational fragmentation problem where SMBs use multiple disconnected tools for HR functions. The article argues that current SMB digitization creates operational sprawl rather than efficiency, with separate systems for payroll, benefits, hiring, and time tracking creating coordination problems. This represents Intuit's strategy to build a unified SMB operating system where finance and workforce management feed into one another, positioning accounting software as the central operational layer.
+
+**✗ 2.7** — [The Download: climate tech goes public and the AI Hype Index returns](https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index/)  
+*MIT Technology Review* · semiconductor-supply-chain · regulatory-policy · funding-and-market-structure
+#newsletter #news_roundup #climate_tech_ipo #ai_regulation
+> This is a newsletter roundup covering multiple tech stories including climate tech IPOs, AI regulation, chip supply constraints, and various other technology news items. The content provides brief summaries with external links but no original analysis or investigation. It serves as a news aggregator rather than substantive reporting on any single topic.
+
+**✗ 3.7** — [How Endava builds an agentic organization with Codex](https://openai.com/index/endava)  
+*OpenAI News* · agentic-workflows-production · ai-in-product-and-engineering
+#codex #requirements_analysis #software_delivery #agentic_automation
+> The article reports that Endava, a software services company, uses OpenAI's Codex to accelerate software delivery and reduce requirements analysis time from weeks to hours through agentic automation. The key evidence provided is a single time-reduction metric for requirements analysis, without detailed technical implementation or architectural details. This matters as an early enterprise case study of code generation in production workflows, though the lack of depth limits actionable insights.
+
+**✓ 7.3** — [The new M&A logic of owning the workflow before AI does](https://tearsheet.co/ai-innovation/the-new-ma-logic-of-owning-the-workflow-before-ai-does/?utm_source=rss&utm_medium=rss&utm_campaign=the-new-ma-logic-of-owning-the-workflow-before-ai-does)  
+*Tearsheet (fintech)* · agentic-workflows-production · ai-in-finance-accounting · build-vs-buy-enterprise-ai
+#agentic_payments #workflow_infrastructure #embedded_finance #account_to_account_payments
+> The article argues that recent M&A activity in fintech and AI (NMI/Dwolla, Anthropic/Fractional AI, Coupa, SoFi) reflects a strategic race to own workflow infrastructure before AI systems autonomously execute those processes. The key evidence is the pattern of companies acquiring operational layers—payment rails, account-to-account infrastructure, and enterprise deployment capabilities—rather than just processing or model layers. This matters because it signals a shift from building AI capabilities to controlling the distribution and execution infrastructure where agentic AI will eventually operate, creating structural moats before autonomous systems commoditize higher-layer functions.
+
+**✗ 5.0** — [Challenges In Engaging The Disengaged Spouse Of A Client Couple: Kitces & Carl 191](https://feeds.feedblitz.com/~/957419285/0/kitcesnerdseyeview~Challenges-In-Engaging-The-Disengaged-Spouse-Of-A-Client-Couple-Kitces-Carl/)  
+*Kitces.com* · ai-wealth-management-advisory
+#client_engagement #wealth_management #financial_planning #advisor_client_relationships
+> The article argues that financial advisors should not force equal participation from both partners in a couple, recognizing that delegation of financial responsibilities is a natural and valid division of labor. It provides a framework based on ensuring the less-engaged spouse feels heard and accepts responsibility for delegation rather than requiring identical meeting attendance. This matters for client retention and relationship quality in wealth management practices, suggesting personalized engagement approaches over standardized couple participation requirements.
+
+**✗ 2.3** — [Climate tech companies are going public. What’s next?](https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos/)  
+*MIT Technology Review* · 
+#climate_tech #ipo #geothermal_energy #small_modular_reactors
+> The article reports on a wave of energy companies (Fervo Energy, X-energy, and Solv Energy) going public via IPO in 2025, collectively valued at over $30 billion. It provides basic details on each company's technology (enhanced geothermal, small modular reactors, solar/battery) and their connection to rising electricity demand from data centers. The piece offers only surface-level financial and operational milestones without analysis of market dynamics, regulatory implications, or strategic significance.
+
+**✗ 1.7** — [Legal Tech Startup Automates 70% of Contract Review Workload Using AI.cc Multi-Model API Infrastructure - FinancialContent](https://news.google.com/rss/articles/CBMihAJBVV95cUxQS2hpM1NaSm5yNEstbHRzNFhwbFQ5NWt0aVNMVUlBZW1vR2cyMDA3dkNtTHdkN013TlRxYkVLLURhQldFUUtxRkZGNzRkak5Da1JzMFM5bXRPTGd2YWxhSXBqWjdfMUxhQ09UZjJPR2xGZ2ZwYjJNRXJKdTVaRkxMODlxMnN0SG05Y3RaZl9xQVNCMWFMYzY0VXBLNmZSQXBieW9vdXBZcllZNl9aWjJENmVOVVh0enUybGpDS1I5TnVhNXdkY3hXM3g2eFgzclBmcl9pMEx4TnZmemJDQ0ZMVmNtSHRNVldwTzVucDlaaVlPQVpoMDNhb292RFp6bkNacmdDXw?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-legal-compliance
+#legal_tech #contract_review #multi_model_api
+> This appears to be a cookie consent page from Google rather than an actual article about legal tech AI automation. No substantive content about contract review, multi-model APIs, or AI infrastructure is present in the provided text. The article title suggests relevant content but the body contains only standard Google privacy policy boilerplate.
+
+**✗ 5.0** — [Rebooting Enterprise AI with MCP and Kubernetes](https://share.transistor.fm/s/d76e02d5)  
+*Practical AI (Changelog)* · ai-engineering-agents · agentic-workflows-production · build-vs-buy-enterprise-ai
+#mcp #kubernetes #agent_orchestration #identity_management
+> This podcast episode discusses how AI agents are evolving from chatbots to coworker-like entities, with a focus on the infrastructure needed to manage them at enterprise scale using MCP (Model Context Protocol) and Kubernetes. The conversation covers identity management, agent orchestration, and system architecture challenges that organizations face when deploying fleets of AI agents. The discussion matters for understanding the operational and architectural requirements of enterprise AI agent deployment.
+
+**✗ 4.7** — [[AINews] Cognition raises $1B in $26B Series D](https://www.latent.space/p/ainews-cognition-raises-1b-in-26b)  
+*Latent Space* · ai-engineering-agents · inference-efficiency · funding-and-market-structure
+#cognition #ai_agents #inference_optimization #speculative_decoding
+> Cognition raised $1B at a $26B valuation (Series D), growing 2.5x from its $10B Series C eight months prior, now projecting >$1B ARR by EOY as the largest independent AI agent lab. The article also covers technical advances in inference optimization (EAGLE 3.1 speculative decoding, kernel improvements achieving 580 tokens/s) and architectural changes (compressed sparse attention, hierarchical KV-cache) that enable sustainable API price cuts from Chinese labs. The funding and technical developments signal that AI coding agents have reached enterprise scale while inference economics are being fundamentally reshaped by attention architecture rather than just hardware.
 
 **✗ 2.7** — [Learn Foundational Prompting Techniques In Ai Prompting For Everyone](https://www.deeplearning.ai/the-batch/learn-foundational-prompting-techniques-in-ai-prompting-for-everyone)  
 *The Batch (DeepLearning.AI)* · prompt-architecture
@@ -742,6 +889,21 @@ All articles scanned since the wiki started. Updated nightly.
 #embodied_ai #robotics #data_pyramid #reinforcement_learning
 > Three robotics founders discuss fundamental challenges in embodied AI, including data collection strategies, reinforcement learning prerequisites, and world model architectures. They introduce concepts like 'the data pyramid' for balancing data quality versus scale, and argue that RL requires strong human demonstration foundations before achieving superhuman capabilities. The article captures frontier research perspectives but remains at a high level without deep technical detail or novel empirical findings.
 
+**✗ 3.0** — [India leads the global mid-market on AI integration but pays the steepest complexity cost: Freshworks study - Express Computer](https://news.google.com/rss/articles/CBMi5AFBVV95cUxOM3VBRlVOdU9uMWdOTU01bXU4OXBobEh6Z1E5VUNvQXlWYjY1SGctRWxrZXFfQmdDUF9CNTcwRVVPSW5NaEJaSVVqRXNfdnBsckVqRC16aGNobmt0bDByM2x2V3dXM2pMRTZwSVZRcGV4SzFNeHBmT0pZVXlPWlJSSGlMbUNILWNTeHc3bVRVZ1Yzak90RmoyQjBEWEI1QlluYW1xeDVjbi1jV1lpX183LXB6bWVFUHc2eXd6dGpqY05ZYVFJbll5WnlWNFhwSmdTdkN0c1U3di1Xb3djd3ZZRmNuMlDSAeoBQVVfeXFMUGZhY1p3N0FoTExTS1c2Mllpb0RrLW1SVlFXR0JkdWZseU5zT0VsczdJc3ZzVnVhcml1Z0toUEN3SkJkbWpXZnZma1JWR0hhZkF3ZGUzUHVjeTNHUmlzWi1JeWNHQkprS1VzellOS1F0SXR2bXJRVFd5cGR4UUVUSk1uaEFOM2owaEU3clJVUzB6NmZHMmd0M0MxRXVsN09GUHpsQU95bzUxaTdGZS15eEdhZDUyMFBwSnN5bXBDNkUwY2tXdmJ1NU5fMUpHMGlwT19oVk5HZGtVbGZndENzbkpRMXZmU0M3OWx3?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#mid_market #ai_integration #regional_adoption
+> The article title references a Freshworks study claiming India leads mid-market AI integration while facing high complexity costs. However, the actual article content provided is entirely a Google cookie consent page with no substantive information about the study, its findings, methodology, or implications. Without access to the actual article content, no meaningful evaluation of AI integration patterns, regional differences, or enterprise deployment challenges can be made.
+
+**✗ 3.3** — [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework)  
+*OpenAI News* · ai-governance-risk-compliance · regulatory-policy
+#ai_safety #frontier_models #regulatory_compliance #governance_framework
+> OpenAI announces its Frontier Governance Framework describing how its internal AI safety, security, and risk practices align with emerging regulations in the EU and California. The article appears to be a brief announcement or landing page rather than detailed analysis of the framework's mechanisms or implementation details. This matters as it signals OpenAI's approach to regulatory compliance, but lacks substantive content to evaluate the framework's rigor or effectiveness.
+
+**✗ 5.7** — [Security in the Age of AI Agents: Office Hours with Jonathan Jaffe](https://www.tomtunguz.com/jonathan-jaffe-office-hours-post-event/)  
+*Tomasz Tunguz* · ai-governance-risk-compliance · agentic-workflows-production · ai-org-design-headcount
+#ai_agents #security_engineering #identity_management #threat_detection
+> The article argues that AI agents are transforming security from human-managed to automated policy-governed systems, with defenders gaining equal advantage to attackers. It provides evidence from Lemonade's CISO showing security teams becoming engineering teams that build AI platforms with specialized agents for threat detection and vulnerability assessment. This matters because it suggests a shift in security paradigm where every agent needs identity management and policy controls, requiring new IAM approaches for agentic systems.
+
 ## 2026-05-27
 
 **✗ 5.0** — [sqlite AGENTS.md](https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything)  
@@ -768,6 +930,10 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount · ai-governance-risk-compliance
 #ai_budget_waste #enterprise_ai_adoption #roi_challenges #uk_market
 > Freshworks research claims UK businesses lose 24% of AI budgets before seeing returns, though the article text provided is only Google's cookie consent page. Without the actual article content, this appears to be survey research about AI implementation waste in mid-market enterprises. If accurate, this would highlight execution challenges in enterprise AI adoption and budget allocation inefficiencies.
+
+**✗ 1.0** — [Impact, Growth and AI: Joaquim Lecha on Shaping Storyteq’s Next Chapter - Little Black Book | LBBOnline](https://news.google.com/rss/articles/CBMikgFBVV95cUxNQkJvanhoaVp5UHpJN1Y4NWI5OXd6T21lWXdGNXhTZEdmRUxiQWltTkM1WWczS19Yc3FXdm8xV1NFMno2TDd6djZMa2stRDFoLWkxejJTa1M2LVdfNnBxandtcHRodHM5OEQzZUljbzRnLWc3d1BTZGU2Ym03MjVfV3lEbnNhc3F4VHBPdUEweU1zUQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+> This appears to be a Google cookie consent page rather than the actual article content about Joaquim Lecha and Storyteq. The text only contains Google's standard cookie policy and language selection options, with no substantive content about AI, enterprise applications, or the promised interview. Without access to the actual article, no meaningful analysis of depth, novelty, or relevance can be performed.
 
 **✗ 4.0** — [Mid‑Market Companies Lose an Average of 25% of Their AI Budget Before Seeing a Single Return, New Freshworks Research Finds - Macau Business](https://news.google.com/rss/articles/CBMi4gFBVV95cUxPbTVVUGd2OFp6NkV5dHNhbEVwXzhhc3ZKNkRHV2FsS2NPX09jZkItaUNRaHNkREdkLVhjUVFBRk9EQ1JyZ3JTLUtSVFk2cG9wTFpMb3l0eldZUVE4UVVXeUhTcE9ZMTZXc3BISWhlYjZiR1B2LWlGY0hUdXhtV3Z6QjdSeko0T2M1SEZWLWUyX1RmNUw1dGE4M0dHZ0Q2NFhjOWNycG0yWHhUN0ZvUHNmN0Z4MkZGR3A4dXB6NXQwUmNVOWtMWDBpNVVpRnhIcldQMTNqNF9ZZmdnalI1SjdZUWdn?oc=5)  
 *GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount · ai-governance-risk-compliance
@@ -808,6 +974,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · 
 #starlink #spacex_ipo #satellite_connectivity #tesla_brand
 > The article discusses SpaceX's brand positioning and Starlink's deployment in commercial aviation, drawing parallels between Tesla's computer-on-wheels strategy and SpaceX's scale ambitions. It provides examples of American Airlines partnering with Starlink for in-flight connectivity and Tesla's shift toward autonomous vehicles. The piece speculates about data centers in space as a potential IPO justification but remains largely surface-level commentary on brand strategy and product positioning.
+
+**✗ 3.0** — [The SpaceX IPO and Data Centers in Space](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI2MTIwNDMsImlhdCI6MTc4MDAyMDA0MywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.U0Emp5_cq_sg6myJMQpeiy2CpKrRm5d2qQvmWoFskoP-NkhTqhAwr36xuvN1gFYRNe8GyG76bkfgRaiEOOk7dux6kLfiJW0_0h9kbr7zgzdVrTMZs7y06AuCFshvILCMTTESWaJOM4MMztuV9gCHlMv6YWv1IqgzrHzVi3kS5jo7oXxM4tB2PM1jd-4Z4NMByCH-jyUAZRIAmSNvdtFazxM-FxI_4EVfja7dEW082l7osd3M0fkFxA-mGB8hbusOGOsHoVWdW8l68dqkt9689wsqXz3FTqOZxGEMVPrXBor1ONetLG-_5ckQjjTXGp2jRBMr9jGZXUjuS_xBzb5izQ)  
+*Stratechery (Ben Thompson)* · 
+#spacex_ipo #starlink #data_centers_in_space #satellite_connectivity
+> The article discusses SpaceX's potential IPO and the business case for data centers in space, framed through examples of Elon Musk's brand-building and scale-seeking approach with Tesla and Starlink. It provides examples like American Airlines adopting Starlink for in-flight connectivity and Tesla's shift from luxury differentiation to scaled self-driving vehicles. The piece appears incomplete but suggests that space-based infrastructure might provide financial justification for SpaceX's valuation.
 
 **✗ 3.3** — [Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős](https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to)  
 *Last Week in AI* · lab-dynamics · funding-and-market-structure · model-architecture
@@ -888,6 +1059,11 @@ All articles scanned since the wiki started. Updated nightly.
 *OpenAI News* · ai-engineering-agents
 #gpt_5.5 #coding_agents #development_workflows #warp
 > Warp is implementing GPT-5.5 and OpenAI models to coordinate coding agents across different development environments (local, cloud, and open-source workflows). The article appears to be a brief announcement or news item without detailed technical implementation or evidence. This represents an application of AI agents in software engineering tooling, but lacks depth on mechanisms, outcomes, or differentiated insights.
+
+**✗ 3.0** — [Election information and safeguards in 2026](https://openai.com/index/election-safeguards-2026)  
+*OpenAI News* · ai-governance-risk-compliance · regulatory-policy
+#election_integrity #content_moderation #ai_safety_policy #misinformation
+> OpenAI announces initiatives to support election integrity in 2026, including providing access to information, supporting cybersecurity defenders, and increasing AI transparency around election-related content. The article describes company policies and partnerships but provides minimal technical detail or novel frameworks for addressing election misinformation. This represents a corporate responsibility statement rather than substantive analysis of how AI systems handle political content or evidence of effectiveness.
 
 **✓ 7.3** — [Software After AI](https://www.tomtunguz.com/harnessing-ai/)  
 *Tomasz Tunguz* · agentic-workflows-production · ai-engineering-agents · evals-production-deployment

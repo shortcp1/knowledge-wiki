@@ -1,25 +1,43 @@
 ---
-tags: [agent-benchmarks, agent-composition, agent-compute, agent-compute-infrastructure, agent-harness, agent-sandboxes, agentic-ci-cd, agentic-evals, agentic-tasks, agi-taxonomy, ai-for-medicine, ai-integration, ai-safety-benchmarks, ai-sandboxes, anthropic-mythos, attention, bare-metal-infrastructure, bare-metal-scheduling, benchmark-design, benchmark-evals, benchmark-evolution, caisi, clinical-validation, cognitive-assessment, computer-use-evals, convolutional-neural-networks, custom-agents, cybersecurity, data-moats, daytona, deepmind, direct-preference-optimization, dpo, dual-use, economic-alignment, emotional-intelligence, emotional-stability, evals-production-deployment, evaluation-methodology, executive-functions, exploit-chain-construction, frontier-evals, frontier-headroom-evals, frontier-models, gdpval, gemini, gemma, harbor, human-ai-collaboration, launch-quality-evals, learning, localhost-replacement, mcp-vs-cli, medical-imaging, memory, metacognition, model-approval-process, model-personality, model-refusals, model-safeguards, national-security-ai, nist-evaluation, occupational-taxonomy, offensive-capabilities, open-vs-closed-models, perception, portbench, post-training, pre-deployment-testing, problem-solving, progressive-tool-disclosure, proof-generation, real-world-deployment, reasoning, regression-tests, rl-eval-infrastructure, rl-eval-workloads, rl-evaluation-workloads, rl-workloads, rlvr, safety-evaluation, scaling-laws, security-focused-llm, security-testing, sensitivity-specificity, social-cognition, software-factory, startup-adoption, stateful-environments, swe-bench, terminalbench, trains, trains-task-force, vulnerability-research]
+tags: [agent-benchmarks, agent-composition, agent-compute, agent-compute-infrastructure, agent-harness, agent-sandboxes, agentic-ci-cd, agentic-coding, agentic-evals, agentic-tasks, agi-taxonomy, ai-for-medicine, ai-integration, ai-safety-benchmarks, ai-sandboxes, alphaevolve, anthropic-mythos, attention, bare-metal-infrastructure, bare-metal-scheduling, behavioral-modeling, benchmark-contamination, benchmark-design, benchmark-evolution, caisi, clinical-validation, code-evolution, code-generation-eval, code-synthesis-for-interpretation, cognitive-assessment, computer-use-evals, convolutional-neural-networks, custom-agents, cybersecurity, data-moats, daytona, deepmind, deepswe, direct-preference-optimization, dpo, dual-use, economic-alignment, emotional-intelligence, emotional-stability, evals-production-deployment, evaluation-methodology, executive-functions, exploit-chain-construction, false-positive-rate, frontier-evals, frontier-headroom-evals, frontier-models, gdpval, gemini, gemma, harbor, human-ai-collaboration, launch-quality-evals, learning, llm-interpretability, localhost-replacement, mcp-vs-cli, medical-imaging, memory, metacognition, model-approval-process, model-personality, model-refusals, model-safeguards, national-security-ai, nist-evaluation, occupational-taxonomy, offensive-capabilities, open-vs-closed-models, opponent-modeling, perception, portbench, post-training, pre-deployment-testing, problem-solving, progressive-tool-disclosure, proof-generation, real-world-deployment, reasoning, regression-tests, rl-eval-infrastructure, rl-eval-workloads, rl-evaluation-workloads, rl-workloads, rlvr, safety-evaluation, scaling-laws, security-focused-llm, security-testing, sensitivity-specificity, social-cognition, software-factory, startup-adoption, stateful-environments, strategic-reasoning, swe-bench, swe-bench-contamination, swe-bench-pro, terminalbench, test-verifier-accuracy, trains, trains-task-force, verifier-accuracy, vulnerability-research]
 ---
 
 # Evals & Production Deployment
 
-Covers how teams measure model quality in production: evaluation frameworks, benchmark design, human eval vs. LLM-as-judge, A/B testing for AI, red-teaming, and monitoring for drift and hallucination.
+Covers how teams measure model quality in production: evaluation frameworks, benchmark design, human eval vs. LLM-a
 
-Key questions tracked: What evals actually predict real-world performance? How are teams doing continuous eval in production? What is the state of AI observability tooling?
+## AlphaEvolve: Code Synthesis for Behavioral Interpretation (UT-Austin & Google, 2026)
 
-## Key Claims
+### Methodology
+- **Paradigm**: Uses evolutionary code optimization to synthesize interpretable programs that model player decision-making behavior
+- **Process**: Gemini 2.5 Flash iteratively proposes modifications to Python programs to improve:
+  - Predictive accuracy (evaluation likelihood metric)
+  - Code simplicity (measured by Halstead effort)
+- **Selection criterion**: Simplest program achieving near-maximum predictive accuracy within small margin of best
+- **Validation**: If synthesized code predicts player actions with significant accuracy, decision-making algorithms are assumed functionally similar
 
-### Benchmark Coverage Gaps (CMU/Stanford, May 2026)
+### Rock-Paper-Scissors Strategic Reasoning Benchmark
+- **Setup**: Individual LLMs (Gemini 2.5 Pro, Gemini 2.5 Flash, GPT-5.1, GPT-OSS 120B) played against 15 preprogrammed bots of varying complexity
+- **Data**: 20 games of 300 sequential rounds each per player; compared against human gameplay records from prior work
+- **Tracked**: Round-by-round choices and win/loss/tie outcomes
 
-**Agent Benchmarks vs. Economic Labor Distribution Mismatch**: Analysis of 10,000+ examples from 43 agent benchmarks reveals systematic bias toward software engineering tasks, misaligned with broader U.S. labor distribution and economic value:
+### Key Findings: Strategic Modeling Sophistication
 
-- **Occupational Coverage Bias**: Benchmarks heavily emphasize "computer and mathematical" occupations (8,622 examples) over "office and administrative support" (3,186 examples) and "management" (676 examples). This is inverted relative to U.S. employment: 5.2M in computer/math vs. 18.2M in office/admin and 11M in management.
+**Convergent strategies (Gemini 2.5 Pro, Gemini 2.5 Flash, GPT-5.1)**:
+- Achieved ~0.507 evaluation likelihood when predicting each other (near-identical performance)
+- Maintained **sequential pattern tracking**: tracked frequency of moves based on previous 1-2 moves (e.g., rock→scissors→rock, rock→scissors→paper over 3 rounds)
+- Computed move values based on: (i) possible next move, (ii) bot's previous move, (iii) player's previous move
+- **Interpretation**: These models maintain more sophisticated opponent modeling than humans in this task
 
-- **Economic Value Misalignment**: Total U.S. wages for computer/math roles ($563.6B/year) are significantly lower than office/admin ($869.8B) and management ($1,326.3B), suggesting benchmarks under-represent higher-value occupational categories.
+**Human-like strategies (Humans, GPT-OSS 120B)**:
+- Humans/GPT-OSS 120B programs predicted trio at 0.476/0.403 evaluation likelihood respectively (lower performance)
+- Tracked only **opponent's latest move** (simpler pattern tracking)
+- GPT-OSS 120B computed values based on possible next move alone (most simplistic)
 
-- **Coverage Limitations**: Individual benchmarks cover <50% of work activities and <60% of skills. [[gdpval]] achieves best coverage at 47.8% of work activities and 58.5% of skills. All benchmarks combined cover only 56.5% of work activities, though 85.4% of the 41 skill categories tracked.
+### Implications for Evaluation Design
+- **Interpretability via code synthesis**: Evolutionary program optimization can reveal functional decision-making algorithms where neural network internals remain opaque
+- **Cross-model similarity detection**: Predictive performance across synthesized programs indicates strategic convergence or divergence
+- **Human-AI behavioral gaps**: Frontier LLMs may use qualitatively different (more sophisticated) strategic reasoning than humans in adversarial sequential games
+- **Model size/capability threshold**: GPT-OSS 120B (120B parameters) showed human-like rather than frontier-model-like behavior, suggesting sophistication threshold exists
 
-- **Methodology**: Used Claude 3.5 Sonnet to map benchmark examples to O*NET taxonomy (5,806 computer-based work activities and 41 skills). Employed adaptive sampling strategy: randomly sampled batches of 5 examples until coverage increase <0.1% (typically ~300 examples per benchmark, or all examples if <300 total).
-
-**Implication**: Current agent benchmarks may overstate progress on economically valuable labor automation. Agents showing rapid improvement on benchmarks like [[swe-bench]] may not translate to similar gains in administrative, financial, or managerial domains that represent larger shares of employment and economic output.
+See also: [[model-architecture]] for underlying model capabilities, [[llm-interpretability]] for related interpretation methods

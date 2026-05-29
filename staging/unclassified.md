@@ -496,3 +496,30 @@ Note: These represent broader industry trends in AI-assisted chip design beyond 
 ---
 **SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems** (Meta AI / FB Engineering, 2026-05-26T16:00:01+00:00)
 **Potential new topic: recommendation-systems or retrieval-systems** — SilverTorch represents a domain-specific architecture (recommendation/retrieval) that may warrant its own topic file if more content emerges. Currently integrated into [[model-architecture]] and [[inference-efficiency]], but the "Index as Model" paradigm, multi-task scoring, eligibility filtering, and user-tower/item-index concepts are recommendation-specific rather than general LLM architecture.
+
+---
+**Deepswe Claims To Measure Agents Better** (The Batch (DeepLearning.AI), 2026-05-29T02:00:47.424166+00:00)
+**DeepSeek V4 Pro Pricing (May 2026)**: DeepSeek made permanent a 75% price reduction on V4 Pro flagship model, dropping costs from $0.0145–$3.48 per million tokens to $0.003625–$0.87. Chinese startup frames move as cost-effective AI at scale, directly challenging OpenAI, Google, and Anthropic. Anthropic previously alleged DeepSeek performed "distillation attacks" to extract capabilities from Claude.
+
+**MAI-Image-2.5 (May 2026)**: Microsoft announced text-to-image model debuting at third place on Arena leaderboard. Improvements over predecessor in text rendering, stylized illustration, and commercial imagery. Emphasized gains in professional creative work: sharper text in posters/packaging, better scene structure/lighting, stronger product photography. Available on Arena, releasing to MAI Playground and Foundry within two weeks.
+
+**Pope Leo XIV AI Encyclical (May 2026)**: Vatican published Magnifica Humanitas, first official encyclical on AI social/moral issues. Calls for AI to be "disarmed" to avoid uses enabling domination, exclusion, or warfare. Emerged from consultations with scientists, engineers, educators, political leaders, and families. Directly addresses autonomous weapons and discriminatory algorithms. Invokes Pope Leo XIII's 1891 letter on industrial change as precedent. Core principle: humans must not be reduced to productivity metrics or data. Calls for international cooperation among nations, institutions, tech developers, and affected communities.
+
+**Project Glasswing Results (April-May 2026)**: Anthropic and ~50 Project Glasswing partners used Claude Mythos Preview to discover over 10,000 high- or critical-severity vulnerabilities across critical software systems in first month after April 2026 launch. Includes partner codebases and over 1,000 open-source projects scanned by Anthropic. [Article text cuts off mid-sentence]
+
+---
+**Everything Everywhere Is Compliance** (a16z, 2026-05-29T02:00:46.357000+00:00)
+**Compliance Market Macro Context (a16z, May 2026)**:
+- Industry: Cross-sector compliance (banking, financial services, regulated industries)
+- Business functions: AML/KYC, payroll compliance, tax filing, revenue reporting, payments, customer communications (in regulated industries)
+- Historical startup failure: Compliance has been a "graveyard for startups" due to being "schlep work" - painful, bureaucratic, paper-based
+- Why now different: Technology crossed trust threshold, not just incremental improvement
+
+**Compliance as Fastest-Growing Occupation**: Over last 20 years, compliance officers were second-fastest-growing occupation in US (after manicurists/pedicurists) - interesting labor market trend but unclear how to categorize in AI context.
+
+**Generalizability Analysis**: The document processing + computer use agents + long-horizon execution pattern described applies broadly to:
+- Healthcare: Medical records processing, insurance authorization, HIPAA compliance monitoring
+- Manufacturing: Quality compliance documentation, safety reporting, supply chain audits
+- Energy: Environmental compliance reporting, safety inspections, regulatory filings
+- Real estate: Property documentation, title review, regulatory compliance
+- Any industry with: (1) high document volume, (2) legacy systems, (3) regulatory oversight requirements

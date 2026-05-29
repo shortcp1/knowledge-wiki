@@ -8829,6 +8829,851 @@
       ],
       "status": "skipped",
       "skip_reason": "Article focuses on wealth management and estate planning for childfree clients, which does not map to any of the specified AI, semiconductor, or enterprise technology topic areas."
+    },
+    "https://www.deeplearning.ai/the-batch/deepswe-claims-to-measure-agents-better": {
+      "title": "Deepswe Claims To Measure Agents Better",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-29T02:00:47.424166+00:00",
+      "composite": 6.0,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "evals-production-deployment",
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "DeepSWE is a new software engineering benchmark claiming to address critical flaws in SWE-bench Pro, including contamination risk and test verifier accuracy problems (8.5% false positives, 25% false negatives). The benchmark contains 113 original tasks requiring an average of 668 lines of code with minimal prompting, forcing agents to discover implementation details independently, and shows 70 percentage point separation between frontier models versus 30 points on existing benchmarks. This wider separation suggests current leaderboards significantly understate real capability gaps that developers experience in production environments.",
+      "tags": [
+        "agentic-coding",
+        "benchmark-contamination",
+        "test-verifier-accuracy",
+        "swe-bench",
+        "code-generation-eval",
+        "false-positive-rate"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/qwen3-7-max-chinas-latest-top-model": {
+      "title": "Qwen3 7 Max Chinas Latest Top Model",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-29T02:00:47.059813+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-time-compute",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Qwen3.7-Max, Alibaba's latest reasoning model with extended-thinking mode and 1M token context, ranking fifth globally behind GPT-5.5 and Claude Opus 4.7. The model trades off simple question accuracy for complex agentic task performance, demonstrating 1000+ tool calls for autonomous chip kernel optimization. This reflects a design shift toward multi-step reasoning over quick responses, showing how Chinese AI labs are competing on complex reasoning benchmarks rather than general-purpose chat.",
+      "tags": [
+        "extended-thinking",
+        "reasoning-models",
+        "agentic-tasks",
+        "tool-calling",
+        "context-length",
+        "inference-latency"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.deeplearning.ai/the-batch/researchers-at-ut-austin-and-google-model-human-decision-making-in-rock-paper-scissors": {
+      "title": "Researchers At Ut Austin And Google Model Human Decision Making In Rock Paper Scissors",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-29T02:00:47.059716+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "summary": "Researchers at UT-Austin and Google developed a method using AlphaEvolve to reverse-engineer decision-making strategies by having LLMs play rock-paper-scissors and then evolving Python code to predict their moves. They found that advanced LLMs (Gemini 2.5 Pro/Flash, GPT-5.1) used similar, more sophisticated opponent-modeling strategies than humans or smaller models, achieving evaluation likelihoods around 0.507 versus 0.476 for human-like strategies. This work demonstrates a novel interpretability approach that uses evolved code as a window into understanding strategic reasoning differences between AI systems and humans.",
+      "tags": [
+        "strategic-reasoning",
+        "llm-interpretability",
+        "code-evolution",
+        "behavioral-modeling",
+        "opponent-modeling",
+        "alphaevolve"
+      ],
+      "status": "integrated"
+    },
+    "https://www.anthropic.com/news/claude-opus-4-8": {
+      "title": "Claude Opus 4 8",
+      "source": "Anthropic Blog",
+      "date": "2026-05-29T02:00:45.008169+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "agentic-workflows-production",
+        "ai-engineering-agents",
+        "ai-in-legal-compliance",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "technical",
+      "summary": "Anthropic announces Claude Opus 4.8, an incremental upgrade over 4.7 with improvements in coding, agentic tasks, reasoning, and practical knowledge work benchmarks. The article provides testimonials from early testers highlighting better judgment, tool calling efficiency, and reliability in agentic workflows, with notable performance gains on legal benchmarks and browser-agent tasks. The model is available at the same price as 4.7, with a new fast mode that is 3\u00d7 cheaper and features like user-controlled effort levels and dynamic workflows in Claude Code.",
+      "tags": [
+        "claude-opus",
+        "agentic-tasks",
+        "tool-calling",
+        "legal-agents",
+        "browser-agents",
+        "inference-speed"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement with surface-level benchmark claims and testimonials but no original analysis, methodology details, or novel frameworks that would provide deeper technical insight."
+    },
+    "https://www.anthropic.com/news/claude-design-anthropic-labs": {
+      "title": "Claude Design Anthropic Labs",
+      "source": "Anthropic Blog",
+      "date": "2026-05-29T02:00:42.256578+00:00",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-in-marketing-content",
+        "ai-native-product-design",
+        "model-architecture"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Anthropic announces Claude Design, a new product that allows users to collaborate with Claude Opus 4.7 to create visual designs, prototypes, slides, and marketing materials through natural language and iterative refinement. The system can ingest design systems from codebases, supports real-time editing with inline comments and custom sliders, and exports to various formats including direct handoff to Claude Code for implementation. This represents a move by Anthropic into multimodal creative tooling for non-technical users while maintaining enterprise design consistency.",
+      "tags": [
+        "claude-design",
+        "vision-models",
+        "design-automation",
+        "prototype-generation",
+        "design-systems",
+        "export-workflows"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement with limited technical depth or novel insights into underlying capabilities; primarily describes features and use cases rather than technical innovation or substantive analysis"
+    },
+    "https://www.anthropic.com/news/series-h": {
+      "title": "Series H",
+      "source": "Anthropic Blog",
+      "date": "2026-05-29T02:00:42.139895+00:00",
+      "composite": 3.33,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "lab-dynamics",
+        "semiconductor-supply-chain"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic announces a $65 billion Series H funding round at a $965 billion valuation, led by major VCs and including strategic investments from memory chip manufacturers. The company reports $47 billion in run-rate revenue and plans to use funds for safety research, compute expansion, and product scaling, including partnerships with AWS, Google, and SpaceX for gigawatt-scale compute capacity. This represents a significant milestone in AI lab funding scale and signals deepening integration between AI companies and semiconductor supply chain partners.",
+      "tags": [
+        "funding-round",
+        "valuation",
+        "compute-capacity",
+        "chip-manufacturers",
+        "hyperscaler-partnerships",
+        "revenue-growth"
+      ],
+      "status": "skipped",
+      "skip_reason": "Press release announcing funding with standard corporate messaging; lacks analytical depth, novel insights, or detailed technical/strategic information beyond headline metrics."
+    },
+    "https://simonwillison.net/2026/May/29/anthropic/#atom-everything": {
+      "title": "Anthropic's run-rate revenue hits $47 billion",
+      "source": "Simon Willison",
+      "date": "2026-05-29T01:23:08+00:00",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "ai-b2b-saas",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports that Anthropic's run-rate revenue reached $47 billion in May 2026, up from $30 billion in April and $14 billion in February, representing unprecedented growth velocity for any company. It presents a timeline of Anthropic's revenue announcements tied to fundraising rounds, with context about run-rate methodology (annualizing recent monthly revenue) and anecdotal evidence of enterprise spending. The piece argues these numbers are credible because they were disclosed to investors in securities contexts where fraud would have serious legal consequences.",
+      "tags": [
+        "anthropic",
+        "run-rate-revenue",
+        "fundraising",
+        "enterprise-adoption",
+        "revenue-growth",
+        "lab-scaling"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level reporting of public revenue announcements without original analysis of business model dynamics, competitive positioning, or implications for AI market structure beyond citing one skeptic and one anecdote."
+    },
+    "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything": {
+      "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+      "source": "Simon Willison",
+      "date": "2026-05-28T23:59:50+00:00",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "prompt-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "The article reports on Anthropic's Claude Opus 4.8 release, which the company explicitly describes as a 'modest but tangible improvement' focused on honesty and uncertainty flagging rather than major capability gains. The key evidence is that the model is 4x less likely to allow code flaws to pass unremarked and achieves lower hallucination rates by abstaining when uncertain, plus technical improvements like mid-conversation system messages and lower prompt cache minimums. This matters primarily as an example of more honest AI lab communication about incremental progress rather than as a significant technical advancement.",
+      "tags": [
+        "model-honesty",
+        "hallucination-reduction",
+        "prompt-caching",
+        "system-messages",
+        "incremental-improvement",
+        "claude-opus"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product release summary without original analysis or significant technical depth; primarily commentary on marketing honesty rather than substantive technical or business insights."
+    },
+    "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything": {
+      "title": "llm-anthropic 0.25.1",
+      "source": "Simon Willison",
+      "date": "2026-05-28T23:54:56+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "This article announces version 0.25.1 of llm-anthropic, a tool for accessing Anthropic's Claude models via command line. The release adds support for Claude Opus 4.8, introduces a fast mode option for enterprise accounts, and changes the default max_tokens to use each model's maximum output instead of 8,192. This is a minor incremental update to a developer tool rather than substantive analysis or research.",
+      "tags": [
+        "llm-cli-tools",
+        "claude-models",
+        "anthropic",
+        "developer-tooling"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a brief release note for a developer tool update with no original analysis, novel insights, or substantive content about AI systems, just version changelog information."
+    },
+    "https://www.latent.space/p/cognition": {
+      "title": "The Age of Async Agents \u2014 Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "source": "Latent Space Podcast",
+      "date": "2026-05-28T18:41:24+00:00",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI coding tools are evolving from synchronous, developer-in-the-loop systems (like Copilot) to asynchronous background agents that work independently on full tasks from spec to pull request. It provides evidence through Cognition's Devin evolution (16% to 80% of commits) and discusses architectural components like separated \"brain\" and machine, VMs, repo setup challenges, and orchestration patterns. This shift matters because it represents a fundamental change in software development workflow from AI-assisted coding to AI-driven end-to-end development with human oversight and orchestration.",
+      "tags": [
+        "async-agents",
+        "background-agents",
+        "coding-agents",
+        "agent-orchestration",
+        "context-engineering",
+        "spec-to-pull-request"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/": {
+      "title": "How a new extraction process could unlock the world\u2019s lithium",
+      "source": "MIT Technology Review",
+      "date": "2026-05-28T18:01:00+00:00",
+      "composite": 5.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "MIT researchers have developed a new lithium extraction process using ammonium fluoride (a weak acid found in glass etching cream) to dissolve silicate minerals at low temperatures, avoiding the energy-intensive roasting step used in conventional hard-rock mining. The method can extract lithium from spodumene ore in under 12 hours using simple plastic tanks at temperatures up to 95\u00b0C, while also recovering valuable byproducts like alumina and silica. A startup called Rock Zero is commercializing this technique, which could reduce extraction costs and carbon emissions while enabling processing of iron-rich ores that can't be handled by conventional methods.",
+      "tags": [
+        "lithium-extraction",
+        "battery-materials",
+        "spodumene-processing",
+        "ammonium-fluoride",
+        "low-temperature-chemistry",
+        "mining-alternatives"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on lithium extraction chemistry for battery materials, which is upstream of semiconductor and AI infrastructure topics; does not map to semiconductor supply chain, AI training infrastructure, or any of the specified enterprise AI application domains."
+    },
+    "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index/": {
+      "title": "The Download: climate tech goes public and the AI Hype Index returns",
+      "source": "MIT Technology Review",
+      "date": "2026-05-28T12:10:00+00:00",
+      "composite": 2.7,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "semiconductor-supply-chain",
+        "regulatory-policy",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter roundup covering multiple tech stories including climate tech IPOs, AI regulation, chip supply constraints, and various other technology news items. The content provides brief summaries with external links but no original analysis or investigation. It serves as a news aggregator rather than substantive reporting on any single topic.",
+      "tags": [
+        "newsletter",
+        "news-roundup",
+        "climate-tech-ipo",
+        "ai-regulation",
+        "chip-shortage",
+        "custom-cpus"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news aggregation with no original analysis, research, or meaningful depth on any covered topic."
+    },
+    "https://openai.com/index/endava": {
+      "title": "How Endava builds an agentic organization with Codex",
+      "source": "OpenAI News",
+      "date": "2026-05-28T12:00:00+00:00",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 6,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports that Endava, a software services company, uses OpenAI's Codex to accelerate software delivery and reduce requirements analysis time from weeks to hours through agentic automation. The key evidence provided is a single time-reduction metric for requirements analysis, without detailed technical implementation or architectural details. This matters as an early enterprise case study of code generation in production workflows, though the lack of depth limits actionable insights.",
+      "tags": [
+        "codex",
+        "requirements-analysis",
+        "software-delivery",
+        "agentic-automation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional case study with minimal technical detail, implementation specifics, or novel insights beyond basic time-saving claims."
+    },
+    "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos/": {
+      "title": "Climate tech companies are going public. What\u2019s next?",
+      "source": "MIT Technology Review",
+      "date": "2026-05-28T10:00:00+00:00",
+      "composite": 2.3,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article reports on a wave of energy companies (Fervo Energy, X-energy, and Solv Energy) going public via IPO in 2025, collectively valued at over $30 billion. It provides basic details on each company's technology (enhanced geothermal, small modular reactors, solar/battery) and their connection to rising electricity demand from data centers. The piece offers only surface-level financial and operational milestones without analysis of market dynamics, regulatory implications, or strategic significance.",
+      "tags": [
+        "climate-tech",
+        "ipo",
+        "geothermal-energy",
+        "small-modular-reactors",
+        "solar-energy",
+        "data-center-demand"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news summary of energy company IPOs with no relevance to AI/ML infrastructure, enterprise AI use cases, or semiconductor topics; lacks analytical depth or novel insights."
+    },
+    "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b": {
+      "title": "[AINews] Cognition raises $1B in $26B Series D",
+      "source": "Latent Space",
+      "date": "2026-05-28T07:26:09+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "inference-efficiency",
+        "funding-and-market-structure",
+        "agentic-workflows-production",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "Cognition raised $1B at a $26B valuation (Series D), growing 2.5x from its $10B Series C eight months prior, now projecting >$1B ARR by EOY as the largest independent AI agent lab. The article also covers technical advances in inference optimization (EAGLE 3.1 speculative decoding, kernel improvements achieving 580 tokens/s) and architectural changes (compressed sparse attention, hierarchical KV-cache) that enable sustainable API price cuts from Chinese labs. The funding and technical developments signal that AI coding agents have reached enterprise scale while inference economics are being fundamentally reshaped by attention architecture rather than just hardware.",
+      "tags": [
+        "cognition",
+        "ai-agents",
+        "inference-optimization",
+        "speculative-decoding",
+        "kv-cache",
+        "compressed-sparse-attention",
+        "enterprise-arr"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily a brief funding announcement with surface-level technical summaries aggregated from Twitter; lacks original analysis or deep technical investigation into either the business model or the inference architectures mentioned."
+    },
+    "https://openai.com/index/openai-frontier-governance-framework": {
+      "title": "OpenAI\u2019s Frontier Governance Framework",
+      "source": "OpenAI News",
+      "date": "2026-05-28T00:00:00+00:00",
+      "composite": 3.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI announces its Frontier Governance Framework describing how its internal AI safety, security, and risk practices align with emerging regulations in the EU and California. The article appears to be a brief announcement or landing page rather than detailed analysis of the framework's mechanisms or implementation details. This matters as it signals OpenAI's approach to regulatory compliance, but lacks substantive content to evaluate the framework's rigor or effectiveness.",
+      "tags": [
+        "ai-safety",
+        "frontier-models",
+        "regulatory-compliance",
+        "governance-framework",
+        "eu-regulation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement without substantive analysis, technical details, or novel insights into governance mechanisms or regulatory alignment."
+    },
+    "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI2MTIwNDMsImlhdCI6MTc4MDAyMDA0MywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.U0Emp5_cq_sg6myJMQpeiy2CpKrRm5d2qQvmWoFskoP-NkhTqhAwr36xuvN1gFYRNe8GyG76bkfgRaiEOOk7dux6kLfiJW0_0h9kbr7zgzdVrTMZs7y06AuCFshvILCMTTESWaJOM4MMztuV9gCHlMv6YWv1IqgzrHzVi3kS5jo7oXxM4tB2PM1jd-4Z4NMByCH-jyUAZRIAmSNvdtFazxM-FxI_4EVfja7dEW082l7osd3M0fkFxA-mGB8hbusOGOsHoVWdW8l68dqkt9689wsqXz3FTqOZxGEMVPrXBor1ONetLG-_5ckQjjTXGp2jRBMr9jGZXUjuS_xBzb5izQ": {
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-05-27T10:00:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article discusses SpaceX's potential IPO and the business case for data centers in space, framed through examples of Elon Musk's brand-building and scale-seeking approach with Tesla and Starlink. It provides examples like American Airlines adopting Starlink for in-flight connectivity and Tesla's shift from luxury differentiation to scaled self-driving vehicles. The piece appears incomplete but suggests that space-based infrastructure might provide financial justification for SpaceX's valuation.",
+      "tags": [
+        "spacex-ipo",
+        "starlink",
+        "data-centers-in-space",
+        "satellite-connectivity",
+        "tesla-self-driving",
+        "scale-economics"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is tangentially about space infrastructure and connectivity rather than AI/ML topics; discusses business strategy and brand building for SpaceX/Tesla without substantive connection to the specified AI-related topic areas."
+    },
+    "https://openai.com/index/election-safeguards-2026": {
+      "title": "Election information and safeguards in 2026",
+      "source": "OpenAI News",
+      "date": "2026-05-27T00:00:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "regulatory-policy"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "OpenAI announces initiatives to support election integrity in 2026, including providing access to information, supporting cybersecurity defenders, and increasing AI transparency around election-related content. The article describes company policies and partnerships but provides minimal technical detail or novel frameworks for addressing election misinformation. This represents a corporate responsibility statement rather than substantive analysis of how AI systems handle political content or evidence of effectiveness.",
+      "tags": [
+        "election-integrity",
+        "content-moderation",
+        "ai-safety-policy",
+        "misinformation",
+        "cybersecurity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate announcement with minimal depth, no novel frameworks or data, and only tangential relevance to core knowledge areas focused on AI technical architecture and enterprise deployment patterns."
+    },
+    "https://www.bain.com/insights/topics/chro-insights/": {
+      "title": "Chro Insights",
+      "source": "Bain Insights",
+      "date": "2026-05-29T02:00:51.366851+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or header template from Bain & Company's website listing their global offices and main menu structure. No actual content about CHRO insights, HR strategy, or talent management is present in the provided text. This is not an article but rather website navigation elements.",
+      "tags": [
+        "navigation-page",
+        "bain-company",
+        "website-template"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content provided - this is only a website navigation structure without any article content about CHRO insights or HR topics."
+    },
+    "https://www.bain.com/insights/what-is-agentic-ai-and-how-does-it-work-in-enterprises/": {
+      "title": "What Is Agentic Ai And How Does It Work In Enterprises",
+      "source": "Bain Insights",
+      "date": "2026-05-29T02:00:51.036520+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article provides a basic introduction to agentic AI and its enterprise applications, defining it as AI systems that can autonomously plan and execute tasks. It appears to cover standard definitions and general enterprise use cases without deep technical details or novel frameworks. The article is a surface-level overview likely aimed at business executives seeking foundational understanding rather than practitioners needing actionable insights.",
+      "tags": [
+        "agentic-ai",
+        "enterprise-ai",
+        "autonomous-systems"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level definitional content without original analysis, new data, or specific implementation frameworks that would provide actionable insights."
+    },
+    "https://www.bain.com/insights/the-560-billion-energy-question-infographic/": {
+      "title": "The 560 Billion Energy Question Infographic",
+      "source": "Bain Insights",
+      "date": "2026-05-29T02:00:50.000233+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation/structural page for a Bain & Company infographic titled 'The $560 Billion Energy Question' rather than the actual content. The article text consists entirely of website navigation menus listing Bain's offices, industries, and services. Without access to the actual infographic content, it's impossible to assess the substantive claims, evidence, or relevance to AI/semiconductor topics.",
+      "tags": [
+        "energy",
+        "infographic",
+        "consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided\u2014only website navigation structure without substantive analysis, data, or insights."
+    },
+    "https://a16z.com/everything-everywhere-is-compliance/": {
+      "title": "Everything Everywhere Is Compliance",
+      "source": "a16z",
+      "date": "2026-05-29T02:00:46.357000+00:00",
+      "composite": 6.33,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-legal-compliance",
+        "ai-governance-risk-compliance",
+        "build-vs-buy-enterprise-ai",
+        "ai-in-finance-accounting",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that compliance work, representing $40+ billion in annual US labor costs with 400,000+ officers, has historically resisted automation but is now ripe for AI transformation. It provides evidence that previous technologies like OCR achieved only ~90% accuracy (insufficient for compliance), while new Vision Language Models can meet the \"100% correct\" threshold required for trust in regulated activities like mortgage underwriting and KYC. This matters because it identifies a massive, previously intractable market now becoming accessible to AI startups due to a fundamental technology capability shift from \"good enough to pilot\" to \"good enough to trust.\"",
+      "tags": [
+        "compliance-automation",
+        "vision-language-models",
+        "document-processing",
+        "regulatory-compliance",
+        "aml-kyc",
+        "financial-services-ai"
+      ],
+      "status": "integrated"
+    },
+    "https://a16z.com/foreign-exchange-101/": {
+      "title": "Foreign Exchange 101",
+      "source": "a16z",
+      "date": "2026-05-29T02:00:46.211484+00:00",
+      "composite": 2.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This article provides a basic explainer of how cross-border payments work, using nostro/vostro accounts and the Swift messaging system as the core mechanism. It walks through a simple example of sending money from a U.S. bank (Chase) to a Japanese bank (MUFJ) using pre-funded correspondent banking relationships. The piece is an introductory educational resource that explains foundational fintech infrastructure but contains no novel insights or analysis.",
+      "tags": [
+        "cross-border-payments",
+        "foreign-exchange",
+        "correspondent-banking",
+        "swift",
+        "nostro-vostro-accounts",
+        "fintech-infrastructure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level educational content with no original analysis, novel claims, or relevance to specified AI/semiconductor topic areas; basic fintech explainer suitable for general audience but not for specialized knowledge base."
+    },
+    "https://a16z.com/avoiding-death-on-the-yellow-brick-road/": {
+      "title": "Avoiding Death On The Yellow Brick Road",
+      "source": "a16z",
+      "date": "2026-05-29T02:00:46.021156+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "lab-dynamics",
+        "build-vs-buy-enterprise-ai",
+        "ai-native-product-design",
+        "agentic-workflows-production",
+        "data-moats-proprietary-advantages",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI application layer startups should avoid competing directly with foundation model labs (OpenAI, Anthropic) on horizontal use cases like code generation and writing, which improve with raw model capability\u2014termed the 'Yellow Brick Road.' Instead, startups should focus on vertical, industry-specific problems where value comes from custom scaffolding, compliance, and operational integration rather than base model performance. This matters because it provides a strategic framework for AI entrepreneurs to identify defensible market positions against well-funded labs that are signaling they cannot solve every enterprise problem with generic AI.",
+      "tags": [
+        "vertical-ai",
+        "horizontal-vs-vertical",
+        "application-layer-defensibility",
+        "foundation-model-labs",
+        "enterprise-scaffolding",
+        "yellow-brick-road"
+      ],
+      "status": "integrated"
+    },
+    "https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good": {
+      "title": "Claude Opus 4.8 is here. Is it as good as they say?",
+      "source": "Lenny's Newsletter",
+      "date": "2026-05-28T21:35:07+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "This podcast transcript reviews early hands-on testing of Anthropic's Claude Opus 4.8, comparing it against Opus 4.7 across coding, design, and business strategy tasks. The reviewer finds Opus 4.8 excels at greenfield prototypes and one-shot features but struggles with edge cases in existing codebases, the 'last 10%' of completion, and hallucinations, with Opus 4.7 remaining preferable for data-heavy strategy work. The review provides practical insights into model selection and prompting strategies for different use cases.",
+      "tags": [
+        "claude-opus",
+        "model-comparison",
+        "coding-agents",
+        "hallucination-problems",
+        "greenfield-vs-existing-codebases",
+        "prompt-engineering"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product review without original research, novel data, or analytical frameworks; primarily anecdotal impressions from limited early access testing rather than systematic evaluation or new insights into model capabilities."
+    },
+    "https://tearsheet.co/payments/intuit-wants-to-turn-workforce-management-into-a-financial-operating-system/?utm_source=rss&utm_medium=rss&utm_campaign=intuit-wants-to-turn-workforce-management-into-a-financial-operating-system": {
+      "title": "Intuit wants to turn workforce management into a financial operating system",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-28T12:45:00+00:00",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-hr-talent",
+        "ai-b2b-saas",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Intuit is launching QuickBooks Workforce, an AI-native human capital management platform integrated into QuickBooks, to solve the operational fragmentation problem where SMBs use multiple disconnected tools for HR functions. The article argues that current SMB digitization creates operational sprawl rather than efficiency, with separate systems for payroll, benefits, hiring, and time tracking creating coordination problems. This represents Intuit's strategy to build a unified SMB operating system where finance and workforce management feed into one another, positioning accounting software as the central operational layer.",
+      "tags": [
+        "smb-workforce-management",
+        "hcm-platform",
+        "ai-native-integration",
+        "operational-fragmentation",
+        "unified-operating-system"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a product announcement with minimal technical depth, limited novel insights about AI implementation, and primarily describes a market problem rather than providing original analysis or new frameworks."
+    },
+    "https://tearsheet.co/ai-innovation/the-new-ma-logic-of-owning-the-workflow-before-ai-does/?utm_source=rss&utm_medium=rss&utm_campaign=the-new-ma-logic-of-owning-the-workflow-before-ai-does": {
+      "title": "The new M&A logic of owning the workflow before AI does",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-28T11:45:00+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-finance-accounting",
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that recent M&A activity in fintech and AI (NMI/Dwolla, Anthropic/Fractional AI, Coupa, SoFi) reflects a strategic race to own workflow infrastructure before AI systems autonomously execute those processes. The key evidence is the pattern of companies acquiring operational layers\u2014payment rails, account-to-account infrastructure, and enterprise deployment capabilities\u2014rather than just processing or model layers. This matters because it signals a shift from building AI capabilities to controlling the distribution and execution infrastructure where agentic AI will eventually operate, creating structural moats before autonomous systems commoditize higher-layer functions.",
+      "tags": [
+        "agentic-payments",
+        "workflow-infrastructure",
+        "embedded-finance",
+        "account-to-account-payments",
+        "enterprise-ai-deployment",
+        "fintech-ma"
+      ],
+      "status": "integrated"
+    },
+    "https://share.transistor.fm/s/d76e02d5": {
+      "title": "Rebooting Enterprise AI with MCP and Kubernetes",
+      "source": "Practical AI (Changelog)",
+      "date": "2026-05-28T09:00:00+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "landscape",
+      "summary": "This podcast episode discusses how AI agents are evolving from chatbots to coworker-like entities, with a focus on the infrastructure needed to manage them at enterprise scale using MCP (Model Context Protocol) and Kubernetes. The conversation covers identity management, agent orchestration, and system architecture challenges that organizations face when deploying fleets of AI agents. The discussion matters for understanding the operational and architectural requirements of enterprise AI agent deployment.",
+      "tags": [
+        "mcp",
+        "kubernetes",
+        "agent-orchestration",
+        "identity-management",
+        "enterprise-infrastructure",
+        "ai-agents"
+      ],
+      "status": "skipped",
+      "skip_reason": "Podcast format provides landscape-level discussion of emerging topics without original research, detailed analysis, or novel frameworks; lacks specific technical depth or new claims beyond synthesizing current trends in agent infrastructure."
+    },
+    "https://www.tomtunguz.com/jonathan-jaffe-office-hours-post-event/": {
+      "title": "Security in the Age of AI Agents: Office Hours with Jonathan Jaffe",
+      "source": "Tomasz Tunguz",
+      "date": "2026-05-28T00:00:00+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "agentic-workflows-production",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that AI agents are transforming security from human-managed to automated policy-governed systems, with defenders gaining equal advantage to attackers. It provides evidence from Lemonade's CISO showing security teams becoming engineering teams that build AI platforms with specialized agents for threat detection and vulnerability assessment. This matters because it suggests a shift in security paradigm where every agent needs identity management and policy controls, requiring new IAM approaches for agentic systems.",
+      "tags": [
+        "ai-agents",
+        "security-engineering",
+        "identity-management",
+        "threat-detection",
+        "automated-security",
+        "policy-governance"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://writer.com/blog/new-roundup-may-2026/": {
+      "title": "New at WRITER: Brand systems built for an AI era",
+      "source": "Writer.com Blog",
+      "date": "2026-05-28T16:02:32+00:00",
+      "composite": 3.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Writer announces product features that enforce brand consistency across AI-generated content by integrating style guides, terminology lists, and voice profiles into a unified system. The platform aims to reduce manual review bottlenecks by automatically applying brand standards to AI outputs and integrating with tools like Semrush and Google Drive. The value proposition is shifting brand governance from post-creation review to pre-configured enforcement at the generation layer.",
+      "tags": [
+        "brand-consistency",
+        "content-generation",
+        "enterprise-ai-tools",
+        "marketing-automation",
+        "style-enforcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Shallow product announcement without technical depth, novel insights, or substantive analysis of AI implementation challenges or mechanisms."
+    },
+    "https://writer.com/blog/simple-ai-agent-marketing-project-management-save-hours-automate/": {
+      "title": "Everyday automations: two simple agents that save marketers hours of work each week",
+      "source": "Writer.com Blog",
+      "date": "2026-05-28T15:59:07+00:00",
+      "composite": 4.3,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article describes two AI agents built by a marketing operations professional: one that automatically summarizes meeting transcripts from Gong and posts action items to Slack, and another that aggregates updates from multiple tools (Slack, Gmail, Asana) into a daily briefing. These agents reportedly save 5-6 hours per week by eliminating manual review and summarization work. The piece positions these as practical examples of simple workflow automation for marketing teams.",
+      "tags": [
+        "meeting-summarization",
+        "workflow-automation",
+        "slack-integration",
+        "marketing-operations",
+        "gong-transcription"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study with no novel frameworks, technical depth, or substantive analysis; primarily promotional content describing basic automation workflows without insights into implementation, effectiveness metrics, or broader implications."
+    },
+    "https://feeds.feedblitz.com/~/957419285/0/kitcesnerdseyeview~Challenges-In-Engaging-The-Disengaged-Spouse-Of-A-Client-Couple-Kitces-Carl/": {
+      "title": "Challenges In Engaging The Disengaged Spouse Of A Client Couple: Kitces & Carl 191",
+      "source": "Kitces.com",
+      "date": "2026-05-28T11:03:00+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that financial advisors should not force equal participation from both partners in a couple, recognizing that delegation of financial responsibilities is a natural and valid division of labor. It provides a framework based on ensuring the less-engaged spouse feels heard and accepts responsibility for delegation rather than requiring identical meeting attendance. This matters for client retention and relationship quality in wealth management practices, suggesting personalized engagement approaches over standardized couple participation requirements.",
+      "tags": [
+        "client-engagement",
+        "wealth-management",
+        "financial-planning",
+        "advisor-client-relationships",
+        "personalization"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on interpersonal dynamics in financial advisory rather than AI applications, tools, or transformation of the wealth management business through technology."
+    },
+    "https://news.google.com/rss/articles/CBMihAJBVV95cUxQS2hpM1NaSm5yNEstbHRzNFhwbFQ5NWt0aVNMVUlBZW1vR2cyMDA3dkNtTHdkN013TlRxYkVLLURhQldFUUtxRkZGNzRkak5Da1JzMFM5bXRPTGd2YWxhSXBqWjdfMUxhQ09UZjJPR2xGZ2ZwYjJNRXJKdTVaRkxMODlxMnN0SG05Y3RaZl9xQVNCMWFMYzY0VXBLNmZSQXBieW9vdXBZcllZNl9aWjJENmVOVVh0enUybGpDS1I5TnVhNXdkY3hXM3g2eFgzclBmcl9pMEx4TnZmemJDQ0ZMVmNtSHRNVldwTzVucDlaaVlPQVpoMDNhb292RFp6bkNacmdDXw?oc=5": {
+      "title": "Legal Tech Startup Automates 70% of Contract Review Workload Using AI.cc Multi-Model API Infrastructure - FinancialContent",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-28T09:05:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-legal-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a cookie consent page from Google rather than an actual article about legal tech AI automation. No substantive content about contract review, multi-model APIs, or AI infrastructure is present in the provided text. The article title suggests relevant content but the body contains only standard Google privacy policy boilerplate.",
+      "tags": [
+        "legal-tech",
+        "contract-review",
+        "multi-model-api"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided; only a Google cookie consent page was included in the submission."
+    },
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOM3VBRlVOdU9uMWdOTU01bXU4OXBobEh6Z1E5VUNvQXlWYjY1SGctRWxrZXFfQmdDUF9CNTcwRVVPSW5NaEJaSVVqRXNfdnBsckVqRC16aGNobmt0bDByM2x2V3dXM2pMRTZwSVZRcGV4SzFNeHBmT0pZVXlPWlJSSGlMbUNILWNTeHc3bVRVZ1Yzak90RmoyQjBEWEI1QlluYW1xeDVjbi1jV1lpX183LXB6bWVFUHc2eXd6dGpqY05ZYVFJbll5WnlWNFhwSmdTdkN0c1U3di1Xb3djd3ZZRmNuMlDSAeoBQVVfeXFMUGZhY1p3N0FoTExTS1c2Mllpb0RrLW1SVlFXR0JkdWZseU5zT0VsczdJc3ZzVnVhcml1Z0toUEN3SkJkbWpXZnZma1JWR0hhZkF3ZGUzUHVjeTNHUmlzWi1JeWNHQkprS1VzellOS1F0SXR2bXJRVFd5cGR4UUVUSk1uaEFOM2owaEU3clJVUzB6NmZHMmd0M0MxRXVsN09GUHpsQU95bzUxaTdGZS15eEdhZDUyMFBwSnN5bXBDNkUwY2tXdmJ1NU5fMUpHMGlwT19oVk5HZGtVbGZndENzbkpRMXZmU0M3OWx3?oc=5": {
+      "title": "India leads the global mid-market on AI integration but pays the steepest complexity cost: Freshworks study - Express Computer",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-28T01:57:09+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "The article title references a Freshworks study claiming India leads mid-market AI integration while facing high complexity costs. However, the actual article content provided is entirely a Google cookie consent page with no substantive information about the study, its findings, methodology, or implications. Without access to the actual article content, no meaningful evaluation of AI integration patterns, regional differences, or enterprise deployment challenges can be made.",
+      "tags": [
+        "mid-market",
+        "ai-integration",
+        "regional-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible (Google consent page only); no substantive information about AI adoption, complexity costs, or enterprise deployment to evaluate."
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQkJvanhoaVp5UHpJN1Y4NWI5OXd6T21lWXdGNXhTZEdmRUxiQWltTkM1WWczS19Yc3FXdm8xV1NFMno2TDd6djZMa2stRDFoLWkxejJTa1M2LVdfNnBxandtcHRodHM5OEQzZUljbzRnLWc3d1BTZGU2Ym03MjVfV3lEbnNhc3F4VHBPdUEweU1zUQ?oc=5": {
+      "title": "Impact, Growth and AI: Joaquim Lecha on Shaping Storyteq\u2019s Next Chapter - Little Black Book | LBBOnline",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-27T15:07:29+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than the actual article content about Joaquim Lecha and Storyteq. The text only contains Google's standard cookie policy and language selection options, with no substantive content about AI, enterprise applications, or the promised interview. Without access to the actual article, no meaningful analysis of depth, novelty, or relevance can be performed.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "Article content not accessible; only Google consent page captured, making evaluation impossible."
     }
   }
 }
