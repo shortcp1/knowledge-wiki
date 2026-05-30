@@ -705,7 +705,114 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-30
+
+**✗ 3.3** — [Milan Office Opening](https://www.anthropic.com/news/milan-office-opening)  
+*Anthropic Blog* · ai-in-product-and-engineering · ai-b2b-saas · build-vs-buy-enterprise-ai
+#enterprise_deployment #code_generation #productivity_gains #european_expansion
+> Anthropic announces its sixth European office opening in Milan to support Italian enterprise adoption of Claude AI. The article cites case studies including JAKALA freeing 70% of senior team time, Satispay compressing an 18-month roadmap to 7 months, and Bending Spoons where majority of code changes are now co-authored with Claude. This is primarily a corporate announcement with brief deployment anecdotes rather than substantive analysis of implementation challenges, technical approaches, or business model implications.
+
+**✓ 7.0** — [Planning Generated Images In Stages](https://www.deeplearning.ai/the-batch/planning-generated-images-in-stages)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency
+#diffusion_models #text_to_image_generation #staged_generation #scene_graphs
+> Meta researchers propose a fine-tuning method for text-to-image models that breaks image generation into discrete stages (plan, sketch, inspect, refine) rather than composing the whole image at once, improving control over spatial relationships and object attributes. They fine-tuned BAGEL-7B using 32,000 examples with intermediate images generated through GPT-4o-created scene graphs and FLUX.1, teaching the model to iteratively build and self-correct compositions. This staged approach addresses common failure modes in diffusion models like incorrect spatial relationships and object counting, offering better compositional control through decomposition of the generation process.
+
+**✗ 5.7** — [Gemini 3 5 Flash Pairs Smarts With Speed](https://www.deeplearning.ai/the-batch/gemini-3-5-flash-pairs-smarts-with-speed)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · agentic-workflows-production
+#mixture_of_experts #multimodal_models #agentic_capabilities #adjustable_reasoning
+> Google launched Gemini 3.5 Flash, a mixture-of-experts multimodal model that achieves near-top-tier performance on agentic and visual reasoning benchmarks while offering adjustable reasoning levels and faster inference speeds. The model demonstrates state-of-the-art performance on MMMU-Pro visual reasoning (84% accuracy) and APEX-Agents-AA agentic tasks (47.1% accuracy), though it comes at 3x the price of its predecessor at $1.50/$0.15/$9.00 per million input/cached/output tokens. This represents a significant trend in the industry toward higher-capability models with corresponding price increases, positioning mid-tier models closer to flagship performance.
+
+**✗ 5.3** — [Agents Surf The Ai Written Web](https://www.deeplearning.ai/the-batch/agents-surf-the-ai-written-web)  
+*The Batch (DeepLearning.AI)* · agentic-workflows-production · ai-governance-risk-compliance
+#agentic_traffic #web_scraping #training_data_collection #account_takeover
+> A cybersecurity firm reports that AI-driven internet traffic nearly tripled in 2025, with crawlers for training data growing 2x, scrapers growing 7x, and agentic browser traffic growing 80x year-over-year. The study analyzed over 1 quadrillion interactions and found OpenAI responsible for 69% of automated traffic, with significant portions deemed malicious including scraping for competitive intelligence and account takeover attempts. This signals both the rapid operationalization of AI agents in production environments and emerging security challenges as agents increasingly interact with web infrastructure.
+
+**✗ 4.3** — [[AINews] Founders and Forward Deployed Engineers](https://www.latent.space/p/ainews-founders-and-forward-deployed)  
+*Latent Space* · model-architecture · agentic-workflows-production · evals-production-deployment
+#claude_opus #multi_turn_rl #tokenization_bugs #agent_harnesses
+> This AINews roundup reports on Claude Opus 4.8's incremental release with mixed benchmark results and improved API features, alongside a critical bug in multi-turn RL training where re-tokenization breaks gradient application. The article highlights emerging infrastructure patterns around agent harnesses, including Effective Feedback Compute metrics and model-specific prompt/tool optimization strategies. It matters primarily as a snapshot of production deployment challenges rather than novel technical insights.
+
 ## 2026-05-29
+
+**✗ 2.7** — [Weekend Reading For Financial Planners (May 30–31)](https://feeds.feedblitz.com/~/957492509/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-May-%e2%80%93/)  
+*Kitces.com* · ai-wealth-management-advisory
+#financial_planning #wealth_management #ria_competition #tax_planning
+> This is a weekly roundup article for financial planners covering industry news, including Charles Schwab's push into wealthier client segments potentially competing with RIAs, and various articles on tax planning, cash flow planning, and writing advice. The article provides surface-level summaries of multiple topics without original analysis or depth on any single issue. It has minimal relevance to AI or technical topics, serving primarily as a digest for financial planning practitioners.
+
+**✗ 3.0** — [Live with Azeem: AI & ROI](https://www.exponentialview.co/p/live-with-azeem-ai-and-roi)  
+*Exponential View (Azeem Azhar)* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#ai_roi #enterprise_ai #live_discussion
+> This is a live discussion following up on an earlier essay about AI and ROI, but the article text provided is incomplete and contains only an introductory reference to that essay. Without access to the actual content of the discussion or the referenced essay, the substance cannot be evaluated. The format appears to be a live session recap or announcement rather than substantive analysis.
+
+**✗ 4.3** — [Enterprise Business Software and the Mixed-Up Chameleon Problem](https://blog.palantir.com/enterprise-business-software-and-the-mixed-up-chameleon-problem-f16df333bc71?source=rss----3c87dc14372f---4)  
+*Palantir Blog* · build-vs-buy-enterprise-ai · ai-in-operations
+#erp_implementation #enterprise_software #business_process_standardization #software_customization
+> The article argues that traditional ERP systems force organizations to sacrifice their unique, value-creating processes to maintain system standardization, comparing this to a chameleon losing its identity. It uses anecdotes from ERP implementation projects to illustrate how rigid software architecture prioritizes conformity over organizational differentiation. The piece suggests modern technology should enable both reliability and adaptability, allowing standard processes where appropriate while preserving competitive advantages.
+
+**✗ 5.7** — [Clouded Judgement 5.29.26 - The Second Life of a GPU](https://cloudedjudgement.substack.com/p/clouded-judgement-52926-the-second)  
+*Clouded Judgement (Jamin Ball)* · gpu-architecture-training-infra · build-vs-buy-enterprise-ai · funding-and-market-structure
+#neoclouds #gpu_infrastructure #project_finance #offtake_agreements
+> The article explores how 'Neoclouds' (GPU infrastructure providers) structure their business models and financing, particularly examining three service tiers: bare metal, managed Kubernetes, and full cloud offerings. It explains how these businesses finance data centers through project-level debt and equity, with debt amortized over 4-5 year customer contracts tied to specific offtake agreements. The key insight promised (but not fully delivered due to article truncation) is that GPU residual value after the initial contract period could significantly impact neocloud economics and returns.
+
+**✗ 2.3** — [The Download: unlocking lithium and controlling Ebola](https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/)  
+*MIT Technology Review* · 
+#newsletter_digest #lithium_extraction #anthropic_valuation #ai_safety_testing
+> This is a newsletter digest that briefly mentions multiple technology stories, including lithium extraction methods, an Ebola outbreak, the Pope's AI encyclical, and several AI industry updates (Anthropic valuation, Blue Origin explosion, AI safety tests). Each item provides only 1-3 sentences of surface-level summary without analysis or depth. The content is a news aggregation format designed for quick consumption rather than substantive insight.
+
+**✗ 3.0** — [Boston Children’s uses AI to unlock new diagnoses](https://openai.com/index/boston-childrens-hospital)  
+*OpenAI News* · ai-in-customer-success-support
+#rare_disease_diagnosis #healthcare_ai #clinical_deployment #openai
+> Boston Children's Hospital reports using OpenAI technology to diagnose over 40 rare disease cases while improving patient care and reducing operational burden. The article provides no details on the specific AI implementation, methodology, or clinical workflows involved. This is a promotional case study announcement rather than a substantive analysis of healthcare AI deployment.
+
+**✗ 3.3** — [How Braintrust turns customer requests into code with Codex](https://openai.com/index/braintrust)  
+*OpenAI News* · ai-engineering-agents · ai-in-product-and-engineering
+#codex #code_generation #customer_requests #product_development
+> Braintrust describes using OpenAI's Codex to convert customer feature requests into actual code implementations. The article presents a case study of code generation in a production setting, though details on implementation, accuracy metrics, or human-in-the-loop processes are sparse. This represents an early example of applying code generation models to customer-driven development workflows.
+
+**✗ 3.0** — [Letter from the Editor: Digital banks have different answers to what banking should become next](https://tearsheet.co/opinion/letter-from-the-editor-digital-banks-have-different-answers-to-what-banking-should-become-next/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-digital-banks-have-different-answers-to-what-banking-should-become-next)  
+*Tearsheet (fintech)* · 
+#digital_banking #neobanks #fintech_strategy #product_philosophy
+> This editorial argues that digital banks are diverging into two main categories: access-first banking (Chime, Cash App) focused on simplicity through reduction, and platform banking (N26, Monzo) focused on integration of multiple services, with Revolut as an outlier compressing all financial activities into continuous behavior-based banking. The article provides examples of different neobanks and their product philosophies around what 'simplicity' means in practice. The piece offers a framework for understanding the strategic directions of digital banking but lacks depth on business outcomes, technical implementation, or AI/technology implications.
+
+**✗ 2.7** — [The deadly Ebola outbreak is proving difficult to control](https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/)  
+*MIT Technology Review* · 
+#ebola_outbreak #bundibugyo_virus #vaccine_development #public_health_response
+> The article reports on an ongoing Ebola outbreak in the Democratic Republic of Congo caused by the Bundibugyo virus, which had resulted in 223 deaths and over 900 suspected cases by late May. The outbreak is difficult to control because there are no vaccines or treatments specific to this Bundibugyo strain (unlike the Zaire strain), and efforts are hampered by community misinformation, attacks on healthcare facilities, and regional conflict. The situation is concerning due to the virus spreading from a mining hub to neighboring districts and potentially to Uganda and South Sudan.
+
+**✗ 3.0** — [How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment](https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/)  
+*MIT Technology Review* · ai-governance-risk-compliance · regulatory-policy
+#shareholder_activism #ai_ethics #corporate_governance #religious_perspectives
+> The article discusses Pope Leo XIV's encyclical on AI, arguing that technology is never neutral and that AI governance requires collective responsibility rather than unregulated commercial development. It highlights how institutional investors and religious organizations have been filing shareholder resolutions demanding AI transparency, risk assessment, and accountability from major tech companies in the absence of meaningful government regulation. The piece frames AI governance as a moral imperative where shareholders can drive corporate responsibility when governments and corporations fail to self-regulate.
+
+**✗ 1.3** — [Indian mid-market AI complexity is a channel opportunity, but only for partners who move now - CRN Asia](https://news.google.com/rss/articles/CBMiywFBVV95cUxOc1U4QlBpYlAyMGw3a0pJQ3VCeVJVdG9YV0Z3VWdHREhzWnhTcWVyN1o4bzM0enFjemdmS0ZVRUd3VUk5WjlJX016cV9aLXMzVjdUdVFlT0FWcVJHUWpPTnY0RTJ1WVYxVXF0RmV2N01ydXZ0bHNvVzkxUHJJWFhhdDQ2U0FNcFFldmctS3ZUOTl0NU90YTNJT0hlMDF6SjBISEdjTnJQZVRvZG5ucWRZb1FadGFsby1MNmtZWm1Mcl90TWg5MzR0bkRpTQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#cookie_consent #access_wall #no_content
+> This article appears to be a sign-in wall or cookie consent page rather than substantive content about Indian mid-market AI opportunities. No actual article content is provided beyond the headline and metadata. The page contains only Google's standard privacy policy and cookie consent options with no analysis, evidence, or insights.
+
+**✗ 1.7** — [India leads the global mid-market on AI integration but pays the steepest complexity cost: New Freshworks Study - businessnewsthisweek.com](https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTnpPblhhaWpTc1BOc09MbUJESkZFSVhNeXluV3ZTdFBsTWpDRHZRd3VQeHNqVHNhbktQdnlPZmtGUU1qWjNUQ0NSNTBicm9KTmRrUHFpei1Qb1k5SG1LYWlPLUpRYVVXOFZ4WjlxM19HZVE2OVBoXzJtejZpUEZWcVBxdDJ1T1VyeUFycl9wYjNYZXQzOHVlQXVYbEIybHF4VWt2WU5aU3V3YU1VMzRLczJSSS1samJFazJyb3BMRGZNMm43N2cwWU16SEZXMjV4NjkzM0lLVmFqOEZoQXFyZU5FVlp1ZFNi?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#mid_market #ai_adoption #freshworks_study
+> The article appears to report on a Freshworks study about AI integration in mid-market companies, with India leading but facing complexity challenges. However, the actual article content is inaccessible—only Google's cookie consent dialog is provided in the text. Without the actual article content, no meaningful analysis, data, or insights can be extracted.
+
+**✗ 1.7** — [India leads the global mid-market on AI integration but pays the steepest complexity cost - ET CIO](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNa0MwYnBMeWxtSE9kRHE0cXp6RWRsNV8zOUxyUjl1M29CTlZNQ0hrcWhHYlFUcndlTGZBeGhQeUhMNkpJT3lmUkc2c2FqekNtd3NzTUJodnU4bl9ZYkpPanVGeEpwZFU5bEhKYW9QZ1hDQnpGWGsxcEdTdVZmUi1uMXIzNGM5cEY3YnhOVXVZSUx0cnVqbFkxRllITHJHQjA1TzN3dHdocW1KYXdvVVBUSjRNS3hKc2R2THdyRHJWZ2xRLUM3V3VXMFBxM0Rfb2tDVE5veXNxREhRUldPUUxQc19OZGtTNlZvZEJ5OS1n?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-operations
+#india #mid_market #ai_integration #complexity_cost
+> This article appears to discuss India's position in AI integration among mid-market companies and associated complexity costs. However, the provided text contains only a Google cookie consent page with no actual article content. Without the substantive content, it's impossible to assess the actual claims, evidence, or implications of the article.
+
+**✗ 1.7** — [datasette 1.0a31](https://simonwillison.net/2026/May/29/datasette/#atom-everything)  
+*Simon Willison* · 
+#datasette #sql_queries #data_tooling #open_source
+> This is a release announcement for Datasette 1.0a31, an open-source data exploration tool that now allows users to execute write queries and save stored queries with permission controls. The post provides a brief overview of the features with a link to more detailed documentation on the Datasette blog. It represents a product update for a data tooling project rather than analysis or research.
+
+**✗ 2.3** — [Strengthening societal resilience with Rosalind Biodefense](https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense)  
+*OpenAI News* · 
+#gpt_rosalind #biodefense #government_partnership #pandemic_preparedness
+> OpenAI announces Rosalind Biodefense, a program providing GPT-Rosalind access to vetted developers and U.S. government partners for biodefense and pandemic preparedness applications. The article offers no technical details, evidence, or implementation specifics beyond the program announcement. This is a brief product launch press release with minimal substantive information about capabilities, deployment, or impact.
+
+**✗ 4.7** — [[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode](https://www.latent.space/p/ainews-anthropic-raises-965b-series)  
+*Latent Space* · model-architecture · agentic-workflows-production · funding-and-market-structure
+#anthropic #claude_opus #dynamic_workflows #parallel_agents
+> This article reports on Anthropic's $65B Series H raise at $965B valuation, $47B revenue run-rate, and the release of Claude Opus 4.8 plus Dynamic Workflows/ultracode for parallel agent orchestration. The evidence includes company announcements, benchmark comparisons showing SOTA performance, and an example of a 750k LOC codebase rewrite in 6 days using the parallel workflows feature. This signals Anthropic's rapid ascent to potentially overtaking OpenAI across multiple dimensions including revenue and valuation, though OpenAI still leads in compute and some benchmarks.
 
 **✗ 1.0** — [Chro Insights](https://www.bain.com/insights/topics/chro-insights/)  
 *Bain Insights* · 
@@ -772,6 +879,11 @@ All articles scanned since the wiki started. Updated nightly.
 #anthropic #run_rate_revenue #fundraising #enterprise_adoption
 > The article reports that Anthropic's run-rate revenue reached $47 billion in May 2026, up from $30 billion in April and $14 billion in February, representing unprecedented growth velocity for any company. It presents a timeline of Anthropic's revenue announcements tied to fundraising rounds, with context about run-rate methodology (annualizing recent monthly revenue) and anecdotal evidence of enterprise spending. The piece argues these numbers are credible because they were disclosed to investors in securities contexts where fraud would have serious legal consequences.
 
+**✓ 9.0** — [Skill Distillation](https://www.tomtunguz.com/the-pi-agent-skill-distillation/)  
+*Tomasz Tunguz* · agentic-workflows-production · model-architecture · rag-vs-finetuning-vs-wiki
+#skill_distillation #knowledge_distillation #local_models #frontier_models
+> The article introduces 'skill distillation,' a novel technique where frontier AI models (GPT-5.1, Opus 4.7, Gemini 3 Pro) author procedural markdown files that smaller local models (Qwen 35B, Gemma 26B) execute, distinct from traditional knowledge distillation, instruction tuning, or RAG. The system operates through three layers: a local markdown knowledge base (QMD), atomic skill files written and evaluated by frontier models, and an agent loop with tool-calling capabilities across 17 Rust APIs. This approach creates inspectable, versionable procedural knowledge that enables cheaper local models to execute complex workflows by following expert-authored instructions rather than learning behaviors in their weights.
+
 ## 2026-05-28
 
 **✗ 4.3** — [Claude Opus 4.8: "a modest but tangible improvement"](https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything)  
@@ -788,6 +900,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Lenny's Newsletter* · model-architecture · ai-engineering-agents · ai-in-product-and-engineering
 #claude_opus #model_comparison #coding_agents #hallucination_problems
 > This podcast transcript reviews early hands-on testing of Anthropic's Claude Opus 4.8, comparing it against Opus 4.7 across coding, design, and business strategy tasks. The reviewer finds Opus 4.8 excels at greenfield prototypes and one-shot features but struggles with edge cases in existing codebases, the 'last 10%' of completion, and hallucinations, with Opus 4.7 remaining preferable for data-heavy strategy work. The review provides practical insights into model selection and prompting strategies for different use cases.
+
+**✗ 1.7** — [markdown-svg-renderer](https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything)  
+*Simon Willison* · 
+#markdown_rendering #svg_visualization #developer_tools #documentation_tooling
+> The article announces a markdown rendering tool that can display SVG code blocks with both rendered image and code views, supporting CORS-enabled URLs and GitHub Gists. It provides a brief description of the tool's features including paste/URL loading, standard markdown support, and toggle between editor and viewer modes. The tool appears to be a utility for viewing markdown documentation with special SVG visualization capabilities.
 
 **✓ 7.0** — [The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray](https://www.latent.space/p/cognition)  
 *Latent Space Podcast* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
@@ -980,6 +1097,11 @@ All articles scanned since the wiki started. Updated nightly.
 #spacex_ipo #starlink #data_centers_in_space #satellite_connectivity
 > The article discusses SpaceX's potential IPO and the business case for data centers in space, framed through examples of Elon Musk's brand-building and scale-seeking approach with Tesla and Starlink. It provides examples like American Airlines adopting Starlink for in-flight connectivity and Tesla's shift from luxury differentiation to scaled self-driving vehicles. The piece appears incomplete but suggests that space-based infrastructure might provide financial justification for SpaceX's valuation.
 
+**✗ 3.0** — [The SpaceX IPO and Data Centers in Space](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI2OTg0NDcsImlhdCI6MTc4MDEwNjQ0NywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.F8AsJpecboMuW4cHqd2_KKjEbjemDLvPTJnBV0aWyeyzuuoBFKCl9fzTohECJKbQ2dUL0uI8zqwNZe_WhbPEM432lqtM0u8ezNUmdg-PfUxP1pVwBZXIUpi74jLBi9od-5pk1ICJQTzw9pKx_6nrstuu_-mkLss305ViAUPHCmOuXizO_dtfKsyGz9-XKZe8XkaBf0JbWm3mnaZG7cDeur5BqjfKwquPsiNo5-VooaECrxH618UyUFoKp45khia-gUxf1dqD6tp11we3SMgIkGxWmotGHR_8vLO7ZTuzQPFvWgZEb8g93wStL7_rWvzSZzlhb4uqikrRhkJHOyovlg)  
+*Stratechery (Ben Thompson)* · 
+#starlink #spacex #satellite_connectivity #infrastructure_as_scale
+> The article discusses SpaceX's brand halo effect (comparing Tesla's consumer appeal to SpaceX's potential) and announces American Airlines' adoption of Starlink for in-flight connectivity. It emphasizes Musk's focus on scale and commoditization, drawing parallels between Tesla's shift away from luxury models and American consumerism. The piece appears incomplete but suggests exploring SpaceX's business model through the lens of infrastructure rather than traditional IPO metrics.
+
 **✗ 3.3** — [Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős](https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to)  
 *Last Week in AI* · lab-dynamics · funding-and-market-structure · model-architecture
 #openai_ipo #lawsuit_dismissal #gemini_3_5_flash #google_io
@@ -1146,6 +1268,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Last Week in AI* · model-architecture · ai-engineering-agents · funding-and-market-structure
 #gemini_3.5 #coding_agents #anthropic_funding #multimodal_video_generation
 > This podcast episode provides a weekly news roundup covering Google's Gemini 3.5 release, coding agent developments from Cursor and xAI, business updates including Musk's failed OpenAI lawsuit and Anthropic's $30B funding round, and various research/safety topics. The content is purely a summary and discussion of publicly reported news across multiple AI domains, with no original analysis or investigation. It serves as a news aggregation service for AI developments but offers no unique insights or frameworks.
+
+**✗ 2.7** — [Quoting Corey Quinn](https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything)  
+*Simon Willison* · regulatory-policy · ai-governance-risk-compliance
+#anthropic #ai_ethics #vendor_lobbying #regulatory_influence
+> This is a brief quote from Corey Quinn commenting on Anthropic co-founder Christopher Olah's alleged influence on a papal encyclical about AI, characterizing it as exceptional vendor lobbying. The quote itself provides no evidence or analysis, merely expressing commentary on what appears to be a satirical or speculative scenario involving religious authorities endorsing specific AI product limitations. The article offers no substantive content beyond the single-sentence quote and lacks any meaningful technical or business insight.
 
 **✗ 4.0** — [Chris Olah Pope Leo Encyclical](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)  
 *Anthropic Blog* · ai-governance-risk-compliance · lab-dynamics

@@ -9674,6 +9674,590 @@
       "tags": [],
       "status": "skipped",
       "skip_reason": "Article content not accessible; only Google consent page captured, making evaluation impossible."
+    },
+    "https://www.anthropic.com/news/milan-office-opening": {
+      "title": "Milan Office Opening",
+      "source": "Anthropic Blog",
+      "date": "2026-05-30T02:00:49.398492+00:00",
+      "composite": 3.33,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-b2b-saas",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Anthropic announces its sixth European office opening in Milan to support Italian enterprise adoption of Claude AI. The article cites case studies including JAKALA freeing 70% of senior team time, Satispay compressing an 18-month roadmap to 7 months, and Bending Spoons where majority of code changes are now co-authored with Claude. This is primarily a corporate announcement with brief deployment anecdotes rather than substantive analysis of implementation challenges, technical approaches, or business model implications.",
+      "tags": [
+        "enterprise-deployment",
+        "code-generation",
+        "productivity-gains",
+        "european-expansion",
+        "financial-services",
+        "engineering-acceleration"
+      ],
+      "status": "skipped",
+      "skip_reason": "Corporate announcement with surface-level case study metrics but no substantive analysis of implementation approaches, technical architecture, organizational design, or business model implications."
+    },
+    "https://www.deeplearning.ai/the-batch/planning-generated-images-in-stages": {
+      "title": "Planning Generated Images In Stages",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-30T02:00:48.705045+00:00",
+      "composite": 7.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency"
+      ],
+      "content_type": "technical",
+      "summary": "Meta researchers propose a fine-tuning method for text-to-image models that breaks image generation into discrete stages (plan, sketch, inspect, refine) rather than composing the whole image at once, improving control over spatial relationships and object attributes. They fine-tuned BAGEL-7B using 32,000 examples with intermediate images generated through GPT-4o-created scene graphs and FLUX.1, teaching the model to iteratively build and self-correct compositions. This staged approach addresses common failure modes in diffusion models like incorrect spatial relationships and object counting, offering better compositional control through decomposition of the generation process.",
+      "tags": [
+        "diffusion-models",
+        "text-to-image-generation",
+        "staged-generation",
+        "scene-graphs",
+        "compositional-control",
+        "self-correction"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/gemini-3-5-flash-pairs-smarts-with-speed": {
+      "title": "Gemini 3 5 Flash Pairs Smarts With Speed",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-30T02:00:48.680915+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "technical",
+      "summary": "Google launched Gemini 3.5 Flash, a mixture-of-experts multimodal model that achieves near-top-tier performance on agentic and visual reasoning benchmarks while offering adjustable reasoning levels and faster inference speeds. The model demonstrates state-of-the-art performance on MMMU-Pro visual reasoning (84% accuracy) and APEX-Agents-AA agentic tasks (47.1% accuracy), though it comes at 3x the price of its predecessor at $1.50/$0.15/$9.00 per million input/cached/output tokens. This represents a significant trend in the industry toward higher-capability models with corresponding price increases, positioning mid-tier models closer to flagship performance.",
+      "tags": [
+        "mixture-of-experts",
+        "multimodal-models",
+        "agentic-capabilities",
+        "adjustable-reasoning",
+        "token-pricing",
+        "visual-reasoning",
+        "inference-speed"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.deeplearning.ai/the-batch/agents-surf-the-ai-written-web": {
+      "title": "Agents Surf The Ai Written Web",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-05-30T02:00:48.678121+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "A cybersecurity firm reports that AI-driven internet traffic nearly tripled in 2025, with crawlers for training data growing 2x, scrapers growing 7x, and agentic browser traffic growing 80x year-over-year. The study analyzed over 1 quadrillion interactions and found OpenAI responsible for 69% of automated traffic, with significant portions deemed malicious including scraping for competitive intelligence and account takeover attempts. This signals both the rapid operationalization of AI agents in production environments and emerging security challenges as agents increasingly interact with web infrastructure.",
+      "tags": [
+        "agentic-traffic",
+        "web-scraping",
+        "training-data-collection",
+        "account-takeover",
+        "bot-detection",
+        "cybersecurity"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.latent.space/p/ainews-founders-and-forward-deployed": {
+      "title": "[AINews] Founders and Forward Deployed Engineers",
+      "source": "Latent Space",
+      "date": "2026-05-30T01:57:15+00:00",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture",
+        "agentic-workflows-production",
+        "evals-production-deployment",
+        "inference-efficiency",
+        "ai-engineering-agents"
+      ],
+      "content_type": "landscape",
+      "summary": "This AINews roundup reports on Claude Opus 4.8's incremental release with mixed benchmark results and improved API features, alongside a critical bug in multi-turn RL training where re-tokenization breaks gradient application. The article highlights emerging infrastructure patterns around agent harnesses, including Effective Feedback Compute metrics and model-specific prompt/tool optimization strategies. It matters primarily as a snapshot of production deployment challenges rather than novel technical insights.",
+      "tags": [
+        "claude-opus",
+        "multi-turn-rl",
+        "tokenization-bugs",
+        "agent-harnesses",
+        "effective-feedback-compute",
+        "benchmark-evaluation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news aggregation with minimal original analysis; primarily summarizes Twitter commentary and product announcements without deep technical investigation or novel frameworks"
+    },
+    "https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/": {
+      "title": "The Download: unlocking lithium and controlling Ebola",
+      "source": "MIT Technology Review",
+      "date": "2026-05-29T12:10:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest that briefly mentions multiple technology stories, including lithium extraction methods, an Ebola outbreak, the Pope's AI encyclical, and several AI industry updates (Anthropic valuation, Blue Origin explosion, AI safety tests). Each item provides only 1-3 sentences of surface-level summary without analysis or depth. The content is a news aggregation format designed for quick consumption rather than substantive insight.",
+      "tags": [
+        "newsletter-digest",
+        "lithium-extraction",
+        "anthropic-valuation",
+        "ai-safety-testing",
+        "news-aggregation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest format providing only surface-level summaries of multiple unrelated stories without substantive analysis, original research, or actionable insights on any single topic."
+    },
+    "https://openai.com/index/boston-childrens-hospital": {
+      "title": "Boston Children\u2019s uses AI to unlock new diagnoses",
+      "source": "OpenAI News",
+      "date": "2026-05-29T12:00:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-customer-success-support"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Boston Children's Hospital reports using OpenAI technology to diagnose over 40 rare disease cases while improving patient care and reducing operational burden. The article provides no details on the specific AI implementation, methodology, or clinical workflows involved. This is a promotional case study announcement rather than a substantive analysis of healthcare AI deployment.",
+      "tags": [
+        "rare-disease-diagnosis",
+        "healthcare-ai",
+        "clinical-deployment",
+        "openai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional announcement lacking technical details, implementation specifics, or meaningful analysis of the AI system's architecture, deployment challenges, or clinical validation methodology."
+    },
+    "https://openai.com/index/braintrust": {
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "source": "OpenAI News",
+      "date": "2026-05-29T12:00:00+00:00",
+      "composite": 3.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Braintrust describes using OpenAI's Codex to convert customer feature requests into actual code implementations. The article presents a case study of code generation in a production setting, though details on implementation, accuracy metrics, or human-in-the-loop processes are sparse. This represents an early example of applying code generation models to customer-driven development workflows.",
+      "tags": [
+        "codex",
+        "code-generation",
+        "customer-requests",
+        "product-development"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study lacking technical depth, implementation details, quantitative results, or novel insights about code generation in production environments."
+    },
+    "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/": {
+      "title": "The deadly Ebola outbreak is proving difficult to control",
+      "source": "MIT Technology Review",
+      "date": "2026-05-29T11:19:52+00:00",
+      "composite": 2.7,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article reports on an ongoing Ebola outbreak in the Democratic Republic of Congo caused by the Bundibugyo virus, which had resulted in 223 deaths and over 900 suspected cases by late May. The outbreak is difficult to control because there are no vaccines or treatments specific to this Bundibugyo strain (unlike the Zaire strain), and efforts are hampered by community misinformation, attacks on healthcare facilities, and regional conflict. The situation is concerning due to the virus spreading from a mining hub to neighboring districts and potentially to Uganda and South Sudan.",
+      "tags": [
+        "ebola-outbreak",
+        "bundibugyo-virus",
+        "vaccine-development",
+        "public-health-response",
+        "misinformation",
+        "healthcare-infrastructure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers public health/infectious disease outbreak with no relevance to AI, technology, semiconductors, enterprise software, or any of the specified topic areas."
+    },
+    "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/": {
+      "title": "How the Pope\u2019s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+      "source": "MIT Technology Review",
+      "date": "2026-05-29T10:00:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "The article discusses Pope Leo XIV's encyclical on AI, arguing that technology is never neutral and that AI governance requires collective responsibility rather than unregulated commercial development. It highlights how institutional investors and religious organizations have been filing shareholder resolutions demanding AI transparency, risk assessment, and accountability from major tech companies in the absence of meaningful government regulation. The piece frames AI governance as a moral imperative where shareholders can drive corporate responsibility when governments and corporations fail to self-regulate.",
+      "tags": [
+        "shareholder-activism",
+        "ai-ethics",
+        "corporate-governance",
+        "religious-perspectives",
+        "institutional-investors"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary on AI governance that rehashes widely known concerns about regulatory gaps without providing novel frameworks, data, or technical insights; primarily discusses religious framing and shareholder activism rather than substantive policy mechanisms or enterprise implementation details."
+    },
+    "https://simonwillison.net/2026/May/29/datasette/#atom-everything": {
+      "title": "datasette 1.0a31",
+      "source": "Simon Willison",
+      "date": "2026-05-29T03:32:02+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a release announcement for Datasette 1.0a31, an open-source data exploration tool that now allows users to execute write queries and save stored queries with permission controls. The post provides a brief overview of the features with a link to more detailed documentation on the Datasette blog. It represents a product update for a data tooling project rather than analysis or research.",
+      "tags": [
+        "datasette",
+        "sql-queries",
+        "data-tooling",
+        "open-source",
+        "database-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product release announcement for a general-purpose data tool with no connection to AI, ML infrastructure, enterprise AI adoption, or other specified topic areas."
+    },
+    "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense": {
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "source": "OpenAI News",
+      "date": "2026-05-29T03:00:00+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "OpenAI announces Rosalind Biodefense, a program providing GPT-Rosalind access to vetted developers and U.S. government partners for biodefense and pandemic preparedness applications. The article offers no technical details, evidence, or implementation specifics beyond the program announcement. This is a brief product launch press release with minimal substantive information about capabilities, deployment, or impact.",
+      "tags": [
+        "gpt-rosalind",
+        "biodefense",
+        "government-partnership",
+        "pandemic-preparedness",
+        "public-health"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level press release with no technical depth, novel insights, or clear mapping to relevant AI enterprise/technical topic areas; lacks substantive analysis or evidence."
+    },
+    "https://www.latent.space/p/ainews-anthropic-raises-965b-series": {
+      "title": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+      "source": "Latent Space",
+      "date": "2026-05-29T02:07:24+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "agentic-workflows-production",
+        "funding-and-market-structure",
+        "ai-engineering-agents"
+      ],
+      "content_type": "landscape",
+      "summary": "This article reports on Anthropic's $65B Series H raise at $965B valuation, $47B revenue run-rate, and the release of Claude Opus 4.8 plus Dynamic Workflows/ultracode for parallel agent orchestration. The evidence includes company announcements, benchmark comparisons showing SOTA performance, and an example of a 750k LOC codebase rewrite in 6 days using the parallel workflows feature. This signals Anthropic's rapid ascent to potentially overtaking OpenAI across multiple dimensions including revenue and valuation, though OpenAI still leads in compute and some benchmarks.",
+      "tags": [
+        "anthropic",
+        "claude-opus",
+        "dynamic-workflows",
+        "parallel-agents",
+        "agentic-coding",
+        "venture-funding",
+        "valuation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news roundup aggregating announcements and social media reactions without original analysis or technical depth; primarily recaps press releases and Twitter commentary rather than providing novel insights or frameworks."
+    },
+    "https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything": {
+      "title": "markdown-svg-renderer",
+      "source": "Simon Willison",
+      "date": "2026-05-28T19:45:14+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article announces a markdown rendering tool that can display SVG code blocks with both rendered image and code views, supporting CORS-enabled URLs and GitHub Gists. It provides a brief description of the tool's features including paste/URL loading, standard markdown support, and toggle between editor and viewer modes. The tool appears to be a utility for viewing markdown documentation with special SVG visualization capabilities.",
+      "tags": [
+        "markdown-rendering",
+        "svg-visualization",
+        "developer-tools",
+        "documentation-tooling"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a brief announcement of a general-purpose markdown rendering utility with no connection to AI, semiconductors, or any enterprise AI topics; it's a basic developer tool for viewing documentation."
+    },
+    "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI2OTg0NDcsImlhdCI6MTc4MDEwNjQ0NywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.F8AsJpecboMuW4cHqd2_KKjEbjemDLvPTJnBV0aWyeyzuuoBFKCl9fzTohECJKbQ2dUL0uI8zqwNZe_WhbPEM432lqtM0u8ezNUmdg-PfUxP1pVwBZXIUpi74jLBi9od-5pk1ICJQTzw9pKx_6nrstuu_-mkLss305ViAUPHCmOuXizO_dtfKsyGz9-XKZe8XkaBf0JbWm3mnaZG7cDeur5BqjfKwquPsiNo5-VooaECrxH618UyUFoKp45khia-gUxf1dqD6tp11we3SMgIkGxWmotGHR_8vLO7ZTuzQPFvWgZEb8g93wStL7_rWvzSZzlhb4uqikrRhkJHOyovlg": {
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-05-27T10:00:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article discusses SpaceX's brand halo effect (comparing Tesla's consumer appeal to SpaceX's potential) and announces American Airlines' adoption of Starlink for in-flight connectivity. It emphasizes Musk's focus on scale and commoditization, drawing parallels between Tesla's shift away from luxury models and American consumerism. The piece appears incomplete but suggests exploring SpaceX's business model through the lens of infrastructure rather than traditional IPO metrics.",
+      "tags": [
+        "starlink",
+        "spacex",
+        "satellite-connectivity",
+        "infrastructure-as-scale",
+        "brand-positioning"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article provides surface-level business commentary on SpaceX/Starlink with no direct relevance to specified AI, semiconductor, or enterprise technology topics; lacks technical depth or novel framework."
+    },
+    "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything": {
+      "title": "Quoting Corey Quinn",
+      "source": "Simon Willison",
+      "date": "2026-05-26T02:28:54+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 3,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a brief quote from Corey Quinn commenting on Anthropic co-founder Christopher Olah's alleged influence on a papal encyclical about AI, characterizing it as exceptional vendor lobbying. The quote itself provides no evidence or analysis, merely expressing commentary on what appears to be a satirical or speculative scenario involving religious authorities endorsing specific AI product limitations. The article offers no substantive content beyond the single-sentence quote and lacks any meaningful technical or business insight.",
+      "tags": [
+        "anthropic",
+        "ai-ethics",
+        "vendor-lobbying",
+        "regulatory-influence"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level quote with no analysis, evidence, or actionable insights; appears to reference speculative/satirical scenario rather than real developments."
+    },
+    "https://www.exponentialview.co/p/live-with-azeem-ai-and-roi": {
+      "title": "Live with Azeem: AI & ROI",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-05-29T17:00:57+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This is a live discussion following up on an earlier essay about AI and ROI, but the article text provided is incomplete and contains only an introductory reference to that essay. Without access to the actual content of the discussion or the referenced essay, the substance cannot be evaluated. The format appears to be a live session recap or announcement rather than substantive analysis.",
+      "tags": [
+        "ai-roi",
+        "enterprise-ai",
+        "live-discussion"
+      ],
+      "status": "skipped",
+      "skip_reason": "Incomplete article content consisting only of a reference to another essay; no substantive analysis, data, or frameworks present to evaluate."
+    },
+    "https://blog.palantir.com/enterprise-business-software-and-the-mixed-up-chameleon-problem-f16df333bc71?source=rss----3c87dc14372f---4": {
+      "title": "Enterprise Business Software and the Mixed-Up Chameleon Problem",
+      "source": "Palantir Blog",
+      "date": "2026-05-29T15:06:52+00:00",
+      "composite": 4.3,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that traditional ERP systems force organizations to sacrifice their unique, value-creating processes to maintain system standardization, comparing this to a chameleon losing its identity. It uses anecdotes from ERP implementation projects to illustrate how rigid software architecture prioritizes conformity over organizational differentiation. The piece suggests modern technology should enable both reliability and adaptability, allowing standard processes where appropriate while preserving competitive advantages.",
+      "tags": [
+        "erp-implementation",
+        "enterprise-software",
+        "business-process-standardization",
+        "software-customization",
+        "organizational-identity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary on a well-known ERP tension without novel frameworks, data, or actionable insights; lacks connection to AI/ML technologies or specific modern solutions"
+    },
+    "https://cloudedjudgement.substack.com/p/clouded-judgement-52926-the-second": {
+      "title": "Clouded Judgement 5.29.26 - The Second Life of a GPU",
+      "source": "Clouded Judgement (Jamin Ball)",
+      "date": "2026-05-29T13:04:51+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "build-vs-buy-enterprise-ai",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article explores how 'Neoclouds' (GPU infrastructure providers) structure their business models and financing, particularly examining three service tiers: bare metal, managed Kubernetes, and full cloud offerings. It explains how these businesses finance data centers through project-level debt and equity, with debt amortized over 4-5 year customer contracts tied to specific offtake agreements. The key insight promised (but not fully delivered due to article truncation) is that GPU residual value after the initial contract period could significantly impact neocloud economics and returns.",
+      "tags": [
+        "neoclouds",
+        "gpu-infrastructure",
+        "project-finance",
+        "offtake-agreements",
+        "residual-value",
+        "bare-metal"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://tearsheet.co/opinion/letter-from-the-editor-digital-banks-have-different-answers-to-what-banking-should-become-next/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-digital-banks-have-different-answers-to-what-banking-should-become-next": {
+      "title": "Letter from the Editor: Digital banks have different answers to what banking should become next",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-05-29T11:45:00+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This editorial argues that digital banks are diverging into two main categories: access-first banking (Chime, Cash App) focused on simplicity through reduction, and platform banking (N26, Monzo) focused on integration of multiple services, with Revolut as an outlier compressing all financial activities into continuous behavior-based banking. The article provides examples of different neobanks and their product philosophies around what 'simplicity' means in practice. The piece offers a framework for understanding the strategic directions of digital banking but lacks depth on business outcomes, technical implementation, or AI/technology implications.",
+      "tags": [
+        "digital-banking",
+        "neobanks",
+        "fintech-strategy",
+        "product-philosophy",
+        "financial-services"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a high-level editorial about digital banking strategy that does not map to any of the specified AI, semiconductor, or enterprise AI adoption topics; lacks technical depth and actionable insights."
+    },
+    "https://www.tomtunguz.com/the-pi-agent-skill-distillation/": {
+      "title": "Skill Distillation",
+      "source": "Tomasz Tunguz",
+      "date": "2026-05-29T00:00:00+00:00",
+      "composite": 9.0,
+      "depth": 8,
+      "novelty": 9,
+      "relevance": 10,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "model-architecture",
+        "rag-vs-finetuning-vs-wiki",
+        "ai-engineering-agents",
+        "prompt-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "The article introduces 'skill distillation,' a novel technique where frontier AI models (GPT-5.1, Opus 4.7, Gemini 3 Pro) author procedural markdown files that smaller local models (Qwen 35B, Gemma 26B) execute, distinct from traditional knowledge distillation, instruction tuning, or RAG. The system operates through three layers: a local markdown knowledge base (QMD), atomic skill files written and evaluated by frontier models, and an agent loop with tool-calling capabilities across 17 Rust APIs. This approach creates inspectable, versionable procedural knowledge that enables cheaper local models to execute complex workflows by following expert-authored instructions rather than learning behaviors in their weights.",
+      "tags": [
+        "skill-distillation",
+        "knowledge-distillation",
+        "local-models",
+        "frontier-models",
+        "procedural-knowledge",
+        "agent-architecture",
+        "markdown-workflows"
+      ],
+      "status": "integrated"
+    },
+    "https://feeds.feedblitz.com/~/957492509/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-May-%e2%80%93/": {
+      "title": "Weekend Reading For Financial Planners (May 30\u201331)",
+      "source": "Kitces.com",
+      "date": "2026-05-29T18:00:07+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a weekly roundup article for financial planners covering industry news, including Charles Schwab's push into wealthier client segments potentially competing with RIAs, and various articles on tax planning, cash flow planning, and writing advice. The article provides surface-level summaries of multiple topics without original analysis or depth on any single issue. It has minimal relevance to AI or technical topics, serving primarily as a digest for financial planning practitioners.",
+      "tags": [
+        "financial-planning",
+        "wealth-management",
+        "ria-competition",
+        "tax-planning",
+        "cash-flow-planning"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news digest with no original analysis, minimal AI/technical relevance, and no novel insights or frameworks."
+    },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc1U4QlBpYlAyMGw3a0pJQ3VCeVJVdG9YV0Z3VWdHREhzWnhTcWVyN1o4bzM0enFjemdmS0ZVRUd3VUk5WjlJX016cV9aLXMzVjdUdVFlT0FWcVJHUWpPTnY0RTJ1WVYxVXF0RmV2N01ydXZ0bHNvVzkxUHJJWFhhdDQ2U0FNcFFldmctS3ZUOTl0NU90YTNJT0hlMDF6SjBISEdjTnJQZVRvZG5ucWRZb1FadGFsby1MNmtZWm1Mcl90TWg5MzR0bkRpTQ?oc=5": {
+      "title": "Indian mid-market AI complexity is a channel opportunity, but only for partners who move now - CRN Asia",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-29T08:23:55+00:00",
+      "composite": 1.33,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be a sign-in wall or cookie consent page rather than substantive content about Indian mid-market AI opportunities. No actual article content is provided beyond the headline and metadata. The page contains only Google's standard privacy policy and cookie consent options with no analysis, evidence, or insights.",
+      "tags": [
+        "cookie-consent",
+        "access-wall",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content beyond a sign-in wall and cookie consent page, preventing any meaningful analysis of the claimed topic about Indian mid-market AI complexity and channel partnerships."
+    },
+    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTnpPblhhaWpTc1BOc09MbUJESkZFSVhNeXluV3ZTdFBsTWpDRHZRd3VQeHNqVHNhbktQdnlPZmtGUU1qWjNUQ0NSNTBicm9KTmRrUHFpei1Qb1k5SG1LYWlPLUpRYVVXOFZ4WjlxM19HZVE2OVBoXzJtejZpUEZWcVBxdDJ1T1VyeUFycl9wYjNYZXQzOHVlQXVYbEIybHF4VWt2WU5aU3V3YU1VMzRLczJSSS1samJFazJyb3BMRGZNMm43N2cwWU16SEZXMjV4NjkzM0lLVmFqOEZoQXFyZU5FVlp1ZFNi?oc=5": {
+      "title": "India leads the global mid-market on AI integration but pays the steepest complexity cost: New Freshworks Study - businessnewsthisweek.com",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-29T06:50:21+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to report on a Freshworks study about AI integration in mid-market companies, with India leading but facing complexity challenges. However, the actual article content is inaccessible\u2014only Google's cookie consent dialog is provided in the text. Without the actual article content, no meaningful analysis, data, or insights can be extracted.",
+      "tags": [
+        "mid-market",
+        "ai-adoption",
+        "freshworks-study"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is completely inaccessible; only cookie consent page was provided with no actual reporting, analysis, or substantive information."
+    },
+    "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNa0MwYnBMeWxtSE9kRHE0cXp6RWRsNV8zOUxyUjl1M29CTlZNQ0hrcWhHYlFUcndlTGZBeGhQeUhMNkpJT3lmUkc2c2FqekNtd3NzTUJodnU4bl9ZYkpPanVGeEpwZFU5bEhKYW9QZ1hDQnpGWGsxcEdTdVZmUi1uMXIzNGM5cEY3YnhOVXVZSUx0cnVqbFkxRllITHJHQjA1TzN3dHdocW1KYXdvVVBUSjRNS3hKc2R2THdyRHJWZ2xRLUM3V3VXMFBxM0Rfb2tDVE5veXNxREhRUldPUUxQc19OZGtTNlZvZEJ5OS1n?oc=5": {
+      "title": "India leads the global mid-market on AI integration but pays the steepest complexity cost - ET CIO",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-29T04:00:19+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-operations"
+      ],
+      "content_type": "landscape",
+      "summary": "This article appears to discuss India's position in AI integration among mid-market companies and associated complexity costs. However, the provided text contains only a Google cookie consent page with no actual article content. Without the substantive content, it's impossible to assess the actual claims, evidence, or implications of the article.",
+      "tags": [
+        "india",
+        "mid-market",
+        "ai-integration",
+        "complexity-cost"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive article content provided - only a Google cookie consent page was included in the submission."
     }
   }
 }
