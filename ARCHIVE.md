@@ -705,7 +705,54 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-05-31
+
+**✗ 4.0** — [How To Architect For Agentic Ai](https://www.bain.com/insights/how-to-architect-for-agentic-ai/)  
+*Bain Insights* · agentic-workflows-production · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#agentic_ai #enterprise_architecture #ai_implementation
+> The article appears to be a Bain consulting piece on architecting for agentic AI systems, though the actual content is truncated and consists primarily of navigation elements. Based on the title, it likely discusses organizational and technical architecture patterns for deploying agent-based AI systems in enterprise contexts. Without the substantive article text, the scoring reflects the lack of depth and novelty in what's provided.
+
+**✗ 5.0** — [Forward Deployed Engineers And The Future Of Ai Engineering](https://www.deeplearning.ai/the-batch/forward-deployed-engineers-and-the-future-of-ai-engineering)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production · ai-org-design-headcount
+#forward_deployed_engineers #ai_engineer_roles #agentic_workflows #vendor_lock_in
+> Andrew Ng argues that while Forward Deployed Engineers (FDEs) embedded in client organizations are a buzzy new role, general AI Engineers will be far more numerous as companies prefer their own employees and vendor-neutral solutions. He suggests the current generalist AI Engineer role will fragment into specialized positions like LLMOps Engineers, Evals Engineers, and AI Data Engineers as the field matures. This matters because it reframes the FDE trend as just one small part of a much larger transformation in engineering job specialization driven by AI adoption.
+
+**✗ 5.3** — [Europe Pauses Some Ai Regulations](https://www.deeplearning.ai/the-batch/europe-pauses-some-ai-regulations)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · ai-governance-risk-compliance
+#ai_act #regulatory_compliance #high_risk_ai_systems #eu_regulation
+> The European Union agreed to weaken and delay key provisions of its AI Act after businesses argued the regulations made European companies less competitive, extending compliance deadlines for high-risk AI systems from August 2026 to December 2027 and simplifying oversight requirements. The amendments streamline enforcement, provide exemptions for smaller companies and industrial machinery, allow use of personal data for bias mitigation, and extend deadlines for watermarking and sandbox testing requirements. This represents a significant policy reversal in response to industry pressure, potentially reshaping the global regulatory landscape for AI as other jurisdictions watch Europe's approach.
+
+**✗ 5.3** — [Kimi K2 6 Matches Open Qwen3 6 Max Anddeepseek V4 Falls Just Behind Top Closed Models](https://www.deeplearning.ai/the-batch/kimi-k2-6-matches-open-qwen3-6-max-anddeepseek-v4-falls-just-behind-top-closed-models)  
+*The Batch (DeepLearning.AI)* · model-architecture · ai-engineering-agents · agentic-workflows-production
+#mixture_of_experts #multi_agent_orchestration #int4_quantization #vision_language_model
+> Moonshot AI released Kimi K2.6, a 1 trillion-parameter mixture-of-experts vision-language model that matches open-weights leaders like Qwen3.6 Max and DeepSeek V4 but trails top closed models. The model features extended autonomous coding sessions, multi-agent orchestration with up to 300 parallel agents executing 4,000 steps, native INT4 quantization, and a 256K token context window. It represents incremental progress in open-weights models with particular focus on agentic coding workflows, though architectural details and training methods remain undisclosed.
+
+**✗ 4.0** — [Quoting Karen Kwok for Reuters Breakingviews](https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything)  
+*Simon Willison* · ai-pricing-packaging-saas · funding-and-market-structure
+#run_rate_revenue #anthropic #consumption_pricing #revenue_metrics
+> The article reports how Anthropic calculates its "run-rate revenue" metric by multiplying 28 days of consumption-based sales by 13 and adding that to monthly subscriptions multiplied by 12. This is attributed to an anonymous source familiar with the matter and reported via Reuters Breakingviews. The definition matters for understanding how AI companies report their financial performance to investors, though it's a brief quote without analysis.
+
 ## 2026-05-30
+
+**✗ 5.3** — [How we contain Claude across products](https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything)  
+*Simon Willison* · ai-governance-risk-compliance · agentic-workflows-production · evals-production-deployment
+#sandboxing #security_containment #agent_safety #gvisor
+> The article summarizes Anthropic's published documentation on sandbox security techniques used across Claude.ai, Claude Code, and Cowork to contain AI agents, including process sandboxes, VMs, and egress controls. It highlights specific implementations like gVisor for Claude.ai and platform-specific tools for Claude Code, plus mentions previously discovered exfiltration vectors. The documentation represents progress in transparency around AI safety infrastructure, though the article itself is a brief summary rather than original analysis.
+
+**✗ 3.0** — [Running Python ASGI apps in the browser via Pyodide + a service worker](https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything)  
+*Simon Willison* · 
+#pyodide #service_workers #asgi #webassembly
+> The article describes running Python ASGI web applications entirely in the browser using Pyodide (Python in WebAssembly) and service workers to intercept HTTP requests, eliminating the need for a backend server. The author demonstrates this approach with FastAPI and Datasette, showing it overcomes previous limitations of Web Workers that prevented JavaScript execution in script tags. This represents a technical advancement in client-side Python execution but is primarily a web development technique rather than AI infrastructure or application.
+
+**✗ 2.3** — [🧠 Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health-tech PM, and more](https://www.lennysnewsletter.com/p/community-wisdom-catching-people)  
+*Lenny's Newsletter* · ai-org-design-headcount
+#community_discussion #interview_process #product_management
+> This is a community roundup newsletter that briefly mentions detecting AI use during interviews and organizational design challenges among other general product management topics. The article provides no actual content beyond headlines and a paywall notice, offering no evidence, analysis, or actionable insights. It appears to be a curator-style summary of Slack conversations rather than original analysis or research.
+
+**✗ 1.7** — [TeamCentral Emphasizes Canonical Data Layer as Core Advantage in Mid-Market AI Infrastructure - TipRanks](https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS1lqZnViZ2dablcyM3VBREdfU1pCelVGd09PTEJtdGJJVWJzOHZwbW1zRGxzWEJaOHhSUmZ4b3BaOTB5X0xRUEpCREg3TUVHN3dwMzF4TFhKeGtIdml5QzZEUW9nblBicENrTHlkOGx5YXJ2VEwyX3hoQW8xcXhjRS1IOWl1Umt3b1JUT1FYYUh1eXFGTjgxZG8tVGNFR0NjcTBVWUdsa0hud0d6WTBpOWRHWWpQLXd2Q0Joc193Nm1hWUc0LWdfUGZEODBnbVlONGhteEpKWU0?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering
+#canonical_data_layer #mid_market #ai_infrastructure
+> The article appears to discuss TeamCentral's positioning around a canonical data layer as a competitive advantage in mid-market AI infrastructure, but the actual content is obscured by a Google cookie consent page. No substantive claims, evidence, or analysis about the technology, market positioning, or implications are accessible. The article cannot be evaluated for quality as the content itself is not present.
 
 **✗ 3.3** — [Milan Office Opening](https://www.anthropic.com/news/milan-office-opening)  
 *Anthropic Blog* · ai-in-product-and-engineering · ai-b2b-saas · build-vs-buy-enterprise-ai
@@ -748,6 +795,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Palantir Blog* · build-vs-buy-enterprise-ai · ai-in-operations
 #erp_implementation #enterprise_software #business_process_standardization #software_customization
 > The article argues that traditional ERP systems force organizations to sacrifice their unique, value-creating processes to maintain system standardization, comparing this to a chameleon losing its identity. It uses anecdotes from ERP implementation projects to illustrate how rigid software architecture prioritizes conformity over organizational differentiation. The piece suggests modern technology should enable both reliability and adaptability, allowing standard processes where appropriate while preserving competitive advantages.
+
+**✗ 1.7** — [India's mid-market firms lead in AI adoption but face rising complexity costs: Freshworks Report - Dailyhunt](https://news.google.com/rss/articles/CBMiiwJBVV95cUxOcEhEdXpOZl9fR2YzZjFucjh0eE45TmlBald3d2poWG1McFdyeTBSZTlITGp0bnhyaWI1OGh1MjloRlBYakZrOERjQ0ZuWFM1bVJwN3Y0YmRKMUJCNVh0X0dBam95eXZNY1R0ckpMUC1yVld3ellwTGJMd0c3cXJDb2daT2pIcmhIUVAwTUlDYkJPVms4MFBWcDBQVlEza3NxbjRSM1BzbXZ6UHdQTGNEYUo2WUc4ZmN4YUQ5VkRjNlVtdGxCU3ZITzlTS3VPSWplYTYxZ2lYc2s3TjFCcS1ISkdPMlROdlpkdlFXMXUzTTBINjE4dTgyR2tvVVFvX3pmUFB5ZWFTSVVRenM?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#mid_market #enterprise_ai_adoption #india
+> The article title suggests a Freshworks report on AI adoption among India's mid-market firms facing complexity costs. However, the provided text contains only Google's cookie consent dialog without any actual article content. Without the substantive content, no meaningful analysis of depth, novelty, or specific claims can be performed.
 
 **✗ 5.7** — [Clouded Judgement 5.29.26 - The Second Life of a GPU](https://cloudedjudgement.substack.com/p/clouded-judgement-52926-the-second)  
 *Clouded Judgement (Jamin Ball)* · gpu-architecture-training-infra · build-vs-buy-enterprise-ai · funding-and-market-structure
@@ -879,6 +931,11 @@ All articles scanned since the wiki started. Updated nightly.
 #anthropic #run_rate_revenue #fundraising #enterprise_adoption
 > The article reports that Anthropic's run-rate revenue reached $47 billion in May 2026, up from $30 billion in April and $14 billion in February, representing unprecedented growth velocity for any company. It presents a timeline of Anthropic's revenue announcements tied to fundraising rounds, with context about run-rate methodology (annualizing recent monthly revenue) and anecdotal evidence of enterprise spending. The piece argues these numbers are credible because they were disclosed to investors in securities contexts where fraud would have serious legal consequences.
 
+**✗ 4.7** — [A shared playbook for trustworthy third party evaluations](https://openai.com/index/trustworthy-third-party-evaluations-foundations)  
+*OpenAI News* · evals-production-deployment · ai-governance-risk-compliance
+#third_party_evaluations #model_safety #evaluation_frameworks #frontier_models
+> OpenAI proposes a framework for conducting trustworthy third-party evaluations of AI systems, focusing on assessing model capabilities, safeguards, and validity for frontier models. The article provides guidance on standardizing evaluation methodologies to ensure consistent and reliable assessment across different evaluators and systems. This matters for establishing industry norms around AI safety testing and enabling more credible independent audits of advanced AI systems.
+
 **✓ 9.0** — [Skill Distillation](https://www.tomtunguz.com/the-pi-agent-skill-distillation/)  
 *Tomasz Tunguz* · agentic-workflows-production · model-architecture · rag-vs-finetuning-vs-wiki
 #skill_distillation #knowledge_distillation #local_models #frontier_models
@@ -956,6 +1013,11 @@ All articles scanned since the wiki started. Updated nightly.
 #climate_tech #ipo #geothermal_energy #small_modular_reactors
 > The article reports on a wave of energy companies (Fervo Energy, X-energy, and Solv Energy) going public via IPO in 2025, collectively valued at over $30 billion. It provides basic details on each company's technology (enhanced geothermal, small modular reactors, solar/battery) and their connection to rising electricity demand from data centers. The piece offers only surface-level financial and operational milestones without analysis of market dynamics, regulatory implications, or strategic significance.
 
+**✗ 2.7** — [The AI Hype Index: AI gets booed in graduation season](https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/)  
+*MIT Technology Review* · regulatory-policy · ai-org-design-headcount
+#public_sentiment #job_displacement #ai_skepticism #workforce_anxiety
+> The article reports on growing public skepticism toward AI, evidenced by graduation audiences booing AI-focused commencement speeches from figures like Eric Schmidt. It provides anecdotal evidence from multiple universities where graduates reacted negatively to optimistic AI messaging, contrasting this with continued AI industry success and celebrity endorsements. This illustrates a disconnect between AI industry momentum and public sentiment, particularly among those entering the workforce concerned about job displacement.
+
 **✗ 1.7** — [Legal Tech Startup Automates 70% of Contract Review Workload Using AI.cc Multi-Model API Infrastructure - FinancialContent](https://news.google.com/rss/articles/CBMihAJBVV95cUxQS2hpM1NaSm5yNEstbHRzNFhwbFQ5NWt0aVNMVUlBZW1vR2cyMDA3dkNtTHdkN013TlRxYkVLLURhQldFUUtxRkZGNzRkak5Da1JzMFM5bXRPTGd2YWxhSXBqWjdfMUxhQ09UZjJPR2xGZ2ZwYjJNRXJKdTVaRkxMODlxMnN0SG05Y3RaZl9xQVNCMWFMYzY0VXBLNmZSQXBieW9vdXBZcllZNl9aWjJENmVOVVh0enUybGpDS1I5TnVhNXdkY3hXM3g2eFgzclBmcl9pMEx4TnZmemJDQ0ZMVmNtSHRNVldwTzVucDlaaVlPQVpoMDNhb292RFp6bkNacmdDXw?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-legal-compliance
 #legal_tech #contract_review #multi_model_api
@@ -1016,6 +1078,11 @@ All articles scanned since the wiki started. Updated nightly.
 #ai_safety #frontier_models #regulatory_compliance #governance_framework
 > OpenAI announces its Frontier Governance Framework describing how its internal AI safety, security, and risk practices align with emerging regulations in the EU and California. The article appears to be a brief announcement or landing page rather than detailed analysis of the framework's mechanisms or implementation details. This matters as it signals OpenAI's approach to regulatory compliance, but lacks substantive content to evaluate the framework's rigor or effectiveness.
 
+**✗ 3.7** — [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg)  
+*OpenAI News* · ai-in-finance-accounting · build-vs-buy-enterprise-ai
+#chatgpt_enterprise #financial_services #enterprise_adoption #ai_native_transformation
+> MUFG (Mitsubishi UFJ Financial Group) is deploying ChatGPT Enterprise across its organization to become AI-native and develop AI-powered financial services. The article provides no specific evidence, mechanisms, implementation details, or quantitative results about the deployment. This represents a high-level announcement of enterprise AI adoption in financial services but lacks the depth needed to understand implementation approach or business impact.
+
 **✗ 5.7** — [Security in the Age of AI Agents: Office Hours with Jonathan Jaffe](https://www.tomtunguz.com/jonathan-jaffe-office-hours-post-event/)  
 *Tomasz Tunguz* · ai-governance-risk-compliance · agentic-workflows-production · ai-org-design-headcount
 #ai_agents #security_engineering #identity_management #threat_detection
@@ -1071,6 +1138,11 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Mid-Market Enterprise* · ai-org-design-headcount · build-vs-buy-enterprise-ai
 #ai_budget #mid_market #complexity_cost
 > The article title claims mid-sized companies lose 25% of AI budgets to complexity, but the provided text contains only a Google cookie consent dialog with no actual article content. No evidence, mechanisms, or analysis can be extracted from this page. This appears to be a content extraction error rather than substantive reporting.
+
+**✗ 4.0** — [Mid‑Market Companies Lose an Average of 25% of Their AI Budget Before Seeing a Single Return, New Freshworks Research Finds - The Globe and Mail](https://news.google.com/rss/articles/CBMisgJBVV95cUxQLUdlUjVVeDk4S2o1UzNBLUZGY003NU1xdGF2MGJfUDNuZm1pZkRXWmNneGdMOER4R09ja3pqMjRVd1N4UjhGOG1lWjBlQkEtZWViWHpqeTBWdlBFTVlMTW5lY051MnVHeUdaVFhvcndoY05saEhpLUxldVlPVS14bmFSYVVxa1o0cExYWnNMSHF0djRmMGlsNHhtN1kyWUZwN1docklGWHZweGZ0UkJHQVhCcEszVVhLNmVFNkdVYXJ1ekpTb1FvVVpEeFFvTUJCVWRSSWJsXzAwVGpuaXhza0FfeWd1UGlCUmM4N2FVdGtpX2dwbEtKM0RIV21HWW1sUkRfNzBzTG9LYThwWWtfY0twWk1MX3V4RU9mMGFmMW9nckUtQmNXaElFQ1NCcERrY2c?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount · ai-governance-risk-compliance
+#mid_market #ai_budget #roi #implementation_waste
+> Freshworks research claims mid-market companies waste 25% of AI budgets before achieving returns, though the actual article content is blocked by a cookie consent wall. The headline suggests evidence of AI implementation inefficiency in the mid-market segment. This would matter for understanding enterprise AI adoption challenges and budget allocation, but the inaccessible content prevents validation.
 
 **✗ 3.3** — [The uneven geography of modern finance: AI, branches, and BNPL](https://tearsheet.co/10-q/the-uneven-geography-of-modern-finance-ai-branches-and-bnp/?utm_source=rss&utm_medium=rss&utm_campaign=the-uneven-geography-of-modern-finance-ai-branches-and-bnp)  
 *Tearsheet (fintech)* · ai-in-finance-accounting
