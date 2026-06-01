@@ -705,7 +705,49 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-01
+
+**✗ 3.7** — [Tech Giants Including Alphabet Amazon Meta And Microsoft Acknowledge Ais Strain On Environment](https://www.deeplearning.ai/the-batch/tech-giants-including-alphabet-amazon-meta-and-microsoft-acknowledge-ais-strain-on-environment)  
+*The Batch (DeepLearning.AI)* · ai-governance-risk-compliance · regulatory-policy
+#data_center_energy #carbon_emissions #natural_gas #sustainability
+> Major tech companies (Alphabet, Amazon, Meta, Microsoft) are acknowledging that their AI infrastructure buildout is undermining their previous greenhouse gas reduction commitments, with emissions rising 33-60% since 2019-2020. The companies are turning to natural gas power plants in the near term while investing in future clean energy sources like geothermal and nuclear that won't come online until the 2030s. This represents a tension between AI scaling ambitions and corporate climate pledges, with companies now characterizing net-zero goals as "moonshots" rather than firm commitments.
+
+**✗ 5.7** — [Openai And Microsoft Sever Their Exclusive Relationship](https://www.deeplearning.ai/the-batch/openai-and-microsoft-sever-their-exclusive-relationship)  
+*The Batch (DeepLearning.AI)* · lab-dynamics · build-vs-buy-enterprise-ai · gpu-architecture-training-infra
+#cloud_partnerships #model_distribution #training_infrastructure #deepseek_v4
+> OpenAI has ended its exclusive cloud partnership with Microsoft, allowing OpenAI to distribute models on AWS and Google Cloud while Microsoft remains primary cloud partner through 2032 with modified revenue-sharing terms. The article also reports on DeepSeek V4's mixed performance against competitors and massive funding deals where Google ($40B) and Amazon ($25B) are investing in Anthropic tied to cloud infrastructure. These shifts reflect rapidly evolving power dynamics in AI model distribution, training infrastructure access, and the strategic importance of compute partnerships in the competitive landscape.
+
+**✗ 5.7** — [Openais Latest Model Gpt 5 5 Tops Leaderboards For Coding Visual Puzzles And Overall Intelligence](https://www.deeplearning.ai/the-batch/openais-latest-model-gpt-5-5-tops-leaderboards-for-coding-visual-puzzles-and-overall-intelligence)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-time-compute · evals-production-deployment
+#inference_time_reasoning #vision_language_models #hallucination_calibration #agentic_coding
+> OpenAI released GPT-5.5, a vision-language model that tops leaderboards for coding, visual reasoning (ARC-AGI-2), and overall intelligence (Artificial Analysis Intelligence Index), though it shows higher rates of confident hallucination. The model features five levels of inference-time reasoning, parallel reasoning token processing in the Pro variant, and API pricing roughly double GPT-5.4 rates. While it achieves state-of-the-art performance on objective benchmarks like Terminal-Bench 2.0 and OSWorld-Verified, it ranks lower on metrics that penalize confident mistakes versus acknowledging uncertainty.
+
 ## 2026-05-31
+
+**✗ 1.3** — [datasette 1.0a32](https://simonwillison.net/2026/May/31/datasette/#atom-everything)  
+*Simon Willison* · 
+#datasette #release_notes #bugfix #service_workers
+> This is a brief release note announcing Datasette 1.0a32, a minor bugfix release for an open-source data exploration tool. The release fixes bugs related to INSERT...RETURNING queries and base_url issues discovered during Service Worker experimentation. This is purely a maintenance update with no substantive analysis, novel insights, or relevance to AI/enterprise topics.
+
+**✗ 5.3** — [The solution might be cancelling my AI subscription](https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#coding_agents #productivity_paradox #project_maintenance #attention_management
+> The article discusses a productivity paradox where AI coding agents enable rapid creation of polished projects in under an hour, but this leads to project proliferation without maintenance commitment or real value creation. The author and cited post argue this creates an 'ADHD amplifier' effect, though HN comments show some ADHD users experience the opposite—finding AI helps them focus and complete projects for the first time. The key tension is between AI's ability to reduce friction in creation versus the sustainable management of what gets created.
+
+**✗ 4.7** — [A rational conversation on where AI is actually going | Benedict Evans](https://www.lennysnewsletter.com/p/a-rational-conversation-on-where)  
+*Lenny's Newsletter* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai · ai-native-product-design
+#ai_maturity_stage #value_capture #distribution_moat #task_vs_job_automation
+> Benedict Evans argues we're in the '1997' era of AI—early and uncertain—where the key question is where value accrues in the stack and whether distribution becomes the ultimate moat as software building becomes easier. The article discusses the consulting boom at AI companies, the anti-AI backlash, and reframes job disruption as distinguishing between tasks versus jobs. This matters because it provides a framework for understanding AI's transformation without overhype, positioning it as comparable to the internet or mobile in scale—neither more nor less.
+
+**✗ 2.3** — [TBM 424: Why We Help (And How To Stay Helpful)](https://cutlefish.substack.com/p/tbm-424-why-we-help-and-how-to-stay)  
+*The Beautiful Mess (John Cutler)* · 
+#organizational_change #product_management #self_care #change_management
+> This article explores the psychological impulses that drive people who help organizations improve, categorizing them into four types (way-driven, tension-absorbing, etc.) and how each can become counterproductive. It provides a framework for understanding personal motivations in organizational change work, with examples of how each impulse has both gifts and traps. The piece is primarily about self-awareness and sustainability for change agents, coaches, and product leaders rather than AI or technology-specific topics.
+
+**✗ 3.0** — [🔮 Does AI make you dumb? And why our forecasts suck #576](https://www.exponentialview.co/p/ev-576)  
+*Exponential View (Azeem Azhar)* · 
+#analyst_forecasts #ai_capex #hyperscaler_economics #exponential_growth
+> The article argues that equity analysts systematically underestimate AI boom dynamics because they use linear forecasting methods during exponential growth phases, citing a Financial Times concern about AI investment-to-revenue ratios. It provides evidence through analyst forecast revisions for Micron (EPS estimates jumping from $18.25 to $58 in five months) and Google (40% estimate increase in one year) to show how late analysts are to recognize regime shifts. The piece matters as a critique of traditional financial forecasting during technology transitions, though it offers more commentary than actionable framework.
 
 **✗ 4.0** — [How To Architect For Agentic Ai](https://www.bain.com/insights/how-to-architect-for-agentic-ai/)  
 *Bain Insights* · agentic-workflows-production · ai-org-design-headcount · build-vs-buy-enterprise-ai
@@ -743,6 +785,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · 
 #pyodide #service_workers #asgi #webassembly
 > The article describes running Python ASGI web applications entirely in the browser using Pyodide (Python in WebAssembly) and service workers to intercept HTTP requests, eliminating the need for a backend server. The author demonstrates this approach with FastAPI and Datasette, showing it overcomes previous limitations of Web Workers that prevented JavaScript execution in script tags. This represents a technical advancement in client-side Python execution but is primarily a web development technique rather than AI infrastructure or application.
+
+**✗ 3.3** — [I Am Retiring from Tech to Live Offline](https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything)  
+*Simon Willison* · ai-org-design-headcount · ai-governance-risk-compliance
+#open_source_sustainability #ai_ethics #technological_accelerationism #ai_coding_assistants
+> This link blog post discusses Chad Whitacre's decision to retire from tech and live offline, citing AI development as the final catalyst for his departure from the industry and open source work. Whitacre describes becoming uncomfortable with AI coding assistants after intensive use, feeling like he had "another person" in his head owned by a megacorp, prompting him to reject what he calls "technological accelerationism." The post matters as a documented case of a prominent open source contributor choosing full disengagement from tech rather than attempting to reform or regulate AI development.
 
 **✗ 2.3** — [🧠 Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health-tech PM, and more](https://www.lennysnewsletter.com/p/community-wisdom-catching-people)  
 *Lenny's Newsletter* · ai-org-design-headcount
@@ -1173,6 +1220,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · 
 #starlink #spacex #satellite_connectivity #infrastructure_as_scale
 > The article discusses SpaceX's brand halo effect (comparing Tesla's consumer appeal to SpaceX's potential) and announces American Airlines' adoption of Starlink for in-flight connectivity. It emphasizes Musk's focus on scale and commoditization, drawing parallels between Tesla's shift away from luxury models and American consumerism. The piece appears incomplete but suggests exploring SpaceX's business model through the lens of infrastructure rather than traditional IPO metrics.
+
+**✗ 3.0** — [The SpaceX IPO and Data Centers in Space](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI4NzEyNDMsImlhdCI6MTc4MDI3OTI0MywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.wK3vn7vgItmSLqUx01MG81M7q-aKZ1hUPZVqggx8lxOeNzwXVHh-nwIdjs8_Ns4DPkMOOCS2q6NwVMuSgXvBPkPjwj52rNHHFocwusv9AHfK_plCOBLAbHcPoia-7usBNa63HZdQNckSCr9tRejb1MHKshruWwuMG0tXibyyINaVRs3BbFqB_Y_PS-8oVJEBiYitWNHVJTr7qqwdEg5dyYnivukjoDyyDeygB_3LhqnlYMwtp4mHP1DaUC0twI0wiggNn1YtLocIdgkUNOoNyI2EnJteWcEafISdy65kbfiui9wjJUxyFImlaWmXyveIf54sFkbSoGhJ-mnpnw9sUw)  
+*Stratechery (Ben Thompson)* · 
+#starlink #satellite_internet #spacex_ipo #scale_economics
+> The article discusses SpaceX's brand power and scale strategy, drawing parallels between Tesla's commodity approach and American Airlines' adoption of Starlink satellite internet. It suggests that while a traditional SpaceX IPO lacks clear financial justification, the concept of data centers in space could provide a viable business model. The piece emphasizes Musk's focus on leveraging scale rather than premium differentiation.
 
 **✗ 3.3** — [Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős](https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to)  
 *Last Week in AI* · lab-dynamics · funding-and-market-structure · model-architecture
