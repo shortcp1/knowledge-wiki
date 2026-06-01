@@ -1,5 +1,5 @@
 ---
-tags: [ambient-finance, embedded-finance, conversational-ai, agentic-systems, financial-interpretation-layer, plaid-openai-integration, ai-in-finance-accounting]
+tags: [account-to-account-payments, agentic-payments, agentic-systems, ai-in-finance-accounting, ambient-finance, conversational-ai, embedded-finance, enterprise-ai-deployment, financial-interpretation-layer, fintech-ma, payment-infrastructure, plaid-openai-integration, workflow-infrastructure, workflow-ownership]
 ---
 
 # AI in Finance & Accounting
@@ -21,25 +21,18 @@ Key questions tracked: Which finance workflows are achieving full automation vs.
   - **Strategic Significance**: ChatGPT becomes persistent financial interpretation layer, not just another personal finance assistant
   - **Center of Gravity Shift**: Banking app no longer primary interface; conversation is
 
-### Control Layer Competition in Finance AI (May 2026)
-- **Three-Layer Model Emerging**:
-  1. Banks: own accounts (infrastructure layer)
-  2. Fintechs: own experiences (application layer)
-  3. AI systems: positioning to own interpretation (cognitive layer)
-- **Interpretation Layer Value**: "Once a system becomes the place where users continuously interpret financial reality, every action – spending, saving, borrowing, investing, planning – flows through that layer"
-- **Competitive Implication**: Interpretation layer may become most valuable layer in financial services stack going forward
-- **Note**: Analysis suggests "incumbents are not fully prepared for" this shift yet
+### Infrastructure Ownership Before AI Execution (May 2026)
+- **M&A Strategic Pattern**: Companies acquiring "operational layers that sit underneath transactions, approvals, servicing, and money movement before AI systems begin running more of those processes"
+- **NMI-Dwolla Deal**: Payments infrastructure provider acquiring account-to-account payments company
+  - NMI expanding "beyond payment acceptance and deeper into direct money movement"
+  - Dwolla provides API-based access to ACH and real-time bank-transfer rails for payouts, supplier payments, lending flows
+  - **CEO Quote (Steve Pinado)**: Deal strengthens position in "the next generation of money movement," including agentic payments and stablecoin-enabled settlement
+  - **Market Context**: Global account-to-account payment volumes projected to reach $195 trillion by 2030
+  - **Strategic Thesis**: Controlling infrastructure connecting bank rails, workflows, and embedded finance platforms becomes valuable as payments occur through software systems acting on behalf of users
+- **Embedded Finance Evolution**: Shifting from "embedding checkout" toward "embedding transaction logic itself"
+  - Infrastructure players seeking tighter control over onboarding, orchestration, payouts, reconciliation, and settlement
+  - Not just processing transactions, but controlling the workflow layer where AI agents will execute
+- **SoFi Reference**: Article mentions SoFi pursuing similar "operating system" strategy (details incomplete in excerpt)
+- Related to [[agentic-workflows-production]] and [[build-vs-buy-enterprise-ai]]
 
-### Evolution Path: Embedded Finance → Embedded Interpretation
-- **Embedded Finance Era**: Moved financial functionality closer to behavior
-  - Shopify: embedded capital and payments into commerce
-  - Klarna/Affirm: brought credit into discovery and intent, not just checkout
-  - Banking capabilities merged into workflows
-- **Emerging Interpretation Era**: AI systems push logic further by providing continuous context-aware financial cognition
-- **Key Distinction**: Not just "AI in finance" but "always-on financial interpretation"
-
-## Cross-References
-- [[ai-in-operations]]
-- [[ai-governance-risk-compliance]]
-- [[ai-native-product-design]]
-- [[agentic-workflows-production]]
+### Control Layer Competition in Fin
