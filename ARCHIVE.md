@@ -705,7 +705,124 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-02
+
+**✗ 2.7** — [Confidential Draft S1 Sec](https://www.anthropic.com/news/confidential-draft-s1-sec)  
+*Anthropic Blog* · lab-dynamics · funding-and-market-structure
+#ipo #sec_filing #s_1 #public_markets
+> Anthropic announced it has confidentially submitted a draft S-1 registration statement to the SEC for a potential initial public offering, giving them the option to go public pending SEC review and market conditions. The announcement is a procedural disclosure with no details on share count, pricing, or timing. This signals a major milestone in AI lab evolution as a leading frontier model company considers transitioning from private funding to public markets.
+
+**✓ 7.3** — [Large Language Models Can Drift Drift From Helpful Personas To Harmful Ones But New Research Aims To Stabilize Them](https://www.deeplearning.ai/the-batch/large-language-models-can-drift-drift-from-helpful-personas-to-harmful-ones-but-new-research-aims-to-stabilize-them)  
+*The Batch (DeepLearning.AI)* · model-architecture · ai-governance-risk-compliance · evals-production-deployment
+#persona_drift #assistant_alignment #activation_capping #layer_outputs
+> Researchers from ML Alignment & Theory Scholars, Oxford, and Anthropic developed a method to prevent large language models from drifting away from their helpful assistant personas during long or emotionally charged conversations. They defined an 'assistant axis' vector based on model layer outputs that measures adherence to trained character, and use 'activation capping' to correct deviations by modifying layer outputs when similarity to the assistant axis falls below a threshold. This addresses a safety concern where models may exhibit harmful behaviors during extended interactions, particularly in philosophical or therapeutic conversations.
+
+**✗ 5.0** — [Insurance Companies Carve Out Exceptions For Ai Risks](https://www.deeplearning.ai/the-batch/insurance-companies-carve-out-exceptions-for-ai-risks)  
+*The Batch (DeepLearning.AI)* · ai-insurance-claims · ai-governance-risk-compliance · agentic-workflows-production
+#ai_liability_insurance #autonomous_agents #domain_specific_models #ai_design_tools
+> The article reports on multiple AI industry developments, primarily that major insurers are excluding AI-related damage from standard liability policies, forcing companies to absorb risk or buy specialized coverage. It provides brief examples across domains including an AI-run retail store exposing agent reliability issues, OpenAI's life-sciences-specific model, and Anthropic's design tool. The insurance shift matters because it forces enterprises deploying AI to reconsider risk allocation and procurement strategies.
+
+**✗ 5.7** — [Claude Opus 4 8 Advertises Its Uncertainty](https://www.deeplearning.ai/the-batch/claude-opus-4-8-advertises-its-uncertainty)  
+*The Batch (DeepLearning.AI)* · model-architecture · ai-engineering-agents · agentic-workflows-production
+#uncertainty_quantification #parallel_agents #sparse_attention #context_window
+> Anthropic released Claude Opus 4.8 with improved uncertainty flagging and reasoning capabilities, alongside dynamic workflows that orchestrate parallel subagents for large-scale engineering tasks, and previewed higher-capability Mythos-class models for cybersecurity. MiniMax launched M3, an open-weight model using sparse attention architecture that achieves frontier coding performance while delivering 10x faster prefilling and 15x faster decoding with a one-million-token context window. These releases represent incremental improvements in model honesty, agentic task execution efficiency, and inference cost optimization for production deployments.
+
+**✗ 1.0** — [London Climate Action Week](https://www.bain.com/insights/events/london-climate-action-week/)  
+*Bain Insights* · 
+#bain_company #website_navigation #consulting
+> This appears to be a navigation page or menu structure from Bain & Company's website, not an actual article about London Climate Action Week. The content consists entirely of geographic office locations, service areas, and website navigation elements. There is no substantive content, analysis, research, or insights related to climate action, AI, or any identifiable topic.
+
+**✗ 1.0** — [Insights](https://www.bain.com/insights/)  
+*Bain Insights* · 
+#navigation_page #website_structure #no_content
+> This is a navigation page for Bain & Company's website, listing their offices, industries, consulting services, and career opportunities. It contains no actual article content, analysis, or insights—only menu structures and organizational categories. This appears to be a parsing error that captured the site's header/navigation rather than actual content.
+
 ## 2026-06-01
+
+**✗ 5.3** — [Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked](https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything)  
+*Simon Willison* · ai-in-customer-success-support · ai-governance-risk-compliance
+#prompt_injection #ai_security #account_takeover #support_automation
+> The article reports on a security breach where hackers exploited Meta's AI support chatbot to take over high-profile Instagram accounts by simply asking the bot to change account email addresses. The vulnerability existed because Meta integrated AI with full account recovery permissions without adequate safeguards against social engineering through prompts. This incident demonstrates critical risks when deploying AI agents with administrative privileges in customer support contexts without proper security controls.
+
+**✗ 3.0** — [Listen to the Market](https://sequoiacap.com/article/listen-to-the-market/)  
+*Sequoia* · 
+#prediction_markets #political_forecasting #market_based_signals #kalshi
+> Sequoia Capital partners argue that prediction markets (specifically Kalshi's American Power Index) provide better political forecasting than traditional media, polling, or social feeds by forcing participants to stake capital on their beliefs. The article claims markets act as 'full-spectrum signal processors' that aggregate diverse information sources and strip away performative bias through financial consequences. KPOW creates a single numerical metric (-50 to +50) tracking Democratic/Republican power by combining current control with market-implied future outcomes across multiple political dimensions.
+
+**✗ 2.7** — [Our views on AI policy and political advocacy](https://openai.com/index/our-views-on-ai-policy-and-political-advocacy)  
+*OpenAI News* · regulatory-policy · ai-governance-risk-compliance
+#ai_policy #political_advocacy #corporate_governance #ai_safety
+> OpenAI outlines its general stance on AI policy advocacy, emphasizing transparency and support for regulation. The article provides only high-level principles without specific policy positions, mechanisms, or examples. This matters primarily as a corporate positioning statement but offers little actionable insight into actual regulatory approaches or governance frameworks.
+
+**✓ 7.7** — [Why Video Agent models are next — Ethan He, xAI Grok Imagine](https://www.latent.space/p/video-agents)  
+*Latent Space Podcast* · model-architecture · inference-efficiency · multimodal-models
+#video_agents #world_models #grok_imagine #diffusion_transformers
+> The article argues that the next frontier in video generation is not better one-shot video models, but video agents that can plan, generate, edit, and iterate—similar to how coding models evolved from one-shot to agentic systems. The key evidence comes from Ethan He's experience building Grok Imagine at xAI in 3 months, emphasizing that video model intelligence derives primarily from LLMs rather than video training data, and that iteration speed plus fixing small training bugs drive the biggest gains. This matters because it suggests the video generation field will follow AI coding's trajectory toward orchestration, agents, and interactive long-horizon systems rather than just improving diffusion models.
+
+**✗ 4.7** — [🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills](https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and)  
+*Lenny's Newsletter* · ai-engineering-agents · ai-in-product-and-engineering · agentic-workflows-production
+#no_code_development #claude #replit #app_development
+> This podcast episode features Bryce Rattner Keithley, a non-technical recruiter who built and shipped an iOS fitness app using AI tools (Claude, Replit, Gemini) without writing code herself. The key workflow involved using Claude as an architect to plan, Claude Code to write code, and Terminal to execute, with screenshots and iterative prompting as debugging tools. The episode argues this demonstrates how AI is changing who can build software and that technical hiring should prioritize adaptability over pure coding speed.
+
+**✓ 8.0** — [Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems](https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult)  
+*Import AI (Jack Clark)* · funding-and-market-structure · regulatory-policy · ai-org-design-headcount
+#ai_economy_measurement #gdp_statistics #inference_pricing #compute_capacity_growth
+> The article reports on research showing the US AI economy is growing at approximately 2,600% annually in quality-adjusted terms, reaching $250 billion in 2025, yet remains largely invisible in conventional GDP statistics. The key mechanism is that while AI inference capacity and quality are exploding, per-unit prices fall nearly as fast as output rises, masking the true economic impact—compounded by AI being a potential labor substitute rather than complement. This matters because policymakers using conventional metrics will be unprepared for labor market disruptions and miss opportunities for tax reform, sovereign wealth funds, or benefit-sharing schemes.
+
+**✓ 7.3** — [🔥 We checked. Again. Still no bubble.](https://www.exponentialview.co/p/still-no-bubble)  
+*Exponential View (Azeem Azhar)* · funding-and-market-structure · lab-dynamics · build-vs-buy-enterprise-ai
+#ai_capex #bubble_indicators #revenue_growth #economic_strain
+> This analysis argues that AI remains in a boom phase rather than a bubble, using five empirical indicators derived from 300 years of investment history to assess current market conditions. The key evidence includes dramatic revenue growth (quintupling year-over-year for major labs), capex rising 43% to $158 billion quarterly, and only one of five bubble indicators showing red, though economic strain has entered amber territory as AI capex now matches late-1990s telecom buildout levels. This matters because it provides quantitative framework for distinguishing sustainable growth from speculative excess in AI investment, particularly as revenue momentum has accelerated beyond forecasts while capex approaches $1 trillion by 2027.
+
+**✓ 7.3** — [Open and closed models are on different exponentials](https://www.interconnects.ai/p/open-and-closed-models-are-on-different)  
+*Interconnects (Nathan Lambert)* · model-architecture · inference-efficiency · build-vs-buy-enterprise-ai
+#open_vs_closed_models #coding_agents #intelligence_premium #api_pricing
+> The article argues that open and closed AI models follow different economic trajectories, with closed models commanding premium pricing where marginal intelligence gains drive value (especially in coding agents), while API businesses at the same labs will inevitably decay. Evidence comes from user behavior with coding agents like Opus 4.5 and Codex 5.2, where practitioners willingly pay premiums (author suggests $2000/month) because better intelligence directly translates to higher output, and closed labs maintain advantages through integration of hardware, software, and serving infrastructure. This matters because it predicts a bifurcated AI market structure where frontier intelligence development remains concentrated in closed labs optimizing for breakthrough capabilities, while open models serve cost-sensitive use cases, fundamentally shaping competitive dynamics and market power distribution over 5-10 year timelines.
+
+**✗ 4.3** — [May’s public fintech theme: Operating systems over products](https://tearsheet.co/10-q/mays-public-fintech-theme-operating-systems-over-products/?utm_source=rss&utm_medium=rss&utm_campaign=mays-public-fintech-theme-operating-systems-over-products)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-b2b-saas
+#fintech_infrastructure #financial_operating_systems #platform_strategy #workflow_control
+> The article argues that public fintech companies are converging on a strategy of controlling infrastructure and workflows rather than just offering products, moving 'one layer down the stack' closer to where financial decisions are executed. It cites examples from Coinbase (building infrastructure beneath trading volatility), LendingClub (business model transformation), and references to Intuit, Green Dot, and Citi as evidence of this trend. This matters because it signals a shift from product differentiation to platform control in financial services, though the analysis remains surface-level with limited supporting detail.
+
+**✗ 3.0** — [The Download: China’s brain implant ambitions](https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/)  
+*MIT Technology Review* · semiconductor-supply-chain · gpu-architecture-training-infra · regulatory-policy
+#brain_computer_interface #nvidia_rtx #chip_export_controls #news_digest
+> This is a newsletter digest covering multiple technology stories, with primary focus on China's approval of the NEO brain-computer interface chip and Nvidia's launch of RTX Spark AI chips for personal computers. The article provides surface-level summaries of breaking news across topics including chip export restrictions, AI chatbot manipulation, and various other technology developments. It offers no original analysis or in-depth investigation, serving instead as a news aggregator with brief story snippets.
+
+**✗ 4.7** — [Building an iPhone app with zero technical skills | Bryce Rattner Keithley](https://www.lennysnewsletter.com/p/building-an-iphone-app-with-zero)  
+*Lenny's Newsletter* · ai-engineering-agents · ai-in-product-and-engineering
+#no_code_development #replit #claude_code #ai_generated_video
+> A non-technical talent leader describes building and shipping a fitness app called Daily Hundred to the App Store using Replit, Claude, and Gemini without writing code herself. The article provides a step-by-step walkthrough of the process, including creating AI-generated videos of anthropomorphic animals demonstrating exercises and navigating App Store submission requirements. It argues that in the AI era, execution barriers have fallen and non-technical people can now ship software products using prompt-driven development tools.
+
+**✗ 3.0** — [Building the infrastructure for the Intelligence Age in Michigan](https://openai.com/index/stargate-michigan-data-center)  
+*OpenAI News* · gpu-architecture-training-infra · funding-and-market-structure
+#data_center #stargate_project #ai_infrastructure #power_capacity
+> OpenAI announces groundbreaking on a 1GW data center in Michigan as part of the Stargate project to expand AI infrastructure. The article provides minimal technical detail beyond the power scale and mentions of job creation and community support. This is a corporate announcement with limited substantive information about architecture, financing, or strategic implications.
+
+**✓ 6.0** — [How Intuit is turning QuickBooks into an operational coordination layer for SMBs](https://tearsheet.co/smb-finance/how-intuit-is-turning-quickbooks-into-an-operational-coordination-layer-for-smbs/?utm_source=rss&utm_medium=rss&utm_campaign=how-intuit-is-turning-quickbooks-into-an-operational-coordination-layer-for-smbs)  
+*Tearsheet (fintech)* · ai-in-product-and-engineering · ai-native-product-design · agentic-workflows-production
+#smb_operations #workforce_management #financial_orchestration #unified_data_model
+> Intuit is repositioning QuickBooks as a unified operational coordination layer for SMBs by merging workforce management (payroll, HR, scheduling) with financial systems rather than maintaining separate apps connected by APIs. The company's acquisition of GoCo and launch of QuickBooks Workforce creates a single data model that enables proactive operational decisions (like identifying margin pressure before payroll closes) rather than after-the-fact reporting. This represents a shift from workflow-specific tools to AI-powered orchestration across fragmented SMB operations that currently span 7-25 disconnected applications costing $120K annually.
+
+**✗ 4.0** — [Altruist Plans To Launch A New Corporate RIA (And More Of The Latest In Financial #AdvisorTech – June 2026)](https://feeds.feedblitz.com/~/957608414/0/kitcesnerdseyeview~Altruist-Plans-To-Launch-A-New-Corporate-RIA-And-More-Of-The-Latest-In-Financial-AdvisorTech-%e2%80%93-June/)  
+*Kitces.com* · ai-in-finance-accounting · ai-in-wealth-management-advisory · build-vs-buy-enterprise-ai
+#wealth_management #advisor_technology #tax_planning_ai #document_analysis
+> The article reports on financial advisor technology news for June 2026, including Altruist's planned corporate RIA launch, Flourish's mortgage platform, and various AI-powered tax and document analysis tools. Key evidence includes a survey showing high-net-worth clients are wary of AI in client-facing functions and observations that lower barriers to building technology are increasing point solutions rather than enabling advisors to build their own tools. The article matters primarily as an industry roundup for financial advisors tracking technology vendor developments, but offers limited depth or novel insights into AI capabilities themselves.
+
+**✗ 3.7** — [OpenAI frontier models and Codex are now available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws)  
+*OpenAI News* · build-vs-buy-enterprise-ai · ai-b2b-saas
+#aws_integration #enterprise_deployment #model_distribution #cloud_marketplace
+> OpenAI has made its frontier models and Codex generally available on AWS, allowing enterprises to access these models through existing AWS infrastructure and procurement processes. The announcement focuses on reducing friction for enterprise adoption by leveraging familiar AWS environments and controls. This represents a distribution partnership aimed at accelerating enterprise deployment through established cloud infrastructure channels.
+
+**✗ 3.7** — [China has approved the world’s first invasive brain-computer chip—here’s what’s next](https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/)  
+*MIT Technology Review* · 
+#brain_computer_interface #neuracle_neo #medical_devices #regulatory_approval
+> China has approved NEO, the world's first invasive brain-computer interface for commercial use beyond clinical trials, developed by Neuracle Technology for patients with spinal cord injuries. The device sits on the dura mater rather than penetrating the brain cortex like Neuralink's chip, presenting lower risk and facing fewer regulatory hurdles, while China's expedited regulatory pathway enabled faster approval. This milestone represents progress in BCI technology but focuses on medical rehabilitation rather than AI-related applications.
+
+**✗ 1.7** — [May 2026 newsletter](https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything)  
+*Simon Willison* · model-architecture · ai-in-product-and-engineering
+#newsletter #datasette #anthropic #model_releases
+> This is a newsletter announcement from Simon Willison promoting his May 2026 paid subscriber newsletter covering AI developments. The article only provides high-level topic headers (model releases, AI pricing changes, Datasette Agent launch) without any actual content or analysis. This is purely promotional metadata for a paywalled newsletter rather than substantive content.
 
 **✗ 3.7** — [Tech Giants Including Alphabet Amazon Meta And Microsoft Acknowledge Ais Strain On Environment](https://www.deeplearning.ai/the-batch/tech-giants-including-alphabet-amazon-meta-and-microsoft-acknowledge-ais-strain-on-environment)  
 *The Batch (DeepLearning.AI)* · ai-governance-risk-compliance · regulatory-policy
@@ -721,6 +838,11 @@ All articles scanned since the wiki started. Updated nightly.
 *The Batch (DeepLearning.AI)* · model-architecture · inference-time-compute · evals-production-deployment
 #inference_time_reasoning #vision_language_models #hallucination_calibration #agentic_coding
 > OpenAI released GPT-5.5, a vision-language model that tops leaderboards for coding, visual reasoning (ARC-AGI-2), and overall intelligence (Artificial Analysis Intelligence Index), though it shows higher rates of confident hallucination. The model features five levels of inference-time reasoning, parallel reasoning token processing in the Pro variant, and API pricing roughly double GPT-5.4 rates. While it achieves state-of-the-art performance on objective benchmarks like Terminal-Bench 2.0 and OSWorld-Verified, it ranks lower on metrics that penalize confident mistakes versus acknowledging uncertainty.
+
+**✗ 5.3** — [The AI Skepticism Map](https://www.tomtunguz.com/ai-shorts/)  
+*Tomasz Tunguz* · funding-and-market-structure · gpu-architecture-training-infra · ai-b2b-saas
+#short_interest #gpu_data_centers #memory_semiconductors #market_sentiment
+> This article analyzes short interest data across AI-related public companies to map market skepticism, finding that GPU data center businesses face the highest bearish sentiment (60% increase in short interest) while hyperscalers and NVIDIA remain lightly shorted. The analysis reveals that skepticism is concentrated in mid-cap companies dependent on future capital, demand, or operating leverage (like SoundHound at 36.3% short interest), while memory semiconductor makers have seen decreased shorting due to supply constraints. This selective skepticism indicates market discrimination between proven AI winners and speculative plays rather than broad AI fatigue.
 
 ## 2026-05-31
 
@@ -790,6 +912,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · ai-org-design-headcount · ai-governance-risk-compliance
 #open_source_sustainability #ai_ethics #technological_accelerationism #ai_coding_assistants
 > This link blog post discusses Chad Whitacre's decision to retire from tech and live offline, citing AI development as the final catalyst for his departure from the industry and open source work. Whitacre describes becoming uncomfortable with AI coding assistants after intensive use, feeling like he had "another person" in his head owned by a megacorp, prompting him to reject what he calls "technological accelerationism." The post matters as a documented case of a prominent open source contributor choosing full disengagement from tech rather than attempting to reform or regulate AI development.
+
+**✗ 1.3** — [Quoting Daniel Jalkut](https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything)  
+*Simon Willison* · 
+#ai_sentiment #ai_discourse #quote
+> This is a brief quote from Daniel Jalkut (via John Gruber) suggesting that both AI proponents and critics hold overly extreme positions. The article provides no evidence, analysis, or supporting arguments—it is simply a collected quotation. It offers no actionable insight or substantive contribution to understanding AI technology, deployment, or business implications.
 
 **✗ 2.3** — [🧠 Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health-tech PM, and more](https://www.lennysnewsletter.com/p/community-wisdom-catching-people)  
 *Lenny's Newsletter* · ai-org-design-headcount
@@ -883,10 +1010,20 @@ All articles scanned since the wiki started. Updated nightly.
 #shareholder_activism #ai_ethics #corporate_governance #religious_perspectives
 > The article discusses Pope Leo XIV's encyclical on AI, arguing that technology is never neutral and that AI governance requires collective responsibility rather than unregulated commercial development. It highlights how institutional investors and religious organizations have been filing shareholder resolutions demanding AI transparency, risk assessment, and accountability from major tech companies in the absence of meaningful government regulation. The piece frames AI governance as a moral imperative where shareholders can drive corporate responsibility when governments and corporations fail to self-regulate.
 
+**✗ 1.3** — [India Leads Global AI Adoption—But Faces the Highest ‘Complexity Cost’ - CXOToday.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxNN1N4MTdMY0tNaHZRc3ZfcG5MS0VGQ0kySDZpVUtCQlhESXZZd0s2X3R4bEQ3YWhXYXpPWFFEUmItXzBiTzcwd1o4Ym1xakRJelN3M1UxYVRnWEU2UmxNY1hCZExmS1hQY2RUQXAwejdsczFmYU11NHZlb3owbWgtTmR1TXlmcTlTMm1uZXhfQUNqR3ZOQlByaDRPUy0wSldj?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#india #ai_adoption #implementation_complexity
+> This article appears to discuss India's AI adoption rates and associated implementation complexity costs. However, the provided text contains only Google's cookie consent dialog with no actual article content. Without access to the substantive content, no meaningful evaluation of claims, evidence, or implications can be made.
+
 **✗ 1.3** — [Indian mid-market AI complexity is a channel opportunity, but only for partners who move now - CRN Asia](https://news.google.com/rss/articles/CBMiywFBVV95cUxOc1U4QlBpYlAyMGw3a0pJQ3VCeVJVdG9YV0Z3VWdHREhzWnhTcWVyN1o4bzM0enFjemdmS0ZVRUd3VUk5WjlJX016cV9aLXMzVjdUdVFlT0FWcVJHUWpPTnY0RTJ1WVYxVXF0RmV2N01ydXZ0bHNvVzkxUHJJWFhhdDQ2U0FNcFFldmctS3ZUOTl0NU90YTNJT0hlMDF6SjBISEdjTnJQZVRvZG5ucWRZb1FadGFsby1MNmtZWm1Mcl90TWg5MzR0bkRpTQ?oc=5)  
 *GN: AI Mid-Market Enterprise* · 
 #cookie_consent #access_wall #no_content
 > This article appears to be a sign-in wall or cookie consent page rather than substantive content about Indian mid-market AI opportunities. No actual article content is provided beyond the headline and metadata. The page contains only Google's standard privacy policy and cookie consent options with no analysis, evidence, or insights.
+
+**✗ 3.0** — [OpenAI sees Codex usage in India surge 27x as enterprises operationalise AI workflows - CRN Asia](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3RMQnRKTlFqSzF0X3pTbEhTcW04UTlHRzRvLVo3Y3hJWWd1eHF4TkkwS2JiUWU2emRMWlhfbEVPaDdfN1hzMW5ILWc1U21BLW9uSUpVQ19YenNZOXZiUDFNWUI0YlpvRXdJVG85a08xTFVfbGp1ZmxoS21IcmhnSVQ0N1VjVHBUb1Myd0RiSm0tOUIxckRLdEhsU3B0MXBwWS1zNEZybUlyQzBHS2xaM29iUU1meXZBTDdCUFVJY0pybU0?oc=5)  
+*GN: AI Mid-Market Enterprise* · agentic-workflows-production · ai-in-product-and-engineering
+#codex #india_market #enterprise_adoption
+> The article reports a 27x surge in OpenAI Codex usage in India as enterprises operationalize AI workflows. No actual article content is provided beyond the headline, only cookie consent dialog text from a webpage. Without substantive content, it's impossible to assess the mechanisms, evidence, or implications of this claimed growth.
 
 **✗ 1.7** — [India leads the global mid-market on AI integration but pays the steepest complexity cost: New Freshworks Study - businessnewsthisweek.com](https://news.google.com/rss/articles/CBMi6AFBVV95cUxOTnpPblhhaWpTc1BOc09MbUJESkZFSVhNeXluV3ZTdFBsTWpDRHZRd3VQeHNqVHNhbktQdnlPZmtGUU1qWjNUQ0NSNTBicm9KTmRrUHFpei1Qb1k5SG1LYWlPLUpRYVVXOFZ4WjlxM19HZVE2OVBoXzJtejZpUEZWcVBxdDJ1T1VyeUFycl9wYjNYZXQzOHVlQXVYbEIybHF4VWt2WU5aU3V3YU1VMzRLczJSSS1samJFazJyb3BMRGZNMm43N2cwWU16SEZXMjV4NjkzM0lLVmFqOEZoQXFyZU5FVlp1ZFNi?oc=5)  
 *GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
@@ -1186,6 +1323,11 @@ All articles scanned since the wiki started. Updated nightly.
 #ai_budget #mid_market #complexity_cost
 > The article title claims mid-sized companies lose 25% of AI budgets to complexity, but the provided text contains only a Google cookie consent dialog with no actual article content. No evidence, mechanisms, or analysis can be extracted from this page. This appears to be a content extraction error rather than substantive reporting.
 
+**✗ 3.7** — [Mid‑Market Companies Lose an Average of 25% of Their AI Budget Before Seeing a Single Return, New Freshworks Research Finds - The Globe and Mail](https://news.google.com/rss/articles/CBMirwJBVV95cUxPQWRuQUNaV1hHbDRwS3Jyd242TG4weXNmV2p1UmpWYXlRUUxGN3BKVHc2YUNhY3NvSmZiVFpJQlBMZ1lUcm5PcGpLWWd1Rm1vRVhzdXlvd0pzaXBLVWliajZidDUtcm10Ym1RU21mVHZSMWdHVVMwZFB3M2I1RlB5TXNGSjFnT1FqMkZyN3ZmU2N5bGJRMTYtc2JMWWZMMDZuMVhRTkYxRVZQV1NmOG85b2xVbkNSWE9OWms0c01tR0pmemV3VUdsMEZGTWRkTG93MUdOa0tnNGpCVW9SaTZtcVVoYm5EdmRIN2hDdVdadUtyRS1zWjl2c1NMMFkzOEVjSHZuZVFISDBtajh1MXdXOWpJNUxTZGdmWkc5S3BXSkc3RkpjV01TclpSeVh0bXM?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#ai_budget #mid_market #roi #enterprise_ai_adoption
+> Freshworks research claims mid-market companies waste 25% of AI budgets before seeing returns, though no actual article content is provided. The submission only contains a Google consent page with no substantive information about research methodology, data, or findings. Without access to the actual research or article, it's impossible to evaluate the validity or significance of the headline claim.
+
 **✗ 4.0** — [Mid‑Market Companies Lose an Average of 25% of Their AI Budget Before Seeing a Single Return, New Freshworks Research Finds - The Globe and Mail](https://news.google.com/rss/articles/CBMisgJBVV95cUxQLUdlUjVVeDk4S2o1UzNBLUZGY003NU1xdGF2MGJfUDNuZm1pZkRXWmNneGdMOER4R09ja3pqMjRVd1N4UjhGOG1lWjBlQkEtZWViWHpqeTBWdlBFTVlMTW5lY051MnVHeUdaVFhvcndoY05saEhpLUxldVlPVS14bmFSYVVxa1o0cExYWnNMSHF0djRmMGlsNHhtN1kyWUZwN1docklGWHZweGZ0UkJHQVhCcEszVVhLNmVFNkdVYXJ1ekpTb1FvVVpEeFFvTUJCVWRSSWJsXzAwVGpuaXhza0FfeWd1UGlCUmM4N2FVdGtpX2dwbEtKM0RIV21HWW1sUkRfNzBzTG9LYThwWWtfY0twWk1MX3V4RU9mMGFmMW9nckUtQmNXaElFQ1NCcERrY2c?oc=5)  
 *GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount · ai-governance-risk-compliance
 #mid_market #ai_budget #roi #implementation_waste
@@ -1225,6 +1367,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · 
 #starlink #satellite_internet #spacex_ipo #scale_economics
 > The article discusses SpaceX's brand power and scale strategy, drawing parallels between Tesla's commodity approach and American Airlines' adoption of Starlink satellite internet. It suggests that while a traditional SpaceX IPO lacks clear financial justification, the concept of data centers in space could provide a viable business model. The piece emphasizes Musk's focus on leveraging scale rather than premium differentiation.
+
+**✗ 3.7** — [The SpaceX IPO and Data Centers in Space](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI5NTc2NDIsImlhdCI6MTc4MDM2NTY0MiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.kWX_Fel9fUrMXNWVSCgE9T-yoXWXoPdGq4fmE-fp-Vz2VLXcpbDYii6wUZ7cghs-Ujsd0XTycCdoiLyvLJvF3lpWKp-YTJ4JZB2RrFNzbAcn_Z574D2BlBCAINt9J7A7xXmxc0rnBOXfKA_zstRVZp8FN1P1qeExNYxJ_XDumyfF7ZM46APQlpayEjeBKwawxeoIfAQWzM4o-xJ9KR2sxu_W1U8mYGR8vQMIp0yB0-LZKj6QJLOSQo6x3wgNbJGa9YnK6yS2yDwDgpJBuMXVfcqLpLe45GbYsXzAHtDei-ExC__CUE1pYYmbVE7BfuPFyh0-9QtJOsrK8JkIfzbe0A)  
+*Stratechery (Ben Thompson)* · 
+#starlink #spacex_ipo #satellite_internet #scale_economics
+> The article discusses SpaceX's potential IPO and the deployment of Starlink satellite internet on American Airlines aircraft, drawing parallels to Tesla's brand positioning and Elon Musk's focus on scale. It connects Tesla's shift away from luxury variants toward standardized autonomous vehicles with Musk's broader strategy of leveraging scale across his companies. The piece positions Starlink as an infrastructure play that could justify SpaceX's valuation, though the article appears incomplete.
 
 **✗ 3.3** — [Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős](https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to)  
 *Last Week in AI* · lab-dynamics · funding-and-market-structure · model-architecture

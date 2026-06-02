@@ -1,5 +1,5 @@
 ---
-tags: [compute-capacity, colossus, anthropic-anthropic, grok-5, cloud-services, ai-infrastructure-costs, funding-and-market-structure]
+tags: [ai-capex, ai-economy-measurement, ai-infrastructure-costs, anthropic-anthropic, bubble-indicators, capex-trends, cloud-services, colossus, compute-capacity, compute-capacity-growth, economic-strain, funding-and-market-structure, gdp-statistics, grok-5, industry-strain, inference-pricing, labor-substitution, market-fundamentals, neoclouds, quality-adjusted-output, revenue-growth]
 ---
 
 # Funding & Market Structure
@@ -23,13 +23,37 @@ Key questions tracked: Which layers of the AI stack are capturing the most value
 - **Speed premium**: xAI achieved 6-month build time for 200 MW vs. 15-month industry baseline (Oracle, Crusoe, OpenAI), suggesting significant competitive advantage in infrastructure deployment.
 - **Regulatory arbitrage**: Mississippi granted 12-month temporary permit waiver for gas turbine operation, enabling faster deployment than Tennessee regulatory environment.
 
-### Compute-as-a-Service Business Model (May 2026)
-- **xAI third-party compute sales**: SpaceX/xAI entered Cloud Services Agreements with Anthropic for access to COLOSSUS and COLOSSUS II compute capacity. $1.25B/month contract through May 2029 ($45B total contract value), with capacity ramping May-June 2026 at reduced fees. 90-day termination notice allowed by either party (source: SpaceX S-1, May 2026).
-- **Revenue scale**: Single customer contract represents $15B annualized revenue, indicating compute infrastructure monetization as significant revenue stream separate from AI model/application sales.
-- **Strategic implications**: Infrastructure owners (xAI, potentially others) can offset massive capital expenditure through third-party compute sales while maintaining capacity for proprietary model training.
+### Bubble Indicators Analysis (Exponential View, June 2026)
+Empirical framework tracking five indicators across 300 years of investment boom/bust cycles. Two indicators turning red = bubble conditions.
 
-## Cross-References
-- [[lab-dynamics]]
-- [[ai-b2b-saas]]
-- [[semiconductor-supply-chain]]
-- [[gpu-architecture-training-infra]]
+#### Economic Strain: AMBER (entering red zone)
+- **AI capex**: $157.7B per quarter (Q1 2026), up 43% from $110B (Q3 2025)
+- **GDP percentage**: >1% of US GDP for first time, matching late-1990s telecom build-out peak
+- **Neocloud emergence**: Neocloud share of capex rose from 12% to 18%
+- **Projection**: Goldman Sachs estimates aggregate AI capex approaching $1T in 2027 (~$700B US portion would push indicator into red zone by end of 2027)
+- **Methodology note**: Uses trailing twelve-month numbers for both capex and GDP; quarterly basis shows similar amber status
+
+#### Industry Strain: RED (but improving trajectory)
+- **Definition**: Whether industry can afford investments relative to revenues
+- **Sector revenue**: $25B per quarter (Q1 2026), up from $13B (Q3 2025) using refined value-added methodology
+- **Methodology refinement**: Moved to value-added approach reducing double-counting across cloud/model-lab/application layers (original Q3 2025 figure was $25B under old method, $13B under new method)
+- **Capex/revenue gap**: Still in red zone but trending toward sustainability
+- **Forecast**: Should exit red zone by end of 2026 if revenue growth holds and capex doesn't revise upward
+
+#### Revenue Momentum: GREEN (improving contrary to expectations)
+- **Doubling time**: 0.73 years (Q1 2026)
+- **Growth trajectory**: Revenue growth accelerated rather than decelerated as forecast
+- **Robustness**: Even if revenue growth drops 75 percentage points for rest of year, indicator would remain green into 2027
+- **Market interpretation**: Maturing markets typically show slowing growth; acceleration indicates early-stage dynamics persist
+
+#### Other Indicators
+- Three additional indicators range from green to amber (specific metrics not detailed in source)
+
+#### Overall Assessment
+- **Conclusion**: AI boom, not bubble (1 of 5 indicators red; bubble requires 2 red indicators)
+- **Market context**: NASDAQ up 20% since September 2025
+- **Model releases**: ~170 AI models released September 2025 - June 2026
+- **Capability growth**: Best models handle tasks 4x longer than year-ago top performer
+- **Usage growth**: Quarterly token consumption tripled
+
+See also: [[lab-dynamics]] for foundation model lab revenue dynamics

@@ -523,3 +523,11 @@ Note: These represent broader industry trends in AI-assisted chip design beyond 
 - Energy: Environmental compliance reporting, safety inspections, regulatory filings
 - Real estate: Property documentation, title review, regulatory compliance
 - Any industry with: (1) high document volume, (2) legacy systems, (3) regulatory oversight requirements
+
+---
+**Why Video Agent models are next — Ethan He, xAI Grok Imagine** (Latent Space Podcast, 2026-06-01T15:41:48+00:00)
+**Ethan He Career Trajectory**: Led NVIDIA Cosmos World Model, then joined xAI to build Grok Imagine, later left xAI to shift focus toward LLMs. Notes interest in "self-managed context, memory, and the next frontier for language models."
+
+**xAI Research Communication**: Claim that "xAI's research communication undersells Grok Imagine"—suggesting capability-communication gap.
+
+**Compute Bottleneck Shift**: Claim that "coding models may make compute the bottleneck again" as model quality improves and orchestration becomes the limiting factor.

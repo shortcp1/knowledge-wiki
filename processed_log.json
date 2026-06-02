@@ -10828,6 +10828,704 @@
       ],
       "status": "skipped",
       "skip_reason": "Surface-level commentary on analyst prediction failures without novel framework or deep relevance to specific AI technical/deployment topics; primarily financial market observation rather than substantive AI strategy or implementation insight."
+    },
+    "https://www.anthropic.com/news/confidential-draft-s1-sec": {
+      "title": "Confidential Draft S1 Sec",
+      "source": "Anthropic Blog",
+      "date": "2026-06-02T02:00:46.083156+00:00",
+      "composite": 2.67,
+      "depth": 1,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic announced it has confidentially submitted a draft S-1 registration statement to the SEC for a potential initial public offering, giving them the option to go public pending SEC review and market conditions. The announcement is a procedural disclosure with no details on share count, pricing, or timing. This signals a major milestone in AI lab evolution as a leading frontier model company considers transitioning from private funding to public markets.",
+      "tags": [
+        "ipo",
+        "sec-filing",
+        "s-1",
+        "public-markets",
+        "anthropic"
+      ],
+      "status": "skipped",
+      "skip_reason": "Procedural corporate announcement with no substantive content about technology, business model, market dynamics, or strategic implications beyond the fact of IPO filing."
+    },
+    "https://www.deeplearning.ai/the-batch/large-language-models-can-drift-drift-from-helpful-personas-to-harmful-ones-but-new-research-aims-to-stabilize-them": {
+      "title": "Large Language Models Can Drift Drift From Helpful Personas To Harmful Ones But New Research Aims To Stabilize Them",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-02T02:00:45.830863+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-governance-risk-compliance",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "summary": "Researchers from ML Alignment & Theory Scholars, Oxford, and Anthropic developed a method to prevent large language models from drifting away from their helpful assistant personas during long or emotionally charged conversations. They defined an 'assistant axis' vector based on model layer outputs that measures adherence to trained character, and use 'activation capping' to correct deviations by modifying layer outputs when similarity to the assistant axis falls below a threshold. This addresses a safety concern where models may exhibit harmful behaviors during extended interactions, particularly in philosophical or therapeutic conversations.",
+      "tags": [
+        "persona-drift",
+        "assistant-alignment",
+        "activation-capping",
+        "layer-outputs",
+        "ai-safety",
+        "character-stability"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/insurance-companies-carve-out-exceptions-for-ai-risks": {
+      "title": "Insurance Companies Carve Out Exceptions For Ai Risks",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-02T02:00:45.830822+00:00",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-insurance-claims",
+        "ai-governance-risk-compliance",
+        "agentic-workflows-production",
+        "model-architecture",
+        "multimodal-models"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on multiple AI industry developments, primarily that major insurers are excluding AI-related damage from standard liability policies, forcing companies to absorb risk or buy specialized coverage. It provides brief examples across domains including an AI-run retail store exposing agent reliability issues, OpenAI's life-sciences-specific model, and Anthropic's design tool. The insurance shift matters because it forces enterprises deploying AI to reconsider risk allocation and procurement strategies.",
+      "tags": [
+        "ai-liability-insurance",
+        "autonomous-agents",
+        "domain-specific-models",
+        "ai-design-tools",
+        "enterprise-risk-management",
+        "deepfake-fraud"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a surface-level news roundup with brief summaries across multiple topics, lacking depth or original analysis on any single dimension, though it touches on relevant enterprise AI concerns."
+    },
+    "https://www.deeplearning.ai/the-batch/claude-opus-4-8-advertises-its-uncertainty": {
+      "title": "Claude Opus 4 8 Advertises Its Uncertainty",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-02T02:00:45.830726+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "inference-efficiency",
+        "ai-in-legal-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic released Claude Opus 4.8 with improved uncertainty flagging and reasoning capabilities, alongside dynamic workflows that orchestrate parallel subagents for large-scale engineering tasks, and previewed higher-capability Mythos-class models for cybersecurity. MiniMax launched M3, an open-weight model using sparse attention architecture that achieves frontier coding performance while delivering 10x faster prefilling and 15x faster decoding with a one-million-token context window. These releases represent incremental improvements in model honesty, agentic task execution efficiency, and inference cost optimization for production deployments.",
+      "tags": [
+        "uncertainty-quantification",
+        "parallel-agents",
+        "sparse-attention",
+        "context-window",
+        "inference-speed",
+        "agentic-workflows"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything": {
+      "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
+      "source": "Simon Willison",
+      "date": "2026-06-01T21:14:47+00:00",
+      "composite": 5.33,
+      "depth": 3,
+      "novelty": 6,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-customer-success-support",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on a security breach where hackers exploited Meta's AI support chatbot to take over high-profile Instagram accounts by simply asking the bot to change account email addresses. The vulnerability existed because Meta integrated AI with full account recovery permissions without adequate safeguards against social engineering through prompts. This incident demonstrates critical risks when deploying AI agents with administrative privileges in customer support contexts without proper security controls.",
+      "tags": [
+        "prompt-injection",
+        "ai-security",
+        "account-takeover",
+        "support-automation",
+        "ai-agent-permissions",
+        "social-engineering"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level incident report without technical depth, root cause analysis, or actionable security frameworks for preventing similar AI agent vulnerabilities"
+    },
+    "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy": {
+      "title": "Our views on AI policy and political advocacy",
+      "source": "OpenAI News",
+      "date": "2026-06-01T17:00:00+00:00",
+      "composite": 2.7,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI outlines its general stance on AI policy advocacy, emphasizing transparency and support for regulation. The article provides only high-level principles without specific policy positions, mechanisms, or examples. This matters primarily as a corporate positioning statement but offers little actionable insight into actual regulatory approaches or governance frameworks.",
+      "tags": [
+        "ai-policy",
+        "political-advocacy",
+        "corporate-governance",
+        "ai-safety",
+        "regulatory-transparency"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate statement with no specific claims, data, frameworks, or actionable policy details that would inform decision-making or understanding of AI governance."
+    },
+    "https://www.latent.space/p/video-agents": {
+      "title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+      "source": "Latent Space Podcast",
+      "date": "2026-06-01T15:41:48+00:00",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "multimodal-models",
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-native-product-design"
+      ],
+      "content_type": "technical",
+      "summary": "The article argues that the next frontier in video generation is not better one-shot video models, but video agents that can plan, generate, edit, and iterate\u2014similar to how coding models evolved from one-shot to agentic systems. The key evidence comes from Ethan He's experience building Grok Imagine at xAI in 3 months, emphasizing that video model intelligence derives primarily from LLMs rather than video training data, and that iteration speed plus fixing small training bugs drive the biggest gains. This matters because it suggests the video generation field will follow AI coding's trajectory toward orchestration, agents, and interactive long-horizon systems rather than just improving diffusion models.",
+      "tags": [
+        "video-agents",
+        "world-models",
+        "grok-imagine",
+        "diffusion-transformers",
+        "vaes",
+        "audio-video-alignment",
+        "step-distillation",
+        "generative-ui",
+        "flipbook",
+        "temporal-compression"
+      ],
+      "status": "integrated"
+    },
+    "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult": {
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "source": "Import AI (Jack Clark)",
+      "date": "2026-06-01T13:31:56+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "regulatory-policy",
+        "ai-org-design-headcount",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on research showing the US AI economy is growing at approximately 2,600% annually in quality-adjusted terms, reaching $250 billion in 2025, yet remains largely invisible in conventional GDP statistics. The key mechanism is that while AI inference capacity and quality are exploding, per-unit prices fall nearly as fast as output rises, masking the true economic impact\u2014compounded by AI being a potential labor substitute rather than complement. This matters because policymakers using conventional metrics will be unprepared for labor market disruptions and miss opportunities for tax reform, sovereign wealth funds, or benefit-sharing schemes.",
+      "tags": [
+        "ai-economy-measurement",
+        "gdp-statistics",
+        "inference-pricing",
+        "compute-capacity-growth",
+        "labor-substitution",
+        "quality-adjusted-output"
+      ],
+      "status": "integrated"
+    },
+    "https://www.interconnects.ai/p/open-and-closed-models-are-on-different": {
+      "title": "Open and closed models are on different exponentials",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "2026-06-01T13:03:48+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "build-vs-buy-enterprise-ai",
+        "ai-engineering-agents",
+        "lab-dynamics",
+        "funding-and-market-structure",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that open and closed AI models follow different economic trajectories, with closed models commanding premium pricing where marginal intelligence gains drive value (especially in coding agents), while API businesses at the same labs will inevitably decay. Evidence comes from user behavior with coding agents like Opus 4.5 and Codex 5.2, where practitioners willingly pay premiums (author suggests $2000/month) because better intelligence directly translates to higher output, and closed labs maintain advantages through integration of hardware, software, and serving infrastructure. This matters because it predicts a bifurcated AI market structure where frontier intelligence development remains concentrated in closed labs optimizing for breakthrough capabilities, while open models serve cost-sensitive use cases, fundamentally shaping competitive dynamics and market power distribution over 5-10 year timelines.",
+      "tags": [
+        "open-vs-closed-models",
+        "coding-agents",
+        "intelligence-premium",
+        "api-pricing",
+        "model-distillation",
+        "frontier-models",
+        "integration-advantage"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/": {
+      "title": "The Download: China\u2019s brain implant ambitions",
+      "source": "MIT Technology Review",
+      "date": "2026-06-01T12:10:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "semiconductor-supply-chain",
+        "gpu-architecture-training-infra",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest covering multiple technology stories, with primary focus on China's approval of the NEO brain-computer interface chip and Nvidia's launch of RTX Spark AI chips for personal computers. The article provides surface-level summaries of breaking news across topics including chip export restrictions, AI chatbot manipulation, and various other technology developments. It offers no original analysis or in-depth investigation, serving instead as a news aggregator with brief story snippets.",
+      "tags": [
+        "brain-computer-interface",
+        "nvidia-rtx",
+        "chip-export-controls",
+        "news-digest"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter is a shallow aggregation of news headlines with no original analysis, minimal depth on any single topic, and only tangential relevance to specified focus areas through brief mentions of chip developments."
+    },
+    "https://openai.com/index/stargate-michigan-data-center": {
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "source": "OpenAI News",
+      "date": "2026-06-01T12:00:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI announces groundbreaking on a 1GW data center in Michigan as part of the Stargate project to expand AI infrastructure. The article provides minimal technical detail beyond the power scale and mentions of job creation and community support. This is a corporate announcement with limited substantive information about architecture, financing, or strategic implications.",
+      "tags": [
+        "data-center",
+        "stargate-project",
+        "ai-infrastructure",
+        "power-capacity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate announcement lacking technical depth, strategic analysis, or novel insights into infrastructure design, economics, or deployment implications."
+    },
+    "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws": {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "source": "OpenAI News",
+      "date": "2026-06-01T10:00:00+00:00",
+      "composite": 3.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "OpenAI has made its frontier models and Codex generally available on AWS, allowing enterprises to access these models through existing AWS infrastructure and procurement processes. The announcement focuses on reducing friction for enterprise adoption by leveraging familiar AWS environments and controls. This represents a distribution partnership aimed at accelerating enterprise deployment through established cloud infrastructure channels.",
+      "tags": [
+        "aws-integration",
+        "enterprise-deployment",
+        "model-distribution",
+        "cloud-marketplace",
+        "codex"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief announcement with no analysis, technical details, implementation insights, or novel information beyond a basic partnership/distribution announcement."
+    },
+    "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/": {
+      "title": "China has approved the world\u2019s first invasive brain-computer chip\u2014here\u2019s what\u2019s next",
+      "source": "MIT Technology Review",
+      "date": "2026-06-01T09:09:00+00:00",
+      "composite": 3.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "China has approved NEO, the world's first invasive brain-computer interface for commercial use beyond clinical trials, developed by Neuracle Technology for patients with spinal cord injuries. The device sits on the dura mater rather than penetrating the brain cortex like Neuralink's chip, presenting lower risk and facing fewer regulatory hurdles, while China's expedited regulatory pathway enabled faster approval. This milestone represents progress in BCI technology but focuses on medical rehabilitation rather than AI-related applications.",
+      "tags": [
+        "brain-computer-interface",
+        "neuracle-neo",
+        "medical-devices",
+        "regulatory-approval",
+        "neuralink-comparison",
+        "clinical-trials"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers brain-computer interfaces for medical rehabilitation, which does not map to any of the specified AI/ML, semiconductor, or enterprise AI adoption topic areas."
+    },
+    "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything": {
+      "title": "May 2026 newsletter",
+      "source": "Simon Willison",
+      "date": "2026-06-01T04:45:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter announcement from Simon Willison promoting his May 2026 paid subscriber newsletter covering AI developments. The article only provides high-level topic headers (model releases, AI pricing changes, Datasette Agent launch) without any actual content or analysis. This is purely promotional metadata for a paywalled newsletter rather than substantive content.",
+      "tags": [
+        "newsletter",
+        "datasette",
+        "anthropic",
+        "model-releases"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter announcement with no actual content, analysis, or substantive information provided; purely promotional metadata for paywalled content."
+    },
+    "https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything": {
+      "title": "Quoting Daniel Jalkut",
+      "source": "Simon Willison",
+      "date": "2026-05-30T17:29:55+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a brief quote from Daniel Jalkut (via John Gruber) suggesting that both AI proponents and critics hold overly extreme positions. The article provides no evidence, analysis, or supporting arguments\u2014it is simply a collected quotation. It offers no actionable insight or substantive contribution to understanding AI technology, deployment, or business implications.",
+      "tags": [
+        "ai-sentiment",
+        "ai-discourse",
+        "quote"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a single-sentence quote with no analysis, evidence, or substantive content relevant to any technical or enterprise AI topic."
+    },
+    "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI5NTc2NDIsImlhdCI6MTc4MDM2NTY0MiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.kWX_Fel9fUrMXNWVSCgE9T-yoXWXoPdGq4fmE-fp-Vz2VLXcpbDYii6wUZ7cghs-Ujsd0XTycCdoiLyvLJvF3lpWKp-YTJ4JZB2RrFNzbAcn_Z574D2BlBCAINt9J7A7xXmxc0rnBOXfKA_zstRVZp8FN1P1qeExNYxJ_XDumyfF7ZM46APQlpayEjeBKwawxeoIfAQWzM4o-xJ9KR2sxu_W1U8mYGR8vQMIp0yB0-LZKj6QJLOSQo6x3wgNbJGa9YnK6yS2yDwDgpJBuMXVfcqLpLe45GbYsXzAHtDei-ExC__CUE1pYYmbVE7BfuPFyh0-9QtJOsrK8JkIfzbe0A": {
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-05-27T10:00:00+00:00",
+      "composite": 3.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article discusses SpaceX's potential IPO and the deployment of Starlink satellite internet on American Airlines aircraft, drawing parallels to Tesla's brand positioning and Elon Musk's focus on scale. It connects Tesla's shift away from luxury variants toward standardized autonomous vehicles with Musk's broader strategy of leveraging scale across his companies. The piece positions Starlink as an infrastructure play that could justify SpaceX's valuation, though the article appears incomplete.",
+      "tags": [
+        "starlink",
+        "spacex-ipo",
+        "satellite-internet",
+        "scale-economics",
+        "infrastructure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on SpaceX/Starlink consumer and airline connectivity use cases rather than AI/ML infrastructure, semiconductor supply chain, or enterprise AI applications; no substantial overlap with specified topic areas."
+    },
+    "https://www.bain.com/insights/events/london-climate-action-week/": {
+      "title": "London Climate Action Week",
+      "source": "Bain Insights",
+      "date": "2026-06-02T02:00:45.272208+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation page or menu structure from Bain & Company's website, not an actual article about London Climate Action Week. The content consists entirely of geographic office locations, service areas, and website navigation elements. There is no substantive content, analysis, research, or insights related to climate action, AI, or any identifiable topic.",
+      "tags": [
+        "bain-company",
+        "website-navigation",
+        "consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a website navigation page with no substantive content, analysis, or insights to evaluate."
+    },
+    "https://www.bain.com/insights/": {
+      "title": "Insights",
+      "source": "Bain Insights",
+      "date": "2026-06-02T02:00:44.634147+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a navigation page for Bain & Company's website, listing their offices, industries, consulting services, and career opportunities. It contains no actual article content, analysis, or insights\u2014only menu structures and organizational categories. This appears to be a parsing error that captured the site's header/navigation rather than actual content.",
+      "tags": [
+        "navigation-page",
+        "website-structure",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is not an article but a website navigation page with no substantive content to evaluate."
+    },
+    "https://sequoiacap.com/article/listen-to-the-market/": {
+      "title": "Listen to the Market",
+      "source": "Sequoia",
+      "date": "2026-06-01T20:32:11+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "Sequoia Capital partners argue that prediction markets (specifically Kalshi's American Power Index) provide better political forecasting than traditional media, polling, or social feeds by forcing participants to stake capital on their beliefs. The article claims markets act as 'full-spectrum signal processors' that aggregate diverse information sources and strip away performative bias through financial consequences. KPOW creates a single numerical metric (-50 to +50) tracking Democratic/Republican power by combining current control with market-implied future outcomes across multiple political dimensions.",
+      "tags": [
+        "prediction-markets",
+        "political-forecasting",
+        "market-based-signals",
+        "kalshi",
+        "information-aggregation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on political prediction markets and forecasting methodology with no connection to AI, enterprise technology, semiconductor supply chain, or any of the specified technical/business domains."
+    },
+    "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and": {
+      "title": "\ud83c\udf99\ufe0f How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-01T15:01:46+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This podcast episode features Bryce Rattner Keithley, a non-technical recruiter who built and shipped an iOS fitness app using AI tools (Claude, Replit, Gemini) without writing code herself. The key workflow involved using Claude as an architect to plan, Claude Code to write code, and Terminal to execute, with screenshots and iterative prompting as debugging tools. The episode argues this demonstrates how AI is changing who can build software and that technical hiring should prioritize adaptability over pure coding speed.",
+      "tags": [
+        "no-code-development",
+        "claude",
+        "replit",
+        "app-development",
+        "non-technical-building",
+        "ai-assisted-coding"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study of using existing AI coding tools without novel insights into technical implementation, frameworks, or business implications beyond anecdotal workflow description."
+    },
+    "https://www.exponentialview.co/p/still-no-bubble": {
+      "title": "\ud83d\udd25 We checked. Again. Still no bubble.",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-06-01T13:06:36+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "lab-dynamics",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "This analysis argues that AI remains in a boom phase rather than a bubble, using five empirical indicators derived from 300 years of investment history to assess current market conditions. The key evidence includes dramatic revenue growth (quintupling year-over-year for major labs), capex rising 43% to $158 billion quarterly, and only one of five bubble indicators showing red, though economic strain has entered amber territory as AI capex now matches late-1990s telecom buildout levels. This matters because it provides quantitative framework for distinguishing sustainable growth from speculative excess in AI investment, particularly as revenue momentum has accelerated beyond forecasts while capex approaches $1 trillion by 2027.",
+      "tags": [
+        "ai-capex",
+        "bubble-indicators",
+        "revenue-growth",
+        "economic-strain",
+        "neoclouds",
+        "market-fundamentals"
+      ],
+      "status": "integrated"
+    },
+    "https://tearsheet.co/10-q/mays-public-fintech-theme-operating-systems-over-products/?utm_source=rss&utm_medium=rss&utm_campaign=mays-public-fintech-theme-operating-systems-over-products": {
+      "title": "May\u2019s public fintech theme: Operating systems over products",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-01T12:45:00+00:00",
+      "composite": 4.33,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that public fintech companies are converging on a strategy of controlling infrastructure and workflows rather than just offering products, moving 'one layer down the stack' closer to where financial decisions are executed. It cites examples from Coinbase (building infrastructure beneath trading volatility), LendingClub (business model transformation), and references to Intuit, Green Dot, and Citi as evidence of this trend. This matters because it signals a shift from product differentiation to platform control in financial services, though the analysis remains surface-level with limited supporting detail.",
+      "tags": [
+        "fintech-infrastructure",
+        "financial-operating-systems",
+        "platform-strategy",
+        "workflow-control",
+        "financial-services"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level industry observation with minimal analytical depth, limited novel insights, and marginal relevance to core AI/technical topics; primarily a general fintech landscape commentary."
+    },
+    "https://www.lennysnewsletter.com/p/building-an-iphone-app-with-zero": {
+      "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-01T12:04:51+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "A non-technical talent leader describes building and shipping a fitness app called Daily Hundred to the App Store using Replit, Claude, and Gemini without writing code herself. The article provides a step-by-step walkthrough of the process, including creating AI-generated videos of anthropomorphic animals demonstrating exercises and navigating App Store submission requirements. It argues that in the AI era, execution barriers have fallen and non-technical people can now ship software products using prompt-driven development tools.",
+      "tags": [
+        "no-code-development",
+        "replit",
+        "claude-code",
+        "ai-generated-video",
+        "prompt-engineering",
+        "app-store-submission"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study of using existing AI tools to build a simple app; lacks depth in technical implementation details, novel frameworks, or insights beyond 'non-technical person can now use AI tools to build things.'"
+    },
+    "https://tearsheet.co/smb-finance/how-intuit-is-turning-quickbooks-into-an-operational-coordination-layer-for-smbs/?utm_source=rss&utm_medium=rss&utm_campaign=how-intuit-is-turning-quickbooks-into-an-operational-coordination-layer-for-smbs": {
+      "title": "How Intuit is turning QuickBooks into an operational coordination layer for SMBs",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-01T11:45:00+00:00",
+      "composite": 6.0,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-native-product-design",
+        "agentic-workflows-production",
+        "ai-b2b-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Intuit is repositioning QuickBooks as a unified operational coordination layer for SMBs by merging workforce management (payroll, HR, scheduling) with financial systems rather than maintaining separate apps connected by APIs. The company's acquisition of GoCo and launch of QuickBooks Workforce creates a single data model that enables proactive operational decisions (like identifying margin pressure before payroll closes) rather than after-the-fact reporting. This represents a shift from workflow-specific tools to AI-powered orchestration across fragmented SMB operations that currently span 7-25 disconnected applications costing $120K annually.",
+      "tags": [
+        "smb-operations",
+        "workforce-management",
+        "financial-orchestration",
+        "unified-data-model",
+        "quickbooks",
+        "operational-coordination"
+      ],
+      "status": "integrated"
+    },
+    "https://www.tomtunguz.com/ai-shorts/": {
+      "title": "The AI Skepticism Map",
+      "source": "Tomasz Tunguz",
+      "date": "2026-06-01T00:00:00+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "gpu-architecture-training-infra",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "This article analyzes short interest data across AI-related public companies to map market skepticism, finding that GPU data center businesses face the highest bearish sentiment (60% increase in short interest) while hyperscalers and NVIDIA remain lightly shorted. The analysis reveals that skepticism is concentrated in mid-cap companies dependent on future capital, demand, or operating leverage (like SoundHound at 36.3% short interest), while memory semiconductor makers have seen decreased shorting due to supply constraints. This selective skepticism indicates market discrimination between proven AI winners and speculative plays rather than broad AI fatigue.",
+      "tags": [
+        "short-interest",
+        "gpu-data-centers",
+        "memory-semiconductors",
+        "market-sentiment",
+        "ai-cloud",
+        "neocloud"
+      ],
+      "status": "skipped",
+      "skip_reason": "While relevant to funding and market structure, this is a surface-level quantitative survey of public market sentiment without deep analytical frameworks or novel insights into underlying mechanisms\u2014it reports short interest percentages but doesn't provide original analysis of why these patterns exist or what they mean for enterprise AI strategy."
+    },
+    "https://feeds.feedblitz.com/~/957608414/0/kitcesnerdseyeview~Altruist-Plans-To-Launch-A-New-Corporate-RIA-And-More-Of-The-Latest-In-Financial-AdvisorTech-%e2%80%93-June/": {
+      "title": "Altruist Plans To Launch A New Corporate RIA (And More Of The Latest In Financial #AdvisorTech \u2013 June 2026)",
+      "source": "Kitces.com",
+      "date": "2026-06-01T11:04:09+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-in-wealth-management-advisory",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on financial advisor technology news for June 2026, including Altruist's planned corporate RIA launch, Flourish's mortgage platform, and various AI-powered tax and document analysis tools. Key evidence includes a survey showing high-net-worth clients are wary of AI in client-facing functions and observations that lower barriers to building technology are increasing point solutions rather than enabling advisors to build their own tools. The article matters primarily as an industry roundup for financial advisors tracking technology vendor developments, but offers limited depth or novel insights into AI capabilities themselves.",
+      "tags": [
+        "wealth-management",
+        "advisor-technology",
+        "tax-planning-ai",
+        "document-analysis",
+        "client-disclosure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level industry news roundup with minimal original analysis or technical depth; primarily vendor announcements rather than substantive exploration of AI capabilities, implementations, or business model implications."
+    },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN1N4MTdMY0tNaHZRc3ZfcG5MS0VGQ0kySDZpVUtCQlhESXZZd0s2X3R4bEQ3YWhXYXpPWFFEUmItXzBiTzcwd1o4Ym1xakRJelN3M1UxYVRnWEU2UmxNY1hCZExmS1hQY2RUQXAwejdsczFmYU11NHZlb3owbWgtTmR1TXlmcTlTMm1uZXhfQUNqR3ZOQlByaDRPUy0wSldj?oc=5": {
+      "title": "India Leads Global AI Adoption\u2014But Faces the Highest \u2018Complexity Cost\u2019 - CXOToday.com",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-29T09:40:18+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This article appears to discuss India's AI adoption rates and associated implementation complexity costs. However, the provided text contains only Google's cookie consent dialog with no actual article content. Without access to the substantive content, no meaningful evaluation of claims, evidence, or implications can be made.",
+      "tags": [
+        "india",
+        "ai-adoption",
+        "implementation-complexity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible\u2014only cookie consent dialog was provided, preventing evaluation of depth, novelty, or substantive relevance to target topics."
+    },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3RMQnRKTlFqSzF0X3pTbEhTcW04UTlHRzRvLVo3Y3hJWWd1eHF4TkkwS2JiUWU2emRMWlhfbEVPaDdfN1hzMW5ILWc1U21BLW9uSUpVQ19YenNZOXZiUDFNWUI0YlpvRXdJVG85a08xTFVfbGp1ZmxoS21IcmhnSVQ0N1VjVHBUb1Myd0RiSm0tOUIxckRLdEhsU3B0MXBwWS1zNEZybUlyQzBHS2xaM29iUU1meXZBTDdCUFVJY0pybU0?oc=5": {
+      "title": "OpenAI sees Codex usage in India surge 27x as enterprises operationalise AI workflows - CRN Asia",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-29T08:23:55+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports a 27x surge in OpenAI Codex usage in India as enterprises operationalize AI workflows. No actual article content is provided beyond the headline, only cookie consent dialog text from a webpage. Without substantive content, it's impossible to assess the mechanisms, evidence, or implications of this claimed growth.",
+      "tags": [
+        "codex",
+        "india-market",
+        "enterprise-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content beyond headline and cookie consent dialog; impossible to evaluate claims, evidence, or analysis without substantive text."
+    },
+    "https://news.google.com/rss/articles/CBMirwJBVV95cUxPQWRuQUNaV1hHbDRwS3Jyd242TG4weXNmV2p1UmpWYXlRUUxGN3BKVHc2YUNhY3NvSmZiVFpJQlBMZ1lUcm5PcGpLWWd1Rm1vRVhzdXlvd0pzaXBLVWliajZidDUtcm10Ym1RU21mVHZSMWdHVVMwZFB3M2I1RlB5TXNGSjFnT1FqMkZyN3ZmU2N5bGJRMTYtc2JMWWZMMDZuMVhRTkYxRVZQV1NmOG85b2xVbkNSWE9OWms0c01tR0pmemV3VUdsMEZGTWRkTG93MUdOa0tnNGpCVW9SaTZtcVVoYm5EdmRIN2hDdVdadUtyRS1zWjl2c1NMMFkzOEVjSHZuZVFISDBtajh1MXdXOWpJNUxTZGdmWkc5S3BXSkc3RkpjV01TclpSeVh0bXM?oc=5": {
+      "title": "Mid\u2011Market Companies Lose an Average of 25% of Their AI Budget Before Seeing a Single Return, New Freshworks Research Finds - The Globe and Mail",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-05-27T12:00:00+00:00",
+      "composite": 3.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Freshworks research claims mid-market companies waste 25% of AI budgets before seeing returns, though no actual article content is provided. The submission only contains a Google consent page with no substantive information about research methodology, data, or findings. Without access to the actual research or article, it's impossible to evaluate the validity or significance of the headline claim.",
+      "tags": [
+        "ai-budget",
+        "mid-market",
+        "roi",
+        "enterprise-ai-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not accessible - only Google consent page provided with no substantive information to evaluate"
     }
   }
 }

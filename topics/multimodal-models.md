@@ -1,5 +1,5 @@
 ---
-tags: [3d-unet, audio-latency, chameleon, concurrent-processing, ddim, diffusion-models, encoder-free-early-fusion, encoder-free-fusion, flow-matching-decoder, full-duplex-interaction, hierarchical-mlp, mixture-of-experts, multimodal-fusion, multimodal-models, real-time-inference, realtime-voice, temporal-consistency, thinking-machines, v-parameterization, video-generation, vision-language-models, voice-activity-detection]
+tags: [3d-unet, audio-latency, audio-video-alignment, chameleon, concurrent-processing, ddim, diffusion-models, diffusion-transformers, encoder-free-early-fusion, encoder-free-fusion, flipbook, flow-matching-decoder, full-duplex-interaction, generative-ui, grok-imagine, hierarchical-mlp, image-to-video, inference-speedups, iteration-speed, mixture-of-experts, multimodal-alignment, multimodal-fusion, multimodal-models, neural-os, real-time-inference, realtime-voice, step-distillation, synthetic-captions, temporal-compression, temporal-consistency, text-to-video, thinking-machines, v-parameterization, vaes, video-agents, video-generation, video-models, vision-language-models, voice-activity-detection, world-models]
 ---
 
 # Multimodal Models
@@ -16,29 +16,70 @@ Key questions tracked: Where are multimodal models actually being deployed in pr
 - **Design philosophy**: "Trained from scratch for real-time interaction" rather than layering speech/vision onto turn-based LLMs
 - **Core capability**: Full-duplex multimodal interaction as first-class model capability—models "listen, speak, watch, think, search, and react concurrently" without explicit turn boundaries
 - **Architecture approach**: Encoder-free early fusion processing images and audio <200ms latency, similar to Meta's [[model-architecture]] Chameleon
-- **Temporal granularity**: Operates on "time-aligned microturns" of 200ms each for continuous interactivity
-- **Visual proactivity**: Zero-shot capabilities like "tell me when I start slouching" or "count my pushups" emerge as native primitives rather than requiring special-purpose systems
-- **Benchmark performance**: Reports beating GPT-Realtime-2 and Gemini 3.1-Flash on BigBench Audio, IFEval, and FD-bench
-- **New internal benchmarks** (developed for interaction-specific evaluation):
-  - **FD-bench V1**: Measures audio latency in conversational turns (TML-Interaction-Small: 0.40s vs GPT-Realtime-2 minimal reasoning: 1.18s)
-  - **FD-bench V1.5**: Gauges interruption handling, interjections like "uh huh", and foreground vs background speech (TML-Interaction-Small: 77.8 average quality vs GPT-Realtime-2 xhigh reasoning: 47.8)
-  - **Audio MultiChallenge**: Tests reasoning and instruction-following in multi-turn audio dialogue (TML-Interaction-Small: 43.4% APR vs GPT-Realtime-2 xhigh reasoning: 48.5% APR)
+- **Temporal granularity**: Operates on "time-aligned microturns" of 200ms each for co
 
-#### Technical Architecture Details (May 2026)
-- **Two-component system**: Fast interaction model + asynchronous background reasoning model
-- **Interaction model**: Processes 200ms micro-turns, interleaving input processing and output generation rather than alternating turns
-- **Input processing**:
-  - Discretized audio tokens (direct, no large pretrained encoder like Whisper)
-  - Image patch embeddings of 40×40 pixels via hierarchical multilayer perceptron (MLP)
-  - Text embeddings
-  - All streams processed in parallel
-- **Output generation**: Flow-matching decoder for audio and text
-- **Training approach**: Transformer, hierarchical MLP, and flow-matching decoder trained together from scratch ("encoder-free early fusion" - skips large pretrained encoders)
-- **Background model**: Handles reasoning, web browsing, and tool calls asynchronously; shares context with interaction model; outputs woven into conversation when appropriate
-- **Architecture undisclosed**: Background model architecture, training data/methods, knowledge cutoff, context window not publicly revealed
-- **Performance tradeoff**: Leads on interactivity benchmarks but trails GPT-Realtime-2's strongest reasoning mode on intelligence benchmarks (BigBench Audio: 96.5% vs 96.6% for GPT-Realtime-2 high reasoning)
-- **Availability**: Closed research preview in coming months, wider release later in 2026; pricing undisclosed
+## Video Generation Models
 
-### Cross-Reference Links
-- See [[model-architecture]] for encoder-free early fusion and MoE transformer details
-- See [[inference-efficiency]] for latency optimization techniques enabling <200ms processing
+### Grok Imagine (xAI, 2026)
+- **Development timeline**: Built in 3 months from zero to one at xAI
+- **Grok Imagine 0.9**: Includes large-scale audio-video generation capability
+- **Core architecture**: Built on diffusion transformers with VAE-based latent space compression
+- **Key insight**: "Video models primarily get their intelligence from LLMs, not from training on video data" (Ethan He, xAI)
+- **Foundation dependency**: Image models serve as the foundation for video models
+- **Training data**: Uses synthetic captions for training (similar to other frontier models)
+
+### Video Agents: The Next Frontier
+- **Evolution parallel**: Video generation following similar path to [[agentic-coding-tools]]—moving from one-shot output to multiturn reasoning and planning
+- **Agent capabilities**: Systems that can "plan, generate, edit, critique, and iterate across an entire creative task"
+- **Grok Imagine Agent**: xAI's video agent system (in development as of mid-2026)
+- **Architectural claim**: "Future of video generation may depend more on language models and agents than on diffusion alone"
+- **Product hypothesis**: "The next Sora won't be a better video model, but a video agent"
+
+### Audio-Video Alignment
+- **Challenge**: Audio-video alignment is harder than text-video alignment
+- **Grok Imagine 0.9**: First major xAI release with integrated audio-video generation
+
+### Inference Optimization
+- **Step distillation**: Key technique for making video inference "orders of magnitude faster"
+- **Consistency models**: OpenAI's sCM (step Consistency Model) as reference implementation
+- **GANs**: Also used for fast video inference alongside distillation techniques
+
+### Video Model Capabilities
+- **Reference-to-video**: Ability to generate video from reference images/clips
+- **Video extension**: Extending existing video clips temporally
+- **Long-context video generation**: Managing extended temporal sequences
+- **Prompt rewriting**: Critical for video model quality—xAI uses this extensively
+
+## World Models
+
+### Definition and Requirements (Ethan He, xAI)
+- **Three key properties**: Real-time, interactive, and long-horizon
+- **Temporal compression tradeoff**: Balance between compression efficiency and real-time interactivity requirements
+- **Embodied applications**: Robotics and physical AI as key use cases
+- **Context**: NVIDIA Cosmos World Model (Ethan He's previous work before xAI)
+
+## Generative UI and Flipbook
+
+### Flipbook Vision
+- **Concept**: Video generation as the future interface layer—"from user intent to pixels" without traditional HTML/CSS
+- **Alternative names**: Neural OS concept
+- **Hypothesis**: As video inference speed and cost improve, custom JIT video UI becomes practical
+- **Timeline consideration**: "Future of custom video JIT UI is closer than you think" with improving inference economics
+
+## Training Infrastructure and Costs
+
+### Hidden Costs of Video Models
+- **Storage**: Massive video dataset storage requirements
+- **Egress costs**: Moving large video datasets between systems
+- **GPU hours**: Compute requirements for training
+- **Data pipeline bugs**: "Small training bugs can drive huge model quality gains"—debugging data/training pipelines yields outsized returns
+
+### Development Speed
+- **Iteration speed**: "Matters more than almost anything in model development"
+- **xAI culture impact**: Fast iteration prioritized over meetings enabled 3-month Grok Imagine development
+
+## Safety and Detection
+
+### AI Watermarking
+- **SynthID**: Google's watermarking approach for generated media
+- **Detection challenge**: Identifying AI-generated video and images
