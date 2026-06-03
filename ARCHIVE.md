@@ -705,7 +705,104 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-03
+
+**✗ 4.7** — [Issue 355](https://www.deeplearning.ai/the-batch/issue-355)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#forward_deployed_engineer #ai_engineer #vendor_lock_in #agentic_workflows
+> The article argues that while Forward Deployed Engineer (FDE) roles are resurging due to demand for customizing AI solutions at client sites, the broader AI Engineer role will create far more jobs and provide companies with better vendor neutrality. The key evidence is that companies hire many more internal AI Engineers than embedded FDEs, and vendor lock-in from FDEs reduces strategic optionality in a rapidly evolving AI landscape. This matters because it suggests the AI job market will expand through generalist AI Engineer roles that will eventually fragment into specialized positions, rather than through vendor-specific embedded roles.
+
+**✓ 6.0** — [Public Opposition To Construction Of New Data Centers In The U S Has Spurred Political Action And Violence](https://www.deeplearning.ai/the-batch/public-opposition-to-construction-of-new-data-centers-in-the-u-s-has-spurred-political-action-and-violence)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · semiconductor-supply-chain · gpu-architecture-training-infra
+#data_center_opposition #infrastructure_bottleneck #energy_consumption #regulatory_moratorium
+> The article reports on mounting public opposition to data center construction across the U.S., manifested through legislative moratoriums, voter referendums, and two instances of violence targeting AI executives and government officials. It documents that approximately $64 billion in data center projects have been blocked or delayed between May 2024 and March 2025, with at least 12 states filing moratorium bills in 2026 due to concerns about electricity costs, water consumption, and noise pollution. This grassroots resistance represents a significant infrastructure bottleneck that could constrain AI scaling and force industry reconfiguration around energy and community acceptance.
+
+**✗ 4.7** — [Issue 351](https://www.deeplearning.ai/the-batch/issue-351)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · prompt-architecture
+#gpt_5_5 #reasoning_tokens #model_benchmarks #hallucination
+> The article announces OpenAI's GPT-5.5 release with improved benchmarks, agentic coding capabilities, and parallel reasoning inference (GPT-5.5 Pro), plus a new AI prompting course by Andrew Ng. It provides basic details on the model's features (reasoning levels, tool use, pricing at roughly double GPT-5.4 rates) and mentions hallucination issues with knowledge boundaries. The article is primarily a newsletter summary covering model releases and course announcements rather than original analysis or technical depth.
+
+**✓ 6.0** — [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)  
+*Anthropic Blog* · ai-governance-risk-compliance · lab-dynamics · regulatory-policy
+#cybersecurity #critical_infrastructure #vulnerability_scanning #responsible_deployment
+> Anthropic announces the expansion of Project Glasswing from 50 to 150 organizations across 15+ countries, giving them access to Claude Mythos Preview to scan critical infrastructure codebases for security vulnerabilities. The initial cohort has already identified over 10,000 high- or critical-severity security flaws in sectors including power, water, healthcare, communications, and hardware. Anthropic frames this as preparation for a near-future where Mythos-class AI models with powerful cyber capabilities become widely available without safeguards, potentially within 6-12 months from other AI labs.
+
 ## 2026-06-02
+
+**✗ 4.7** — [Microsoft's new MAI models](https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything)  
+*Simon Willison* · model-architecture · ai-in-product-and-engineering
+#mixture_of_experts #model_release #training_data_licensing #code_models
+> Microsoft announced two new LLMs: MAI-Thinking-1 (1T parameters, 35B active) and MAI-Code-1-Flash (137B parameters, 5B active), with claims of clean, commercially licensed training data. The author initially misreported model sizes and later discovered the technical paper reveals standard web crawling practices similar to other major LLMs, contradicting initial claims about licensing. The article demonstrates how initial model announcements can be misleading about training data practices, though the mixture-of-experts architecture with low active parameters is notable for efficiency.
+
+**✗ 3.0** — [datasette-agent-micropython 0.1a0](https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-governance-risk-compliance
+#code_execution #sandboxing #webassembly #ai_safety
+> Simon Willison announces an alpha release of a tool that enables Datasette Agent to execute Python code safely within a MicroPython WebAssembly sandbox. The key evidence is that GPT-5.5 has not successfully escaped the sandbox during testing. This represents an incremental step toward secure code execution for AI agents, though the article provides no technical details about the implementation or security mechanisms.
+
+**✗ 2.3** — [micropython-wasm 0.1a1](https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything)  
+*Simon Willison* · 
+#micropython #webassembly #sandboxing #python_library
+> This is a brief release note for micropython-wasm 0.1a1, a Python library that runs MicroPython in a WebAssembly sandbox. The release addresses limitations discovered while building datasette-agent-micropython. No technical details, analysis, or substantive information is provided beyond the existence of this release.
+
+**✓ 7.3** — [GitHub's plan for Agents — Kyle Daigle, GitHub](https://www.latent.space/p/github)  
+*Latent Space Podcast* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#coding_agents #github_copilot #micro_skills #agent_infrastructure
+> GitHub COO Kyle Daigle discusses how AI coding agents drove 1400% commit growth in 2026, creating infrastructure scaling challenges and fundamentally changing open source contribution dynamics. The conversation covers GitHub's internal adoption of micro-skills, WorkIQ, MCP integration, and how they're evolving pull requests, CI/CD, and developer workflows to handle agent-generated code at scale. This matters because GitHub is the central platform where the collision between traditional human-speed software development and AI-generated code is forcing architectural and social contract rethinking across the entire software ecosystem.
+
+**✗ 2.0** — [Farewell Ai2](https://www.interconnects.ai/p/farewell-ai2)  
+*Interconnects (Nathan Lambert)* · lab-dynamics
+#olmo #open_models #ai2 #research_culture
+> Nathan Lambert announces his departure from the Allen Institute for AI (Ai2), where he worked on the Olmo models and open post-training research. He reflects on Ai2's culture as a rare institution between academia and industry focused on open AI development, praising the collaborative environment and support systems. The post is primarily a personal farewell note emphasizing Ai2's mission to influence AI's cutting edge through open research.
+
+**✗ 2.3** — [The Download: AI can run your admin department now](https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/)  
+*MIT Technology Review* · ai-in-operations
+#small_business #administrative_automation #business_operations
+> This newsletter digest reports that AI tools can now handle basic administrative tasks for small businesses, from accounting to social media planning, addressing the challenge of limited resources compared to large companies. The article provides a brief overview of administrative use cases without detailed evidence or mechanisms. It serves as a surface-level introduction to AI adoption in small business operations rather than original analysis.
+
+**✗ 4.3** — [Travelers deploys AI-powered claims countrywide with OpenAI](https://openai.com/index/travelers)  
+*OpenAI News* · ai-insurance-claims · ai-in-customer-success-support
+#insurance_claims #conversational_ai #customer_support_automation #openai_enterprise
+> Travelers Insurance deployed an OpenAI-powered AI assistant to help customers file insurance claims with 24/7 availability and handle demand spikes. The article provides minimal technical detail beyond stating the assistant guides customers through the claims process and scales operations. This represents a standard enterprise deployment of conversational AI in insurance, but lacks depth on implementation, results, or unique approaches.
+
+**✗ 3.3** — [The Week in Market Moves | May 21-28, 2026](https://tearsheet.co/10-q/the-week-in-market-moves-may-22-28-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-in-market-moves-may-22-28-2026)  
+*Tearsheet (fintech)* · ai-in-finance-accounting
+#ai_agents_finance #payment_network_liability #crypto_infrastructure #regulatory_approval
+> This article summarizes market moves from three fintech companies: Mastercard's dispute over liability from a Brazilian bank collapse, Circle co-founder's new AI-native banking venture that positions AI agents as primary financial actors, and Robinhood's Canadian regulatory approval for crypto expansion. The evidence is largely surface-level reporting of news events with brief contextual commentary on why each development matters for the broader industry. The article provides a weekly snapshot of fintech market activity but offers limited original analysis or deep investigation into the mechanisms behind these moves.
+
+**✗ 4.0** — [Rehumanizing global health care with agentic AI](https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/)  
+*MIT Technology Review* · ai-in-customer-success-support · agentic-workflows-production
+#agentic_ai #healthcare_automation #insurance_claims #patient_triage
+> The article argues that agentic AI can address healthcare workforce shortages by automating back-office processes and patient triage, unlike previous failed digitalization efforts. It provides a case study from Hospital for Special Surgery showing AI agents reduced insurance appeals from 45 minutes to 5 minutes with 100% success rates and now handle patient scheduling/triage 24/7. The piece positions agentic AI as fundamentally different from prior healthcare technology deployments because of its autonomous decision-making and ability to handle nuanced scenarios.
+
+**✗ 2.3** — [Getting Your (Virtual) Team’s Best Work Through Steward Leadership On The Growth Path To $500M: #FASuccess Ep 492 With Mary Chapman](https://feeds.feedblitz.com/~/957641525/0/kitcesnerdseyeview~Getting-Your-Virtual-Team%e2%80%99s-Best-Work-Through-Steward-Leadership-On-The-Growth-Path-To-M-FASuccess-Ep-With-Mary-Chapman/)  
+*Kitces.com* · 
+#steward_leadership #hybrid_work_model #wealth_management #crm_workflows
+> This podcast episode discusses how Mary Chapman, COO of a wealth management firm, applies 'steward leadership' principles to manage a hybrid work environment for a 260-client firm with $500M AUM. The key mechanisms include setting specific behavioral expectations (like answering phones after two rings), using CRM workflows for accountability without micromanagement, and concentrating in-person client meetings into specific periods. The episode offers tactical advice on hybrid team management but focuses on traditional wealth advisory operations rather than AI-enabled workflows or modern technology infrastructure.
+
+**✗ 3.0** — [The Google Capital Company](https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzMDQ0MDQyLCJpYXQiOjE3ODA0NTIwNDIsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.Y2dZRiyoOsQOSNSuAm1WNQvJTutRJTEC1N3bz1Wp5YnfoDlzHXe4RvtyAHXngIPTAkJfeLHB_oNXuY1WXXHiEScrw3L8x4gQRSHe3pRftxSz1TBw0oC6Fhqr2lJYYeyfzEqrnbHSRUP99mXa-4jmE4T0jvBlKZGPpA9pBB0tZNAN_CzhkT2YCqCeluVYxSZ4Z5nZHR2DMnVVgTx_bwQyV-yxt_2JoNASk6Pi6bmDBIZtRy4x-fQg2U7GC2ZLUYWU0Qka51K8HkNt9LN3QOKnsZJMID_yHqcuKIONAjrMa-DPmIudPv_lBc-TozriNqYAxVtQkYfYA8feyqu6B3baFA&p=19180)  
+*Stratechery (Ben Thompson)* · 
+#google #berkshire_hathaway #aggregator_theory #capital_allocation
+> The article argues that Google has issued equity to Berkshire Hathaway in a deal that reflects changing capital dynamics, using Google's traditional business model as a framing device. It provides context through Buffett's historical investment philosophy about capital-light businesses versus capital-intensive ones. The piece appears incomplete and doesn't fully develop its thesis about what this capital deal means for the future.
+
+**✗ 2.3** — [Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow)  
+*OpenAI News* · ai-in-marketing-content · ai-engineering-agents
+#codex #plugins #workflow_automation #cross_functional_tools
+> The article announces new Codex plugins and integrations designed to help various business roles (analysts, marketers, designers, investors) utilize AI in their workflows. It provides a surface-level overview of plugin availability without technical details, implementation examples, or performance metrics. The piece serves as a product announcement rather than analysis of how AI tooling transforms specific workflows.
+
+**✗ 3.3** — [How small businesses can leverage AI](https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/)  
+*MIT Technology Review* · ai-in-operations
+#notion_ai #small_business #administrative_automation #meeting_summaries
+> This article profiles how a private tutor uses Notion AI for administrative tasks like meeting summaries, invoicing, goal-setting, and social media management to free up time for actual tutoring work. The key mechanism is AI handling rote secretarial work that small businesses lack dedicated staff for, specifically through Notion's integration across productivity platforms. It positions AI as a 'good enough' solution for administrative overhead in resource-constrained small businesses.
+
+**✗ 2.3** — [Advancing youth safety and opportunity through global leadership](https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership)  
+*OpenAI News* · regulatory-policy · ai-governance-risk-compliance
+#youth_safety #international_governance #policy_proposal #ai_safety_standards
+> OpenAI proposes creating an international institute focused on AI safety for youth, calling for global coordination on safeguards and standards. The article provides minimal detail on specific mechanisms, evidence, or implementation plans beyond the high-level policy proposal. This represents a corporate policy positioning statement rather than substantive analysis of youth safety challenges or solutions.
+
+**✓ 6.0** — [[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark](https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3)  
+*Latent Space* · model-architecture · multimodal-models · gpu-architecture-training-infra
+#mixture_of_transformers #world_models #multimodal_architecture #open_weights
+> NVIDIA announced three major AI releases: Cosmos 3 (a multimodal world model unifying language, image, video, audio and action in a Mixture-of-Transformers architecture), Nemotron 3 Ultra (a 550B parameter open-weights LLM claiming US SOTA with 300+ tok/s serving speed), and RTX Spark (a 1 petaflop personal computer superchip). Cosmos 3 achieved #1 open-weight rankings on text-to-image and image-to-video leaderboards using paired autoregressive reasoner and diffusion generator towers, while Nemotron 3 Ultra demonstrated notably higher active parameter density (~10%) compared to sparse competitors like DeepSeek V4 (~3%). These releases represent NVIDIA's coordinated push into open-source physical AI and edge deployment, extending their dominance from datacenter hardware into model architectures and consumer devices.
 
 **✗ 2.7** — [Confidential Draft S1 Sec](https://www.anthropic.com/news/confidential-draft-s1-sec)  
 *Anthropic Blog* · lab-dynamics · funding-and-market-structure
@@ -736,6 +833,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Bain Insights* · 
 #navigation_page #website_structure #no_content
 > This is a navigation page for Bain & Company's website, listing their offices, industries, consulting services, and career opportunities. It contains no actual article content, analysis, or insights—only menu structures and organizational categories. This appears to be a parsing error that captured the site's header/navigation rather than actual content.
+
+**✗ 5.3** — [The Thriving Ecosystem of Open Models](https://www.tomtunguz.com/the-thriving-ecosystem-of-open-models/)  
+*Tomasz Tunguz* · model-architecture · lab-dynamics · funding-and-market-structure
+#open_models #open_weight #openrouter #model_competition
+> The article reports that open-weight models now generate 69.1% of token volume on OpenRouter (versus 30.9% for closed models), with competition driving rapid innovation and leaderboard changes among providers like DeepSeek, MiniMax, Qwen, and Arcee. The evidence comes from OpenRouter API usage data showing clustered model releases sustaining new plateaus of token volume since 2025. This matters because it suggests developers are increasingly willing to route production traffic to open models, indicating a shift in the model ecosystem toward open-weight alternatives.
 
 ## 2026-06-01
 
@@ -1328,6 +1430,11 @@ All articles scanned since the wiki started. Updated nightly.
 #ai_budget #mid_market #roi #enterprise_ai_adoption
 > Freshworks research claims mid-market companies waste 25% of AI budgets before seeing returns, though no actual article content is provided. The submission only contains a Google consent page with no substantive information about research methodology, data, or findings. Without access to the actual research or article, it's impossible to evaluate the validity or significance of the headline claim.
 
+**✗ 3.7** — [Mid‑Market Companies Lose an Average of 25% of Their AI Budget Before Seeing a Single Return, New Freshworks Research Finds - Yahoo Finance](https://news.google.com/rss/articles/CBMipAFBVV95cUxNbkE2d1Fpalo2MTNfcFBCclk2bk1CS1VNLWw3dnZFaV9KVVN1bWZURlNNZ2V6VWN1U0JEdVYzbG1tMXJ1ZFQweHlTZEFESTJnVWl1RjZUNkM5a01Ea0RGR0lXTFBNVmJDRnh0algycmtfSDVycE5Jc3BCbkE0UGJsWGF6cWRITExTekx4bUJoTEVoUEdySEFpbF9TUWJNeTVRSFhINw?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#ai_budget_waste #mid_market #roi_challenges
+> Freshworks research claims mid-market companies waste 25% of AI budgets before achieving ROI, though no actual article content is provided beyond the headline. The claim suggests significant inefficiency in mid-market AI adoption but provides no evidence, methodology, or specific mechanisms for the waste. If substantiated, this would matter for understanding AI implementation challenges in the mid-market segment.
+
 **✗ 4.0** — [Mid‑Market Companies Lose an Average of 25% of Their AI Budget Before Seeing a Single Return, New Freshworks Research Finds - The Globe and Mail](https://news.google.com/rss/articles/CBMisgJBVV95cUxQLUdlUjVVeDk4S2o1UzNBLUZGY003NU1xdGF2MGJfUDNuZm1pZkRXWmNneGdMOER4R09ja3pqMjRVd1N4UjhGOG1lWjBlQkEtZWViWHpqeTBWdlBFTVlMTW5lY051MnVHeUdaVFhvcndoY05saEhpLUxldVlPVS14bmFSYVVxa1o0cExYWnNMSHF0djRmMGlsNHhtN1kyWUZwN1docklGWHZweGZ0UkJHQVhCcEszVVhLNmVFNkdVYXJ1ekpTb1FvVVpEeFFvTUJCVWRSSWJsXzAwVGpuaXhza0FfeWd1UGlCUmM4N2FVdGtpX2dwbEtKM0RIV21HWW1sUkRfNzBzTG9LYThwWWtfY0twWk1MX3V4RU9mMGFmMW9nckUtQmNXaElFQ1NCcERrY2c?oc=5)  
 *GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount · ai-governance-risk-compliance
 #mid_market #ai_budget #roi #implementation_waste
@@ -1367,6 +1474,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · 
 #starlink #satellite_internet #spacex_ipo #scale_economics
 > The article discusses SpaceX's brand power and scale strategy, drawing parallels between Tesla's commodity approach and American Airlines' adoption of Starlink satellite internet. It suggests that while a traditional SpaceX IPO lacks clear financial justification, the concept of data centers in space could provide a viable business model. The piece emphasizes Musk's focus on leveraging scale rather than premium differentiation.
+
+**✗ 3.0** — [The SpaceX IPO and Data Centers in Space](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODMwNDQwNDIsImlhdCI6MTc4MDQ1MjA0MiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.RkCmCk3aPjWHXO6RdOTQCTc2T5nEZJo30PppRjshF_pkd7ssJCTilQ1Y_lBQ05PFkTKFNQ1WJC3r9gp3lfY_dG61-uxzErHoQgSkwWgTROfCyfLUoWs4qohOoNiSdFN1-sOSNc7sF4aAy3945yGNN_o6-YcMz-_tk23QikMc_S70vo__B4RO3SHndvDTXpSsU4niv6W8FQrVD1EBZA04gk01FypjvT1YW0VyjwS-m43VXp1uh9Uuhd7tg3l_Gj1Wf8Z6qSxcu_EIgD-AystUiy9XmLb_YG66nu04tRf77BNIHZJ6oA29-nQDTBHe4Fr7T6nrB89gfrGYiJigR88bXA)  
+*Stratechery (Ben Thompson)* · 
+#starlink #satellite_internet #spacex_ipo #infrastructure_scale
+> The article discusses SpaceX's brand value and Starlink's deployment on American Airlines aircraft, drawing parallels to Tesla's market positioning and scale strategy. It presents Starlink's satellite internet service as evidence of Elon Musk's focus on leveraging scale across ventures, with American Airlines announcing deployment on 500+ aircraft starting 2027. The piece suggests that while a traditional SpaceX IPO financial model is questionable, infrastructure plays like data centers in space could provide justification.
 
 **✗ 3.7** — [The SpaceX IPO and Data Centers in Space](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1zcGFjZXgtaXBvLWFuZC1kYXRhLWNlbnRlcnMtaW4tc3BhY2UvIl19LCJleHAiOjE3ODI5NTc2NDIsImlhdCI6MTc4MDM2NTY0MiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.kWX_Fel9fUrMXNWVSCgE9T-yoXWXoPdGq4fmE-fp-Vz2VLXcpbDYii6wUZ7cghs-Ujsd0XTycCdoiLyvLJvF3lpWKp-YTJ4JZB2RrFNzbAcn_Z574D2BlBCAINt9J7A7xXmxc0rnBOXfKA_zstRVZp8FN1P1qeExNYxJ_XDumyfF7ZM46APQlpayEjeBKwawxeoIfAQWzM4o-xJ9KR2sxu_W1U8mYGR8vQMIp0yB0-LZKj6QJLOSQo6x3wgNbJGa9YnK6yS2yDwDgpJBuMXVfcqLpLe45GbYsXzAHtDei-ExC__CUE1pYYmbVE7BfuPFyh0-9QtJOsrK8JkIfzbe0A)  
 *Stratechery (Ben Thompson)* · 

@@ -1,5 +1,5 @@
 ---
-tags: [3d-unet, audio-latency, audio-video-alignment, chameleon, concurrent-processing, ddim, diffusion-models, diffusion-transformers, encoder-free-early-fusion, encoder-free-fusion, flipbook, flow-matching-decoder, full-duplex-interaction, generative-ui, grok-imagine, hierarchical-mlp, image-to-video, inference-speedups, iteration-speed, mixture-of-experts, multimodal-alignment, multimodal-fusion, multimodal-models, neural-os, real-time-inference, realtime-voice, step-distillation, synthetic-captions, temporal-compression, temporal-consistency, text-to-video, thinking-machines, v-parameterization, vaes, video-agents, video-generation, video-models, vision-language-models, voice-activity-detection, world-models]
+tags: [3d-unet, audio-latency, audio-video-alignment, autoregressive-reasoner, chameleon, concurrent-processing, ddim, diffusion-models, diffusion-transformers, encoder-free-early-fusion, encoder-free-fusion, flipbook, flow-matching-decoder, full-duplex-interaction, generative-ui, grok-imagine, hierarchical-mlp, image-to-video, inference-speed, inference-speedups, iteration-speed, mixture-of-experts, mixture-of-transformers, multimodal-alignment, multimodal-architecture, multimodal-fusion, multimodal-models, neural-os, open-weights, real-time-inference, realtime-voice, sparse-models, step-distillation, synthetic-captions, temporal-compression, temporal-consistency, text-to-image, text-to-video, thinking-machines, v-parameterization, vaes, video-agents, video-generation, video-models, vision-language-models, voice-activity-detection, world-models]
 ---
 
 # Multimodal Models
@@ -18,68 +18,33 @@ Key questions tracked: Where are multimodal models actually being deployed in pr
 - **Architecture approach**: Encoder-free early fusion processing images and audio <200ms latency, similar to Meta's [[model-architecture]] Chameleon
 - **Temporal granularity**: Operates on "time-aligned microturns" of 200ms each for co
 
-## Video Generation Models
+## World Models and Physical AI
 
-### Grok Imagine (xAI, 2026)
-- **Development timeline**: Built in 3 months from zero to one at xAI
-- **Grok Imagine 0.9**: Includes large-scale audio-video generation capability
-- **Core architecture**: Built on diffusion transformers with VAE-based latent space compression
-- **Key insight**: "Video models primarily get their intelligence from LLMs, not from training on video data" (Ethan He, xAI)
-- **Foundation dependency**: Image models serve as the foundation for video models
-- **Training data**: Uses synthetic captions for training (similar to other frontier models)
+### NVIDIA Cosmos 3 (June 2026)
+- **Architecture**: Mixture-of-Transformers design combining autoregressive reasoner with diffusion generator (see [[model-architecture]] for technical details)
+- **Modality unification**: Single model handles language, image, video, audio, and action
+- **Model family**:
+  - Nano base: 16B (8B reasoner + 8B generator)
+  - Super base: 64B (32B reasoner + 32B generator)
+  - Super finetuned variants for Text-to-Image and Image-to-Video
+- **Performance claims**:
+  - #1 open-weight model on both Text-to-Image and Image-to-Video leaderboards (Artificial Analysis, June 2026)
+  - Positioned just below Nano Banana 2 in capability
+- **Release scope**: Full-stack open release including weights, code, datasets, and fine-tuning recipes
+- **Ecosystem strategy**: NVIDIA launched "Cosmos Coalition" with partners including Runway to build open ecosystem for world models
+- **Framework integration**: Adoption of OpenMDW framework; day-0 platform integrations (fal, etc.)
+- **Use case positioning**: Framed as infrastructure for "physical AI" including robotics applications
 
-### Video Agents: The Next Frontier
-- **Evolution parallel**: Video generation following similar path to [[agentic-coding-tools]]—moving from one-shot output to multiturn reasoning and planning
-- **Agent capabilities**: Systems that can "plan, generate, edit, critique, and iterate across an entire creative task"
-- **Grok Imagine Agent**: xAI's video agent system (in development as of mid-2026)
-- **Architectural claim**: "Future of video generation may depend more on language models and agents than on diffusion alone"
-- **Product hypothesis**: "The next Sora won't be a better video model, but a video agent"
+### MiniMax M3 (June 2026)
+- **Configuration**: Open-weight multimodal agent model with 1M context window
+- **Modality support**: Native multimodal processing (specific modalities not detailed)
+- **Agent benchmark performance**:
+  - SWE-Bench Pro: 59.0%
+  - Terminal Bench 2.1: 66.0%
+  - MCP Atlas: 74.2%
+- **Practical strengths**: Reports of strong performance on frontend generation, visual tasks, and game generation with one-shot outputs
+- **Note**: Mixed results between benchmark performance and practical deployment experience reported
 
-### Audio-Video Alignment
-- **Challenge**: Audio-video alignment is harder than text-video alignment
-- **Grok Imagine 0.9**: First major xAI release with integrated audio-video generation
-
-### Inference Optimization
-- **Step distillation**: Key technique for making video inference "orders of magnitude faster"
-- **Consistency models**: OpenAI's sCM (step Consistency Model) as reference implementation
-- **GANs**: Also used for fast video inference alongside distillation techniques
-
-### Video Model Capabilities
-- **Reference-to-video**: Ability to generate video from reference images/clips
-- **Video extension**: Extending existing video clips temporally
-- **Long-context video generation**: Managing extended temporal sequences
-- **Prompt rewriting**: Critical for video model quality—xAI uses this extensively
-
-## World Models
-
-### Definition and Requirements (Ethan He, xAI)
-- **Three key properties**: Real-time, interactive, and long-horizon
-- **Temporal compression tradeoff**: Balance between compression efficiency and real-time interactivity requirements
-- **Embodied applications**: Robotics and physical AI as key use cases
-- **Context**: NVIDIA Cosmos World Model (Ethan He's previous work before xAI)
-
-## Generative UI and Flipbook
-
-### Flipbook Vision
-- **Concept**: Video generation as the future interface layer—"from user intent to pixels" without traditional HTML/CSS
-- **Alternative names**: Neural OS concept
-- **Hypothesis**: As video inference speed and cost improve, custom JIT video UI becomes practical
-- **Timeline consideration**: "Future of custom video JIT UI is closer than you think" with improving inference economics
-
-## Training Infrastructure and Costs
-
-### Hidden Costs of Video Models
-- **Storage**: Massive video dataset storage requirements
-- **Egress costs**: Moving large video datasets between systems
-- **GPU hours**: Compute requirements for training
-- **Data pipeline bugs**: "Small training bugs can drive huge model quality gains"—debugging data/training pipelines yields outsized returns
-
-### Development Speed
-- **Iteration speed**: "Matters more than almost anything in model development"
-- **xAI culture impact**: Fast iteration prioritized over meetings enabled 3-month Grok Imagine development
-
-## Safety and Detection
-
-### AI Watermarking
-- **SynthID**: Google's watermarking approach for generated media
-- **Detection challenge**: Identifying AI-generated video and images
+## Image and Video Generation Leaderboard Status (June 2026)
+- **Open-weight SOTA**: NVIDIA Cosmos 3 Super finetuned variants
+- **Closed model frontier**: Nano Banana 2 (positioning relative to open models)

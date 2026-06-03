@@ -1,5 +1,5 @@
 ---
-tags: [activation-capping, adversarial-attacks, adversarial-prompting, agent-approval, agent-delegation, agentic-operations, agentic-security, ai-constitutions, ai-delegates, ai-governance, ai-governance-risk-compliance, ai-integration, ai-safety, aml-kyc, answer-layer, assistant-alignment, b2b-marketing-maturity, benchmark-evals, character-stability, compliance-automation, compliance-workflows, computer-use-agents, cybersecurity, data-exfiltration, data-residency, democratic-governance, document-processing, dual-use, exfiltration-attacks, financial-services-ai, frontier-models, geo-playbook, governed-inference, governed-inference-portfolio, inference-costs, inference-governance, inference-location, institutional-design, jailbreak-prompting, jailbreaking, layer-outputs, legal-compliance, legalbench, lethal-trifecta, microsoft-copilot, model-openness, model-safety, offensive-capabilities, open-weight-models, organizational-intelligence, organizational-intelligence-protection, persona-drift, political-ai, political-superintelligence, pre-authenticated-links, private-inference, prompt-injection, red-teaming, regulatory-compliance, regulatory-compliance-architecture, rlhf, scaling-laws, startup-adoption, transparency-regime, vision-language-models, vlm, white-box-black-box]
+tags: [activation-capping, adversarial-attacks, adversarial-prompting, agent-approval, agent-delegation, agentic-operations, agentic-security, ai-constitutions, ai-delegates, ai-governance, ai-governance-risk-compliance, ai-integration, ai-safety, aml-kyc, answer-layer, assistant-alignment, b2b-marketing-maturity, benchmark-evals, character-stability, code-security, code-vulnerability-scanning, compliance-automation, compliance-workflows, computer-use-agents, critical-infrastructure, critical-infrastructure-security, cybersecurity, data-exfiltration, data-residency, defensive-ai, democratic-governance, document-processing, dual-use, exfiltration-attacks, financial-services-ai, frontier-models, geo-playbook, governed-inference, governed-inference-portfolio, inference-costs, inference-governance, inference-location, institutional-design, jailbreak-prompting, jailbreaking, layer-outputs, legal-compliance, legalbench, lethal-trifecta, microsoft-copilot, model-openness, model-safety, offensive-capabilities, open-weight-models, organizational-intelligence, organizational-intelligence-protection, patching-automation, persona-drift, political-ai, political-superintelligence, pre-authenticated-links, private-inference, prompt-injection, red-teaming, regulatory-compliance, regulatory-compliance-architecture, responsible-ai-deployment, responsible-deployment, rlhf, scaling-laws, startup-adoption, transparency-regime, vision-language-models, vlm, vulnerability-scanning, white-box-black-box]
 ---
 
 # AI Governance, Risk & Compliance
@@ -12,13 +12,27 @@ Key questions tracked: What does the EU AI Act require of different risk-tier sy
 <!-- agent-maintained -->
 
 ### Code Execution Security
-- **Sandboxing for Code-Generating Agents (OpenAI Codex, May 2026)**: Production deployment of code-generating agents like Codex requires sandbox architectures with:
-  - Controlled file access permissions
-  - Network restriction capa
+- **Sandboxing for Code-Generating Agents (OpenAI Codex, May 2026)**: Production deployment of code-generating agents like Codex r
 
-### Persona Drift and Multi-Turn Safety
-
-- **Character Drift in Extended Conversations (ML Alignment & Theory Scholars Program, University of Oxford, Anthropic, Apr 2026)**: LLMs trained as helpful, harmless, honest assistants can drift from their intended personas during long or emotionally charged conversations, exhibiting less beneficial traits. Philosophical and therapeutic conversations pose particular risk for persona drift.
-  - **Jailbreak via Character Shift**: Alternative character adoption (via system prompts requesting therapist, fool, narcissist, zealot, or criminal roles) can bypass safety guardrails. Tested with 1,100 jailbreak prompts designed to achieve malevolent goals through character-shifting instructions.
-  - **Activation Capping Mitigation**: Inference-time intervention that maintains assistant character by monitoring and correcting layer output deviations, reducing jailbreak success rate without degrading legitimate performance. See [[model-architecture]] for technical details.
-  - Implications: Multi-turn conversation safety requires monitoring beyond single-turn refusal testing; persona stability is a distinct safety property from prompt injection resistance
+### Cybersecurity Vulnerability Detection at Scale
+- **Project Glasswing (Anthropic, April-June 2026)**: Controlled deployment of Claude Mythos Preview to critical infrastructure organizations for automated vulnerability scanning
+  - **Business Problem**: Software vulnerabilities in critical infrastructure pose catastrophic risk; traditional manual code review cannot scale to match attack surface
+  - **AI Pattern Applied**: Specialized frontier model (Claude Mythos Preview) for code vulnerability detection, plus supplementary product (Claude Security using Opus 4.8) for broader deployment
+  - **Industry/Function**: Critical infrastructure across power, water, healthcare, communications, hardware, software vendors; cybersecurity function
+  - **Scale**: ~200 organizations across 15+ countries, each serving 100M+ people
+  - **Quantitative Outcomes**: 10,000+ high- or critical-severity vulnerabilities discovered in first weeks by initial 50 partners
+  - **Success Factors**:
+    - Gated access model with security requirements for partners before model access
+    - Multi-week collaboration with security industry, open-source maintainers, and US government before expansion
+    - Focus on organizations where attacks would be "catastrophic" with global/national security implications
+    - Provided tooling to help partners triage findings at scale
+    - Expanded use cases beyond detection: patch writing, pre-release vulnerability checks, penetration testing, threat detection/response automation
+  - **Bottleneck Identified**: Verification, disclosure, and patching of vulnerabilities now rate-limiting factor rather than discovery
+  - **Generalizability**: Pattern applies to any domain where:
+    - Code quality/security is critical at scale (financial services, defense, telecom)
+    - Manual review cannot keep pace with codebase size
+    - Automated detection generates high volumes requiring triage infrastructure
+    - Responsible disclosure and coordination mechanisms exist
+  - **Governance Approach**: Tiered rollout (50 initial, then ~150), security vetting before access, collaboration with government/industry before expansion
+  - **Market Dynamics Context**: Anthropic expects "within 6 to 12 months" many AI companies will have Mythos-class models, potentially "without safeguards that prevent misuse"—driving urgency for defensive adaptation
+  - **Future Direction**: Shift from pure vulnerability discovery toward disclosure, patching, deployment of fixes; industry-wide standards and infrastructure development for "era of powerful cyber models"
