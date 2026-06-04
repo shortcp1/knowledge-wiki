@@ -1,5 +1,5 @@
 ---
-tags: [ai-research-automation, alphago, best-of-n-sampling, chain-of-thought, credit-assignment, credit-assignment-problem, deepseek-r1, grpo, inference-time-compute, inference-time-scaling, mcts, monte-carlo-tree-search, off-policy-training, policy-gradient, post-training, reasoning-models, reinforcement-learning, rejection-sampling, rl-training-targets, rlvr, self-consistency, self-play, self-refinement, training-costs]
+tags: [agentic-reasoning, agi-bottlenecks, ai-research-automation, alphago, best-of-n-sampling, chain-of-thought, coding-agents, credit-assignment, credit-assignment-problem, deepseek-r1, formal-verification, grpo, inference-time-compute, inference-time-scaling, inference-time-verification, iterative-evaluation, lean-proofs, lean-theorem-proving, mathematical-reasoning, mcts, mixture-of-experts, monte-carlo-tree-search, off-policy-training, open-weights, policy-gradient, post-training, putnam-exam, reasoning-models, reinforcement-learning, rejection-sampling, rl-training-signals, rl-training-targets, rlvr, self-consistency, self-play, self-refinement, swe-bench, training-costs, verified-generation]
 ---
 
 # Inference-Time Compute & Reasoning Models
@@ -19,22 +19,14 @@ Key questions tracked: What is the scaling law for inference-time compute? When 
 
 **Psychology analogy (Kahneman's dual process theory)**:
 - **System 1 (fast thinking)**: Quick, automatic, intuitive responses requiring little effort
-- **System 2 (slow thinking)**: Deliberate, logical reasoning requiring significant cognitive effort
-- **CoT as System 2**: Extended reasoning allows models to "challenge instincts" and make more rational outputs
+- **System 2 (slow thinking)**: Deliberate, logical reasoning requiring
 
-**Latent variable modeling perspective**: 
-- Mathematical formulation: $P(y \mid x) = \sum_{z \sim p(z\mid x)} P(y \mid x, z)$
+### Verified Generation (Axiom, Mid-2026)
 
-### Reasoning Model Definition (Raschka, Dec 2025)
-- **Operational definition**: In LLM context, reasoning means the model explains its answer, and this explanation itself often leads to improved answer accuracy
-- **Behavior characterization**: Model generates intermediate steps/traces rather than direct short responses
-- **Alternative terminology**: Often called "thinking" models in industry
+**Informal vs. Formal proofs bottleneck**: Carina Hong (Axiom CEO) argues that coding ability alone is insufficient for AGI progress, identifying "informal" mathematical reasoning as a key bottleneck. While models can generate informal proofs, translating these to formally verified proofs (e.g., in [[lean-proofs]]) remains challenging.
 
-### OpenAI o1 and DeepSeek R1 Timeline (2024-2025)
-- **OpenAI o1**: Released before January 2025, "added reasoning traces" and changed how LLMs behaved/felt in practice
-- **Pre-R1 observation**: "Scaling still worked, but it didn't really change how LLMs behaved or felt in practice (the only exception to that was OpenAI's freshly released o1)" (Raschka assessment)
-- **DeepSeek R1 significance**: Released January 2025, "showed that reasoning-like behavior can be developed with reinforcement learning" - described as "a really big deal"
-- **Industry shift**: Following DeepSeek R1, every major open-weight and proprietary LLM developer released reasoning variant (observation through 2025)
-- **Training approach**: See [[post-training-rlhf]] for RLVR/GRPO methods used to develop reasoning capabilities
+**Axiom performance claims**:
+- **Putnam exam**: 12/12 problems solved (8/12 within time limit), compared to DeepSeek's 103/120 and top human undergraduates at 110/120. Note: unclear what time constraints were for comparison systems.
+- **ProofGen benchmark (Verina)**: 99% (187/189) on code generation with proof of correctness, vs. OpenAI o3's 4.9%. Benchmark requires generating both code and formal proof of correctness.
 
-##
+**Current frontier gap (claim, mid-2026)**: Carina Hong suggests frontier labs are still training primarily on informal proofs rather than direct Lean proof generation, potentially limiting their [[post-training-rlhf]] effectiveness.

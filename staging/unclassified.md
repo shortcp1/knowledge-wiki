@@ -570,3 +570,23 @@ These elements touch on infrastructure strategy, M&A strategy, and platform reli
 - **Positioning**: Personal AI agents, creator workflows, RTX gaming in single integrated chip
 - **Status**: Early preview announced at Computex Taiwan
 - *Note*: Insufficient technical details for classification into existing architecture topics; appears to be edge/consumer inference hardware rather than training infrastructure
+
+---
+**🔬Scaling Past Informal AI - Carina Hong, Axiom Math** (Latent Space, 2026-06-03T19:27:49+00:00)
+### Anthropic's Strategic Positioning (mid-2026)
+
+**Claude Code momentum**: As of mid-2026, Anthropic's focus on code and enterprise (which appeared to be a "pragmatic niche play" in 2024 vs. OpenAI's consumer scale) is gaining significant traction. CEO Dario Amodei's "all in bet on acceleration via code" is being viewed as prescient.
+- **Trade-off**: Images and video development deprioritized in favor of coding capabilities
+- **Debate on sufficiency**: Axiom CEO Carina Hong argues coding ability is "necessary but not sufficient" for AGI, citing surprising gaps that may bottleneck AI progress despite coding pushing "the jagged frontier to the point of super intelligence in some domains"
+
+### Putnam Exam Results (2025)
+
+**Axiom achievement**: Seven-month-old startup Axiom solved 12/12 problems on the Putnam exam (8/12 within time limit)
+- Top human undergraduates: ~110/120
+- DeepSeek: 103/120 (closest reported AI system)
+- **Context**: Median Putnam score typically 0 or 1 points due to difficulty
+- **Note**: Unclear what humans or other AI systems would score with unlimited time
+
+---
+**🔬Scaling Past Informal AI - Carina Hong, Axiom Math** (Latent Space Podcast, 2026-06-03T19:27:49+00:00)
+**Anthropic's strategic positioning (Mid-2026 market observation)**: Anthropic's bet on code and enterprise (Claude Code) initially appeared as a "more pragmatic niche play" vs. OpenAI in 2024, but by mid-2026 is described as "eating the world." CEO Dario Amodei's focus on acceleration via code (deprioritizing images/video) is retrospectively viewed as prescient. However, this is market commentary rather than technical architecture claims.

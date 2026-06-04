@@ -1,107 +1,35 @@
 ---
-tags: [agent-infrastructure, agent-legibility, agent-orchestration, agent-token-costs, agentic-ai, agentic-token-consumption, ai-budgeting, ai-code-review-bottleneck, ai-in-product-and-engineering, anthropic-claude, api-pricing, async-agents, autonomous-agents, autoregressive-transformer, background-agents, behavioral-data-moats, biotech-ai-tools, cancer-treatment-matching, ci-cd-scaling, cicd-deployment-constraints, claude-anthropic, code-generation, code-quality-bottleneck, codex, codex-adoption, coding-agents, cognition-devin, content-addressed-caching, context-engineering, cursor-adoption, cursor-agents-pane, cursor-ide, cursor-michael-truell, dark-factory, data-quality-blockers, developer-definition-expansion, devin, engineering-ai-maturity, enterprise-adoption, enterprise-pricing, financial-orchestration, function-specific-adoption, ghost-libraries, github-actions, github-copilot, github-copilot-evolution, github-spark, harness-engineering, intuit-quickbooks-workforce, liquid-ai-architecture, low-code-transparency, mcp-integration, micro-skills, monetization-strategy, multimodal-biotech-data, open-source-maintenance, openai-codex, openai-frontier, operational-coordination, operational-coordination-layer, pharma-licensing, product-market-fit, productivity-measurement, prompt-requests, proprietary-datasets, quickbooks, ramp-coding-agent, saas-pricing, shopify-ai-stack, simgym-customer-simulation, smb-operations, smb-software-integration, spatial-transcriptomics, spec-to-pr, spec-to-pull-request, supply-chain-security, symphony, symphony-orchestration, tangent-auto-research, tangle-ml-workflows, three-waves-coding-tools, token-billionaires, token-budget-explosion, token-budget-unlimited, token-consumption, tool-fragmentation, unified-data-model, variable-costs, virtual-cells, windsurf, workflow-automation, workforce-financial-integration, workforce-management, zero-human-code]
+tags: [agent-infrastructure, agent-legibility, agent-orchestration, agent-token-costs, agentic-ai, agentic-token-consumption, ai-budgeting, ai-code-review-bottleneck, ai-coding-agents, ai-in-product-and-engineering, ai-tool-economics, anthropic-claude, api-pricing, async-agents, autonomous-agents, autoregressive-transformer, backend-acceleration, backend-development, background-agents, behavioral-data-moats, biotech-ai-tools, cancer-treatment-matching, ci-cd-scaling, cicd-deployment-constraints, claude-anthropic, claude-code, code-generation, code-quality-bottleneck, codex, codex-adoption, coding-agent-acceleration-rates, coding-agents, cognition-devin, content-addressed-caching, context-engineering, cursor, cursor-adoption, cursor-agents-pane, cursor-ide, cursor-michael-truell, dark-factory, data-quality-blockers, developer-definition-expansion, devin, engineering-ai-maturity, enterprise-adoption, enterprise-ai-budgeting, enterprise-pricing, financial-orchestration, frontend-acceleration, frontend-development, function-specific-adoption, ghost-libraries, github-actions, github-copilot, github-copilot-evolution, github-spark, harness-engineering, infrastructure-acceleration, infrastructure-engineering, intuit-quickbooks-workforce, liquid-ai-architecture, low-code-transparency, mcp-integration, micro-skills, monetization-strategy, multimodal-biotech-data, open-source-maintenance, openai-codex, openai-frontier, operational-coordination, operational-coordination-layer, pharma-licensing, product-market-fit, productivity-measurement, prompt-requests, proprietary-datasets, quickbooks, ramp-coding-agent, research-acceleration, saas-pricing, shopify-ai-stack, simgym-customer-simulation, smb-operations, smb-software-integration, software-acceleration, spatial-transcriptomics, spec-to-pr, spec-to-pull-request, supply-chain-security, symphony, symphony-orchestration, tangent-auto-research, tangle-ml-workflows, team-architecture, three-waves-coding-tools, token-billionaires, token-budget-explosion, token-budget-unlimited, token-consumption, token-spending-caps, tool-fragmentation, uber-ai-budget, usage-caps]
 ---
 
 # AI in Product & Engineering
 
-Tracks AI applications in software development and product management: coding assistants (Copilot, Cursor, Claude), AI-assisted code review, test generation, PR automation, and AI-driven product analytics and roadmapping. Also includes AI tools for scientific and biotech product development.
+Covers software company adoption of AI tools in their own development processes: GitHub Copilot rollouts, Cursor/Devin integration, coding agent economics, impacts on velocity and code quality, team restructuring, and the evolution of engineering job definitions.
 
-## GitHub's AI Product Strategy (2026)
+Key questions tracked: What productivity gains are companies actually seeing? Which development workflows have agents penetrated vs. which remain human-dominated? How are companies managing the token cost explosion?
 
-### GitHub Copilot: Multi-Surface Evolution
+## Key Claims
+<!-- agent-maintained -->
 
-**Product Evolution Trajectory**:
-1. **Code completion** (initial release)
-2. **CLI interface** (command-line agents)
-3. **Desktop app** (standalone application)
-4. **Cloud agents** (server-side execution)
-5. **SDK** (developer integration)
+### Coding Capabilities & Automation
+- **SWE-Bench Progress (2023-2026)**: AI coding capabilities on real-world GitHub issues improved from ~2% (Claude 2, late 2023) to 93.9% (Claude Mythos Preview, May 2026), effectively saturating the benchmark. This represents a ~47x improvement in solving real-world software engineering problems over ~2.5 years.
+- **METR Time Horizons**: AI systems show rapid progress in completing tasks over longer time horizons
 
-**Key Product Philosophy**:
-- **Context-aware**: Understanding repository, team patterns, individual preferences
-- **Memory systems**: Learning from past interactions
-- **Rules engine**: Making GitHub "act like Kyle wants it to act"
-- **Ambient AI**: Background processing and proactive assistance
-- **OpenClaw integration**: Enterprise security layer
-
-**Implementation Pattern**: Rolling out AI through **existing workflows** instead of forcing new tools. This contrasts with approaches that require workflow changes.
-
-### GitHub Spark: Low-Code with Code Transparency
-
-**Problem Solved**: Lowering barrier to building software while maintaining transparency
-
-**Key Differentiation**: GitHub refuses to hide the code, unlike traditional low-code platforms. This preserves:
-- Auditability
-- Learning opportunities
-- Modification capabilities
-- Trust through transparency
-
-**Target User Expansion**: Redefining "developer" as AI lowers barriers. Contributing to **200M+ developers** on platform (including AI-enabled builders).
-
-### Pull Requests → Prompt Requests
-
-**Workflow Evolution**:
-- **Traditional PR**: Human writes code → submits for review → discussion → merge
-- **Prompt Request**: Human writes prompt → AI generates code → review mechanism → merge
-
-**New Trust Mechanisms**:
-- **Vouching systems**: Establishing trust in agent-generated contributions
-- **AI review**: Automated review of agent code
-- **Quality signals**: New metrics for agent-generated work
-
-**Open Source Challenge**: Managing "slop forks" and low-quality agent contributions without losing community value.
-
-### Former Developer Leadership Advantage
-
-**Key Insight**: Leadership with development backgrounds may have unique advantage in AI era. Example: GitHub COO Kyle Daigle actively coding again after years in leadership roles.
-
-**Why It Matters**:
-- Understanding what agents can/cannot do
-- Designing workflows that leverage AI effectively
-- Making technical product decisions about agent integration
-- Bridging business and technical implementation
-
-**Use Case**: Daigle runs "15 agents on Saturday" for personal workflows, generates AI-powered executive presentations for CRO/CFO teams.
-
-### Chief of Staff Role Evolution
-
-**AI Impact**: Changes the role without removing human work
-- Summarization across company context
-- Cross-functional coordination
-- Executive briefing preparation
-- Pattern recognition across departments
-
-**Human elements remain**: Judgment, relationship management, strategic prioritization
-
-### Quantitative Impact
-- **1400% growth** in agent-generated commits (2026)
-- **14x overall commit growth**
-- **200M+ developers** on platform
-- Massive infrastructure scaling requirements
-
-### Generalizability
-
-**Multi-surface agent deployment pattern applies to**:
-- Any developer tool vendor (JetBrains, VS Code ecosystem)
-- Design tools (Figma, Adobe)
-- Data science platforms (Jupyter, Databricks)
-- Any product with CLI, GUI, and API surfaces
-
-**Low-code transparency pattern applies to**:
-- No-code/low-code platforms (Webflow, Bubble, Retool)
-- Business process automation (Zapier, Make)
-- Data transformation tools (dbt, Airflow)
-
-**Prompt request workflow applies to**:
-- Any code contribution platform
-- Content management systems
-- Design collaboration tools
-- Document creation platforms
-
-**Former developer leadership advantage**:
-- Any technical product company
-- Enterprise software vendors
-- Platform companies
-- Developer tools and infrastructure
-
-**Key Product Principle**: "Roll out AI through existing workflows instead of forcing new tools" - critical for adoption and reducing change management friction.
+### Uber AI Coding Tool Cost Management (June 2026)
+- **Business Problem**: Managing runaway AI spending after exhausting 2026 AI budget in 4 months (budget set in 2025 before coding agent popularity surge)
+- **Industry**: Transportation Technology / Ride-sharing
+- **Business Function**: Software Engineering / IT Cost Management
+- **AI Pattern Applied**: Agentic coding tools (Cursor, Claude Code)
+- **What Made It Succeed**:
+  - Per-tool spending cap: $1,500/month per coding tool per engineer
+  - Independent budgets: spending on one tool doesn't affect budget for another
+  - Rational limit allows ~2 tools per engineer = $36k/year cap vs $330k median compensation (11% of total comp)
+  - Cap accommodates typical usage: reference user at $1,000/month across Anthropic + OpenAI would still have $500/month buffer per tool
+  - More sustainable than "tokenmaxxing leaderboards" that encouraged unlimited competition for AI usage
+- **Quantitative Outcomes**:
+  - $1,500 monthly cap per tool per engineer
+  - ~$36,000 annual AI spending cap per engineer (assuming 2 active tools)
+  - Cap represents ~11% of median Uber engineer compensation ($330k/year)
+  - Policy implemented after blowing full-year 2026 AI budget in first 4 months
+- **Generalizability**: Applies to any enterprise with large engineering teams adopting agentic coding tools. Shows rational middle ground between unlimited usage and prohibition. Spending cap as percentage of engineer compensation (10-15%) provides benchmark for other companies. Pattern applies across: tech companies, financial services engineering, healthcare tech, retail technology teams, consulting/professional services firms with large dev teams. Key insight: 2025 budgets couldn't anticipate 2026 token-burning agent popularity—budget cycles lag technology adoption curves.
+- **Context**: Policy shift from subsidized individual plans ($100/month for $1,000 usage) to enterprise pricing at actual cost. Individual developer plans no longer available to large enterprises like Uber.

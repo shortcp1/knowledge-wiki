@@ -1,35 +1,30 @@
 ---
-tags: [agentic-ai, agentic-inference, agentic-tasks, api-pricing-economics, attention-mechanisms, audio-latency, audio-video-alignment, autonomy, aws-inferentia, aws-infrastructure, aws-trainium, batch-size-latency-tradeoff, batch-size-optimization, capital-cost-conversion, cerebras, chinchilla-scaling, claude-opus, cloud-infrastructure, commodity-markets, concurrent-processing, consistency-models, custom-silicon, diffusion-transformers, edge-compute, edge-deployment, encoder-free-early-fusion, encoder-free-fusion, flipbook, flow-matching-decoder, full-duplex-interaction, gans, generative-ui, gpu-alternatives, gpu-cluster-design, gpu-optimization, graviton, grok-imagine, grouped-query-attention, hbm, heterogeneous-compute, hierarchical-mlp, index-as-model, inference-cost, inference-efficiency, inference-era, inference-speedups, inference-throughput, inference-workloads, latency-optimization, latency-vs-throughput, llm-architecture, local-inference, local-vs-cloud-tradeoffs, logistics-as-service, low-latency-inference, memory-bandwidth, memory-bandwidth-bound, microturn-processing, mixture-of-experts, model-distillation, model-parallelism, multi-head-attention, multimodal-fusion, nitro, onboard-ai, physical-ai, pipeline-parallelism, prefill-decode, prefill-decode-disaggregation, primitives-strategy, qwen, real-time-inference, realtime-voice, recommendation-systems, reinforcement-learning, retrieval-architecture, retrieval-systems, safety-critical-systems, scm, sglang, sim-to-real, simulation, sparse-attention, statistical-safety, step-distillation, temporal-compression, token-cost-optimization, tokenmaxxing, tpu-architecture, unified-architecture, vaes, vehicle-operating-systems, video-agents, video-inference, voice-activity-detection, world-models]
+tags: [agentic-ai, agentic-inference, agentic-tasks, ai-budget-constraints, api-pricing-economics, attention-mechanisms, audio-latency, audio-video-alignment, autonomy, aws-inferentia, aws-infrastructure, aws-trainium, batch-size-latency-tradeoff, batch-size-optimization, benchmark-metrics, capital-cost-conversion, cerebras, chinchilla-scaling, claude-opus, cloud-infrastructure, commodity-markets, concurrent-processing, consistency-models, custom-silicon, diffusion-transformers, edge-compute, edge-deployment, encoder-free-early-fusion, encoder-free-fusion, flipbook, flow-matching-decoder, full-duplex-interaction, gans, generative-ui, gpu-alternatives, gpu-cluster-design, gpu-optimization, graviton, grok-imagine, grouped-query-attention, hbm, heterogeneous-compute, hierarchical-mlp, index-as-model, inference-cost, inference-efficiency, inference-era, inference-speedups, inference-throughput, inference-workloads, intelligence-per-dollar, latency-optimization, latency-vs-throughput, llm-architecture, local-inference, local-vs-cloud-tradeoffs, logistics-as-service, low-latency-inference, memory-bandwidth, memory-bandwidth-bound, microturn-processing, mixture-of-experts, model-distillation, model-parallelism, model-pricing, multi-head-attention, multimodal-fusion, nitro, onboard-ai, physical-ai, pipeline-parallelism, prefill-decode, prefill-decode-disaggregation, primitives-strategy, qwen, real-time-inference, realtime-voice, recommendation-systems, reinforcement-learning, retrieval-architecture, retrieval-systems, safety-critical-systems, scm, sglang, sim-to-real, simulation, sparse-attention, statistical-safety, step-distillation, temporal-compression, token-cost-optimization, token-efficiency, tokenmaxxing, tpu-architecture, unified-architecture, vaes, vehicle-operating-systems, video-agents, video-inference, voice-activity-detection, world-models]
 ---
 
 # Inference Efficiency
 
-Covers techniques for reducing the cost and latency of running AI models in production. Includes quantization (INT4, INT8, FP8), speculative decoding, continuous batching, KV cache optimization, and hardware-specific kernels (FlashAttention, Triton).
+Covers techniques for reducing the cost and latency of running AI models in production. Includes quantization (INT4, INT8, FP8), speculative decoding, continuous batching, KV cache optimization, and token efficiency optimization.
 
-Key questions tracked: What is the current cost-per-token trajectory? Where does hardware vs. software optimization dominate?
+## Intelligence Per Dollar Metric
 
-## Retrieval System Efficiency
+**Dual-Dimension Benchmarking (June 2026)**: The industry is shifting from pure performance benchmarks to measuring both performance and cost efficiency simultaneously.
 
-### Si
+- **Average Token Usage**: Microsoft's MAI-Code-1-Flash model release card (June 2026) introduced "average token usage" as a standard metric alongside performance scores
+  - Example: Microsoft model achieved 71.6 on SWE-Bench Verified using ~33% of tokens compared to Claude Haiku 4.5
+  - Signals end of "tokenmaxxing" era where models gamed benchmarks with excessive token usage
 
-## Video Model Inference
+- **Intelligence Index Cost Comparison**: Artificial Analysis benchmarks show significant cost variance for equivalent performance:
+  - GPT 5.5 and Claude Opus 4.8 both score ~60 on Intelligence Index
+  - Running same benchmark costs $3,357 on GPT 5.5 vs $4,685 on Opus 4.8 (40% price premium for equivalent intelligence)
 
-### Step Distillation and Consistency Models
-- **Step distillation**: Key technique making video inference "orders of magnitude faster"
-- **OpenAI sCM (step Consistency Model)**: Reference implementation of consistency models for fast inference
-- **Application**: Primary method for practical video generation deployment
-- **Complement technique**: GANs also used alongside distillation for fast video inference
+## Enterprise Cost Reality (2026)
 
-### VAE Latent Space Compression
-- **Purpose**: Reduces computational requirements for video generation by operating in compressed latent space
-- **Tradeoff**: Balance between compression ratio and reconstruction quality
-- **Integration**: Core component of diffusion transformer architectures for video
+**Budget Constraints at Scale**: Even large enterprises face AI token budget exhaustion:
+- Uber capped employee AI spending after exhausting budget in 4 months (2026)
+- Salesforce spent $300M on Anthropic tokens, leading to engineering hiring freeze (2026)
+- Microsoft cancelled Claude Code licenses across Experiences and Devices division after engineering usage outran budgets (2026)
 
-### Temporal Compression Tradeoffs
-- **Challenge**: Balance between temporal compression efficiency and real-time interactivity requirements
-- **Context**: Critical for [[world-models]] that need to be real-time, interactive, and long-horizon
+**Implication**: "State-of-the-art intelligence for every conceivable use case" is economically unsustainable even for most valuable companies.
 
-### Infrastructure Costs
-- **Storage**: Major cost factor for training video models due to massive dataset requirements
-- **Egress**: Data movement costs between storage and compute
-- **GPU utilization**: Inference cost trajectory improving rapidly, enabling new applications like [[generative-ui]]
+See also: [[ai-pricing-packaging-saas]], [[build-vs-buy-enterprise-ai]], [[token-cost-optimization]]

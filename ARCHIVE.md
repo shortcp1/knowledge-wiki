@@ -705,7 +705,119 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-04
+
+**✓ 7.0** — [Ai Enabled Cyber Threats Mitre Attack](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)  
+*Anthropic Blog* · ai-governance-risk-compliance · regulatory-policy
+#mitre_attack #cybersecurity #threat_detection #ai_enabled_attacks
+> Anthropic analyzed 832 accounts banned for malicious cyber activity over one year, mapping AI-enabled attack techniques to the MITRE ATT&CK framework to assess how AI transforms cybersecurity threats. The research shows attackers increasingly use AI for sophisticated post-compromise techniques (like lateral movement), shifting from initial access methods, with medium-to-high risk actors jumping from 33% to 56% over six months, and traditional risk assessment signals (technique count, platform used) losing predictive power. This matters because AI democratizes advanced attack capabilities to less-skilled actors and existing security frameworks inadequately capture AI-enabled threat behaviors.
+
+**✗ 4.0** — [Services Track Partner Hub](https://www.anthropic.com/news/services-track-partner-hub)  
+*Anthropic Blog* · build-vs-buy-enterprise-ai · ai-professional-services · ai-org-design-headcount
+#partner_ecosystem #enterprise_deployment #professional_services #certification_programs
+> Anthropic announces a tiered Services Track and Partner Hub for its Claude Partner Network to help enterprises identify qualified implementation partners, with more than 10,000 certified consultants and major firms like Accenture, Deloitte, and PwC deploying Claude to hundreds of thousands of employees. The three-tier system (Select, Preferred, Global Premier) measures partners by certified practitioners, deployed customers, and public case studies rather than firm size. This creates a structured ecosystem to address the gap between AI pilots and production deployment through experienced integration partners.
+
+**✗ 4.0** — [Agiliy Digits Humanoid Robots Fetch And Carry Bins At A Schaeffler Auto Parts Factory Displacing Humans Into Higher Level Jobs](https://www.deeplearning.ai/the-batch/agiliy-digits-humanoid-robots-fetch-and-carry-bins-at-a-schaeffler-auto-parts-factory-displacing-humans-into-higher-level-jobs)  
+*The Batch (DeepLearning.AI)* · 
+#humanoid_robotics #factory_automation #workforce_displacement #cost_per_hour
+> Agility Robotics is deploying Digit humanoid robots at Schaeffler auto-parts factories to transport bins, with costs of $10-25/hour compared to $20/hour human wages, and plans to scale to hundreds by 2030. The robots operate in constrained environments with predefined workflows, using sensors like RGB depth cameras and LiDAR, while displaced workers are being moved to supervisory roles. McKinsey predicts growth from 200 humanoids today to 5 million by 2040 without major workforce reductions, as robots restructure rather than eliminate jobs.
+
+**✓ 6.0** — [Z Ais Glm 5 1 Evaluates Interim Results And May Change Its Approach Hundreds Of Times Before It Delivers Final Output](https://www.deeplearning.ai/the-batch/z-ais-glm-5-1-evaluates-interim-results-and-may-change-its-approach-hundreds-of-times-before-it-delivers-final-output)  
+*The Batch (DeepLearning.AI)* · model-architecture · ai-engineering-agents · inference-time-compute
+#mixture_of_experts #agentic_reasoning #iterative_evaluation #open_weights
+> Z.ai released GLM-5.1, an open-weights 754B parameter mixture-of-experts model designed for long-running autonomous tasks up to 8 hours, capable of iteratively evaluating and revising its approach hundreds of times. The model achieves strong coding benchmarks (58.4% on SWE-Bench Pro, third on Arena Code leaderboard) through cycles of planning, execution, and evaluation until task completion, though it trails closed models on reasoning tasks. This represents advancement in sustained agentic execution for coding tasks, though technical details on the optimization methods remain undisclosed.
+
+**✓ 6.7** — [Coding Agents Accelerate Some Software Tasks More Than Others](https://www.deeplearning.ai/the-batch/coding-agents-accelerate-some-software-tasks-more-than-others)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · ai-in-product-and-engineering · agentic-workflows-production
+#coding_agents #frontend_development #backend_development #infrastructure_engineering
+> Andrew Ng argues that coding agents accelerate software development tasks to varying degrees, ranking frontend (most accelerated) > backend > infrastructure > research (least accelerated). The key evidence is based on observed differences in how well agents handle iteration loops, debugging complexity, domain knowledge requirements, and non-coding work across these categories. This matters because understanding these acceleration differentials helps engineering leaders set realistic expectations and architect teams effectively when deploying AI coding agents.
+
+**✗ 1.0** — [Perspectives Ceos](https://www.bain.com/insights/topics/ceo-agenda/perspectives-CEOs/)  
+*Bain Insights* · 
+#navigation_page #landing_page #ceo_content
+> This appears to be a navigation page or landing page for Bain & Company's CEO-focused content section. The article contains no substantive content, only website navigation menus listing offices, regions, and practice areas. There is no actual analysis, research, or insights to evaluate.
+
 ## 2026-06-03
+
+**✓ 7.0** — [🔬Scaling Past Informal AI - Carina Hong, Axiom Math](https://www.latent.space/p/axiom)  
+*Latent Space Podcast* · model-architecture · inference-time-compute · post-training-rlhf
+#formal_verification #lean_theorem_proving #putnam_exam #inference_time_verification
+> Axiom Math argues that formal verification (using systems like Lean to prove mathematical theorems) is essential for scaling AI beyond current coding capabilities, which still have surprising gaps on the path to AGI. The company demonstrated this by achieving 12/12 on the Putnam exam and proposes that verification enables both stronger training signals (replacing RLHF with provably correct feedback) and inference-time compounding of insights. This matters because it suggests a path beyond informal reasoning to systems that can scale and compound knowledge like formal mathematical proofs do.
+
+**✗ 2.3** — [PreFlight AI™ Launches Founding Pilot Program as AI Governance Pressure Mounts - EIN News](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0hqdndJYlRHRFh6WFRsRUdmc0lna0Y0NW5GXzBBa2w0Z1FQOUdmTXkxSVRDNlduSjE4bmp6dkxwVFFObXkxVUR3N3BZbWlXQ3BVLXhMNHFLWk5URDBBY2VjYmJWTnowQUlGM1N1dEw0M1U0Z05kdlBuQnFxWWtuRGJ2bTV0US1VT1g4QnJZbGs2YjQtalh4NVp1N0FrcVFrOHJTMWFmRnk3WFBMVkRETHBYVzlJZEFuTDJ1aC1LWEphUdIBwgFBVV95cUxNa0hqdndJYlRHRFh6WFRsRUdmc0lna0Y0NW5GXzBBa2w0Z1FQOUdmTXkxSVRDNlduSjE4bmp6dkxwVFFObXkxVUR3N3BZbWlXQ3BVLXhMNHFLWk5URDBBY2VjYmJWTnowQUlGM1N1dEw0M1U0Z05kdlBuQnFxWWtuRGJ2bTV0US1VT1g4QnJZbGs2YjQtalh4NVp1N0FrcVFrOHJTMWFmRnk3WFBMVkRETHBYVzlJZEFuTDJ1aC1LWEphUQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-governance-risk-compliance
+#ai_governance #pilot_program #compliance
+> The article announces PreFlight AI launching a founding pilot program in response to increasing AI governance pressure. No substantive details are provided about the program's features, methodology, or governance framework. The article text consists almost entirely of Google cookie consent dialog rather than actual content.
+
+**✗ 4.7** — [⚡️Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build](https://www.latent.space/p/satya-2026)  
+*Latent Space Podcast* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai · model-architecture
+#ecosystem_strategy #multi_model_harness #enterprise_context_layers #token_ip
+> Microsoft CEO Satya Nadella discusses Microsoft's positioning as a 'Frontier Intelligence Platform' that enables enterprises to build on multi-model systems and capture value through private evals and proprietary context. He emphasizes an ecosystem approach where customers create more value than Microsoft captures, touching on ROI challenges around tokenization costs and the changing build-vs-buy calculus for enterprises. The discussion frames Microsoft's strategy around enabling custom AI development through tooling, clean model lineage (MAI models), and enterprise context layers like Work IQ.
+
+**✗ 4.7** — [💸 You’re paying for tokens. Now what?](https://www.exponentialview.co/p/does-pricing-shrink-or-expand-markets)  
+*Exponential View (Azeem Azhar)* · ai-pricing-packaging-saas · build-vs-buy-enterprise-ai · ai-in-product-and-engineering
+#usage_based_pricing #token_consumption #agentic_coding_tools #enterprise_ai_costs
+> The article argues that AI companies are shifting from bundled subscription pricing to metered usage-based pricing, particularly for coding tools, as some power users consume orders of magnitude more than average users. It provides examples like Uber capping developers at $18,000/year per agentic coding tool and notes that one user consumed 130 billion tokens in a month, drawing an analogy to how internet advertising evolved from cost-per-impression bundles to metered outcome-based pricing. This matters because it suggests the pricing shift is less about affordability and more about connecting spend to value, potentially expanding the AI market as metered models did for digital advertising.
+
+**✗ 4.0** — [How virtual power plants could provide energy for data centers](https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/)  
+*MIT Technology Review* · 
+#virtual_power_plants #data_center_energy #grid_flexibility #demand_response
+> Google has signed a deal with Voltus to establish a virtual power plant (VPP) that will aggregate distributed energy resources like EVs and smart thermostats to provide up to 100MW of flexible capacity for its data centers in the PJM grid by 2027. The article explores how VPPs work by paying customers to reduce demand during grid stress periods, allowing data centers to meet energy needs without building new infrastructure. This represents an emerging approach to data center energy challenges, though questions remain about participation incentives and the limits of flexibility, especially for AI workloads with less schedulable demand.
+
+**✗ 5.3** — [The messy reality of enterprise AI: Lilly Raymond on adoption, trust, and human judgment](https://writer.com/blog/humans-of-ai-lilly-raymond/)  
+*Writer.com Blog* · ai-in-marketing-content · ai-org-design-headcount · ai-governance-risk-compliance
+#change_management #regulated_industries #marketing_workflows #compliance_review
+> This article presents a marketing executive's perspective on AI adoption in regulated financial services, arguing that resistance stems from craft pride among established workers and career path concerns for emerging talent rather than technological barriers. The key evidence comes from anecdotal experience showing that removing AI tools after trial periods led teams to demand them back, and that compliance teams are less resistant than assumed when AI improves content quality before review. It matters because it reframes enterprise AI adoption as primarily a change management and workforce psychology challenge rather than a technical or regulatory one.
+
+**✗ 3.0** — [Introducing new capabilities to GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind)  
+*OpenAI News* · 
+#gpt_rosalind #life_sciences #medicinal_chemistry #genomics
+> OpenAI announces GPT-Rosalind, a specialized model designed for life sciences research with capabilities in biological reasoning, medicinal chemistry, genomics analysis, and experimental workflows. The article provides only a high-level announcement without technical details about the model architecture, training methodology, or performance benchmarks. This represents OpenAI's expansion into vertical-specific AI applications but lacks substantive information about implementation or impact.
+
+**✗ 3.7** — [The Download: Trump’s new AI order, and smart glasses for warfare](https://www.technologyreview.com/2026/06/03/1138322/the-download-trump-ai-order-smart-glasses-warfare/)  
+*MIT Technology Review* · regulatory-policy · ai-governance-risk-compliance
+#executive_order #voluntary_review #cybersecurity_clearinghouse #military_ar
+> This newsletter digest summarizes Trump's new AI executive order establishing voluntary pre-release model reviews and a cybersecurity clearinghouse, alongside brief coverage of Anduril/Meta's military AR glasses and various other tech news items. The article provides surface-level coverage of multiple stories without original analysis, primarily linking to other sources for details. It matters as a news aggregation that flags recent policy and industry developments but offers no substantive analysis or novel insights.
+
+**✗ 3.0** — [Gemini Omni: Clone yourself with AI in under 15 minutes](https://www.lennysnewsletter.com/p/gemini-omni-clone-yourself-with-ai)  
+*Lenny's Newsletter* · ai-in-marketing-content
+#video_generation #ai_avatars #gemini_omni #google_flow
+> This podcast episode documents a real-time walkthrough of creating an AI avatar using Google Flow and Gemini Omni video generation, completing a one-minute hype video in approximately 15 minutes. The host demonstrates the step-by-step process including face scanning, storyboard generation, scene creation with character consistency, and video stitching, while noting uncanny-valley moments in the output. The episode aims to show how video AI tools enable content creation for users without video production skills.
+
+**✓ 6.3** — [Uber Caps Usage of AI Tools Like Claude Code to Manage Costs](https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering · ai-pricing-packaging-saas
+#ai_coding_agents #enterprise_ai_budgeting #token_spending_caps #cursor
+> Uber has implemented a $1,500 monthly cap per AI coding tool (like Cursor and Claude Code) for each employee after exhausting its 2026 AI budget in four months. The cap represents approximately 11% of the median Uber software engineer's $330,000 annual compensation, suggesting companies are establishing AI tool spending as a material fraction of total employee costs. This signals a shift from unlimited AI tool access to structured cost management as enterprises grapple with the unexpectedly high burn rates of agentic coding tools.
+
+**✗ 3.3** — [How Wasmer used Codex to build a Node.js runtime for the edge](https://openai.com/index/wasmer)  
+*OpenAI News* · ai-in-product-and-engineering
+#codex #edge_computing #nodejs_runtime #developer_acceleration
+> Wasmer used OpenAI's Codex (with GPT-5.5) to build a Node.js runtime for edge computing, claiming 10x-20x development acceleration. The article reports they shipped the project in weeks rather than months by leveraging AI-assisted code generation. This represents an early case study of AI tools accelerating infrastructure development, though the article provides minimal technical detail or evidence.
+
+**✗ 4.3** — [How Taktile is building the operating system for AI-driven decisions in financial services](https://tearsheet.co/4dfi/how-taktile-is-building-the-operating-system-for-ai-driven-decisions-in-financial-services/?utm_source=rss&utm_medium=rss&utm_campaign=how-taktile-is-building-the-operating-system-for-ai-driven-decisions-in-financial-services)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-governance-risk-compliance · agentic-workflows-production
+#decision_automation #financial_services_compliance #agentic_ai #human_in_the_loop
+> The article profiles Taktile, a Berlin-based company building AI decision infrastructure specifically for regulated financial institutions to automate onboarding, underwriting, AML, and fraud detection decisions. Taktile argues that foundation models alone are insufficient and provides a layered architecture with guardrails, human-in-the-loop workflows, and compliance features, claiming outcomes like 95% automation rates and 75% reduction in false positives. The key validation is that a major global insurer chose Taktile over direct partnerships with leading AI labs, suggesting value is accruing at the orchestration and compliance layer rather than the model layer.
+
+**✗ 4.7** — [When Clients Use AI To Challenge Your Advice: How To Respond To Deepen Engagement](https://feeds.feedblitz.com/~/957682412/0/kitcesnerdseyeview~When-Clients-Use-AI-To-Challenge-Your-Advice-How-To-Respond-To-Deepen-Engagement/)  
+*Kitces.com* · ai-wealth-management-advisory · ai-in-product-and-engineering
+#financial_advisory #client_engagement #conversational_framework #advisor_authority
+> The article argues that financial advisors should welcome rather than fear clients using AI chatbots to question their recommendations, framing it as an opportunity for deeper engagement rather than a threat to their authority. It provides a four-part communication framework (thank, listen, offer perspective, co-create) for advisors to turn AI-prompted client questions into constructive conversations. The piece positions client AI usage as a sign of proactive engagement that increases implementation likelihood, rather than as clients attempting to circumvent professional advice.
+
+**✗ 4.7** — [A blueprint for democratic governance of frontier AI](https://openai.com/index/frontier-safety-blueprint)  
+*OpenAI News* · regulatory-policy · ai-governance-risk-compliance
+#frontier_ai #federal_regulation #ai_safety #national_security
+> OpenAI proposes a federal governance framework for frontier AI focused on safety, resilience, and national security considerations. The article appears to outline policy recommendations for U.S. regulatory structure around advanced AI systems. This represents a policy positioning document from a major AI lab on how they believe frontier models should be governed.
+
+**✗ 1.3** — [Geopolitical Risk, Tax Top Concerns For UK Advisors – Schroders UK Financial Advisor Pulse Survey - Wealth Briefing](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZlRJUDdkdWg0VUdQX2VkSXBGclJ1d3JBRzBUVWNiMlVuYTVvb1M5NTh4ZWk2NDhTeUREdmVjYVFHQURtVU1RWVJvd1UzRGtzVUsyZzVzUHJIMkVqcFdncGpDSXZwYU1FM1BjVXhCOHR2VGpaVkR1STYyNmM5T25nOVRmekFNWTVrQkhOMzd4WUJTbEZQZk1fSnhPdldhV1AyRzhGZGhVZTl3QXZtVHQ2UVNfREdRUnJzc2dCelBBNmNPbHI1aFJzLXBrZTVwQkgwcUtTNlNQOF95STVNbjNv?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory
+#financial_advisors #wealth_management #geopolitical_risk
+> This article appears to be about a Schroders survey on UK financial advisors' concerns regarding geopolitical risk and tax issues. However, the actual content provided consists entirely of Google's cookie consent page rather than the article itself. Without access to the real article content, no meaningful analysis of depth, novelty, or specific relevance to AI in wealth management can be performed.
+
+**✗ 4.7** — [[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models](https://www.latent.space/p/ainews-microsoft-build-mai-thinking)  
+*Latent Space* · model-architecture · lab-dynamics
+#mai_thinking_1 #reasoning_models #microsoft_build #model_transparency
+> Microsoft announced seven new MAI models at Build 2026, led by MAI-Thinking-1, a reasoning model built without synthetic data or distillation from other models, two years after the Microsoft-Inflection deal. The company released a 109-page technical report that received positive feedback for its transparency, and positioned Microsoft as both an AI platform company and frontier-model lab. This matters as a signal of Microsoft's vertical integration strategy and commitment to transparent model development, though MAI remains a tier-2 lab rather than true frontier.
 
 **✗ 4.7** — [Issue 355](https://www.deeplearning.ai/the-batch/issue-355)  
 *The Batch (DeepLearning.AI)* · ai-engineering-agents · ai-org-design-headcount · build-vs-buy-enterprise-ai
@@ -727,6 +839,11 @@ All articles scanned since the wiki started. Updated nightly.
 #cybersecurity #critical_infrastructure #vulnerability_scanning #responsible_deployment
 > Anthropic announces the expansion of Project Glasswing from 50 to 150 organizations across 15+ countries, giving them access to Claude Mythos Preview to scan critical infrastructure codebases for security vulnerabilities. The initial cohort has already identified over 10,000 high- or critical-severity security flaws in sectors including power, water, healthcare, communications, and hardware. Anthropic frames this as preparation for a near-future where Mythos-class AI models with powerful cyber capabilities become widely available without safeguards, potentially within 6-12 months from other AI labs.
 
+**✓ 8.0** — [Intelligence Per Dollar](https://www.tomtunguz.com/tokens-per-result/)  
+*Tomasz Tunguz* · inference-efficiency · ai-pricing-packaging-saas · build-vs-buy-enterprise-ai
+#intelligence_per_dollar #token_efficiency #inference_cost #benchmark_metrics
+> The article argues that AI model evaluation is shifting from pure performance benchmarks to a dual metric of performance and cost-efficiency, as exemplified by Microsoft's new "average token usage" metric. It provides evidence from major enterprises like Uber, Microsoft, and Salesforce hitting budget constraints on AI spending, forcing them to cap usage or freeze hiring. This matters because it signals the end of the AI subsidy era and a fundamental shift toward "intelligence per dollar" as the key competitive dimension, forcing both model providers and application builders to optimize for cost-efficiency rather than just capability.
+
 ## 2026-06-02
 
 **✗ 4.7** — [Microsoft's new MAI models](https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything)  
@@ -743,6 +860,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · 
 #micropython #webassembly #sandboxing #python_library
 > This is a brief release note for micropython-wasm 0.1a1, a Python library that runs MicroPython in a WebAssembly sandbox. The release addresses limitations discovered while building datasette-agent-micropython. No technical details, analysis, or substantive information is provided beyond the existence of this release.
+
+**✗ 1.0** — [California Brown Pelican](https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything)  
+*Simon Willison* · 
+#microsoft_build #conference
+> This is a personal blog post about spotting California Brown Pelicans while attending Microsoft Build conference at Fort Mason in San Francisco. It provides no technical content, analysis, or insights beyond a nature observation at a conference venue. The article contains no substantive information related to AI, enterprise applications, or any technical topics.
 
 **✓ 7.3** — [GitHub's plan for Agents — Kyle Daigle, GitHub](https://www.latent.space/p/github)  
 *Latent Space Podcast* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
@@ -784,6 +906,11 @@ All articles scanned since the wiki started. Updated nightly.
 #google #berkshire_hathaway #aggregator_theory #capital_allocation
 > The article argues that Google has issued equity to Berkshire Hathaway in a deal that reflects changing capital dynamics, using Google's traditional business model as a framing device. It provides context through Buffett's historical investment philosophy about capital-light businesses versus capital-intensive ones. The piece appears incomplete and doesn't fully develop its thesis about what this capital deal means for the future.
 
+**✗ 4.0** — [The Google Capital Company](https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzMTMwNDQxLCJpYXQiOjE3ODA1Mzg0NDEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.Ce_oo4M7qfTDjEOZrd6C4jZtIbMkTThMj1rslrYbenF1zHHOnGh_a82poYgOXmCqtCXJxyo_KxPyXkiGgQadM3feQ3fxS3iPkQXpg_Pfv1-5a8UX2j4Z8YGw1jemd1T8-T648VujYLvBbRNUXxaL3-wjV_Udtc_qaupXanXuYnJxHg5FnSqyIk4RbEtXdXpV8mL2LfwWG4f6ae4NFg-NxqJCijhi-nEX-XmFnK6NwqMHN3-5hXmsj4OCVEe9AA_p8MZdQqsDGevMVoEyQgfb2vE8zHTwah_CmbnNiIEY_GTWfc1d3VPwsw1JfjYTKwYG2z1g6Bw6kIm3UzReLw23YQ&p=19180)  
+*Stratechery (Ben Thompson)* · funding-and-market-structure
+#aggregator_theory #capital_allocation #business_models #asset_light
+> The article argues that Google is issuing equity to Berkshire Hathaway in a deal that represents a shift where capital itself becomes the ultimate commodity, contrasting Google's historically asset-light business model with capital-intensive needs. It explains this through the lens of Google's aggregator dynamics and Buffett's investment philosophy around productive capital versus financial instruments. The piece suggests this signals unprecedented capital demand in the AI era, though the article appears truncated and lacks the full argument.
+
 **✗ 2.3** — [Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow)  
 *OpenAI News* · ai-in-marketing-content · ai-engineering-agents
 #codex #plugins #workflow_automation #cross_functional_tools
@@ -798,6 +925,11 @@ All articles scanned since the wiki started. Updated nightly.
 *OpenAI News* · regulatory-policy · ai-governance-risk-compliance
 #youth_safety #international_governance #policy_proposal #ai_safety_standards
 > OpenAI proposes creating an international institute focused on AI safety for youth, calling for global coordination on safeguards and standards. The article provides minimal detail on specific mechanisms, evidence, or implementation plans beyond the high-level policy proposal. This represents a corporate policy positioning statement rather than substantive analysis of youth safety challenges or solutions.
+
+**✗ 2.3** — [Pasted File Editor](https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything)  
+*Simon Willison* · ai-engineering-agents
+#ui_patterns #claude_interface #file_handling #codex
+> The article describes a simple prototype text editor that automatically converts large pasted text (1,000+ characters) into file attachments, inspired by Claude.ai's interface behavior. The author used Codex desktop to build this tool, which also supports drag-and-drop files and image thumbnails. This represents a minor UI/UX pattern exploration rather than substantive technical innovation.
 
 **✓ 6.0** — [[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark](https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3)  
 *Latent Space* · model-architecture · multimodal-models · gpu-architecture-training-infra
@@ -1076,6 +1208,11 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
 #mid_market #enterprise_ai_adoption #india
 > The article title suggests a Freshworks report on AI adoption among India's mid-market firms facing complexity costs. However, the provided text contains only Google's cookie consent dialog without any actual article content. Without the substantive content, no meaningful analysis of depth, novelty, or specific claims can be performed.
+
+**✗ 2.7** — [India’s mid-market firms lead in AI adoption but face rising complexity costs: Freshworks Report - YourStory.com](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbFMycmlSTENqR0t3LVQxRDMxcHFxVnV0ck9MZ3NjMktXaE9HbW0yOHlQV01wV25DbU4zN2c3TmFLcmpWQkJLRVBsWmN0Rk9kZzJXUnRmSF8tdl9WbXg0U0wyRHVqVHY2QjVwa1hqUWZqM1dmTjk0c0hucWw1aEFlQmZ6Qk0wXzZ1VFVnZGc2OFc4ajh1Z21wRzZjSjZveExBWjRkUUNENXNxd3Bna0FCNWpNTFFsRHlt?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#mid_market #ai_adoption #india #complexity_costs
+> The article appears to report on a Freshworks study claiming Indian mid-market firms are leading in AI adoption but experiencing rising complexity costs. No actual content, evidence, or specific findings are provided in the text—only cookie consent dialogs and navigation elements. Without the actual article content, it's impossible to assess what mechanisms or data support these claims or what their implications are.
 
 **✗ 5.7** — [Clouded Judgement 5.29.26 - The Second Life of a GPU](https://cloudedjudgement.substack.com/p/clouded-judgement-52926-the-second)  
 *Clouded Judgement (Jamin Ball)* · gpu-architecture-training-infra · build-vs-buy-enterprise-ai · funding-and-market-structure
