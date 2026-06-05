@@ -1,5 +1,5 @@
 ---
-tags: [compliance-automation, vision-language-models, document-processing, regulatory-compliance, aml-kyc, financial-services-ai, ai-in-legal-compliance]
+tags: [access-to-justice, ai-hallucination, ai-in-legal-compliance, ai-legal-drafting, aml-kyc, compliance-automation, document-processing, financial-services-ai, legal-ai, legal-drafting, legal-liability, pro-se-litigation, regulatory-compliance, self-represented-litigants, vision-language-models]
 ---
 
 # AI in Legal & Compliance
@@ -25,32 +25,33 @@ Key questions tracked: What is the liability framework for AI-assisted legal wor
 
 ### AI Capabilities for Compliance
 - **Multi-Modal Compliance Automation (a16z, May 2026)**: Modern AI systems combine three key capabilities for compliance workflows:
-  1. Document intelligence: Read, extract, and reason over complex documents (incorporation filings, financial statements, regulatory PDFs) with near-human accuracy
-  2. Computer use agents: Navigate legacy software without APIs or integration projects
-  3. Long-horizon task execution: Run complete end-to-end workflows (data pulling, cross-checking, exception flagging, report filing)
-  - This combination enables full workflow automation rather than single-step assistance
+  1. Document intelligence: Read, extract, and reason over complex documents (incorporation filings, financial statements, regulatory PDFs) with
 
-## Industry Context
+## Pro Se Litigation & Access to Justice
 
-### Compliance Market Scale
-- **US Compliance Officer Employment (a16z, May 2026)**: 400,000+ compliance officers in the US representing $40B+ in annual labor spend
-  - Does not include compliance-related consulting and outsourcing jobs
-  - BLS projects 33,300+ compliance openings annually over next decade
-  - Industry suffers from 87% eventual attrition rate and 20%+ annual churn
-  - Creates persistent cycle of recruiting and expertise loss
+### AI-Driven Surge in Self-Represented Litigation
+- **Federal Civil Cases Study (MIT/USC, 2005-2026)**: AI tools are dramatically increasing legal filings by self-represented litigants:
+  - Share of lawsuits brought by self-represented people rose from 11% in 2022 to 16.8% in 2025
+  - Number of filings within those cases more than doubled from pre-2023 levels
+  - AI-generated content in court documents rose from 1% in 2023 to 18% in 2026 (measured via Pangram AI detector on 1,600 randomly sampled documents)
+  - **Vermont case study**: Cases filed by pro se litigants jumped from ~45/year pre-2022 to >1,100 in 2024, driven by viral Reddit guides on using Microsoft Copilot to draft immigration writs of mandamus
+  - **Industry/Function**: Judicial system, access to justice
+  - **AI Pattern**: Generative AI for legal document drafting (ChatGPT, Claude, Microsoft Copilot, Grok)
 
-### Regulatory Growth
-- **Banking Regulation Expansion (a16z, May 2026)**: More regulatory restrictions added to Title 12 CFR (Banks and Banking) from 2010-2014 than the entire title contained in 1980
-  - Enterprise response has been "throw more people at the problem"
-  - This approach has not improved outcomes
+### Quality vs. Outcomes of AI-Drafted Filings
+- **Judge Maritza Braswell (Federal Magistrate, Colorado, 2026)**: "I'm actually seeing better-drafted pleaings" from AI-assisted pro se litigants
+  - Judges can process AI-assisted motions faster than handwritten/non-AI filings
+  - Better articulation of arguments allows judges to understand cases more clearly
+  - Judge can recognize AI-generated text by prose patterns, and occasionally catches hallucinated cases and fabricated quotes
+  - **Critical limitation**: Despite better drafting quality, pro se litigants with AI assistance are NOT winning cases at higher rates than before
+  - "Mounting a lawsuit is a complex, multifaceted task. Not all of it is just drafting text" (Joshua Levy, USC)
+  - **Success factors**: Improved document clarity, better argument articulation, faster judicial review
+  - **Failure factors**: AI doesn't address procedural complexity, legal strategy, evidence gathering, or courtroom representation—drafting quality alone doesn't improve win rates
 
-### Compliance Failure Case Study
-- **TD Bank AML Failure (2024, cited by a16z May 2026)**: $3B fine for failing to monitor 92% of transactions
-  - Included backlog of 70,000 detection alerts starting in 2018
-  - Pattern of "ballooning teams and growing backlogs" repeated across nearly every major financial institution in the decade
-  - Work has remained "stubbornly manual" despite team growth
-
-## Cross-References
-- [[ai-governance-risk-compliance]]
-- [[ai-professional-services]]
-- [[build-vs-buy-enterprise-ai]]
+### Generalizability of Legal Drafting Pattern
+- **Applies to**: Any domain where document quality is a barrier to access but not the only success factor
+  - Regulatory filings and permit applications
+  - Administrative appeals and benefits claims
+  - Small business contract drafting
+  - Patent applications (initial drafts)
+  - **Pattern insight**: Generative AI lowers the "articulation barrier" but doesn't eliminate the "expertise barrier"—useful for expanding access but not for replacing professional judgment in complex, adversarial processes

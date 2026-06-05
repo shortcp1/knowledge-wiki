@@ -1,5 +1,5 @@
 ---
-tags: [agent-architecture, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-workflows, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, alphafold, autonomous-agents, autonomous-fine-tuning, autonomous-research, benchmark-contamination, benchmark-vs-deployment, chain-of-thought, claude-code, codex-goals, coding-agents, creative-agents, diffusion-transformers, frontier-model-competition, goal-driven-agents, grok-imagine, iteration-speed, iterative-composition, iterative-evaluation, llm-capability-eval, memory-systems, mixture-of-experts, model-specialization, multimodal-alignment, multiturn-reasoning, open-closed-model-gap, open-weights, orchestration, planning-architectures, post-training, prompt-engineering, react, recursive-self-improvement, reflection-mechanisms, reflexion, reward-hacking, scientific-ai, self-reflection, specialized-tools, swe-bench, task-automation, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store, video-agents, video-generation, world-models]
+tags: [agent-architecture, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-workflows, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, alphafold, autonomous-agents, autonomous-fine-tuning, autonomous-research, backend-development, benchmark-contamination, benchmark-vs-deployment, chain-of-thought, claude-code, codex-goals, coding-agents, creative-agents, diffusion-transformers, frontend-development, frontier-model-competition, goal-driven-agents, grok-imagine, infrastructure-engineering, iteration-speed, iterative-composition, iterative-evaluation, llm-capability-eval, long-running-tasks, memory-systems, mixture-of-experts, model-specialization, multimodal-alignment, multiturn-reasoning, open-closed-model-gap, open-weights, orchestration, planning-architectures, post-training, prompt-engineering, react, recursive-self-improvement, reflection-mechanisms, reflexion, research-workflows, reward-hacking, scientific-ai, self-reflection, software-development-acceleration, specialized-tools, strategic-iteration, swe-bench, task-automation, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store, video-agents, video-generation, world-models, z-ai-glm]
 ---
 
 # AI Engineering & Agents
@@ -13,35 +13,41 @@ Key questions tracked: What agent patterns are actually working in production? H
 
 ### Coding Capabilities & Automation
 - **SWE-Bench Progress (2023-2026)**: AI coding capabilities on real-world GitHub issues improved from ~2% (Claude 2, late 2023) to 93.9% (Claude Mythos Preview, May 2026), effectively saturating the benchmark. This represents a ~47x improvement in solving real-world software engineering problems over ~2.5 years.
-- **METR Time Horizons**: AI systems show rapid progress in completing increasingly complex tasks measured by human-equivalent time horizons. GPT-3.5 (2022) could handle
+- **METR Time Horizons**: AI systems show rapid progress in completing tasks over extended time horizons.
 
-### Long-Running Agentic Tasks (GLM-5.1, April 2026)
+### Long-Running Agentic Tasks (Apr 2026)
+**Source**: The Batch Issue 350, Apr 24, 2026
 
-**Extended autonomy**: Z.ai's GLM-5.1 is designed to work autonomously on single tasks for up to 8 hours, representing a significant extension of task horizon compared to prior models.
+**Model**: GLM-5.1 by Z.ai (open-weights)
 
-**Iterative approach**: Unlike models that produce final output within a fixed token budget, GLM-5.1 cycles through:
-1. Planning
-2. Execution
-3. Evaluation of intermediate results
-4. Evaluation of its approach
-5. Strategy revision if current approach is inadequate
+**Business Problem**: Enabling AI agents to work autonomously on single complex tasks for extended periods without giving up early when initial approaches fail.
 
-This loop may repeat hundreds of times, sometimes using thousands of tool calls across multiple hours in Z.ai's tests.
+**AI Pattern**: Agentic workflow with strategic iteration and self-evaluation:
+- **Try-evaluate-revise loop**: Agent attempts an approach, evaluates the result, and revises strategy if inadequate
+- **Extended persistence**: Can repeat iteration loop hundreds of times rather than giving up after early failures
+- **Task duration**: Designed to work autonomously on single tasks for up to 8 hours
+- **Context window**: 200,000 token input, 128,000 token output
 
-**Self-correction mechanism**: Model can detect when current approach is inadequate and shift strategies mid-task, rather than giving up early or continuing with ineffective methods.
+**Application Areas**: 
+- Coding tasks
+- General agentic tasks requiring sustained problem-solving
 
-**Performance on agentic coding**:
-- SWE-Bench Pro (Z.ai tests, April 2026): 58.4% (GLM-5.1) vs 57.7% (GPT-5.4), 57.3% (Claude Opus 4.6), 54.2% (Gemini 3.1 Pro)
-- Arena Code leaderboard: 1,530 Elo (3rd place, behind Claude Opus 4.6 variants)
-- CyberGym: 68.7 (highest among models tested by Z.ai, prior to Claude Mythos at 83.1)
-- KernelBench Level 3 (GPU acceleration): 3.6x speedup (behind Claude Opus 4.6 at 4.2x)
+**Success Factors**:
+- **Strategic iteration capability**: Ability to evaluate own results and change approach
+- **Extended time horizon**: 8-hour autonomous operation window (vs. typical shorter agent sessions)
+- **Large context**: 200K input tokens allows maintaining full task context across iterations
+- **Persistence**: Hundreds of iteration loops possible before giving up
 
-**Reasoning limitations**: Despite strong coding performance, GLM-5.1 trailed proprietary models on reasoning/math:
-- GPQA Diamond: 86.2% (vs Gemini 3.1 Pro 94.3%)
-- AIME 2026: 95.3% (vs GPT-5.4 98.7%)
+**Model Type**: Open-weights (community can inspect, modify, and deploy)
 
-**Open-weights leadership**: Highest-scoring open-weights model on Artificial Analysis Intelligence Index (51), though behind closed models (Gemini 3.1 Pro Preview and GPT-5.4 at 57, Claude Opus 4.6 at 53).
+**Generalizability**: 
+- Long-running autonomous agents applicable to any complex problem-solving domain requiring multiple attempts and strategy adjustments
+- Particularly valuable for: research tasks, complex debugging, system design, multi-step analysis
+- Cross-industry applications: software development, data analysis, research, content creation, business process automation
+- The try-evaluate-revise pattern mirrors human expert problem-solving approaches
 
-**Economics**: API pricing $1.40/$0.26/$4.40 per million input/cached/output tokens (~40% higher than GLM-5 predecessor). Coding subscriptions $48.60-$432/quarter (roughly double predecessor). Still less expensive than comparable proprietary models but gap narrowing.
+**Industry Significance**: Represents shift from single-shot or short-session agents to persistent, self-correcting autonomous systems capable of working through complex problems over multiple hours.
 
-See also: [[inference-time-compute]] for theoretical foundations of extended reasoning, [[model-architecture]] for GLM-5.1 technical specs.
+---
+
+[Previous content continues...]

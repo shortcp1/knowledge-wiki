@@ -590,3 +590,18 @@ These elements touch on infrastructure strategy, M&A strategy, and platform reli
 ---
 **🔬Scaling Past Informal AI - Carina Hong, Axiom Math** (Latent Space Podcast, 2026-06-03T19:27:49+00:00)
 **Anthropic's strategic positioning (Mid-2026 market observation)**: Anthropic's bet on code and enterprise (Claude Code) initially appeared as a "more pragmatic niche play" vs. OpenAI in 2024, but by mid-2026 is described as "eating the world." CEO Dario Amodei's focus on acceleration via code (deprioritizing images/video) is retrospectively viewed as prescient. However, this is market commentary rather than technical architecture claims.
+
+---
+**How courts are coping with a flood of AI-generated lawsuits** (MIT Technology Review, 2026-06-04T10:50:18+00:00)
+## Open Legal Questions on AI in Courtrooms
+
+### Chatbot-Client Privilege Debate
+- **Judge William Garfinkel (Federal Magistrate, Connecticut, 2026)**: Courts are beginning to grapple with whether conversations between litigants and legal AI chatbots should receive legal protections similar to attorney-client privilege or work product doctrine
+
+**Conflicting Precedents (February 2026)**:
+- **Michigan Federal Court**: Ruled that self-represented person's ChatGPT conversations to prepare case qualified as "work product" (shielded from opposing party)
+- **New York Federal Court**: Held that criminal defendant's Claude-generated documents were NOT privileged because:
+  - Claude is not an attorney
+  - Users have no "reasonable expectation of confidentiality" since AI companies can disclose user data to third parties
+
+**Policy implications**: Unresolved questions about AI's fiduciary duties, confidentiality standards, and liability framework when serving in quasi-legal advisory roles
