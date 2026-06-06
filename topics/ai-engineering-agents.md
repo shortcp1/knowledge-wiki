@@ -1,5 +1,5 @@
 ---
-tags: [agent-architecture, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-workflows, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, alphafold, autonomous-agents, autonomous-fine-tuning, autonomous-research, backend-development, benchmark-contamination, benchmark-vs-deployment, chain-of-thought, claude-code, codex-goals, coding-agents, creative-agents, diffusion-transformers, frontend-development, frontier-model-competition, goal-driven-agents, grok-imagine, infrastructure-engineering, iteration-speed, iterative-composition, iterative-evaluation, llm-capability-eval, long-running-tasks, memory-systems, mixture-of-experts, model-specialization, multimodal-alignment, multiturn-reasoning, open-closed-model-gap, open-weights, orchestration, planning-architectures, post-training, prompt-engineering, react, recursive-self-improvement, reflection-mechanisms, reflexion, research-workflows, reward-hacking, scientific-ai, self-reflection, software-development-acceleration, specialized-tools, strategic-iteration, swe-bench, task-automation, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store, video-agents, video-generation, world-models, z-ai-glm]
+tags: [agent-architecture, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-tasks, agentic-workflows, ai-coding-productivity, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, alphafold, anthropic, autonomous-agents, autonomous-fine-tuning, autonomous-research, backend-development, benchmark-contamination, benchmark-vs-deployment, chain-of-thought, claude-code, claude-mythos, claude-opus-4, codex-goals, coding-agents, creative-agents, diffusion-transformers, frontend-development, frontier-model-competition, goal-driven-agents, grok-imagine, infrastructure-engineering, internal-benchmarks, iteration-speed, iterative-composition, iterative-evaluation, llm-capability-eval, long-running-tasks, low-precision-training, memory-systems, mixture-of-experts, model-specialization, multimodal-alignment, multiturn-reasoning, open-closed-model-gap, open-weights, orchestration, planning-architectures, post-training, productivity-metrics, prompt-engineering, react, recursive-self-improvement, reflection-mechanisms, reflexion, research-workflows, reward-hacking, rsi, scientific-ai, self-reflection, software-development-acceleration, specialized-tools, strategic-iteration, streaming-asr, swe-bench, task-automation, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store, video-agents, video-generation, world-models, z-ai-glm]
 ---
 
 # AI Engineering & Agents
@@ -12,42 +12,33 @@ Key questions tracked: What agent patterns are actually working in production? H
 <!-- agent-maintained -->
 
 ### Coding Capabilities & Automation
-- **SWE-Bench Progress (2023-2026)**: AI coding capabilities on real-world GitHub issues improved from ~2% (Claude 2, late 2023) to 93.9% (Claude Mythos Preview, May 2026), effectively saturating the benchmark. This represents a ~47x improvement in solving real-world software engineering problems over ~2.5 years.
-- **METR Time Horizons**: AI systems show rapid progress in completing tasks over extended time horizons.
+- **SWE-Bench Progress (2023-2026)**: AI coding capabilities on real-world GitHub issues improved from ~2% (Claude 2, late 2023) to 93.9% (Claude Mythos Preview, May 2026), effectively saturating the benchm
 
-### Long-Running Agentic Tasks (Apr 2026)
-**Source**: The Batch Issue 350, Apr 24, 2026
+### Recursive Self-Improvement Evidence (Anthropic, June 2026)
 
-**Model**: GLM-5.1 by Z.ai (open-weights)
+**Operational Metrics**: Anthropic reports unprecedented AI-driven productivity:
+- **80%+ of merged code** at Anthropic is now authored by Claude
+- **8x code output per engineer** per quarter compared to pre-AI baseline
+- **Internal engineering tasks**: Claude success rate increased from ~26% to 76% in six months (open-ended engineering tasks)
 
-**Business Problem**: Enabling AI agents to work autonomously on single complex tasks for extended periods without giving up early when initial approaches fail.
+**Training Script Optimization Benchmark**: Anthropic's recurring internal test asks models to speed up a small model training script:
+- **Claude Opus 4**: ~3x average speedup
+- **Claude Mythos Preview**: ~52x speedup (significantly higher than previous models)
 
-**AI Pattern**: Agentic workflow with strategic iteration and self-evaluation:
-- **Try-evaluate-revise loop**: Agent attempts an approach, evaluates the result, and revises strategy if inadequate
-- **Extended persistence**: Can repeat iteration loop hundreds of times rather than giving up after early failures
-- **Task duration**: Designed to work autonomously on single tasks for up to 8 hours
-- **Context window**: 200,000 token input, 128,000 token output
+**Research Assistance**: In sessions where researchers had taken a wrong turn, Claude Mythos gave better "what to do next" research suggestions than humans **64% of the time**.
 
-**Application Areas**: 
-- Coding tasks
-- General agentic tasks requiring sustained problem-solving
+**RSI Framing**: Anthropic explicitly stated current systems show "early signs of recursive self-improvement"—not yet full autonomy in research direction, but clear evidence that AI is accelerating AI development. Key limitation: automating problem selection remains unresolved, but automating large portions of implementation and iteration is already operational.
 
-**Success Factors**:
-- **Strategic iteration capability**: Ability to evaluate own results and change approach
-- **Extended time horizon**: 8-hour autonomous operation window (vs. typical shorter agent sessions)
-- **Large context**: 200K input tokens allows maintaining full task context across iterations
-- **Persistence**: Hundreds of iteration loops possible before giving up
+**Governance Position**: Anthropic stated "it would be good for the world to have the option to slow or temporarily pause frontier AI development," framing verification and coordination mechanisms as increasingly urgent if RSI-like dynamics continue.
 
-**Model Type**: Open-weights (community can inspect, modify, and deploy)
+**Note**: This represents internal, non-public benchmarks and operational data rather than standardized external evaluations. Success metrics are on Anthropic-specific engineering and research tasks.
 
-**Generalizability**: 
-- Long-running autonomous agents applicable to any complex problem-solving domain requiring multiple attempts and strategy adjustments
-- Particularly valuable for: research tasks, complex debugging, system design, multi-step analysis
-- Cross-industry applications: software development, data analysis, research, content creation, business process automation
-- The try-evaluate-revise pattern mirrors human expert problem-solving approaches
+### NVIDIA Nemotron 3 Ultra for Agents
 
-**Industry Significance**: Represents shift from single-shot or short-session agents to persistent, self-correcting autonomous systems capable of working through complex problems over multiple hours.
+**Agentic Optimization (June 2026)**: 550B MoE model (55B active) with 1M context, designed explicitly for long-running agent workloads. NVIDIA claims:
+- Up to 5x faster for agentic tasks
+- 30% lower cost for agentic workloads
 
----
+Demonstrated Pareto-optimal performance on Terminal-Bench-style evaluations under turn limits (latency vs. task completion).
 
-[Previous content continues...]
+See also: [[model-architecture]], [[inference-efficiency]]

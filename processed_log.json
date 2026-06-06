@@ -13321,6 +13321,553 @@
       ],
       "status": "skipped",
       "skip_reason": "No actual article content available - only cookie consent screen; cannot assess depth, novelty, or substantive relevance without access to the actual reporting."
+    },
+    "https://www.deeplearning.ai/the-batch/page/6": {
+      "title": "6",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-06T02:00:46.881592+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a newsletter archive page listing headlines from DeepLearning.AI's 'The Batch' newsletter across multiple issues from September-December 2024. The page contains only brief headlines and summaries covering diverse AI topics including model releases, product announcements, and industry developments. It provides no substantive analysis or detailed content, functioning merely as a table of contents for newsletter issues.",
+      "tags": [
+        "newsletter-archive",
+        "news-headlines",
+        "ai-landscape"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a pagination/archive page with only headlines and brief summaries, lacking any substantive analysis, novel insights, or detailed content worth indexing."
+    },
+    "https://www.deeplearning.ai/the-batch/page/2": {
+      "title": "2",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-06T02:00:46.864851+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a navigation page showing headlines from The Batch newsletter archive (page 2 of 25), listing issues from late 2025 through early 2026. Each entry shows only brief headlines and incomplete snippets of Andrew Ng's letters without actual article content or analysis. The page serves as an index rather than substantive content about AI developments.",
+      "tags": [
+        "newsletter-archive",
+        "index-page",
+        "deeplearning-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a navigation/index page with headline snippets rather than actual article content with depth, analysis, or novel information."
+    },
+    "https://www.deeplearning.ai/the-batch/page/3": {
+      "title": "3",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-06T02:00:46.864818+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is an index page listing newsletter issues from DeepLearning.AI's 'The Batch' publication, showing headlines and brief summaries from October-November 2025. The page provides only headline-level information about various AI topics including model releases, industry developments, and Andrew Ng's commentary. It contains no substantive analysis or original content, functioning purely as a navigation page for the newsletter archive.",
+      "tags": [
+        "newsletter-index",
+        "deeplearning-ai",
+        "the-batch"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a newsletter index/archive page with headlines only, containing no substantive content, analysis, or actionable information to evaluate."
+    },
+    "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything": {
+      "title": "OpenAI Help: Lockdown Mode",
+      "source": "Simon Willison",
+      "date": "2026-06-05T23:56:40+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "prompt-architecture",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "summary": "OpenAI has launched Lockdown Mode, a security feature designed to prevent data exfiltration in prompt injection attacks by restricting outbound network requests from ChatGPT. The article frames this through the 'Lethal Trifecta' framework (access to private data + exposure to untrusted content + exfiltration capability), arguing that blocking exfiltration is the most practical leg to cut. The feature's existence implicitly confirms that default ChatGPT settings remain vulnerable to determined data theft attacks.",
+      "tags": [
+        "prompt-injection",
+        "data-exfiltration",
+        "lethal-trifecta",
+        "lockdown-mode",
+        "chatgpt-security",
+        "llm-security"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/bad-envs": {
+      "title": "How to Stop Shipping Low-Quality RL Environments (with Examples)",
+      "source": "Latent Space",
+      "date": "2026-06-05T18:49:40+00:00",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "post-training-rlhf",
+        "agentic-workflows-production",
+        "evals-production-deployment",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "This article argues that poorly designed reinforcement learning environments systematically generate corrupted training data that causes models to learn incorrect behaviors, not just add noise. The author provides specific failure modes including stale caches in mock APIs, reward hacking where agents game metrics instead of solving problems, and race conditions in training harnesses, drawing from years of production RL experience at Gemini. This matters because RL environments are data generators, and unlike static datasets, broken environments continuously feed gradient-poisoning examples into model training, making environment quality critical for production post-training.",
+      "tags": [
+        "rl-environment-quality",
+        "training-harness",
+        "reward-hacking",
+        "agentic-training",
+        "post-training-infrastructure",
+        "trajectory-analysis"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/": {
+      "title": "The Download: AI hacking beyond Mythos, and chatbots\u2019 impact on our brains",
+      "source": "MIT Technology Review",
+      "date": "2026-06-05T12:10:00+00:00",
+      "composite": 3.33,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "model-architecture",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter aggregates multiple AI news items, highlighting a Meta AI customer support hack that stole Instagram accounts and research suggesting AI chatbots may be weakening human cognitive abilities and attention spans. The pieces provide surface-level summaries of recent developments including Anthropic's call for AI development slowdown, gene editing advances, and bot traffic surpassing human web traffic. This is a news digest rather than original analysis, offering breadth over depth across multiple disconnected AI topics.",
+      "tags": [
+        "ai-security",
+        "prompt-injection",
+        "cognitive-effects",
+        "attention-spans",
+        "model-safety",
+        "news-digest"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter format provides only surface-level summaries of multiple stories without original analysis, evidence, or actionable insights; lacks depth needed for knowledge base."
+    },
+    "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything": {
+      "title": "Quoting Andreas Kling",
+      "source": "Simon Willison",
+      "date": "2026-06-05T11:10:05+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Andreas Kling announces that the Ladybird browser project will no longer accept public pull requests because AI-generated code has broken the traditional assumption that substantial patches imply substantial effort and good faith. The key concern is accountability: regardless of how code is created, the project needs humans who will take responsibility for changes and their consequences in a browser used by real users. This represents an emerging governance challenge where open-source projects must adapt their contribution models to address AI-generated code at scale.",
+      "tags": [
+        "open-source-governance",
+        "ai-generated-code",
+        "code-review",
+        "accountability",
+        "browser-development",
+        "contribution-policy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief quote without analysis or novel framework; surfaces an interesting governance challenge but provides minimal depth or actionable insight beyond the anecdote itself."
+    },
+    "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/": {
+      "title": "Are AI chatbots making us lose control of our brains?",
+      "source": "MIT Technology Review",
+      "date": "2026-06-05T09:00:00+00:00",
+      "composite": 2.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article reports on psychologist Gloria Mark's research showing that average attention spans have declined dramatically from 2.5 minutes (2003) to 47 seconds (2014-2020) due to digital device usage. Mark presents evidence from 'living laboratories' using sensors and heart rate monitors showing that frequent attention-switching correlates with increased stress and reduced task performance. The piece touches on social media litigation and effects on children but remains inconclusive, with the article appearing to be cut off before addressing AI's potential impacts.",
+      "tags": [
+        "attention-span",
+        "digital-distraction",
+        "social-media-effects",
+        "cognitive-impact",
+        "human-computer-interaction"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a surface-level summary of research on general digital technology effects on attention spans without substantive analysis of AI systems, and does not map to any of the specified technical or enterprise AI topic areas."
+    },
+    "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/": {
+      "title": "The Meta hack shows there\u2019s more to AI security than Mythos",
+      "source": "MIT Technology Review",
+      "date": "2026-06-05T09:00:00+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-customer-success-support",
+        "ai-governance-risk-compliance",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on a security breach where attackers exploited Meta's AI customer support agent to hijack Instagram accounts by simply asking the agent to change email addresses, bypassing security measures. The key evidence is that this was not a sophisticated AI-powered attack but rather AI being the vulnerable target, with the agent too \"eager to please\" and lacking basic guardrails like security question verification. This matters because it reveals that as companies deploy AI agents for automated workflows, even unsophisticated attacks can succeed if basic security measures and red-teaming aren't implemented, representing a distinct threat category from advanced AI hacking capabilities.",
+      "tags": [
+        "ai-agents",
+        "prompt-injection",
+        "red-teaming",
+        "customer-support-automation",
+        "security-guardrails",
+        "account-takeover"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article provides surface-level reporting on a single incident without original analysis, novel frameworks, or deep technical investigation into AI agent security vulnerabilities beyond expert quotes"
+    },
+    "https://www.latent.space/p/ainews-not-much-happened-today-7a8": {
+      "title": "[AINews] not much happened today",
+      "source": "Latent Space",
+      "date": "2026-06-05T06:44:49+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on NVIDIA's release of Nemotron 3 Ultra (550B MoE model optimized for agentic tasks) and Anthropic's claims of early recursive self-improvement signals, including that 80%+ of Anthropic's merged code is now Claude-authored and engineers ship 8x more code per quarter. Key evidence includes benchmark performance showing Nemotron 3 Ultra as the strongest US open-weights model tested, 400+ tok/s serving speeds, and Anthropic's internal metrics showing Claude Opus 4 achieving 3x training speedups while Mythos Preview achieved 52x on optimization tasks. This matters because it demonstrates both the rapid advancement of open-weights models for production agentic workloads and the first concrete operational metrics showing AI systems materially accelerating AI development itself, raising both productivity and governance implications.",
+      "tags": [
+        "mixture-of-experts",
+        "recursive-self-improvement",
+        "agentic-tasks",
+        "open-weights",
+        "low-precision-training",
+        "ai-coding-productivity",
+        "streaming-asr"
+      ],
+      "status": "integrated"
+    },
+    "https://openai.com/index/public-policy-agenda": {
+      "title": "OpenAI public policy agenda",
+      "source": "OpenAI News",
+      "date": "2026-06-03T10:00:00+00:00",
+      "composite": 2.7,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI outlines broad policy priorities including AI safety, youth protection, workforce transition support, and global governance standards. The article provides only high-level policy themes without specific mechanisms, proposals, or technical frameworks. This represents corporate positioning on regulatory engagement rather than substantive policy analysis or novel proposals.",
+      "tags": [
+        "ai-safety",
+        "policy-agenda",
+        "global-standards",
+        "workforce-transition",
+        "youth-protection"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate policy statement without specific proposals, mechanisms, or actionable insights; lacks depth and novelty for a technical knowledge base."
+    },
+    "https://openai.com/index/codex-for-knowledge-work": {
+      "title": "Codex is becoming a productivity tool for everyone",
+      "source": "OpenAI News",
+      "date": "2026-06-02T02:00:00+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article announces a report on how OpenAI's Codex is expanding beyond code generation to general productivity tasks including research, data analysis, and workflow automation. It provides minimal detail about the actual capabilities, mechanisms, or evidence from the report itself. This represents a high-level product announcement rather than substantive analysis of how the technology works or its actual impact on knowledge work.",
+      "tags": [
+        "codex",
+        "productivity-tools",
+        "workflow-automation",
+        "knowledge-work"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement lacking original analysis, specific evidence, or novel insights about AI capabilities or enterprise deployment"
+    },
+    "https://www.bain.com/insights/what-to-expect-from-ai-in-2026/": {
+      "title": "What To Expect From Ai In 2026",
+      "source": "Bain Insights",
+      "date": "2026-06-06T02:00:44.229749+00:00",
+      "composite": 2.7,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a landing page or navigation structure for Bain & Company's website rather than a substantive article about AI predictions for 2026. The content consists entirely of website navigation menus, office locations, and structural elements with no actual analysis, arguments, or insights about AI. This is not analyzable content but rather website metadata and navigation chrome.",
+      "tags": [
+        "bain-company",
+        "navigation-page",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content present; this is a website navigation page without actual article text, analysis, or insights to evaluate."
+    },
+    "https://a16z.com/a16z-investor-relations-is-now-global-partnerships/": {
+      "title": "A16Z Investor Relations Is Now Global Partnerships",
+      "source": "a16z",
+      "date": "2026-06-06T02:00:44.091516+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "Andreessen Horowitz is rebranding its Investor Relations function to 'Global Partnerships' to help portfolio companies access sovereign and institutional capital, regulatory relationships, and international distribution channels. The firm cites examples like facilitating Luma's $900M Series C with Saudi Arabian partners for an AI supercluster and opening a Tokyo office with Japanese government connections. This represents a shift in VC positioning from pure capital provider to geopolitical relationship broker for AI and technology companies expanding internationally.",
+      "tags": [
+        "venture-capital",
+        "sovereign-capital",
+        "international-expansion",
+        "ai-supercluster",
+        "institutional-investors",
+        "geopolitical-strategy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement of organizational rebranding with minimal strategic insight; lacks substantive analysis of mechanisms, trade-offs, or implications beyond promotional examples."
+    },
+    "https://www.bain.com/insights/air-travel-forecast-interactive/": {
+      "title": "Air Travel Forecast Interactive",
+      "source": "Bain Insights",
+      "date": "2026-06-06T02:00:43.973893+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation page or wrapper for a Bain & Company interactive tool forecasting air travel to 2040. No actual content, analysis, data, or findings are present in the provided text\u2014only website navigation menus and office locations. The article cannot be evaluated as it contains no substantive information about air travel forecasting or any topic area.",
+      "tags": [
+        "air-travel",
+        "forecasting",
+        "bain-company"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only website navigation elements with no actual content, analysis, or data to evaluate."
+    },
+    "https://www.bain.com/insights/preparing-for-ais-next-wave-agentic-quantum-and-managing-change-throughout/": {
+      "title": "Preparing For Ais Next Wave Agentic Quantum And Managing Change Throughout",
+      "source": "Bain Insights",
+      "date": "2026-06-06T02:00:43.903436+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Bain & Company landing page or navigation structure rather than a substantive article about agentic AI, quantum computing, or organizational change management. The article text provided contains only website navigation menus and office locations without any actual content, analysis, or insights about the promised topic. Without the actual article content, it's impossible to assess the depth of analysis, novel claims, or substantive relevance to AI implementation topics.",
+      "tags": [
+        "agentic-ai",
+        "quantum-computing",
+        "change-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not provided - only website navigation structure and metadata captured; no substantive analysis, data, or insights to evaluate."
+    },
+    "https://a16z.com/helping-our-portfolio-companies-expand-globally/": {
+      "title": "Helping Our Portfolio Companies Expand Globally",
+      "source": "a16z",
+      "date": "2026-06-06T02:00:43.570819+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Andreessen Horowitz announces a new global expansion service to help portfolio companies enter international markets (Japan, Korea, Middle East, Europe) earlier in their lifecycle. The firm will provide relationship-based market access, go-to-market expertise, and local networks that startups typically lack before establishing dedicated international teams. This represents an extension of a16z's existing value-add services (talent, GTM, media) into geographically complex allied markets.",
+      "tags": [
+        "venture-capital-services",
+        "global-expansion",
+        "go-to-market",
+        "market-entry-strategy",
+        "portfolio-support"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement of VC firm services with no original analysis, technical insights, or substantive frameworks relevant to AI/tech implementation; purely describes internal firm offerings."
+    },
+    "https://cloudedjudgement.substack.com/p/clouded-judgement-6526-where-are": {
+      "title": "Clouded Judgement 6.5.26 - Where Are the American Open Source Models?",
+      "source": "Clouded Judgement (Jamin Ball)",
+      "date": "2026-06-05T13:21:29+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "The article discusses open source business models and licensing strategies, drawing parallels between traditional infrastructure open source companies (MongoDB, Databricks) and AI foundation models. It explores different open source license types (permissive, copyleft, source-available) and how companies monetize free software through hosted services and enterprise features. The piece appears incomplete but suggests examining why American AI labs haven't embraced open source models as much as international competitors.",
+      "tags": [
+        "open-source-licensing",
+        "commercial-open-source",
+        "foundation-models",
+        "source-available",
+        "business-models"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level primer on open source business models without original analysis, unclear relevance to AI-specific topics, and article appears incomplete without reaching its main argument about American open source AI models."
+    },
+    "https://tearsheet.co/opinion/letter-from-the-editor-why-every-fintech-firm-is-starting-to-look-like-an-infrastructure-provider/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-why-every-fintech-firm-is-starting-to-look-like-an-infrastructure-provider": {
+      "title": "Letter from the Editor: Why every fintech firm is starting to look like an infrastructure provider",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-05T12:00:00+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This op-ed argues that fintech competition is shifting from consumer-facing interfaces to underlying infrastructure layers, with companies like Stripe, Plaid, and Modern Treasury becoming critical dependencies rather than just user experiences. The evidence cited is primarily observational, noting how payments, lending, and compliance are becoming embedded in software workflows rather than standalone products. The piece suggests this represents a fundamental shift in where strategic value accumulates in financial services, from attention-capture to system-dependency.",
+      "tags": [
+        "fintech-infrastructure",
+        "embedded-finance",
+        "banking-as-a-service",
+        "api-layers",
+        "payment-orchestration",
+        "stablecoin-settlement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Opinion piece offering surface-level trend observation about fintech infrastructure without novel data, specific technical analysis, or direct relevance to AI/ML topics in the knowledge base focus areas."
+    },
+    "https://www.tomtunguz.com/using-local-ai-to-work-faster/": {
+      "title": "The Minimill of AI",
+      "source": "Tomasz Tunguz",
+      "date": "2026-06-05T00:00:00+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-in-operations"
+      ],
+      "content_type": "technical",
+      "summary": "The article argues that distilled AI models running locally on laptops can handle 78% of agentic work (task classification, routing, and execution), with only complex tasks routed to cloud models, creating a 'minimill' architecture. This hybrid routing approach increased throughput by 25%, reduced average task duration from 47 to 19 seconds, and cut queue age by 94% by preventing small tasks from waiting behind large ones. The author draws a parallel to Nucor's minimills disrupting integrated steel plants, suggesting millions of edge devices will absorb work currently handled by expensive cloud hyperscalers.",
+      "tags": [
+        "skill-distillation",
+        "local-inference",
+        "hybrid-routing",
+        "edge-ai",
+        "agentic-task-management",
+        "minimill-architecture"
+      ],
+      "status": "integrated"
+    },
+    "https://feeds.feedblitz.com/~/957784583/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-June-%e2%80%93/": {
+      "title": "Weekend Reading For Financial Planners (June 6\u20137)",
+      "source": "Kitces.com",
+      "date": "2026-06-05T18:00:41+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a weekly roundup article for financial planners covering survey results about advisor compensation (median $195k, with CFP certification providing an 11% premium) and client satisfaction levels, along with brief summaries of articles on retirement planning strategies, client communication tactics, and professional kindness. The article provides no original analysis, instead linking to and summarizing various industry reports and articles on traditional financial planning topics. The content focuses entirely on human financial advisory practices with no mention of AI, technology infrastructure, or any of the specified topic areas.",
+      "tags": [
+        "financial-planning",
+        "advisor-compensation",
+        "client-engagement",
+        "retirement-planning"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers traditional financial planning industry news and human advisory practices with no relevance to any AI, semiconductor, infrastructure, or enterprise AI topics specified in the relevance criteria."
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1RuYVlYY0tjZFk2YXJwX2wycjVIQkR1UUZRSFdwYjI2amdEbm5QRjlwcHdydHV0bTk1VUhsU1o1TnRrM0MwSHBJa29tS2VFN0RsZ2llNjZneDhFNjZYU0V4M0o2anBvUVhzSFlWQ1czMTgyRmI0dVc4b1UzLW85Q1g1dXN4NTVuTHRNV2MzbjQxdEhDZHNEQg?oc=5": {
+      "title": "AI is forcing wealth managers to prove what human advice is worth - Startup Fortune",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-06-05T17:12:43+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than actual article content about AI in wealth management. No substantive content is present to evaluate claims, evidence, or arguments about how AI affects wealth management advisory services. The article text contains only boilerplate privacy policy language and no actual journalism or analysis.",
+      "tags": [
+        "wealth-management",
+        "human-advisory",
+        "ai-disruption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is missing; only a Google cookie consent page was captured, providing no substantive information to evaluate."
+    },
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMERBa3BDMkZMeGQzM2lQZVNtZFhYRTRPUEFoMUo2bkpiQlQwQzlPZlRxNkg3TXd3RXJQV0dVS2E0R29JM2xNSXBPZjA1MTloN09vREc2RE43S1JDQ1NzSXk4RVJvLWFhQWVNaDBKb1JzNmFab1ZjV2ZIRFVxNW4wTko3TWFuT2t2STNTc0l6bUkxYnQ2ckQ1T3NZTVlmRlhjWXR2b1U0QU1HdFR3Vk9OVXkyZldDY0VjbEFocHFiSkpDZXUzV1Q1cll1dmRkTVFQeENHQXd3?oc=5": {
+      "title": "Bland AI Ranks #1 in Expert Review of Best Conversational AI Platforms for 2026 - FinancialContent",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-05T13:30:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-customer-success-support"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce that Bland AI ranked #1 in an expert review of conversational AI platforms for 2026. No actual content, analysis, or evidence is provided in the text\u2014only Google's cookie consent dialog is visible. This is effectively an empty article with only a headline, providing no substantive information about the ranking methodology, competitive analysis, or platform capabilities.",
+      "tags": [
+        "conversational-ai",
+        "bland-ai",
+        "platform-ranking"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content beyond a headline and Google cookie consent dialog, providing zero substantive information, analysis, or data."
+    },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUXBqOHFoVW50Q0JUa1BYRU5abDVNVm0yVjA0c2U4RzVIUmlqR0NGQm1xSnBlWGg5WmVOSWpQSUkyRVFibzd1TWdKN1VXZVlDdzFNOHVPQU1VWGZoY0xTWHo1NHo4NjlJbE5mSnRXc19FakNYSTNuZUxic0FIZkdZdDNFX3VmNWhYRzJmSm16b3VtbVRGM3RmZkI3UEhqd1pZRkE?oc=5": {
+      "title": "AI Is Upending One of Finance\u2019s Cushiest Jobs - Bloomberg.com",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-06-05T10:15:32+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to discuss AI's impact on wealth management and financial advisory roles. No actual article content is provided\u2014only a Google cookie consent page was captured. Without the substantive article text, no meaningful evaluation of depth, novelty, evidence, or implications can be made.",
+      "tags": [
+        "wealth-management",
+        "financial-advisory",
+        "cookie-consent-page"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not accessible; only Google cookie consent page captured, preventing evaluation of claims, evidence, or substantive analysis."
     }
   }
 }

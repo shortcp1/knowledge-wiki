@@ -605,3 +605,13 @@ These elements touch on infrastructure strategy, M&A strategy, and platform reli
   - Users have no "reasonable expectation of confidentiality" since AI companies can disclose user data to third parties
 
 **Policy implications**: Unresolved questions about AI's fiduciary duties, confidentiality standards, and liability framework when serving in quasi-legal advisory roles
+
+---
+**[AINews] not much happened today** (Latent Space, 2026-06-05T06:44:49+00:00)
+**OpenAI ChatGPT Metrics (June 2026)**: ChatGPT crossed 1 billion monthly active users (MAU), approximately 5 months behind originally projected schedule. Also announced improved memory capabilities (details not specified in article).
+
+**Cloudflare/VoidZero Acquisition**: Cloudflare acquired VoidZero (team behind Vite, Vitest, Rolldown, Oxc). Vite remains open source under MIT license and vendor-neutral. Cloudflare committed $1M to fund for independent Vite ecosystem development. Strategic interpretation suggests Cloudflare gaining control over developer toolchain increasingly relevant for agent-based development workflows.
+
+**AI Bio-Risk Governance**: Coalition including Altman, Amodei, Hassabis, and Baker backed mandatory DNA synthesis screening and recordkeeping in US, arguing AI is eroding biological knowledge barriers.
+
+**Anthropic RSP Criticism**: @CRSegerie criticized Anthropic for allegedly weakening parts of its Responsible Scaling Policy thresholds around bio/chemical risk (timing unclear, specific changes not detailed).
