@@ -13868,6 +13868,284 @@
       ],
       "status": "skipped",
       "skip_reason": "Article content not accessible; only Google cookie consent page captured, preventing evaluation of claims, evidence, or substantive analysis."
+    },
+    "https://www.deeplearning.ai/the-batch/page/4": {
+      "title": "4",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-07T02:00:46.209022+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a table of contents page listing weekly newsletter issues from DeepLearning.AI's 'The Batch' publication, spanning from May to July 2025. Each entry provides only brief headlines about various AI developments, policy changes, and company moves without substantive analysis or detail. The page serves as a navigation index rather than providing actual content, making it unsuitable for knowledge extraction.",
+      "tags": [
+        "newsletter-index",
+        "deeplearning-ai",
+        "the-batch"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a table of contents page with headlines and no substantive content, analysis, or actionable information to extract."
+    },
+    "https://www.deeplearning.ai/the-batch/page/7": {
+      "title": "7",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-07T02:00:45.941583+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is an index page from DeepLearning.AI's newsletter 'The Batch' showing headlines and brief excerpts from multiple weekly issues spanning July-September 2024. The content includes Andrew Ng's letters and brief teasers about various AI news topics like model releases, policy developments, and technical advances. It provides no substantive analysis or complete information, serving only as a navigation/archive page.",
+      "tags": [
+        "newsletter-index",
+        "ai-news-digest",
+        "deeplearning-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a newsletter archive index page with headlines and fragments rather than substantive content; it contains no original analysis, complete arguments, or actionable insights."
+    },
+    "https://www.deeplearning.ai/the-batch/page/5": {
+      "title": "5",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-07T02:00:45.320623+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a newsletter index page from The Batch showing titles and brief excerpts from issues published between January and April 2025. The content consists of headline summaries covering various AI developments including model releases, policy changes, and technical advancements. It provides no substantive analysis or original research, serving only as a table of contents for newsletter issues.",
+      "tags": [
+        "newsletter-index",
+        "summary-page",
+        "ai-news"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a navigation/index page with headline summaries and no substantive content, analysis, or actionable insights."
+    },
+    "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1": {
+      "title": "LLM Research Papers: The 2026 List (January to May)",
+      "source": "Ahead of AI (Raschka)",
+      "date": "2026-06-06T11:16:22+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "inference-time-compute",
+        "post-training-rlhf",
+        "ai-engineering-agents"
+      ],
+      "content_type": "landscape",
+      "summary": "This article presents a curated list of LLM research papers from January to May 2026, organized by categories including architecture design, efficient training, inference optimization, reasoning models, and agent systems. The author highlights trends toward hybrid architectures combining transformers with state space models, MoE capacity optimization, and long-context efficiency for agent deployments. This is a reference compilation rather than original analysis, serving as a bookmark collection for practitioners tracking current research directions.",
+      "tags": [
+        "hybrid-architectures",
+        "state-space-models",
+        "mixture-of-experts",
+        "long-context",
+        "agent-harnesses",
+        "mamba",
+        "kv-cache"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level paper curation without original analysis or novel insights; primarily a bookmarked reference list with minimal critical evaluation or synthesis."
+    },
+    "https://www.latent.space/p/ainews-not-much-happened-today-6b8": {
+      "title": "[AINews] not much happened today",
+      "source": "Latent Space",
+      "date": "2026-06-06T04:34:47+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "evals-production-deployment",
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "This AINews roundup reports on recent developments in frontier AI models, particularly Anthropic's Claude Mythos/Opus releases and the emergence of recursive self-improvement (RSI) as a formal research program at labs like Sakana AI. It highlights new long-horizon agent benchmarks (Agents' Last Exam, SWE-Marathon, Meta-Agent Challenge) showing frontier models still achieve low pass rates on economically valuable tasks and remain unreliable despite version improvements. The shift matters because RSI is moving from conceptual framing to staffed research programs, and evaluation is pivoting from snippet tasks to production-realistic, economically meaningful workflows.",
+      "tags": [
+        "recursive-self-improvement",
+        "agent-benchmarks",
+        "long-horizon-tasks",
+        "claude-opus",
+        "agent-reliability",
+        "rl-environments"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything": {
+      "title": "micropython-wasm 0.1a2",
+      "source": "Simon Willison",
+      "date": "2026-06-06T04:26:06+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for micropython-wasm version 0.1a2, a Python library that enables running MicroPython in a sandbox using WebAssembly. The main update is the addition of a CLI tool inspired by documentation needs. This is a minor incremental update to a developer tool with no substantive analysis or broader implications discussed.",
+      "tags": [
+        "micropython",
+        "webassembly",
+        "sandboxing",
+        "python-tooling"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a minimal release announcement with no analysis, novel insights, or relevance to AI/ML topics; it simply notes a CLI addition to a sandbox tool."
+    },
+    "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything": {
+      "title": "Running Python code in a sandbox with MicroPython and WASM",
+      "source": "Simon Willison",
+      "date": "2026-06-06T03:53:34+00:00",
+      "composite": 6.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "The article describes a new approach to running Python code in a sandbox using MicroPython compiled to WebAssembly, released as the micropython-wasm package for use in projects like Datasette Agent. The author argues this solution meets key sandbox requirements: clean PyPI installation, CPU/memory limits, controlled file/network access, and host function interaction through WASM's security model. This matters because it enables safer execution of plugin code and AI agent actions without risking the host application or user's system.",
+      "tags": [
+        "code-sandbox",
+        "webassembly",
+        "micropython",
+        "plugin-systems",
+        "datasette",
+        "agent-safety"
+      ],
+      "status": "integrated"
+    },
+    "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzMzg5NjQxLCJpYXQiOjE3ODA3OTc2NDEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.JCgnP3W7UrqkojIOwRFXbtuBBxnbXsy4n2Tb0yoTwz5aSUy06iP8JT1J58Xs8Fwhel9VTAmwLzhmU2KbVLmq3sWFyJOT9IkJoloCHHzgn-w98BhnXuq7tD2MQs2S2FGl6o1aA-qaHSBGwrdodHClufuibjhYeuHvE1JGg2niIzSqkjKML6RbQLxpAugN_XCIgsVnVlQoMAUsxPSz2t6ESDFghJ0_T8uHVLLsPzd8282Zfae1rXHA3Amxm79b-h_DMPyk7783fcIfgTABybpRgUf2diRzxG6cIzBZAIC8_KRvatdPXZEPrJ_IS5QLbBSIG-b675kYveLgHpBKsbg2ZA&p=19180": {
+      "title": "The Google Capital Company",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-02T10:00:00+00:00",
+      "composite": 3.7,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article uses Google and Berkshire Hathaway as framing devices to discuss how capital intensity is becoming central to AI business models, contrasting with traditional asset-light tech companies. It argues that AI companies require massive capital expenditures on infrastructure (GPUs, data centers) similar to historical capital-intensive businesses, making access to capital the key competitive moat. This represents a fundamental shift in tech business models where absolute scale of capital deployment matters more than capital efficiency.",
+      "tags": [
+        "capital-intensity",
+        "business-models",
+        "aggregation-theory",
+        "infrastructure-costs",
+        "competitive-moats",
+        "asset-light-vs-heavy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article provides high-level business model commentary about capital intensity in AI but lacks specific technical depth, actionable insights, or novel frameworks relevant to the specified AI/ML topic areas; primarily historical business analysis rather than forward-looking AI strategy."
+    },
+    "https://www.bain.com/insights/ais-evolution-what-good-looks-like-now/": {
+      "title": "Ais Evolution What Good Looks Like Now",
+      "source": "Bain Insights",
+      "date": "2026-06-07T02:00:44.224174+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a Bain & Company page about AI evolution, but the provided text consists almost entirely of website navigation menus and office location listings. No substantive content about AI, analysis, frameworks, or recommendations is present in the extracted text. The article cannot be evaluated for its actual claims or insights because the core content was not successfully captured.",
+      "tags": [
+        "bain-company",
+        "consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text contains only website navigation and footer content with no substantive analysis, research, or insights about AI to evaluate."
+    },
+    "https://www.bain.com/insights/topics/cio-insights/": {
+      "title": "Cio Insights",
+      "source": "Bain Insights",
+      "date": "2026-06-07T02:00:44.095637+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation page or site structure from Bain & Company's website listing offices, industries, and consulting services. No actual article content, analysis, data, or insights are present in the provided text. The page contains only menu items, geographic locations, and category headers without substantive information.",
+      "tags": [
+        "navigation-page",
+        "corporate-website",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a website navigation/structure page with no actual article content, analysis, or insights to evaluate."
+    },
+    "https://www.bain.com/insights/getting-ai-right-architecture-investments-and-tough-choices/": {
+      "title": "Getting Ai Right Architecture Investments And Tough Choices",
+      "source": "Bain Insights",
+      "date": "2026-06-07T02:00:43.567415+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Bain & Company webpage navigation structure rather than an actual article about AI architecture and investments. The content provided consists entirely of website menu items, office locations, and navigation elements with no substantive discussion of AI strategy, architecture decisions, or investment frameworks. Without access to the actual article content, this cannot be evaluated for its analytical depth or insights into enterprise AI implementation.",
+      "tags": [
+        "navigation-error",
+        "no-content",
+        "bain-consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "The provided text contains only website navigation menus and headers without any actual article content to evaluate for depth, novelty, or substantive relevance to AI topics."
+    },
+    "https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs": {
+      "title": "\ud83e\udde0 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-06T17:14:54+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a community newsletter digest summarizing Slack conversations on various startup and product management topics including bootstrapping, roadmaps, AI agents, and associate product manager projects. The article provides no substantive content as it's paywalled and only shows the introduction/teaser. Without access to actual discussion content or insights, it cannot contribute meaningful knowledge on any technical or strategic AI topics.",
+      "tags": [
+        "community-discussion",
+        "startup-funding",
+        "product-management",
+        "paywalled-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Paywalled community digest with no substantive content accessible; appears to be general startup/PM discussion rather than deep technical or strategic AI analysis."
+    },
+    "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDcUJQaWlYZ2FUeUtEelRGRTVya0VWQm9id2FWdW8tOTJfZjJMaGRqZ0FPV0JTOWE1LWQtMkNtOHBRRmRiMHRnTno5Ql9BcG0tNTZ1YUlBMnhXZ0todkFUVmQwdVItOVVFazVDZTZWMno?oc=5": {
+      "title": "Guide to Financial Advisor Conferences for 2026 - SmartAsset.com",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-06-02T07:00:00+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than actual article content about financial advisor conferences. No substantive information about AI, financial advisory workflows, or any relevant technical or business topics is present. The content is purely a standard privacy/cookie policy interstitial.",
+      "tags": [
+        "cookie-consent",
+        "privacy-policy",
+        "web-interstitial"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only a Google cookie consent page with no actual content related to financial advisors, AI workflows, or any relevant technical or business topics."
     }
   }
 }

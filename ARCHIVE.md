@@ -705,7 +705,64 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-07
+
+**✗ 2.3** — [4](https://www.deeplearning.ai/the-batch/page/4)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_index #deeplearning_ai #the_batch
+> This is a table of contents page listing weekly newsletter issues from DeepLearning.AI's 'The Batch' publication, spanning from May to July 2025. Each entry provides only brief headlines about various AI developments, policy changes, and company moves without substantive analysis or detail. The page serves as a navigation index rather than providing actual content, making it unsuitable for knowledge extraction.
+
+**✗ 2.3** — [7](https://www.deeplearning.ai/the-batch/page/7)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_index #ai_news_digest #deeplearning_ai
+> This is an index page from DeepLearning.AI's newsletter 'The Batch' showing headlines and brief excerpts from multiple weekly issues spanning July-September 2024. The content includes Andrew Ng's letters and brief teasers about various AI news topics like model releases, policy developments, and technical advances. It provides no substantive analysis or complete information, serving only as a navigation/archive page.
+
+**✗ 2.3** — [5](https://www.deeplearning.ai/the-batch/page/5)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_index #summary_page #ai_news
+> This is a newsletter index page from The Batch showing titles and brief excerpts from issues published between January and April 2025. The content consists of headline summaries covering various AI developments including model releases, policy changes, and technical advancements. It provides no substantive analysis or original research, serving only as a table of contents for newsletter issues.
+
+**✗ 2.3** — [Ais Evolution What Good Looks Like Now](https://www.bain.com/insights/ais-evolution-what-good-looks-like-now/)  
+*Bain Insights* · 
+#bain_company #consulting
+> The article appears to be a Bain & Company page about AI evolution, but the provided text consists almost entirely of website navigation menus and office location listings. No substantive content about AI, analysis, frameworks, or recommendations is present in the extracted text. The article cannot be evaluated for its actual claims or insights because the core content was not successfully captured.
+
+**✗ 1.0** — [Cio Insights](https://www.bain.com/insights/topics/cio-insights/)  
+*Bain Insights* · 
+#navigation_page #corporate_website #no_content
+> This appears to be a navigation page or site structure from Bain & Company's website listing offices, industries, and consulting services. No actual article content, analysis, data, or insights are present in the provided text. The page contains only menu items, geographic locations, and category headers without substantive information.
+
+**✗ 2.7** — [Getting Ai Right Architecture Investments And Tough Choices](https://www.bain.com/insights/getting-ai-right-architecture-investments-and-tough-choices/)  
+*Bain Insights* · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#navigation_error #no_content #bain_consulting
+> This appears to be a Bain & Company webpage navigation structure rather than an actual article about AI architecture and investments. The content provided consists entirely of website menu items, office locations, and navigation elements with no substantive discussion of AI strategy, architecture decisions, or investment frameworks. Without access to the actual article content, this cannot be evaluated for its analytical depth or insights into enterprise AI implementation.
+
 ## 2026-06-06
+
+**✗ 2.3** — [🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more](https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs)  
+*Lenny's Newsletter* · 
+#community_discussion #startup_funding #product_management #paywalled_content
+> This is a community newsletter digest summarizing Slack conversations on various startup and product management topics including bootstrapping, roadmaps, AI agents, and associate product manager projects. The article provides no substantive content as it's paywalled and only shows the introduction/teaser. Without access to actual discussion content or insights, it cannot contribute meaningful knowledge on any technical or strategic AI topics.
+
+**✗ 4.0** — [LLM Research Papers: The 2026 List (January to May)](https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1)  
+*Ahead of AI (Raschka)* · model-architecture · inference-efficiency · inference-time-compute
+#hybrid_architectures #state_space_models #mixture_of_experts #long_context
+> This article presents a curated list of LLM research papers from January to May 2026, organized by categories including architecture design, efficient training, inference optimization, reasoning models, and agent systems. The author highlights trends toward hybrid architectures combining transformers with state space models, MoE capacity optimization, and long-context efficiency for agent deployments. This is a reference compilation rather than original analysis, serving as a bookmark collection for practitioners tracking current research directions.
+
+**✗ 5.7** — [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-6b8)  
+*Latent Space* · model-architecture · evals-production-deployment · ai-engineering-agents
+#recursive_self_improvement #agent_benchmarks #long_horizon_tasks #claude_opus
+> This AINews roundup reports on recent developments in frontier AI models, particularly Anthropic's Claude Mythos/Opus releases and the emergence of recursive self-improvement (RSI) as a formal research program at labs like Sakana AI. It highlights new long-horizon agent benchmarks (Agents' Last Exam, SWE-Marathon, Meta-Agent Challenge) showing frontier models still achieve low pass rates on economically valuable tasks and remain unreliable despite version improvements. The shift matters because RSI is moving from conceptual framing to staffed research programs, and evaluation is pivoting from snippet tasks to production-realistic, economically meaningful workflows.
+
+**✗ 2.3** — [micropython-wasm 0.1a2](https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything)  
+*Simon Willison* · 
+#micropython #webassembly #sandboxing #python_tooling
+> This is a brief release announcement for micropython-wasm version 0.1a2, a Python library that enables running MicroPython in a sandbox using WebAssembly. The main update is the addition of a CLI tool inspired by documentation needs. This is a minor incremental update to a developer tool with no substantive analysis or broader implications discussed.
+
+**✓ 6.0** — [Running Python code in a sandbox with MicroPython and WASM](https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#code_sandbox #webassembly #micropython #plugin_systems
+> The article describes a new approach to running Python code in a sandbox using MicroPython compiled to WebAssembly, released as the micropython-wasm package for use in projects like Datasette Agent. The author argues this solution meets key sandbox requirements: clean PyPI installation, CPU/memory limits, controlled file/network access, and host function interaction through WASM's security model. This matters because it enables safer execution of plugin code and AI agent actions without risking the host application or user's system.
 
 **✗ 2.3** — [6](https://www.deeplearning.ai/the-batch/page/6)  
 *The Batch (DeepLearning.AI)* · 
@@ -1145,6 +1202,11 @@ All articles scanned since the wiki started. Updated nightly.
 #google #berkshire_hathaway #aggregator_theory #capital_allocation
 > The article argues that Google has issued equity to Berkshire Hathaway in a deal that reflects changing capital dynamics, using Google's traditional business model as a framing device. It provides context through Buffett's historical investment philosophy about capital-light businesses versus capital-intensive ones. The piece appears incomplete and doesn't fully develop its thesis about what this capital deal means for the future.
 
+**✗ 3.7** — [The Google Capital Company](https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzMzg5NjQxLCJpYXQiOjE3ODA3OTc2NDEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.JCgnP3W7UrqkojIOwRFXbtuBBxnbXsy4n2Tb0yoTwz5aSUy06iP8JT1J58Xs8Fwhel9VTAmwLzhmU2KbVLmq3sWFyJOT9IkJoloCHHzgn-w98BhnXuq7tD2MQs2S2FGl6o1aA-qaHSBGwrdodHClufuibjhYeuHvE1JGg2niIzSqkjKML6RbQLxpAugN_XCIgsVnVlQoMAUsxPSz2t6ESDFghJ0_T8uHVLLsPzd8282Zfae1rXHA3Amxm79b-h_DMPyk7783fcIfgTABybpRgUf2diRzxG6cIzBZAIC8_KRvatdPXZEPrJ_IS5QLbBSIG-b675kYveLgHpBKsbg2ZA&p=19180)  
+*Stratechery (Ben Thompson)* · 
+#capital_intensity #business_models #aggregation_theory #infrastructure_costs
+> The article uses Google and Berkshire Hathaway as framing devices to discuss how capital intensity is becoming central to AI business models, contrasting with traditional asset-light tech companies. It argues that AI companies require massive capital expenditures on infrastructure (GPUs, data centers) similar to historical capital-intensive businesses, making access to capital the key competitive moat. This represents a fundamental shift in tech business models where absolute scale of capital deployment matters more than capital efficiency.
+
 **✗ 4.0** — [The Google Capital Company](https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzMTMwNDQxLCJpYXQiOjE3ODA1Mzg0NDEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.Ce_oo4M7qfTDjEOZrd6C4jZtIbMkTThMj1rslrYbenF1zHHOnGh_a82poYgOXmCqtCXJxyo_KxPyXkiGgQadM3feQ3fxS3iPkQXpg_Pfv1-5a8UX2j4Z8YGw1jemd1T8-T648VujYLvBbRNUXxaL3-wjV_Udtc_qaupXanXuYnJxHg5FnSqyIk4RbEtXdXpV8mL2LfwWG4f6ae4NFg-NxqJCijhi-nEX-XmFnK6NwqMHN3-5hXmsj4OCVEe9AA_p8MZdQqsDGevMVoEyQgfb2vE8zHTwah_CmbnNiIEY_GTWfc1d3VPwsw1JfjYTKwYG2z1g6Bw6kIm3UzReLw23YQ&p=19180)  
 *Stratechery (Ben Thompson)* · funding-and-market-structure
 #aggregator_theory #capital_allocation #business_models #asset_light
@@ -1164,6 +1226,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · ai-in-operations
 #notion_ai #small_business #administrative_automation #meeting_summaries
 > This article profiles how a private tutor uses Notion AI for administrative tasks like meeting summaries, invoicing, goal-setting, and social media management to free up time for actual tutoring work. The key mechanism is AI handling rote secretarial work that small businesses lack dedicated staff for, specifically through Notion's integration across productivity platforms. It positions AI as a 'good enough' solution for administrative overhead in resource-constrained small businesses.
+
+**✗ 1.0** — [Guide to Financial Advisor Conferences for 2026 - SmartAsset.com](https://news.google.com/rss/articles/CBMicEFVX3lxTFBDcUJQaWlYZ2FUeUtEelRGRTVya0VWQm9id2FWdW8tOTJfZjJMaGRqZ0FPV0JTOWE1LWQtMkNtOHBRRmRiMHRnTno5Ql9BcG0tNTZ1YUlBMnhXZ0todkFUVmQwdVItOVVFazVDZTZWMno?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#cookie_consent #privacy_policy #web_interstitial
+> This appears to be a Google cookie consent page rather than actual article content about financial advisor conferences. No substantive information about AI, financial advisory workflows, or any relevant technical or business topics is present. The content is purely a standard privacy/cookie policy interstitial.
 
 **✗ 2.3** — [Advancing youth safety and opportunity through global leadership](https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership)  
 *OpenAI News* · regulatory-policy · ai-governance-risk-compliance
