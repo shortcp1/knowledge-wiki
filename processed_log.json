@@ -14146,6 +14146,284 @@
       ],
       "status": "skipped",
       "skip_reason": "Article contains only a Google cookie consent page with no actual content related to financial advisors, AI workflows, or any relevant technical or business topics."
+    },
+    "https://www.deeplearning.ai/the-batch/page/8": {
+      "title": "8",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-08T02:00:54.804681+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "evals-production-deployment",
+        "multimodal-models",
+        "inference-time-compute",
+        "agentic-workflows-production",
+        "model-architecture",
+        "rag-vs-finetuning-vs-wiki"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter index page listing issue titles and brief snippets from Andrew Ng's The Batch newsletter from March-May 2024. The snippets mention topics like AI agent design patterns, evals challenges, context windows, synthetic data, and tool use, but provide no substantive analysis or detail. It serves only as a table of contents without actionable insights or original research.",
+      "tags": [
+        "newsletter-index",
+        "agentic-workflows",
+        "evals",
+        "context-windows",
+        "synthetic-data",
+        "tool-use"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a newsletter index page with headlines and snippet teasers, containing no substantive analysis, original research, data, or actionable insights."
+    },
+    "https://www.deeplearning.ai/the-batch/page/9": {
+      "title": "9",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-08T02:00:54.729117+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a navigation/index page from The Batch newsletter listing issue titles and brief excerpts from February 2024 back to December 2023. The page contains only headlines and truncated opening paragraphs from various newsletter issues covering AI news topics. It provides no substantive analysis or complete content, serving merely as an archive navigation interface.",
+      "tags": [
+        "newsletter-archive",
+        "table-of-contents",
+        "navigation-page"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a navigation/index page with only headlines and truncated excerpts rather than substantive content; it contains no analysis, data, or actionable insights."
+    },
+    "https://www.deeplearning.ai/the-batch/page/11": {
+      "title": "11",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-08T02:00:54.370260+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "This is an index page listing newsletter issues from The Batch, providing brief teasers for various AI news topics from May-July 2023. The teasers cover a wide range of surface-level topics including regulation, copyright, prompt engineering, and various AI applications. This is a navigation page rather than substantive content, offering no original analysis or actionable insights.",
+      "tags": [
+        "newsletter-index",
+        "ai-regulation",
+        "copyright-law",
+        "prompt-engineering"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a newsletter index page with only brief teasers and no substantive content, analysis, or actionable information."
+    },
+    "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything": {
+      "title": "datasette-agent-edit 0.1a0",
+      "source": "Simon Willison",
+      "date": "2026-06-07T23:56:38+00:00",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "Simon Willison announces datasette-agent-edit 0.1a0, a plugin that implements storage-agnostic file-editing tools (view, str_replace, insert) for Datasette Agent plugins, inspired by Claude's text editor design. The plugin provides reusable agentic text editing patterns (viewing files with line numbers, exact string replacement with uniqueness checks, and line-based insertion) that can be adapted across multiple editing use cases like Markdown, SQL, and SVG. This creates a standardized foundation for building AI agents that need to make precise edits to structured text files.",
+      "tags": [
+        "agentic-editing",
+        "llm-tool-use",
+        "datasette",
+        "text-editing-tools",
+        "plugin-architecture"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief release announcement with limited technical depth; describes plugin functionality but provides no novel insights, performance data, or analysis of agentic editing challenges beyond citing Claude's design pattern."
+    },
+    "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzNDc2MDUwLCJpYXQiOjE3ODA4ODQwNTAsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.EdZFQFrkuJyJr8ouRdCQip0Th3HlD00Fqwgq4jQEGy_QvJU_xCxJ8m0KHHXGajB4lXvzxgWCf5zIXd4OkoUdTgAwefdFZRgJ7OFaOADgxsmDxHG00QDIj0LNRXjh4wOawGiI_kCGdpJ5IAtKgbOPlupJGo4jiz0Vx2sHpNKai26OwdehDoJls4NzCHKiTU-ghwQgPwVmkMJaKwYLGoqt_duBbJFN4FQDbaTcgk91alGjnuEOO1-Ck9QDnpSeSB7ItX2xpFXGr7AOJVxSEGnUiag7SN3XzYuTTEl6rprsXck3i1kgngfQzP5WlMMLsvhyGT00Sib7Y2CWx9buspER9Q&p=19180": {
+      "title": "The Google Capital Company",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-02T10:00:00+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that Google has issued equity to Berkshire Hathaway in a deal that represents a shift where capital itself becomes the ultimate commodity in the AI era. It contrasts Google's traditional asset-light aggregator business model (free supply, competing customers, high margins) with the capital-intensive nature of AI infrastructure investments. The piece suggests this signals a fundamental transformation in how tech companies are valued, moving from prioritizing relative efficiency to absolute capital deployment.",
+      "tags": [
+        "capital-intensity",
+        "aggregator-model",
+        "ai-infrastructure",
+        "business-model-transformation",
+        "asset-light-vs-capital-intensive"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article appears incomplete and lacks sufficient depth on AI-specific implications; primarily rehashes established concepts about Google's business model and Berkshire Hathaway's investment philosophy without substantial novel analysis of the equity deal or its AI infrastructure implications."
+    },
+    "https://www.bain.com/insights/topics/insights-for-growth-leaders/": {
+      "title": "Insights For Growth Leaders",
+      "source": "Bain Insights",
+      "date": "2026-06-08T02:00:58.362570+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a navigation page from Bain & Company's website showing their office locations, industries served, and consulting services menu structure. It contains no actual article content, analysis, or substantive information\u2014only website navigation elements and links. This appears to be a scraping error that captured the site's header/menu rather than an actual insights article.",
+      "tags": [
+        "web-navigation",
+        "consulting-firm",
+        "site-structure"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a website navigation page with no actual content, analysis, research, or actionable insights\u2014it only contains menu links and office locations."
+    },
+    "https://www.bain.com/insights/chris-zook-overview-of-founders-mentality-video/": {
+      "title": "Chris Zook Overview Of Founders Mentality Video",
+      "source": "Bain Insights",
+      "date": "2026-06-08T02:00:57.853280+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or incomplete article from Bain & Company about their 'Founder's Mentality' framework. The content provided consists entirely of website navigation menus and office locations with no actual article text or analysis. Without substantive content about the Founder's Mentality concept or its application, the page offers no actionable insights.",
+      "tags": [
+        "founders-mentality",
+        "organizational-strategy",
+        "bain-framework"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content provided; page appears to be a navigation menu or incomplete load with no actual article text to evaluate."
+    },
+    "https://cutlefish.substack.com/p/tbm-425-ai-and-agency": {
+      "title": "TBM 425: AI and Agency",
+      "source": "The Beautiful Mess (John Cutler)",
+      "date": "2026-06-07T23:19:08+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount",
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that corporate AI adoption initiatives fail because they strip employees of agency by treating resistance as individual failings rather than rational responses to top-down mandates. It frames the problem as organizational gaslighting where companies co-opt personal AI learning journeys for quarterly metrics while ignoring years of eroded trust from layoffs and broken promises. This matters because it identifies a fundamental organizational design problem in enterprise AI adoption that treating it as an education or motivation issue won't solve.",
+      "tags": [
+        "ai-adoption",
+        "organizational-agency",
+        "enterprise-ai-mandates",
+        "employee-trust",
+        "prescriptive-technology",
+        "bottom-up-learning"
+      ],
+      "status": "integrated"
+    },
+    "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on": {
+      "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-07T12:31:29+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-native-product-design",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Tony Fadell, creator of the iPod and iPhone, discusses product development philosophy in the context of AI, emphasizing the importance of opinion-based decisions for v1 products and warning against 'cognitive surrender' to AI. The conversation covers historical product development debates (like the iPhone keyboard decision) and suggests that voice will become the primary AI interface while screens remain necessary. The article offers general product wisdom from a legendary builder but provides limited specific frameworks or novel insights about AI product development beyond cautionary themes.",
+      "tags": [
+        "product-taste",
+        "opinion-based-decisions",
+        "voice-interfaces",
+        "cognitive-surrender",
+        "ai-product-design"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level interview format that covers general product philosophy and historical anecdotes rather than providing deep analysis, novel frameworks, or specific technical/implementation insights about AI product development."
+    },
+    "https://www.exponentialview.co/p/ev-577": {
+      "title": "\ud83d\udd2e The AI boom is becoming an entrepreneurship boom #577",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-06-07T03:21:28+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai",
+        "lab-dynamics",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI adoption is driving faster revenue growth (5x vs economy) and new business formation, while Anthropic's internal data shows 8x increase in code contribution per developer using Claude. The evidence includes Ramp's firm-level spending data and Anthropic's internal productivity metrics, though the author questions whether this represents true recursive self-improvement or just accelerated human-directed strategies. This matters because it suggests AI is shifting from hype to measurable business impact, though governance concerns about runaway capabilities may be overstated given commercial constraints on capital, chips, and power.",
+      "tags": [
+        "ai-productivity-metrics",
+        "recursive-self-improvement",
+        "business-formation",
+        "code-generation",
+        "anthropic-claude",
+        "ai-governance"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary synthesizing existing data points without deep original analysis; mostly rehashes publicly available metrics and existing governance debates"
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUHRnRDk5bkxVTGF0LVR4bHFtdDFVSjN2NVViT1QzVnEzZ1pmSXlPbS1OWG1neEVPN09tLVJqMENYMWg2dEVnQnl2Y0sxd3VuY3dpQm1HSmozaktEV1N2b1JQY3ZLYTdqZGp1cWUyaW01LUZ5aHZMR2FFYjdlWTNmeW9EaXZsMUNoYnhEQk4xc0owbXpjbkpWaS10dktxTDQ?oc=5": {
+      "title": "Mid-Market Companies Waste 25% of AI Budgets on Complexity, Report Finds - Small Business Trends",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-07T14:11:00+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to report on mid-market companies wasting 25% of AI budgets on complexity according to an unnamed report. No actual article content was provided beyond the title and a Google cookie consent dialog. The lack of accessible content prevents evaluation of any substantive claims, evidence, or implications.",
+      "tags": [
+        "mid-market",
+        "ai-budget",
+        "enterprise-complexity"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content available - only cookie consent dialog and navigation elements were provided, preventing meaningful analysis of depth, novelty, or substantive claims."
+    },
+    "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTWJOaUEzM1YtWVdXb2xEUFpqNWdkRFJzMXRkMm44NkVLUi00SmZhWFJ3WjMzbFRjQW5jdmhETy1iUTVlSmdfTko4dnpkWFowVVhueXBhVmoxSTlpTHdoNGNFbk1ZdkZoUUFTckotUFNQV3l3YTVFNW5uam1hSHlNZkxURm1yekhqTWFPbDFaTmVvc3VDS1oxQ25aLU1zTjBPeU9HSlB0Vkhqcl96ZjlIbGNGZ04wdUs1Vk5YaGpPbDlsblR0ZDQ4ZDI4QWRleG5GaUVGTVRwY1FuWmFVZ2I1M1AzdXNkZjJtekc5MWE3RUdFdlozM0ZVRkxYUTdXSVBVSmpLbFRWSkZHdw?oc=5": {
+      "title": "Unico Connect Releases New Guide on the Real Cost of AI Agent Development for Enterprises in 2026 - The Globe and Mail",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-04T12:55:35+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a press release announcement about Unico Connect releasing a guide on AI agent development costs for enterprises in 2026. No actual content, analysis, or data from the guide is provided in the article text. The submission only contains Google's cookie consent page, making it impossible to evaluate the substantive claims or insights.",
+      "tags": [
+        "ai-agents",
+        "enterprise-cost",
+        "development-guide"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content beyond a cookie consent page; cannot assess claims, evidence, or insights about AI agent development costs."
     }
   }
 }

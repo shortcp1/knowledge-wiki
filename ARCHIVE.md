@@ -705,7 +705,59 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-08
+
+**✗ 1.0** — [Insights For Growth Leaders](https://www.bain.com/insights/topics/insights-for-growth-leaders/)  
+*Bain Insights* · 
+#web_navigation #consulting_firm #site_structure
+> This is a navigation page from Bain & Company's website showing their office locations, industries served, and consulting services menu structure. It contains no actual article content, analysis, or substantive information—only website navigation elements and links. This appears to be a scraping error that captured the site's header/menu rather than an actual insights article.
+
+**✗ 1.3** — [Chris Zook Overview Of Founders Mentality Video](https://www.bain.com/insights/chris-zook-overview-of-founders-mentality-video/)  
+*Bain Insights* · 
+#founders_mentality #organizational_strategy #bain_framework
+> This appears to be a navigation page or incomplete article from Bain & Company about their 'Founder's Mentality' framework. The content provided consists entirely of website navigation menus and office locations with no actual article text or analysis. Without substantive content about the Founder's Mentality concept or its application, the page offers no actionable insights.
+
+**✗ 2.3** — [8](https://www.deeplearning.ai/the-batch/page/8)  
+*The Batch (DeepLearning.AI)* · evals-production-deployment · multimodal-models · inference-time-compute
+#newsletter_index #agentic_workflows #evals #context_windows
+> This is a newsletter index page listing issue titles and brief snippets from Andrew Ng's The Batch newsletter from March-May 2024. The snippets mention topics like AI agent design patterns, evals challenges, context windows, synthetic data, and tool use, but provide no substantive analysis or detail. It serves only as a table of contents without actionable insights or original research.
+
+**✗ 2.3** — [9](https://www.deeplearning.ai/the-batch/page/9)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #table_of_contents #navigation_page
+> This is a navigation/index page from The Batch newsletter listing issue titles and brief excerpts from February 2024 back to December 2023. The page contains only headlines and truncated opening paragraphs from various newsletter issues covering AI news topics. It provides no substantive analysis or complete content, serving merely as an archive navigation interface.
+
+**✗ 2.3** — [11](https://www.deeplearning.ai/the-batch/page/11)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · ai-governance-risk-compliance
+#newsletter_index #ai_regulation #copyright_law #prompt_engineering
+> This is an index page listing newsletter issues from The Batch, providing brief teasers for various AI news topics from May-July 2023. The teasers cover a wide range of surface-level topics including regulation, copyright, prompt engineering, and various AI applications. This is a navigation page rather than substantive content, offering no original analysis or actionable insights.
+
 ## 2026-06-07
+
+**✗ 4.3** — [datasette-agent-edit 0.1a0](https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#agentic_editing #llm_tool_use #datasette #text_editing_tools
+> Simon Willison announces datasette-agent-edit 0.1a0, a plugin that implements storage-agnostic file-editing tools (view, str_replace, insert) for Datasette Agent plugins, inspired by Claude's text editor design. The plugin provides reusable agentic text editing patterns (viewing files with line numbers, exact string replacement with uniqueness checks, and line-based insertion) that can be adapted across multiple editing use cases like Markdown, SQL, and SVG. This creates a standardized foundation for building AI agents that need to make precise edits to structured text files.
+
+**✓ 7.0** — [TBM 425: AI and Agency](https://cutlefish.substack.com/p/tbm-425-ai-and-agency)  
+*The Beautiful Mess (John Cutler)* · ai-in-product-and-engineering · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#ai_adoption #organizational_agency #enterprise_ai_mandates #employee_trust
+> The article argues that corporate AI adoption initiatives fail because they strip employees of agency by treating resistance as individual failings rather than rational responses to top-down mandates. It frames the problem as organizational gaslighting where companies co-opt personal AI learning journeys for quarterly metrics while ignoring years of eroded trust from layoffs and broken promises. This matters because it identifies a fundamental organizational design problem in enterprise AI adoption that treating it as an education or motivation issue won't solve.
+
+**✗ 2.7** — [Mid-Market Companies Waste 25% of AI Budgets on Complexity, Report Finds - Small Business Trends](https://news.google.com/rss/articles/CBMinwFBVV95cUxNUHRnRDk5bkxVTGF0LVR4bHFtdDFVSjN2NVViT1QzVnEzZ1pmSXlPbS1OWG1neEVPN09tLVJqMENYMWg2dEVnQnl2Y0sxd3VuY3dpQm1HSmozaktEV1N2b1JQY3ZLYTdqZGp1cWUyaW01LUZ5aHZMR2FFYjdlWTNmeW9EaXZsMUNoYnhEQk4xc0owbXpjbkpWaS10dktxTDQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#mid_market #ai_budget #enterprise_complexity
+> The article appears to report on mid-market companies wasting 25% of AI budgets on complexity according to an unnamed report. No actual article content was provided beyond the title and a Google cookie consent dialog. The lack of accessible content prevents evaluation of any substantive claims, evidence, or implications.
+
+**✗ 4.0** — [Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell](https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on)  
+*Lenny's Newsletter* · ai-native-product-design · ai-in-product-and-engineering
+#product_taste #opinion_based_decisions #voice_interfaces #cognitive_surrender
+> Tony Fadell, creator of the iPod and iPhone, discusses product development philosophy in the context of AI, emphasizing the importance of opinion-based decisions for v1 products and warning against 'cognitive surrender' to AI. The conversation covers historical product development debates (like the iPhone keyboard decision) and suggests that voice will become the primary AI interface while screens remain necessary. The article offers general product wisdom from a legendary builder but provides limited specific frameworks or novel insights about AI product development beyond cautionary themes.
+
+**✗ 5.3** — [🔮 The AI boom is becoming an entrepreneurship boom #577](https://www.exponentialview.co/p/ev-577)  
+*Exponential View (Azeem Azhar)* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai · lab-dynamics
+#ai_productivity_metrics #recursive_self_improvement #business_formation #code_generation
+> The article argues that AI adoption is driving faster revenue growth (5x vs economy) and new business formation, while Anthropic's internal data shows 8x increase in code contribution per developer using Claude. The evidence includes Ramp's firm-level spending data and Anthropic's internal productivity metrics, though the author questions whether this represents true recursive self-improvement or just accelerated human-directed strategies. This matters because it suggests AI is shifting from hype to measurable business impact, though governance concerns about runaway capabilities may be overstated given commercial constraints on capital, chips, and power.
 
 **✗ 2.3** — [4](https://www.deeplearning.ai/the-batch/page/4)  
 *The Batch (DeepLearning.AI)* · 
@@ -942,6 +994,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Writer.com Blog* · ai-in-marketing-content · agentic-workflows-production
 #seo_optimization #multi_agent_workflow #content_automation #human_in_the_loop
 > The article describes a five-agent workflow for automating blog SEO optimization, with agents handling research, strategy, content creation, CMS publishing, and performance feedback loops. The system allows for human-in-the-loop review at key stages and can update blog content daily based on keyword performance. This represents a basic application of agentic workflows to marketing content production with minimal technical depth or novel insights.
+
+**✗ 1.7** — [Unico Connect Releases New Guide on the Real Cost of AI Agent Development for Enterprises in 2026 - The Globe and Mail](https://news.google.com/rss/articles/CBMiigJBVV95cUxPTWJOaUEzM1YtWVdXb2xEUFpqNWdkRFJzMXRkMm44NkVLUi00SmZhWFJ3WjMzbFRjQW5jdmhETy1iUTVlSmdfTko4dnpkWFowVVhueXBhVmoxSTlpTHdoNGNFbk1ZdkZoUUFTckotUFNQV3l3YTVFNW5uam1hSHlNZkxURm1yekhqTWFPbDFaTmVvc3VDS1oxQ25aLU1zTjBPeU9HSlB0Vkhqcl96ZjlIbGNGZ04wdUs1Vk5YaGpPbDlsblR0ZDQ4ZDI4QWRleG5GaUVGTVRwY1FuWmFVZ2I1M1AzdXNkZjJtekc5MWE3RUdFdlozM0ZVRkxYUTdXSVBVSmpLbFRWSkZHdw?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#ai_agents #enterprise_cost #development_guide
+> This appears to be a press release announcement about Unico Connect releasing a guide on AI agent development costs for enterprises in 2026. No actual content, analysis, or data from the guide is provided in the article text. The submission only contains Google's cookie consent page, making it impossible to evaluate the substantive claims or insights.
 
 **✗ 2.7** — [The Download: AI-generated lawsuits and virtual power plants for data centers](https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/)  
 *MIT Technology Review* · ai-in-legal-compliance · regulatory-policy
@@ -1216,6 +1273,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · lab-dynamics · funding-and-market-structure
 #capital_intensity #business_models #aggregation_theory #tech_valuations
 > The article argues that Google is issuing equity to Berkshire Hathaway in a deal that reflects increased capital intensity in tech, contrasting Google's historically asset-light business model with Berkshire's capital-intensive approach. It traces Buffett's investment philosophy from acquiring capital-intensive productive businesses to now potentially investing in Google, suggesting a shift where capital demand becomes paramount. This matters because it signals a fundamental change in tech business models from maximizing margins to requiring massive capital deployment, potentially reshaping valuations and competitive dynamics.
+
+**✗ 4.0** — [The Google Capital Company](https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzNDc2MDUwLCJpYXQiOjE3ODA4ODQwNTAsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.EdZFQFrkuJyJr8ouRdCQip0Th3HlD00Fqwgq4jQEGy_QvJU_xCxJ8m0KHHXGajB4lXvzxgWCf5zIXd4OkoUdTgAwefdFZRgJ7OFaOADgxsmDxHG00QDIj0LNRXjh4wOawGiI_kCGdpJ5IAtKgbOPlupJGo4jiz0Vx2sHpNKai26OwdehDoJls4NzCHKiTU-ghwQgPwVmkMJaKwYLGoqt_duBbJFN4FQDbaTcgk91alGjnuEOO1-Ck9QDnpSeSB7ItX2xpFXGr7AOJVxSEGnUiag7SN3XzYuTTEl6rprsXck3i1kgngfQzP5WlMMLsvhyGT00Sib7Y2CWx9buspER9Q&p=19180)  
+*Stratechery (Ben Thompson)* · funding-and-market-structure · build-vs-buy-enterprise-ai
+#capital_intensity #aggregator_model #ai_infrastructure #business_model_transformation
+> The article argues that Google has issued equity to Berkshire Hathaway in a deal that represents a shift where capital itself becomes the ultimate commodity in the AI era. It contrasts Google's traditional asset-light aggregator business model (free supply, competing customers, high margins) with the capital-intensive nature of AI infrastructure investments. The piece suggests this signals a fundamental transformation in how tech companies are valued, moving from prioritizing relative efficiency to absolute capital deployment.
 
 **✗ 2.3** — [Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow)  
 *OpenAI News* · ai-in-marketing-content · ai-engineering-agents
