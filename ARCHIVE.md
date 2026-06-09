@@ -707,6 +707,76 @@ All articles scanned since the wiki started. Updated nightly.
 
 ## 2026-06-08
 
+**✗ 3.0** — [Siri AI at WWDC 2026](https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything)  
+*Simon Willison* · ai-in-product-and-engineering
+#vision_llms #private_cloud_compute #gemini #pytorch
+> The article reports on Apple's WWDC 2026 Siri AI announcements, expressing skepticism based on past unfulfilled promises while noting the technical feasibility of announced features. Key evidence includes Apple licensing a custom Gemini model running on Google Cloud with NVIDIA GPUs via Private Cloud Compute, vision LLM integration for screen context, and a new Core AI library with PyTorch integration for developers. The article matters primarily as a skeptical observational commentary on Apple's AI strategy evolution, but provides minimal original analysis or actionable insights beyond summarizing announcements.
+
+**✓ 7.0** — [The sample efficiency black hole](https://www.dwarkesh.com/p/the-sample-efficiency-black-hole)  
+*Dwarkesh Podcast* · model-architecture · post-training-rlhf · data-moats-proprietary-advantages
+#sample_efficiency #synthetic_data_generation #reinforcement_learning #expert_trajectories
+> The article argues that AI progress is primarily driven by massive amounts of domain-specific expert data rather than improvements in sample efficiency, contrasting AI's need for trillions of tokens with humans' ~200 million token equivalent by adulthood. It provides evidence through the economics of data labeling (billions in revenue), the specificity of expert data collection (job listings requiring specialists in narrow domains), and RL techniques like GRPO generating hundreds to thousands of rollouts per task. This matters because it suggests that data availability and quality—not architectural innovations—are the primary moat and driver of AI capabilities, explaining why open models can catch up to frontier models within 4 months by distilling outputs from public APIs.
+
+**✗ 3.0** — [Managing Elasticsearch Reindex at Scale: Performance, Reliability, and Observability](https://blog.palantir.com/managing-elasticsearch-reindex-at-scale-performance-reliability-and-observability-cf948d0efd47?source=rss----3c87dc14372f---4)  
+*Palantir Blog* · 
+#elasticsearch #database_infrastructure #search_indexing #distributed_systems
+> This article describes Palantir's engineering approach to managing Elasticsearch reindex operations at scale within their Gotham platform, focusing on performance, reliability, and observability improvements. The post details their design of a document store service that sits between backend services and Elasticsearch, handling strongly consistent CRUD operations while maintaining search indices and security policies. While the engineering details are substantial, the content focuses on traditional database infrastructure challenges rather than AI-specific considerations.
+
+**✗ 1.7** — [Why AI initiatives stall before delivering ROI for mid-market and PE-backed companies - sociable.co](https://news.google.com/rss/articles/CBMitgFBVV95cUxPdTJNVjFlZ2pFeVduOGNpd1JiclJZS1RwcGlVWEJGeTJZSWJzT3RsTm5GUUEtR3NPSG91MUpPQW5LOHdWN1R4a241NGpocmVtUFdzUkFNVXJzTElvaWZsZWl2Y0ZlNmN3WVE2RjJZc25sRng2aXZsU1JBdW5rNjBFXzVIMW8wYW1vek84WmtiM3JNZUVqQ0hQUGFhY0FHakdYWTkzdUpQSU4yTUdUVTBOa0pMY2JWdw?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#content_extraction_failure
+> The article cannot be evaluated as the provided text only contains Google's cookie consent dialog and language selection options, with no actual article content about AI initiatives in mid-market or PE-backed companies. No evidence, arguments, or substantive claims are present in the scraped content. This represents a failed content extraction rather than an actual article.
+
+**✗ 3.0** — [🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude](https://www.lennysnewsletter.com/p/how-i-ai-gemini-omni-clone-yourself)  
+*Lenny's Newsletter* · ai-in-marketing-content
+#ai_video_generation #avatar_creation #gemini_omni #google_flow
+> The article describes a hands-on demonstration of Google Flow and Gemini Omni for creating an AI avatar and promotional video in approximately 15 minutes. The host walks through the workflow of scanning, generating scenes, and editing, highlighting both capabilities (speed, accessibility) and limitations (character consistency, emotional expression). The demonstration shows how AI video tools are making creative production accessible to non-professionals, though quality issues like uncanny valley effects and inconsistent outputs remain.
+
+**✗ 2.3** — [Confidential submission of draft S-1 to the SEC](https://openai.com/index/openai-submits-confidential-s-1)  
+*OpenAI News* · funding-and-market-structure · lab-dynamics
+#ipo #s_1_filing #public_markets #openai
+> OpenAI has confidentially submitted a draft S-1 registration statement to the SEC, indicating its intention to pursue a public offering at an undetermined future date. The submission provides no details about timing, valuation, or structure of the potential IPO. This represents a significant corporate milestone for the leading AI lab but offers no substantive information beyond the procedural filing itself.
+
+**✓ 7.0** — [Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing](https://importai.substack.com/p/import-ai-460-reward-hacking-society)  
+*Import AI (Jack Clark)* · evals-production-deployment · ai-governance-risk-compliance · model-architecture
+#reward_hacking #reinforcement_learning #societal_regulations #loophole_exploitation
+> The article reports on SocioHack, a benchmark with 72 environments testing whether RL-trained AI systems can discover loopholes in societal rules (credit card rewards, school grades, regulations) while remaining technically compliant. Testing shows AI systems achieve 61.25% recall in rediscovering historically-patched loopholes, demonstrating capability to game institutional reward structures. This matters because as AI systems improve at interacting with bureaucratic systems, they could enable widespread "institutional DDoS" through automated exploitation of policy gaps.
+
+**✗ 2.3** — [The Download: how the World Cup ball will fly and OpenAI’s “super app”](https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/)  
+*MIT Technology Review* · gpu-architecture-training-infra · build-vs-buy-enterprise-ai · ai-native-product-design
+#openai_super_app #ai_agents #gpu_capacity_contracts #government_ai_stakes
+> This newsletter digest summarizes recent AI industry news including OpenAI's plans to build a 'super app' combining coding tools and AI agents before its IPO, Google's $30 billion contract with SpaceX for AI computing power using 110,000 Nvidia GPUs, and Trump's proposal for government stakes in AI companies. The article provides brief overviews of multiple stories with minimal analysis, primarily serving as a link aggregator to longer articles elsewhere. It matters only as a quick scan of recent headlines but offers no original insights or deep analysis into any of the topics covered.
+
+**✗ 3.0** — [Shopping with Claude: How to find quality brands, automate returns, and buy things that last 100 years | Nicole Ruiz](https://www.lennysnewsletter.com/p/shopping-with-claude)  
+*Lenny's Newsletter* · prompt-architecture · ai-in-operations
+#claude #personal_productivity #brand_research #task_automation
+> The article describes a personal use case where someone uses Claude to research high-quality, durable consumer products, vet brands for legitimacy, and automate return processes through email searches and draft generation. The key mechanism is building a Claude Project with custom instructions for brand evaluation criteria (heritage, craftsmanship, return policies) and using Claude Cowork for administrative tasks like finding receipts. This represents a consumer productivity application rather than a business or technical innovation in AI.
+
+**✗ 5.3** — [SoFi bets the future of finance is fewer handoffs](https://tearsheet.co/10-q/sofi-bets-the-future-of-finance-is-fewer-handoffs/?utm_source=rss&utm_medium=rss&utm_campaign=sofi-bets-the-future-of-finance-is-fewer-handoffs)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-native-product-design
+#vertical_integration #fintech_infrastructure #ai_financial_coach #platform_consolidation
+> SoFi is pursuing a vertical integration strategy in financial services, moving from unbundled specialist products back toward unified platforms that reduce handoffs between banking, lending, investing, and payments. The company's recent acquisitions (PrimaryBid, Peach Finance), stablecoin expansion, and AI-powered financial coach launch signal an attempt to own customer relationships, infrastructure, and data context in a single system. This represents a bet that the next competitive advantage in fintech comes from integrated systems that eliminate fragmentation rather than best-of-breed point solutions.
+
+**✗ 2.3** — [Co-brand debit: The missing layer in modern loyalty](https://tearsheet.co/insights-action/co-brand-debit-the-missing-layer-in-modern-loyalty/?utm_source=rss&utm_medium=rss&utm_campaign=co-brand-debit-the-missing-layer-in-modern-loyalty)  
+*Tearsheet (fintech)* · 
+#co_brand_debit #interchange_revenue #loyalty_programs #payment_card_economics
+> The article argues that co-branded debit cards represent an untapped loyalty opportunity because consumers use debit 40+ times monthly while most loyalty programs focus only on credit transactions. It claims brands can capture interchange revenue, owned transaction data, and deeper customer engagement across everyday purchases like groceries and subscriptions. The piece positions this as particularly relevant for travel, hospitality, and retail brands seeking to reduce OTA dependence and create direct revenue streams.
+
+**✗ 2.7** — [KeyBank’s Jeannie Fanning on the relationship gap in modern banking](https://tearsheet.co/5-questions/keybanks-jeannie-fanning-on-the-relationship-gap-in-modern-banking/?utm_source=rss&utm_medium=rss&utm_campaign=keybanks-jeannie-fanning-on-the-relationship-gap-in-modern-banking)  
+*Tearsheet (fintech)* · 
+#banking_automation #customer_relationships #regional_banks #contextual_understanding
+> The article frames an interview with KeyBank's Director of Consumer Relationship Growth about maintaining customer relationships as banking automation increases. It poses the question of what it means to truly 'know' a customer when transaction processing becomes commoditized. The piece suggests regional banks may find competitive advantage in layering context and trust onto automated infrastructure.
+
+**✗ 2.3** — [Building The Profession Through (Joining) Membership Associations: How Financial Advisors Can Benefit From Being Active With FPA](https://feeds.feedblitz.com/~/957860231/0/kitcesnerdseyeview~Building-The-Profession-Through-Joining-Membership-Associations-How-Financial-Advisors-Can-Benefit-From-Being-Active-With-FPA/)  
+*Kitces.com* · 
+#financial_planning #professional_associations #advisory_services #credentialing
+> The article argues that financial advisors should join the Financial Planning Association (FPA) despite declining membership trends, as membership associations remain important for establishing financial planning as a recognized profession. It provides evidence by contrasting CFP Board's limited scope (education, exams, ethics) with FPA's broader support in continuing education, practice management, and advocacy. The piece matters primarily for financial planning professionals seeking to understand professional development pathways, but offers limited insights into AI, technology, or enterprise systems.
+
+**✗ 2.0** — [Why this year’s World Cup ball may not fly as far](https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/)  
+*MIT Technology Review* · 
+#aerodynamics #wind_tunnel_testing #drag_coefficient #sports_physics
+> Researchers studied the aerodynamics of the 2026 FIFA World Cup soccer ball (Trionda) using wind tunnel experiments to measure drag coefficients and trajectory behavior. Their analysis suggests the new design may reduce long-distance kick performance compared to previous balls, while improving predictability and rewarding clean technique. This continues a 20-year research program tracking how World Cup ball designs affect gameplay physics.
+
 **✗ 1.0** — [Insights For Growth Leaders](https://www.bain.com/insights/topics/insights-for-growth-leaders/)  
 *Bain Insights* · 
 #web_navigation #consulting_firm #site_structure
@@ -731,6 +801,16 @@ All articles scanned since the wiki started. Updated nightly.
 *The Batch (DeepLearning.AI)* · regulatory-policy · ai-governance-risk-compliance
 #newsletter_index #ai_regulation #copyright_law #prompt_engineering
 > This is an index page listing newsletter issues from The Batch, providing brief teasers for various AI news topics from May-July 2023. The teasers cover a wide range of surface-level topics including regulation, copyright, prompt engineering, and various AI applications. This is a navigation page rather than substantive content, offering no original analysis or actionable insights.
+
+**✗ 2.7** — [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan)  
+*OpenAI News* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
+#agi_benefits #ai_safety #shared_prosperity #openai_vision
+> OpenAI presents a high-level vision statement about ensuring AGI benefits all of humanity through principles of access, safety, and shared prosperity. The article offers aspirational commitments without specific technical mechanisms, policy details, or concrete implementation plans. This represents corporate positioning on AI ethics and governance rather than substantive analysis or new information.
+
+**✗ 3.0** — [Introducing the OpenAI Economic Research Exchange](https://openai.com/index/economic-research-exchange)  
+*OpenAI News* · regulatory-policy · funding-and-market-structure
+#economic_impact #labor_market_effects #productivity_research #research_funding
+> OpenAI announces the launch of the Economic Research Exchange, a program to fund and facilitate research on AI's economic impacts including labor markets, productivity, and broader economic effects. The article provides minimal detail beyond the program announcement and that applications are open for selected research projects. This represents a commitment to studying AI's macroeconomic effects but lacks substantive findings or frameworks.
 
 ## 2026-06-07
 
@@ -788,6 +868,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Bain Insights* · ai-org-design-headcount · build-vs-buy-enterprise-ai
 #navigation_error #no_content #bain_consulting
 > This appears to be a Bain & Company webpage navigation structure rather than an actual article about AI architecture and investments. The content provided consists entirely of website menu items, office locations, and navigation elements with no substantive discussion of AI strategy, architecture decisions, or investment frameworks. Without access to the actual article content, this cannot be evaluated for its analytical depth or insights into enterprise AI implementation.
+
+**✓ 7.3** — [The Substitution Wave in AI](https://www.tomtunguz.com/inflation-deflation-ai/)  
+*Tomasz Tunguz* · inference-efficiency · model-architecture · build-vs-buy-enterprise-ai
+#model_substitution #inference_cost_optimization #open_source_models #deepseek
+> The article argues that three forces (foundation labs moving upstack, rising frontier model costs, and good-enough open-source models) are driving enterprise AI buyers to substitute expensive proprietary models with cheaper alternatives. It provides concrete examples from Coinbase, Lindy, Harvey, and Cursor showing 10-11x cost reductions through model routing, switching to open models like DeepSeek, or post-training models like Kimi, while maintaining or improving performance. The key insight is that enterprises don't pocket these savings but instead spend them on exponentially higher token usage, fundamentally changing the unit economics of AI deployment.
 
 ## 2026-06-06
 
@@ -1258,6 +1343,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · 
 #google #berkshire_hathaway #aggregator_theory #capital_allocation
 > The article argues that Google has issued equity to Berkshire Hathaway in a deal that reflects changing capital dynamics, using Google's traditional business model as a framing device. It provides context through Buffett's historical investment philosophy about capital-light businesses versus capital-intensive ones. The piece appears incomplete and doesn't fully develop its thesis about what this capital deal means for the future.
+
+**✗ 3.3** — [The Google Capital Company](https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzNTYyNDM5LCJpYXQiOjE3ODA5NzA0MzksImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.mZRnpU6wKX1GKGa-YX1c1gqENEbDPVpJqQhj_ZLI87mZAvxlTusV__oemAdCOCE_LjGzebycMtYctis6SK23yNOX0N2T-A7qNIL_XALQIx6bdY0JK0DlTpJ5yzquJjRDkIBt8GtUn0ticH_UNiedz0Zi_qzUfu9w1UdNfA6Yx_d7BfGzz5ohjYyLeCKVlPq8GByvShV1InG2cxqCc6OxSypwBYGWaI-RysC9_IVAQ_5SycIYyeneHZvHZ8zALwV4ugLxF71cTAFlyVJycmdjGCq7jYRhJtGcQELyrqPN1BqXVjzU2tbl5WQ-uO9ZeTSmCL8evqK6lMR06YpH11hwbA&p=19180)  
+*Stratechery (Ben Thompson)* · funding-and-market-structure
+#capital_allocation #aggregator_theory #business_models #asset_light_business
+> The article argues that Google has issued equity to Berkshire Hathaway in a deal that represents a fundamental shift where capital becomes the ultimate commodity in tech. It contrasts Google's traditional asset-light, high-margin aggregator model with Berkshire's capital-intensive approach, suggesting this signals increased capital demands in AI-era technology. The piece frames this as a structural change in how technology businesses are valued and financed, moving from relative efficiency to absolute scale.
 
 **✗ 3.7** — [The Google Capital Company](https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xOTE4MCJdfSwiZXhwIjoxNzgzMzg5NjQxLCJpYXQiOjE3ODA3OTc2NDEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5ZTNkMWEtZGI3Zi03NDE4LTk1NjctNTc5NGRhNGZkZjk2IiwidXNlIjoiYWNjZXNzIn0.JCgnP3W7UrqkojIOwRFXbtuBBxnbXsy4n2Tb0yoTwz5aSUy06iP8JT1J58Xs8Fwhel9VTAmwLzhmU2KbVLmq3sWFyJOT9IkJoloCHHzgn-w98BhnXuq7tD2MQs2S2FGl6o1aA-qaHSBGwrdodHClufuibjhYeuHvE1JGg2niIzSqkjKML6RbQLxpAugN_XCIgsVnVlQoMAUsxPSz2t6ESDFghJ0_T8uHVLLsPzd8282Zfae1rXHA3Amxm79b-h_DMPyk7783fcIfgTABybpRgUf2diRzxG6cIzBZAIC8_KRvatdPXZEPrJ_IS5QLbBSIG-b675kYveLgHpBKsbg2ZA&p=19180)  
 *Stratechery (Ben Thompson)* · 

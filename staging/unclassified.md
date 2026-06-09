@@ -615,3 +615,17 @@ These elements touch on infrastructure strategy, M&A strategy, and platform reli
 **AI Bio-Risk Governance**: Coalition including Altman, Amodei, Hassabis, and Baker backed mandatory DNA synthesis screening and recordkeeping in US, arguing AI is eroding biological knowledge barriers.
 
 **Anthropic RSP Criticism**: @CRSegerie criticized Anthropic for allegedly weakening parts of its Responsible Scaling Policy thresholds around bio/chemical risk (timing unclear, specific changes not detailed).
+
+---
+**Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing** (Import AI (Jack Clark), 2026-06-08T12:31:32+00:00)
+**Preliminary Evidence of Recursive Self-Improvement at Anthropic (2026)**
+
+Anthropic reports observing an 8x increase in lines of code merged into their codebase in 2026 compared to 2021-2024 baseline years. This trend began in 2025 but accelerated significantly in 2026. Early indications suggest more capable models are improving performance on harder engineering and research tasks.
+
+**Two Definitions of RSI**:
+1. **Maximalist**: AI system autonomously designs its own successor (estimated 60% probability by end of 2028 by Jack Clark)
+2. **Prosaic**: Compounding speedup in AI lab productivity itself
+
+The Anthropic data represents preliminary evidence for prosaic RSI—productivity gains at the organizational level from AI assistance, rather than full autonomous successor design. Author notes this evidence is not conclusive.
+
+Source: Jack Clark, Import AI 460 (2026-06-08)

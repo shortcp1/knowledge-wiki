@@ -1,5 +1,5 @@
 ---
-tags: [autoregressive-transformer, biotech-data, cancer-treatment-matching, competitive-advantage, data-moats, data-moats-proprietary-advantages, distribution, foundation-models, multimodal-biotech-data, pharma-licensing, proprietary-data, proprietary-datasets, spatial-transcriptomics, synthetic-data, trust, tumor-data, workflow-lock-in]
+tags: [autoregressive-transformer, biotech-data, cancer-treatment-matching, competitive-advantage, data-labeling, data-moats, data-moats-proprietary-advantages, distillation, distribution, expert-trajectories, foundation-models, grpo, multimodal-biotech-data, pharma-licensing, proprietary-data, proprietary-datasets, reinforcement-learning, sample-efficiency, spatial-transcriptomics, synthetic-data, synthetic-data-generation, trust, tumor-data, workflow-lock-in]
 ---
 
 # Data Moats & Proprietary Advantages
@@ -21,17 +21,32 @@ Key questions tracked: Which industries still have meaningful data moats? How is
   - **Business Function**: Drug development and clinical trial optimization
   - **Pattern**: Self-supervised learning on proprietary multimodal biomedical data
   - **Success Factor**: "Conviction to spend almost two years just collecting data" - willingness to invest in data infrastructure before building models
-  - **Moat Strength**: ~0% of cancer patients in standard care receive whole-plex spatial transcriptomics, making this dataset extremely rare
-  - **Model Output**: TARIO-2 can predict ~19,000-gene spatial map from standard H&E assay (which every patient already receives)
-  - **Generalizability**: High-value, rare medical data (spatial omics, specialized imaging) in other disease areas; any domain where standard-of-care data is cheap but rich data is prohibitively expensive for routine use
+  - **Moat Strength**: ~0% of cancer patients in standard care receive whole-plex spatial transcriptomics, making thi
 
-### Platform vs. In-House Development
-- **Licensing Model Success (Noetik-GSK, 2026)**: First major AI-biotech deal structured as software licensing rather than drug development partnership
-  - **Significance**: "Most big AI plays in BioTech have focused on discovery, and usually result in an in-house development effort (meaning tools companies usually become drug companies)"
-  - **Shift**: "Represents a commitment to a platform rather than a drug"
-  - **Implication**: Pharma appetite for biotech AI tools is growing; data moats can sustain platform businesses, not just point solutions
+## Data Distillation & Moat Erosion
 
-## Cross-References
-- [[build-vs-buy-enterprise-ai]]
-- [[rag-over-proprietary-content]]
-- [[model-architecture]]
+### API-Based Data Extraction (2025-2026)
+- **Mechanism**: "Data can be easily distilled from public APIs" of frontier models
+- **Effect on Competition**: Enables open models and "previous laggards to catch up to within months of the frontier"
+- **Evidence**: Epoch report showing open models only lag SOTA by ~4 months
+- **Contrast**: Hyperparameters, training tricks, and architectural micro-optimizations "cannot" be easily distilled
+- **Implication**: Data advantages are increasingly temporary unless data collection itself is proprietary (as in biotech case)
+- **Source**: Dwarkesh Podcast analysis (2026-06-08)
+- **See**: [[post-training-rlhf]] for details on how expert data drives capability
+
+### Data as Competitive Bottleneck
+- **Central Claim**: "Data is the real driver of progress" over architectural innovation (confidence: medium-high)
+- **Counterfactual**: If architecture/training were primary drivers, catching up would be harder than observed
+- **Data Industry Scale**: Expert annotation industry earning "billions a year in revenue, soon deca-billions"
+- **Task Specificity**: Each skill domain requires "at least hundreds of human experts" producing domain-specific trajectories
+- **Examples of Specialized Data Markets**:
+  - Word document formatting specialists
+  - Legal experts for M&A diligences and securities filings
+  - Management consultants for market research templates
+  - "Dozens more other particular categories"
+
+### Implications for Data Moats
+- **Proprietary Data Collection Remains Valuable**: Where raw data acquisition is difficult/expensive (e.g., spatial transcriptomics of human tumors)
+- **Post-Training Data More Vulnerable**: Expert trajectories and RL-generated solutions can be distilled from APIs
+- **Hybrid Advantage**: Companies that control both proprietary data sources AND distribution channels have strongest position
+- **Open Source Acceleration**: API distillation enables rapid catching-up by open models, compressing data advantages
