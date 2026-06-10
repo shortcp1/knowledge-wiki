@@ -14847,6 +14847,642 @@
       ],
       "status": "skipped",
       "skip_reason": "Article focuses on traditional financial advisory professional associations with no connection to AI, technology infrastructure, or relevant enterprise topics in the specified domain list."
+    },
+    "https://www.anthropic.com/news/claude-fable-5-mythos-5": {
+      "title": "Claude Fable 5 Mythos 5",
+      "source": "Anthropic Blog",
+      "date": "2026-06-10T02:00:48.045025+00:00",
+      "composite": 5.33,
+      "depth": 3,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-governance-risk-compliance",
+        "inference-efficiency",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "Anthropic announces Claude Fable 5 and Mythos 5, their most capable models to date with state-of-the-art performance across benchmarks, with Fable 5 having conservative safety guardrails that route some queries to Opus 4.8, while Mythos 5 removes those guardrails for select cyberdefenders. The models demonstrate exceptional autonomous capabilities in software engineering (compressing months of work to days at Stripe), knowledge work, and life sciences research, priced at less than half of previous models. The release represents Anthropic's approach to balancing safety with capability deployment through differential access tiers based on use case risk profiles.",
+      "tags": [
+        "model-release",
+        "safety-guardrails",
+        "tiered-access",
+        "cybersecurity-capabilities",
+        "software-engineering-agents",
+        "differential-deployment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement with limited technical depth or novel insights beyond standard model release benchmarks and pricing; lacks substantive analysis of safety mechanisms, training methodology, or architectural innovations"
+    },
+    "https://www.deeplearning.ai/the-batch/how-ai-is-saving-whales": {
+      "title": "How Ai Is Saving Whales",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-10T02:00:42.920596+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "WhaleSpotter is an AI-powered thermal imaging system that detects gray whales in real-time to help ships avoid collisions, deployed in San Francisco Bay with land and vessel-mounted cameras. The system uses an undisclosed neural network trained on thermal images to detect whale heat signatures up to 4 nautical miles away, with human validation achieving 99% accuracy within about 1 minute. The technology addresses ship strikes that kill an estimated 20,000 whales annually, though this represents a narrow environmental/conservation application rather than enterprise AI deployment.",
+      "tags": [
+        "thermal-imaging",
+        "computer-vision",
+        "edge-inference",
+        "human-in-the-loop",
+        "environmental-conservation",
+        "real-time-detection"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers an environmental conservation application of AI (whale detection) that does not map to any of the specified enterprise AI, semiconductor, or AI business topics in the relevance criteria."
+    },
+    "https://www.deeplearning.ai/the-batch/qwen3-7-max-adds-speed-and-power": {
+      "title": "Qwen3 7 Max Adds Speed And Power",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-10T02:00:42.481739+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "Alibaba released Qwen3.7-Max, a proprietary large language model optimized for long-running agentic tasks that ranks seventh on the Artificial Analysis Intelligence Index. The model uses a novel reinforcement learning approach that separates task, agentic harness, and verifier components during training to avoid overfitting to specific setups, and achieves the lowest hallucination rate among frontier models (23%) by frequently declining to respond. This release demonstrates China's ability to produce competitive frontier models, though independent validation of agentic capabilities is still pending.",
+      "tags": [
+        "qwen",
+        "proprietary-models",
+        "agentic-workflows",
+        "reinforcement-learning",
+        "hallucination-rate",
+        "prompt-caching",
+        "reasoning-models"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with limited technical depth and primarily benchmark reporting rather than original analysis or new frameworks"
+    },
+    "https://www.deeplearning.ai/the-batch/fine-tuning-llms-to-expand-on-summaries-unearths-pretraining-texts": {
+      "title": "Fine Tuning Llms To Expand On Summaries Unearths Pretraining Texts",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-10T02:00:42.185815+00:00",
+      "composite": 8.67,
+      "depth": 8,
+      "novelty": 9,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "post-training-rlhf",
+        "ai-governance-risk-compliance",
+        "regulatory-policy"
+      ],
+      "content_type": "technical",
+      "summary": "Researchers found that fine-tuning LLMs on the seemingly innocuous task of expanding plot summaries into full paragraphs causes models to regurgitate up to 90% of copyrighted books from their pretraining data, even for books not in the fine-tuning dataset. The study reveals that alignment techniques and system prompts suppress but don't erase memorized text strings in model weights, and task-specific fine-tuning can reverse this suppression by teaching models to decode previously encoded verbatim content. This finding has significant implications for copyright compliance, model safety guardrails, and the tension between model capabilities and alignment in production AI systems.",
+      "tags": [
+        "memorization",
+        "copyright-alignment",
+        "fine-tuning-risks",
+        "alignment-reversal",
+        "model-weights",
+        "verbatim-regurgitation"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything": {
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "source": "Simon Willison",
+      "date": "2026-06-10T00:37:25+00:00",
+      "composite": 7.67,
+      "depth": 6,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "model-architecture",
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic's Fable 5 system card reveals the company now silently degrades model performance for queries related to frontier LLM development (pretraining pipelines, distributed training, ML accelerator design) without user notification. These hidden interventions use techniques like prompt modification, steering vectors, and PEFT to limit effectiveness for an estimated 0.03% of traffic, justified by concerns about recursive self-improvement and competitive model development. This represents the first public disclosure of silent performance degradation by a major AI lab, raising transparency and trust concerns distinct from visible refusals in other safety domains.",
+      "tags": [
+        "silent-interventions",
+        "model-safeguards",
+        "recursive-self-improvement",
+        "steering-vectors",
+        "peft",
+        "ml-accelerator-design",
+        "anthropic-fable"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything": {
+      "title": "Initial impressions of Claude Fable 5",
+      "source": "Simon Willison",
+      "date": "2026-06-09T23:59:54+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "Simon Willison provides initial hands-on impressions of Claude Fable 5, noting it is slow, expensive (2x Opus pricing at $10/$50 per million tokens), and has strict safety guardrails compared to the simultaneously released Claude Mythos 5. The key evidence is comparative testing showing Fable 5 has deeper knowledge than Opus 4.8, demonstrated through its ability to accurately recall specific details about open source projects without search access. This matters primarily as an early user review of a new frontier model release, though it offers limited analytical depth beyond surface-level feature comparison.",
+      "tags": [
+        "claude-fable-5",
+        "model-pricing",
+        "safety-guardrails",
+        "context-window",
+        "model-comparison"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level first impressions review without original analysis, novel frameworks, or deep insights into model capabilities; primarily anecdotal testing with limited relevance to enterprise AI topics."
+    },
+    "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety": {
+      "title": "Claude Fable 5 and new AI safety fables",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "2026-06-09T22:59:35+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics",
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Anthropic's release of Claude Fable 5, presented as the most capable public AI model with significant benchmark improvements, but accompanied by controversial safety measures that selectively downgrade user prompts without disclosure. The key evidence includes benchmark performance data and the observation that safety filters redirect some requests to older models, creating uneven access patterns that favor Anthropic's commercial position. This matters because it represents a new frontier in how AI labs may use safety justifications to entrench competitive advantages while restricting access to capabilities in ways not transparently communicated to users.",
+      "tags": [
+        "claude-fable-5",
+        "anthropic",
+        "safety-filters",
+        "benchmark-performance",
+        "model-downgrading",
+        "frontier-models"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/9/llm/#atom-everything": {
+      "title": "llm 0.32a3",
+      "source": "Simon Willison",
+      "date": "2026-06-09T22:27:03+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "prompt-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for llm version 0.32a3, a command-line tool for accessing large language models. The release was reportedly written almost entirely by Claude Fable 5, with a reference to a separate write-up for details. The article provides no substantive information about features, changes, or technical details of the release.",
+      "tags": [
+        "command-line-tools",
+        "llm-tooling",
+        "claude-fable-5"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a release announcement with no substantive content, analysis, or technical details about the tool or its capabilities."
+    },
+    "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/": {
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "source": "Google DeepMind",
+      "date": "2026-06-09T15:16:25+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 3,
+      "relevant_topics": [
+        "multimodal-models"
+      ],
+      "content_type": "technical",
+      "summary": "Google DeepMind announces Gemini 3.5 Live Translate, a feature enabling near real-time speech translation across Google AI Studio, Google Translate, and Google Meet. The article is a brief product announcement without technical details about the underlying architecture, training methodology, or performance benchmarks. This represents an incremental product feature rather than a significant technical or strategic development.",
+      "tags": [
+        "speech-translation",
+        "real-time-translation",
+        "gemini-3-5",
+        "multimodal"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement lacking technical depth, novel insights, or substantial discussion of implementation, performance characteristics, or business implications."
+    },
+    "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/": {
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "source": "Google DeepMind",
+      "date": "2026-06-09T14:10:19+00:00",
+      "composite": 6.33,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "multimodal-models",
+        "model-architecture",
+        "inference-efficiency"
+      ],
+      "content_type": "technical",
+      "summary": "Google DeepMind announces Gemma 4 12B, a multimodal model that processes text, images, and audio without separate encoders, using a unified architecture. The encoder-free approach simplifies the model architecture by processing all modalities directly through the language model backbone, potentially reducing complexity and improving efficiency. This represents an architectural shift from traditional multimodal systems that rely on separate encoders for each modality, potentially influencing future model design patterns.",
+      "tags": [
+        "encoder-free-architecture",
+        "unified-multimodal",
+        "gemma-4",
+        "modality-processing",
+        "model-simplification"
+      ],
+      "status": "integrated"
+    },
+    "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/": {
+      "title": "Powering the future of robotics in Europe",
+      "source": "Google DeepMind",
+      "date": "2026-06-09T14:02:33+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article appears to be a high-level announcement or overview about Google DeepMind's robotics initiatives in Europe. Without substantial technical detail, research findings, or business model analysis in the provided text, it offers minimal actionable information. It serves primarily as a corporate communications piece rather than analytical or educational content.",
+      "tags": [
+        "robotics",
+        "deepmind",
+        "europe"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate announcement without technical depth, novel insights, or clear mapping to specified topic areas such as AI implementation in business functions, infrastructure, or model development."
+    },
+    "https://www.technologyreview.com/2026/06/09/1138604/the-download-anti-aging-drugs-ai-five-things-to-know/": {
+      "title": "The Download: whole-body rejuvenation drugs and five things to know about AI",
+      "source": "MIT Technology Review",
+      "date": "2026-06-09T12:10:00+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter-style article provides brief summaries of multiple technology news items, with primary focus on OpenAI's confidential IPO filing and a SXSW talk about five AI trends. The content is entirely surface-level news aggregation with no original analysis, consisting of headline summaries and links to other sources. It offers no substantive insights, original research, or detailed frameworks that would be useful for a knowledge wiki.",
+      "tags": [
+        "news-aggregation",
+        "openai-ipo",
+        "siri-ai",
+        "ai-regulation",
+        "china-us-tech"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter format providing only headline-level summaries with no original analysis, depth, or actionable insights; purely a link aggregation post."
+    },
+    "https://openai.com/index/nextdoor": {
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "source": "OpenAI News",
+      "date": "2026-06-09T12:00:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on Nextdoor engineers using OpenAI's Codex (with GPT-5.5) to debug hard-to-reproduce issues, build across platforms, and focus on product outcomes. It appears to be a brief promotional case study without technical details about implementation, specific productivity metrics, or novel deployment patterns. The piece matters primarily as an endorsement of code generation tools in production engineering workflows, but lacks depth on how they actually integrated and measured impact.",
+      "tags": [
+        "codex",
+        "code-generation",
+        "developer-productivity",
+        "debugging",
+        "nextdoor-case-study"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional case study with no technical depth, specific implementation details, or novel insights about AI coding assistant deployment."
+    },
+    "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/": {
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "source": "MIT Technology Review",
+      "date": "2026-06-09T10:20:06+00:00",
+      "composite": 4.3,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "ai-in-hr-talent",
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports that AI agent adoption is expected to surge 300% in two years, with HR leaders believing 75% of roles will require redesign by 2030. It provides a case study of Wipro deploying an AI agent that reduced HR query response time from 48 hours to 5 seconds while handling 50 previously human tasks. The article argues this shift requires leadership to focus on change management, reskilling toward higher-value work, and establishing governance frameworks for human-AI collaboration.",
+      "tags": [
+        "agentic-ai",
+        "workforce-transformation",
+        "hr-automation",
+        "change-management",
+        "role-redesign",
+        "human-in-the-loop"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level coverage of AI agents in enterprise HR with generic claims about productivity gains and role transformation, lacking novel frameworks or detailed implementation analysis beyond a single case study with limited specifics."
+    },
+    "https://openai.com/index/notion": {
+      "title": "What Codex unlocks for Notion",
+      "source": "OpenAI News",
+      "date": "2026-06-09T10:00:00+00:00",
+      "composite": 4.33,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-engineering-agents"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on how Notion uses OpenAI's Codex to accelerate engineering tasks including generating specifications, building web-based voice input features, and amplifying small engineering teams' productivity. The key evidence provided focuses on practical use cases like one-shot spec generation and feature development acceleration through AI-assisted coding. This demonstrates an early enterprise application of code generation models to augment software development workflows.",
+      "tags": [
+        "codex",
+        "code-generation",
+        "developer-tools",
+        "voice-input",
+        "engineering-productivity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Limited depth and novelty; appears to be a promotional case study without detailed technical mechanisms, novel frameworks, or substantive analysis of how Codex integration actually works or its measured impact."
+    },
+    "https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition/": {
+      "title": "David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition",
+      "source": "MIT Technology Review",
+      "date": "2026-06-09T10:00:00+00:00",
+      "composite": 3.3,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "David Sinclair plans to test an oral drug mixture (SL-100) for whole-body epigenetic reprogramming as part of the XPrize Healthspan Competition, aiming to reverse human aging by 10 years. The approach uses chemical reprogramming drugs that can travel through the bloodstream to reach cells throughout the body, unlike existing gene therapy trials limited to specific organs like eyes. The competition offers $101 million in prizes for demonstrating age restoration measured by improvements in immune, cognitive, and muscle function.",
+      "tags": [
+        "epigenetic-reprogramming",
+        "longevity-research",
+        "chemical-reprogramming",
+        "age-reversal",
+        "drug-development"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on longevity and anti-aging drug development, which does not map to any of the specified AI, semiconductor, or enterprise technology topics."
+    },
+    "https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODM2NDg4MzgsImlhdCI6MTc4MTA1NjgzOCwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.oMCMZ3CPP-3GupgzEtV6mErfMkUDDK6rIGLiCpNw9C_KOhCF7CG-uxPXKLrJr-wn2Brv_dMEMQple03LE7xc5xNar51DllK4T7V9ZmvTxbRSccJD_BCYkhxEcUuCT6ggW9Vwb5tFd3lbGmsIP66Sef5A3XmgQ2P_2Z-VVb0X9i5CUJqL6dd3xWh_tA4SfvswPFSLwimG1L8glKhvV-vK0FxKzR2dyGbW052XckAhj0hQvcawJaUavCBWmzCUSD2t3yYFtyKJizX5M8V7N_bE010pivOpspJp9RDAO5chL2FRvKWqf6sZaDLiO-tdIPEJvd1Bm8FicZ38ViE43vOuTQ": {
+      "title": "The iPhone\u2019s Last Stand",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-09T10:00:00+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "ai-native-product-design",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that Apple's new Siri AI, while behind state-of-the-art AI capabilities, may be sufficient for consumer markets despite its inability to perform autonomous agent tasks like Microsoft's Project Solara vision. It demonstrates that Apple successfully delivered working demos of context-aware Siri interactions with apps, though these remain within traditional interaction paradigms rather than autonomous agent workflows. This matters because it suggests the consumer AI market may not require cutting-edge agentic capabilities, and that device-centric interaction models may persist longer than thin-client agent visions predict.",
+      "tags": [
+        "siri",
+        "agentic-ai",
+        "thin-client-computing",
+        "consumer-ai",
+        "device-interaction-paradigms",
+        "server-side-inference"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/ainews-frontiercode-benchmarking": {
+      "title": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
+      "source": "Latent Space",
+      "date": "2026-06-09T06:12:33+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "evals-production-deployment",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "FrontierCode is a new coding benchmark from Cognition that evaluates whether AI-generated code is actually mergeable and maintainable, not just functionally correct. Each task was designed by open-source maintainers over 40+ hours and assesses dimensions like regression safety, cleanliness, scope, and maintainability, with the best model (Opus 4.8) scoring only 13% on the hardest subset compared to 50%+ on traditional benchmarks like SWE-Bench. This addresses the problem of false positives in existing benchmarks where code passes tests but would never be merged, and demonstrates that coding is far less 'solved' than commonly believed.",
+      "tags": [
+        "frontiercode",
+        "code-quality-evaluation",
+        "maintainability",
+        "swe-bench",
+        "false-positives",
+        "agentic-coding"
+      ],
+      "status": "integrated"
+    },
+    "https://openai.com/index/industrial-policy-for-the-intelligence-age": {
+      "title": "Industrial policy for the Intelligence Age",
+      "source": "OpenAI News",
+      "date": "2026-06-09T00:00:00+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI presents high-level policy principles for an 'Intelligence Age' industrial policy centered on expanding opportunity and sharing AI prosperity. The article appears to be an announcement or framing document without specific policy mechanisms, evidence, or implementation details. It matters primarily as a position statement from a major AI lab on their preferred regulatory and economic approach.",
+      "tags": [
+        "industrial-policy",
+        "ai-governance",
+        "prosperity-sharing",
+        "intelligence-age"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level policy framing without original analysis, specific mechanisms, or novel claims beyond general principles."
+    },
+    "https://www.lennysnewsletter.com/p/claude-fable-5-review-what-the-new": {
+      "title": "Claude Fable 5 review: what the new Mythos model gets right (and very wrong)",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-09T18:32:03+00:00",
+      "composite": 3.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "This is a podcast transcript reviewing Anthropic's Claude Fable 5, described as a 'Mythos-class intelligence model', covering promised capabilities, real-world testing on product and engineering tasks, and where it fits in an AI stack. The reviewer tests it on three scenarios: product graph spec creation, skills registry design, and multi-agent orchestration, finding it 'conservative on execution' despite benchmark performance. The piece is a user review of a new model release rather than original analysis or research.",
+      "tags": [
+        "claude",
+        "model-review",
+        "benchmarks",
+        "anthropic",
+        "managed-agents"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product review and user testing without novel insights, original research, or substantive technical analysis; reads as promotional content for a model launch."
+    },
+    "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart-611": {
+      "title": "Essential books for product builders\u2014part 2",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-09T13:11:29+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article is a curated book recommendation list for product builders, organized by skill categories like design, taste/craft, and influence. The author shares personal insights about one key takeaway from each book and recommends a reading habit of 10 minutes before bed. The piece is a traditional product management resource list with no AI-specific content or technical depth.",
+      "tags": [
+        "product-management",
+        "book-recommendations",
+        "design",
+        "influence",
+        "product-craft"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a general product management book list with no substantive connection to AI, technical infrastructure, or AI deployment topics; it's a surface-level curation without original analysis or relevance to the specified topic areas."
+    },
+    "https://tearsheet.co/artificial-intelligence/ai-bank-ceos-and-the-emerging-jobpocalypse-debate/?utm_source=rss&utm_medium=rss&utm_campaign=ai-bank-ceos-and-the-emerging-jobpocalypse-debate": {
+      "title": "AI, bank CEOs, and the emerging jobpocalypse debate",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-09T12:00:00+00:00",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article discusses the disconnect between bank CEOs' public messaging about AI as workforce augmentation versus the reality of job displacement, highlighted by Standard Chartered CEO's controversial \"replacing lower-value human capital\" comment. It cites Goldman Sachs data showing 16,000 monthly job losses to AI and notes Gen Z workers are particularly vulnerable in a \"low hire, low fire\" environment. The piece critiques the inconsistent and tone-deaf messaging from financial services leadership about AI-driven workforce changes.",
+      "tags": [
+        "workforce-displacement",
+        "banking-ai-adoption",
+        "job-automation",
+        "corporate-messaging",
+        "gen-z-employment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article provides surface-level commentary on CEO messaging around AI job displacement without original analysis, frameworks, or substantive technical/strategic insights into how financial institutions are actually implementing AI or managing workforce transitions."
+    },
+    "https://tearsheet.co/10-q/the-week-in-market-moves-may-28-june-4-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-in-market-moves-may-28-june-4-2026": {
+      "title": "The Week in Market Moves | May 28-June 4, 2026",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-09T11:30:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "landscape",
+      "summary": "This article summarizes five fintech and banking company developments from late May/early June 2026, including Wise's AML investigation, SoFi's AI financial coach launch, Affirm's UK expansion with Stripe, LendingClub's rebrand to Happen Bank, and Bank of America news (cut off). The article provides brief market context and commentary on why each development matters for the company's positioning and business model evolution. It offers surface-level analysis of publicly reported events without original research, data, or novel frameworks.",
+      "tags": [
+        "fintech",
+        "aml-compliance",
+        "ai-financial-advisor",
+        "bnpl",
+        "digital-banking"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level market recap of public company news without original analysis, novel insights, or deep technical content; minimal relevance to core AI/ML infrastructure and deployment topics."
+    },
+    "https://feeds.feedblitz.com/~/957888389/0/kitcesnerdseyeview~Growing-To-M-AUM-By-Putting-Client-Cash-Flow-At-The-Center-Of-The-Planning-Process-FASuccess-Ep-With-David-Mozeika/": {
+      "title": "Growing To $350M AUM By Putting Client Cash Flow At The Center Of The Planning Process: #FASuccess Ep 493 With David Mozeika",
+      "source": "Kitces.com",
+      "date": "2026-06-09T11:05:00+00:00",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This podcast episode profiles financial advisor David Mozeika, who grew his RIA to $350M AUM using a cash flow-centric planning approach that treats income as an asset to be allocated, rather than traditional budgeting. His methodology includes a \"cash flow reservoir\" system where client income is held and distributed to checking accounts for spending (rather than transferring excess to savings), helping clients reduce unconscious spending and increase savings rates. The episode covers his four-part financial positioning process, ongoing client calibration meetings, and his development of proprietary software to manage this \"income under management\" system.",
+      "tags": [
+        "cash-flow-planning",
+        "wealth-management",
+        "financial-advisor-practice",
+        "proprietary-software",
+        "ria-model"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level practitioner profile with no novel frameworks, research, or technical depth relevant to AI applications in wealth management; discusses traditional financial planning methods without AI innovation."
+    },
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSmdJT281VU9ZcTN4OVNPRnU5Mk5nZmtQeVJCa0U1dFdBSWJQREpQM1B4MjRvMVRvTTl4SndLeTZESEhuNHBHdDljRUJnc2QzWXh4UmxBV1pZQ2VrZXFOUDU2a0ZvTmpSY1hQZUpUX0FhVEtlLTVlLWxvb0dGZUZ4VzhVM0xEc3ZPdDlITmR5RjBwVDkwZzd1QjEwTjEzdXp4TzVN?oc=5": {
+      "title": "How private enterprises can accelerate their AI journey - KPMG",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-09T11:01:10+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a KPMG article about private enterprise AI adoption, but the provided text only contains Google's cookie consent dialog. No actual article content is available to analyze. Without access to the substantive content, it's impossible to assess the claims, evidence, or insights the article provides.",
+      "tags": [
+        "enterprise-ai",
+        "private-enterprise"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive article content provided\u2014only a cookie consent dialog was included in the extraction."
+    },
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVWs0SndGZThSN2pJVTBUOW9vQ00yRXctMDVmTDN3eVQ5RTBfanYzV0xfVG9kYWlkSExaQ09tWVo3UHpPejBNRGpGZkVhZklhUHN6RFNKMXkxMXNtQk1ZUzcxalliZDN6ZHczNGRqZUVWbk5tRUFOd0Vzc25FUHc5VzY0OEMwTjVVMURRd3pSNWExeTUyX1NXRVFLYWlDRVZ3NjNORFQ2dGtiMUhuT25TODJVWG5GcWlTSWU1SnFMTmc2cjhXVmhuWE5vLUQtNDBpeURsVE9XOFBiVmpEc05COVVR?oc=5": {
+      "title": "Algebra AI launches with a $7mln round to bring AI operations to mid-market businesses - ZAWYA",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-09T09:33:53+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-operations",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce Algebra AI's $7M funding round to bring AI operations to mid-market businesses, but the actual content is just a Google cookie consent page. No substantive information about the company, product, technology, or market strategy is accessible. This represents a failed content retrieval rather than an actual article.",
+      "tags": [
+        "funding",
+        "mid-market",
+        "ai-operations"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible; only contains Google cookie consent page with no substantive information about the announced topic."
+    },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMUpkY0NSQWlsQnUzSmFXeEVlaWFEdXlIbWNjcmlMRjN6RGFQZldKcHZMaHJVTDRWUm1OR0E1OTlVaUxnYWl2cTJHdWJsb0RmbndZaUN2UjFSOVpMTlMtQXpjQWd2MzRNTl9WSGp5UVVXaVlwbjVhWlJ4RjNqU0ZmZE1LakxEdE5JZmx6bVZCTFFkekZiOEtkekRhNFIxNjVSWjNjS05VTE1pU19mNF9PeUJ4UE96Q2U0SE1oY3MwWDRlQW8?oc=5": {
+      "title": "Advisor-Centric AI: How Wealth Teams Can Streamline Client Meetings And Measure Operational ROI - Hubbis",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-06-09T06:47:57+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be about AI applications for wealth management advisor teams, focusing on client meeting efficiency and operational ROI measurement. However, the provided text contains only Google's cookie consent dialog and no actual article content. Without the substantive article text, no meaningful evaluation of depth, novelty, or analytical claims can be made.",
+      "tags": [
+        "wealth-management",
+        "advisor-workflows",
+        "operational-roi"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text consists entirely of Google cookie consent dialog with no substantive content to evaluate for depth, novelty, or actionable insights."
     }
   }
 }

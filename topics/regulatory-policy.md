@@ -1,5 +1,5 @@
 ---
-tags: [adversarial-prompting, ai-constitutions, ai-delegates, ai-leadership, ai-safety-benchmarks, ai-scaling-constraints, anthropic-financials, capability-gap, claude-mythos, community-impact, community-resistance, cybersecurity-risk, data-center-infrastructure, data-center-opposition, datacenter-regulation, democratic-governance, energy-consumption, export-controls, infrastructure-bottleneck, infrastructure-impact, institutional-design, model-approval-process, model-release-policy, national-security-ai, nist-evaluation, open-closed-debate, open-weight-models, political-superintelligence, pre-deployment-testing, pre-release-evaluation, public-backlash, public-opposition, regulatory-moratorium, regulatory-policy, social-license, trains, trains-task-force]
+tags: [adversarial-prompting, ai-constitutions, ai-delegates, ai-leadership, ai-safety-benchmarks, ai-scaling-constraints, anthropic, anthropic-financials, benchmark-performance, capability-gap, claude-fable-5, claude-mythos, community-impact, community-resistance, cybersecurity-risk, data-center-infrastructure, data-center-opposition, datacenter-regulation, democratic-governance, energy-consumption, export-controls, frontier-models, infrastructure-bottleneck, infrastructure-impact, institutional-design, model-approval-process, model-downgrading, model-release-policy, national-security-ai, nist-evaluation, open-closed-debate, open-weight-models, political-superintelligence, pre-deployment-testing, pre-release-evaluation, public-backlash, public-opposition, regulatory-moratorium, regulatory-policy, safety-filters, social-license, trains, trains-task-force]
 ---
 
 # Regulatory & Policy Landscape
@@ -15,18 +15,32 @@ Key questions tracked: What is the EU AI Act compliance timeline for different s
 - **TRAINS program**: Testing Risks of AI for National Security (TRAINS), a multi-agency task force overseen by NIST's Center for AI Standards and Innovation (CAISI), will assess national-security risks posed by AI models prior to deployment
   - **Focus areas**: Cybersecurity, biosecurity, and chemical weapons risks
   - **Participating agencies**: Departments of Commerce, Defense, Energy, and Homeland Security; National Security Administration; National Institutes of Health
-  - **Distinguishing features**: Designed for rapid response; draws on multiple federal agencies (unlike other disclosed NIST groups)
-  - **Voluntary agreements**: Google, Microsoft, and xAI agreed to provide models with "limited or absent guardrails"; Anthropic a
+  - **Distinguishing features**: Designed for rapid response; draws on multiple federal agencies (unlike other disclosed NIS
 
-### Data Center Regulation (2026)
-- **Maine moratorium**: State legislature passed bill placing moratorium on new data centers requiring 20+ megawatts until 2027. Awaiting governor's signature. Would establish council to study impact on electrical grid and electricity prices. If enacted, would be first statewide ban.
-- **Multi-state activity**: At least 12 states filed data center moratorium bills in 2026.
-- **Port Washington, Wisconsin referendum**: City passed referendum requiring voter approval before granting tax incentives for large projects including data centers. First of its kind per supporters. Passed on two-to-one margin but under legal review after business groups challenged in court. Context: 1.3 gigawatt Oracle/OpenAI data center under construction, expected online 2028.
-- **Festus, Missouri recall**: Voters ousted all city council members who voted to approve $6 billion data center.
-- **Ohio constitutional amendment proposal**: Citizen-initiated ballot measure aims to prohibit future data centers requiring over 25 megawatts. Needs 400,000+ signatures by July 1, 2026, then 50% approval in November election.
-- **Boulder City, Nevada**: Postponed hearing for 88.5-acre data center after resident opposition (public input session, protests).
-- **Project delays**: Approximately $64 billion worth of data-center projects blocked or delayed amid local opposition between May 2024 and March 2025 (one research group estimate).
-- **Opposition rationale**: Community concerns include electricity price impact, electricity and water consumption, noise pollution, proximity to residential areas, sprawling size, and lack of transparency (some operators not publicly identified).
-- **Violence incidents**: Anti-data center sentiment implicated in at least two violent incidents (April 2026): molotov cocktail thrown at OpenAI CEO Sam Altman's home in San Francisco (perpetrator also threatened OpenAI HQ, had written about AI risks); 13 gunshots fired at Indianapolis councilor's home who supported $500M data center (note reading "no data centers" left under doormat).
+### Claude Fable 5 Safety Deployment (June 2026)
 
-See also: [[gpu-architecture-training-infra]] for data center infrastructure constraints, [[semiconductor-supply-chain]] for supply-side bottlenecks
+**First capability-restricting safety deployment**: Represents "the next major step in AI capabilities" coupled with "heavier-handed safety measures" that are "meaningfully changing the shape of access to frontier AI, something which has never happened with the modern LLMs we know."
+
+**Implemented measures**:
+- **Safety classifiers**: Separate AI systems detecting potential misuse in cybersecurity, targeted model distillation, and research biology
+- **Jailbreak detection**: Automated systems to identify adversarial prompting
+- **Required data retention policies**: Mandatory logging requirements (specifics not detailed in source)
+- **Prompt filtering**: Added filters that selectively route queries
+- **Silent downgrading**: Some prompts automatically downgraded to Claude Opus 4.8 without explicit user notification
+
+**Transparency concerns**:
+- **Disclosed measures**: Some safety features explicitly communicated to users
+- **Silent interventions**: Other modifications occur "without telling the user"
+- **Benchmark discrepancy**: Published benchmark scores may not reflect actual user experience due to filtering
+
+**Critical assessment** (Nathan Lambert, Interconnects):
+- Policies described as "unevenly applied"
+- Characterized as potential "classic cautionary fable in how narrow and self-fulfilling notions of safety and control rarely work out"
+- Suggestion that safety policies may serve to "protect, or entrench, their current lead" rather than purely mitigate risks
+- "Single elements being out of place in an otherwise comprehensive policy are so damning for the overall safety process"
+
+**Development timeline**: 2+ month delay between training completion and public release, attributed to safety evaluation and tooling development.
+
+**Policy precedent**: First instance of a frontier lab deploying capability-limiting safety measures on their most capable public model, setting potential template for future releases across the industry.
+
+See [[lab-dynamics]] for competitive implications and [[model-architecture]] for technical capabilities.
