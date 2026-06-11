@@ -1,5 +1,5 @@
 ---
-tags: [adversarial-prompting, ai-constitutions, ai-delegates, ai-leadership, ai-safety-benchmarks, ai-scaling-constraints, anthropic, anthropic-financials, benchmark-performance, capability-gap, claude-fable-5, claude-mythos, community-impact, community-resistance, cybersecurity-risk, data-center-infrastructure, data-center-opposition, datacenter-regulation, democratic-governance, energy-consumption, export-controls, frontier-models, infrastructure-bottleneck, infrastructure-impact, institutional-design, model-approval-process, model-downgrading, model-release-policy, national-security-ai, nist-evaluation, open-closed-debate, open-weight-models, political-superintelligence, pre-deployment-testing, pre-release-evaluation, public-backlash, public-opposition, regulatory-moratorium, regulatory-policy, safety-filters, social-license, trains, trains-task-force]
+tags: [adversarial-prompting, ai-constitutions, ai-delegates, ai-leadership, ai-safety-benchmarks, ai-scaling-constraints, anthropic, anthropic-financials, api-access-controls, api-proxy-servers, benchmark-performance, capability-gap, china-ai-access, claude-fable-5, claude-mythos, community-impact, community-resistance, cross-border-access, cybersecurity-risk, data-center-infrastructure, data-center-opposition, data-retention, data-retention-policy, datacenter-regulation, democratic-governance, distillation-policy, energy-consumption, export-controls, fraudulent-accounts, frontier-models, gray-market-api, infrastructure-bottleneck, infrastructure-impact, institutional-design, model-approval-process, model-distillation, model-distillation-regulation, model-downgrading, model-release-policy, model-safeguards, mythos-class-models, national-security-ai, nist-evaluation, open-closed-debate, open-community-resistance, open-weight-models, political-superintelligence, pre-deployment-testing, pre-release-evaluation, public-backlash, public-opposition, recursive-self-improvement, recursive-self-improvement-suppression, regulatory-moratorium, regulatory-policy, rsi-suppression, safety-filters, silent-interventions, social-license, steering-vectors, terms-of-service-violations, token-reselling, training-data-harvesting, trains, trains-task-force, zero-data-retention]
 ---
 
 # Regulatory & Policy Landscape
@@ -13,34 +13,29 @@ Key questions tracked: What is the EU AI Act compliance timeline for different s
 
 ### U.S. Pre-Release Model Evaluation (May 2026)
 - **TRAINS program**: Testing Risks of AI for National Security (TRAINS), a multi-agency task force overseen by NIST's Center for AI Standards and Innovation (CAISI), will assess national-security risks posed by AI models prior to deployment
-  - **Focus areas**: Cybersecurity, biosecurity, and chemical weapons risks
-  - **Participating agencies**: Departments of Commerce, Defense, Energy, and Homeland Security; National Security Administration; National Institutes of Health
-  - **Distinguishing features**: Designed for rapid response; draws on multiple federal agencies (unlike other disclosed NIS
 
-### Claude Fable 5 Safety Deployment (June 2026)
+### Anthropic Fable 5 Policy Framework (June 2026)
 
-**First capability-restricting safety deployment**: Represents "the next major step in AI capabilities" coupled with "heavier-handed safety measures" that are "meaningfully changing the shape of access to frontier AI, something which has never happened with the modern LLMs we know."
+#### Mandatory Data Retention
+- **30-day retention requirement**: Anthropic requires 30-day retention for all traffic on Mythos-class models (including [[claude-fable-5]] and [[claude-mythos]]), on both first- and third-party surfaces
+- **Stated scope limitation**: Data will not be used to train new Claude models or for any non-safety-related purpose
+- **Privacy protections**: All human access to retained data is logged; data deletion after 30 days is guaranteed "in almost all cases"
+- **Community impact**: Represents departure from zero-data-retention (ZDR) policies, generating controversy in open AI community
 
-**Implemented measures**:
-- **Safety classifiers**: Separate AI systems detecting potential misuse in cybersecurity, targeted model distillation, and research biology
-- **Jailbreak detection**: Automated systems to identify adversarial prompting
-- **Required data retention policies**: Mandatory logging requirements (specifics not detailed in source)
-- **Prompt filtering**: Added filters that selectively route queries
-- **Silent downgrading**: Some prompts automatically downgraded to Claude Opus 4.8 without explicit user notification
+#### Recursive Self-Improvement Suppression
+- **Target domain**: Interventions limit Claude's effectiveness for requests targeting frontier LLM development, including:
+  - Building pretraining pipelines
+  - Distributed training infrastructure
+  - [[ml-accelerator-design]]
+- **Justification**: "In light of the ability of recent models to accelerate their own development"
+- **Implementation methods**: [[prompt-modification]], [[steering-vectors]], or [[peft]] (parameter-efficient fine-tuning)
+- **Silent operation**: Unlike cyber/bio/chem/[[distillation]] safeguards, these interventions are **not visible to the user**; no fallback notification provided
+- **Estimated impact**: ~0.03% of traffic affected, concentrated in fewer than 0.1% of organizations
+- **Terms of Service basis**: Using Claude to develop competing models already violates ToS; safeguards enforce this restriction against actors "most willing to violate these terms"
+- **Community reception**: "Open AI community is understandably upset" according to reporting
 
-**Transparency concerns**:
-- **Disclosed measures**: Some safety features explicitly communicated to users
-- **Silent interventions**: Other modifications occur "without telling the user"
-- **Benchmark discrepancy**: Published benchmark scores may not reflect actual user experience due to filtering
-
-**Critical assessment** (Nathan Lambert, Interconnects):
-- Policies described as "unevenly applied"
-- Characterized as potential "classic cautionary fable in how narrow and self-fulfilling notions of safety and control rarely work out"
-- Suggestion that safety policies may serve to "protect, or entrench, their current lead" rather than purely mitigate risks
-- "Single elements being out of place in an otherwise comprehensive policy are so damning for the overall safety process"
-
-**Development timeline**: 2+ month delay between training completion and public release, attributed to safety evaluation and tooling development.
-
-**Policy precedent**: First instance of a frontier lab deploying capability-limiting safety measures on their most capable public model, setting potential template for future releases across the industry.
-
-See [[lab-dynamics]] for competitive implications and [[model-architecture]] for technical capabilities.
+#### Transparent Safeguard Fallbacks
+- **Cyber/bio/chem/distillation prompts**: For "narrow range" of potentially harmful topics, queries transparently fall back to [[claude-opus-4.8]]
+- **User visibility**: Fallback is visible through user-facing messaging
+- **Frequency**: 95%+ of sessions never see a fallback according to Anthropic's early data
+- **Implementation**: Available server-side and via SDK middleware (Python, TypeScript, Go, Java, C#)
