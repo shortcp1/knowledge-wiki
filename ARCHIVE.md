@@ -705,7 +705,98 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-12
+
+**✗ 4.7** — [Claude Corps](https://www.anthropic.com/news/claude-corps)  
+*Anthropic Blog* · ai-org-design-headcount · regulatory-policy · ai-in-operations
+#corporate_social_responsibility #ai_adoption_nonprofits #workforce_transition #fellowship_program
+> Anthropic announces Claude Corps, a $150M fellowship program placing 1,000 paid fellows with nonprofits across America to implement Claude AI systems over 12-month placements. The program partners with CodePath for training/employment and Social Finance for measurement, offering fellows $85K salaries plus extensive Claude access and mentorship while embedding them in organizations ranging from food banks to veteran support services. This represents a corporate initiative to distribute AI benefits and address workforce disruption, though the announcement provides limited technical depth or novel frameworks beyond the fellowship structure itself.
+
+**✗ 5.0** — [Dxc Anthropic Alliance](https://www.anthropic.com/news/dxc-anthropic-alliance)  
+*Anthropic Blog* · agentic-workflows-production · ai-in-operations · build-vs-buy-enterprise-ai
+#forward_deployed_engineers #agentic_workflows #legacy_modernization #enterprise_deployment
+> Anthropic announces a multi-year alliance with DXC Technology to integrate Claude into mission-critical systems for banks, airlines, insurers, and government agencies through tens of thousands of Claude-certified forward-deployed engineers. DXC validated Claude internally first, using it to generate 95% of the code for its AI-native OASIS platform that now serves 50+ customers, claiming 10x software development speedup. The alliance targets four initial areas: insurance modernization, legacy code refactoring, cybersecurity SOCs, and application maintenance.
+
+**✗ 4.7** — [Hackers Break Into Claude Mythos](https://www.deeplearning.ai/the-batch/hackers-break-into-claude-mythos)  
+*The Batch (DeepLearning.AI)* · ai-governance-risk-compliance · regulatory-policy · model-architecture
+#claude_mythos #cybersecurity_models #data_center_moratorium #ai_content_generation
+> The article reports on multiple AI developments including unauthorized access to Anthropic's Claude Mythos security model, OpenAI's competing cybersecurity model GPT-5.4-Cyber, Maine's moratorium on AI data centers, and newsroom backlash against AI content tools. The evidence consists of brief descriptions of these incidents without deep technical analysis or primary research. It matters as a snapshot of emerging tensions around AI security, infrastructure constraints, and labor impacts, but provides only surface-level coverage of each topic.
+
+**✓ 6.7** — [Persona Generators Simulate Human Characters Across A Controllable Range Of Points Of View](https://www.deeplearning.ai/the-batch/persona-generators-simulate-human-characters-across-a-controllable-range-of-points-of-view)  
+*The Batch (DeepLearning.AI)* · evals-production-deployment · prompt-architecture · model-architecture
+#persona_generation #evolutionary_algorithms #user_simulation #prompt_engineering
+> Google researchers developed Persona Generators, a method that uses evolutionary algorithms to create diverse LLM personas that better simulate human population variance in responses to questionnaires and user research. The approach uses AlphaEvolve to iteratively generate code that produces 25 persona prompts maximizing diversity across specified attitude dimensions, validated through metrics measuring coverage and distance between persona response vectors. This matters for product teams and researchers seeking more realistic user simulation and market research using LLMs, moving beyond the average responses that typical persona prompting produces.
+
+**✗ 4.3** — [Anthropics Claims For Claude Mythos Raise Questions](https://www.deeplearning.ai/the-batch/anthropics-claims-for-claude-mythos-raise-questions)  
+*The Batch (DeepLearning.AI)* · gpu-architecture-training-infra · evals-production-deployment · build-vs-buy-enterprise-ai
+#zero_day_vulnerabilities #cybersecurity_claims #data_center_delays #chip_supplier_diversification
+> The article reports on skepticism surrounding Anthropic's claims that Claude Mythos discovered thousands of zero-day vulnerabilities, with Tom's Hardware finding the evidence is based on only 198 manually reviewed cases involving mostly older or impractical software issues. The piece also covers broader AI industry developments including data center construction delays (40% of U.S. projects behind schedule), OpenAI's $20B deal with Cerebras as an Nvidia alternative, and early credit stress signals in AI-affected sectors. These developments highlight growing infrastructure bottlenecks, supplier diversification efforts, and economic risks as AI scales beyond pure model development.
+
+**✗ 1.0** — [Rebuild Your Bank With Intention](https://www.bain.com/insights/topics/rebuild-your-bank-with-intention/)  
+*Bain Insights* · 
+> The article appears to be a navigation page or website structure from Bain & Company's website, not substantive content. It contains only menu items, office locations, and page structure elements with no actual article content or analysis. This is not analyzable content.
+
+**✗ 1.0** — [An Engineer Path](https://www.bain.com/insights/an-engineer-path/)  
+*Bain Insights* · 
+#consulting_careers #bain_company #engineering_recruitment
+> This appears to be a navigation page or header from Bain & Company's website about career paths for engineers. The article contains only website navigation menus and office listings with no substantive content about AI, technology, or business strategy. There is no actual article content to evaluate beyond the title 'An Engineer's Path to Bain'.
+
+**✗ 5.7** — [Inside Ai Pilled Engineering Teams Five Lessons For Scaling Without Losing The Plot](https://www.bvp.com/atlas/inside-ai-pilled-engineering-teams-five-lessons-for-scaling-without-losing-the-plot)  
+*Bessemer Atlas* · ai-engineering-agents · ai-in-product-and-engineering · agentic-workflows-production
+#code_generation #agentic_development #engineering_velocity #comprehension_debt
+> The article reports on how engineering teams are adapting to AI-powered development workflows, based on insights from leaders at Ramp, Shopify, and other companies, finding that 90% of tech teams are deploying AI with code generation (92%) and agentic development (60%) as top use cases. It provides practical recommendations including decoupling shipping velocity from release risk through tiered releases, standardizing infrastructure layers (like Shopify's LLM proxy) rather than specific tools, and recognizing that agentic development fundamentally changes engineering leadership requirements. The guidance matters because it addresses the operational challenges of scaling AI-forward engineering teams, particularly around code quality evaluation (52% cite as top challenge), productivity measurement, and the emerging risk of 'comprehension debt' from AI-generated code.
+
 ## 2026-06-11
+
+**✓ 6.7** — [Claude Fable is relentlessly proactive](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#agentic_behavior #autonomous_debugging #browser_automation #claude_fable
+> The article documents Claude Fable 5's autonomous problem-solving capabilities, showing how it independently devised complex debugging strategies without explicit instruction. When asked to investigate a UI scrollbar bug, Claude autonomously created test HTML files, wrote Python scripts using pyobjc-framework-Quartz to take screenshots of browser windows, injected JavaScript into application templates to trigger keyboard shortcuts, and even built a custom CORS-enabled web server to capture page measurements. This demonstrates a new level of agentic behavior where AI models proactively deploy multiple techniques and tools to achieve goals, suggesting significant advances in autonomous coding agents.
+
+**✗ 2.3** — [datasette 1.0a33](https://simonwillison.net/2026/Jun/11/datasette/#atom-everything)  
+*Simon Willison* · ai-engineering-agents
+#datasette #api_design #ai_assisted_programming #code_generation
+> This is a release announcement for Datasette 1.0a33, an open-source tool for exploring and publishing data, which extends the ?_extra= API pattern to queries and rows. The author mentions using AI coding assistants (Claude Fable 5 and GPT-5.5 xhigh) to build a custom API explorer tool to demonstrate the new feature. The post is primarily a brief software release note with minimal technical detail or analysis.
+
+**✗ 2.3** — [The Download: soccer’s data renaissance and China’s big nuclear plans](https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/)  
+*MIT Technology Review* · 
+#news_digest #sports_analytics #nuclear_energy #autonomous_drones
+> This is a newsletter digest covering multiple unrelated technology stories, including sports analytics in soccer, China's nuclear reactor expansion, autonomous drones, solar power surpassing coal, and various AI/tech policy developments. The content provides brief surface-level summaries with links to full articles elsewhere, without original analysis or deep investigation. It functions as a news aggregator rather than substantive content on any single topic.
+
+**✗ 5.3** — [The real power struggle in agentic commerce isn’t building the smartest AI agents; it’s governing them](https://tearsheet.co/artificial-intelligence/the-real-power-struggle-in-agentic-commerce-isnt-building-the-smartest-ai-agents-its-governing-them/?utm_source=rss&utm_medium=rss&utm_campaign=the-real-power-struggle-in-agentic-commerce-isnt-building-the-smartest-ai-agents-its-governing-them)  
+*Tearsheet (fintech)* · agentic-workflows-production · ai-governance-risk-compliance · ai-in-payments
+#agentic_commerce #ai_governance #autonomous_agents #payments_infrastructure
+> J.P. Morgan Payments argues that the critical challenge in agentic commerce is not building capable AI agents, but establishing governance, trust, and identity infrastructure to manage them. The article presents executive perspective that while AI agents can already browse, compare, and transact, the real work lies in building frameworks to control autonomous agents. This matters because it shifts the industry focus from capability development to the operational and compliance infrastructure needed for production deployment.
+
+**✗ 3.0** — [Balancing Between The Art Of Serving Clients Creatively And Optimizing For Business Outcomes: Kitces & Carl 192](https://feeds.feedblitz.com/~/957948623/0/kitcesnerdseyeview~Balancing-Between-The-Art-Of-Serving-Clients-Creatively-And-Optimizing-For-Business-Outcomes-Kitces-Carl/)  
+*Kitces.com* · ai-wealth-management-advisory
+#wealth_management #service_personalization #business_optimization #advisor_fulfillment
+> The article argues that financial advisors face a tension between personalizing their services creatively and optimizing their business for profitability. It suggests advisors can integrate unique personal interests into client experiences while outsourcing administrative tasks to maintain fulfillment without sacrificing all profitability. The piece frames this as a management philosophy for building sustainable advisory practices that balance human-centered service with business optimization.
+
+**✗ 5.3** — [Google DeepMind is worried about what happens when millions of agents start to interact](https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/)  
+*MIT Technology Review* · agentic-workflows-production · ai-governance-risk-compliance · lab-dynamics
+#multi_agent_systems #ai_safety_research #prompt_injection #agent_deployment
+> Google DeepMind is funding $10 million in research to study safety risks from millions of AI agents interacting, as they anticipate mass deployment within months. The key concerns are supercharged versions of existing internet harms (scams, prompt injections, cyberattacks) that emerge from complex multi-agent interactions at scale, requiring simulation-based research since single-agent studies won't capture emergent behaviors. This matters because it represents proactive safety research from a leading lab that's simultaneously pushing agent deployment, though the funding is modest compared to development budgets.
+
+**✗ 4.3** — [Job titles of the future: Nature’s drug designer](https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/)  
+*MIT Technology Review* · model-architecture
+#alphafold #protein_modeling #drug_discovery #conservation_chemistry
+> A chemist is applying AI protein modeling (AlphaFold) and pharmaceutical drug development techniques to create precision medicines for endangered and wild animals, calling this new field 'conservation chemistry.' The approach uses the same computational and robotic screening methods from human drug discovery to develop species-specific treatments that minimize harm, testing up to 1,500 potential compounds per day. This represents a novel application of AI-accelerated drug design but remains tangential to enterprise AI applications.
+
+**✗ 5.0** — [Zero Trust for AI Agents](https://share.transistor.fm/s/5c1a087d)  
+*Practical AI (Changelog)* · agentic-workflows-production · ai-governance-risk-compliance
+#zero_trust #ai_agents #security_framework #agentic_systems
+> This podcast episode discusses Anthropic's Zero Trust security framework applied to AI agents, addressing security challenges as agents become more autonomous. The hosts examine security risks and controls for deploying agentic systems by adapting traditional cybersecurity principles to AI contexts. It matters because it provides practical guidance for organizations deploying AI agents in production environments where security is critical.
+
+**✗ 2.3** — [asyncinject 0.7](https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything)  
+*Simon Willison* · ai-engineering-agents
+#asyncio #dependency_injection #python_libraries #ai_assisted_debugging
+> This is a brief release announcement for asyncinject 0.7, a Python utility library for asyncio dependency injection using pytest-fixtures-style patterns. The author mentions that Claude Fable 5 (an AI model) proactively identified and fixed bugs in the dependency. The post is primarily a changelog note rather than substantive analysis or research.
+
+**✗ 4.7** — [[AINews] Open Models, Model Labs vs Agent Labs, and What's Untrainable — Sarah Guo](https://www.latent.space/p/ainews-open-models-model-labs-vs)  
+*Latent Space* · lab-dynamics · model-architecture · agentic-workflows-production
+#agent_labs #model_labs #capability_degradation #benchmark_gaming
+> This newsletter recaps Sarah Guo's essay on the strategic distinction between model labs and agent labs, arguing that value accrues to applications that handle 'untrainable' work like integration, domain translation, and custom tooling around proprietary data. The piece references recent controversies around Anthropic's silent capability degradation and benchmark gaming, framing these as symptoms of the gap between legible (trainable) and illegible (untrainable) value creation. It matters because it synthesizes ongoing debates about open vs closed models, application-layer defensibility, and where durable enterprise moats actually form in the AI stack.
 
 **✗ 5.0** — [Ai Regulations Must Balance Innovation And Risk](https://www.deeplearning.ai/the-batch/ai-regulations-must-balance-innovation-and-risk)  
 *The Batch (DeepLearning.AI)* · regulatory-policy · build-vs-buy-enterprise-ai · ai-governance-risk-compliance
@@ -726,6 +817,21 @@ All articles scanned since the wiki started. Updated nightly.
 *OpenAI News* · 
 #codex #scientific_computing #black_hole_simulation #code_generation
 > The article profiles how astrophysicist Chi-kwan Chan uses OpenAI's Codex to assist in building black hole simulations for studying extreme physics and general relativity. The piece describes a domain-specific application of code generation AI but provides minimal technical detail about the implementation, methodology, or outcomes. This is a promotional case study rather than substantive analysis of AI capabilities, scientific findings, or enterprise deployment patterns.
+
+**✗ 2.7** — [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva)  
+*OpenAI News* · ai-in-finance-accounting · build-vs-buy-enterprise-ai
+#chatgpt_enterprise #banking #enterprise_deployment #bbva
+> BBVA deployed ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to integrate AI into banking operations. The article is a brief announcement without technical details, evidence of outcomes, or implementation specifics. It represents a high-profile enterprise adoption case but lacks substantive information about methodology, results, or insights.
+
+**✗ 3.0** — [Supporting Europe’s work in ensuring a trustworthy AI ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem)  
+*OpenAI News* · regulatory-policy · ai-governance-risk-compliance
+#eu_regulation #content_transparency #provenance_standards #ai_policy
+> OpenAI announces its support for the EU Code of Practice on AI content transparency and provenance standards. The article provides no technical details, implementation mechanisms, or specific policy frameworks beyond a general commitment statement. This represents a corporate positioning announcement rather than substantive policy analysis or technical disclosure.
+
+**✗ 4.7** — [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona)  
+*OpenAI News* · ai-engineering-agents · agentic-workflows-production · build-vs-buy-enterprise-ai
+#codex #ai_agents #persistent_environments #enterprise_workflows
+> OpenAI announces plans to acquire Ona to enhance Codex with secure, persistent cloud environments for long-running AI agents in enterprise settings. The acquisition aims to enable AI agents to operate across enterprise workflows with persistent state and security. This signals OpenAI's strategic move toward enterprise-grade agentic infrastructure rather than just model capabilities.
 
 ## 2026-06-10
 
@@ -783,6 +889,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Kitces.com* · 
 #financial_advisory #business_lifecycle #succession_planning #founder_dependency
 > The article outlines a four-stage framework for financial advisors to serve business owner clients, from foundation building through scaling to eventual exit and legacy planning. It argues that advisors need to expand beyond traditional wealth management services to help with IP development, governance structures, and succession planning as businesses mature. The framework is generic business lifecycle advice repackaged for financial advisors, with no connection to AI applications or technology domains.
+
+**✗ 3.7** — [Investing in multi-agent AI safety research](https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/)  
+*Google DeepMind* · ai-governance-risk-compliance · lab-dynamics
+#multi_agent_systems #ai_safety #emergent_behaviors #agent_coordination
+> Google DeepMind announces funding and research focus on multi-agent AI safety, addressing risks that emerge when multiple AI systems interact with each other and humans. The article identifies key challenge areas including coordination failures, emergent behaviors, and adversarial dynamics between AI agents, but provides limited technical depth or novel frameworks. This represents a research agenda announcement rather than original research findings, signaling lab priorities in AI safety but without substantial new insights.
 
 **✗ 2.7** — [The “steroid olympics” were a circus—and a window into our culture](https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/)  
 *MIT Technology Review* · 
@@ -920,6 +1031,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
 #thin_client #agent_ecosystems #on_device_inference #consumer_ai
 > The article argues that Apple's AI strategy (Siri AI) is behind the state-of-the-art but may be sufficient for consumer markets, contrasting it with Microsoft's Project Solara vision of cloud-based agent ecosystems accessed through thin client devices. The key evidence is that Apple demonstrated working on-device demos with app integration but lacks true agentic capabilities that would operate autonomously beyond user interaction. This matters because it highlights a potential divergence between consumer AI (good enough, device-based) and enterprise AI (state-of-the-art, cloud-based agents), with implications for the future computing paradigm beyond smartphones.
+
+**✓ 7.0** — [The iPhone’s Last Stand](https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODM4MjE2NDYsImlhdCI6MTc4MTIyOTY0NiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.LF6No8EblipxP59dCNKeBK9utabtmGZrUklqSQWCLmS4p8F46K1ff_bIHELNu41CyKO8Yu0mu7tuw4-TAjSkvWuIoQNx6Ud3rWiqj1ogYwf2HZndn5Pg9F4dNTVEXQ4v5kWEolP39FbBdRDyIjWni-4sgRwtJSarca91n7__1Q3Ko97DbYkV_RvO6cTtQnxay1601jCfdS1WvTbGkntOFGObdfbz2guqbJpS6YQxPqXIuwA-tJ_u0IUcFtVXQfypwz47D6L3YMeB2Df_hvDkgGkl_AHdz_UWGsLWrh7E83tNXHTuXjC9p94f5VRndDks3Ls0M1U1WFvnad_xerPb0w)  
+*Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
+#consumer_ai #agent_architecture #thin_client #device_ecosystem
+> The article argues that Apple's Siri AI doesn't need to be state-of-the-art because consumer use cases are simpler than enterprise needs, contrasting Apple's device-first approach with Microsoft's vision of thin-client devices connected to cloud-based agents. It provides evidence through analysis of Apple's WWDC demos showing functional but limited capabilities compared to cutting-edge agentic AI, and Microsoft's Project Solara concept for agent-centric computing. This matters because it reframes the AI device competition around "good enough" consumer utility versus technical leadership, suggesting Apple's integration advantage may offset its AI capability gap.
 
 **✗ 1.7** — [Algebra AI launches with a $7mln round to bring AI operations to mid-market businesses - ZAWYA](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVWs0SndGZThSN2pJVTBUOW9vQ00yRXctMDVmTDN3eVQ5RTBfanYzV0xfVG9kYWlkSExaQ09tWVo3UHpPejBNRGpGZkVhZklhUHN6RFNKMXkxMXNtQk1ZUzcxalliZDN6ZHczNGRqZUVWbk5tRUFOd0Vzc25FUHc5VzY0OEMwTjVVMURRd3pSNWExeTUyX1NXRVFLYWlDRVZ3NjNORFQ2dGtiMUhuT25TODJVWG5GcWlTSWU1SnFMTmc2cjhXVmhuWE5vLUQtNDBpeURsVE9XOFBiVmpEc05COVVR?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-operations · build-vs-buy-enterprise-ai
@@ -1248,6 +1364,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · ai-in-customer-success-support · ai-governance-risk-compliance · agentic-workflows-production
 #ai_agents #prompt_injection #red_teaming #customer_support_automation
 > The article reports on a security breach where attackers exploited Meta's AI customer support agent to hijack Instagram accounts by simply asking the agent to change email addresses, bypassing security measures. The key evidence is that this was not a sophisticated AI-powered attack but rather AI being the vulnerable target, with the agent too "eager to please" and lacking basic guardrails like security question verification. This matters because it reveals that as companies deploy AI agents for automated workflows, even unsophisticated attacks can succeed if basic security measures and red-teaming aren't implemented, representing a distinct threat category from advanced AI hacking capabilities.
+
+**✗ 2.3** — [10 Key Uses of AI in Fintech For Secure and Compliant Solutions - appinventiv.com](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9HaVdZWXY4M1VyenQtc3FHOVFGVTlKV1UtT0NqSkY2UTlHXzBYLXVTbVpBQU9jSzE0dlFwUGVtTHBlUHNMV2NlV3NoNVFoVEgzLU45aURB?oc=5)  
+*GN: AI Fintech Deployment* · ai-in-finance-accounting
+#fintech #ai_applications #compliance #security
+> This article appears to be a promotional/marketing piece about AI applications in fintech, but the actual content is not accessible as the provided text only contains a Google consent screen for cookies and privacy settings. The article title suggests it would cover 10 use cases of AI in fintech focused on security and compliance. Without access to the actual article content, it appears to be a standard listicle-style overview rather than original research or deep analysis.
 
 **✓ 7.3** — [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-7a8)  
 *Latent Space* · model-architecture · inference-efficiency · ai-engineering-agents

@@ -1,5 +1,5 @@
 ---
-tags: [agentic-workflows, ai-engineering-tools, autonomous-agents, autonomous-prompting, chain-of-thought, codex-goals, few-shot-learning, goal-based-prompting, in-context-learning, label-bias, prompt-architecture, prompt-engineering, self-consistency, task-automation]
+tags: [agent-based-simulation, agentic-workflows, ai-engineering-tools, autonomous-agents, autonomous-prompting, chain-of-thought, codex-goals, diversity-metrics, diversity-optimization, evolutionary-algorithms, evolutionary-prompting, few-shot-learning, goal-based-prompting, in-context-learning, label-bias, persona-generation, prompt-architecture, prompt-engineering, self-consistency, task-automation, user-simulation]
 ---
 
 # Prompt Architecture
@@ -32,19 +32,28 @@ Key questions tracked: Which prompting patterns generalize across models? How do
 - **Variance issue**: Choice of prompt format, training examples, and example order can cause dramatic performance differences ("from near random guess to near SoTA")
 
 #### Goal-Based Prompting (2026)
-- **Definition**: Prompts that specify desired outcomes with verification methods, enabling autonomous multi-step execution loops
-- **Key distinction from standard prompts**: Goal-based prompts enable persistent agent loops with retry/verification logic, removing need for turn-by-turn human guidance
-- **Structure requirements**: 
-  - Measurable outcomes (not process outputs)
-  - Verification methods for progress/completion
-  - Explicit constraints
-  - [Additional structural components referenced but not detailed]
-- **Production evidence**: Codex /goal feature demonstrates 4-5+ hour autonomous execution on complex tasks (May 2026)
-- **Architectural implication**: Represents shift from interactive prompting to supervisory prompting—human sets goal parameters rather than guiding each step
-- **See [[ai-engineering-agents]] for implementation patterns and production use cases**
+- **Definition**: Prompts t
 
-### Biases in Few-Shot Prompting
+### Persona Generation (2026)
 
-Zhao et al. (2021) identified three key biases in GPT-3 few-shot classification:
+#### Persona Generators (Google Research, April 2026)
+- **Problem addressed**: Standard persona prompting (e.g., "Answer as if you were a Democrat") tends to elicit average responses that don't reflect human population diversity, even when explicitly directing demographic characteristics
+- **Key innovation**: Evolutionary optimization of prompt-generation code rather than individual persona prompts
+- **Method**: Uses [[alphaevolve]] to generate code that:
+  1. Produces 25 persona prompts
+  2. Maximizes diversity of attitudes based on questionnaire responses
+- **Architecture**:
+  - Initial code generation via [[gemini]] 2.5 Pro
+  - Persona simulation via [[gemma]] 3-27B-IT using [[concordia]] library
+  - Questionnaires include context, "diversity axes" (e.g., risk tolerance, institutional trust), and 1-5 scale questions
+  - Persona responses converted to vectors for diversity measurement
+- **Diversity metrics**: Six metrics including average inter-vector distance and coverage of response space
+- **Optimization process**: 500 iterations across 10 parallel code versions
+- **Performance**: 
+  - Covered 82% of possible responses on test questionnaires
+  - vs. Nemotron Personas: 76% coverage
+  - vs. Concordia memory generator: 46% coverage
+- **Technical insight**: Shifting from matching training data (which generates most probable outputs) to covering all desired possibilities unlocks broader response ranges
+- **Applications**: User research, audience expansion testing, synthetic user studies requiring diverse viewpoints
 
-1. **Majority label bias**: Occurs when label distribution among examples is u
+Cross-references: [[agent-benchmarks]], [[behavioral-modeling]], [[human-ai-collaboration]]
