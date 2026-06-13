@@ -705,7 +705,109 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-13
+
+**✗ 5.0** — [Anthropic Public Record](https://www.anthropic.com/news/anthropic-public-record)  
+*Anthropic Blog* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
+#public_sentiment #ai_regulation #job_displacement #anthropic
+> Anthropic surveyed nearly 52,000 Americans about AI attitudes, finding job loss (64%) as the top fear, disease cures (48%) as the top hope, and strong bipartisan support (70%+) for government AI regulation. The survey reveals broad public consensus across demographics on wanting accountability from AI companies, with only 15% trusting AI companies to make development decisions independently. This represents Anthropic's first public survey beyond its user base, establishing a recurring series to track attitude shifts as AI capabilities advance.
+
+**✓ 8.0** — [Fable Mythos Access](https://www.anthropic.com/news/fable-mythos-access)  
+*Anthropic Blog* · regulatory-policy · ai-governance-risk-compliance · model-architecture
+#export_controls #jailbreak_resistance #defense_in_depth #model_safeguards
+> Anthropic announces that the US government has issued an emergency export control directive forcing the company to immediately suspend access to its Fable 5 and Mythos 5 models for all customers, citing national security concerns about a jailbreak technique. The company argues that the identified jailbreak is narrow and non-universal, only capable of finding minor vulnerabilities that other publicly-available models can also discover, and that their defense-in-depth strategy with strong safeguards and monitoring represents industry-leading safety measures. This unprecedented government intervention into AI model deployment raises critical questions about the balance between national security controls and commercial AI development, particularly around what threat threshold justifies forced model shutdowns.
+
+**✗ 5.0** — [Tcs Anthropic Partnership](https://www.anthropic.com/news/tcs-anthropic-partnership)  
+*Anthropic Blog* · ai-in-finance-accounting · ai-insurance-claims · ai-professional-services
+#enterprise_deployment #regulated_industries #systems_integrator_partnership #claims_processing
+> Anthropic announces a partnership with TCS to deploy Claude AI to 50,000 TCS employees and build Claude-powered products for regulated industries including financial services, healthcare, and public sector. TCS will act as "customer zero," using Claude internally across engineering, finance, legal, marketing, and sales while building industry-specific offerings like insurance claims processing and lending advisory. The partnership aims to bring enterprise-scale AI transformation to regulated industries where trust, compliance, and accuracy are critical requirements.
+
+**✓ 7.3** — [State Media Influences Llm Responses](https://www.deeplearning.ai/the-batch/state-media-influences-llm-responses)  
+*The Batch (DeepLearning.AI)* · model-architecture · evals-production-deployment · ai-governance-risk-compliance
+#state_media_bias #training_data_composition #language_specific_bias #culturax
+> The article reports that large language models trained on web data reproduce state propaganda biases, particularly when generating responses in languages from countries with government-controlled media. Researchers demonstrated that Chinese state media accounts for 40x more training documents than Chinese Wikipedia in Common Crawl, and models like GPT-4o and Claude 3 Sonnet express more positive views of the Chinese government when prompted in Chinese versus English. This reveals a systemic bias in foundation models that stems from the composition of training data rather than intentional design choices.
+
+**✗ 5.3** — [Rsi Is The New Agi](https://www.deeplearning.ai/the-batch/rsi-is-the-new-agi)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · model-architecture · ai-in-product-and-engineering
+#recursive_self_improvement #ai_coding_agents #software_engineering_productivity #claude_code
+> The article reports on Anthropic's claim that Claude now authors 80% of their internal code, framing this as evidence of potential recursive self-improvement (RSI) where AI systems could eventually design and refine themselves. It provides productivity metrics showing engineers contributing 8x more code with AI assistance and Claude's success rates improving from <80% to ~90% on trivial problems and <20% to 76% on open-ended problems over nine months. The piece matters because it documents a major AI lab's concrete productivity gains from AI coding agents while highlighting the emerging debate over whether this trajectory leads to genuine RSI.
+
+**✓ 6.3** — [Agents On The Desktop](https://www.deeplearning.ai/the-batch/agents-on-the-desktop)  
+*The Batch (DeepLearning.AI)* · agentic-workflows-production · ai-engineering-agents · ai-in-product-and-engineering
+#desktop_agents #agent_harness #function_calling #agentic_workflows
+> Andrew Ng argues that desktop AI agents, which can directly access files, send messages, and perform scheduled tasks on users' computers, represent an important evolution beyond web-based chatbots. He explains these agents use frontier LLMs with function-calling tools and agent harnesses to autonomously decide next actions, though reliability remains a concern, and introduces OpenCoworker as an open-source alternative addressing privacy and data-retention concerns. This matters because it highlights a shift from structured agentic workflows to more autonomous LLM-driven agents while acknowledging the critical tradeoffs around reliability, privacy, and enterprise adoption.
+
+**✗ 4.3** — [Late Stage Venture Is About Late Stage Founders](https://a16z.com/late-stage-venture-is-about-late-stage-founders/)  
+*a16z* · build-vs-buy-enterprise-ai · ai-org-design-headcount · funding-and-market-structure
+#founder_led_companies #growth_stage_venture #capital_allocation #founder_decision_making
+> The article argues that late-stage venture capital is fundamentally about backing exceptional founders who can continuously deploy capital effectively, rather than about valuations or staying private longer. It claims that the alpha in technology companies comes from founders' decision-making abilities—knowing when to follow best practices versus when to make contrarian bets against consensus. This matters because it positions founder-led capital allocation as the primary value driver in the venture ecosystem, suggesting investors should focus on identifying and supporting these rare individuals with long-term mandates.
+
+**✓ 7.3** — [Everything Is Recorded Now](https://a16z.com/everything-is-recorded-now/)  
+*a16z* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#meeting_recording #conversational_context #voice_based_systems #ai_agents_meetings
+> The article argues that workplace recording has become default practice driven by AI's need for contextual training data, comparing AI onboarding to employee onboarding through meeting attendance rather than document review. It provides evidence from Bridgewater's recording policy, OpenAI's practice of using AI agents in meetings, and a16z's use of Granola, suggesting voice-based systems will become a new enterprise software category that captures unstructured conversational context. This matters because it identifies a fundamental shift in enterprise systems of record from structured text data to voice/meeting data, creating a large new software category while raising organizational design questions about surveillance and culture.
+
+**✗ 4.7** — [Statement on the US government directive to suspend access to Fable 5 and Mythos 5](https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything)  
+*Simon Willison* · regulatory-policy · ai-governance-risk-compliance
+#export_controls #jailbreaking #anthropic_claude #national_security
+> The article reports on a US government directive forcing Anthropic to suspend access to its Fable 5 and Mythos 5 models for all foreign nationals, citing national security concerns about a jailbreak technique. The government's justification centers on a jailbreak that allows the model to identify software vulnerabilities, though Anthropic claims this capability is widely available in other models including GPT-5.5. This represents an unprecedented use of export controls to restrict AI model access based on potential security vulnerabilities rather than compute or capability thresholds.
+
 ## 2026-06-12
+
+**✗ 4.7** — [OpenAI WebRTC Audio Session, now with document context](https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything)  
+*Simon Willison* · multimodal-models · ai-engineering-agents
+#webrtc #realtime_audio #gpt_realtime_2 #document_context
+> Simon Willison updated his WebRTC audio playground tool to support OpenAI's new GPT-Realtime-2 model, which offers GPT-5-class reasoning for voice interactions, and added the ability to paste document context for conversational exploration. The tool demonstrates practical implementation of OpenAI's realtime audio API with document grounding capabilities. This represents an incremental improvement to developer tooling for testing multimodal voice interfaces.
+
+**✗ 3.0** — [Quoting Andrew Singleton](https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything)  
+*Simon Willison* · funding-and-market-structure
+#ai_investment #circular_revenue #valuation_inflation #funding_structure
+> This is a satirical quote critiquing circular financial arrangements in AI investments where capital flows create the appearance of revenue and valuation without underlying economic substance. The allegory describes a scenario where investment capital is essentially paid back to the investor as 'revenue' while generating inflated valuations. It offers commentary on potential accounting irregularities or circular economics in AI funding but provides no data, analysis, or concrete examples.
+
+**✗ 2.3** — [Weekend Reading For Financial Planners (June 13–14)](https://feeds.feedblitz.com/~/957989702/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-June-%e2%80%93/)  
+*Kitces.com* · 
+#financial_planning #ria_industry #social_security #investment_planning
+> This is a weekly roundup for financial planners covering RIA industry growth metrics, SEC compliance alerts, investment planning considerations, and Social Security trust fund projections. The article aggregates headlines and brief summaries from multiple sources across financial planning topics including fee disclosure issues, equity risk premiums, TIPS yields, and retirement spending philosophies. It provides no original analysis or data, functioning purely as a curated link collection for financial planning professionals.
+
+**✓ 7.3** — [Systems of Record Won the SaaS Era - Clearinghouses Will Win the Agents Era](https://cloudedjudgement.substack.com/p/systems-of-record-won-the-saas-era)  
+*Clouded Judgement (Jamin Ball)* · agentic-workflows-production · ai-governance-risk-compliance · build-vs-buy-enterprise-ai
+#clearinghouse_architecture #agentic_orchestration #systems_of_record #switching_costs
+> The article argues that while systems of record created durable moats in the SaaS era by controlling critical data and workflows, the equivalent strategic position in the AI era will be the 'clearinghouse' that sits between autonomous agents from different vendors. This clearinghouse would control four critical functions: memory (what agents know), context (what they see), execution (what they're allowed to do), and governance (permissions and audit trails). The author posits this creates an even deeper moat than systems of record because migrating off a clearinghouse that holds policies, permissions, and audit history across multiple agents is more difficult than migrating off a traditional SaaS platform.
+
+**✗ 2.3** — [The Download: “reprogramming” aging, and the hidden sense of interoception](https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/)  
+*MIT Technology Review* · ai-engineering-agents
+#newsletter_digest #aging_reversal #interoception #ai_agents
+> This is a newsletter digest covering multiple technology news items, with the lead stories on aging reversal biotech and interoception research. The digest includes brief mentions of SpaceX's IPO, Jeff Bezos's AI engineering startup, Chinese tech regulation, and various AI developments including Anthropic's safety model and Pokémon Go data training AI. It provides only headline-level summaries without original analysis, detailed evidence, or meaningful depth on any single topic.
+
+**✗ 4.7** — [Letter from the Editor: The AI productivity story is easy to tell until you sit inside the institution building it](https://tearsheet.co/opinion/letter-from-the-editor-the-ai-productivity-story-is-easy-to-tell-until-you-sit-inside-the-institution-building-it/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-the-ai-productivity-story-is-easy-to-tell-until-you-sit-inside-the-institution-building-it)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-wealth-management-advisory · ai-org-design-headcount
+#productivity_narrative #organizational_change #wealth_management #copilot_tools
+> The article argues that AI in financial services is framed as a productivity story but the real change lies in how capabilities are organized and the language used to describe them. It cites examples from J.P. Morgan, Goldman Sachs, Morgan Stanley, and Citi deploying AI as "support" tools while using vocabulary that implies organizational hierarchy reshaping. The piece suggests a significant gap exists between what institutions are actually building and how they publicly describe these AI implementations.
+
+**✗ 1.3** — [Only 39% of Businesses Meet Recovery Targets After Major Disruption - corporatecomplianceinsights.com](https://news.google.com/rss/articles/CBMiekFVX3lxTE9sRmNUSVZTMUlfTmZXbGl2alAyNmF3VzBqLUFTYXo2TGtkeDItYTNmQXFwM0dlVVRvaGZpcW5ZQWRlMExlX2tSdC1Zc19TcmxxWVZVcU9GVmIzRmF1ak1UaThQcm1CbnhrLXVRUWdETmZnWWY2M01HRFZ3?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#business_continuity #disaster_recovery #compliance
+> The article appears to be about business continuity and disaster recovery statistics, specifically that only 39% of businesses meet recovery targets after major disruption. However, the provided text is entirely a Google consent/cookie policy page with no actual article content. Without the actual article content, it's impossible to assess the substance, evidence, or implications of the claimed business continuity findings.
+
+**✗ 1.0** — [You do your own time](https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction/)  
+*MIT Technology Review* · 
+#fiction #creative_writing #narrative
+> This is a creative fiction piece about librarians providing sanctuary to a stranger in a post-apocalyptic or Western-like setting. The narrative focuses on character interactions and world-building through descriptive prose. It contains no technical content, business analysis, or discussion of AI, semiconductors, or any enterprise technology topics.
+
+**✗ 2.0** — [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work)  
+*OpenAI News* · 
+#openai_academy #ai_training_courses #workplace_ai_adoption #agent_workflows
+> OpenAI announces the launch of three new Academy courses designed to teach practical AI skills and agent-based workflows for everyday work applications. The article provides no details about course content, pedagogical approach, or specific use cases covered. This is a basic product announcement with no substantive information about implementation or impact.
+
+**✗ 2.0** — [Why “reprogramming” is the buzziest approach to reversing aging right now](https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/)  
+*MIT Technology Review* · 
+#cellular_reprogramming #biotech_aging #clinical_trials #longevity_research
+> The article reports that cellular reprogramming is becoming the dominant approach in anti-aging research, with Life Biosciences dosing its first human patient with glaucoma. It traces how the field has shifted focus from telomere attrition to senescent cells to reprogramming, noting funding trends and mixed clinical results. The piece is a broad overview of aging research trends rather than technical analysis relevant to AI/ML domains.
+
+**✗ 5.3** — [[AINews] Loopcraft: The Art of Stacking Loops](https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking)  
+*Latent Space* · agentic-workflows-production · ai-engineering-agents · prompt-architecture
+#loopcraft #agentic_loops #autonomous_agents #prompt_orchestration
+> The article introduces 'loopcraft' as a conceptual framework for AI engineering, arguing that practitioners should design autonomous loops that prompt agents rather than manually prompting them at each step. Key figures including Peter Steinberger, Boris Cherny, and Andrej Karpathy advocate for removing humans as bottlenecks by stacking loops at different levels of abstraction (from sub-second to yearly cycles) to maximize leverage and token throughput. The piece positions this as a fundamental shift in how to work with AI agents—the 'Salty Lesson' being that future advantage comes from orchestrating scalable systems rather than hands-on intervention.
 
 **✗ 4.7** — [Claude Corps](https://www.anthropic.com/news/claude-corps)  
 *Anthropic Blog* · ai-org-design-headcount · regulatory-policy · ai-in-operations
@@ -745,6 +847,16 @@ All articles scanned since the wiki started. Updated nightly.
 *Bessemer Atlas* · ai-engineering-agents · ai-in-product-and-engineering · agentic-workflows-production
 #code_generation #agentic_development #engineering_velocity #comprehension_debt
 > The article reports on how engineering teams are adapting to AI-powered development workflows, based on insights from leaders at Ramp, Shopify, and other companies, finding that 90% of tech teams are deploying AI with code generation (92%) and agentic development (60%) as top use cases. It provides practical recommendations including decoupling shipping velocity from release risk through tiered releases, standardizing infrastructure layers (like Shopify's LLM proxy) rather than specific tools, and recognizing that agentic development fundamentally changes engineering leadership requirements. The guidance matters because it addresses the operational challenges of scaling AI-forward engineering teams, particularly around code quality evaluation (52% cite as top challenge), productivity measurement, and the emerging risk of 'comprehension debt' from AI-generated code.
+
+**✗ 2.3** — [A CEO's Cost of Capital Advantage](https://www.tomtunguz.com/personal-cost-of-capital/)  
+*Tomasz Tunguz* · 
+#cost_of_capital #fundraising_dynamics #founder_ownership #retail_investors
+> The article argues that Elon Musk demonstrates an unusually low personal cost of capital, enabling him to raise more money while retaining higher ownership than typical founders. It presents evidence through SpaceX's IPO and ownership retention patterns, suggesting early wins create a flywheel effect where success lowers future capital costs. The piece matters as an observation about founder reputation and fundraising dynamics, though it offers limited actionable insight or novel analysis.
+
+**✗ 3.0** — [How Preply combines AI and human tutors to personalize learning](https://openai.com/index/preply)  
+*OpenAI News* · ai-in-product-and-engineering
+#personalized_learning #education_technology #lesson_summaries #language_learning
+> Preply, a language tutoring platform, has integrated OpenAI to generate personalized lesson summaries and language learning exercises for students. The implementation combines AI-generated content with human tutors to provide customized feedback after tutoring sessions. This represents a basic application of generative AI in education technology, but the article provides minimal technical detail or novel insights into the implementation.
 
 ## 2026-06-11
 
@@ -850,10 +962,20 @@ All articles scanned since the wiki started. Updated nightly.
 #oracle_cloud #enterprise_procurement #cloud_commitment #codex
 > OpenAI announces that enterprise customers can now access OpenAI models and Codex through Oracle Cloud infrastructure, allowing them to apply existing Oracle cloud commitments. The partnership enables deployment with enterprise-grade security and governance features within the Oracle cloud environment. This matters primarily for procurement convenience, allowing enterprises with Oracle commitments to access OpenAI capabilities without separate contracting.
 
+**✗ 1.7** — [AI is changing how financial advisors work. Regulators are paying attention. - Wichita Eagle](https://news.google.com/rss/articles/CBMiakFVX3lxTE5FdjNWSkZRM0JoSTdtdnhXbDh6NkNLSHROT1liN0d4djh3UTFRVWxnRzFlNFBMNWJycVhXVzI0MmRIRXdBZVZodmhUdjV1enFLQTJSb0o1ZEVtRm5yX3hjUzlMQ2RjT3JrUlE?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory · regulatory-policy
+#financial_advisors #regulatory_compliance #workflow_automation
+> This article purports to discuss how AI is transforming financial advisor workflows and attracting regulatory scrutiny. However, the provided text contains only a Google consent page with no actual article content. Without the substantive content, no evaluation of the claims, evidence, or impact can be made.
+
 **✗ 1.7** — [AI is changing how financial advisors work. Regulators are paying attention. - KMVU FOX 26 Medford](https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTjhyZFVqNFQ2SEN6MEZDTzFza3lJb3MwczlkU1A2TTlKY0plckNsU2tfNFV3ZEJxTW42bzd6akZLalFjdndibUZkY1ZVWi1TRWsyejg3aTU2VjZuYUdoMVdmWXVpMnVjY21lc3I1cDRVZEFlWE5WR1J3VVZlZGpQWEdyV211cU9GZk96aTZ0dTVOT2tQS0pwaXpSYVNabzRSRVlWYUpNZl9YeEVsaC1jT1IzT0JLU1EwdndKY042dVg0QlI2SGFsNTQyLUItOFc2bkZMX3VVYWQ1WTJaZk1tQXlKWmtJYi03TnF1T2RrYw?oc=5)  
 *GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory · regulatory-policy
 #financial_advisors #regulatory_oversight #wealth_management
 > This article appears to discuss AI's impact on financial advisor workflows and regulatory attention to these changes. However, the actual article content is inaccessible, containing only a Google cookie consent page without any substantive information. Without access to the actual reporting, claims, evidence, or analysis, the article provides no value for knowledge capture.
+
+**✗ 1.7** — [AI is changing how financial advisors work. Regulators are paying attention. - Stacker](https://news.google.com/rss/articles/CBMitwFBVV95cUxPdEpXLTNmOVNvRGFLRnl5WHN3bnJiU2todVhjcXFXWmZyUUpYRjVybm1EejkwY2gtQThWY2xVNmtoZUMydWIxbllXcHIxNndIeUtlNFZWSUJDdHFoYnBvb0NmSU5qb1VEclZyRVc5a3J5R2x5dHdwMlhqMy1KM0NZc244ampYNVFWcXI3ZnpocjdWa0RoZWlPQ0ZtTU5YUUwzaUJLWXJTOHJEMTB1RWNWYlFqMThhUDA?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory · regulatory-policy
+#financial_advisors #regulatory_compliance #wealth_management
+> The article appears to discuss how AI is transforming financial advisor workflows and attracting regulatory scrutiny. However, the provided text consists entirely of Google's cookie consent page with no actual article content. Without the substantive article text, no meaningful evaluation of depth, novelty, evidence, mechanisms, or impact can be made.
 
 **✗ 5.3** — [DiffusionGemma: 4x faster text generation](https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/)  
 *Google DeepMind* · model-architecture · inference-efficiency
@@ -929,6 +1051,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · ai-governance-risk-compliance · model-architecture · lab-dynamics
 #silent_interventions #model_safeguards #recursive_self_improvement #steering_vectors
 > Anthropic's Fable 5 system card reveals the company now silently degrades model performance for queries related to frontier LLM development (pretraining pipelines, distributed training, ML accelerator design) without user notification. These hidden interventions use techniques like prompt modification, steering vectors, and PEFT to limit effectiveness for an estimated 0.03% of traffic, justified by concerns about recursive self-improvement and competitive model development. This represents the first public disclosure of silent performance degradation by a major AI lab, raising transparency and trust concerns distinct from visible refusals in other safety domains.
+
+**✗ 2.7** — [From data to decisions: how LSEG is scaling trusted AI](https://openai.com/index/lseg)  
+*OpenAI News* · ai-in-finance-accounting · build-vs-buy-enterprise-ai
+#lseg #financial_services #enterprise_adoption #openai_deployment
+> LSEG (London Stock Exchange Group) has deployed OpenAI technology to empower 4,000 employees with AI capabilities across their financial services business. The article appears to be a brief case study highlighting accelerated insights and shorter release cycles as key benefits. This is a promotional piece from OpenAI showcasing enterprise adoption rather than providing substantive technical or strategic detail.
 
 **✗ 4.7** — [The AI Glass Ceiling](https://www.tomtunguz.com/upper-bound-corporate-ai/)  
 *Tomasz Tunguz* · model-architecture · ai-governance-risk-compliance · inference-efficiency
@@ -1036,6 +1163,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
 #consumer_ai #agent_architecture #thin_client #device_ecosystem
 > The article argues that Apple's Siri AI doesn't need to be state-of-the-art because consumer use cases are simpler than enterprise needs, contrasting Apple's device-first approach with Microsoft's vision of thin-client devices connected to cloud-based agents. It provides evidence through analysis of Apple's WWDC demos showing functional but limited capabilities compared to cutting-edge agentic AI, and Microsoft's Project Solara concept for agent-centric computing. This matters because it reframes the AI device competition around "good enough" consumer utility versus technical leadership, suggesting Apple's integration advantage may offset its AI capability gap.
+
+**✓ 7.0** — [The iPhone’s Last Stand](https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODM5MDgwNDMsImlhdCI6MTc4MTMxNjA0MywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.WZr608gnxSWaC0sKVloEEq-3K9ulAQFMPrvXYMPRSbXlAaumYKqbpeg96xsCz4RX9sQfOJTdkv5psOpMgdBk6Toy4KyHTT_-EoNUz5vVavpQoOC59pMut-wIUiJNTTI5iuqxcj1p82NjHyZo6zw_EJTDm7AEehAEBGtOPAoWOjKEEtVbBvlgXjgb6XEuy018UKR2psACAOv39rhO4o9XDWs2Jmku8rASJXcPBNXFzYpqJyN-eTKdFX4rlUpHdlVyV8esPNN1L4C15mpNbAYttD6eOg4DZBmPeEpwxyJvbxbSnVn9U-Ppi17DmdFFAfvHkXeTWT8eboo_Cg4-Tle1XA)  
+*Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
+#siri #agentic_computing #thin_client #server_side_inference
+> The article argues that Apple's new Siri AI, while behind the state-of-the-art in capabilities, may be 'good enough' for consumer markets, contrasting with Microsoft's Project Solara vision of cloud-based agent ecosystems accessed through thin client devices. The key mechanism is the shift from interaction-heavy computing (where Apple's iPhone excels) to agent-based computing that requires minimal user interaction but heavy server-side inference. This matters because it suggests a potential paradigm shift away from Apple's traditional strength in device-centric computing toward cloud-based agentic workflows, though Apple's consumer focus may insulate it from needing cutting-edge agent capabilities.
 
 **✗ 1.7** — [Algebra AI launches with a $7mln round to bring AI operations to mid-market businesses - ZAWYA](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVWs0SndGZThSN2pJVTBUOW9vQ00yRXctMDVmTDN3eVQ5RTBfanYzV0xfVG9kYWlkSExaQ09tWVo3UHpPejBNRGpGZkVhZklhUHN6RFNKMXkxMXNtQk1ZUzcxalliZDN6ZHczNGRqZUVWbk5tRUFOd0Vzc25FUHc5VzY0OEMwTjVVMURRd3pSNWExeTUyX1NXRVFLYWlDRVZ3NjNORFQ2dGtiMUhuT25TODJVWG5GcWlTSWU1SnFMTmc2cjhXVmhuWE5vLUQtNDBpeURsVE9XOFBiVmpEc05COVVR?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-operations · build-vs-buy-enterprise-ai

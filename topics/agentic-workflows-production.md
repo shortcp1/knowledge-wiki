@@ -1,37 +1,78 @@
 ---
-tags: [agent-approval, agent-architecture, agent-ceos, agent-composition, agent-compute, agent-compute-infrastructure, agent-deployment, agent-election-manipulation, agent-generated-commits, agent-gravity, agent-harness, agent-harness-integration, agent-infrastructure, agent-legibility, agent-orchestration, agent-safe-production-forks, agent-safety, agent-sandboxes, agent-self-configuration, agent-workload-migration, agentic-ci-cd, agentic-deception, agentic-loop, agentic-loop-patterns, agentic-security, agentic-task-management, agentic-tasks, agentic-workflows, agentic-workflows-production, ai-agents, ai-code-review-bottleneck, ai-cost-forecasting, ai-safety-testing, ai-sandboxes, ai-sre, ambient-ai, andon-bengt, asana-integration, async-agents, autonomous-agents, background-agents, bare-metal-infrastructure, bare-metal-scheduling, behavioral-data-moats, chain-of-thought, ci-cd-agent-load, ci-cd-scaling, cicd-deployment-constraints, claude-opus, cloud-agents, cloud-economics, code-sandbox, codex, codex-updates, coding-agents, content-addressed-caching, context-database, context-engineering, context-reprocessing, context-window, conversational-ai, custom-agents, dark-factory, data-exfiltration, data-for-capabilities-trade, data-gravity, databricks, datasette, daytona, deepseek-v4-pricing, deployment-automation, deterministic-vs-nondeterministic, docker-compose, dynamic-resource-scaling, edge-ai, edge-compute, email-access-agents, emergent-behavior, emergent-coordination, eval-infrastructure, exfiltration-attacks, face-recognition-training, feature-flags, feature-flags-agents, frontier-evals, frontier-models, ghost-libraries, ghost-tokens, github-actions, github-actions-compute, github-copilot, github-infrastructure-scale, harness-architecture, harness-engineering, harness-in-the-box, hidden-token-multipliers, human-in-the-loop, hybrid-routing, hyperscale-operations, inference-cost, infrastructure-efficiency, knowledge-distillation, latency-optimization, lethal-trifecta, liquid-ai-architecture, local-, micropython, micropython-wasm, plugin-sandboxing, plugin-systems, python-sandboxing, wasm-sandboxing, wasmtime, webassembly]
+tags: [agent-audit-trail, agent-authorization, agent-clearinghouse, agent-context-serving, agent-evals, agent-execution-control, agent-governance, agent-governance-layer, agent-memory, agent-policy-enforcement, agent-telemetry, agent-traces, agent-trust-layer, agentic-orchestration, agentic-workflows-production, ai-agents-meetings, clearinghouse-architecture, conversational-context, enterprise-moats, meeting-recording, multi-agent-coordination, strategic-real-estate, switching-costs, system-of-record, systems-of-record, unstructured-data, voice-based-systems]
 ---
 
-## Code Execution Sandboxing
+# Agentic Workflows in Production
 
-### WebAssembly-based Python Sandboxing (2026)
+## The Clearinghouse Pattern (Ball, June 2026)
 
-**MicroPython-WASM Approach**: Simon Willison released `micropython-wasm` (alpha, June 2026) as a sandbox solution for running Python code safely within Python applications. Implementation uses MicroPython compiled to WebAssembly, executed via the `wasmtime` Python library.
+### Core Thesis
+**Business Problem**: In the emerging multi-agent enterprise ecosystem, organizations need a trust layer to manage autonomous agents from different vendors that access critical data and execute real transactions. Without centralized authorization, verification, and audit capabilities, agent deployment at scale becomes ungovernable.
 
-**Key Requirements Met**:
-- Clean PyPI installation with cross-platform binary wheels
-- Memory and CPU limits enforceable (prevents resource exhaustion attacks like `while True: s += "longer string"`)
-- Strict filesystem access control (can be disabled entirely or limited to specific files)
-- Network access control through host-mediated layer
-- Host function interaction support
-- Active maintenance (wasmtime library is actively maintained)
+**AI Pattern Applied**: Agent Clearinghouse Architecture
+- A centralized governance layer that sits between autonomous agents and enterprise systems
+- Not the agents themselves, but the authorization and coordination layer
+- Analogous to financial market clearinghouses that enable transactions between parties who don't fully trust each other
 
-**Technical Architecture**:
-- WebAssembly provides isolation designed and battle-tested in browsers (~decade of production use)
-- Dynamic language execution requires full interpreter compiled to WASM (not just compilation target)
-- MicroPython chosen over CPython variants due to WASM compilation support
-- Note: Pyodide (browser Python-in-WASM) explicitly not supported for server-side use
+### Four Control Dimensions
+The clearinghouse pattern controls:
+1. **Memory**: What agents know (access to historical context and data)
+2. **Context**: What agents see and how information is served to them
+3. **Execution**: What agents are authorized to do (action boundaries)
+4. **Governance**: Permission policies and complete audit trail of agent actions
 
-**Use Cases**:
-- Plugin systems for [[ai-engineering-agents]] (Datasette, LLM, sqlite-utils)
-- Data transformation (Datasette Enrichments)
-- Scheduled tasks with controlled external data fetching
-- `datasette-agent-micropython` plugin for Datasette Agent
+### Strategic Positioning
+**Why This Creates Moats**:
+- Migration difficulty exceeds traditional systems of record
+- Consolidates: policies, permissions, audit history, agent telemetry
+- Becomes more critical as agents handle autonomous spending and critical operations
+- Network effects: More agents integrating = deeper lock-in
 
-**Security Posture**: Author explicitly notes alpha status and advises caution ("Should you trust my vibe-coded sandbox?" section mentioned but not detailed in excerpt). WebAssembly sandbox characteristics align with browser security model.
+**Industry/Function**: Cross-industry enterprise infrastructure - applies to any organization deploying multiple autonomous agents
 
-**Alternative Approaches Rejected**:
-- JavaScript engines (V8): Too complex for embedding, existing Python wrappers insufficiently maintained or carry security warnings
-- Direct CPython: No isolation capabilities
+### Evolution from Systems of Record
+**SaaS Era (Systems of Record)**:
+- Stored and governed critical transactional data
+- Controlled workflow initiation points
+- Deep moats from integration density and change management costs
+- Examples: Salesforce (customer data), Workday (employee data), NetSuite (financial data)
 
-**Cross-references**: Relevant to [[ai-engineering-agents]] plugin architectures, [[agentic-security]] threat models
+**Agent Era (Clearinghouses)**:
+- Store agent traces, evals, telemetry, A/B test data
+- Control agent authorization and execution
+- Potentially deeper moats than systems of record due to governance criticality
+- Data type shifts from transactional records to agent operational metadata
+
+### Governance as Primary Buying Criterion
+**Shift in Enterprise Evaluation**:
+- **Old question**: "Is the model good?"
+- **New question**: "Can I see what every agent did, set policy on what it can touch, and prove compliance?"
+- Governance moves from end-of-cycle compliance checkbox to upfront CIO concern
+- Reason: Autonomous agent actions create direct risk (data access, spending, regulatory exposure)
+
+### Generalizability
+**Applicable to**:
+- Financial services (regulatory compliance, audit requirements)
+- Healthcare (HIPAA, patient data access control)
+- Manufacturing (autonomous system coordination)
+- Retail (inventory agents, pricing agents, customer service agents)
+- Any enterprise deploying agents from multiple vendors
+- Cross-functional: IT operations, finance automation, customer service, sales operations
+
+**Key Success Factors**:
+- Early positioning as the neutral coordination layer (not competing with agent vendors)
+- Comprehensive audit capabilities
+- Fine-grained permission controls
+- Integration breadth with multiple agent platforms
+- Trust establishment with CIO/security organizations
+
+### Strategic Real Estate Concept
+The "clearinghouse seat" represents strategic real estate because:
+- All agent workflows must touch this layer
+- Switching costs compound with every integrated agent
+- Controls the trust boundary for autonomous operations
+- Becomes system of record for agent behavior data
+
+**Quantitative Outcomes**: None cited in source
+
+**Status**: Emerging pattern (June 2026) - theoretical framework rather than implemented case study

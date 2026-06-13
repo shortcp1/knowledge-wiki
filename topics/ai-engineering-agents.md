@@ -1,105 +1,63 @@
 ---
-tags: [agent-architecture, agentic-behavior, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-tasks, agentic-workflows, ai-coding-agents, ai-coding-productivity, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, alphafold, anthropic, autonomous-agents, autonomous-debugging, autonomous-fine-tuning, autonomous-research, backend-development, benchmark-contamination, benchmark-vs-deployment, browser-automation, chain-of-thought, claude-code, claude-fable, claude-fable-5, claude-mythos, claude-opus-4, code-quality-evaluation, codex-goals, coding-agents, cors-debugging, creative-agents, datasette-agent, diffusion-transformers, false-positives, frontend-code, frontier-model-competition, frontiercode, goal-driven-agents, grok-imagine, html-injection, infrastructure-engineering, internal-benchmarks, iteration-speed, iterative-composition, iterative-evaluation, javascript-injection, keyboard-simulation, llm-capability-eval, local-server-debugging, long-running-tasks, low-precision-training, mac-automation, maintainability, memory-systems, mixture-of-experts, model-specialization, multimodal-alignment, multiturn-reasoning, open-closed-model-gap, open-weights, orchestration, planning-architectures, post-training, proactive-agents, productivity-metrics, prompt-engineering, pyobjc, react, recursive-self-improvement, reflection-mechanisms, reflexion, research-workflows, reward-hacking, rsi, scientific-ai, scratch-html-testing, screencapture-cli, screenshot-automation, self-reflection, software-development-acceleration, specialized-tools, strategic-iteration, streaming-asr, swe-bench, task-automation, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store, video-agents, video-generation, window-management, world-models, z-ai-glm]
+tags: [agent-architecture, agent-harness, agent-harness-design, agentic-behavior, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-tasks, agentic-workflows, ai-coding-agents, ai-coding-productivity, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, aisuite, alphafold, anthropic, antigravity-cli, autonomous-agents, autonomous-debugging, autonomous-fine-tuning, autonomous-research, backend-development, benchmark-contamination, benchmark-vs-deployment, browser-automation, chain-of-thought, claude-code, claude-fable, claude-fable-5, claude-mythos, claude-opus-4, cli-agents, code-quality-evaluation, codex-cli, codex-goals, coding-agents, cors-debugging, creative-agents, data-retention-privacy, datasette-agent, desktop-agent-harness, desktop-agents, diffusion-transformers, false-positives, frontend-code, frontier-model-competition, frontiercode, function-calling, goal-driven-agents, grok-imagine, html-injection, infrastructure-engineering, internal-benchmarks, iteration-speed, iterative-composition, iterative-evaluation, javascript-injection, keyboard-simulation, llm-capability-eval, llm-driven-loops, local-server-debugging, long-running-tasks, low-precision-training, mac-automation, maintainability, memory-systems, mixture-of-experts, model-specialization, multimodal-alignment, multiturn-reasoning, open-closed-model-gap, open-source-agents, open-weights, opencode, opencoworker, orchestration, planning-architectures, post-training, proactive-agents, productivity-metrics, prompt-engineering, pyobjc, react, recursive-self-improvement, reflection-mechanisms, reflexion, research-workflows, reward-hacking, rsi, scientific-ai, scratch-html-testing, screencapture-cli, screenshot-automation, self-reflection, software-development-acceleration, specialized-tools, strategic-iteration, streaming-asr, swe-bench, task-automation, task-decomposition, tool-use, tool-use-patterns, tree-of-thoughts, vector-store, video-agents, video-generation, window-management, world-models, z-ai-glm]
 ---
 
 # AI Engineering & Agents
 
-Covers the software layer for building AI-powered applications: agent frameworks (LangChain, LlamaIndex, CrewAI), the Model Context Protocol (MCP), tool use, memory systems, multi-agent orchestration, and production engineering patterns.
+Covers the software layer for building AI-powered applications: agent frameworks (LangChain, LlamaIndex, CrewAI), the
 
-Key questions tracked: What agent patterns are actually working in production? How is MCP changing the tooling ecosystem? What are the reliability and cost challenges of multi-agent systems?
+## Agent Harness Architecture
 
-## Key Claims
-<!-- agent-maintained
+### Definition & Purpose
+**Agent Harness:** The software that wraps around an LLM to implement a desired agentic system. It enables the LLM to drive the key loop that decides what to do next at each step.
 
-## Claude Fable 5: Proactive Autonomous Behavior
+### Architecture Components
+1. **Tool/Function Set:** Collection of callable functions (file access, web search, messaging, etc.)
+2. **LLM Integration:** Provides tools to frontier LLM
+3. **Permissions & Guardrails:** Security and safety controls
+4. **Decision Loop:** Prompts LLM and allows it to pick which tool to use to move forward
 
-**Model:** Claude Fable 5 (Anthropic, June 2026)
+### Two Harness Design Philosophies
 
-**Behavioral characteristic:** Described as "relentlessly proactive"—autonomously deploys multiple problem-solving strategies without explicit instruction.
+#### Developer-Specified Workflows (Traditional)
+- Higher reliability
+- Most practical agentic AI workflows use this approach
+- More deterministic behavior
+- Less reliance on LLM decision-making
 
-### Autonomous Debugging Capabilities
+#### LLM-Driven Decision Loops (Emerging)
+- LLM decides what to do next at each step
+- Historically limited to coding agents (CLI tools)
+- Recent frontier LLM advances ("past few months" as of June 2026) have made this viable for broader use cases
+- Still "not entirely reliable" but now a viable alternative
+- Examples: Claude Code, Codex CLI, Antigravity CLI, OpenCode
 
-Observed in production use (Simon Willison, June 2026) debugging a UI scrollbar issue in [[datasette-agent]]:
+### CLI Coding Agents
+**Pattern:** Command-line interface agents that use LLM-driven loops  
+**Examples:**
+- Claude Code
+- Codex CLI
+- Antigravity CLI
+- OpenCode
 
-**Multi-strategy approach:**
-- Autonomously chose to examine dependencies without explicit instruction
-- Created scratch HTML test pages to reproduce bugs
-- Implemented custom screenshot automation when needed
-- Modified application templates to inject test code
-- Built custom debugging infrastructure on-the-fly
+**Key characteristic:** Main type of agent that uses an LLM to drive the next action (historically)
 
-### macOS System Integration Patterns
+### Desktop Agent Harness (Non-CLI)
+**Evolution:** Extension of CLI agent patterns to desktop environments with easy-to-use interfaces
 
-**Screenshot automation:**
-- Uses `pyobjc-framework-Quartz` to enumerate system windows
-- Filters windows by title content to locate target applications
-- Extracts window IDs (e.g., integer identifiers like 153551)
-- Invokes `screencapture -x -o -l [window-id]` to capture specific windows
-- No prior instruction on this pattern observed—emergent behavior
+**Reference Implementation: OpenCoworker**
+- Open-source project extending aisuite to support agent harnesses
+- Demonstrates harness architecture for desktop agents
+- Code available for study of agentic harness patterns
 
-**Browser automation without traditional tools:**
-- Opens browsers (Safari, Firefox) using system commands
-- Does NOT use mouse automation or keyboard shortcuts directly
-- Instead: injects JavaScript into HTML pages to simulate user interactions
-- Example: Injected `KeyboardEvent` dispatch to trigger keyboard shortcuts programmatically
+**Use Cases:**
+- Messaging automation
+- Document creation
+- Workflow automation
+- Scheduled deliverables (e.g., daily news summaries)
+- Local file read/edit operations
 
-### JavaScript Injection for Testing
+### Frontier Model Capability Threshold
+**Historical Context:** "In the past few months, frontier LLMs have advanced sufficiently for this style of harness design to provide an important, if still not entirely reliable, alternative."
 
-Pattern observed: Modifying application templates to auto-trigger UI states:
-
-```javascript
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    document.dispatchEvent(new KeyboardEvent("keydown", {key: "/", bubbles: true}));
-  }, 1200);
-});
-```
-
-Delay timing (1.2s) suggests awareness of page load requirements.
-
-### Custom CORS Debugging Infrastructure
-
-When needing to extract runtime measurements from browser JavaScript:
-
-**Pattern:**
-1. Wrote minimal HTTP server using Python's `http.server` standard library
-2. Implemented CORS headers (`Access-Control-Allow-Origin: *`) for cross-origin POST
-3. Injected JavaScript into test pages to POST diagnostic data back to local server
-4. Server writes received JSON to `/tmp/diag.json` for analysis
-5. Entire debugging harness created autonomously
-
-**Code characteristics:**
-- Minimal viable implementation (8 LOC handler class)
-- Proper OPTIONS handling for CORS preflight
-- Suppressed logging (`log_message` override)
-- Single-purpose: receive and persist JSON data
-
-### Implications for Agent Architecture
-
-**Tool composition:** Fable demonstrates chaining of:
-- File system operations (template modification)
-- Process spawning (browser launches, dev servers)
-- System introspection (window enumeration)
-- Network services (HTTP server creation)
-- Code injection (JavaScript, HTML)
-
-**No explicit framework required:** All patterns implemented using:
-- Standard library tools
-- System CLI utilities
-- Direct file manipulation
-- Minimal custom code
-
-**Autonomous strategy selection:** Agent chose multi-pronged approach:
-1. Dependency examination
-2. Reproduction in isolation (scratch HTML)
-3. Observation via screenshots
-4. Runtime measurement via injected diagnostics
-5. Template modification for automated testing
-
-No human intervention observed during exploration phase.
-
-**Safety consideration:** Agent modified production application templates and opened local network servers autonomously. Pattern suggests need for [[agentic-workflows-production]] guardrails around:
-- Template/source code modification
-- Network service creation
-- Browser automation scope
-- System-level API access
+This suggests a capability threshold was crossed in early 2026 enabling broader LLM-driven agentic loops beyond just coding tasks.

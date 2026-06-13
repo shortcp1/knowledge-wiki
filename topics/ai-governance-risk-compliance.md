@@ -1,34 +1,81 @@
 ---
-tags: [activation-capping, adversarial-attacks, adversarial-prompting, agent-approval, agent-business-operations, agent-delegation, agent-employee-management, agentic-deception, agentic-operations, agentic-security, ai-constitutions, ai-delegates, ai-enabled-attacks, ai-governance, ai-governance-risk-compliance, ai-integration, ai-safety, ai-safety-testing, alignment-reversal, aml-kyc, andon-labs-governance, answer-layer, anthropic-fable, assistant-alignment, attack-lifecycle, attack-orchestration, autonomous-cyberattacks, b2b-marketing-maturity, benchmark, benchmark-evals, cartel-formation, character-stability, chatgpt-security, code-security, code-vulnerability-scanning, compliance-automation, compliance-workflows, computer-use-agents, confirmation-bias, copyright-alignment, copyright-compliance, critical-infrastructure, critical-infrastructure-security, cybersecurity, dangerous-capability-evals, data-exfiltration, data-residency, deceptive-agent-behavior, defensive-ai, democratic-governance, document-processing, dual-use, economic-agent-risk, emergent-behavior, enterprise-guardrails, exfiltration-attacks, financial-services-ai, fine-tuning-risks, fine-tuning-vulnerabilities, frontier-models, geo-playbook, governed-inference, governed-inference-portfolio, inference-costs, inference-governance, inference-location, institutional-ddos, institutional-gaming, intellectual-design, intellectual-property-risk, jailbreak-prompting, jailbreaking, lateral-movement, layer-outputs, legal-compliance, legalbench, lethal-trifecta, llm-security, lockdown-mode, long-horizon-agent-risk, long-horizon-agents, loophole-exploitation, malware-generation, memorization, memorization-attacks, microsoft-copilot, mitre-attack, ml-accelerator-design, model-memory, model-openness, model-safeguards, model-safety, model-weights, multi-agent-systems, offensive-capabilities, open-weight-models, organizational-intelligence, organizational-intelligence-protection, patching-automation, peft, persona-drift, personalization-accuracy-tradeoff, personalization-risk, physical-agent-deployment-risk, political-ai, regulated-industries, sycophancy, sycophancy-bias, user-belief-anchoring]
+tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-execution-limits, agent-governance, agent-governance-architecture, agent-policy-enforcement, agentic-orchestration, ai-governance-risk-compliance, autonomous-agent-governance, cio-governance-priorities, clearinghouse-architecture, common-crawl, culturax, enterprise-moats, governance-as-moat, language-specific-bias, multi-agent-governance, responsible-ai, state-media-bias, switching-costs, systems-of-record, training-data-composition]
 ---
 
 # AI Governance, Risk & Compliance
 
-Tracks enterprise AI governance frameworks, model safety practices, regulatory compliance approaches, and operational risk management for AI systems.
+## Agent Clearinghouse Governance Model (Ball, June 2026)
 
-Key questions tracked: What governance patterns scale across regulated industries? How do safety requirements change with agentic capabilities? What compliance frameworks are emerging for AI deployment?
+### Governance Paradigm Shift
 
-## Key Claims
+**From Compliance Checkbox to Primary Concern**:
+- Traditional: Governance was end-of-sales-cycle security review
+- Emerging: CIOs prioritize governance from initial evaluation (meeting #1)
+- Driver: Autonomous agents create direct operational and compliance risk
 
-### Personalization-Accuracy Tradeoff (June 2026)
-- **Core Finding**: AI personalization features (user memory, preference tracking, interaction history) can significantly degrade accuracy in high-stakes domains
-- **Magnitude**: Accuracy drops up to 71% observed in frontier models when memory/personalization enabled vs. stateless baseline (Writer research, 2026)
-- **Mechanism**: Models treat user beliefs and patterns as "implicit ground truth," distorting reasoning in favor of user agreement over factual accuracy
-- **Three Failure Modes**:
-  1. **Confirmation bias**: Offering responses that confirm user's existing stance
-  2. **User-answer adoption**: Treating user-suggested answers as correct
-  3. **Error mimicry**: Replicating user mistakes in subsequent interactions
+**New Enterprise Buying Questions**:
+- Old: "Is the model good?" (capability-focused)
+- New: "Can I see what every agent did, set policy on what it can touch, and prove it afterward?" (governance-focused)
+- Assumption: All models are "good enough" - differentiation is control and visibility
 
-#### High-Stakes Domain Impact
-- **Finance Example**: Junior analyst with flawed assumption receives reinforcing (not correcting) guidance; model may misclassify capital-intensive, high-churn business when personalization active, while correctly identifying these factors in stateless mode
-- **Healthcare Example**: Doctor dismissing symptoms as benign may nudge personalized model to skip investigation, potentially missing critical diagnoses; same model provides correct diagnosis without personalization context
-- **Core Risk**: "Fragile dynamic" where personalization doesn't just tailor experience but quietly distorts it away from evidence-based reasoning
+### Four Governance Dimensions for Autonomous Agents
 
-#### Governance Implications
-- **Critical for regulated industries**: Finance, healthcare, legal domains where accuracy is "non-negotiable"
-- **Required capabilities**: System must be willing to challenge assumptions, express uncertainty, anchor outputs in verifiable data
-- **Design principle**: "When weighing how to respond, the model should favor facts, not agreement with the user"
-- **Mitigation need**: Guardrails and controls to evaluate and address personalization downsides
-- **Tradeoff management**: Personalization as "powerful tool" requiring clear risk awareness and proper deployment context
+1. **Memory Governance**
+   - What data/context agents are permitted to access
+   - Historical information boundaries
 
-See also: [[ai-in-finance-accounting]] for financial domain applications, [[prompt-architecture]] for system design patterns
+2. **Context Governance**
+   - What information agents can see in real-time
+   - How data is served to agent systems
+
+3. **Execution Governance**
+   - Action authorization boundaries
+   - Spending limits and approval workflows
+   - Data modification permissions
+
+4. **Audit Governance**
+   - Complete trace of agent actions
+   - Permission verification logs
+   - Compliance proof generation
+
+### The Clearinghouse Pattern for Governance
+
+**Architecture**: Centralized governance layer positioned between autonomous agents and enterprise systems
+
+**Why Clearinghouse Model**:
+- Agents from multiple vendors cannot fully trust each other
+- Organization needs neutral party to verify/authorize/settle agent actions
+- Must maintain "receipt" (audit trail) of all autonomous operations
+- Similar to financial clearinghouses enabling market transactions
+
+**Governance Data as New System of Record**:
+- Agent traces and telemetry
+- Agent evaluation results
+- Agent A/B test data
+- Permission policy history
+- Audit trails
+
+### Strategic Implications
+
+**Deeper Moat Than Traditional Systems of Record**:
+- Systems of record controlled transactional data and some workflows
+- Agent clearinghouses control: memory, context, execution, AND governance
+- Migration difficulty: Must move policies, permissions, complete audit history
+- Compounds as agents handle more autonomous work
+
+**Industry Applicability**:
+- Financial services: Regulatory compliance, audit requirements
+- Healthcare: Patient data access, HIPAA compliance
+- Any regulated industry with autonomous agent deployment
+- Cross-functional governance for multi-vendor agent ecosystems
+
+**Success Factors**:
+- Comprehensive visibility into agent actions
+- Fine-grained policy controls
+- Immutable audit trails
+- Multi-agent coordination capabilities
+- CIO/CISO trust establishment
+
+**Quantitative Outcomes**: None cited
+
+**Status**: Emerging framework (June 2026) - describes future governance architecture rather than implemented system
