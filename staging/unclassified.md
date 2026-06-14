@@ -629,3 +629,7 @@ Anthropic reports observing an 8x increase in lines of code merged into their co
 The Anthropic data represents preliminary evidence for prosaic RSI—productivity gains at the organizational level from AI assistance, rather than full autonomous successor design. Author notes this evidence is not conclusive.
 
 Source: Jack Clark, Import AI 460 (2026-06-08)
+
+---
+**Cursor Fits Its Model To Its Agent** (The Batch (DeepLearning.AI), 2026-06-14T02:00:47.095486+00:00)
+**Business Development Note**: SpaceX obtained rights in April 2026 to either acquire Cursor for $60 billion or pay $10 billion for joint work as part of broader partnership. This represents significant corporate investment in AI coding tools but falls outside technical scope of existing topics.

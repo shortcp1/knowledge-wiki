@@ -17194,6 +17194,349 @@
       ],
       "status": "skipped",
       "skip_reason": "No article content provided - only Google cookie consent page text was included, making substantive evaluation impossible."
+    },
+    "https://www.deeplearning.ai/the-batch/apple-builds-local-cloud-models-with-google": {
+      "title": "Apple Builds Local Cloud Models With Google",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-14T02:00:47.327462+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "multimodal-models",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "Apple is partnering with Google to rebuild Siri using distilled versions of Gemini models that run locally on devices, while routing complex queries to cloud-hosted Gemini. Google also released Gemma 4 12B, a laptop-sized multimodal model with encoder-free architecture that processes images and audio directly through lightweight embedding layers. The article also covers the first AI-designed vaccine entering human trials and Moonshot AI's new software engineering agent.",
+      "tags": [
+        "on-device-inference",
+        "model-distillation",
+        "encoder-free-architecture",
+        "multimodal-processing",
+        "gemini",
+        "gemma"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief newsletter-style coverage of multiple topics without original analysis or deep technical insight; primarily reports announcements rather than providing novel frameworks or detailed mechanisms."
+    },
+    "https://www.deeplearning.ai/the-batch/cursor-fits-its-model-to-its-agent": {
+      "title": "Cursor Fits Its Model To Its Agent",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-14T02:00:47.095486+00:00",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-engineering-agents",
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "post-training-rlhf"
+      ],
+      "content_type": "technical",
+      "summary": "Cursor's Composer 2.5, built on Moonshot's Kimi K2.5 open-weights model, rivals GPT-5.5 and Claude Opus 4.7 in coding abilities while being significantly cheaper and faster. The model uses specialized training including additional code pretraining, RL fine-tuning with text feedback in a simulated agentic harness matching Cursor's own tools, and 25x more synthetic difficult tasks than its predecessor. This demonstrates how vertical AI companies can achieve competitive performance by optimizing base models for specific agentic workflows and tool environments rather than relying solely on frontier general-purpose models.",
+      "tags": [
+        "mixture-of-experts",
+        "agentic-coding",
+        "reinforcement-learning-from-feedback",
+        "synthetic-data-generation",
+        "context-caching",
+        "tool-calling",
+        "open-weights-fine-tuning"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/behold-mythos": {
+      "title": "Behold Mythos",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-14T02:00:46.907452+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-governance-risk-compliance",
+        "inference-efficiency",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "Anthropic released Claude Mythos 5 (unrestricted) and Claude Fable 5 (with safety guardrails) that set new benchmarks in coding, knowledge work, and cybersecurity while implementing unprecedented content filtering. Claude Fable 5 uses safety classifiers to flag prompts related to security, biology, chemistry, and AI development, either refusing to respond or routing them to a less capable model (Claude Opus 4.8). The release represents a new approach to model deployment where identical underlying models are differentiated by safety layers rather than capability degradation.",
+      "tags": [
+        "safety-classifiers",
+        "adaptive-reasoning",
+        "model-alignment",
+        "content-filtering",
+        "dual-deployment",
+        "cybersecurity-capabilities"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a surface-level product announcement with minimal technical detail about architecture, training methods, or novel mechanisms; lacks original analysis or research depth despite covering relevant AI safety topics."
+    },
+    "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything": {
+      "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+      "source": "Simon Willison",
+      "date": "2026-06-13T23:55:18+00:00",
+      "composite": 4.67,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article reports that Pyodide now supports publishing WASM wheels directly to PyPI (as of release 314.0), eliminating the previous bottleneck where maintainers had to manually build and host packages. The author demonstrates this by creating luau-wasm, a PyPI package containing a WebAssembly-compiled Lua variant, and queries BigQuery to find 28 packages currently using the new pyemscripten platform tags. This matters for Python-in-browser workflows by enabling easier distribution of compiled extensions, though it primarily impacts web-based Python tooling rather than core AI infrastructure.",
+      "tags": [
+        "pyodide",
+        "webassembly",
+        "wasm",
+        "python-packaging",
+        "pypi",
+        "browser-runtime"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on Python packaging infrastructure for browser environments (Pyodide/WASM) with no connection to AI systems, enterprise AI deployment, or any of the specified topic areas."
+    },
+    "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything": {
+      "title": "luau-wasm 0.1a0",
+      "source": "Simon Willison",
+      "date": "2026-06-13T23:14:30+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for luau-wasm 0.1a0, a package that makes the Luau programming language available as a WebAssembly wheel for use with Pyodide. The announcement provides minimal technical detail beyond referencing a separate article about publishing WASM wheels to PyPI. This represents a packaging and distribution mechanism for a scripting language in browser environments, but contains no analysis, novel claims, or direct relevance to AI/ML systems.",
+      "tags": [
+        "webassembly",
+        "pyodide",
+        "luau",
+        "python-packaging"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief release announcement with no original analysis; not relevant to specified AI, enterprise AI, or semiconductor topic areas."
+    },
+    "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything": {
+      "title": "Mapping SQLite result columns back to their source `table.column`",
+      "source": "Simon Willison",
+      "date": "2026-06-13T23:05:00+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article describes a technical exploration to map SQL query result columns back to their source tables in SQLite for the Datasette tool. The author used Claude Code (Opus 4.8) to discover solutions including using the apsw library, ctypes to access SQLite C functions, or parsing EXPLAIN output. This is a narrow database tooling problem focused on improving query result presentation in a specific open-source project.",
+      "tags": [
+        "sqlite",
+        "datasette",
+        "database-metadata",
+        "query-analysis",
+        "python-ctypes"
+      ],
+      "status": "skipped",
+      "skip_reason": "Narrow database tooling implementation detail with no relevance to AI/ML infrastructure, enterprise AI applications, or any of the specified topic areas."
+    },
+    "https://www.latent.space/p/ainews-fable-and-mythos-officially": {
+      "title": "[AINews] Fable and Mythos officially too dangerous to release",
+      "source": "Latent Space",
+      "date": "2026-06-13T04:30:52+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic suspended access to its Fable 5 and Mythos 5 models worldwide after US government export control directives citing national security concerns over a potential jailbreak, though Anthropic disputes the technical legitimacy of the claims. The incident demonstrates that frontier AI models accessed via closed APIs can be abruptly revoked due to geopolitical factors, triggering downstream disruptions across products like Devin and Agent Arena. This event has reframed vendor dependence as a 'model sovereignty' risk for enterprises and highlighted the geopolitical vulnerability of relying on single frontier API providers.",
+      "tags": [
+        "export-controls",
+        "model-sovereignty",
+        "jailbreak",
+        "vendor-lock-in",
+        "api-reliability"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a news roundup summarizing recent events without original analysis or technical depth; primarily reports on regulatory actions and community reactions rather than providing novel frameworks or insights."
+    },
+    "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/": {
+      "title": "Inside interoception: The hidden sense of how you feel inside",
+      "source": "MIT Technology Review",
+      "date": "2026-06-12T09:00:00+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article explains interoception, the sense of internal bodily signals (heartbeat, gut feelings, breathing), tracing its history from Charles Sherrington's 1906 coining through recent research by Damasio and Craig. It describes how the brain processes millions of bits of sensory data per second but only brings a tiny fraction to conscious awareness, creating an internal body map similar to a starship's status display. The piece suggests this field has implications for treating conditions like obesity, chronic pain, and anxiety, though it does not detail these mechanisms.",
+      "tags": [
+        "interoception",
+        "neuroscience",
+        "sensory-processing",
+        "consciousness",
+        "body-brain-interface"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers neuroscience and human perception, which do not map to any of the specified AI, enterprise technology, semiconductor, or business topics in the knowledge wiki's scope."
+    },
+    "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/": {
+      "title": "Inside soccer\u2019s data renaissance",
+      "source": "MIT Technology Review",
+      "date": "2026-06-11T10:00:00+00:00",
+      "composite": 3.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article profiles Jesse Davis and KU Leuven's Sports Analytics Lab, which applies machine learning models to soccer to uncover tactical insights like the counterintuitive value of kicking the ball out of bounds near the opponent's goal. The lab used tree ensemble models trained on 1.4 million passes and 60,000 throw-ins to demonstrate that this tactic can position teams within 10 actions of scoring. While illustrating data-driven decision-making in sports, this represents a domain-specific application that doesn't directly address any of the specified AI/tech industry focus areas.",
+      "tags": [
+        "sports-analytics",
+        "tree-ensemble-models",
+        "tactical-optimization",
+        "academic-research",
+        "open-source-tools"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on sports analytics applications rather than semiconductor supply chains, AI infrastructure, enterprise AI adoption, or other specified technology industry topics."
+    },
+    "https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/": {
+      "title": "Why China is betting on big nuclear reactors",
+      "source": "MIT Technology Review",
+      "date": "2026-06-11T10:00:00+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article contrasts China's rapid construction of large-scale nuclear reactors (nearly doubling capacity since 2016) with the US focus on smaller, experimental reactors including microreactors. China achieves 5-7 year build times through standardization while US projects take 15 years, with China on track to overtake US nuclear capacity by 2030. The piece frames this as a strategic choice between proven large-scale reactors versus experimental small modular reactors for meeting electricity demand.",
+      "tags": [
+        "nuclear-energy",
+        "infrastructure-construction",
+        "china-energy-policy",
+        "small-modular-reactors",
+        "energy-grid"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on nuclear energy policy and infrastructure development with no connection to AI, semiconductors, or enterprise software topics in the specified relevance areas."
+    },
+    "https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODM5OTQ0NDMsImlhdCI6MTc4MTQwMjQ0MywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.oCIImMEOHCTVblqW1FyRZXS_WQD07PPJvIKo3276BogvI8MN9S1S7rtDF74lzzZLr9yMs37cGmk8da6Wjb1FARkiRo9UwwGK28rZG8dwLOXUR83dkdskGQUVpeinwWAQDbn2jCTG7bpjrcnBV5304W76d3rUuvCi7mrPslPFCu8_48VkkqRNjIC_SX-uu2i5-j-I27DUjrDA3Lzp3klHjpU49Z2PPXamBmGqNZyL4yxVDKD4yyYymMy5x40fp2vdG0VPCxaCc3mSLbv4MsitO_bB9nD0qqbs9MoRKJ1vBosiiZ3s6h5Fohmod-E33gs3iChXShSgZuQNMS5lCb_lMQ": {
+      "title": "The iPhone\u2019s Last Stand",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-09T10:00:00+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "ai-native-product-design",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "Ben Thompson argues that Apple's new Siri AI, while behind state-of-the-art capabilities (lacking true agentic functionality), is sufficient for consumer markets because it works reliably for common use cases like setting reminders and answering queries. He contrasts this with Microsoft's Project Solara vision of thin-client devices that act as portals to cloud-based agents, highlighting the paradigm shift from interaction-heavy computing to agent-based task completion. The key insight is that Apple's market advantage comes from serving consumers who need functional AI rather than cutting-edge capabilities, while the broader industry moves toward server-side inference and agentic workflows.",
+      "tags": [
+        "consumer-ai",
+        "thin-client-architecture",
+        "server-side-inference",
+        "agent-paradigm",
+        "device-ecosystem",
+        "interaction-paradigm"
+      ],
+      "status": "integrated"
+    },
+    "https://www.bain.com/insights/events/winning-with-ai/": {
+      "title": "Winning With Ai",
+      "source": "Bain Insights",
+      "date": "2026-06-14T02:00:48.875740+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a landing page or navigation structure for Bain & Company's consulting services and insights. No actual substantive content about AI strategy, implementation, or analysis is present in the provided text. The text consists entirely of website navigation menus, office locations, and structural elements.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "No substantive article content provided - only website navigation structure and menu items without any actual analysis, arguments, or insights about AI."
+    },
+    "https://www.lennysnewsletter.com/p/community-wisdom-how-ai-is-changing": {
+      "title": "\ud83e\udde0 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-13T20:54:15+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-in-marketing-content"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a community newsletter digest that mentions AI's impact on product operating models and side projects in passing, but provides no actual analysis or substantive content on these topics. The article is primarily event announcements, meetup schedules, and community updates for Lenny's Newsletter subscribers. It contains no original research, data, frameworks, or actionable insights about AI or any other substantive topic.",
+      "tags": [
+        "community-newsletter",
+        "product-management",
+        "networking-events"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest with only surface-level topic mentions and no substantive analysis, research, or actionable insights on AI or other relevant topics."
+    },
+    "https://www.exponentialview.co/p/would-anyone-vote-for-01-growth": {
+      "title": "\u203c\ufe0f A blueprint for managed decline",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-06-13T10:42:44+00:00",
+      "composite": 2.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This article critiques Thomas Piketty's Global Justice Report, which proposes limiting growth in wealthy nations to 0-0.5% annually while poorer countries catch up, funded by steep wealth and income taxes. The author argues the proposal has nine fundamental flaws including misreading economic history, using discredited climate models (RCP 8.5), and being politically implausible as it would require 18 consecutive US electorates to accept near-zero growth. The critique emphasizes that the proposal ignores technology learning curves, trade dynamics, and the democratic implausibility of managed economic stagnation.",
+      "tags": [
+        "economic-growth",
+        "wealth-taxation",
+        "climate-modeling",
+        "rcp-8.5",
+        "degrowth",
+        "global-inequality"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on macroeconomic policy and climate modeling critique with no connection to AI, semiconductor supply chains, or any of the specified technology/business topics."
+    },
+    "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOai1PYmdwZENTbU15cUtqX0p5LXJDTHlnUkw1ZjlZamJwcXZhOHdOR0VtaXFHTk1lZVE1WTRyYnR1N2xhS1U2clRIMnlNYUk5cV9qa3NtdFkxYlE1WTNBcVVlYVd3ekVOLWdJWWxlYXFpd3U4Y3RZN2F1YWJIWWZCWGloWUVfUlo5SEtuanE3QUY4WHVQU3lpeklZTlR2V0JzcWdpSXZpUi1aNFcyYlAtSDlZSk9OaGNzV3hFWFJ0Rklpa2xiQ0RmcWY2LS1sa2k5cF9nanh3NW5tQQ?oc=5": {
+      "title": "UAE-based Algebra AI raises US$7 million to close the GCC mid-market's AI deployment gap - MSN",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-12T20:25:15+00:00",
+      "composite": 3.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article appears to report on Algebra AI, a UAE-based company raising $7 million to address AI deployment challenges for mid-market companies in the GCC region. However, the actual article content is blocked by a Google cookie consent page, preventing access to the substantive reporting on their approach, technology, or market strategy. Without the actual content, it's impossible to evaluate the quality of analysis, novelty of insights, or specific relevance to AI deployment practices.",
+      "tags": [
+        "gcc-region",
+        "mid-market-deployment",
+        "ai-funding",
+        "regional-ai-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content inaccessible due to cookie consent wall; only headline visible, preventing meaningful evaluation of depth, novelty, or substantive relevance."
     }
   }
 }

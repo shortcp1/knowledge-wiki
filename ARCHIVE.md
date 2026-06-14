@@ -705,7 +705,58 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-14
+
+**✗ 1.7** — [Winning With Ai](https://www.bain.com/insights/events/winning-with-ai/)  
+*Bain Insights* · 
+> The article appears to be a landing page or navigation structure for Bain & Company's consulting services and insights. No actual substantive content about AI strategy, implementation, or analysis is present in the provided text. The text consists entirely of website navigation menus, office locations, and structural elements.
+
+**✗ 4.7** — [Apple Builds Local Cloud Models With Google](https://www.deeplearning.ai/the-batch/apple-builds-local-cloud-models-with-google)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · multimodal-models
+#on_device_inference #model_distillation #encoder_free_architecture #multimodal_processing
+> Apple is partnering with Google to rebuild Siri using distilled versions of Gemini models that run locally on devices, while routing complex queries to cloud-hosted Gemini. Google also released Gemma 4 12B, a laptop-sized multimodal model with encoder-free architecture that processes images and audio directly through lightweight embedding layers. The article also covers the first AI-designed vaccine entering human trials and Moonshot AI's new software engineering agent.
+
+**✓ 7.7** — [Cursor Fits Its Model To Its Agent](https://www.deeplearning.ai/the-batch/cursor-fits-its-model-to-its-agent)  
+*The Batch (DeepLearning.AI)* · model-architecture · ai-engineering-agents · inference-efficiency
+#mixture_of_experts #agentic_coding #reinforcement_learning_from_feedback #synthetic_data_generation
+> Cursor's Composer 2.5, built on Moonshot's Kimi K2.5 open-weights model, rivals GPT-5.5 and Claude Opus 4.7 in coding abilities while being significantly cheaper and faster. The model uses specialized training including additional code pretraining, RL fine-tuning with text feedback in a simulated agentic harness matching Cursor's own tools, and 25x more synthetic difficult tasks than its predecessor. This demonstrates how vertical AI companies can achieve competitive performance by optimizing base models for specific agentic workflows and tool environments rather than relying solely on frontier general-purpose models.
+
+**✗ 5.7** — [Behold Mythos](https://www.deeplearning.ai/the-batch/behold-mythos)  
+*The Batch (DeepLearning.AI)* · model-architecture · ai-governance-risk-compliance · inference-efficiency
+#safety_classifiers #adaptive_reasoning #model_alignment #content_filtering
+> Anthropic released Claude Mythos 5 (unrestricted) and Claude Fable 5 (with safety guardrails) that set new benchmarks in coding, knowledge work, and cybersecurity while implementing unprecedented content filtering. Claude Fable 5 uses safety classifiers to flag prompts related to security, biology, chemistry, and AI development, either refusing to respond or routing them to a less capable model (Claude Opus 4.8). The release represents a new approach to model deployment where identical underlying models are differentiated by safety layers rather than capability degradation.
+
 ## 2026-06-13
+
+**✗ 4.7** — [Publishing WASM wheels to PyPI for use with Pyodide](https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything)  
+*Simon Willison* · 
+#pyodide #webassembly #wasm #python_packaging
+> This article reports that Pyodide now supports publishing WASM wheels directly to PyPI (as of release 314.0), eliminating the previous bottleneck where maintainers had to manually build and host packages. The author demonstrates this by creating luau-wasm, a PyPI package containing a WebAssembly-compiled Lua variant, and queries BigQuery to find 28 packages currently using the new pyemscripten platform tags. This matters for Python-in-browser workflows by enabling easier distribution of compiled extensions, though it primarily impacts web-based Python tooling rather than core AI infrastructure.
+
+**✗ 2.3** — [luau-wasm 0.1a0](https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything)  
+*Simon Willison* · 
+#webassembly #pyodide #luau #python_packaging
+> This is a brief release announcement for luau-wasm 0.1a0, a package that makes the Luau programming language available as a WebAssembly wheel for use with Pyodide. The announcement provides minimal technical detail beyond referencing a separate article about publishing WASM wheels to PyPI. This represents a packaging and distribution mechanism for a scripting language in browser environments, but contains no analysis, novel claims, or direct relevance to AI/ML systems.
+
+**✗ 2.0** — [Mapping SQLite result columns back to their source `table.column`](https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything)  
+*Simon Willison* · 
+#sqlite #datasette #database_metadata #query_analysis
+> The article describes a technical exploration to map SQL query result columns back to their source tables in SQLite for the Datasette tool. The author used Claude Code (Opus 4.8) to discover solutions including using the apsw library, ctypes to access SQLite C functions, or parsing EXPLAIN output. This is a narrow database tooling problem focused on improving query result presentation in a specific open-source project.
+
+**✗ 2.3** — [🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more](https://www.lennysnewsletter.com/p/community-wisdom-how-ai-is-changing)  
+*Lenny's Newsletter* · ai-in-product-and-engineering · ai-in-marketing-content
+#community_newsletter #product_management #networking_events
+> This is a community newsletter digest that mentions AI's impact on product operating models and side projects in passing, but provides no actual analysis or substantive content on these topics. The article is primarily event announcements, meetup schedules, and community updates for Lenny's Newsletter subscribers. It contains no original research, data, frameworks, or actionable insights about AI or any other substantive topic.
+
+**✗ 2.7** — [‼️ A blueprint for managed decline](https://www.exponentialview.co/p/would-anyone-vote-for-01-growth)  
+*Exponential View (Azeem Azhar)* · 
+#economic_growth #wealth_taxation #climate_modeling #rcp_8.5
+> This article critiques Thomas Piketty's Global Justice Report, which proposes limiting growth in wealthy nations to 0-0.5% annually while poorer countries catch up, funded by steep wealth and income taxes. The author argues the proposal has nine fundamental flaws including misreading economic history, using discredited climate models (RCP 8.5), and being politically implausible as it would require 18 consecutive US electorates to accept near-zero growth. The critique emphasizes that the proposal ignores technology learning curves, trade dynamics, and the democratic implausibility of managed economic stagnation.
+
+**✗ 4.7** — [[AINews] Fable and Mythos officially too dangerous to release](https://www.latent.space/p/ainews-fable-and-mythos-officially)  
+*Latent Space* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
+#export_controls #model_sovereignty #jailbreak #vendor_lock_in
+> Anthropic suspended access to its Fable 5 and Mythos 5 models worldwide after US government export control directives citing national security concerns over a potential jailbreak, though Anthropic disputes the technical legitimacy of the claims. The incident demonstrates that frontier AI models accessed via closed APIs can be abruptly revoked due to geopolitical factors, triggering downstream disruptions across products like Devin and Agent Arena. This event has reframed vendor dependence as a 'model sovereignty' risk for enterprises and highlighted the geopolitical vulnerability of relying on single frontier API providers.
 
 **✗ 5.0** — [Anthropic Public Record](https://www.anthropic.com/news/anthropic-public-record)  
 *Anthropic Blog* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
@@ -759,6 +810,11 @@ All articles scanned since the wiki started. Updated nightly.
 #webrtc #realtime_audio #gpt_realtime_2 #document_context
 > Simon Willison updated his WebRTC audio playground tool to support OpenAI's new GPT-Realtime-2 model, which offers GPT-5-class reasoning for voice interactions, and added the ability to paste document context for conversational exploration. The tool demonstrates practical implementation of OpenAI's realtime audio API with document grounding capabilities. This represents an incremental improvement to developer tooling for testing multimodal voice interfaces.
 
+**✗ 3.3** — [UAE-based Algebra AI raises US$7 million to close the GCC mid-market's AI deployment gap - MSN](https://news.google.com/rss/articles/CBMi2gFBVV95cUxOai1PYmdwZENTbU15cUtqX0p5LXJDTHlnUkw1ZjlZamJwcXZhOHdOR0VtaXFHTk1lZVE1WTRyYnR1N2xhS1U2clRIMnlNYUk5cV9qa3NtdFkxYlE1WTNBcVVlYVd3ekVOLWdJWWxlYXFpd3U4Y3RZN2F1YWJIWWZCWGloWUVfUlo5SEtuanE3QUY4WHVQU3lpeklZTlR2V0JzcWdpSXZpUi1aNFcyYlAtSDlZSk9OaGNzV3hFWFJ0Rklpa2xiQ0RmcWY2LS1sa2k5cF9nanh3NW5tQQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-b2b-saas · funding-and-market-structure
+#gcc_region #mid_market_deployment #ai_funding #regional_ai_adoption
+> The article appears to report on Algebra AI, a UAE-based company raising $7 million to address AI deployment challenges for mid-market companies in the GCC region. However, the actual article content is blocked by a Google cookie consent page, preventing access to the substantive reporting on their approach, technology, or market strategy. Without the actual content, it's impossible to evaluate the quality of analysis, novelty of insights, or specific relevance to AI deployment practices.
+
 **✗ 3.0** — [Quoting Andrew Singleton](https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything)  
 *Simon Willison* · funding-and-market-structure
 #ai_investment #circular_revenue #valuation_inflation #funding_structure
@@ -803,6 +859,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · 
 #cellular_reprogramming #biotech_aging #clinical_trials #longevity_research
 > The article reports that cellular reprogramming is becoming the dominant approach in anti-aging research, with Life Biosciences dosing its first human patient with glaucoma. It traces how the field has shifted focus from telomere attrition to senescent cells to reprogramming, noting funding trends and mixed clinical results. The piece is a broad overview of aging research trends rather than technical analysis relevant to AI/ML domains.
+
+**✗ 2.0** — [Inside interoception: The hidden sense of how you feel inside](https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/)  
+*MIT Technology Review* · 
+#interoception #neuroscience #sensory_processing #consciousness
+> This article explains interoception, the sense of internal bodily signals (heartbeat, gut feelings, breathing), tracing its history from Charles Sherrington's 1906 coining through recent research by Damasio and Craig. It describes how the brain processes millions of bits of sensory data per second but only brings a tiny fraction to conscious awareness, creating an internal body map similar to a starship's status display. The piece suggests this field has implications for treating conditions like obesity, chronic pain, and anxiety, though it does not detail these mechanisms.
 
 **✗ 5.3** — [[AINews] Loopcraft: The Art of Stacking Loops](https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking)  
 *Latent Space* · agentic-workflows-production · ai-engineering-agents · prompt-architecture
@@ -889,6 +950,16 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · agentic-workflows-production · ai-governance-risk-compliance · lab-dynamics
 #multi_agent_systems #ai_safety_research #prompt_injection #agent_deployment
 > Google DeepMind is funding $10 million in research to study safety risks from millions of AI agents interacting, as they anticipate mass deployment within months. The key concerns are supercharged versions of existing internet harms (scams, prompt injections, cyberattacks) that emerge from complex multi-agent interactions at scale, requiring simulation-based research since single-agent studies won't capture emergent behaviors. This matters because it represents proactive safety research from a leading lab that's simultaneously pushing agent deployment, though the funding is modest compared to development budgets.
+
+**✗ 2.0** — [Why China is betting on big nuclear reactors](https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/)  
+*MIT Technology Review* · 
+#nuclear_energy #infrastructure_construction #china_energy_policy #small_modular_reactors
+> The article contrasts China's rapid construction of large-scale nuclear reactors (nearly doubling capacity since 2016) with the US focus on smaller, experimental reactors including microreactors. China achieves 5-7 year build times through standardization while US projects take 15 years, with China on track to overtake US nuclear capacity by 2030. The piece frames this as a strategic choice between proven large-scale reactors versus experimental small modular reactors for meeting electricity demand.
+
+**✗ 3.7** — [Inside soccer’s data renaissance](https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/)  
+*MIT Technology Review* · 
+#sports_analytics #tree_ensemble_models #tactical_optimization #academic_research
+> The article profiles Jesse Davis and KU Leuven's Sports Analytics Lab, which applies machine learning models to soccer to uncover tactical insights like the counterintuitive value of kicking the ball out of bounds near the opponent's goal. The lab used tree ensemble models trained on 1.4 million passes and 60,000 throw-ins to demonstrate that this tactic can position teams within 10 actions of scoring. While illustrating data-driven decision-making in sports, this represents a domain-specific application that doesn't directly address any of the specified AI/tech industry focus areas.
 
 **✗ 4.3** — [Job titles of the future: Nature’s drug designer](https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/)  
 *MIT Technology Review* · model-architecture
@@ -1168,6 +1239,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
 #siri #agentic_computing #thin_client #server_side_inference
 > The article argues that Apple's new Siri AI, while behind the state-of-the-art in capabilities, may be 'good enough' for consumer markets, contrasting with Microsoft's Project Solara vision of cloud-based agent ecosystems accessed through thin client devices. The key mechanism is the shift from interaction-heavy computing (where Apple's iPhone excels) to agent-based computing that requires minimal user interaction but heavy server-side inference. This matters because it suggests a potential paradigm shift away from Apple's traditional strength in device-centric computing toward cloud-based agentic workflows, though Apple's consumer focus may insulate it from needing cutting-edge agent capabilities.
+
+**✓ 7.0** — [The iPhone’s Last Stand](https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODM5OTQ0NDMsImlhdCI6MTc4MTQwMjQ0MywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.oCIImMEOHCTVblqW1FyRZXS_WQD07PPJvIKo3276BogvI8MN9S1S7rtDF74lzzZLr9yMs37cGmk8da6Wjb1FARkiRo9UwwGK28rZG8dwLOXUR83dkdskGQUVpeinwWAQDbn2jCTG7bpjrcnBV5304W76d3rUuvCi7mrPslPFCu8_48VkkqRNjIC_SX-uu2i5-j-I27DUjrDA3Lzp3klHjpU49Z2PPXamBmGqNZyL4yxVDKD4yyYymMy5x40fp2vdG0VPCxaCc3mSLbv4MsitO_bB9nD0qqbs9MoRKJ1vBosiiZ3s6h5Fohmod-E33gs3iChXShSgZuQNMS5lCb_lMQ)  
+*Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
+#consumer_ai #thin_client_architecture #server_side_inference #agent_paradigm
+> Ben Thompson argues that Apple's new Siri AI, while behind state-of-the-art capabilities (lacking true agentic functionality), is sufficient for consumer markets because it works reliably for common use cases like setting reminders and answering queries. He contrasts this with Microsoft's Project Solara vision of thin-client devices that act as portals to cloud-based agents, highlighting the paradigm shift from interaction-heavy computing to agent-based task completion. The key insight is that Apple's market advantage comes from serving consumers who need functional AI rather than cutting-edge capabilities, while the broader industry moves toward server-side inference and agentic workflows.
 
 **✗ 1.7** — [Algebra AI launches with a $7mln round to bring AI operations to mid-market businesses - ZAWYA](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVWs0SndGZThSN2pJVTBUOW9vQ00yRXctMDVmTDN3eVQ5RTBfanYzV0xfVG9kYWlkSExaQ09tWVo3UHpPejBNRGpGZkVhZklhUHN6RFNKMXkxMXNtQk1ZUzcxalliZDN6ZHczNGRqZUVWbk5tRUFOd0Vzc25FUHc5VzY0OEMwTjVVMURRd3pSNWExeTUyX1NXRVFLYWlDRVZ3NjNORFQ2dGtiMUhuT25TODJVWG5GcWlTSWU1SnFMTmc2cjhXVmhuWE5vLUQtNDBpeURsVE9XOFBiVmpEc05COVVR?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-operations · build-vs-buy-enterprise-ai
