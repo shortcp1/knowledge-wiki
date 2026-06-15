@@ -17537,6 +17537,299 @@
       ],
       "status": "skipped",
       "skip_reason": "Article content inaccessible due to cookie consent wall; only headline visible, preventing meaningful evaluation of depth, novelty, or substantive relevance."
+    },
+    "https://www.deeplearning.ai/the-batch/pharmaceutical-kingpin-eli-lilly-gave-insilico-2-75-billion-for-ai-driven-drug-development": {
+      "title": "Pharmaceutical Kingpin Eli Lilly Gave Insilico 2 75 Billion For Ai Driven Drug Development",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-15T02:00:55.006148+00:00",
+      "composite": 4.67,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Eli Lilly agreed to pay up to $2.75 billion to Insilico Medicine for exclusive rights to AI-discovered drugs, marking one of the largest AI-pharma deals to date. Insilico uses proprietary generative models (PandaOmics for target identification and Chemistry42 for molecule design) to reduce drug discovery timelines from 5-6 years to 18 months while screening far fewer compounds than traditional methods. This represents a major validation of AI in pharmaceutical development, though the article primarily reports the deal and describes existing Insilico capabilities rather than presenting novel technical insights.",
+      "tags": [
+        "drug-discovery",
+        "generative-ai-pharma",
+        "molecular-design",
+        "protein-target-identification",
+        "clinical-trials",
+        "insilico-medicine"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily a business deal announcement in pharmaceutical AI that does not map to any of the specified AI/ML technical or enterprise topics focused on software, semiconductors, or typical business functions like sales, marketing, or operations."
+    },
+    "https://www.deeplearning.ai/the-batch/most-states-are-regulating-ai-despite-president-trumps-opposition-to-state-level-laws": {
+      "title": "Most States Are Regulating Ai Despite President Trumps Opposition To State Level Laws",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-15T02:00:55.006100+00:00",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports that over 40 U.S. states are enacting AI regulations despite Trump administration efforts to favor national-level legislation, with more than 1,500 bills under consideration and 100+ existing laws. It provides a state-by-state breakdown of regulatory approaches, including California's comprehensive privacy and watermarking requirements, Colorado's high-risk system discrimination protections, Minnesota's deepfake and healthcare restrictions, and New York's model-maker protocols. This creates a complex patchwork of compliance requirements that developers must navigate across different jurisdictions.",
+      "tags": [
+        "state-level-regulation",
+        "algorithmic-discrimination",
+        "deepfakes",
+        "ai-watermarking",
+        "high-risk-ai-systems",
+        "compliance-patchwork"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level summary of state AI legislation without original analysis, novel frameworks, or technical depth beyond cataloging existing laws"
+    },
+    "https://www.deeplearning.ai/the-batch/with-muse-spark-meta-pivots-away-from-its-open-weights-llama-strategy": {
+      "title": "With Muse Spark Meta Pivots Away From Its Open Weights Llama Strategy",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-15T02:00:55.006018+00:00",
+      "composite": 6.0,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "multimodal-models",
+        "inference-time-compute",
+        "lab-dynamics"
+      ],
+      "content_type": "technical",
+      "summary": "Meta announced Muse Spark, its first closed model after a year of focus on open-weights Llama models, featuring natively multimodal reasoning with three reasoning modes and multi-agent orchestration. The model achieves competitive performance with 10x less training compute than Llama 4 through architectural changes including 'thought compression' post-training that penalizes excessive reasoning tokens and parallel multi-agent contemplation mode. This represents a strategic pivot for Meta from open to closed models, with strong multimodal and health performance but acknowledged gaps in coding and agentic tasks.",
+      "tags": [
+        "thought-compression",
+        "multi-agent-orchestration",
+        "reasoning-modes",
+        "training-efficiency",
+        "multimodal-reasoning",
+        "open-weights-pivot"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything": {
+      "title": "Why AI hasn\u2019t replaced software engineers, and won\u2019t",
+      "source": "Simon Willison",
+      "date": "2026-06-14T23:54:11+00:00",
+      "composite": 6.33,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that AI will not cause mass software engineer unemployment because coding speed is not the bottleneck in software development. It cites evidence from New York's WARN Act AI disclosure data showing zero AI-related layoffs in the first year, and identifies three real bottlenecks: deciding what to build, verification and accountability, and deep human understanding of codebases and business context. This matters because it reframes the AI disruption narrative from job replacement to productivity augmentation, particularly in a profession considered highly vulnerable to automation.",
+      "tags": [
+        "software-engineering-automation",
+        "ai-unemployment",
+        "developer-productivity",
+        "warn-act-disclosure",
+        "human-accountability",
+        "codebase-understanding"
+      ],
+      "status": "integrated"
+    },
+    "https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance": {
+      "title": "Welcome to the AGI era of AI governance",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "2026-06-14T17:43:42+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that the U.S. government forcing Anthropic to shut down access to Claude 5 Mythos/Fable models marks the beginning of a new AGI-era governance regime characterized by export restrictions and political intervention in AI deployment. The key evidence includes the government's emergency action triggered by Amazon (Anthropic's partner) reporting cybersecurity concerns, combined with political dynamics that suggest targeted treatment of Anthropic influenced by their own past messaging around AI risk. This matters because it establishes a precedent for direct government intervention in frontier AI model deployment, creates regulatory uncertainty that could destabilize the AI industry economically, and reveals complex dynamics between labs, cloud providers, and government that will shape future AI governance.",
+      "tags": [
+        "export-controls",
+        "model-deployment-bans",
+        "anthropic",
+        "cybersecurity-jailbreaks",
+        "lab-government-relations",
+        "frontier-model-governance"
+      ],
+      "status": "integrated"
+    },
+    "https://openai.com/index/introducing-openai-partner-network": {
+      "title": "Introducing the OpenAI Partner Network",
+      "source": "OpenAI News",
+      "date": "2026-06-14T17:00:00+00:00",
+      "composite": 3.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI announces the launch of its Partner Network with $150M in funding to support global partners in accelerating enterprise AI adoption and deployment. The article provides minimal detail beyond the headline announcement of the program and funding amount. This represents OpenAI's strategic move to build an ecosystem of implementation partners for enterprise go-to-market but lacks substantive information about program mechanics, partner selection criteria, or specific use cases.",
+      "tags": [
+        "partner-network",
+        "enterprise-adoption",
+        "openai-ecosystem",
+        "go-to-market-strategy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Announcement-only content with no analysis, implementation details, frameworks, or insights beyond a press release statement about funding and program launch."
+    },
+    "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything": {
+      "title": "Anthropic Walks Back Policy That Could Have \u2018Sabotaged\u2019 AI Researchers Using Claude",
+      "source": "Simon Willison",
+      "date": "2026-06-11T03:45:49+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic reversed a controversial policy where Claude Fable 5 would invisibly limit requests related to frontier LLM development without notifying users. The company acknowledged this 'invisible safeguard' was the wrong approach and will now make such restrictions visible by falling back to Opus 4.8 and providing explicit refusal reasons via API. This matters because invisible AI limitations undermined research transparency and trust, though the underlying category of restrictions on LLM development research remains in place.",
+      "tags": [
+        "anthropic",
+        "claude-fable",
+        "ai-safety-policy",
+        "model-refusals",
+        "research-transparency",
+        "invisible-safeguards"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily news reporting about a policy reversal rather than deep analysis or novel insights; lacks substantive technical or strategic depth beyond the controversy itself."
+    },
+    "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything": {
+      "title": "Setting a custom price for a model in AgentsView",
+      "source": "Simon Willison",
+      "date": "2026-06-09T21:35:31+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "The article describes a personal workflow tip for using AgentsView, a Python toolkit for analyzing coding agent transcripts and token usage. The author explains how they manually added pricing data for a newly released model (Claude Fable 5) that wasn't yet in AgentsView's pricing database. This is a minor technical tip about tooling configuration rather than substantive analysis of agent behavior, pricing economics, or deployment patterns.",
+      "tags": [
+        "agentsview",
+        "token-usage-tracking",
+        "llm-pricing",
+        "coding-agents",
+        "claude"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level personal blog post about a minor configuration tip for a niche monitoring tool; lacks depth, novelty, or substantive insights about AI agent development, pricing strategies, or engineering practices."
+    },
+    "https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODQwODA4NTAsImlhdCI6MTc4MTQ4ODg1MCwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.i0u1d7A2vrU04dmiMO7rQg4WlQkknmYWicXjtwGoNwLJLsysblquYGNB-rMDtPlm-HJq-NfdOsD1IpedqowA32I3JP9vz5r8G-CntxhW2AYfNX4LBkbYCDGqQKd9JYACPu4VYiWPI6VRK656RDJijoRn_CN547Y_-MTgV1uBBkanP0MMoQ9tCVOufAeZ5cAhk4-BKqWmHJkJlckmle3SAkrwsuBkWvr6XQS4skrh_F2qX2peOWUAAjvRmLbvHB6NS122QEr5g01O9l6kLjW98-LRgPrRuhYmOm07KatcFKAmeBzJvjXYRh7dDxbOi6_coLdQ8U10wpUpBdUtC3gvLQ": {
+      "title": "The iPhone\u2019s Last Stand",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-09T10:00:00+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "ai-native-product-design",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "Ben Thompson argues that Apple's new Siri AI, while behind state-of-the-art AI capabilities (particularly in agentic workflows), is 'good enough' for the consumer market because it demonstrates working context-awareness and app integration rather than advanced autonomous agent behavior. He contrasts this with Microsoft's Project Solara vision of thin-client devices that serve as portals to cloud-based agents, highlighting a fundamental shift from interaction-centric to computation-centric computing paradigms. The piece suggests Apple's iPhone-era dominance may be challenged as agents reduce the importance of local interaction quality, which has historically been Apple's competitive advantage.",
+      "tags": [
+        "siri",
+        "agentic-computing",
+        "thin-client",
+        "inference-location",
+        "consumer-ai",
+        "interaction-paradigm"
+      ],
+      "status": "integrated"
+    },
+    "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful": {
+      "title": "The hidden pattern behind successful products | Mark Pincus (founder of Zynga)",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-14T12:31:44+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Mark Pincus, founder of Zynga, discusses his 'Proven, Better, New' framework for building successful consumer products, arguing that founders should copy what works, improve it until 10/10 users say yes, then add novelty. The key evidence comes from Zynga's track record of 8 out of 10 game launches becoming hits by following this approach of being 'less ambitious' with initial ideas. This represents conventional product wisdom packaged as a framework, with limited application to AI/enterprise topics.",
+      "tags": [
+        "product-development",
+        "consumer-products",
+        "product-framework",
+        "gaming",
+        "startup-strategy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on general consumer product development and gaming strategy with no relevance to AI, enterprise software, or any of the specified technical/business topic areas."
+    },
+    "https://www.exponentialview.co/p/ev-578": {
+      "title": "\ud83d\udd2e Exponential View #578: Fable & time to pause AI; iPhone vs babies; gene therapy, bad CEOs & Chinese Gen Z++",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-06-14T03:30:55+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance",
+        "ai-org-design-headcount",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article discusses emerging policy proposals for sovereign wealth funds to redistribute AI-generated wealth, with figures like Bernie Sanders, Trump, Altman, and Khosla all proposing variations of public ownership in AI companies. It also covers the US export control order preventing Anthropic from offering its Fable/Mythos models to non-US citizens, and notes a growing consensus among frontier AI labs (Anthropic, OpenAI, DeepMind) to slow development. The piece questions whether AI will truly shift income from labor to capital as dramatically as some predict, arguing job displacement may be slower and less complete than prevailing narratives suggest.",
+      "tags": [
+        "sovereign-wealth-fund",
+        "export-controls",
+        "anthropic",
+        "labor-displacement",
+        "ai-wealth-distribution",
+        "frontier-ai-development"
+      ],
+      "status": "skipped",
+      "skip_reason": "Primarily a news roundup and commentary piece that aggregates recent developments without original analysis or novel frameworks; lacks depth on technical or implementation details."
+    },
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNjdDLWxrWS1wZHRwTS1xQXE1RHNxcVpZUFJMVTZCQ2pUcDFkNF9ETkNmblZUc0NMOENPOF9sYWt2R21ydkhvSVJycG9mZzNxS2d5LWpGbzhJYWxvZ29CNkdpbW9qX2RFSWFya1dxNzQ1SnRScmhfS1Y4amxfb2xreVhTNUgxdVIzZ2Z5VzBFUV9lRnEtUFJxSVZuU1V3U0xkb2xobWVjc2xLanpJMXEtN0JfZXVNNzZ1Q1U1dWllTmEwSjQtWWRpTi1oS19OUGs?oc=5": {
+      "title": "AI is changing how financial advisors work. Regulators are paying attention. - The Alamosa News",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-06-10T16:30:09+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory",
+        "regulatory-policy"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to discuss how AI is transforming financial advisor workflows and attracting regulatory scrutiny. However, the provided text only contains Google's cookie consent dialog without any actual article content. Without access to the substantive content, no meaningful evaluation of depth, novelty, or analytical value can be performed.",
+      "tags": [
+        "financial-advisors",
+        "regulatory-compliance",
+        "wealth-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not accessible; only contains Google consent dialog with no substantive information about AI in financial advisory or regulatory developments."
     }
   }
 }

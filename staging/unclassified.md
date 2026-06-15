@@ -633,3 +633,7 @@ Source: Jack Clark, Import AI 460 (2026-06-08)
 ---
 **Cursor Fits Its Model To Its Agent** (The Batch (DeepLearning.AI), 2026-06-14T02:00:47.095486+00:00)
 **Business Development Note**: SpaceX obtained rights in April 2026 to either acquire Cursor for $60 billion or pay $10 billion for joint work as part of broader partnership. This represents significant corporate investment in AI coding tools but falls outside technical scope of existing topics.
+
+---
+**With Muse Spark Meta Pivots Away From Its Open Weights Llama Strategy** (The Batch (DeepLearning.AI), 2026-06-15T02:00:55.006018+00:00)
+Context: Meta spent $14.3 billion for 49% stake in Scale AI (June 2025) - relevant to data/training infrastructure but article text appears truncated. Meta reorganized AI labs after Llama 4 benchmark contamination allegations (context for Superintelligence Labs formation). Muse Spark availability includes integration with Meta's product ecosystem (meta.ai, WhatsApp, Instagram, Facebook, Messenger, Ray-Ban Meta AI glasses) plus API preview for selected partners.

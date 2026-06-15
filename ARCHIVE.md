@@ -705,7 +705,49 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-15
+
+**✗ 4.7** — [Pharmaceutical Kingpin Eli Lilly Gave Insilico 2 75 Billion For Ai Driven Drug Development](https://www.deeplearning.ai/the-batch/pharmaceutical-kingpin-eli-lilly-gave-insilico-2-75-billion-for-ai-driven-drug-development)  
+*The Batch (DeepLearning.AI)* · 
+#drug_discovery #generative_ai_pharma #molecular_design #protein_target_identification
+> Eli Lilly agreed to pay up to $2.75 billion to Insilico Medicine for exclusive rights to AI-discovered drugs, marking one of the largest AI-pharma deals to date. Insilico uses proprietary generative models (PandaOmics for target identification and Chemistry42 for molecule design) to reduce drug discovery timelines from 5-6 years to 18 months while screening far fewer compounds than traditional methods. This represents a major validation of AI in pharmaceutical development, though the article primarily reports the deal and describes existing Insilico capabilities rather than presenting novel technical insights.
+
+**✗ 5.0** — [Most States Are Regulating Ai Despite President Trumps Opposition To State Level Laws](https://www.deeplearning.ai/the-batch/most-states-are-regulating-ai-despite-president-trumps-opposition-to-state-level-laws)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · ai-governance-risk-compliance
+#state_level_regulation #algorithmic_discrimination #deepfakes #ai_watermarking
+> The article reports that over 40 U.S. states are enacting AI regulations despite Trump administration efforts to favor national-level legislation, with more than 1,500 bills under consideration and 100+ existing laws. It provides a state-by-state breakdown of regulatory approaches, including California's comprehensive privacy and watermarking requirements, Colorado's high-risk system discrimination protections, Minnesota's deepfake and healthcare restrictions, and New York's model-maker protocols. This creates a complex patchwork of compliance requirements that developers must navigate across different jurisdictions.
+
+**✓ 6.0** — [With Muse Spark Meta Pivots Away From Its Open Weights Llama Strategy](https://www.deeplearning.ai/the-batch/with-muse-spark-meta-pivots-away-from-its-open-weights-llama-strategy)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · multimodal-models
+#thought_compression #multi_agent_orchestration #reasoning_modes #training_efficiency
+> Meta announced Muse Spark, its first closed model after a year of focus on open-weights Llama models, featuring natively multimodal reasoning with three reasoning modes and multi-agent orchestration. The model achieves competitive performance with 10x less training compute than Llama 4 through architectural changes including 'thought compression' post-training that penalizes excessive reasoning tokens and parallel multi-agent contemplation mode. This represents a strategic pivot for Meta from open to closed models, with strong multimodal and health performance but acknowledged gaps in coding and agentic tasks.
+
 ## 2026-06-14
+
+**✓ 6.3** — [Why AI hasn’t replaced software engineers, and won’t](https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering · ai-org-design-headcount
+#software_engineering_automation #ai_unemployment #developer_productivity #warn_act_disclosure
+> The article argues that AI will not cause mass software engineer unemployment because coding speed is not the bottleneck in software development. It cites evidence from New York's WARN Act AI disclosure data showing zero AI-related layoffs in the first year, and identifies three real bottlenecks: deciding what to build, verification and accountability, and deep human understanding of codebases and business context. This matters because it reframes the AI disruption narrative from job replacement to productivity augmentation, particularly in a profession considered highly vulnerable to automation.
+
+**✓ 7.3** — [Welcome to the AGI era of AI governance](https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance)  
+*Interconnects (Nathan Lambert)* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
+#export_controls #model_deployment_bans #anthropic #cybersecurity_jailbreaks
+> The article argues that the U.S. government forcing Anthropic to shut down access to Claude 5 Mythos/Fable models marks the beginning of a new AGI-era governance regime characterized by export restrictions and political intervention in AI deployment. The key evidence includes the government's emergency action triggered by Amazon (Anthropic's partner) reporting cybersecurity concerns, combined with political dynamics that suggest targeted treatment of Anthropic influenced by their own past messaging around AI risk. This matters because it establishes a precedent for direct government intervention in frontier AI model deployment, creates regulatory uncertainty that could destabilize the AI industry economically, and reveals complex dynamics between labs, cloud providers, and government that will shape future AI governance.
+
+**✗ 3.7** — [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network)  
+*OpenAI News* · build-vs-buy-enterprise-ai · ai-b2b-saas · funding-and-market-structure
+#partner_network #enterprise_adoption #openai_ecosystem #go_to_market_strategy
+> OpenAI announces the launch of its Partner Network with $150M in funding to support global partners in accelerating enterprise AI adoption and deployment. The article provides minimal detail beyond the headline announcement of the program and funding amount. This represents OpenAI's strategic move to build an ecosystem of implementation partners for enterprise go-to-market but lacks substantive information about program mechanics, partner selection criteria, or specific use cases.
+
+**✗ 3.0** — [The hidden pattern behind successful products | Mark Pincus (founder of Zynga)](https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful)  
+*Lenny's Newsletter* · 
+#product_development #consumer_products #product_framework #gaming
+> Mark Pincus, founder of Zynga, discusses his 'Proven, Better, New' framework for building successful consumer products, arguing that founders should copy what works, improve it until 10/10 users say yes, then add novelty. The key evidence comes from Zynga's track record of 8 out of 10 game launches becoming hits by following this approach of being 'less ambitious' with initial ideas. This represents conventional product wisdom packaged as a framework, with limited application to AI/enterprise topics.
+
+**✗ 5.3** — [🔮 Exponential View #578: Fable & time to pause AI; iPhone vs babies; gene therapy, bad CEOs & Chinese Gen Z++](https://www.exponentialview.co/p/ev-578)  
+*Exponential View (Azeem Azhar)* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
+#sovereign_wealth_fund #export_controls #anthropic #labor_displacement
+> The article discusses emerging policy proposals for sovereign wealth funds to redistribute AI-generated wealth, with figures like Bernie Sanders, Trump, Altman, and Khosla all proposing variations of public ownership in AI companies. It also covers the US export control order preventing Anthropic from offering its Fable/Mythos models to non-US citizens, and notes a growing consensus among frontier AI labs (Anthropic, OpenAI, DeepMind) to slow development. The piece questions whether AI will truly shift income from labor to capital as dramatically as some predict, arguing job displacement may be slower and less complete than prevailing narratives suggest.
 
 **✗ 1.7** — [Winning With Ai](https://www.bain.com/insights/events/winning-with-ai/)  
 *Bain Insights* · 
@@ -976,6 +1018,11 @@ All articles scanned since the wiki started. Updated nightly.
 #asyncio #dependency_injection #python_libraries #ai_assisted_debugging
 > This is a brief release announcement for asyncinject 0.7, a Python utility library for asyncio dependency injection using pytest-fixtures-style patterns. The author mentions that Claude Fable 5 (an AI model) proactively identified and fixed bugs in the dependency. The post is primarily a changelog note rather than substantive analysis or research.
 
+**✗ 4.7** — [Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude](https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything)  
+*Simon Willison* · ai-governance-risk-compliance · model-architecture
+#anthropic #claude_fable #ai_safety_policy #model_refusals
+> Anthropic reversed a controversial policy where Claude Fable 5 would invisibly limit requests related to frontier LLM development without notifying users. The company acknowledged this 'invisible safeguard' was the wrong approach and will now make such restrictions visible by falling back to Opus 4.8 and providing explicit refusal reasons via API. This matters because invisible AI limitations undermined research transparency and trust, though the underlying category of restrictions on LLM development research remains in place.
+
 **✗ 4.7** — [[AINews] Open Models, Model Labs vs Agent Labs, and What's Untrainable — Sarah Guo](https://www.latent.space/p/ainews-open-models-model-labs-vs)  
 *Latent Space* · lab-dynamics · model-architecture · agentic-workflows-production
 #agent_labs #model_labs #capability_degradation #benchmark_gaming
@@ -1047,6 +1094,11 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory · regulatory-policy
 #financial_advisors #regulatory_compliance #wealth_management
 > The article appears to discuss how AI is transforming financial advisor workflows and attracting regulatory scrutiny. However, the provided text consists entirely of Google's cookie consent page with no actual article content. Without the substantive article text, no meaningful evaluation of depth, novelty, evidence, mechanisms, or impact can be made.
+
+**✗ 1.7** — [AI is changing how financial advisors work. Regulators are paying attention. - The Alamosa News](https://news.google.com/rss/articles/CBMizwFBVV95cUxQNjdDLWxrWS1wZHRwTS1xQXE1RHNxcVpZUFJMVTZCQ2pUcDFkNF9ETkNmblZUc0NMOENPOF9sYWt2R21ydkhvSVJycG9mZzNxS2d5LWpGbzhJYWxvZ29CNkdpbW9qX2RFSWFya1dxNzQ1SnRScmhfS1Y4amxfb2xreVhTNUgxdVIzZ2Z5VzBFUV9lRnEtUFJxSVZuU1V3U0xkb2xobWVjc2xLanpJMXEtN0JfZXVNNzZ1Q1U1dWllTmEwSjQtWWRpTi1oS19OUGs?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory · regulatory-policy
+#financial_advisors #regulatory_compliance #wealth_management
+> The article appears to discuss how AI is transforming financial advisor workflows and attracting regulatory scrutiny. However, the provided text only contains Google's cookie consent dialog without any actual article content. Without access to the substantive content, no meaningful evaluation of depth, novelty, or analytical value can be performed.
 
 **✗ 5.3** — [DiffusionGemma: 4x faster text generation](https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/)  
 *Google DeepMind* · model-architecture · inference-efficiency
@@ -1150,6 +1202,11 @@ All articles scanned since the wiki started. Updated nightly.
 #command_line_tools #llm_tooling #claude_fable_5
 > This is a brief release announcement for llm version 0.32a3, a command-line tool for accessing large language models. The release was reportedly written almost entirely by Claude Fable 5, with a reference to a separate write-up for details. The article provides no substantive information about features, changes, or technical details of the release.
 
+**✗ 2.7** — [Setting a custom price for a model in AgentsView](https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything)  
+*Simon Willison* · ai-engineering-agents
+#agentsview #token_usage_tracking #llm_pricing #coding_agents
+> The article describes a personal workflow tip for using AgentsView, a Python toolkit for analyzing coding agent transcripts and token usage. The author explains how they manually added pricing data for a newly released model (Claude Fable 5) that wasn't yet in AgentsView's pricing database. This is a minor technical tip about tooling configuration rather than substantive analysis of agent behavior, pricing economics, or deployment patterns.
+
 **✗ 3.3** — [Claude Fable 5 review: what the new Mythos model gets right (and very wrong)](https://www.lennysnewsletter.com/p/claude-fable-5-review-what-the-new)  
 *Lenny's Newsletter* · model-architecture · ai-engineering-agents
 #claude #model_review #benchmarks #anthropic
@@ -1244,6 +1301,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
 #consumer_ai #thin_client_architecture #server_side_inference #agent_paradigm
 > Ben Thompson argues that Apple's new Siri AI, while behind state-of-the-art capabilities (lacking true agentic functionality), is sufficient for consumer markets because it works reliably for common use cases like setting reminders and answering queries. He contrasts this with Microsoft's Project Solara vision of thin-client devices that act as portals to cloud-based agents, highlighting the paradigm shift from interaction-heavy computing to agent-based task completion. The key insight is that Apple's market advantage comes from serving consumers who need functional AI rather than cutting-edge capabilities, while the broader industry moves toward server-side inference and agentic workflows.
+
+**✓ 7.0** — [The iPhone’s Last Stand](https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODQwODA4NTAsImlhdCI6MTc4MTQ4ODg1MCwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.i0u1d7A2vrU04dmiMO7rQg4WlQkknmYWicXjtwGoNwLJLsysblquYGNB-rMDtPlm-HJq-NfdOsD1IpedqowA32I3JP9vz5r8G-CntxhW2AYfNX4LBkbYCDGqQKd9JYACPu4VYiWPI6VRK656RDJijoRn_CN547Y_-MTgV1uBBkanP0MMoQ9tCVOufAeZ5cAhk4-BKqWmHJkJlckmle3SAkrwsuBkWvr6XQS4skrh_F2qX2peOWUAAjvRmLbvHB6NS122QEr5g01O9l6kLjW98-LRgPrRuhYmOm07KatcFKAmeBzJvjXYRh7dDxbOi6_coLdQ8U10wpUpBdUtC3gvLQ)  
+*Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
+#siri #agentic_computing #thin_client #inference_location
+> Ben Thompson argues that Apple's new Siri AI, while behind state-of-the-art AI capabilities (particularly in agentic workflows), is 'good enough' for the consumer market because it demonstrates working context-awareness and app integration rather than advanced autonomous agent behavior. He contrasts this with Microsoft's Project Solara vision of thin-client devices that serve as portals to cloud-based agents, highlighting a fundamental shift from interaction-centric to computation-centric computing paradigms. The piece suggests Apple's iPhone-era dominance may be challenged as agents reduce the importance of local interaction quality, which has historically been Apple's competitive advantage.
 
 **✗ 1.7** — [Algebra AI launches with a $7mln round to bring AI operations to mid-market businesses - ZAWYA](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVWs0SndGZThSN2pJVTBUOW9vQ00yRXctMDVmTDN3eVQ5RTBfanYzV0xfVG9kYWlkSExaQ09tWVo3UHpPejBNRGpGZkVhZklhUHN6RFNKMXkxMXNtQk1ZUzcxalliZDN6ZHczNGRqZUVWbk5tRUFOd0Vzc25FUHc5VzY0OEMwTjVVMURRd3pSNWExeTUyX1NXRVFLYWlDRVZ3NjNORFQ2dGtiMUhuT25TODJVWG5GcWlTSWU1SnFMTmc2cjhXVmhuWE5vLUQtNDBpeURsVE9XOFBiVmpEc05COVVR?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-operations · build-vs-buy-enterprise-ai
