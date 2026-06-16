@@ -705,7 +705,103 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-16
+
+**✗ 1.0** — [Getting Growth Back At Your Company Hbr Ideacast](https://www.bain.com/insights/getting-growth-back-at-your-company-hbr-ideacast/)  
+*Bain Insights* · 
+#navigation_page #no_content
+> This appears to be a navigation page or site structure for Bain & Company's website, listing offices, industries, and services. No actual article content about growth strategies is present—only headers, menus, and geographic locations. The submission contains no substantive information to evaluate.
+
+**✗ 1.0** — [Leon Founders Mentality Video](https://www.bain.com/insights/leon-founders-mentality-video/)  
+*Bain Insights* · 
+#bain_and_company #navigation #website_structure
+> This appears to be a navigation menu or website structure page from Bain & Company's website, not an actual article. The title references 'Leon: What If God Made Fast Food?' but the provided text contains only website navigation elements (offices, industries, services, etc.). There is no substantive content to evaluate regarding founder mentality, fast food, or any business insights.
+
+**✗ 1.0** — [Ron Kermisch Killing Complexity Before Complexity Kills Growth Video](https://www.bain.com/insights/ron-kermisch-killing-complexity-before-complexity-kills-growth-video/)  
+*Bain Insights* · 
+> This appears to be a navigation page or skeleton template from Bain & Company's website rather than an actual article. The content consists entirely of website navigation menus, office locations, and structural elements with no substantive content about complexity, growth, or any analytical material. There is no article to evaluate as the text provided is purely navigational infrastructure.
+
+**✗ 5.0** — [Issue 349](https://www.deeplearning.ai/the-batch/issue-349)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · ai-org-design-headcount · ai-in-product-and-engineering
+#agentic_coding #engineer_pm_ratio #organizational_bottlenecks #generalist_vs_specialist
+> The article argues that AI-native software engineering teams operate fundamentally differently from traditional teams, with coding agents enabling much faster development that creates bottlenecks in product management, design, marketing, and legal compliance. The key mechanism is that 10-100x faster coding means engineers must expand into product management roles, pushing engineer-to-PM ratios from 8:1 to 1:1 or having engineers who can handle both functions, while favoring generalists over specialists and co-located over remote teams. This matters because agentic coding is reshaping not just software development workflows but the structure and skill requirements of entire organizations around engineering teams.
+
+**✗ 4.7** — [Issue 357](https://www.deeplearning.ai/the-batch/issue-357)  
+*The Batch (DeepLearning.AI)* · agentic-workflows-production · ai-engineering-agents · ai-governance-risk-compliance
+#desktop_agents #agentic_harness #function_calling #open_source_agents
+> Andrew Ng argues that desktop AI agents that can autonomously take actions (file access, messaging, scheduled tasks) are becoming practical alternatives to web-based chatbots, though reliability concerns remain. He introduces OpenCoworker, an open-source desktop agent framework built on aisuite that allows users to maintain control over data privacy by using their own API keys or local models. The article emphasizes the architectural shift from developer-specified workflows to LLM-driven agentic harnesses, particularly for coding agents, while acknowledging data retention and legal concerns with commercial solutions.
+
+**✗ 4.7** — [Issue 356](https://www.deeplearning.ai/the-batch/issue-356)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · lab-dynamics
+#ai_regulation #cybersecurity #vulnerability_detection #model_sharing
+> Andrew Ng's letter argues that a recent White House executive order on AI regulation strikes a reasonable balance between promoting AI development and addressing cybersecurity concerns, particularly regarding Anthropic's Mythos vulnerability detection system. He provides context that while the order mandates defensive measures and voluntary model sharing with government, it avoids the excessive regulation that lobbying efforts have sought to impose based on science-fiction fears. The piece matters as it represents a prominent AI leader's perspective on navigating the tension between AI safety/security and overregulation that could stifle innovation.
+
+**✗ 1.7** — [Cloudflare CAPTCHA on at least one ampersand](https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything)  
+*Simon Willison* · 
+#cloudflare #captcha #web_application_firewall #faceted_search
+> The article describes a technical solution to prevent Cloudflare CAPTCHAs from triggering on simple search queries by configuring a rule that only triggers the challenge when URLs contain ampersands. The author worked with Claude Code to craft a Cloudflare WAF rule using wildcard matching and query string detection to distinguish between simple searches and faceted search combinations. This is a narrow technical workaround for a specific web infrastructure problem with no broader implications.
+
 ## 2026-06-15
+
+**✗ 5.0** — [Why do South Koreans love AI so much?](https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/)  
+*MIT Technology Review* · semiconductor-supply-chain · regulatory-policy · funding-and-market-structure
+#ai_adoption_rates #national_ai_strategy #high_bandwidth_memory #semiconductor_manufacturing
+> The article reports that South Korea exhibits the highest AI optimism globally (only 16% concerned vs 50% in US), driven by government-engineered enthusiasm positioning AI as core to economic growth strategy. The evidence includes policy initiatives like the Presidential Council on National AI Strategy, sovereign AI foundation model projects, and South Korea's semiconductor dominance through Samsung and SK Hynix supplying most high-bandwidth memory for AI training. This matters because it illustrates how national industrial policy and cultural attitudes toward technology adoption can create dramatically different AI adoption trajectories compared to Western markets.
+
+**✗ 4.3** — [datasette-agent 0.3a0](https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#datasette #llm_tool_use #user_approval #database_agents
+> This release announcement describes datasette-agent 0.3a0, which adds a new execute_write_sql tool that can request user approval before modifying databases with LLM-generated SQL. The key mechanism is a user approval workflow with CLI options including --unsafe mode for auto-approval, allowing conversational database modifications through natural language prompts. This represents incremental tooling development for agentic database interactions rather than a breakthrough in production deployment patterns.
+
+**✗ 3.7** — [This man with ALS is “the first power user” of a brain implant that lets him speak](https://www.technologyreview.com/2026/06/15/1138953/man-als-first-power-user-brain-implant-speak-bci/)  
+*MIT Technology Review* · 
+#brain_computer_interface #speech_decoding #als #neural_electrodes
+> Casey Harrell, an ALS patient, has used a brain-computer interface for speech for nearly three years, logging over 3,800 hours of independent use at home with 97.5% accuracy across 125,000 words. The device decodes neural activity from the speech motor cortex into phonemes and then words, with four electrode arrays implanted in his brain connecting to external pedestals. This represents the first long-term, high-utilization deployment of a speech BCI, demonstrating durability and practical independence for paralyzed users.
+
+**✓ 7.3** — [🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software](https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and)  
+*Lenny's Newsletter* · model-architecture · evals-production-deployment · ai-engineering-agents
+#model_benchmarking #swbench #agentic_workflows #token_pricing
+> Claire reviews Anthropic's Claude Fable 5 (Mythos-class model) through real-world product and engineering tasks, finding it excels at vision tasks and complex technical problems but produces verbose specs and surprisingly poor design output. The model is 2-5x more expensive than alternatives ($10/$50 per million tokens), operates like an overly thorough senior engineer, and includes novel safety fallbacks to Opus 4.8 for sensitive domains rather than blocking requests entirely. This matters because it demonstrates that frontier model capabilities don't uniformly improve across all task types, requiring strategic deployment matching model intelligence to task complexity rather than always using the most powerful model.
+
+**✗ 4.7** — ["They screwed us": Personality clashes sent Anthropic's models offline](https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything)  
+*Simon Willison* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
+#jailbreaking #export_controls #anthropic_claude #us_commerce_department
+> The article reports on behind-the-scenes tensions between Anthropic and the US Commerce Department that led to export controls taking Anthropic's Mythos/Fable models offline, citing personality clashes and concerns over jailbreaking. The evidence comes from unnamed sources describing meetings between Anthropic safety leaders and government officials, with references to ongoing jailbreak vulnerability debates. This matters because it reveals how interpersonal dynamics and government relations—not just technical capabilities—can disrupt AI lab operations and model availability.
+
+**✗ 3.3** — [📈 Data to start your week](https://www.exponentialview.co/p/data-to-start-your-week-15-june-2026)  
+*Exponential View (Azeem Azhar)* · ai-in-product-and-engineering · ai-org-design-headcount
+#job_displacement #ai_spending_disparity #performance_guarantees #enterprise_ai_adoption
+> This newsletter roundup presents three brief data points: AI being cited in 40% of US job cuts in May, massive disparity in AI spending between top 1% firms ($7,450/employee) versus typical firms ($11.38/employee), and Cognition offering a $10M performance guarantee for their AI engineering agents. The evidence consists of isolated statistics without context, methodology, or deeper analysis. The piece serves as a signal aggregator rather than providing actionable insights or novel frameworks.
+
+**✗ 2.3** — [The Download: cutting AC emissions, and nature’s drug designer](https://www.technologyreview.com/2026/06/15/1138948/the-download-solid-state-air-conditioning-animal-drugs/)  
+*MIT Technology Review* · regulatory-policy
+#anthropic #model_access_restrictions #ai_layoffs #openai_investigation
+> This is a newsletter digest covering multiple tech stories, with the most relevant items being Anthropic's shutdown of access to top models following US directive and brief mentions of AI-related layoffs and OpenAI investigations. The article provides only surface-level headlines and links with minimal analysis or detail. It offers no original research, frameworks, or depth on any single topic.
+
+**✓ 7.3** — [How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal](https://www.lennysnewsletter.com/p/how-braintrust-uses-ai-agents-evals)  
+*Lenny's Newsletter* · ai-engineering-agents · evals-production-deployment · ai-in-product-and-engineering
+#coding_agents #evals #ci_cd_integration #database_optimization
+> Braintrust CEO Ankur Goyal describes how his team uses AI coding agents to run week-long database optimization benchmarks and employs evals as 'modern PRDs' to encode quality standards that scale beyond individual engineers. He demonstrates running 4-6 concurrent agents for technical infrastructure work, building scoring functions to capture designer taste, and emphasizes CI/CD investment as critical for AI-accelerated teams. This matters because it provides concrete workflows for engineering leaders to delegate complex technical work to agents while maintaining quality through systematic evaluation rather than ad-hoc 'vibe checks.'
+
+**✓ 6.7** — [Import AI 461: "Alignment is not on track"; FrontierCode; and synthetic research interns](https://importai.substack.com/p/import-ai-461-alignment-is-not-on)  
+*Import AI (Jack Clark)* · lab-dynamics · regulatory-policy
+#alignment_theory #ai_safety #scalable_oversight #superintelligence
+> A new AI safety nonprofit called Sequent has been formed by researchers from UK AISI and Timaeus, arguing that current alignment approaches at frontier labs are insufficient for superintelligent systems and seeking $100-150M to pursue differentiated theoretical alignment research. The organization plans to build a portfolio of under-resourced research directions including scalable oversight, learning theory, and game theory, aiming to develop principled guarantees that alignment generalizes beyond controlled training environments. This matters because current reactive alignment methods may fail catastrophically as AI systems approach recursive self-improvement capabilities.
+
+**✗ 4.7** — [What Klarna, Coinbase, and Chase are building next](https://tearsheet.co/10-q/what-klarna-coinbase-and-chase-are-building-next/?utm_source=rss&utm_medium=rss&utm_campaign=what-klarna-coinbase-and-chase-are-building-next)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-b2b-saas
+#fintech_expansion #deposits #stablecoins #small_business_banking
+> The article reports on product expansion moves by Klarna (launching high-yield savings), Coinbase (using stablecoins for credit), and Chase (building intelligence for small business decisions) as they push beyond their original business boundaries. It presents these as examples of financial firms positioning themselves closer to customer decision-making moments through integrated financial services. The analysis remains surface-level, describing product launches without examining underlying technology, competitive dynamics, or measurable impact.
+
+**✗ 1.7** — [Summer Reading List Of “Best Books” For Financial Advisors – 2026 Edition](https://feeds.feedblitz.com/~/958052516/0/kitcesnerdseyeview~Summer-Reading-List-Of-%e2%80%9cBest-Books%e2%80%9d-For-Financial-Advisors-%e2%80%93-Edition/)  
+*Kitces.com* · ai-in-finance-accounting
+#financial_advisors #book_recommendations #professional_development
+> This article presents a 2026 summer reading list for financial advisors, covering books on business scaling, time management, financial planning history, and client experience differentiation. The content is a curated book recommendation list with brief contextual framing about market conditions and AI tool proliferation in the advisory industry. It provides no original analysis or actionable insights beyond book suggestions for professional development.
+
+**✓ 6.7** — [Anthropic’s Safety Superpower](https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQxNjcyNDUsImlhdCI6MTc4MTU3NTI0NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.m4WxOcwiKjEvMeevYn302k31yUb7xZbbDvQ5NA1eDjg5aaBe20aXIFH4U1Fws2H8re1jkH7ebpqNgUDm0Ncl43w7we_4tDu5_RFdx7TA_B7o5WFQc5Nm9E6_C3JVBZAOiPOpYuqYuw7RrV383lEi7pMq7MFYbZwxiWXTrVlZe_92koykDmeUmMe4bF5SDHdf0VcM5PGqYESNqwdkNgGVGcvozwofAfvqs1H7WlJqetwK9-W0z8CwXFZtlh5ITVZnwu8rn0gBya6ZoTJzZ81_JHTZCmnbLATdMPAfnK9btrPblOOk1KjOfiUFyORbSjxVgjKQilDpZ9Lff5AnFihR-g)  
+*Stratechery (Ben Thompson)* · model-architecture · regulatory-policy · lab-dynamics
+#anthropic #model_safety #jailbreaks #export_controls
+> The article argues that Anthropic's public commitment to AI safety gives it strategic leverage to both aggressively pursue business interests and challenge U.S. government regulatory actions, as evidenced by the recent conflict over the Fable/Mythos model release. The key evidence is the U.S. government's emergency export control directive after jailbreaks were discovered, which Anthropic is publicly contesting as overreach based on minor vulnerabilities also discoverable by other models. This matters because it illustrates the emerging tension between AI labs' safety narratives and government regulatory authority, presaging inevitable conflicts as models become more capable and useful in creating their own successors.
 
 **✗ 4.7** — [Pharmaceutical Kingpin Eli Lilly Gave Insilico 2 75 Billion For Ai Driven Drug Development](https://www.deeplearning.ai/the-batch/pharmaceutical-kingpin-eli-lilly-gave-insilico-2-75-billion-for-ai-driven-drug-development)  
 *The Batch (DeepLearning.AI)* · 
@@ -721,6 +817,11 @@ All articles scanned since the wiki started. Updated nightly.
 *The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · multimodal-models
 #thought_compression #multi_agent_orchestration #reasoning_modes #training_efficiency
 > Meta announced Muse Spark, its first closed model after a year of focus on open-weights Llama models, featuring natively multimodal reasoning with three reasoning modes and multi-agent orchestration. The model achieves competitive performance with 10x less training compute than Llama 4 through architectural changes including 'thought compression' post-training that penalizes excessive reasoning tokens and parallel multi-agent contemplation mode. This represents a strategic pivot for Meta from open to closed models, with strong multimodal and health performance but acknowledged gaps in coding and agentic tasks.
+
+**✓ 6.3** — [The Golden Age of AI Applications](https://www.tomtunguz.com/golden-age-of-applications/)  
+*Tomasz Tunguz* · build-vs-buy-enterprise-ai · ai-in-product-and-engineering · model-architecture
+#model_selection #token_budget_optimization #agentic_loops #ai_harness
+> The article argues that AI applications are entering a 'golden age' driven by three market signals: regulatory risk (Fable shutdown), strategic consensus (Nadella's ecosystem thesis), and M&A validation (Salesforce acquiring Fin for $3.6B). The key mechanism is that AI application builders must master three disciplines: model selection across price/performance tradeoffs, designing hill-climbing loops for agentic systems, and continuous evaluation of model+loop performance within token budgets. This matters because it suggests the moat shifts from models themselves to the expertise and systems ('harness') around them, favoring specialized vendors who can amortize optimization costs across customers.
 
 ## 2026-06-14
 
@@ -1217,6 +1318,11 @@ All articles scanned since the wiki started. Updated nightly.
 #speech_translation #real_time_translation #gemini_3_5 #multimodal
 > Google DeepMind announces Gemini 3.5 Live Translate, a feature enabling near real-time speech translation across Google AI Studio, Google Translate, and Google Meet. The article is a brief product announcement without technical details about the underlying architecture, training methodology, or performance benchmarks. This represents an incremental product feature rather than a significant technical or strategic development.
 
+**✗ 1.3** — [RIA Client Rolls Hit 73.7 Million As Investors Seek Fiduciaries - FA Mag](https://news.google.com/rss/articles/CBMipAFBVV95cUxQZUFfNzJwcFV1OVo1T3VYVVh0eVNGTDlkajNteUh0ajRjNGg5RlJIN3d6ZkxSczNvNGJrNUx1amxqMUZHRUlON05oaDNPVUJvOTRsS19hU3RYMVN4S3VDTjFzcVhsREhGZ0NVMW1henRJV0x0UWJET3prbGpWZFJkV016eDJxTllKSktZdUJ4emlZSjd4WXlrZVk4VUJkRk15WjVsaQ?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory
+#ria #fiduciary_advisors #wealth_management
+> This appears to be a Google cookie consent page rather than the actual article content about RIA client rolls reaching 73.7 million. No substantive content about wealth management, fiduciary advisors, or AI financial workflows is present in the provided text. The article cannot be evaluated as only the cookie consent barrier was captured, not the actual journalism.
+
 **✓ 6.3** — [Introducing Gemma 4 12B: a unified, encoder-free multimodal model](https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/)  
 *Google DeepMind* · multimodal-models · model-architecture · inference-efficiency
 #encoder_free_architecture #unified_multimodal #gemma_4 #modality_processing
@@ -1306,6 +1412,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
 #siri #agentic_computing #thin_client #inference_location
 > Ben Thompson argues that Apple's new Siri AI, while behind state-of-the-art AI capabilities (particularly in agentic workflows), is 'good enough' for the consumer market because it demonstrates working context-awareness and app integration rather than advanced autonomous agent behavior. He contrasts this with Microsoft's Project Solara vision of thin-client devices that serve as portals to cloud-based agents, highlighting a fundamental shift from interaction-centric to computation-centric computing paradigms. The piece suggests Apple's iPhone-era dominance may be challenged as agents reduce the importance of local interaction quality, which has historically been Apple's competitive advantage.
+
+**✓ 7.0** — [The iPhone’s Last Stand](https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODQxNjcyNDUsImlhdCI6MTc4MTU3NTI0NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.V_emvjQ2GFnhLxO4lMOIfBDRFTqCFyLXkD51iTDD0ddvxFr1cg9a-n-pMKbVGIfm8LhZOzjmJVRLo294N69Xu3YUviHqkkjwC03cHHbFdpcuTRJTw005y9QdzqkrsRXL3mtNKnLItlboxBwv40Qrk6dAoSOkBHJpSskPelDv4BNekjtvkPyM5USLswHnaqMibvhX69RarSUN4u79x1-SV9ohboWeaPGc78FhmwKAgzr-Js5wKe8364wxt5ZJky-aQjTvom4nm1bZtO9mgVUWt_IW3pXf3XCK449j5-XUXvlVOrucoAhFDnktA6jKMZ2IhyO2yDoa3sqnWJwtmnDgtA)  
+*Stratechery (Ben Thompson)* · inference-efficiency · agentic-workflows-production · ai-native-product-design
+#thin_client #agentic_computing #server_side_inference #voice_interaction
+> The article argues that Apple's approach to AI (Siri AI) is behind state-of-the-art but sufficient for consumer markets, while Microsoft's Project Solara envisions a thin-client future where agents in the cloud do work through minimal device interfaces. The key mechanism is the distinction between interaction-heavy computing (where Apple's iPhone dominates) versus agent-based computing that requires minimal interaction and lives server-side. This matters because it suggests a potential paradigm shift away from the interaction-centric iPhone era toward thin-client agent interfaces, though Apple's 'good enough' consumer-focused approach may still defend its position.
 
 **✗ 1.7** — [Algebra AI launches with a $7mln round to bring AI operations to mid-market businesses - ZAWYA](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVWs0SndGZThSN2pJVTBUOW9vQ00yRXctMDVmTDN3eVQ5RTBfanYzV0xfVG9kYWlkSExaQ09tWVo3UHpPejBNRGpGZkVhZklhUHN6RFNKMXkxMXNtQk1ZUzcxalliZDN6ZHczNGRqZUVWbk5tRUFOd0Vzc25FUHc5VzY0OEMwTjVVMURRd3pSNWExeTUyX1NXRVFLYWlDRVZ3NjNORFQ2dGtiMUhuT25TODJVWG5GcWlTSWU1SnFMTmc2cjhXVmhuWE5vLUQtNDBpeURsVE9XOFBiVmpEc05COVVR?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-operations · build-vs-buy-enterprise-ai

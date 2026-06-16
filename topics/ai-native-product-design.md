@@ -1,42 +1,35 @@
 ---
-tags: [ad-monetization, agent-architecture, agent-ecosystems, agent-paradigm, agent-portals, agentic-ai, agentic-computing, agentic-systems, ai-native-applications, ai-native-business-models, ai-native-interfaces, ai-native-product-design, ai-value-creation, always-on-interpretation, ambient-ai, ambient-finance, app-intents, artifact-library, chain-of-thought-routing, cloud-native-agents, code-generation, code-native-generation, consumer-ai, consumer-ai-sufficiency, context-management, contextual-ai, conversational-ai, conversational-interfaces, design-tools, device-ecosystem, device-interaction-paradigms, device-paradigm, diffusion-models, dynamic-ui, dynamic-ui-generation, editability, editability-primitives, embedded-finance, embedded-interpretation, financial-cognition-layer, financial-interpretation-layer, financial-orchestration, free-user-monetization, gpu-infrastructure, grounded-ai, headless-architecture, headless-systems, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, inference-location, interaction-paradigm, interaction-paradigm-shift, intuit-quickbooks-workforce, knowledge-worker-automation, knowledge-worker-displacement, mcp, mcp-integration, on-device-inference, operational-coordination, operational-coordination-layer, personal-context, personal-device-context, pixel-native-generation, plaid-openai-integration, plastic-ui, project-solara, query-commercial-value, quickbooks, return-on-invested-capital, router-architecture, server-side-inference, service-displacement, siri, siri-ai, siri-intelligence, smb-operating-system, smb-operations, state-of-art-vs-good-enough, structured-representations, structured-visual-output, superapp-strategy, svg-generation, thin-client, thin-client-ai, thin-client-architecture, thin-client-computing, unified-data-architecture, unified-data-model, visual-ai, wearable-interaction, workflow-orchestration, workforce-management]
+tags: [ad-monetization, agent-architecture, agent-ecosystems, agent-paradigm, agent-portals, agentic-ai, agentic-computing, agentic-systems, ai-native-applications, ai-native-business-models, ai-native-interfaces, ai-native-product-design, ai-value-creation, always-on-interpretation, ambient-ai, ambient-finance, app-intents, apple-intelligence, artifact-library, chain-of-thought-routing, cloud-native-agents, code-generation, code-native-generation, consumer-ai, consumer-ai-sufficiency, context-management, contextual-ai, conversational-ai, conversational-interfaces, design-tools, device-ecosystem, device-interaction-paradigms, device-paradigm, diffusion-models, dynamic-ui, dynamic-ui-generation, editability, editability-primitives, embedded-finance, embedded-interpretation, financial-cognition-layer, financial-interpretation-layer, financial-orchestration, free-user-monetization, gpu-infrastructure, grounded-ai, headless-architecture, headless-systems, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, inference-location, interaction-paradigm, interaction-paradigm-shift, intuit-quickbooks-workforce, knowledge-worker-automation, knowledge-worker-displacement, mcp, mcp-integration, on-device-inference, operational-coordination, operational-coordination-layer, personal-context, personal-device-context, pixel-native-generation, plaid-openai-integration, plastic-ui, project-solara, query-commercial-value, quickbooks, return-on-invested-capital, router-architecture, server-side-inference, service-displacement, siri, siri-ai, siri-intelligence, smb-operating-system, smb-operations, state-of-art-vs-good-enough, structured-representations, structured-visual-output, superapp-strategy, svg-generation, thin-client, thin-client-ai, thin-client-architecture, thin-client-computing, unified-data-architecture, unified-data-model, visual-ai, voice-interaction, wearable-interaction, workflow-orchestration, workforce-management]
 ---
 
 # AI-Native Product Design
 
-Covers how software companies are redesigning core product
+Covers how software companies are redesigning products around AI capabilities.
 
-## State of the Art vs. Good Enough (Thompson, June 2026)
+## Interaction Paradigm Shift: Computing vs. Interacting
 
-**Key Claim**: For consumer AI markets, "state of the art" AI capabilities matter less than "good enough" AI that actually works reliably. Apple's Siri AI demonstrates this principle: trailing technical leaders but sufficient for consumer needs.
+### Historical Computing-Interaction Coupling (Thompson, June 2026)
+**Core Observation**: Throughout tech history, computing has been indistinguishable from interacting. New input methods often set off paradigm shifts, which explains why wearables face adoption challenges—interacting with them "generally sucks" beyond a few seconds compared to swiping a phone.
 
-**Market Segmentation Implication**: Consumer AI requirements differ fundamentally from enterprise/knowledge worker automation. Consumers primarily need:
-- Traditional chatbot functionality (recipes, DIY tips, image generation)
-- Grounded, constrained problem spaces where AI is less likely to fail
-- Personal context awareness from device data
+**Agent Paradigm Breakthrough**: Agents decouple computing from interaction by computing on the user's behalf without continuous interaction. A few seconds of input can result in hours of autonomous work (in theory).
 
-**Apple's Consumer AI Advantage** (as of WWDC 2025):
-- On-device personal context exceeds any competitor (phone knows more about user than any other device)
-- [[app-intents]] framework enables interaction with native apps
-- Context awareness for simple tasks (e.g., setting reminders based on screen content)
-- Constrained, grounded use cases reduce error rates
+### State-of-Art vs. Good-Enough Threshold
+**Consumer Market Dynamics** (Thompson, June 2026): For consumer AI applications, state-of-the-art capability may not be necessary. If a system "works" and meets user needs, it can be "good enough" for the consumer market even while trailing technical leaders.
 
-**Technical Gap**: Apple's Siri AI (as demoed June 2025) demonstrates context awareness and app control through [[app-intents]], but lacks true agentic capabilities. Example: Can set a reminder to enter a lottery, but cannot autonomously enter the lottery when time arrives. This represents interaction paradigm (human-initiated) vs. agent paradigm (autonomous execution).
+**Example**: Apple's Siri AI (June 2024/2026) demonstrates context awareness and app integration through [[app-intents]] framework, but lacks autonomous agent capabilities like independent task execution. Despite being behind state-of-the-art, this may be sufficient for consumer use cases (recipes, DIY tips, image generation).
 
-## Portal Device Paradigm (Microsoft Project Solara, May 2025)
+## Personal Device Context Advantage
 
-**Concept**: Devices as "portals" rather than standalone computers. In an agent-driven future:
-- Agents live in the cloud, not on devices
-- Devices are interaction surfaces for cloud-resident agents
-- Minimal local compute required since agents execute server-side
-- Extreme expression of [[thin-client]] computing
+### Grounded AI Through Device Knowledge (Thompson, June 2024/2026)
+AI systems with access to personal device data have unique advantages:
+- **Personal Context**: The device "knows more about you than any other device"
+- **Current Context**: Knows what user is looking at when AI is invoked
+- **Constrained Problem Space**: Personal device context grounds AI in specific, "safe" use cases
+- **Reduced Error Risk**: Domain constraints from real device data make AI less likely to fail
+- **Unique Addressability**: Only the device manufacturer can fully leverage this data
 
-**Key Insight**: This paradigm shift decouples computing from interacting:
-- Traditional computing: interaction duration ≈ computation duration
-- Agent paradigm: brief interaction (seconds) → extended computation (hours)
-- Makes wearables viable despite poor interaction capabilities
-- Voice/visual input sufficient when agent handles autonomous execution
+See: [[personal-context]], [[grounded-ai]]
 
-**Infrastructure Driver**: Beyond [[kv-cache-memory-demands]] for agents, the portal paradigm is compelling because agents fundamentally don't require local presence. All meaningful computation occurs server-side. See [[inference-efficiency]] for memory requirements driving cloud inference.
+## Portal Device Concept
 
-**Cross-reference**: Portal devices complement [[agentic-workflows-production]] clearinghouse pattern — devices are presentation layer, clearinghouse is coordination/governance layer, agents are execution layer.
+See: [[project-solara]] in [[inference-efficiency]]

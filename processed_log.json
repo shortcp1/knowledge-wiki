@@ -17830,6 +17830,526 @@
       ],
       "status": "skipped",
       "skip_reason": "Article content not accessible; only contains Google consent dialog with no substantive information about AI in financial advisory or regulatory developments."
+    },
+    "https://www.deeplearning.ai/the-batch/issue-349": {
+      "title": "Issue 349",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-16T02:00:48.500057+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-org-design-headcount",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that AI-native software engineering teams operate fundamentally differently from traditional teams, with coding agents enabling much faster development that creates bottlenecks in product management, design, marketing, and legal compliance. The key mechanism is that 10-100x faster coding means engineers must expand into product management roles, pushing engineer-to-PM ratios from 8:1 to 1:1 or having engineers who can handle both functions, while favoring generalists over specialists and co-located over remote teams. This matters because agentic coding is reshaping not just software development workflows but the structure and skill requirements of entire organizations around engineering teams.",
+      "tags": [
+        "agentic-coding",
+        "engineer-pm-ratio",
+        "organizational-bottlenecks",
+        "generalist-vs-specialist",
+        "team-structure",
+        "cross-functional-roles"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary on organizational impacts of AI coding tools without novel data, frameworks, or deep analysis; primarily anecdotal observations about team dynamics"
+    },
+    "https://www.deeplearning.ai/the-batch/issue-357": {
+      "title": "Issue 357",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-16T02:00:48.500011+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-engineering-agents",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Andrew Ng argues that desktop AI agents that can autonomously take actions (file access, messaging, scheduled tasks) are becoming practical alternatives to web-based chatbots, though reliability concerns remain. He introduces OpenCoworker, an open-source desktop agent framework built on aisuite that allows users to maintain control over data privacy by using their own API keys or local models. The article emphasizes the architectural shift from developer-specified workflows to LLM-driven agentic harnesses, particularly for coding agents, while acknowledging data retention and legal concerns with commercial solutions.",
+      "tags": [
+        "desktop-agents",
+        "agentic-harness",
+        "function-calling",
+        "open-source-agents",
+        "data-retention-policy",
+        "local-inference"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level overview of desktop agents with promotional focus on OpenCoworker rather than deep technical analysis or novel frameworks; lacks substantive evidence or original research"
+    },
+    "https://www.deeplearning.ai/the-batch/issue-356": {
+      "title": "Issue 356",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-16T02:00:48.385393+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "Andrew Ng's letter argues that a recent White House executive order on AI regulation strikes a reasonable balance between promoting AI development and addressing cybersecurity concerns, particularly regarding Anthropic's Mythos vulnerability detection system. He provides context that while the order mandates defensive measures and voluntary model sharing with government, it avoids the excessive regulation that lobbying efforts have sought to impose based on science-fiction fears. The piece matters as it represents a prominent AI leader's perspective on navigating the tension between AI safety/security and overregulation that could stifle innovation.",
+      "tags": [
+        "ai-regulation",
+        "cybersecurity",
+        "vulnerability-detection",
+        "model-sharing",
+        "regulatory-capture",
+        "open-source"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily editorial commentary on policy developments rather than original analysis with substantive technical depth or novel insights; offers perspective but limited evidence or new frameworks."
+    },
+    "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything": {
+      "title": "Cloudflare CAPTCHA on at least one ampersand",
+      "source": "Simon Willison",
+      "date": "2026-06-16T00:21:36+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article describes a technical solution to prevent Cloudflare CAPTCHAs from triggering on simple search queries by configuring a rule that only triggers the challenge when URLs contain ampersands. The author worked with Claude Code to craft a Cloudflare WAF rule using wildcard matching and query string detection to distinguish between simple searches and faceted search combinations. This is a narrow technical workaround for a specific web infrastructure problem with no broader implications.",
+      "tags": [
+        "cloudflare",
+        "captcha",
+        "web-application-firewall",
+        "faceted-search",
+        "claude-code"
+      ],
+      "status": "skipped",
+      "skip_reason": "Personal technical note about Cloudflare CAPTCHA configuration with no relevance to AI, semiconductors, or enterprise technology topics in scope; purely infrastructural web development content."
+    },
+    "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/": {
+      "title": "Why do South Koreans love AI so much?",
+      "source": "MIT Technology Review",
+      "date": "2026-06-15T18:46:08+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 6,
+      "relevant_topics": [
+        "semiconductor-supply-chain",
+        "regulatory-policy",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports that South Korea exhibits the highest AI optimism globally (only 16% concerned vs 50% in US), driven by government-engineered enthusiasm positioning AI as core to economic growth strategy. The evidence includes policy initiatives like the Presidential Council on National AI Strategy, sovereign AI foundation model projects, and South Korea's semiconductor dominance through Samsung and SK Hynix supplying most high-bandwidth memory for AI training. This matters because it illustrates how national industrial policy and cultural attitudes toward technology adoption can create dramatically different AI adoption trajectories compared to Western markets.",
+      "tags": [
+        "ai-adoption-rates",
+        "national-ai-strategy",
+        "high-bandwidth-memory",
+        "semiconductor-manufacturing",
+        "government-policy",
+        "techno-optimism"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level cultural/policy overview without deep technical analysis, original research, or actionable enterprise insights; primarily descriptive journalism about societal attitudes"
+    },
+    "https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything": {
+      "title": "datasette-agent 0.3a0",
+      "source": "Simon Willison",
+      "date": "2026-06-15T17:19:27+00:00",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "This release announcement describes datasette-agent 0.3a0, which adds a new execute_write_sql tool that can request user approval before modifying databases with LLM-generated SQL. The key mechanism is a user approval workflow with CLI options including --unsafe mode for auto-approval, allowing conversational database modifications through natural language prompts. This represents incremental tooling development for agentic database interactions rather than a breakthrough in production deployment patterns.",
+      "tags": [
+        "datasette",
+        "llm-tool-use",
+        "user-approval",
+        "database-agents",
+        "sql-generation",
+        "cli-tools"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product release notes for a niche development tool with limited novelty or depth in agent deployment patterns."
+    },
+    "https://www.technologyreview.com/2026/06/15/1138953/man-als-first-power-user-brain-implant-speak-bci/": {
+      "title": "This man with ALS is \u201cthe first power user\u201d of a brain implant that lets him speak",
+      "source": "MIT Technology Review",
+      "date": "2026-06-15T15:12:28+00:00",
+      "composite": 3.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Casey Harrell, an ALS patient, has used a brain-computer interface for speech for nearly three years, logging over 3,800 hours of independent use at home with 97.5% accuracy across 125,000 words. The device decodes neural activity from the speech motor cortex into phonemes and then words, with four electrode arrays implanted in his brain connecting to external pedestals. This represents the first long-term, high-utilization deployment of a speech BCI, demonstrating durability and practical independence for paralyzed users.",
+      "tags": [
+        "brain-computer-interface",
+        "speech-decoding",
+        "als",
+        "neural-electrodes",
+        "phoneme-mapping",
+        "assistive-technology"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on medical brain-computer interface technology for disability assistance, which does not map to any of the specified AI/ML enterprise topics around model architectures, deployment, business use cases, or semiconductor/infrastructure concerns."
+    },
+    "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything": {
+      "title": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
+      "source": "Simon Willison",
+      "date": "2026-06-15T14:57:33+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on behind-the-scenes tensions between Anthropic and the US Commerce Department that led to export controls taking Anthropic's Mythos/Fable models offline, citing personality clashes and concerns over jailbreaking. The evidence comes from unnamed sources describing meetings between Anthropic safety leaders and government officials, with references to ongoing jailbreak vulnerability debates. This matters because it reveals how interpersonal dynamics and government relations\u2014not just technical capabilities\u2014can disrupt AI lab operations and model availability.",
+      "tags": [
+        "jailbreaking",
+        "export-controls",
+        "anthropic-claude",
+        "us-commerce-department",
+        "model-safety",
+        "red-teaming"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level gossip piece aggregating unnamed sources without original analysis or substantive technical/strategic insights; primarily entertainment value rather than actionable knowledge."
+    },
+    "https://www.technologyreview.com/2026/06/15/1138948/the-download-solid-state-air-conditioning-animal-drugs/": {
+      "title": "The Download: cutting AC emissions, and nature\u2019s drug designer",
+      "source": "MIT Technology Review",
+      "date": "2026-06-15T12:10:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest covering multiple tech stories, with the most relevant items being Anthropic's shutdown of access to top models following US directive and brief mentions of AI-related layoffs and OpenAI investigations. The article provides only surface-level headlines and links with minimal analysis or detail. It offers no original research, frameworks, or depth on any single topic.",
+      "tags": [
+        "anthropic",
+        "model-access-restrictions",
+        "ai-layoffs",
+        "openai-investigation",
+        "newsletter-digest"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest format with only headline-level coverage across disparate topics; lacks depth, original analysis, or substantive detail on any AI-relevant subject."
+    },
+    "https://importai.substack.com/p/import-ai-461-alignment-is-not-on": {
+      "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+      "source": "Import AI (Jack Clark)",
+      "date": "2026-06-15T11:30:53+00:00",
+      "composite": 6.67,
+      "depth": 5,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "A new AI safety nonprofit called Sequent has been formed by researchers from UK AISI and Timaeus, arguing that current alignment approaches at frontier labs are insufficient for superintelligent systems and seeking $100-150M to pursue differentiated theoretical alignment research. The organization plans to build a portfolio of under-resourced research directions including scalable oversight, learning theory, and game theory, aiming to develop principled guarantees that alignment generalizes beyond controlled training environments. This matters because current reactive alignment methods may fail catastrophically as AI systems approach recursive self-improvement capabilities.",
+      "tags": [
+        "alignment-theory",
+        "ai-safety",
+        "scalable-oversight",
+        "superintelligence",
+        "recursive-self-improvement",
+        "lab-dynamics"
+      ],
+      "status": "integrated"
+    },
+    "https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQxNjcyNDUsImlhdCI6MTc4MTU3NTI0NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.m4WxOcwiKjEvMeevYn302k31yUb7xZbbDvQ5NA1eDjg5aaBe20aXIFH4U1Fws2H8re1jkH7ebpqNgUDm0Ncl43w7we_4tDu5_RFdx7TA_B7o5WFQc5Nm9E6_C3JVBZAOiPOpYuqYuw7RrV383lEi7pMq7MFYbZwxiWXTrVlZe_92koykDmeUmMe4bF5SDHdf0VcM5PGqYESNqwdkNgGVGcvozwofAfvqs1H7WlJqetwK9-W0z8CwXFZtlh5ITVZnwu8rn0gBya6ZoTJzZ81_JHTZCmnbLATdMPAfnK9btrPblOOk1KjOfiUFyORbSjxVgjKQilDpZ9Lff5AnFihR-g": {
+      "title": "Anthropic\u2019s Safety Superpower",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-15T10:00:00+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that Anthropic's public commitment to AI safety gives it strategic leverage to both aggressively pursue business interests and challenge U.S. government regulatory actions, as evidenced by the recent conflict over the Fable/Mythos model release. The key evidence is the U.S. government's emergency export control directive after jailbreaks were discovered, which Anthropic is publicly contesting as overreach based on minor vulnerabilities also discoverable by other models. This matters because it illustrates the emerging tension between AI labs' safety narratives and government regulatory authority, presaging inevitable conflicts as models become more capable and useful in creating their own successors.",
+      "tags": [
+        "anthropic",
+        "model-safety",
+        "jailbreaks",
+        "export-controls",
+        "guardrails",
+        "government-regulation"
+      ],
+      "status": "integrated"
+    },
+    "https://stratechery.com/2026/the-iphones-last-stand/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoZS1pcGhvbmVzLWxhc3Qtc3RhbmQvIl19LCJleHAiOjE3ODQxNjcyNDUsImlhdCI6MTc4MTU3NTI0NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.V_emvjQ2GFnhLxO4lMOIfBDRFTqCFyLXkD51iTDD0ddvxFr1cg9a-n-pMKbVGIfm8LhZOzjmJVRLo294N69Xu3YUviHqkkjwC03cHHbFdpcuTRJTw005y9QdzqkrsRXL3mtNKnLItlboxBwv40Qrk6dAoSOkBHJpSskPelDv4BNekjtvkPyM5USLswHnaqMibvhX69RarSUN4u79x1-SV9ohboWeaPGc78FhmwKAgzr-Js5wKe8364wxt5ZJky-aQjTvom4nm1bZtO9mgVUWt_IW3pXf3XCK449j5-XUXvlVOrucoAhFDnktA6jKMZ2IhyO2yDoa3sqnWJwtmnDgtA": {
+      "title": "The iPhone\u2019s Last Stand",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-09T10:00:00+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "ai-native-product-design",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that Apple's approach to AI (Siri AI) is behind state-of-the-art but sufficient for consumer markets, while Microsoft's Project Solara envisions a thin-client future where agents in the cloud do work through minimal device interfaces. The key mechanism is the distinction between interaction-heavy computing (where Apple's iPhone dominates) versus agent-based computing that requires minimal interaction and lives server-side. This matters because it suggests a potential paradigm shift away from the interaction-centric iPhone era toward thin-client agent interfaces, though Apple's 'good enough' consumer-focused approach may still defend its position.",
+      "tags": [
+        "thin-client",
+        "agentic-computing",
+        "server-side-inference",
+        "voice-interaction",
+        "apple-intelligence",
+        "consumer-ai"
+      ],
+      "status": "integrated"
+    },
+    "https://www.bain.com/insights/getting-growth-back-at-your-company-hbr-ideacast/": {
+      "title": "Getting Growth Back At Your Company Hbr Ideacast",
+      "source": "Bain Insights",
+      "date": "2026-06-16T02:00:48.631968+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or site structure for Bain & Company's website, listing offices, industries, and services. No actual article content about growth strategies is present\u2014only headers, menus, and geographic locations. The submission contains no substantive information to evaluate.",
+      "tags": [
+        "navigation-page",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only website navigation elements and headers with no actual content, analysis, or information to evaluate."
+    },
+    "https://www.bain.com/insights/leon-founders-mentality-video/": {
+      "title": "Leon Founders Mentality Video",
+      "source": "Bain Insights",
+      "date": "2026-06-16T02:00:48.631926+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation menu or website structure page from Bain & Company's website, not an actual article. The title references 'Leon: What If God Made Fast Food?' but the provided text contains only website navigation elements (offices, industries, services, etc.). There is no substantive content to evaluate regarding founder mentality, fast food, or any business insights.",
+      "tags": [
+        "bain-and-company",
+        "navigation",
+        "website-structure"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided\u2014only website navigation menu elements with no substantive analysis, research, or insights to evaluate."
+    },
+    "https://www.bain.com/insights/ron-kermisch-killing-complexity-before-complexity-kills-growth-video/": {
+      "title": "Ron Kermisch Killing Complexity Before Complexity Kills Growth Video",
+      "source": "Bain Insights",
+      "date": "2026-06-16T02:00:48.514151+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or skeleton template from Bain & Company's website rather than an actual article. The content consists entirely of website navigation menus, office locations, and structural elements with no substantive content about complexity, growth, or any analytical material. There is no article to evaluate as the text provided is purely navigational infrastructure.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "Not an article\u2014only website navigation structure with no substantive content to analyze."
+    },
+    "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and": {
+      "title": "\ud83c\udf99\ufe0f How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-15T15:01:32+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "evals-production-deployment",
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "Claire reviews Anthropic's Claude Fable 5 (Mythos-class model) through real-world product and engineering tasks, finding it excels at vision tasks and complex technical problems but produces verbose specs and surprisingly poor design output. The model is 2-5x more expensive than alternatives ($10/$50 per million tokens), operates like an overly thorough senior engineer, and includes novel safety fallbacks to Opus 4.8 for sensitive domains rather than blocking requests entirely. This matters because it demonstrates that frontier model capabilities don't uniformly improve across all task types, requiring strategic deployment matching model intelligence to task complexity rather than always using the most powerful model.",
+      "tags": [
+        "model-benchmarking",
+        "swbench",
+        "agentic-workflows",
+        "token-pricing",
+        "vision-models",
+        "multi-agent-orchestration",
+        "safety-guardrails",
+        "model-selection-strategy"
+      ],
+      "status": "integrated"
+    },
+    "https://www.exponentialview.co/p/data-to-start-your-week-15-june-2026": {
+      "title": "\ud83d\udcc8 Data to start your week",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-06-15T14:36:13+00:00",
+      "composite": 3.33,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter roundup presents three brief data points: AI being cited in 40% of US job cuts in May, massive disparity in AI spending between top 1% firms ($7,450/employee) versus typical firms ($11.38/employee), and Cognition offering a $10M performance guarantee for their AI engineering agents. The evidence consists of isolated statistics without context, methodology, or deeper analysis. The piece serves as a signal aggregator rather than providing actionable insights or novel frameworks.",
+      "tags": [
+        "job-displacement",
+        "ai-spending-disparity",
+        "performance-guarantees",
+        "enterprise-ai-adoption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level data aggregation without analysis, context, or actionable insights; lacks depth in exploring mechanisms or implications of the statistics presented."
+    },
+    "https://www.lennysnewsletter.com/p/how-braintrust-uses-ai-agents-evals": {
+      "title": "How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-15T12:04:03+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "evals-production-deployment",
+        "ai-in-product-and-engineering",
+        "agentic-workflows-production",
+        "prompt-architecture"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Braintrust CEO Ankur Goyal describes how his team uses AI coding agents to run week-long database optimization benchmarks and employs evals as 'modern PRDs' to encode quality standards that scale beyond individual engineers. He demonstrates running 4-6 concurrent agents for technical infrastructure work, building scoring functions to capture designer taste, and emphasizes CI/CD investment as critical for AI-accelerated teams. This matters because it provides concrete workflows for engineering leaders to delegate complex technical work to agents while maintaining quality through systematic evaluation rather than ad-hoc 'vibe checks.'",
+      "tags": [
+        "coding-agents",
+        "evals",
+        "ci-cd-integration",
+        "database-optimization",
+        "benchmarking-automation",
+        "agent-delegation-framework"
+      ],
+      "status": "integrated"
+    },
+    "https://tearsheet.co/10-q/what-klarna-coinbase-and-chase-are-building-next/?utm_source=rss&utm_medium=rss&utm_campaign=what-klarna-coinbase-and-chase-are-building-next": {
+      "title": "What Klarna, Coinbase, and Chase are building next",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-15T11:30:00+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-b2b-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on product expansion moves by Klarna (launching high-yield savings), Coinbase (using stablecoins for credit), and Chase (building intelligence for small business decisions) as they push beyond their original business boundaries. It presents these as examples of financial firms positioning themselves closer to customer decision-making moments through integrated financial services. The analysis remains surface-level, describing product launches without examining underlying technology, competitive dynamics, or measurable impact.",
+      "tags": [
+        "fintech-expansion",
+        "deposits",
+        "stablecoins",
+        "small-business-banking",
+        "behavioral-finance"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement summary without original analysis, technical depth, or substantive evidence of strategic impact; primarily repackages press releases into trend narrative."
+    },
+    "https://www.tomtunguz.com/golden-age-of-applications/": {
+      "title": "The Golden Age of AI Applications",
+      "source": "Tomasz Tunguz",
+      "date": "2026-06-15T00:00:00+00:00",
+      "composite": 6.33,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-in-product-and-engineering",
+        "model-architecture",
+        "ai-governance-risk-compliance",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI applications are entering a 'golden age' driven by three market signals: regulatory risk (Fable shutdown), strategic consensus (Nadella's ecosystem thesis), and M&A validation (Salesforce acquiring Fin for $3.6B). The key mechanism is that AI application builders must master three disciplines: model selection across price/performance tradeoffs, designing hill-climbing loops for agentic systems, and continuous evaluation of model+loop performance within token budgets. This matters because it suggests the moat shifts from models themselves to the expertise and systems ('harness') around them, favoring specialized vendors who can amortize optimization costs across customers.",
+      "tags": [
+        "model-selection",
+        "token-budget-optimization",
+        "agentic-loops",
+        "ai-harness",
+        "regulatory-risk",
+        "build-vs-buy"
+      ],
+      "status": "integrated"
+    },
+    "https://feeds.feedblitz.com/~/958052516/0/kitcesnerdseyeview~Summer-Reading-List-Of-%e2%80%9cBest-Books%e2%80%9d-For-Financial-Advisors-%e2%80%93-Edition/": {
+      "title": "Summer Reading List Of \u201cBest Books\u201d For Financial Advisors \u2013 2026 Edition",
+      "source": "Kitces.com",
+      "date": "2026-06-15T11:01:19+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "landscape",
+      "summary": "This article presents a 2026 summer reading list for financial advisors, covering books on business scaling, time management, financial planning history, and client experience differentiation. The content is a curated book recommendation list with brief contextual framing about market conditions and AI tool proliferation in the advisory industry. It provides no original analysis or actionable insights beyond book suggestions for professional development.",
+      "tags": [
+        "financial-advisors",
+        "book-recommendations",
+        "professional-development"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level curated book list with no original analysis, novel claims, or actionable insights relevant to AI implementation or technical infrastructure topics."
+    },
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZUFfNzJwcFV1OVo1T3VYVVh0eVNGTDlkajNteUh0ajRjNGg5RlJIN3d6ZkxSczNvNGJrNUx1amxqMUZHRUlON05oaDNPVUJvOTRsS19hU3RYMVN4S3VDTjFzcVhsREhGZ0NVMW1henRJV0x0UWJET3prbGpWZFJkV016eDJxTllKSktZdUJ4emlZSjd4WXlrZVk4VUJkRk15WjVsaQ?oc=5": {
+      "title": "RIA Client Rolls Hit 73.7 Million As Investors Seek Fiduciaries - FA Mag",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-06-09T14:46:10+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "landscape",
+      "summary": "This appears to be a Google cookie consent page rather than the actual article content about RIA client rolls reaching 73.7 million. No substantive content about wealth management, fiduciary advisors, or AI financial workflows is present in the provided text. The article cannot be evaluated as only the cookie consent barrier was captured, not the actual journalism.",
+      "tags": [
+        "ria",
+        "fiduciary-advisors",
+        "wealth-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "No article content provided - only a Google sign-in/cookie consent page was captured instead of the actual article about registered investment advisors and fiduciary trends."
     }
   }
 }
