@@ -1,5 +1,5 @@
 ---
-tags: [agency-dexterity, ai-agents, ai-in-operations, commercial-viability, embodied-ai, general-purpose-robots, hyperscale-operations, infrastructure-efficiency, labor-automation, manufacturing-automation, operational-automation, performance-optimization, physical-automation, regression-detection, robotics, robotics-autonomy]
+tags: [agency-dexterity, ai-agents, ai-in-operations, ai-infrastructure-deployment, commercial-viability, data-center-operations, data-center-regulation, embodied-ai, energy-constraints, general-purpose-robots, grid-demand-management, grid-flexibility, hyperscale-operations, infrastructure-efficiency, labor-automation, manufacturing-automation, operational-automation, performance-optimization, physical-automation, power-flexible-data-centers, power-management, regression-detection, robotics, robotics-autonomy, workload-orchestration, workload-throttling]
 ---
 
 # AI in Operations
@@ -22,52 +22,23 @@ Key questions tracked: Where is AI actually replacing manual processes end-to-en
   - Realized offense and defense share same underlying structure, enabling single unified platform
   - Separation of tools (what to invoke) from skills (domain expertise/reasoning patterns)
   - Composability and reusability of encoded expertise
-  - Standardized tool interfaces allowing generalized LLM to apply senior engineer domain knowledge
-- **Outcomes**:
-  - Recovered hundreds of megawatts (MW) of power
-  - Compressed ~10 hours of manual investigation into ~30 minutes for diagnoses
-  - AI agents
 
-### Physical Robotics Automation
+### Data Center Power Management
 
-**Robotics Levels of Autonomy Framework (SemiAnalysis, March 2025)**
-
-A classification system for general-purpose robotics capabilities, organized around commercial viability rather than mere technical possibility. Each level builds sequentially on prior capabilities.
-
-- **Framework Axes**:
-  - **Agency**: Planning and decision-making capabilities
-  - **Dexterity**: Physical manipulation and interaction skills
-- **Core Principle**: "Robot autonomy is inherently linked to applications: creating value only through actions often irrecoverable. Therefore, capabilities are derived from reliability and capability. Once reliability is proven, the robot must deliver sufficient throughput to justify its cost."
-- **Historical Context**: Previous intelligent robotics attempts "overpromised and underdelivered" but "were too early." Modern AI paradigms convert robot roadblocks into data problems.
-
-**Level 0: Scripted Motion**
-- **Unlock**: High Accuracy, High Repeatability
-- **Capabilities**: 24/7 Automation, High Throughput
-- **Requirements**: Pre-programmed entirely, static environments and tasks
-- **2025 Deployment**: Industry standard in automotive and electronics factories
-- **Note**: Not general-purpose; single-purpose systems that dominated manufacturing for decades
-
-**Level 1: Intelligent Pick and Place**
-- **Unlock**: Generalizable Perception, Generalizable Grasping
-- **Capabilities**: Stationary Pick and Place
-- **2025 Deployment**: Adopted in parcel logistics centers for pick and place sorting, increasing penetration in additional warehousing markets as capabilities and integrations improve
-- **Example**: Covariant systems in warehouse environments
-
-**Level 2: Autonomous Mobility**
-- **Unlock**: High-level Planning, Spatial Reasoning, Robust Locomotion
-- **Capabilities**: Open world Navigation and Traversal
-- **2025 Deployment**: Early production phases for inspection and data collection roles (construction sites, oil & gas refineries, critical infrastructure)
-- **Status**: General-purpose robots already working in early production phases
-
-**Level 3: Low-skill Manipulation**
-- **Unlock**: Generalizable Manipulation
-- **Capabilities**: Advanced Pick and Place, Mobile Manipulation
-- **2025 Deployment**: Early pilot stages automating low-skill jobs
-- **Status**: Demonstrating viability in early trials
-- **Note**: Requires performing basic, noncritical, low-skill tasks
-
-**Level 4 & 5**: Not detailed in article (content truncated)
-
-**Progression Outlook**: "This evolution will accelerate faster than most realize" with mass labor replacement "on the horizon" as general-purpose robots "slowly add more capabilities until all tasks are feasible."
-
-See also: [[foundation-models]] for AI paradigms enabling robotics progress
+**Emerald AI Conductor Platform (Emerald AI, December 2025 simulation, 2026 live deployment)**
+- **Business Problem**: Data centers face 8-year lead times for new power plant approvals (PJM region), public opposition ($150B+ projects stalled in 2025), and regulatory constraints (state bans, local moratoriums, federal GRID Act proposing to sever data centers from public grids). Infrastructure bottleneck is primary constraint on data center deployment.
+- **AI Pattern**: Real-time workload orchestration and power management. AI system ("Conductor") dynamically adjusts data center power consumption during grid stress events while prioritizing time-sensitive computational workloads.
+- **Success Factors** (December 2025 simulation):
+  - Successfully managed simulated UK grid stress event (Euro 2020 match halftime tea-making surge)
+  - Reduced data center power draw during peak demand while maintaining critical operations
+  - Demonstrated feasibility of "power-flexible AI factories"
+- **Industry & Function**: Data center operations / infrastructure management
+- **Quantitative Outcomes**:
+  - Duke University research: US grid could offer additional 76 GW capacity (5% of total, enough for projected US data center growth through 2030) to facilities willing to reduce usage just 0.25% of time (~22 hours/year)
+  - Princeton/Google research: 500 MW flexible facility in PJM region could reach full operation 3-5 years faster than inflexible facility by flexing <1% of year
+  - 2026 live deployment planned in Data Center Alley, Virginia with Nvidia and Digital Realty
+- **Generalizability**: 
+  - **High generalizability**: Any power-intensive industrial operation facing grid constraints or demand charges (manufacturing, chemical processing, cryptocurrency mining, steel production)
+  - **Adjacent industries**: EV charging networks, cold storage facilities, industrial heating/cooling systems
+  - **Core pattern**: Real-time workload prioritization + demand response = faster infrastructure deployment and regulatory approval
+  - **Regulatory arbitrage**: Flexible power use may avoid proposed regulations targeting inflexible data centers

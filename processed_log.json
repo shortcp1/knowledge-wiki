@@ -18350,6 +18350,604 @@
       ],
       "status": "skipped",
       "skip_reason": "No article content provided - only a Google sign-in/cookie consent page was captured instead of the actual article about registered investment advisors and fiduciary trends."
+    },
+    "https://www.anthropic.com/news/core-views-on-ai-safety": {
+      "title": "Core Views On Ai Safety",
+      "source": "Anthropic Blog",
+      "date": "2026-06-17T02:00:46.668948+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-governance-risk-compliance",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic argues that AI progress driven by scaling laws could lead to transformative AI systems within a decade, but we lack methods to ensure these systems behave safely and reliably. The company cites exponential increases in training computation as predictable drivers of capability improvements, while noting that no one currently knows how to train very powerful AI systems to be robustly helpful, honest, and harmless. This creates urgency for their multi-faceted safety research approach including scaling supervision, mechanistic interpretability, and process-oriented learning.",
+      "tags": [
+        "scaling-laws",
+        "ai-safety",
+        "mechanistic-interpretability",
+        "scaling-supervision",
+        "transformative-ai",
+        "lab-strategy"
+      ],
+      "status": "skipped",
+      "skip_reason": "High-level position statement that covers widely-discussed themes (scaling laws, AI safety concerns) without novel technical depth, data, or frameworks beyond Anthropic's general research philosophy."
+    },
+    "https://www.deeplearning.ai/the-batch/why-claudes-advanced-mythos-preview-model-will-be-limited-release-only": {
+      "title": "Why Claudes Advanced Mythos Preview Model Will Be Limited Release Only",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-17T02:00:46.417395+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-governance-risk-compliance",
+        "regulatory-policy",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic is releasing Claude Mythos Preview as a limited-access model due to its exceptional capability to autonomously discover and exploit software vulnerabilities, having found thousands of high-severity flaws in major operating systems and browsers. The company established Project Glasswing, a consortium of major tech companies and organizations, providing $100M in API credits to enable vulnerability discovery and patching before wider model release. This represents a new precedent in AI safety governance where model capabilities in cybersecurity exploitation prompted coordinated industry-wide hardening efforts and the first-ever model card publication without commercial release.",
+      "tags": [
+        "cybersecurity-vulnerabilities",
+        "autonomous-exploit-discovery",
+        "responsible-disclosure",
+        "project-glasswing",
+        "ai-safety-governance",
+        "model-capability-thresholds"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/googles-alphagenome-interprets-dna-that-regulates-genetic-expression": {
+      "title": "Googles Alphagenome Interprets Dna That Regulates Genetic Expression",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-17T02:00:46.234099+00:00",
+      "composite": 5.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Google's AlphaGenome is a deep learning model that interprets non-coding DNA (98% of the genome) to predict gene properties like expression levels and regulatory functions, using a CNN-transformer-CNN architecture trained through ensemble distillation. The model outperformed previous approaches in 47 of 50 evaluations and successfully predicted cellular changes in T-cell acute lymphoblastic leukemia when given mutated DNA sequences. This represents a significant advancement in computational genomics, potentially accelerating disease mechanism understanding and treatment development.",
+      "tags": [
+        "genomics",
+        "alphagenome",
+        "non-coding-dna",
+        "gene-expression",
+        "ensemble-distillation",
+        "cnn-transformer-architecture"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on computational biology/genomics applications rather than the specified AI technology infrastructure, model architectures for LLMs, or enterprise AI deployment topics."
+    },
+    "https://www.deeplearning.ai/the-batch/a-dynamic-fluids-model-appears-to-solve-transformers-pixellation-problem": {
+      "title": "A Dynamic Fluids Model Appears To Solve Transformers Pixellation Problem",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-17T02:00:45.916638+00:00",
+      "composite": 6.33,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "Polymathic AI developed Walrus, a 1.3B-parameter transformer model that simulates fluid dynamics across 19 physical domains by addressing transformers' pixellation problem through random time-jittering of input data. The key innovation is that jittering prevents aliasing errors from compounding at specific locations over multiple time steps, reducing one-step prediction error by 63.6% compared to prior physics models. This represents a breakthrough in using transformers for chaotic physical system simulation, with applications in climate science, aerospace, and materials engineering.",
+      "tags": [
+        "transformers",
+        "fluid-dynamics-simulation",
+        "aliasing-errors",
+        "time-jittering",
+        "scientific-ai",
+        "chaotic-systems"
+      ],
+      "status": "integrated"
+    },
+    "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/": {
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "source": "Google DeepMind",
+      "date": "2026-06-16T21:29:50+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Google DeepMind is partnering with the UK government to develop an AI prototype intended to accelerate housing planning decisions. The article appears to be an announcement of the partnership without providing technical details about the AI system, implementation approach, or evidence of effectiveness. This represents a government application of AI outside the core focus areas of enterprise software, AI product development, or technical AI systems.",
+      "tags": [
+        "uk-government",
+        "planning-automation",
+        "public-sector-ai",
+        "deepmind-partnership"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers AI in government housing planning, which does not map to any of the specified topic areas focused on AI in business operations, technical AI systems, or enterprise AI deployment."
+    },
+    "https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/": {
+      "title": "Exclusive eBook: How AI is becoming the next military advisor",
+      "source": "MIT Technology Review",
+      "date": "2026-06-16T20:35:02+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is an eBook collection bundling six previously published MIT Technology Review articles about military applications of AI in decision-making, targeting, and intelligence. The content aggregates existing reporting on Pentagon AI initiatives, classified data training plans, and AI use in conflict zones like Iran. It represents a curated overview rather than original analysis or research.",
+      "tags": [
+        "military-ai",
+        "targeting-decisions",
+        "classified-data-training",
+        "defense-ai",
+        "intelligence-surveillance"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a curated collection of previously published articles rather than original content; it provides a surface-level aggregation without new analysis, data, or frameworks, and does not map to the specified topic areas focused on commercial AI applications, enterprise use cases, or technical AI infrastructure."
+    },
+    "https://www.dwarkesh.com/p/ada-palmer-2": {
+      "title": "Ada Palmer \u2013 Machiavelli is the most misunderstood thinker of all time",
+      "source": "Dwarkesh Podcast",
+      "date": "2026-06-16T17:27:51+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This podcast episode discusses Machiavelli's life as a Florentine diplomat and the historical context behind 'The Prince,' arguing he is widely misunderstood and wrote the book as both a patriotic act and job application after being tortured and exiled. The conversation covers his diplomatic observations of European rulers, Renaissance power dynamics, and how his insights were meant specifically for the Medici to defend Florence. The episode is a historical discussion with no connection to AI, technology, semiconductors, or any modern enterprise topics.",
+      "tags": [
+        "machiavelli",
+        "renaissance-history",
+        "political-philosophy",
+        "diplomatic-history"
+      ],
+      "status": "skipped",
+      "skip_reason": "Historical content about Renaissance political philosophy with no relevance to AI, technology, semiconductors, or any specified topic areas."
+    },
+    "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything": {
+      "title": "datasette-tailscale 0.1a0",
+      "source": "Simon Willison",
+      "date": "2026-06-16T16:18:20+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article announces an experimental alpha plugin that enables running a Datasette database server on a Tailscale private network using a single command. The plugin uses Python bindings for the tailscale-rs library to create a sidecar proxy that connects the localhost server to a Tailnet. This is a simple tool release announcement with minimal technical depth or broader implications.",
+      "tags": [
+        "datasette",
+        "tailscale",
+        "plugin-development",
+        "network-proxy",
+        "python-bindings"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a brief tool release announcement for a niche networking plugin with no connection to AI, enterprise software deployment, or any of the specified topic areas; it lacks analytical depth and strategic relevance."
+    },
+    "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything": {
+      "title": "Quoting Georgi Gerganov",
+      "source": "Simon Willison",
+      "date": "2026-06-16T16:04:59+00:00",
+      "composite": 3.67,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "inference-efficiency",
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "Georgi Gerganov (creator of llama.cpp) shares that he uses Qwen3.6-27B locally for daily coding tasks on his M2 Ultra and RTX 5090, finding it capable for small maintainer tasks at ggml-org. He runs it through a stripped-down pi agent with minimal system prompts to align with his coding style. This represents a practitioner endorsement of local model viability for real development workflows.",
+      "tags": [
+        "local-llms",
+        "qwen",
+        "coding-agents",
+        "inference-efficiency",
+        "ai-assisted-programming",
+        "llama-cpp"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief quote with personal anecdote rather than analysis; provides practitioner validation but no novel insights, data, or frameworks about local model deployment or coding agent architecture."
+    },
+    "https://www.interconnects.ai/p/frontier-post-training-recipe-review": {
+      "title": "Frontier post-training recipe review with Finbarr Timbers",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "2026-06-16T13:29:30+00:00",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "post-training-rlhf",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "The article reviews the evolution of post-training recipes for frontier LLMs from 2022 to 2026, highlighting the emergence of Multi-teacher On-Policy Distillation (MOPD) as the dominant new pattern. MOPD works by training domain-specialist teacher models via SFT+RL, then training a general student model by sampling its own trajectories and minimizing reverse-KL to the relevant teacher distributions, as implemented in MiMo Flash V2, DeepSeek V4, and Nemotron 3 Ultra. This matters because MOPD solves the capability conflict and organizational scaling problems that emerged as single-pipeline RL became too expensive and complex for frontier models.",
+      "tags": [
+        "mopd",
+        "multi-teacher-distillation",
+        "on-policy-distillation",
+        "rlvr",
+        "reasoning-rl",
+        "rejection-sampling",
+        "dpo",
+        "ppo",
+        "reward-modeling",
+        "frontier-models"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/": {
+      "title": "The Download: the first brain implant power user and South Korea\u2019s AI obsession",
+      "source": "MIT Technology Review",
+      "date": "2026-06-16T12:10:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest summarizing multiple technology news stories, including a brain-computer interface user with ALS, South Korean AI adoption attitudes, US restrictions on Anthropic, and DeepSeek's $7B funding round. The article provides brief summaries with links to other sources rather than original reporting or analysis. It offers a surface-level overview of current tech news without depth on any single topic.",
+      "tags": [
+        "brain-computer-interface",
+        "deepseek",
+        "anthropic",
+        "ai-regulation",
+        "newsletter-digest"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest format provides only surface-level summaries of multiple stories without original analysis, depth, or actionable insights on any covered topic."
+    },
+    "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/": {
+      "title": "Want to get a data center online quickly? Give it some flex.",
+      "source": "MIT Technology Review",
+      "date": "2026-06-16T09:00:00+00:00",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-operations",
+        "regulatory-policy",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on Emerald AI's Conductor software, which enables data centers to dynamically reduce power consumption during grid demand spikes, potentially solving the bottleneck of getting new AI facilities online faster than new power plants can be built. The key mechanism is AI-driven load management that throttles less-urgent workloads during peak demand, demonstrated in simulations of real grid stress events like the UK's Euro 2020 match. This matters because it could defuse regulatory opposition to data centers (over $150B in projects stalled in 2025) and accelerate AI infrastructure deployment by working within existing grid constraints rather than requiring new power generation.",
+      "tags": [
+        "power-flexible-data-centers",
+        "grid-demand-management",
+        "ai-infrastructure-deployment",
+        "data-center-regulation",
+        "workload-throttling",
+        "energy-constraints"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything": {
+      "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+      "source": "Simon Willison",
+      "date": "2026-06-16T05:20:29+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on export controls banning Claude Fable 5 because researchers could prompt it to fix code vulnerabilities, which regulators interpreted as a jailbreak enabling cyber attacks. Kate Moussouris argues this is absurd because fixing security bugs through prompts like 'fix this code' is fundamental to defensive security work, not a guardrail bypass. The situation demonstrates how non-technical policymakers are creating regulations that harm cybersecurity defense capabilities by conflating legitimate bug-fixing with offensive capabilities.",
+      "tags": [
+        "export-controls",
+        "jailbreak",
+        "vulnerability-patching",
+        "defensive-security",
+        "model-guardrails",
+        "regulatory-overreach"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.latent.space/p/ainews-satya-on-loopcraft-building": {
+      "title": "[AINews] Satya on Loopcraft: Building Frontier Ecosystems",
+      "source": "Latent Space",
+      "date": "2026-06-16T02:29:29+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "lab-dynamics",
+        "regulatory-policy",
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount",
+        "data-moats-proprietary-advantages"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Microsoft CEO Satya Nadella's essay introducing 'Loopcraft' as a theory for building frontier AI ecosystems rather than just frontier models, emphasizing learning loops that compound human and 'token capital' (institutional knowledge). The piece also covers the major regulatory crisis around Anthropic's Fable/Mythos models being hit with export controls, sparking debates about opaque AI governance and pushing teams toward model-neutral architectures. This signals a shift in both corporate AI strategy (Microsoft post-OpenAI) and the entanglement of frontier model access with national security policy.",
+      "tags": [
+        "loopcraft",
+        "frontier-ecosystems",
+        "export-controls",
+        "model-neutrality",
+        "anthropic-fable",
+        "ai-governance"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://openai.com/index/deployment-simulation": {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "source": "OpenAI News",
+      "date": "2026-06-16T00:00:00+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "evals-production-deployment",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "technical",
+      "summary": "OpenAI announces Deployment Simulation, a methodology for predicting AI model behavior in production environments before actual release by using real conversation data. The approach aims to improve safety evaluation accuracy by testing models against realistic deployment scenarios rather than synthetic benchmarks. This addresses the gap between lab testing and production behavior, potentially reducing post-deployment risks.",
+      "tags": [
+        "deployment-simulation",
+        "safety-evaluation",
+        "pre-deployment-testing",
+        "production-behavior-prediction"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article appears to be a brief announcement without substantial technical detail, evidence, or novel frameworks beyond describing a general concept of using real conversation data for pre-deployment testing."
+    },
+    "https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQyNTM2NDEsImlhdCI6MTc4MTY2MTY0MSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.VFWuFAWV3h2vV23n9u4zYUiHnYOnMeXZFCBqY8aq6keDWJGNthhB-JKkQEy-R_tprLaO-XtwtGQrGX5IWcRsPJy-4NmMYxvlxtCSQ3F4AdDhsprJzEptBkxrwOEYKOPx-sgir45X6Za6la21WX5Z3arQ1RbB-jcUjJ2TRR_Il3-Zw3-py0H0Y9aCvew7mUQLp5iDKVkE9_ApltI6iOYWScU8O46pGFxMCue5lbp5njPWRSejNBVeIUlFYdOleUOC3SVYehmRtA5jbxPM5eKgd51t3N_etfMFg7FulcI8CJifCFs3q-_tJRtVinBVuuLylXNMNI9K9XSe5BFBdUDDog": {
+      "title": "Anthropic\u2019s Safety Superpower",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-15T10:00:00+00:00",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that Anthropic's commitment to AI safety enables the company to take aggressive business positions, including challenging U.S. government export controls over its Fable/Mythos models after a jailbreak was discovered. The key evidence is the government's sudden directive to suspend foreign national access to these models citing national security concerns over cybersecurity capabilities, which Anthropic contests as disproportionate given other models have similar vulnerabilities. This matters because it illustrates the inevitable collision between AI lab autonomy, competitive positioning through safety framing, and government regulatory oversight as models become more capable.",
+      "tags": [
+        "jailbreaking",
+        "export-controls",
+        "cybersecurity-capabilities",
+        "model-safety-guardrails",
+        "lab-government-relations",
+        "foreign-national-access"
+      ],
+      "status": "integrated"
+    },
+    "https://www.bain.com/insights/what-are-ai-powered-operations-and-how-do-they-work/": {
+      "title": "What Are Ai Powered Operations And How Do They Work",
+      "source": "Bain Insights",
+      "date": "2026-06-17T02:00:45.881578+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Bain & Company landing page or navigation structure for content about AI-powered operations, rather than a substantive article. The text consists almost entirely of website navigation elements, office locations, and menu items without actual analysis or content. No meaningful information about AI-powered operations methodologies, case studies, or frameworks is present.",
+      "tags": [
+        "ai-operations",
+        "consulting",
+        "enterprise-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content detected; appears to be website navigation/metadata only without actual article text or analysis."
+    },
+    "https://www.bain.com/insights/founders-mentality-the-path-to-scale-insurgency/": {
+      "title": "Founders Mentality The Path To Scale Insurgency",
+      "source": "Bain Insights",
+      "date": "2026-06-17T02:00:45.391967+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or website structure for Bain & Company's 'Founder's Mentality' content rather than an actual article. The page contains only menu items, office locations, and site navigation elements without any substantive analysis or insights. No actual content about founder's mentality, scaling strategies, or insurgency is present in the provided text.",
+      "tags": [
+        "founders-mentality",
+        "scale-insurgency",
+        "bain-consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive article content provided - only website navigation structure and office listings without analysis, insights, or actionable information."
+    },
+    "https://www.bain.com/insights/pierre-antoine-dresco-microbattles-video/": {
+      "title": "Pierre Antoine Dresco Microbattles Video",
+      "source": "Bain Insights",
+      "date": "2026-06-17T02:00:45.064529+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or incomplete article from Bain & Company's website about 'micro-battles' featuring Pierre-Antoine Dresco. The content consists entirely of website navigation elements, office locations, and menu structures with no substantive article text. Without actual content about micro-battles methodology or implementation, there is no meaningful information to evaluate.",
+      "tags": [
+        "micro-battles",
+        "bain-company",
+        "navigation-page"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive article content provided - only website navigation and header elements with no analysis, insights, or information about the stated topic."
+    },
+    "https://tearsheet.co/artificial-intelligence/j-p-morgan-payments-michael-lozanoff-on-why-agentic-commerce-cant-scale-without-governance/?utm_source=rss&utm_medium=rss&utm_campaign=j-p-morgan-payments-michael-lozanoff-on-why-agentic-commerce-cant-scale-without-governance": {
+      "title": "J.P. Morgan Payments\u2019 Michael Lozanoff on why agentic commerce can\u2019t scale without governance",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-16T11:30:00+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance",
+        "ai-in-finance-accounting",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "J.P. Morgan Payments argues that AI agent capability is no longer the bottleneck in agentic commerce; instead, governance frameworks around agent identity, permissions, and liability are critical for scaling agent-driven transactions. The article presents evidence from Michael Lozanoff showing how traditional payment systems built for human-authorized transactions break down when agents act autonomously, disrupting fraud detection, merchant visibility, and accountability models. This matters because it identifies governance infrastructure\u2014not agent intelligence\u2014as the key competitive differentiator and scaling constraint for commerce automation in financial services.",
+      "tags": [
+        "agentic-commerce",
+        "agent-identity",
+        "payment-governance",
+        "fraud-detection",
+        "liability-models",
+        "transaction-authorization"
+      ],
+      "status": "integrated"
+    },
+    "https://cutlefish.substack.com/p/tbm-426-the-trouble-with-mirrors": {
+      "title": "TBM 426: The Trouble With Mirrors",
+      "source": "The Beautiful Mess (John Cutler)",
+      "date": "2026-06-16T08:39:38+00:00",
+      "composite": 6.67,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that organizational transparency and visualization tools (mirrors) are insufficient for team improvement because they assume people want objective truth when they actually want to feel seen and understood. It provides evidence through organizational behavior patterns: people avoid uncomfortable truths, weaponize data selectively, prefer flattering perspectives, and lack safety or power to act on clear insights. This matters for AI product design and organizational change management because it suggests effective tools must focus on psychological safety and recognition rather than just data visibility.",
+      "tags": [
+        "organizational-transparency",
+        "team-dynamics",
+        "psychological-safety",
+        "change-management",
+        "visualization-tools",
+        "organizational-behavior"
+      ],
+      "status": "integrated"
+    },
+    "https://feeds.feedblitz.com/~/958085753/0/kitcesnerdseyeview~Training-NextGen-Advisors-In-Business-Development-By-Getting-Really-Clear-About-Who-They-Serve-And-How-They-Help-FASuccess-Ep-With-Kristin-Harad/": {
+      "title": "Training Next-Gen Advisors In Business Development By Getting Really Clear About Who They Serve And How They Help: #FASuccess Ep 494 With Kristin Harad",
+      "source": "Kitces.com",
+      "date": "2026-06-16T11:06:35+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-sales-gtm"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This podcast episode discusses training next-generation financial advisors in business development by helping them clarify their value proposition and ideal client profiles. The key mechanisms include building strong firm branding, creating ideal client personas, developing one-pagers with social proof, and using content marketing to generate warm leads. The guidance is framed around overcoming newer advisors' reluctance to appear 'salesy' by focusing on problem-solving for clients.",
+      "tags": [
+        "business-development",
+        "financial-advisory",
+        "sales-training",
+        "value-proposition",
+        "content-marketing"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level business development advice for financial advisors with no substantive connection to AI, enterprise AI deployment, or technical systems; tangentially maps to sales/GTM only in the most generic sense."
+    },
+    "https://news.google.com/rss/articles/CBMijAJBVV95cUxOS2JiTDF6NnpnNktvbGdfcEh5QkpMNjJ3UHNkSnpWb1RiZkNXMm03NnQzeHB5Y25HZnJxa0VuT2tJMGttZUZLMGotd0VqVXREbFc3MC1NNEd2bnQtSVpqQXlzWHlXNl9oV3BmczFGQjhYNkVxZmVoUGJhWGhRd0IzYU9XVF9YVWRIRzhXUTQza041WURnRW5lYmo1cTU0LUhZOVZKSDVNR01NTFJBRXhkTTZUVVNJSHE0M2hjdVRSVmcxZk1SMzRxdVBvQWdmcXBuMndzT3o0QzRjRTZ3U1UyUlkwcWpYTGFEeDJEWGY2R0YtSmdqU3BCTWxxWE5UWXNVeUY4MnBCTjJKclFj?oc=5": {
+      "title": "Cheesecake Labs Joins the Claude Partner Network to Scale Claude Across the US Mid-Market, Certifying 50+ Engineers This Year - Business Wire",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-16T09:00:00+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Cheesecake Labs announces partnership with Anthropic's Claude Partner Network to provide Claude implementation services to US mid-market companies, planning to certify over 50 engineers in 2024. The article is a standard press release announcing a business partnership and certification program without technical details or analysis. This represents typical market expansion activity but offers no insights into implementation patterns, use cases, or outcomes.",
+      "tags": [
+        "claude",
+        "partner-network",
+        "mid-market",
+        "systems-integrator",
+        "certification"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level press release with no substantive analysis, novel insights, or meaningful technical/strategic content beyond announcing a partnership."
+    },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeTdOQm5QaUV4Ni11Q3EyVmtnZElTb3lnV1BiYmVZNW8xMGFBZkRNd2tIc1lkWGxrekhsTVJadEs3cFlLclN4d3JJZXNWZmh6Ti1vdThjLWNJMngyWTYyVEd6dkhsMHd2Sk5Xc0lGbEZKdzZDeEFINDNFRm5sZmRfUHVnVl91Y2lERU42WVUyRWVEU2xkWlNxZHJ3Xy1YVkJvMGluckxB?oc=5": {
+      "title": "The Price of Being First: India\u2019s AI Surge and the Complexity It Left Behind - MediaNews4U",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-16T05:09:15+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a Google cookie consent page rather than an actual article about India's AI development. No substantive content about AI, enterprise adoption, or technical topics is present in the provided text. The article title suggests content about AI adoption challenges in India, but the text contains only standard cookie policy language.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "No actual article content present; only a Google cookie consent page was provided instead of the promised article about India's AI surge"
+    },
+    "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPY1JVOVBhZDM5Q3F5a0ktZl8ta0dya1ZEZ3Q2aEYxb2lDTm4tZjk0Rl9YQVV3WWQ1Z1pqVlpZTzJ0eG44YjZXd29fNU1fb1ZXV3FjTUJEX2hSXzgybFVKOEtmM19tWjBnRnA3dW1obVRTeFhQWGg4am1DWWFpQWd6dkkyNTdWRDNHMnZHeC1VRXdPRW5WamVlZzRuREZramlxekxneEdobjVodlBLUkVIbm1SQ0RvSy0tTWlyTXZJV0g3VVlpSnRFdS1jdWNnQTRmVkZyM0JMNERLVEI4R3RoTTJUYnpaX3VHYlRYWGFSUU9xa0ZFbDRfeFBDZDRNLTBFNkF3Q3FoMFdMdWRpaG9oRXllblZUU1l3UDBkWWs0OU1RZUtSSmlrOS1iSUIzclhEQ2hlSFU5ODlFY3pkNEZ5T3FnYWdQTjkzSmRZdEJibmcxUmhXRC1nR216cGJ2ZE5Sck5WYWMtT2otSU9vbzVJ?oc=5": {
+      "title": "UAE-based Algebra AI raises US$7 million to close the GCC mid-market's AI deployment gap - MSN",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-12T20:52:43+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article appears to report on Algebra AI, a UAE-based company that raised $7 million to address AI deployment challenges for mid-market companies in the GCC region. However, the actual article content is completely obscured by Google's cookie consent page and contains no substantive information about the company, its technology, or its approach. Without access to the actual article text, it's impossible to assess the claims, evidence, or significance of this funding announcement.",
+      "tags": [
+        "funding-announcement",
+        "gcc-market",
+        "mid-market-ai",
+        "enterprise-ai-deployment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible; only Google cookie consent page was provided with no substantive information about Algebra AI, its technology, approach, or market strategy."
+    },
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSnRLQXhLMnN1bGNjZHZKSjNQOFdweE05cjlGVGVXMV81Ti1nWlV0V1MyVVBqMFQ0X21ORnIzd3RTc0dlN0I3TEdSaE9rdzU4dFdrNTJ1S1FHV3NQb0JLNW1lSTIwMWI0OWNPRzUxanRlVVVqWDE5QWdwVjBfWHNKZDZpbkpRY2REdzZQUk00X0xhNVl0RzlrSTFaSXR2Mk1YODIzdTJEMkd4bFltem43T2JXX1ZKcm5kVFZ4NjZhY2x6NG1Xd2ZBblI4RnNVX0JKa054RjVR?oc=5": {
+      "title": "AI is changing how financial advisors work. Regulators are paying attention. - presspublications.com",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-06-10T16:30:09+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory",
+        "regulatory-policy"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to discuss AI's impact on financial advisor workflows and regulatory attention to this shift. No actual content is provided beyond a Google cookie consent page, making substantive evaluation impossible. The title suggests potential relevance to wealth management AI adoption and compliance considerations.",
+      "tags": [
+        "financial-advisors",
+        "regulatory-compliance",
+        "workflow-automation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content\u2014only a Google cookie consent interstitial page with no substantive information about AI, financial advisors, or regulatory issues."
     }
   }
 }
