@@ -705,7 +705,119 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-18
+
+**✗ 3.7** — [How Do Companies Create Value With Ai](https://www.bain.com/insights/how-do-companies-create-value-with-ai/)  
+*Bain Insights* · ai-in-product-and-engineering · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#organizational_redesign #enterprise_transformation #ai_adoption #process_change
+> The article argues that companies create value with AI through organizational redesign rather than merely adopting AI tools. It likely provides frameworks or case examples showing how process and structural changes enable AI effectiveness. This matters for enterprises seeking to move beyond point solutions toward systemic AI transformation.
+
+**✗ 2.7** — [How Technology Operating Models Are Evolving For Ai Infographic](https://www.bain.com/insights/how-technology-operating-models-are-evolving-for-ai-infographic/)  
+*Bain Insights* · ai-org-design-headcount
+#operating_models #enterprise_ai #organizational_design
+> This appears to be a Bain consulting webpage about how technology operating models are evolving for AI, presented as an infographic. The article text provided consists entirely of navigation menu items and website structure rather than substantive content about the topic. Without the actual article content, this represents a failed crawl or paywall barrier rather than analyzable material.
+
+**✓ 7.0** — [Diffusiongemma Breaks 1 000 Tokens Second](https://www.deeplearning.ai/the-batch/diffusiongemma-breaks-1-000-tokens-second)  
+*The Batch (DeepLearning.AI)* · inference-efficiency · model-architecture · regulatory-policy
+#diffusion_generation #mixture_of_experts #inference_speed #token_generation
+> Google introduced DiffusionGemma, a 26B MoE model that generates 256-token blocks simultaneously using diffusion rather than autoregressive generation, achieving 1,000+ tokens/second on H100 GPUs—up to 4x faster than traditional models but with lower output quality. The model activates only 3.8B parameters during inference and fits in 18GB VRAM when quantized, though speed benefits only apply to low-concurrency single-user scenarios, not cloud deployments. Meanwhile, the US government forced Anthropic to disable Claude Fable 5 and Mythos 5 for all users globally due to export control concerns over a jailbreak method, and Anthropic separately reversed plans to silently degrade model performance for competitive AI research.
+
+**✓ 6.0** — [Zhipus Glm 5 2 Is The New Top Open Model](https://www.deeplearning.ai/the-batch/zhipus-glm-5-2-is-the-new-top-open-model)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · ai-engineering-agents
+#open_source_models #sparse_attention #coding_benchmarks #model_fusion
+> The article reports on several AI industry developments, including Zhipu's release of GLM-5.2, a 744B-parameter open-source model with a 1M token context window that ranks second only to Claude Opus 4.8 on coding benchmarks, and SpaceX's $60B acquisition of Cursor. Key technical innovations include IndexShare architecture that reduces per-token compute by 2.9× and OpenRouter's Fusion tool that blends multiple models to outperform individual frontier models at lower cost. These developments signal increased competition in open-source AI, consolidation through major acquisitions, and new architectural approaches to improve inference efficiency.
+
+**✗ 4.3** — [Nvidias Open Ai Models Go Quantum](https://www.deeplearning.ai/the-batch/nvidias-open-ai-models-go-quantum)  
+*The Batch (DeepLearning.AI)* · model-architecture · ai-in-product-and-engineering · lab-dynamics
+#quantum_computing #error_correction #processor_calibration #hybrid_quantum_classical
+> The article reports on Nvidia's release of Ising, a family of open AI models designed to solve quantum computing bottlenecks in processor calibration and error correction, cutting calibration time from days to hours. The models are already deployed by over a dozen quantum computing companies and labs, with error correction performance up to 2.5x faster and 3x more accurate than current standards. This positions AI as a critical bridge between fragile quantum hardware and production-ready hybrid quantum-classical systems.
+
+**✗ 2.7** — [Seoul Office Partnerships Korean Ai Ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)  
+*Anthropic Blog* · ai-in-product-and-engineering · ai-in-customer-success-support · build-vs-buy-enterprise-ai
+#enterprise_deployment #claude_code #geographic_expansion #developer_tools
+> Anthropic announces the opening of its Seoul office and partnerships with major Korean enterprises (Samsung, LG, Hanwha, NAVER, Nexon) deploying Claude across engineering teams and business operations. The partnerships span enterprise software development (Claude Code adoption), customer service AI (Channel Corp), and nonprofit use cases (Good Neighbors Korea), with academic collaboration through NAIRL consortium. This represents geographic expansion and market penetration rather than technical innovation.
+
+**✓ 6.0** — [Developing Nuclear Safeguards For Ai Through Public Private Partnership](https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership)  
+*Anthropic Blog* · ai-governance-risk-compliance · regulatory-policy · evals-production-deployment
+#nuclear_safeguards #public_private_partnership #misuse_classifier #national_security
+> Anthropic partnered with the U.S. Department of Energy's NNSA to develop an AI classifier that identifies nuclear-related misuse conversations with 96% accuracy. The classifier has been deployed on Claude traffic and combines government domain expertise with industry implementation capabilities to monitor for nuclear proliferation risks. This public-private partnership model is being shared with the Frontier Model Forum as a blueprint for other AI developers to implement similar safeguards.
+
 ## 2026-06-17
+
+**✗ 5.7** — [GLM-5.2 is probably the most powerful text-only open weights LLM](https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything)  
+*Simon Willison* · model-architecture · inference-efficiency · ai-engineering-agents
+#mixture_of_experts #open_weights #glm_5_2 #context_window
+> The article reports on Z.ai's release of GLM-5.2, a 753B parameter mixture-of-experts model with 1M token context window released under MIT license, which ranks as the top open-weights model on Artificial Analysis benchmarks. It provides benchmark comparisons showing GLM-5.2 leading other open models (MiniMax-M3, DeepSeek V4 Pro, Kimi K2.6) but using significantly more output tokens (43k vs 24-37k per task), and demonstrates the model's code generation capabilities through SVG creation examples. This matters as it represents the current state-of-the-art in open-weights LLMs, though with trade-offs in token efficiency that affect inference costs.
+
+**✓ 6.0** — [🔬 The Self-Driving Lab — Joseph Krause, Radical AI](https://www.latent.space/p/radical-ai)  
+*Latent Space Podcast* · lab-dynamics · agentic-workflows-production
+#self_driving_labs #materials_discovery #high_throughput_experimentation #alloy_development
+> Radical AI is building self-driving labs that combine an 'AI scientist' with automated robotics to generate and test materials hypotheses, achieving 10x speedup over DARPA/GE programs by producing 1200 alloys in six months. The company argues that experimental data and the lab infrastructure itself constitute the moat, not AI models alone, since materials require physical testing and manufacturing process characterization beyond chemical formulas. Their AI scientist has already discovered 10 novel materials with state-of-the-art properties ready for commercial development.
+
+**✗ 3.3** — [Quoting Charity Majors](https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything)  
+*Simon Willison* · ai-in-product-and-engineering
+#ai_assisted_programming #code_generation #software_economics #engineering_discipline
+> Charity Majors argues that AI in 2025 transformed code production economics from expensive and time-consuming to effectively free and instant. This shift changes code from a carefully curated asset to a disposable, regenerable commodity. The implication is that software engineering must adapt its practices and discipline to this new paradigm where code abundance rather than scarcity is the constraint.
+
+**✗ 3.7** — [Marketing AI Institute’s Cathy McPhillips on the new productivity and the value of productive struggle](https://writer.com/blog/humans-of-ai-cathy-mcphillips/)  
+*Writer.com Blog* · ai-in-marketing-content
+#marketing_ai_adoption #organizational_change #productivity_gains #generative_ai_writing
+> The article profiles Cathy McPhillips from Marketing AI Institute, drawing parallels between the early adoption of content marketing and current AI adoption in marketing organizations. She describes discovering an AI writing tool that saved her four hours on marketing copy and emphasizes the importance of learning while doing the job in parallel. The article positions AI adoption as requiring organizational transformation similar to earlier content marketing shifts, though with greater speed and noise.
+
+**✗ 2.3** — [State of the blog, mid-2026](https://www.interconnects.ai/p/state-of-the-blog-mid-2026)  
+*Interconnects (Nathan Lambert)* · ai-org-design-headcount · lab-dynamics
+#open_source_models #ai_media #newsletter_strategy #post_training
+> Nathan Lambert reflects on his personal blog 'Interconnects' as a career tool after leaving Ai2, positioning it as a raw, high-voice newsletter targeting frontier AI builders rather than a polished professional publication. He discloses new advising roles with Arcee AI and Mercor while explaining his decision not to pursue full-time newsletter work like SemiAnalysis or Stratechery. The post is primarily a personal career update with minimal substantive content about AI developments or technical insights.
+
+**✗ 2.3** — [The Download: a reality check for geoengineering and the science of interoception](https://www.technologyreview.com/2026/06/17/1139200/the-download-solar-geoengineering-interoception/)  
+*MIT Technology Review* · 
+#news_digest #geoengineering #chip_export_controls #ai_models
+> This is a newsletter digest summarizing multiple technology news items including geoengineering research, interoception science, SpaceX valuation, AI model access disputes, and chip export controls. The article provides brief summaries and links to other sources rather than original reporting or analysis. It serves as a news aggregator without substantive depth on any single topic.
+
+**✓ 7.3** — [How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex](https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules)  
+*Lenny's Newsletter* · agentic-workflows-production · ai-engineering-agents · ai-in-product-and-engineering
+#agentic_loops #subagents #autonomous_workflows #claude_code
+> This article breaks down how to design AI agent loops for autonomous workflows, explaining four loop types (heartbeat, cron, hook, and goal) and the five components needed for production-ready loops (work trees, skills, plugins, subagents, and state tracking). The author demonstrates two live builds: a daily PR-review agent in Claude Code that self-schedules and spawns subagents, and a weekly skills-identification loop in Codex with goal-based validation subagents. This matters because it provides a practical framework for moving from one-off prompts to autonomous agentic systems that can execute complex workflows without manual intervention.
+
+**✗ 5.7** — [The 3-Min Read: The two systems Coinbase is building for an agent-driven financial ecosystem](https://tearsheet.co/blockchain-crypto/the-3-min-read-the-two-systems-coinbase-is-building-for-an-agent-driven-financial-ecosystem/?utm_source=rss&utm_medium=rss&utm_campaign=the-3-min-read-the-two-systems-coinbase-is-building-for-an-agent-driven-financial-ecosystem)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · agentic-workflows-production · ai-pricing-packaging-saas
+#ai_agents #stablecoins #autonomous_transactions #crypto_infrastructure
+> Coinbase announced two products: a stablecoin-backed credit card and Coinbase for Agents, which enables AI agents to execute financial transactions autonomously on behalf of users. The company reports that over 90% of on-chain agentic stablecoin transaction volume occurred on its Base platform in Q1 2026, suggesting early traction in agent-driven finance. These moves position Coinbase as infrastructure connecting programmable money (stablecoins) with programmable decision-making (AI agents) in financial services.
+
+**✓ 8.0** — [🔮 Is AI immune to groupthink?](https://www.exponentialview.co/p/is-ai-immune-to-groupthink)  
+*Exponential View (Azeem Azhar)* · model-architecture · ai-engineering-agents · prompt-architecture
+#llm_councils #model_diversity #groupthink #multi_model_systems
+> This article reports on an experiment testing whether LLM councils (multiple models deliberating together) suffer from groupthink similar to human committees, finding they discard roughly 75% of unique, high-quality ideas from individual models. The experiment used a novel methodology of breaking responses into "cards," clustering similar ideas, and having blind judges rate them to measure whether consensus-building processes filter out valuable "spiky" insights. This matters because it suggests that common multi-model approaches may sacrifice innovation for coherence, challenging assumptions about model diversity benefits.
+
+**✗ 5.0** — [Tax-Aware Long-Short Investing: Not Just A Tax Overlay, But A Risk-Managed (Active) Investment Strategy](https://feeds.feedblitz.com/~/958116989/0/kitcesnerdseyeview~TaxAware-LongShort-Investing-Not-Just-A-Tax-Overlay-But-A-RiskManaged-Active-Investment-Strategy/)  
+*Kitces.com* · 
+#tax_loss_harvesting #leverage #long_short_strategy #active_management
+> The article explains Tax-Aware Long-Short (TALS) investing, which uses leverage to create both long and short positions that can generate tax losses in any market condition while remaining economically neutral. It emphasizes that TALS portfolios must demonstrate economic substance with reasonable profit expectations beyond tax benefits, and managers face significant carrying costs that create performance hurdles. The strategy is positioned not merely as a tax overlay but as an active investment approach with inherent risk management implications.
+
+**✗ 3.0** — [A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction)  
+*OpenAI News* · 
+#autonomous_agents #chemistry_optimization #drug_discovery #gpt_5
+> OpenAI and Molecule.one demonstrate a near-autonomous AI chemist powered by GPT-5.4 that successfully optimized a challenging chemical reaction used in drug manufacturing. The system represents an application of large language models to medicinal chemistry research and reaction optimization. This shows potential for AI to automate experimental chemistry workflows, though the article provides minimal technical detail about the mechanism or results.
+
+**✗ 2.7** — [Hacking the atmosphere: Geoengineering gets a reality check](https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check/)  
+*MIT Technology Review* · 
+#solar_geoengineering #climate_engineering #stratospheric_aerosols #high_altitude_aircraft
+> The article reports on emerging practical engineering research into solar geoengineering, moving beyond computer models to address real-world challenges like designing high-altitude aircraft and aerosol delivery mechanisms. It presents the debate between proponents who argue this research will enable informed decision-making and critics who fear investment momentum makes deployment inevitable despite risks. The piece highlights the transition from theoretical climate modeling to applied engineering work on deliberate climate intervention.
+
+**✗ 3.0** — [Entrepreneurs in Nairobi make the case for going solar](https://www.technologyreview.com/2026/06/17/1138600/entrepreneurs-nairobi-case-for-going-solar/)  
+*MIT Technology Review* · 
+#off_grid_solar #kenyan_entrepreneurship #renewable_energy_adoption #hardware_startups
+> The article profiles Agsol, a Kenyan startup that manufactures solar-powered grain mills for small shop owners, replacing diesel-powered alternatives in off-grid and low-income communities. The company has sold 530 units at $1,300 each, offering 80% better profitability once paid off in 6-12 months, and has raised $4 million largely from UK government clean energy programs. This represents a localized application of solar technology to address energy access and emissions goals in Kenya's push for universal electricity by 2030.
+
+**✓ 6.0** — [[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding](https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding)  
+*Latent Space* · model-architecture · inference-efficiency · ai-engineering-agents
+#glm_5.2 #open_weights #coding_models #frontend_coding
+> Z.ai released GLM-5.2, a 744B-parameter open-weight model that reportedly beats all previous models at frontend coding and ranks as the third-best coding model overall behind only Opus 4.8 and Fable 5. The model features 1M token context, two reasoning modes, DeepSeek Sparse Attention with IndexShare improvements, and speculative decoding optimizations, achieving strong placement on multiple independent coding benchmarks. This represents a significant milestone for open-weight models approaching proprietary frontier performance in coding tasks.
+
+**✗ 1.7** — [<click-to-play> — a still that plays](https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything)  
+*Simon Willison* · 
+#web_components #progressive_enhancement #gif_optimization #lazy_loading
+> The article describes a web component called <click-to-play> that defers loading GIF images until a user clicks a play button, showing only a still frame initially. The implementation uses progressive enhancement, wrapping a link to a GIF around a still image frame. This matters primarily for web performance optimization by reducing initial page load when GIFs are present.
 
 **✗ 4.7** — [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)  
 *Anthropic Blog* · model-architecture · ai-governance-risk-compliance · lab-dynamics
@@ -741,6 +853,16 @@ All articles scanned since the wiki started. Updated nightly.
 *Bain Insights* · 
 #micro_battles #bain_company #navigation_page
 > This appears to be a navigation page or incomplete article from Bain & Company's website about 'micro-battles' featuring Pierre-Antoine Dresco. The content consists entirely of website navigation elements, office locations, and menu structures with no substantive article text. Without actual content about micro-battles methodology or implementation, there is no meaningful information to evaluate.
+
+**✗ 4.0** — [Introducing LifeSciBench](https://openai.com/index/introducing-life-sci-bench)  
+*OpenAI News* · evals-production-deployment
+#benchmarks #life_sciences #domain_specific_evals #expert_review
+> OpenAI announces LifeSciBench, a new benchmark for evaluating AI performance on real-world life science research tasks, authored and reviewed by domain experts. The article provides minimal detail about the benchmark's composition, evaluation methodology, or specific tasks included. This represents an incremental contribution to domain-specific AI evaluation frameworks but lacks sufficient depth to assess its actual impact or differentiation from existing life science benchmarks.
+
+**✗ 5.3** — [Databricks Widens the Lead on the Yellow Brick Token Path](https://www.tomtunguz.com/databricks-widens-lead/)  
+*Tomasz Tunguz* · ai-b2b-saas · ai-pricing-packaging-saas · funding-and-market-structure
+#token_path #arr_growth #databricks_snowflake #ai_revenue_mix
+> The article reports that Databricks has reached $6.9B ARR growing at 80% YoY versus Snowflake's $5.3B at 34%, widening the gap from $490M to $1.6B, driven by AI products at $1.7B ARR (~25% of total). The key evidence is the "token path" pattern where AI-related products grow faster than the overall company, similar to Salesforce's acquisition of Fin which also reached ~25% of revenue at 350% growth. This matters because it demonstrates that companies selling AI directly or as "first derivative" inference can sustain explosive growth even at multi-billion dollar scale, reshaping competitive dynamics in enterprise software.
 
 ## 2026-06-16
 
@@ -804,6 +926,11 @@ All articles scanned since the wiki started. Updated nightly.
 #organizational_transparency #team_dynamics #psychological_safety #change_management
 > The article argues that organizational transparency and visualization tools (mirrors) are insufficient for team improvement because they assume people want objective truth when they actually want to feel seen and understood. It provides evidence through organizational behavior patterns: people avoid uncomfortable truths, weaponize data selectively, prefer flattering perspectives, and lack safety or power to act on clear insights. This matters for AI product design and organizational change management because it suggests effective tools must focus on psychological safety and recognition rather than just data visibility.
 
+**✗ 1.7** — [Top AI Consulting Companies for Enterprise AI Readiness - Technology Org](https://news.google.com/rss/articles/CBMidkFVX3lxTFAxRURUc2dremk3eTF3VmlyWGNTaURnZWdZU2lrNm1RQjNsMmxvRUtMWjZZWjZZV28ybFVWT0tzS1U0eUZQSGotOTB4N2VZQUFSVFdLWTlDYkxUT2ZRXzFxWmNiVnplTHdnQnBmaFU5V1ZLTDVMY2c?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering
+#enterprise_ai #consulting #no_content
+> This article purports to cover top AI consulting companies for enterprise AI readiness but only contains a Google cookie consent page without actual content. No arguments, evidence, or analysis are present in the provided text. The article cannot be evaluated as it contains no substantive information about AI consulting or enterprise readiness.
+
 **✗ 5.7** — [The Fable 5 Export Controls Harm US Cyber Defense](https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything)  
 *Simon Willison* · regulatory-policy · ai-governance-risk-compliance
 #export_controls #jailbreak #vulnerability_patching #defensive_security
@@ -856,6 +983,11 @@ All articles scanned since the wiki started. Updated nightly.
 *OpenAI News* · evals-production-deployment · ai-governance-risk-compliance
 #deployment_simulation #safety_evaluation #pre_deployment_testing #production_behavior_prediction
 > OpenAI announces Deployment Simulation, a methodology for predicting AI model behavior in production environments before actual release by using real conversation data. The approach aims to improve safety evaluation accuracy by testing models against realistic deployment scenarios rather than synthetic benchmarks. This addresses the gap between lab testing and production behavior, potentially reducing post-deployment risks.
+
+**✗ 5.7** — [5x for Free : The Local Coding Stack](https://www.tomtunguz.com/local-coding-models/)  
+*Tomasz Tunguz* · model-architecture · ai-engineering-agents · inference-efficiency
+#mixture_of_experts #local_inference #qwen #ai_coding_agents
+> The article reports on a Hacker News discussion revealing that Qwen 3.6 35B (mixture-of-experts) and Pi agent have become the dominant local AI coding stack, offering 5x productivity gains versus 15x from Claude Opus. The key evidence is usage patterns from 500+ comments showing Qwen 3.6 variants capturing 53% of model mentions and achieving SWE-bench scores (73-77%) approaching Claude Sonnet 4.6 (79.6%), with the tradeoff being privacy and zero cost versus senior-level reasoning. This matters because it demonstrates the "minimill pattern" where local models have reached sufficient capability for production coding tasks, shifting the cost-performance frontier for AI-assisted development.
 
 ## 2026-06-15
 
@@ -913,6 +1045,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Kitces.com* · ai-in-finance-accounting
 #financial_advisors #book_recommendations #professional_development
 > This article presents a 2026 summer reading list for financial advisors, covering books on business scaling, time management, financial planning history, and client experience differentiation. The content is a curated book recommendation list with brief contextual framing about market conditions and AI tool proliferation in the advisory industry. It provides no original analysis or actionable insights beyond book suggestions for professional development.
+
+**✓ 6.0** — [Anthropic’s Safety Superpower](https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQzNDAwNDIsImlhdCI6MTc4MTc0ODA0MiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.nmCAqrqLlLicfh9Asxyg_dIJCT5wlOvj4ILbq9IbSM1YFo2fQu9p7JmmhwL7NueI4qo8w0j4JQjhtKmwi02oqVlDzZJvxFdgp4lwh9tLh2e10uKxSquVecJCVIzTQ6crDyyinMMda2DuQAR6ZNdtZ9FNMHEJreSE2HxOJJmLJRdSowxLYjrIBR86v8idIEoXLGMktEUeDaDs5jODhR-DAaMaA-uVS5cEQPjyyxUh0uwzrGxdmjUkYry7dlGGhnw7X3T9LK0FbMSVmfzypbObWDJsLD2gyfhsGsyT6WCwnNYCE26jvMRrKXBLCWmzF-OXh2mVHJ8QxUwjh2LLOzl80A)  
+*Stratechery (Ben Thompson)* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
+#jailbreaking #export_controls #national_security #model_safety
+> The article reports on a U.S. government export control directive that forced Anthropic to suspend access to its Fable 5 and Mythos 5 models due to national security concerns about jailbreaking capabilities, particularly in cybersecurity exploitation. The evidence centers on a demonstrated jailbreak method (reportedly from Amazon) that bypassed safety guardrails to identify vulnerabilities, though Anthropic disputes the severity and uniqueness of the threat. This matters because it illustrates the inevitable tension between AI labs and government regulators as models become more capable, particularly when safety commitments conflict with business interests and national security concerns.
 
 **✓ 6.7** — [Anthropic’s Safety Superpower](https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQxNjcyNDUsImlhdCI6MTc4MTU3NTI0NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.m4WxOcwiKjEvMeevYn302k31yUb7xZbbDvQ5NA1eDjg5aaBe20aXIFH4U1Fws2H8re1jkH7ebpqNgUDm0Ncl43w7we_4tDu5_RFdx7TA_B7o5WFQc5Nm9E6_C3JVBZAOiPOpYuqYuw7RrV383lEi7pMq7MFYbZwxiWXTrVlZe_92koykDmeUmMe4bF5SDHdf0VcM5PGqYESNqwdkNgGVGcvozwofAfvqs1H7WlJqetwK9-W0z8CwXFZtlh5ITVZnwu8rn0gBya6ZoTJzZ81_JHTZCmnbLATdMPAfnK9btrPblOOk1KjOfiUFyORbSjxVgjKQilDpZ9Lff5AnFihR-g)  
 *Stratechery (Ben Thompson)* · model-architecture · regulatory-policy · lab-dynamics

@@ -1,5 +1,5 @@
 ---
-tags: [agent-based-simulation, agentic-workflows, ai-engineering-tools, autonomous-agents, autonomous-prompting, chain-of-thought, codex-goals, diversity-metrics, diversity-optimization, evolutionary-algorithms, evolutionary-prompting, few-shot-learning, goal-based-prompting, in-context-learning, label-bias, persona-generation, prompt-architecture, prompt-engineering, self-consistency, task-automation, user-simulation]
+tags: [agent-based-simulation, agentic-workflows, ai-engineering-tools, autonomous-agents, autonomous-prompting, chain-of-thought, codex-goals, consensus-mechanisms, diversity-metrics, diversity-optimization, evolutionary-algorithms, evolutionary-prompting, few-shot-learning, goal-based-prompting, groupthink, idea-preservation, in-context-learning, label-bias, llm-councils, model-diversity, multi-model-orchestration, multi-model-systems, peer-review-patterns, persona-generation, prompt-architecture, prompt-engineering, self-consistency, task-automation, user-simulation]
 ---
 
 # Prompt Architecture
@@ -29,31 +29,49 @@ Key questions tracked: Which prompting patterns generalize across models? How do
 - **Trade-offs**: 
   - Higher token consumption
   - May hit context length limits with long input/output text
-- **Variance issue**: Choice of prompt format, training examples, and example order can cause dramatic performance differences ("from near random guess to near SoTA")
+- **Variance issue**: Choice of prompt format, training examples, and examp
 
-#### Goal-Based Prompting (2026)
-- **Definition**: Prompts t
+### Multi-Model Orchestration
 
-### Persona Generation (2026)
+#### LLM Councils
+- **Core assumption**: Group of models can produce better work than single agent (Krishnan, 2025)
+- **Also known as**: AI councils, AI expert panels, LLM panels
+- **Primary benefit**: Leverages model diversity - models have unique characteristics that can complement each other
+- **Implementation patterns**:
+  - Multiple models generate independent answers, fourth model synthesizes final version
+  - Peer review pattern: models review each other's work, chairperson summarizes
+  - Best answer picker: direct selection from multiple responses
+- **Usage**: Daily use for deliberation on complex questions, challenging assumptions, research tasks (Azhar, 2025)
+- **Related work**: MarketBench demonstrated benefits of model diversity; Karpathy's LLM Council framework
 
-#### Persona Generators (Google Research, April 2026)
-- **Problem addressed**: Standard persona prompting (e.g., "Answer as if you were a Democrat") tends to elicit average responses that don't reflect human population diversity, even when explicitly directing demographic characteristics
-- **Key innovation**: Evolutionary optimization of prompt-generation code rather than individual persona prompts
-- **Method**: Uses [[alphaevolve]] to generate code that:
-  1. Produces 25 persona prompts
-  2. Maximizes diversity of attitudes based on questionnaire responses
-- **Architecture**:
-  - Initial code generation via [[gemini]] 2.5 Pro
-  - Persona simulation via [[gemma]] 3-27B-IT using [[concordia]] library
-  - Questionnaires include context, "diversity axes" (e.g., risk tolerance, institutional trust), and 1-5 scale questions
-  - Persona responses converted to vectors for diversity measurement
-- **Diversity metrics**: Six metrics including average inter-vector distance and coverage of response space
-- **Optimization process**: 500 iterations across 10 parallel code versions
-- **Performance**: 
-  - Covered 82% of possible responses on test questionnaires
-  - vs. Nemotron Personas: 76% coverage
-  - vs. Concordia memory generator: 46% coverage
-- **Technical insight**: Shifting from matching training data (which generates most probable outputs) to covering all desired possibilities unlocks broader response ranges
-- **Applications**: User research, audience expansion testing, synthetic user studies requiring diverse viewpoints
+#### Groupthink and Idea Loss in Multi-Model Systems
+- **Core problem**: Committees "smooth out" idiosyncrasies and remove "spiky" points of view, similar to human committee behavior
+- **Empirical finding**: Councils keep only minority of good ideas from individual models (Krishnan experiment, 2025)
+  - Blended council: ~22-24% of high-value single-model ideas preserved
+  - Peer-review council: ~24% of single-model ideas preserved, ~33% of shared ideas preserved
+  - Best answer selector: ~37% of single-model ideas, ~24% of shared ideas (reflects keeping one full answer)
+- **Consensus bias**: Peer review gives consensus ideas "extra push" - shared ideas survive at higher rate than unique ideas
+- **Quality vs. diversity trade-off**: Final summarized versions typically "read better" - calmer, more complete, less jagged - but at cost of losing novel perspectives
+- **Confidence level**: Medium - based on single experimental study with 16 prompts (8 strategy, 8 writing tasks)
 
-Cross-references: [[agent-benchmarks]], [[behavioral-modeling]], [[human-ai-collaboration]]
+#### Examples of Lost High-Value Ideas
+- Field observations with cultural/sociological insight (e.g., salvaged retail scent cartridges as status symbols)
+- Meta-risk analysis (e.g., logged-but-deprioritized risks more dangerous than unknown ones)
+- Novel practical solutions (e.g., crowdsourced data recovery through user re-confirmation)
+- **Pattern**: Ideas rated as "useful, non-obvious, and worth keeping" by blind judges still filtered out at ~75% rate
+
+#### Evaluation Methodology for Council Outputs
+- **Card decomposition**: Break answers into small "cards" (mechanisms, observations, metrics, failure modes, images, important details)
+- **Clustering**: Group semantically similar cards across models
+- **Classification**: Single-model ideas (appear in one answer) vs. shared ideas (appear in multiple)
+- **Blind rating**: Judges score idea clusters without knowing source model or council retention
+- **Limitation noted**: Not perfect, but "cleanest way to test" without extensive human rating
+
+#### Design Implications
+- **Trade-off awareness**: Council approaches optimize for coherence and consensus at expense of novel/unique insights
+- **Use case matching**: Choose orchestration pattern based on whether goal is polish/consensus vs. idea diversity
+- **Potential mitigation**: Need research on preserving high-value single-model contributions while maintaining synthesis benefits
+
+### Cross-references
+- See [[ai-engineering-agents]] for agent orchestration patterns
+- See [[model-architecture]] for model diversity and specialization

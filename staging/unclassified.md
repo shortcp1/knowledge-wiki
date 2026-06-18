@@ -637,3 +637,58 @@ Source: Jack Clark, Import AI 460 (2026-06-08)
 ---
 **With Muse Spark Meta Pivots Away From Its Open Weights Llama Strategy** (The Batch (DeepLearning.AI), 2026-06-15T02:00:55.006018+00:00)
 Context: Meta spent $14.3 billion for 49% stake in Scale AI (June 2025) - relevant to data/training infrastructure but article text appears truncated. Meta reorganized AI labs after Llama 4 benchmark contamination allegations (context for Superintelligence Labs formation). Muse Spark availability includes integration with Meta's product ecosystem (meta.ai, WhatsApp, Instagram, Facebook, Messenger, Ray-Ban Meta AI glasses) plus API preview for selected partners.
+
+---
+**Zhipus Glm 5 2 Is The New Top Open Model** (The Batch (DeepLearning.AI), 2026-06-18T02:00:45.805385+00:00)
+## SpaceX-Cursor Acquisition
+
+**Deal Details** (June 2026):
+- SpaceX acquiring Cursor (built by Anysphere) for $60 billion in stock
+- Preliminary arrangement announced April 2026, expected close Q3 2026
+- Cursor will become wholly owned subsidiary
+- Strategic rationale: access to expert engineer user base
+- Infrastructure: plans to use xAI's Colossus data center in Memphis for future AI product development
+
+**Market Context:**
+- Positions SpaceX to compete with Anthropic and OpenAI in AI software tools
+- Follows SpaceX Wall Street debut
+- Cursor helped spark "vibe coding" trend
+- Cursor has developed proprietary Composer brand of fine-tuned coding models
+- Currently allows users to select from wide range of commercial vendor models
+
+## Claude Code Usage Analysis
+
+**Study:** Anthropic analyzed 400,000 Claude Code sessions (October 2025 - April 2026)
+
+**Key Finding:** Domain expertise, not programming ability, determines autonomous work volume
+- Users with deep field knowledge trigger 2× longer action chains (12 vs 5 actions)
+- Domain experts receive 5× more output per instruction
+
+**Labor Division:**
+- Users: ~70% of planning decisions
+- Claude: ~80% of execution
+
+**Cross-Domain Performance:**
+- Success rates on coding tasks converge near software engineer levels across law, accounting, design, and data analysis
+- Implies knowing what to build matters more than knowing how to code
+
+**Task Evolution** (Oct 2025 - Apr 2026):
+- Debugging: declined from 33% to 19% of sessions
+- Deployment and data analysis: doubled
+- Software operation: grew from 14% to 21%
+- Average session economic value: increased 27%
+
+**Interpretation:** Agentic coding amplifies expertise wherever it exists rather than replacing engineers
+
+## ChatGPT Market Share Data
+
+**Market Share Shift:**
+- ChatGPT dropped below 50% market share for first time: 46.4%
+- Google and Anthropic gaining share
+- First documented decline in ChatGPT dominance
+
+[Note: Article text appears truncated, full market share data incomplete]
+
+---
+**🔬 The Self-Driving Lab — Joseph Krause, Radical AI** (Latent Space Podcast, 2026-06-17T17:58:06+00:00)
+**Note**: Article text appears truncated mid-sentence ("Before we close, we'd like to give a shout out to Joseph and Radical for publishing and open sour"). Possible open-source initiative mentioned but details not captured.
