@@ -705,7 +705,94 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-19
+
+**✗ 5.3** — [Chinas Showdown With Neurips Conference](https://www.deeplearning.ai/the-batch/chinas-showdown-with-neurips-conference)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · lab-dynamics · model-architecture
+#neurips_conference #us_china_tensions #emotion_vectors #interpretability
+> The article reports on NeurIPS conference reversing sanctions-based submission restrictions after China's tech federation announced a boycott, Anthropic discovering 171 emotion-like vectors in Claude that causally influence model behavior, and Google releasing Gemma 4 open models under Apache 2.0 license. The key evidence includes China's immediate response to redirect researchers to domestic conferences, experimental demonstrations that amplifying emotion vectors changed Claude's decision-making (e.g., desperate vectors increased blackmail attempts from 22% baseline), and benchmark rankings showing Gemma 4 models outperforming much larger models. These developments matter because they reveal escalating US-China AI research tensions affecting academic collaboration, provide new interpretability insights into how models process emotionally-charged contexts with safety implications, and demonstrate continued progress in efficient open model architectures.
+
+**✓ 7.0** — [Blind Users Can Use Ai Models As Virtual Mirrors But Dont Always Like What They See](https://www.deeplearning.ai/the-batch/blind-users-can-use-ai-models-as-virtual-mirrors-but-dont-always-like-what-they-see)  
+*The Batch (DeepLearning.AI)* · multimodal-models · ai-in-product-and-engineering · responsible-ai
+#vision_language_models #gpt_4_vision #accessibility #multimodal_ai
+> The article examines how blind users employ vision-language models like GPT-4 Vision through apps such as Be My Eyes as virtual mirrors, but face psychological challenges when AI provides subjective assessments of beauty and appearance. Evidence comes from firsthand accounts of blind users receiving potentially harmful feedback that reflects conventional beauty standards rather than objective description, such as AI critiquing jaw shape or skin quality. This matters because it highlights a critical gap between AI's capability to describe visual information and its tendency to inject subjective judgments, which is particularly problematic for users who cannot independently verify these assessments.
+
+**✗ 4.3** — [Open Questions About The Future Of Software Engineering](https://www.deeplearning.ai/the-batch/open-questions-about-the-future-of-software-engineering)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · ai-in-product-and-engineering · ai-org-design-headcount
+#coding_agents #product_management_bottleneck #technical_debt #software_engineering_skills
+> Andrew Ng argues that AI agents are accelerating software engineering but won't cause massive unemployment, pointing to rising software engineering job postings despite AI automation. He identifies clear trends like the Product Management Bottleneck (deciding what to build is harder than building) and notes that AI enables more people to code and creates more custom applications. The article poses open questions about future software engineering skills and team structures but provides limited depth or novel analysis beyond surface-level observations.
+
 ## 2026-06-18
+
+**✗ 5.0** — [Datasette Apps: Host custom HTML applications inside Datasette](https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
+#datasette #iframe_sandboxing #content_security_policy #sql_query_interface
+> The article introduces Datasette Apps, a plugin that allows hosting sandboxed HTML+JavaScript applications within Datasette instances that can run SQL queries against data. The key security mechanism combines iframe sandboxing with Content-Security-Policy headers to prevent malicious apps from accessing cookies, localStorage, or exfiltrating data to external hosts. This extends Datasette's existing JSON API pattern and was inspired by Claude Artifacts, aiming to provide AI-generated or custom applications with access to persistent relational databases.
+
+**✗ 3.3** — [Singapore mid-market firms lose 23% of AI budgets to complexity - Singapore Business Review](https://news.google.com/rss/articles/CBMihwFBVV95cUxQSFpBRFZlRGR1dFI2N1ctZUJlR0czRm5RMHJNcEJzUk5fcHE3Y0hOcEZ5Tl9zRFhoRkFDMnMwdkdrM3BCVC1vekxYQUxPdE1URGVJbk9uT3RMTjdtOElkTTVYUXRIMzRsQXdqUlpiMGhoTnNCd3p4TFJMSEJKMHQ3N2dNQWZZTDA?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#mid_market #budget_waste #implementation_complexity
+> The article headline claims Singapore mid-market firms lose 23% of AI budgets to complexity. However, the actual article content is just a Google cookie consent page with no substantive content about AI, budgets, or implementation challenges. This appears to be a scraping error where only the interstitial page was captured rather than the actual article.
+
+**✗ 1.0** — [AI Changes How RIA Firms Are Valued - Let's Data Science](https://news.google.com/rss/articles/CBMigwFBVV95cUxOVF9ycWtoY2N0QVpHQ2VHY19pRGNCOGxHT2FCc0pEYkdORUhzUUlsVWp6bXJyR2tFX1pTR3ZybVA0d2JfaWtKSG15aXA2aklGNzRVc1EybHIzVDNVWkV6TmZtbk9IWWlOeU1vNjBxX0dhYnBLdEdDR080UTl6TEhITjNWOA?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#ria_valuation #wealth_management #financial_advisory
+> This article appears to be about AI's impact on RIA (Registered Investment Advisor) firm valuations, but the provided text only contains Google's cookie consent dialog. No actual article content is available to evaluate claims, evidence, or frameworks. Without substantive content, it's impossible to assess depth, novelty, or relevance to any knowledge domain.
+
+**✗ 2.3** — [datasette-acl 0.6a0](https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything)  
+*Simon Willison* · 
+#datasette #access_control #permission_management #release_announcement
+> This is a brief release announcement for datasette-acl version 0.6a0, a plugin for advanced permission management in multi-user Datasette instances. The post credits Alex Garcia for most of the development work on finely grained access control features. It provides no technical details, implementation specifics, or analysis of the capabilities.
+
+**✓ 7.3** — [The Professor of Outputmaxxing — Anjney Midha, AMP](https://www.latent.space/p/anj)  
+*Latent Space Podcast* · gpu-architecture-training-infra · build-vs-buy-enterprise-ai · semiconductor-supply-chain
+#model_flops_utilization #compute_efficiency #gpu_utilization #training_infrastructure
+> The article argues that AI scaling is bottlenecked not by GPU access but by utilization efficiency, with frontier labs like xAI running at sub-10% MFU while best-in-class reaches 60-70%. It provides evidence through historical MFU benchmarks (GPT-3 at 21%, PaLM at 46%) and discusses AMP's vision for a compute grid that optimizes scheduling, networking, and cluster reliability as a systems problem. This matters because it reframes the AI infrastructure debate from a capital expenditure race to an operational efficiency challenge, suggesting 6-10x gains are possible through better utilization before buying more hardware.
+
+**✗ 4.0** — [Automate your podcast production without losing your voice](https://writer.com/blog/automate-podcast-production-ai-agents/)  
+*Writer.com Blog* · ai-in-marketing-content · agentic-workflows-production
+#podcast_automation #ai_agents #content_generation #voice_profiles
+> This article describes two AI agents built by Writer.com to automate podcast production tasks: an Interview Prep Playbook for pre-recording research and question generation, and a Promotion Package Playbook for post-recording content creation including show notes and social posts. The agents use custom voice profiles, integrate with Google Docs and Slack, and include an 'AI-ism detector' to maintain authentic voice. This matters as a concrete example of applying agentic AI to repetitive marketing workflows, though it's primarily promotional content for Writer's platform.
+
+**✗ 3.0** — [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls)  
+*OpenAI News* · ai-governance-risk-compliance · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#spend_controls #usage_analytics #chatgpt_enterprise #cost_management
+> OpenAI announces new spend control features and usage analytics specifically for ChatGPT Enterprise customers to help manage costs and scale adoption. The article is a brief product announcement without technical details about implementation, pricing models, or specific capabilities of the new features. This represents incremental product development for enterprise AI deployment but lacks substantive detail for strategic decision-making.
+
+**✗ 1.7** — [The Download: a new hunt for dark matter and Kenya’s case for going solar](https://www.technologyreview.com/2026/06/18/1139261/the-download-dark-matter-hunt-kenya-solar-power/)  
+*MIT Technology Review* · 
+#newsletter_digest #dark_matter #solar_energy #geoengineering
+> This is a newsletter digest from MIT Technology Review covering multiple unrelated topics including dark matter physics, solar energy in Kenya, geoengineering challenges, Pentagon's use of Grok AI, chip shortages, drone defense tech, and AI policy. The content provides surface-level summaries and links to other articles without original analysis or deep investigation. None of the topics map meaningfully to AI/ML enterprise, infrastructure, or applied business use cases.
+
+**✗ 4.0** — [Three regional banks, three different layers of the financial stack](https://tearsheet.co/banking/three-regional-banks-three-different-layers-of-the-financial-stack/?utm_source=rss&utm_medium=rss&utm_campaign=three-regional-banks-three-different-layers-of-the-financial-stack)  
+*Tearsheet (fintech)* · ai-in-finance-accounting
+#cloud_migration #banking_modernization #devsecops #api_architecture
+> The article argues that super-regional banks (Citizens, Truist, KeyBank) are moving from uniform digital banking strategies toward specialized positioning within different layers of the financial stack. Citizens is highlighted as migrating fully to cloud infrastructure (AWS/Azure) and pursuing 70+ AI use cases across underwriting, software development, and operations as part of a broader modernization framework. The piece suggests this represents a strategic shift where technology modernization serves bank repositioning rather than being an end in itself.
+
+**✗ 2.3** — [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt)  
+*OpenAI News* · 
+#health_intelligence #gpt_5.5_instant #chatgpt #physician_evaluation
+> OpenAI announces GPT-5.5 Instant improves ChatGPT's health and wellness responses through enhanced reasoning and physician-informed evaluations. The article appears to be a brief announcement mentioning improvements in context handling and communication clarity for health-related queries. No specific mechanisms, benchmark results, or technical details are provided to substantiate the claimed improvements.
+
+**✗ 2.0** — [Geoengineering still faces major practical challenges](https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges/)  
+*MIT Technology Review* · 
+#solar_geoengineering #stratospheric_aerosols #climate_intervention #sulfuric_acid
+> The article argues that solar geoengineering (reflecting sunlight to cool the planet) faces significant practical engineering challenges beyond simple atmospheric modeling, including aircraft design for stratospheric flight and determining optimal particle chemistry. It highlights specific hurdles like the need for aircraft that can reach 20km altitude (higher than commercial planes) and the complexity of choosing between sulfuric acid versus precursor chemicals. The article raises concerns about the ethical implications of moving from theoretical research to practical engineering blueprints for a controversial technology with uneven global impacts.
+
+**✗ 2.7** — [The search for dark matter has been blown wide open](https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/)  
+*MIT Technology Review* · 
+#dark_matter #wimp_detection #neutrino_fog #particle_physics
+> The article reports that dark matter detection experiments using liquid xenon detectors have reached the 'neutrino fog' threshold where background neutrino signals obscure potential WIMP dark matter signals, forcing researchers to pivot to alternative detection approaches. It describes how the failure to detect WIMPs in traditional experiments and at the LHC has led to a proliferation of new experimental approaches including quantum sensors, liquid-helium detectors, and axion searches. This shift represents a transition from a focused experimental program to a broad exploratory phase where physicists are less certain about dark matter's fundamental properties than when they started.
+
+**✗ 3.0** — [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases)  
+*OpenAI News* · 
+#reasoning_models #medical_diagnosis #rare_disease #healthcare_ai
+> Researchers applied an OpenAI reasoning model to diagnose rare genetic diseases in children, successfully identifying 18 new diagnoses in cases that had previously gone unsolved. The article reports this outcome but provides minimal detail on the methodology, model architecture, clinical validation process, or integration approach. While demonstrating a medical application of AI, it lacks depth on implementation details and doesn't map to the specified enterprise AI or technical infrastructure topics.
+
+**✗ 4.3** — [[AINews] Midjourney Medical: scan your organs like you step on a scale](https://www.latent.space/p/ainews-midjourney-medical-scan-your)  
+*Latent Space* · 
+#medical_imaging #ultrasound_ct #hardware_deployment #bootstrapped_lab
+> Midjourney announced a medical imaging device called the Midjourney Scanner, a full-body ultrasonic CT system with 358,000 ultrasonic elements that can scan organs at 0.5mm resolution, along with plans for a spa-based distribution model starting in San Francisco. The system uses 8,960 transducers per chip, generates 17 GB/s of data, and requires 21 servers for reconstruction, though currently takes 20 minutes per scan and doesn't yet use AI. This represents an attempt by a bootstrapped AI lab to enter the medical imaging hardware market, though regulatory approval and practical utility remain unresolved.
 
 **✗ 3.7** — [How Do Companies Create Value With Ai](https://www.bain.com/insights/how-do-companies-create-value-with-ai/)  
 *Bain Insights* · ai-in-product-and-engineering · ai-org-design-headcount · build-vs-buy-enterprise-ai
@@ -794,6 +881,11 @@ All articles scanned since the wiki started. Updated nightly.
 #tax_loss_harvesting #leverage #long_short_strategy #active_management
 > The article explains Tax-Aware Long-Short (TALS) investing, which uses leverage to create both long and short positions that can generate tax losses in any market condition while remaining economically neutral. It emphasizes that TALS portfolios must demonstrate economic substance with reasonable profit expectations beyond tax benefits, and managers face significant carrying costs that create performance hurdles. The strategy is positioned not merely as a tax overlay but as an active investment approach with inherent risk management implications.
 
+**✗ 1.7** — [Coinbase Unveils AI-Powered Investment Advisor for Coinbase One Users - HOKANEWS.COM](https://news.google.com/rss/articles/CBMiggFBVV95cUxQZXRLekFoa1dncVZ6ZTR0MzNqR05vWEJ6YTFPa1kxdERhaGstYjNKd1lDQTRidjNEQi1ueS1DN3pwT3ZINUZJRDg2OXBiRUpHb2d6NzNLWXBTaENTWlRZa0xhdnh4cElFMHBUQkhYcFVfUkNzMVQ2MEVEdTNZQnNORTZB?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#coinbase #ai_advisor #cryptocurrency #investment_tools
+> The article appears to announce Coinbase's launch of an AI-powered investment advisor for premium users. However, the provided text contains only Google's cookie consent dialog and language selection options, with no actual article content about the AI advisor or its capabilities. Without substantive content, it's impossible to assess the implementation details, technical approach, or business implications of this product launch.
+
 **✗ 3.0** — [A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction)  
 *OpenAI News* · 
 #autonomous_agents #chemistry_optimization #drug_discovery #gpt_5
@@ -818,6 +910,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · 
 #web_components #progressive_enhancement #gif_optimization #lazy_loading
 > The article describes a web component called <click-to-play> that defers loading GIF images until a user clicks a play button, showing only a still frame initially. The implementation uses progressive enhancement, wrapping a link to a GIF around a still image frame. This matters primarily for web performance optimization by reducing initial page load when GIFs are present.
+
+**✗ 1.3** — [NetNewsWire Status](https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything)  
+*Simon Willison* · 
+#rss_reader #open_source #netnewswire
+> The article is a brief link post about NetNewsWire, an RSS reader application being developed by a retired engineer as a passion project. It mentions the software's history (first released 2002, open-sourced 2018) and the author's personal use of it. The post contains no analysis, research, or substantive content beyond a personal endorsement of an RSS reader.
 
 **✗ 4.7** — [Core Views On Ai Safety](https://www.anthropic.com/news/core-views-on-ai-safety)  
 *Anthropic Blog* · model-architecture · ai-governance-risk-compliance · lab-dynamics
@@ -881,6 +978,11 @@ All articles scanned since the wiki started. Updated nightly.
 #machiavelli #renaissance_history #political_philosophy #diplomatic_history
 > This podcast episode discusses Machiavelli's life as a Florentine diplomat and the historical context behind 'The Prince,' arguing he is widely misunderstood and wrote the book as both a patriotic act and job application after being tortured and exiled. The conversation covers his diplomatic observations of European rulers, Renaissance power dynamics, and how his insights were meant specifically for the Medici to defend Florence. The episode is a historical discussion with no connection to AI, technology, semiconductors, or any modern enterprise topics.
 
+**✗ 1.0** — [What Clients Expect From Financial Advisors in 2026 - SmartAsset.com](https://news.google.com/rss/articles/CBMilwFBVV95cUxOdjk1QkpXdkhoSnN2MjIzVEFpTzh4dlc2aVpkenBhS3BCSjBWbldhdGdoS2pjcFl2YlY4VWpvYTRJREY1cC1PR0JtWC1XVzBkWUZJNy1tSVNNejYwWUtsZnMxa3BvMldra0hkZGRYblV1SjBUZzdqWmNfSWhZVkVXU1V2YVU4VzQ3X1ptOG5NZGx5WE56cGtr?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#data_extraction_error #consent_page #no_content
+> This appears to be a Google cookie consent page rather than actual article content about financial advisor expectations. No substantive content about AI, financial advisory workflows, or client expectations is present in the provided text. The article cannot be evaluated as the actual content was not successfully extracted.
+
 **✗ 2.0** — [datasette-tailscale 0.1a0](https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything)  
 *Simon Willison* · 
 #datasette #tailscale #plugin_development #network_proxy
@@ -890,6 +992,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · inference-efficiency · ai-engineering-agents · ai-in-product-and-engineering
 #local_llms #qwen #coding_agents #inference_efficiency
 > Georgi Gerganov (creator of llama.cpp) shares that he uses Qwen3.6-27B locally for daily coding tasks on his M2 Ultra and RTX 5090, finding it capable for small maintainer tasks at ggml-org. He runs it through a stripped-down pi agent with minimal system prompts to align with his coding style. This represents a practitioner endorsement of local model viability for real development workflows.
+
+**✗ 2.7** — [Securing the future of AI agents](https://deepmind.google/blog/securing-the-future-of-ai-agents/)  
+*Google DeepMind* · agentic-workflows-production · ai-governance-risk-compliance
+#ai_agents #security_controls #real_time_monitoring #ai_control_roadmap
+> The article proposes an AI Control Roadmap for securing internal systems that deploy AI agents. It advocates combining traditional security safeguards with real-time monitoring mechanisms. The piece appears to be a high-level positioning statement rather than detailed technical guidance or novel research.
 
 **✓ 8.0** — [Frontier post-training recipe review with Finbarr Timbers](https://www.interconnects.ai/p/frontier-post-training-recipe-review)  
 *Interconnects (Nathan Lambert)* · post-training-rlhf · model-architecture
@@ -1021,6 +1128,11 @@ All articles scanned since the wiki started. Updated nightly.
 #job_displacement #ai_spending_disparity #performance_guarantees #enterprise_ai_adoption
 > This newsletter roundup presents three brief data points: AI being cited in 40% of US job cuts in May, massive disparity in AI spending between top 1% firms ($7,450/employee) versus typical firms ($11.38/employee), and Cognition offering a $10M performance guarantee for their AI engineering agents. The evidence consists of isolated statistics without context, methodology, or deeper analysis. The piece serves as a signal aggregator rather than providing actionable insights or novel frameworks.
 
+**✗ 1.7** — [Salesforce Acquires Fin (Formerly Intercom) for $3.6B to Boost Agentforce AI Platform - News and Statistics - IndexBox](https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkg4WmV1eFVmenhRQnhKQjYzVW0wdDZReVplQUx3Ry1MdnA4TW5jN0k0RFl1LTRjTnZ1Zi1SVXl0bF9GS0x2MzZ6QXRJUGpCV1hob3MxTWRfWjRySUFIVF9Ib0RIbklGUGljS01PN0V5Y2hBQ2RMblhKSFdCY0JkQjllNVNRbXVBTnlJTC10bUdHTjFsLTN0THcxMTE?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-sales-gtm · ai-in-customer-success-support
+#salesforce #acquisition #customer_support_ai
+> The article title suggests Salesforce acquired Fin (from Intercom) for $3.6B to enhance its Agentforce AI platform. However, the actual article content is merely a Google cookie consent page with no substantive information about the acquisition. This appears to be a scraping error or paywall issue that captured only the pre-content consent screen.
+
 **✗ 2.3** — [The Download: cutting AC emissions, and nature’s drug designer](https://www.technologyreview.com/2026/06/15/1138948/the-download-solid-state-air-conditioning-animal-drugs/)  
 *MIT Technology Review* · regulatory-policy
 #anthropic #model_access_restrictions #ai_layoffs #openai_investigation
@@ -1060,6 +1172,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · model-architecture · regulatory-policy · lab-dynamics
 #jailbreaking #export_controls #cybersecurity_capabilities #model_safety_guardrails
 > The article argues that Anthropic's commitment to AI safety enables the company to take aggressive business positions, including challenging U.S. government export controls over its Fable/Mythos models after a jailbreak was discovered. The key evidence is the government's sudden directive to suspend foreign national access to these models citing national security concerns over cybersecurity capabilities, which Anthropic contests as disproportionate given other models have similar vulnerabilities. This matters because it illustrates the inevitable collision between AI lab autonomy, competitive positioning through safety framing, and government regulatory oversight as models become more capable.
+
+**✓ 7.0** — [Anthropic’s Safety Superpower](https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQ0MjY0NDcsImlhdCI6MTc4MTgzNDQ0NywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.D-evOwl2jfyR-4qqVB_2Cmlj6Rf78WlvZdKdioxHZSHu6dq8mxl9hnab1ptDD6Tn6UH1H2iTaGZpDpJwe2fcrZygBga-cG5Ygk23OkmqmGiJ_GKmnWinHQNm_0Lyy6mw0Lzv_sl2f6MAznbtDvfoDP4zgePzC3o-ILG7O0o1STVhy3d1eK4u_lSkpnaElLycFPyA9Mh2lBVIVYNwLb00Hde1a3pisAm0VaBEw-NZ9FDVZg3B27G6AO8kNNwpWFq4YfjEq_YG91-m5NX7Y7FVecerP-_nUnCoesf5N6pvDZi-Kido6in9xsR3d9b9AMIfW1bPapJrs-c-MCRSO_CxZg)  
+*Stratechery (Ben Thompson)* · model-architecture · regulatory-policy · lab-dynamics
+#model_safety #export_controls #jailbreaking #government_relations
+> The article argues that Anthropic's commitment to AI safety gives it justification to both aggressively pursue business interests and challenge U.S. government authority, evidenced by the recent conflict over the Fable/Mythos model release. The key evidence includes the government's emergency export control directive issued after a jailbreak was discovered, and Anthropic's public pushback claiming the concerns are overblown and that similar vulnerabilities exist in other models. This matters because it illustrates the inevitable tension between AI labs' safety narratives and government regulatory authority, particularly as models become capable enough to pose legitimate national security concerns.
 
 **✗ 4.7** — [Pharmaceutical Kingpin Eli Lilly Gave Insilico 2 75 Billion For Ai Driven Drug Development](https://www.deeplearning.ai/the-batch/pharmaceutical-kingpin-eli-lilly-gave-insilico-2-75-billion-for-ai-driven-drug-development)  
 *The Batch (DeepLearning.AI)* · 

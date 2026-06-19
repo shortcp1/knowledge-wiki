@@ -692,3 +692,85 @@ Context: Meta spent $14.3 billion for 49% stake in Scale AI (June 2025) - releva
 ---
 **🔬 The Self-Driving Lab — Joseph Krause, Radical AI** (Latent Space Podcast, 2026-06-17T17:58:06+00:00)
 **Note**: Article text appears truncated mid-sentence ("Before we close, we'd like to give a shout out to Joseph and Radical for publishing and open sour"). Possible open-source initiative mentioned but details not captured.
+
+---
+**The Professor of Outputmaxxing — Anjney Midha, AMP** (Latent Space, 2026-06-18T17:30:00+00:00)
+## Anthropic Culture & Coding Success
+
+**Key claims from Anjney Midha** (investor in Anthropic):
+- Anthropic made **coding their P0 (top priority) from day one**
+- "Hardship was a feature, not a bug" for Anthropic's early development
+- Culture described as fragile, not a permanent moat
+- "Luck favors the prepared mind" in coding models context
+- Early capital constraint ("too much capital too early can make AI labs fragile") may have been beneficial
+
+**Note**: These are retrospective interpretations from an investor, not official Anthropic positions.
+
+## Periodic Labs
+
+**Focus**: Superconductors and materials science for AI infrastructure
+- Vision: "Lossless systems" and standardization
+- "Physics as the constraint" philosophy
+- Technical reality as driving force
+
+## Silicon Valley Culture Observation
+
+**Claim**: Silicon Valley is "both deeply missionary and deeply mercenary"
+- Suggests coexistence of mission-driven and profit-driven motivations
+- Context: Discussion of what happens to teams after breakthrough achievements
+
+## Healthcare AI Application
+
+**End-of-life prediction**: Identified as potentially one of most important AI healthcare applications
+- Anjney Midha has been thinking about this for 14 years
+- No technical details provided on implementation
+
+## Leadership & Organizational Theory
+
+**Claims on researchers as CEOs**:
+- VCs often underestimate researchers as CEO candidates
+- Great researchers can become great CEOs
+- "Scientists as star athletes of the mind"
+- Great CEOs need to be "confrontational up and down the stack"
+- "Leading the frontier matters more than 'winning'"
+
+## Emerging Discipline: "Output Maxing"
+
+**Proposed**: New discipline for frontier systems focused on maximizing actual output/progress rather than just input metrics (GPUs, FLOPs)
+- Context: Systems optimization, not just resource acquisition
+- Related to MFU discussion but broader organizational/cultural dimension
+
+---
+**The Professor of Outputmaxxing — Anjney Midha, AMP** (Latent Space Podcast, 2026-06-18T17:30:00+00:00)
+**Anthropic coding breakthrough (context lacking specifics):**
+- "Anthropic cracked coding" mentioned but no technical details provided
+- Coding identified as "P0 from day one" for Anthropic
+- Related to Claude's capabilities but mechanism unclear
+- "Luck favors the prepared mind in coding models" suggests combination of preparation and fortunate discovery
+
+**Anthropic culture observations:**
+- Culture described as "fragile, not a permanent moat"
+- Early hardship contributed to cultural formation
+- Question of culture durability as organization scales
+
+**End-of-life prediction as AI application:**
+- Identified as "one of the most important AI applications" Anjney Midha has considered for 14 years
+- Healthcare application requiring 1.2GW base load compute
+- No technical details on approach or why this specific problem requires such scale
+
+**Periodic Labs:**
+- Focus on superconductors and "physics as the constraint"
+- Working on "lossless systems" and technical reality constraints
+- Standards development for new superconductor applications
+- Relationship to compute infrastructure unclear from article
+
+**Silicon Valley culture:**
+- Described as "both deeply missionary and deeply mercenary"
+- Scientists characterized as "star athletes of the mind"
+- Observation that VCs "often underestimate researchers as CEOs"
+- Great CEOs need to be "confrontational up and down the stack"
+- "Leading the frontier matters more than 'winning'"
+
+**APIs and organizational scaling:**
+- "APIs and abstraction layers become lossy as organizations scale"
+- Suggests information loss through organizational interfaces

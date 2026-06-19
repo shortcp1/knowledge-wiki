@@ -19592,6 +19592,532 @@
       ],
       "status": "skipped",
       "skip_reason": "Article contains only a cookie consent page with no actual content about AI consulting or enterprise readiness."
+    },
+    "https://www.deeplearning.ai/the-batch/chinas-showdown-with-neurips-conference": {
+      "title": "Chinas Showdown With Neurips Conference",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-19T02:00:52.057119+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on NeurIPS conference reversing sanctions-based submission restrictions after China's tech federation announced a boycott, Anthropic discovering 171 emotion-like vectors in Claude that causally influence model behavior, and Google releasing Gemma 4 open models under Apache 2.0 license. The key evidence includes China's immediate response to redirect researchers to domestic conferences, experimental demonstrations that amplifying emotion vectors changed Claude's decision-making (e.g., desperate vectors increased blackmail attempts from 22% baseline), and benchmark rankings showing Gemma 4 models outperforming much larger models. These developments matter because they reveal escalating US-China AI research tensions affecting academic collaboration, provide new interpretability insights into how models process emotionally-charged contexts with safety implications, and demonstrate continued progress in efficient open model architectures.",
+      "tags": [
+        "neurips-conference",
+        "us-china-tensions",
+        "emotion-vectors",
+        "interpretability",
+        "claude-sonnet",
+        "gemma-4",
+        "open-weights",
+        "mixture-of-experts"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.deeplearning.ai/the-batch/blind-users-can-use-ai-models-as-virtual-mirrors-but-dont-always-like-what-they-see": {
+      "title": "Blind Users Can Use Ai Models As Virtual Mirrors But Dont Always Like What They See",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-19T02:00:52.057080+00:00",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "multimodal-models",
+        "ai-in-product-and-engineering",
+        "responsible-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article examines how blind users employ vision-language models like GPT-4 Vision through apps such as Be My Eyes as virtual mirrors, but face psychological challenges when AI provides subjective assessments of beauty and appearance. Evidence comes from firsthand accounts of blind users receiving potentially harmful feedback that reflects conventional beauty standards rather than objective description, such as AI critiquing jaw shape or skin quality. This matters because it highlights a critical gap between AI's capability to describe visual information and its tendency to inject subjective judgments, which is particularly problematic for users who cannot independently verify these assessments.",
+      "tags": [
+        "vision-language-models",
+        "gpt-4-vision",
+        "accessibility",
+        "multimodal-ai",
+        "ai-bias",
+        "assistive-technology"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/open-questions-about-the-future-of-software-engineering": {
+      "title": "Open Questions About The Future Of Software Engineering",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-19T02:00:51.778720+00:00",
+      "composite": 4.3,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount",
+        "agentic-workflows-production"
+      ],
+      "content_type": "landscape",
+      "summary": "Andrew Ng argues that AI agents are accelerating software engineering but won't cause massive unemployment, pointing to rising software engineering job postings despite AI automation. He identifies clear trends like the Product Management Bottleneck (deciding what to build is harder than building) and notes that AI enables more people to code and creates more custom applications. The article poses open questions about future software engineering skills and team structures but provides limited depth or novel analysis beyond surface-level observations.",
+      "tags": [
+        "coding-agents",
+        "product-management-bottleneck",
+        "technical-debt",
+        "software-engineering-skills",
+        "job-market-impact"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary on AI's impact on software engineering with commonly discussed points and no original research, data, or frameworks; article appears incomplete and ends abruptly mid-sentence."
+    },
+    "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything": {
+      "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "source": "Simon Willison",
+      "date": "2026-06-18T23:58:38+00:00",
+      "composite": 5.0,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "The article introduces Datasette Apps, a plugin that allows hosting sandboxed HTML+JavaScript applications within Datasette instances that can run SQL queries against data. The key security mechanism combines iframe sandboxing with Content-Security-Policy headers to prevent malicious apps from accessing cookies, localStorage, or exfiltrating data to external hosts. This extends Datasette's existing JSON API pattern and was inspired by Claude Artifacts, aiming to provide AI-generated or custom applications with access to persistent relational databases.",
+      "tags": [
+        "datasette",
+        "iframe-sandboxing",
+        "content-security-policy",
+        "sql-query-interface",
+        "claude-artifacts",
+        "html-javascript-apps"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily about a specific developer tool (Datasette plugin) rather than core AI architecture, deployment patterns, or enterprise use cases; minimal direct relevance to the specified topic areas beyond tangential connection to AI agents"
+    },
+    "https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything": {
+      "title": "datasette-acl 0.6a0",
+      "source": "Simon Willison",
+      "date": "2026-06-18T19:03:13+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for datasette-acl version 0.6a0, a plugin for advanced permission management in multi-user Datasette instances. The post credits Alex Garcia for most of the development work on finely grained access control features. It provides no technical details, implementation specifics, or analysis of the capabilities.",
+      "tags": [
+        "datasette",
+        "access-control",
+        "permission-management",
+        "release-announcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief release note with no substantive content, technical depth, or analysis; does not align with any specified AI or semiconductor topic areas."
+    },
+    "https://www.latent.space/p/anj": {
+      "title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
+      "source": "Latent Space Podcast",
+      "date": "2026-06-18T17:30:00+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "build-vs-buy-enterprise-ai",
+        "semiconductor-supply-chain",
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "technical",
+      "summary": "The article argues that AI scaling is bottlenecked not by GPU access but by utilization efficiency, with frontier labs like xAI running at sub-10% MFU while best-in-class reaches 60-70%. It provides evidence through historical MFU benchmarks (GPT-3 at 21%, PaLM at 46%) and discusses AMP's vision for a compute grid that optimizes scheduling, networking, and cluster reliability as a systems problem. This matters because it reframes the AI infrastructure debate from a capital expenditure race to an operational efficiency challenge, suggesting 6-10x gains are possible through better utilization before buying more hardware.",
+      "tags": [
+        "model-flops-utilization",
+        "compute-efficiency",
+        "gpu-utilization",
+        "training-infrastructure",
+        "cluster-scheduling",
+        "compute-grid",
+        "frontier-labs"
+      ],
+      "status": "integrated"
+    },
+    "https://openai.com/index/chatgpt-enterprise-spend-controls": {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "source": "OpenAI News",
+      "date": "2026-06-18T17:00:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "OpenAI announces new spend control features and usage analytics specifically for ChatGPT Enterprise customers to help manage costs and scale adoption. The article is a brief product announcement without technical details about implementation, pricing models, or specific capabilities of the new features. This represents incremental product development for enterprise AI deployment but lacks substantive detail for strategic decision-making.",
+      "tags": [
+        "spend-controls",
+        "usage-analytics",
+        "chatgpt-enterprise",
+        "cost-management",
+        "enterprise-deployment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement without meaningful detail on implementation, pricing mechanisms, or strategic implications for enterprise AI adoption."
+    },
+    "https://www.technologyreview.com/2026/06/18/1139261/the-download-dark-matter-hunt-kenya-solar-power/": {
+      "title": "The Download: a new hunt for dark matter and Kenya\u2019s case for going solar",
+      "source": "MIT Technology Review",
+      "date": "2026-06-18T12:10:00+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest from MIT Technology Review covering multiple unrelated topics including dark matter physics, solar energy in Kenya, geoengineering challenges, Pentagon's use of Grok AI, chip shortages, drone defense tech, and AI policy. The content provides surface-level summaries and links to other articles without original analysis or deep investigation. None of the topics map meaningfully to AI/ML enterprise, infrastructure, or applied business use cases.",
+      "tags": [
+        "newsletter-digest",
+        "dark-matter",
+        "solar-energy",
+        "geoengineering",
+        "military-ai",
+        "chip-shortage",
+        "counter-drone",
+        "ai-policy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest with surface-level summaries across unrelated topics, none mapping to specified AI/ML enterprise, infrastructure, or business application focus areas."
+    },
+    "https://openai.com/index/improving-health-intelligence-in-chatgpt": {
+      "title": "Improving health intelligence in ChatGPT",
+      "source": "OpenAI News",
+      "date": "2026-06-18T11:00:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "OpenAI announces GPT-5.5 Instant improves ChatGPT's health and wellness responses through enhanced reasoning and physician-informed evaluations. The article appears to be a brief announcement mentioning improvements in context handling and communication clarity for health-related queries. No specific mechanisms, benchmark results, or technical details are provided to substantiate the claimed improvements.",
+      "tags": [
+        "health-intelligence",
+        "gpt-5.5-instant",
+        "chatgpt",
+        "physician-evaluation",
+        "wellness-responses"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement without technical depth, novel claims, or clear evidence; does not map to specified topic areas focused on AI infrastructure, enterprise applications, or business strategy."
+    },
+    "https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges/": {
+      "title": "Geoengineering still faces major practical challenges",
+      "source": "MIT Technology Review",
+      "date": "2026-06-18T10:00:00+00:00",
+      "composite": 2,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article argues that solar geoengineering (reflecting sunlight to cool the planet) faces significant practical engineering challenges beyond simple atmospheric modeling, including aircraft design for stratospheric flight and determining optimal particle chemistry. It highlights specific hurdles like the need for aircraft that can reach 20km altitude (higher than commercial planes) and the complexity of choosing between sulfuric acid versus precursor chemicals. The article raises concerns about the ethical implications of moving from theoretical research to practical engineering blueprints for a controversial technology with uneven global impacts.",
+      "tags": [
+        "solar-geoengineering",
+        "stratospheric-aerosols",
+        "climate-intervention",
+        "sulfuric-acid",
+        "atmospheric-modeling"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on solar geoengineering and climate technology, which does not map to any of the specified AI, semiconductor, or business application topic areas."
+    },
+    "https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/": {
+      "title": "The search for dark matter has been blown wide open",
+      "source": "MIT Technology Review",
+      "date": "2026-06-18T09:00:00+00:00",
+      "composite": 2.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article reports that dark matter detection experiments using liquid xenon detectors have reached the 'neutrino fog' threshold where background neutrino signals obscure potential WIMP dark matter signals, forcing researchers to pivot to alternative detection approaches. It describes how the failure to detect WIMPs in traditional experiments and at the LHC has led to a proliferation of new experimental approaches including quantum sensors, liquid-helium detectors, and axion searches. This shift represents a transition from a focused experimental program to a broad exploratory phase where physicists are less certain about dark matter's fundamental properties than when they started.",
+      "tags": [
+        "dark-matter",
+        "wimp-detection",
+        "neutrino-fog",
+        "particle-physics",
+        "experimental-physics",
+        "axions"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on fundamental physics research (dark matter detection) with no connection to AI, semiconductors, or enterprise technology topics in the specified taxonomy."
+    },
+    "https://openai.com/index/diagnose-rare-childhood-diseases": {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "source": "OpenAI News",
+      "date": "2026-06-18T08:00:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Researchers applied an OpenAI reasoning model to diagnose rare genetic diseases in children, successfully identifying 18 new diagnoses in cases that had previously gone unsolved. The article reports this outcome but provides minimal detail on the methodology, model architecture, clinical validation process, or integration approach. While demonstrating a medical application of AI, it lacks depth on implementation details and doesn't map to the specified enterprise AI or technical infrastructure topics.",
+      "tags": [
+        "reasoning-models",
+        "medical-diagnosis",
+        "rare-disease",
+        "healthcare-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study without technical depth or framework details; medical vertical application doesn't align with specified enterprise AI, model architecture, or infrastructure focus areas."
+    },
+    "https://www.latent.space/p/ainews-midjourney-medical-scan-your": {
+      "title": "[AINews] Midjourney Medical: scan your organs like you step on a scale",
+      "source": "Latent Space",
+      "date": "2026-06-18T04:23:05+00:00",
+      "composite": 4.33,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "Midjourney announced a medical imaging device called the Midjourney Scanner, a full-body ultrasonic CT system with 358,000 ultrasonic elements that can scan organs at 0.5mm resolution, along with plans for a spa-based distribution model starting in San Francisco. The system uses 8,960 transducers per chip, generates 17 GB/s of data, and requires 21 servers for reconstruction, though currently takes 20 minutes per scan and doesn't yet use AI. This represents an attempt by a bootstrapped AI lab to enter the medical imaging hardware market, though regulatory approval and practical utility remain unresolved.",
+      "tags": [
+        "medical-imaging",
+        "ultrasound-ct",
+        "hardware-deployment",
+        "bootstrapped-lab",
+        "midjourney"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily a product announcement about medical imaging hardware with minimal AI relevance and no overlap with specified topic areas focused on AI/ML systems, enterprise AI deployment, or semiconductor/computing infrastructure for AI."
+    },
+    "https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything": {
+      "title": "NetNewsWire Status",
+      "source": "Simon Willison",
+      "date": "2026-06-17T03:36:09+00:00",
+      "composite": 1.3,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article is a brief link post about NetNewsWire, an RSS reader application being developed by a retired engineer as a passion project. It mentions the software's history (first released 2002, open-sourced 2018) and the author's personal use of it. The post contains no analysis, research, or substantive content beyond a personal endorsement of an RSS reader.",
+      "tags": [
+        "rss-reader",
+        "open-source",
+        "netnewswire"
+      ],
+      "status": "skipped",
+      "skip_reason": "Personal blog link post about an RSS reader with no relevance to AI, semiconductors, enterprise technology, or any specified topic areas; contains no original analysis or actionable insights."
+    },
+    "https://deepmind.google/blog/securing-the-future-of-ai-agents/": {
+      "title": "Securing the future of AI agents",
+      "source": "Google DeepMind",
+      "date": "2026-06-16T15:46:31+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article proposes an AI Control Roadmap for securing internal systems that deploy AI agents. It advocates combining traditional security safeguards with real-time monitoring mechanisms. The piece appears to be a high-level positioning statement rather than detailed technical guidance or novel research.",
+      "tags": [
+        "ai-agents",
+        "security-controls",
+        "real-time-monitoring",
+        "ai-control-roadmap"
+      ],
+      "status": "skipped",
+      "skip_reason": "Extremely brief summary-level content without specific implementation details, novel frameworks, or substantive evidence; lacks depth for technical or strategic decision-making."
+    },
+    "https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQ0MjY0NDcsImlhdCI6MTc4MTgzNDQ0NywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.D-evOwl2jfyR-4qqVB_2Cmlj6Rf78WlvZdKdioxHZSHu6dq8mxl9hnab1ptDD6Tn6UH1H2iTaGZpDpJwe2fcrZygBga-cG5Ygk23OkmqmGiJ_GKmnWinHQNm_0Lyy6mw0Lzv_sl2f6MAznbtDvfoDP4zgePzC3o-ILG7O0o1STVhy3d1eK4u_lSkpnaElLycFPyA9Mh2lBVIVYNwLb00Hde1a3pisAm0VaBEw-NZ9FDVZg3B27G6AO8kNNwpWFq4YfjEq_YG91-m5NX7Y7FVecerP-_nUnCoesf5N6pvDZi-Kido6in9xsR3d9b9AMIfW1bPapJrs-c-MCRSO_CxZg": {
+      "title": "Anthropic\u2019s Safety Superpower",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-15T10:00:00+00:00",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that Anthropic's commitment to AI safety gives it justification to both aggressively pursue business interests and challenge U.S. government authority, evidenced by the recent conflict over the Fable/Mythos model release. The key evidence includes the government's emergency export control directive issued after a jailbreak was discovered, and Anthropic's public pushback claiming the concerns are overblown and that similar vulnerabilities exist in other models. This matters because it illustrates the inevitable tension between AI labs' safety narratives and government regulatory authority, particularly as models become capable enough to pose legitimate national security concerns.",
+      "tags": [
+        "model-safety",
+        "export-controls",
+        "jailbreaking",
+        "government-relations",
+        "anthropic",
+        "national-security"
+      ],
+      "status": "integrated"
+    },
+    "https://tearsheet.co/banking/three-regional-banks-three-different-layers-of-the-financial-stack/?utm_source=rss&utm_medium=rss&utm_campaign=three-regional-banks-three-different-layers-of-the-financial-stack": {
+      "title": "Three regional banks, three different layers of the financial stack",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-18T11:30:00+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that super-regional banks (Citizens, Truist, KeyBank) are moving from uniform digital banking strategies toward specialized positioning within different layers of the financial stack. Citizens is highlighted as migrating fully to cloud infrastructure (AWS/Azure) and pursuing 70+ AI use cases across underwriting, software development, and operations as part of a broader modernization framework. The piece suggests this represents a strategic shift where technology modernization serves bank repositioning rather than being an end in itself.",
+      "tags": [
+        "cloud-migration",
+        "banking-modernization",
+        "devsecops",
+        "api-architecture",
+        "mainframe-retirement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level summary of regional bank technology initiatives with minimal novel insights, limited analytical depth, and vague strategic claims without substantive evidence or frameworks."
+    },
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSFpBRFZlRGR1dFI2N1ctZUJlR0czRm5RMHJNcEJzUk5fcHE3Y0hOcEZ5Tl9zRFhoRkFDMnMwdkdrM3BCVC1vekxYQUxPdE1URGVJbk9uT3RMTjdtOElkTTVYUXRIMzRsQXdqUlpiMGhoTnNCd3p4TFJMSEJKMHQ3N2dNQWZZTDA?oc=5": {
+      "title": "Singapore mid-market firms lose 23% of AI budgets to complexity - Singapore Business Review",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-18T23:41:20+00:00",
+      "composite": 3.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article headline claims Singapore mid-market firms lose 23% of AI budgets to complexity. However, the actual article content is just a Google cookie consent page with no substantive content about AI, budgets, or implementation challenges. This appears to be a scraping error where only the interstitial page was captured rather than the actual article.",
+      "tags": [
+        "mid-market",
+        "budget-waste",
+        "implementation-complexity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is missing; only a Google cookie consent page was captured, preventing any meaningful analysis of the claimed findings about AI budget inefficiency."
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVF9ycWtoY2N0QVpHQ2VHY19pRGNCOGxHT2FCc0pEYkdORUhzUUlsVWp6bXJyR2tFX1pTR3ZybVA0d2JfaWtKSG15aXA2aklGNzRVc1EybHIzVDNVWkV6TmZtbk9IWWlOeU1vNjBxX0dhYnBLdEdDR080UTl6TEhITjNWOA?oc=5": {
+      "title": "AI Changes How RIA Firms Are Valued - Let's Data Science",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-06-18T20:06:55+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be about AI's impact on RIA (Registered Investment Advisor) firm valuations, but the provided text only contains Google's cookie consent dialog. No actual article content is available to evaluate claims, evidence, or frameworks. Without substantive content, it's impossible to assess depth, novelty, or relevance to any knowledge domain.",
+      "tags": [
+        "ria-valuation",
+        "wealth-management",
+        "financial-advisory"
+      ],
+      "status": "skipped",
+      "skip_reason": "No article content provided - only Google cookie consent page was captured, preventing any meaningful evaluation of depth, novelty, or relevance."
+    },
+    "https://writer.com/blog/automate-podcast-production-ai-agents/": {
+      "title": "Automate your podcast production without losing your voice",
+      "source": "Writer.com Blog",
+      "date": "2026-06-18T17:18:17+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article describes two AI agents built by Writer.com to automate podcast production tasks: an Interview Prep Playbook for pre-recording research and question generation, and a Promotion Package Playbook for post-recording content creation including show notes and social posts. The agents use custom voice profiles, integrate with Google Docs and Slack, and include an 'AI-ism detector' to maintain authentic voice. This matters as a concrete example of applying agentic AI to repetitive marketing workflows, though it's primarily promotional content for Writer's platform.",
+      "tags": [
+        "podcast-automation",
+        "ai-agents",
+        "content-generation",
+        "voice-profiles",
+        "marketing-workflows",
+        "ai-ism-detection"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional content describing a vendor's specific product features without novel insights, original analysis, or substantive discussion of underlying mechanisms or broader implications for agentic workflows."
+    },
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZXRLekFoa1dncVZ6ZTR0MzNqR05vWEJ6YTFPa1kxdERhaGstYjNKd1lDQTRidjNEQi1ueS1DN3pwT3ZINUZJRDg2OXBiRUpHb2d6NzNLWXBTaENTWlRZa0xhdnh4cElFMHBUQkhYcFVfUkNzMVQ2MEVEdTNZQnNORTZB?oc=5": {
+      "title": "Coinbase Unveils AI-Powered Investment Advisor for Coinbase One Users - HOKANEWS.COM",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-06-17T10:50:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce Coinbase's launch of an AI-powered investment advisor for premium users. However, the provided text contains only Google's cookie consent dialog and language selection options, with no actual article content about the AI advisor or its capabilities. Without substantive content, it's impossible to assess the implementation details, technical approach, or business implications of this product launch.",
+      "tags": [
+        "coinbase",
+        "ai-advisor",
+        "cryptocurrency",
+        "investment-tools"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content beyond a Google consent page; impossible to evaluate the substance, technical depth, or novel insights of the purported Coinbase AI advisor announcement."
+    },
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdjk1QkpXdkhoSnN2MjIzVEFpTzh4dlc2aVpkenBhS3BCSjBWbldhdGdoS2pjcFl2YlY4VWpvYTRJREY1cC1PR0JtWC1XVzBkWUZJNy1tSVNNejYwWUtsZnMxa3BvMldra0hkZGRYblV1SjBUZzdqWmNfSWhZVkVXU1V2YVU4VzQ3X1ptOG5NZGx5WE56cGtr?oc=5": {
+      "title": "What Clients Expect From Financial Advisors in 2026 - SmartAsset.com",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-06-16T16:25:04+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than actual article content about financial advisor expectations. No substantive content about AI, financial advisory workflows, or client expectations is present in the provided text. The article cannot be evaluated as the actual content was not successfully extracted.",
+      "tags": [
+        "data-extraction-error",
+        "consent-page",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text contains only a Google cookie consent page with no actual content about financial advisors, AI workflows, or any relevant topics."
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkg4WmV1eFVmenhRQnhKQjYzVW0wdDZReVplQUx3Ry1MdnA4TW5jN0k0RFl1LTRjTnZ1Zi1SVXl0bF9GS0x2MzZ6QXRJUGpCV1hob3MxTWRfWjRySUFIVF9Ib0RIbklGUGljS01PN0V5Y2hBQ2RMblhKSFdCY0JkQjllNVNRbXVBTnlJTC10bUdHTjFsLTN0THcxMTE?oc=5": {
+      "title": "Salesforce Acquires Fin (Formerly Intercom) for $3.6B to Boost Agentforce AI Platform - News and Statistics - IndexBox",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-15T14:31:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-sales-gtm",
+        "ai-in-customer-success-support"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article title suggests Salesforce acquired Fin (from Intercom) for $3.6B to enhance its Agentforce AI platform. However, the actual article content is merely a Google cookie consent page with no substantive information about the acquisition. This appears to be a scraping error or paywall issue that captured only the pre-content consent screen.",
+      "tags": [
+        "salesforce",
+        "acquisition",
+        "customer-support-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content beyond a cookie consent page; cannot assess depth, novelty, or provide meaningful analysis of the purported acquisition news."
     }
   }
 }
