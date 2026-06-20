@@ -1,61 +1,59 @@
 ---
-tags: [activation-capping, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-tasks, ai-coding-productivity, ai-safety, aliasing-errors, anthropic, arcee-ai, ascend-npu, assistant-alignment, attention-mechanisms, audio-latency, automated-research, autoregressive-reasoner, benchmark-performance, benchmark-vs-deployment, bert-architecture, block-generation, chaotic-systems, character-stability, claude-code, claude-fable-5, claude-mythos, coding-agents, coding-benchmarks, coding-models, common-crawl, composer, compositional-control, concurrent-processing, context-caching, context-length, culturax, cursor, data-retention-policy, deepseek, diffusion-generation, diffusion-models, diffusion-text-generation, diffusiongemma, encoder-decoder-architecture, encoder-free-architecture, encoder-free-early-fusion, encoder-free-fusion, export-controls, flow-matching-decoder, fluid-dynamics-simulation, frontend-coding, frontier-code-benchmark, frontier-model-competition, frontier-models, gated-attention, gemini, gemma, gemma-4, glm, glm-5.2, gpu-optimization, grouped-query-attention, hierarchical-mlp, hifloat4, index-as-model, indexshare, inductive-bias, inference-efficiency, inference-optimization, inference-speed, inference-throughput, iterative-composition, iterative-evaluation, kimi, language-specific-bias, latent-moe, layer-outputs, llm-architecture, long-context, long-context-optimization, low-precision-training, ma-activity, mamba-attention-hybrid, meta-superintelligence-labs, mixture-of-experts, mixture-of-transformers, modality-processing, model-architecture, model-architecture-comparison, model-downgrading, model-efficiency, model-fusion, model-safeguards, model-simplification, model-specialization, model-training-pipeline, moonshot, msa, mtp, multi-agent-orchestration, multi-head-attention, multimodal-architecture, multimodal-models, multimodal-reasoning, muse-spark, mythos-class, mythos-class-models, native-multimodal, non-autoregressive-generation, open-source-models, open-weights, physics-simulation, scientific, sparse-attention, speculative-decoding, z-ai]
+tags: [activation-capping, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-tasks, ai-coding-productivity, ai-safety, aliasing-errors, anthropic, arcee-ai, ascend-npu, assistant-alignment, attention-mechanisms, audio-latency, automated-research, autoregressive-reasoner, benchmark-methodology, benchmark-performance, benchmark-vs-deployment, bert-architecture, block-generation, chaotic-systems, character-stability, claude-code, claude-fable-5, claude-mythos, coding-agents, coding-benchmarks, coding-models, common-crawl, composer, compositional-control, concurrent-processing, context-caching, context-length, context-window, culturax, cursor, data-retention-policy, deepseek, dense-attention, diffusion-generation, diffusion-models, diffusion-text-generation, diffusiongemma, encoder-decoder-architecture, encoder-free-architecture, encoder-free-early-fusion, encoder-free-fusion, energy-efficiency, evaluation-transparency, export-controls, flow-matching-decoder, fluid-dynamics-simulation, frontend-coding, frontier-code-benchmark, frontier-model-competition, frontier-models, gated-attention, gemini, gemma, gemma-4, glm, glm-5.2, gpu-optimization, grouped-query-attention, hierarchical-mlp, hifloat4, index-as-model, indexshare, inductive-bias, inference-efficiency, inference-optimization, inference-speed, inference-throughput, iterative-composition, iterative-evaluation, kimi, language-specific-bias, latent-moe, layer-outputs, llm-architecture, long-context, long-context-optimization, low-precision-training, ma-activity, mamba-attention-hybrid, meta-superintelligence-labs, mixture-of-experts, mixture-of-transformers, modality-processing, model-architecture, model-architecture-comparison, model-downgrading, model-efficiency, model-evaluation, model-fallback, model-fusion, model-routing, model-safeguards, model-simplification, model-specialization, model-training-pipeline, moonshot, msa, mtp, multi-agent-orchestration, multi-head-attention, multimodal-architecture, multimodal-models, multimodal-reasoning, muse, quadratic-complexity, sparse-attention, subquadratic, transformer-architecture]
 ---
 
-## GLM-5.2 Architecture
+## Dense Attention (Transformer Core Mechanism)
 
-**Release Date**: June 2026  
-**Developer**: Z.ai  
-**License**: MIT (open weights)  
-**Parameters**: 744B total, 40B active per token (MoE)  
-**Context Window**: 1M tokens
+**Standard Operation**: The foundational mechanism in most LLMs since the 2017 "Attention Is All You Need" paper (Google)
 
-### Core Architecture
-- **Base Design**: Built on DeepSeek Sparse Attention with IndexShare extension for improved efficiency at ultra-long contexts
-- **Mixture-of-Experts**: 744B parameter MoE with 40B active parameters per token
-- **Reasoning Modes**: Two inference modes available - "high" and "max" reasoning effort
+### How Dense Attention Works
+- Encodes each word/token with a number
+- Multiplies each token's number with **every other token's number** in the input text
+- Computational complexity: **quadratic** (doubles input length → roughly quadruples computations)
+- Example: 10,000 words triggers ~50 million multiplications
 
-### Technical Innovations
+### Computational Cost Implications
+- Primary reason LLMs are power-intensive
+- Creates bottleneck for context window scaling
+- Each additional token must be multiplied by all previous tokens
 
-**IndexShare for Speculative Decoding**
-- Extension to multi-token prediction (MTP) that improves acceptance rates in speculative decoding
-- Designed to boost [[inference-efficiency]] at long context lengths
-- Works in conjunction with sparse attention mechanisms
+### Architecture Variants
+Most current LLMs chain multiple transformers using dense attention as the core operation.
 
-**Sparse Attention Improvements**
-- Minor but meaningful improvements on DeepSeek Sparse Attention
-- Optimized for 1M token context windows
-- Contributes to long-horizon agentic task performance
+See also: [[sparse-attention]], [[inference-efficiency]], [[attention-mechanisms]]
 
-### Performance Characteristics
+## Sparse Attention Alternative
 
-**Coding Performance** (as of June 2026)
-- FrontierSWE: #3 overall (behind Fable 5 and Opus 4.8, ahead of GPT-5.5)
-- Frontend coding: #2 overall on Code Arena: Frontend (+29 points over Claude Opus 4.7 Thinking), behind only Fable 5
-  - #2 in React specifically
-  - #4 in HTML
-- Long-horizon coding: 74.4 (ahead of GPT-5.5's 72.6)
-- SWE-bench Pro: 62.1 (ahead of GPT-5.5)
-- Terminal-Bench 2.1: 81.0 (vs 62.0 for GLM-5.1) - first open-weight model to cross 80%
+**Key Innovation**: Selects only **some** token numbers to multiply, rather than all pairs
 
-**Notable**: Achieves top-tier frontend coding performance despite being only 744B parameters vs rumored 1.5T+ for Opus 4.8 and similar sizes for [[cursor]]'s Composer model. Described as first open model competitive with Opus/GPT-class workflows for coding by early testers.
+### Computational Benefits
+- Reduces number of computations from quadratic scaling
+- Enables longer context windows with less computation
+- Lower energy consumption
 
-**Design/Agent Performance**
-- Design Arena: #1, Elo 1360 (+27 Elo, +4 positions)
-- Agent Arena: GLM-5.2 (Max) #10 overall, #1 open model by wide margin
-- Agent tasks show steerability tradeoff between high/max modes
+### Known Implementations
+- **DeepSeek Sparse Attention**: Used as foundation for [[indexshare]] in [[glm-5.2]]
+- **SubQ (Subquadratic)**: Announced June 2026, replaces dense attention entirely
 
-**General Performance**
-- Text Arena: #25 overall (similar to GLM-5.1)
-- AIME 2026: 99.2 (ahead of Opus 4.8 and GPT-5.5)
-- Shows gains in Expert Arena, Multi-Turn, and occupational domains (Medicine & Healthcare)
+### SubQ Architecture
 
-### Infrastructure & Training
-- Release includes agentic RL innovations (details light)
-- Infrastructure optimizations specifically for 1M context handling
-- API pricing maintained at GLM-5.1 levels: $1.4/$4.4 per input/output MTokens
+**Developer**: Subquadratic (Miami-based startup)  
+**Announced**: May 2026 (stealth exit)  
+**Status**: Not widely available as of June 2026
 
-### Ecosystem Support
-Day-0 support across: Transformers, vLLM, SGLang, Cloudflare Workers AI, OpenRouter, Ollama Cloud, Baseten, DeepInfra, Fireworks, Notion
+**Claims** (verified by third-party evaluation from Appen, June 2026):
+- Faster inference than existing top models
+- Lower cost per operation
+- Significantly reduced energy consumption
+- Processes up to **12x more text** than most other models at once
+- Performance comparable to Google DeepMind, OpenAI, and Anthropic models on coding tasks
 
-See also: [[inference-efficiency]], [[ai-engineering-agents]], [[speculative-decoding]]
+**Architecture Approach**: Abandons transformer dense attention mechanism entirely in favor of sparse attention
+
+**Confidence Level**: Medium-High. Independent third-party benchmarks (Appen) validate performance claims, but model not yet publicly testable. Jeanine Sinanan-Singh (Appen's Director of Generative AI Research) confirmed validation of architecture.
+
+**Company Vision**: "We don't think anybody will be building on transformers in a few years" - Justin Dangel, CEO
+
+**Note**: Initial announcement met with skepticism due to limited evidence. Later third-party benchmarks addressed concerns. Model specializes in data-heavy tasks (analyzing hundreds of documents, entire code bases).
+
+See also: [[inference-efficiency]], [[long-context]]

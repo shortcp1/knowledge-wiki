@@ -705,7 +705,89 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-20
+
+**✓ 7.0** — [Agentic Tests Beyond The Bug Hunt](https://www.deeplearning.ai/the-batch/agentic-tests-beyond-the-bug-hunt)  
+*The Batch (DeepLearning.AI)* · evals-production-deployment · ai-engineering-agents · model-architecture
+#swe_bench #coding_agents #benchmark_design #feature_implementation
+> The article reports on three new benchmarks (DeepSWE, ProgramBench, ITBench-AA) designed to test AI coding agents beyond simple bug-fixing, evaluating feature implementation, program development from scratch, and hardware stack diagnostics. DeepSWE requires 5.5x more code than SWE-Bench Pro and uses human-written problems from private codebases to prevent training contamination, while ProgramBench tests end-to-end program creation from ideas with current models showing limited success. These benchmarks matter because they address the saturation of SWE-bench and push the frontier of evaluating agentic software engineering capabilities in more realistic, complex scenarios.
+
+**✗ 3.0** — [What Is New Media In 2026](https://a16z.com/what-is-new-media-in-2026/)  
+*a16z* · ai-in-marketing-content · build-vs-buy-enterprise-ai
+#venture_capital_operations #content_marketing #portfolio_services #brand_building
+> Andreessen Horowitz describes their New Media team as a "go-direct as a service" offering for portfolio companies, providing in-house creative services, owned distribution channels, full-service support, and network leverage. The team focuses on helping startups build brand awareness and reach through formats like launch videos, editorial content, and direct distribution rather than traditional media gatekeepers. This represents a venture capital firm's operational value-add in content creation and distribution for portfolio companies.
+
+**✓ 8.0** — [Claudes Benchmark Problems](https://www.deeplearning.ai/the-batch/claudes-benchmark-problems)  
+*The Batch (DeepLearning.AI)* · evals-production-deployment · ai-governance-risk-compliance · model-architecture
+#model_evaluation #safety_classifiers #benchmark_methodology #prompt_filtering
+> The article reports that independent evaluators struggled to accurately benchmark Anthropic's Claude Fable 5 because protective classifiers automatically routed sensitive prompts to a weaker model (Claude Opus 4.8) or refused them entirely, with approximately 8-35% of test prompts being affected depending on the benchmark. The key mechanism is that classifiers pre-screened prompts for cybersecurity, biology, chemistry, or AI engineering topics, switching models without clear indication in API responses and requiring evaluators to either accept blended scores or count refusals as failures. This matters because it reveals a fundamental tension between AI safety guardrails and transparent model evaluation, making it difficult for independent researchers to assess true model capabilities and creating inconsistencies in published benchmark scores.
+
+**✓ 7.3** — [Reinforcement Learning With Hints](https://www.deeplearning.ai/the-batch/reinforcement-learning-with-hints)  
+*The Batch (DeepLearning.AI)* · post-training-rlhf · model-architecture · inference-time-compute
+#grpo #reinforcement_learning #mathematical_reasoning #privileged_information
+> Carnegie Mellon researchers developed POPE (Privileged On-Policy Exploration), a training method that combines reinforcement learning with partial solution hints to help LLMs solve difficult problems they would otherwise fail to discover. By training models on both hinted and unhinted versions of the same problems using GRPO, the method teaches general problem-solving skills rather than memorizing specific solutions, achieving 53.1% accuracy on AIME 2025 math problems versus 49.6% for standard GRPO. This approach addresses a fundamental limitation in RL training where models can't learn what they never discover, though it requires datasets with known solutions.
+
+**✗ 1.3** — [Winning With Ai Podcast](https://www.bain.com/insights/topics/winning-with-ai-podcast/)  
+*Bain Insights* · 
+#podcast #consulting #navigation_page
+> This appears to be a navigation page or website header for Bain & Company's 'Winning with AI Podcast' rather than actual article content. The text consists entirely of menu structures, office locations, and navigation links without any substantive content about AI. No meaningful information, analysis, or insights are provided.
+
+**✗ 1.0** — [Ai](https://www.bain.com/insights/topics/ai/)  
+*Bain Insights* · 
+#bain_company #consulting #navigation
+> This is a navigation page from Bain & Company's website showing their office locations, service areas, and site structure. It contains no actual content about artificial intelligence beyond the page title. This is a template/skeleton page without substantive information.
+
 ## 2026-06-19
+
+**✗ 5.0** — [Quoting Sean Lynch](https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything)  
+*Simon Willison* · agentic-workflows-production · ai-engineering-agents
+#model_context_protocol #agent_authentication #context_window_isolation #api_gateway
+> The quote argues that Model Context Protocol's (MCP) most valuable capability is isolating authentication flows outside the agent's context window and execution harness. The key insight is that MCP could be simplified to primarily serve as an auth gateway for APIs rather than a broader capability framework. This matters because it identifies a specific, concrete value proposition for MCP in production agent deployments where authentication and security are critical concerns.
+
+**✗ 2.7** — [Weekend Reading For Financial Planners (June 20–21)](https://feeds.feedblitz.com/~/958204613/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-June-%e2%80%93/)  
+*Kitces.com* · ai-in-finance-accounting · ai-in-professional-services
+#financial_planning #wealth_management #regulatory_compliance #ai_productivity
+> This is a weekly roundup for financial planners covering SEC concerns about held-away asset management technology, hiring trends, dividend investment strategies, and brief mentions of AI workplace productivity surveys. The article provides no original analysis, instead summarizing multiple unrelated news items and surveys with minimal depth on any single topic. The AI content is limited to two brief mentions of worker productivity surveys and employment effects, offering no new insights or actionable frameworks.
+
+**✓ 7.0** — [The data black hole at the center of AI](https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2)  
+*Dwarkesh Podcast* · model-architecture · post-training-rlhf · inference-time-compute
+#sample_efficiency #synthetic_data_generation #rlhf #grpo
+> The article argues that AI progress is driven primarily by vast amounts of domain-specific expert data and compute for RL-based synthetic data generation, rather than architectural improvements or sample efficiency gains. It provides evidence that models require millions-fold more data than humans (trillions vs. hundreds of millions of tokens), with thousands of rollouts per task in GRPO training, and that open models catch up quickly because data can be distilled from APIs while architectural secrets cannot. This matters because it suggests data accumulation and curation—not algorithmic innovation—is the core competitive moat, and that we haven't actually solved sample efficiency despite apparent capability gains.
+
+**✓ 6.3** — [Clouded Judgement 6.19.26 - Workflows are King](https://cloudedjudgement.substack.com/p/clouded-judgement-61926-workflows)  
+*Clouded Judgement (Jamin Ball)* · agentic-workflows-production · ai-native-product-design · build-vs-buy-enterprise-ai
+#workflow_orchestration #agentic_workflows #system_of_record #data_moats
+> The article argues that moats in SaaS came not from owning data/systems of record, but from the workflows that touched them, and this pattern is shifting to AI where the moat moves to the orchestration layer that manages dynamic agentic workflows. It recommends founders start with a single niche workflow that appears commoditizable but is strategically positioned, then expand adjacently before building the orchestration layer. This matters because it reframes competitive strategy for AI-native companies away from trying to build orchestration platforms immediately toward a workflow-first, expansion-based approach similar to how Salesforce became dominant.
+
+**✗ 4.3** — [Banning Open Source AI Would Be A Mistake](https://www.interconnects.ai/p/banning-open-source-ai-would-be-a)  
+*Interconnects (Nathan Lambert)* · regulatory-policy · build-vs-buy-enterprise-ai
+#open_source_ai #ai_regulation #economic_benefits #competition_policy
+> This op-ed argues against potential regulation or banning of open source AI, asserting that open source drives education, competition, and innovation while being safe and secure. The authors provide historical examples of open source software's economic value ($8 trillion) and its role in democratizing technology, from Linux challenging Windows to Meta being built on open source tools. The piece matters as a defense of open source in the emerging AI regulatory debate, though it offers limited technical depth or novel analysis beyond advocacy.
+
+**✗ 3.3** — [The Download: AI bottleneck debates, and BCI trials take off](https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/)  
+*MIT Technology Review* · model-architecture · inference-efficiency · regulatory-policy
+#transformer_architecture #computational_efficiency #brain_computer_interface #energy_consumption
+> This newsletter aggregates 10 tech news items, with the headline story about Subquadratic claiming to break through computational bottlenecks in transformer models by reducing computations needed for LLM responses. The article provides minimal detail beyond describing the claim as enabling faster, cheaper, and more energy-efficient LLMs, while noting expert skepticism. The newsletter format means no original analysis or evidence is provided—it's a surface-level summary pointing to other coverage.
+
+**✓ 7.3** — [A startup claims it broke through a bottleneck that’s holding back LLMs](https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/)  
+*MIT Technology Review* · model-architecture · inference-efficiency
+#transformer_architecture #dense_attention #quadratic_complexity #context_window
+> Miami-based startup Subquadratic claims to have solved the quadratic complexity bottleneck in transformer-based LLMs with its SubQ model that uses a new architecture beyond dense attention. Independent testing by Appen appears to validate claims of 12x longer context processing with significantly improved speed and energy efficiency while matching performance of leading models on key tasks. If validated at scale, this could represent a fundamental shift away from transformer architectures that have dominated since 2017, though the model isn't yet widely available for independent verification.
+
+**✗ 3.0** — [The inevitable weakness of metrics](https://www.technologyreview.com/2026/06/19/1138778/inevitable-weakness-metrics-quantified-life-book-review/)  
+*MIT Technology Review* · 
+#self_quantification #metrics_corruption #goodharts_law #measurement_limitations
+> The article recounts a personal journey with self-quantification and metrics, arguing that while measurement can reveal useful information, it often obscures deeper goals and corrupts intrinsic motivations. The author describes how initial goals like 'getting outside more' and 'self-knowledge' quickly devolved into optimizing arbitrary numerical targets (step counts, analytics). This matters as a cautionary tale about the limitations of quantification culture, though it remains primarily a personal reflection rather than systematic analysis.
+
+**✗ 5.3** — [[AINews] GLM > GPT? GLM-5.2 passes vibe check; Z.ai forecasts Open Fable by December](https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe)  
+*Latent Space* · model-architecture · lab-dynamics · regulatory-policy
+#open_models #glm_5 #zhipu #model_benchmarks
+> The article reports that GLM-5.2, an open-weight model from Chinese lab Z.ai (Zhipu), is passing community "vibe checks" as the first open model that feels genuinely frontier-competitive, placing between GPT-5.5 and Opus 4.8 on benchmarks. The key evidence includes validation from respected practitioners like Jeremy Howard, strong performance on Artificial Analysis's knowledge work benchmark, and architectural innovations like IndexShare for efficient long-context inference. This matters because it suggests open models may finally be catching up to closed frontier models, with implications for the open-vs-closed dynamics in AI development, though questions remain about whether top labs can release new Fable-class models under current regulatory constraints.
+
+**✗ 1.7** — [Singapore mid-market firms lose 23% of AI budgets to complexity - MSN](https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOW1tN0l3Mm9QSWFkaUFBODU3ZkdydHdnNjdOaXJ4dnZ1V1dmNjBRQWQ5cUpJZ3BPRzlFU0RQWmV1d04tTmQxSUJKXzg5NXhiNkV3dEM3R0lSbFBaNFVkREJ4ckZsOHkxX2V5X3Z2WFI4TGxrWjJ4ejJpVU5yNFdaN09janMzQ01vRk5XbXNMMmRTN1FlQzBzS2hYT1ZTSEF4QmpTOTZYS1JzeTkwUW92U3lsSlBDTkpRWktLVVZhdEdQcGk1eG4wZ3EtYzg2RnlmOXY4?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-operations · build-vs-buy-enterprise-ai
+#mid_market #ai_budget #implementation_complexity
+> The article title suggests Singapore mid-market firms lose 23% of AI budgets to complexity, but the actual content is only a Google cookie consent page with no substantive information. No evidence, analysis, or mechanisms are provided because the article content was not accessible. This represents a failed content scrape rather than an actual article.
 
 **✗ 5.3** — [Chinas Showdown With Neurips Conference](https://www.deeplearning.ai/the-batch/chinas-showdown-with-neurips-conference)  
 *The Batch (DeepLearning.AI)* · regulatory-policy · lab-dynamics · model-architecture
@@ -963,6 +1045,11 @@ All articles scanned since the wiki started. Updated nightly.
 
 ## 2026-06-16
 
+**✗ 2.3** — [datasette 1.0a34](https://simonwillison.net/2026/Jun/16/datasette/#atom-everything)  
+*Simon Willison* · 
+#datasette #crud_operations #database_ui #web_interface
+> This release note announces Datasette 1.0a34, which adds basic CRUD operations (insert, edit, delete rows) to the Datasette web interface. The feature was inspired by Datasette Agent, which already had SQL write support via chat interface. This is a straightforward product update adding standard database management functionality.
+
 **✗ 2.3** — [Unlocking UK house-building with AI-accelerated planning](https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/)  
 *Google DeepMind* · 
 #uk_government #planning_automation #public_sector_ai #deepmind_partnership
@@ -1046,6 +1133,11 @@ All articles scanned since the wiki started. Updated nightly.
 **✗ 1.0** — [The Price of Being First: India’s AI Surge and the Complexity It Left Behind - MediaNews4U](https://news.google.com/rss/articles/CBMipgFBVV95cUxNeTdOQm5QaUV4Ni11Q3EyVmtnZElTb3lnV1BiYmVZNW8xMGFBZkRNd2tIc1lkWGxrekhsTVJadEs3cFlLclN4d3JJZXNWZmh6Ti1vdThjLWNJMngyWTYyVEd6dkhsMHd2Sk5Xc0lGbEZKdzZDeEFINDNFRm5sZmRfUHVnVl91Y2lERU42WVUyRWVEU2xkWlNxZHJ3Xy1YVkJvMGluckxB?oc=5)  
 *GN: AI Mid-Market Enterprise* · 
 > This appears to be a Google cookie consent page rather than an actual article about India's AI development. No substantive content about AI, enterprise adoption, or technical topics is present in the provided text. The article title suggests content about AI adoption challenges in India, but the text contains only standard cookie policy language.
+
+**✗ 4.3** — [Quoting Matteo Wong, The Atlantic](https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything)  
+*Simon Willison* · ai-governance-risk-compliance · model-architecture
+#jailbreaking #ai_safety_guardrails #prompt_engineering #anthropic_claude
+> The article reports on a White House report concerning Anthropic's Fable model allegedly being jailbroken to help with cybersecurity tasks. A cybersecurity expert argues the model's behavior—refusing to review insecure code but complying when asked to fix it—represents intended cyberdefense functionality rather than a security flaw. This raises questions about how AI safety guardrails are evaluated and whether certain prompt patterns constitute genuine jailbreaks or legitimate use cases.
 
 **✗ 5.7** — [[AINews] Satya on Loopcraft: Building Frontier Ecosystems](https://www.latent.space/p/ainews-satya-on-loopcraft-building)  
 *Latent Space* · lab-dynamics · regulatory-policy · build-vs-buy-enterprise-ai

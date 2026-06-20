@@ -1,5 +1,5 @@
 ---
-tags: [agent-audit-trail, agent-authorization, agent-clearinghouse, agent-context-serving, agent-evals, agent-execution-control, agent-governance, agent-governance-layer, agent-identity, agent-memory, agent-permissioning, agent-policy-enforcement, agent-telemetry, agent-traces, agent-trust-layer, agentic-commerce, agentic-orchestration, agentic-workflows-production, ai-agents-meetings, authorization-context, clearinghouse-architecture, conversational-context, enterprise-moats, fraud-detection, liability-models, meeting-recording, multi-agent-coordination, payment-governance, strategic-real-estate, switching-costs, system-of-record, systems-of-record, transaction-authorization, unstructured-data, voice-based-systems]
+tags: [agent-audit-trail, agent-authorization, agent-clearinghouse, agent-context-serving, agent-evals, agent-execution-control, agent-governance, agent-governance-layer, agent-identity, agent-memory, agent-permissioning, agent-policy-enforcement, agent-telemetry, agent-traces, agent-trust-layer, agentic-commerce, agentic-orchestration, agentic-workflows, agentic-workflows-production, ai-agents-meetings, ai-platform-strategy, authorization-context, change-management-costs, clearinghouse-architecture, conversational-context, data-moats, dynamic-workflows, enterprise-moats, fraud-detection, go-to-market-strategy, liability-models, meeting-recording, multi-agent-coordination, orchestration-layer, payment-governance, strategic-real-estate, switching-costs, system-of-record, systems-of-record, transaction-authorization, unstructured-data, voice-based-systems, wedge-strategy, workflow-orchestration, workflow-switching-costs]
 ---
 
 # Agentic Workflows in Production
@@ -24,68 +24,80 @@ The clearinghouse pattern controls:
 ### Strategic Positioning
 **Why This Creates Moats**:
 - Migration difficulty exceeds traditional systems of record
-- Consolidates: policies, permissions, audit history, agent telemetry
-- Becomes more critical as agents handle autonomous spending and critical operations
-- Network effects
+- Consolidat
 
-## Agentic Commerce at J.P. Morgan Payments (Lozanoff, June 2026)
+## The Evolution from SaaS to Agentic Moats (Ball, June 2026)
 
-### Core Thesis
-**Business Problem**: AI agents can now perform end-to-end commerce tasks (product discovery, evaluation, checkout), but cannot be trusted at scale without governance infrastructure. Traditional payment systems assume a human decides, authorizes, and pays—agentic commerce disrupts fraud models, authentication logic, and risk interpretation.
+### Core Thesis Update
+**Business Problem**: Traditional understanding suggested SaaS moats came from owning the system of record (data gravity). The actual moat was the hundreds of workflows touching that system. For AI/agentic systems, the moat shifts from data layer to orchestration layer.
 
-**AI Pattern Applied**: Agentic Commerce with Governance Layer
-- Agents execute: product discovery → option evaluation → checkout completion
-- Governance layer manages: agent identity verification, permission boundaries, policy enforcement
-- Risk signals shift from consumer browsing behavior to authenticated agent identity and authorization context
+**Pattern Applied**: Orchestration-Layer Moat Building
+- Dynamic workflows (vs static SaaS workflows)
+- Moat moves "up a layer" from where data sits to where work gets orchestrated
+- System of record equivalent: orchestration platform managing agent workflows
 
-### What Makes It Succeed or Fail
+### What Made SaaS Moats Work
+**The Real Switching Cost**: Not data portability, but workflow reconstruction
+- Porting data to new system of record was feasible
+- The impossible part: rebuilding/verifying/testing/securing ALL workflows
+- Many workflows were critical path or customer-facing
+- Change management cost > value of switching systems
 
-**Success Factors**:
-1. **Authorization Context**: Granular customer consent, explicit limits, merchant-defined constraints that clarify intent before execution
-2. **Agent Identity Infrastructure**: Clear agent identification, authenticated identity verification, permission verification
-3. **Machine-Readable Data**: Clean, rich product catalogs that agents can reliably discover and compare
-4. **Continuous Risk Monitoring**: Risk assessment spanning discovery → checkout → post-transaction (following agent throughout interaction)
+**Key Insight**: The platform with most workflows touching it had the moat (typically the system of record)
 
-**Failure Modes**:
-1. **Ambiguous Instructions**: Prompt "reorder office supplies" can produce vastly different outcomes depending on interpretation of "usual", prioritization (cost vs. availability), handling of incomplete instructions
-2. **Poor Product Data**: If catalogs aren't machine-readable, agents cannot discover/compare products—removes products from decision surface regardless of agent capability
-3. **Merchant Visibility Loss**: Retailers lose understanding of customer arrival, search patterns, browsing behavior, checkout flows when agents intermediate
-4. **Unresolved Liability**: When agent follows instructions but produces unwanted outcome, responsibility between merchant/bank/consumer/agent provider remains unclear
+### The Agentic Translation
+**Moat Location Shift**:
+- **SaaS Era**: Moat at data layer → workflows formed around system of record
+- **Agentic Era**: Moat at orchestration layer → workflows become dynamic
+- The "database" in agentic world = the workflows themselves
+- Winner = company owning where workflows get orchestrated
 
-### Industry and Business Function
-- **Industry**: Financial Services (Payments)
-- **Business Function**: Merchant Services, Payment Processing, Commerce Infrastructure
-- **Organization**: J.P. Morgan Payments (Global Head of Merchant Services)
+### Go-to-Market Strategy for Agentic Companies
+**Anti-Pattern**: Don't try to build orchestration layer from day 1
 
-### Key Outcomes
-- No quantitative metrics cited
-- Qualitative positioning: "Capability is no longer the bottleneck"—intelligence becoming table stakes, governance is the differentiator
+**Recommended Playbook** (mirrors SaaS system of record evolution):
+1. **Start Narrow**: Pick single workflow
+   - Choose something appearing commoditized but strategic
+   - Select workflow becoming more important (ride the right wave)
+   - Do it much better than anyone else
+   - Accept that others will assume no defensibility (advantage: underestimation)
 
-### The Governance-First Paradigm
+2. **Use as Strategic Real Estate**:
+   - Build adjacent workflows around initial wedge
+   - Expand gradually and go deeper
 
-**Shift in Competitive Advantage**:
-- **Old differentiator**: Agent intelligence and capability
-- **New differentiator**: Governance infrastructure—who agents are, what they can access, what they're permitted to do under enforceable rules
-- **J.P. Morgan positioning**: Building governance, permissioning, and trust infrastructure rather than competing on agent intelligence
+3. **Build Orchestration Layer Last**:
+   - Slowly build orchestration around workflow portfolio
+   - Earn the right to "manage" (orchestrate) all workflows/agents
+   - "Startups aren't static" - initial focus isn't final state
 
-**Required Infrastructure**:
-- Agent identity standards
-- Safe transaction protocols for agents
-- Common approaches to risk, data sharing, and liability
-- Industry-wide standards for responsible growth
+**Historical Parallel**: Salesforce wasn't touched by thousands of workflows on day 1. Started narrow/niche, owned single use case, got really good, then expanded until workflows built around them.
+
+### Strategic Framework
+**The Wedge Strategy**:
+- Initial workflow = strategic real estate
+- Important: where you start must be defensible territory you can build around
+- End state: orchestration platform managing agent ecosystem
 
 ### Generalizability
+**Applies To**:
+- Any B2B function with multiple interconnected workflows
+- Enterprise software categories transitioning to agentic architectures
+- Vertical SaaS providers evolving to agent-based models
+- Horizontal platforms managing cross-functional agent coordination
 
-**Direct Application Industries**:
-- **Financial Services**: Any payment processing, banking operations involving autonomous transactions
-- **E-commerce**: All retail platforms where agents may act on behalf of customers
-- **B2B Procurement**: Enterprise purchasing where agents handle supplier discovery and ordering
-- **Travel/Hospitality**: Booking systems where agents compare and purchase on user behalf
+**Industry Applications**:
+- Financial services (transaction orchestration)
+- Supply chain (multi-party coordination)
+- Healthcare (care coordination workflows)
+- Legal (document and process workflows)
+- HR/recruiting (candidate journey orchestration)
+- Customer support (multi-channel agent coordination)
 
-**Pattern Applies Broadly To**:
-- Any domain where AI agents make autonomous decisions with financial/operational consequences
-- Scenarios requiring liability clarity when agent actions produce unintended outcomes
-- Multi-party ecosystems where agents from different providers must interoperate
-- Industries with existing fraud prevention and risk management requirements that must adapt to agentic interactions
-
-**Core Insight**: When AI capability commoditizes, competitive advantage shifts to governance infrastructure. The "clearinghouse for agents" pattern applies wherever autonomous agents need to operate at scale across organizational boundaries.
+### Key Metrics for Success
+While no quantitative outcomes cited in this analysis, success indicators would include:
+- Number of workflows touching orchestration platform
+- Percentage of critical-path workflows managed
+- Time/cost to migrate away (switching cost proxy)
+- Number of integrated agent vendors
+- Workflow execution volume and diversity

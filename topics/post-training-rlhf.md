@@ -1,90 +1,51 @@
 ---
-tags: [agentic-alignment, agentic-misalignment, agentic-training, agi-bottlenecks, ai-for-ai, ai-rd-automation, ai-research-automation, alignment-brittleness, alignment-research, alignment-reversal, alphago, annotation, api-abuse, autonomous-fine-tuning, autonomous-post-training, benchmark-contamination, constitutional-ai, copyright-alignment, credit-assignment, credit-assignment-problem, crowdsourcing, data-labeling, data-quality, deepseek, deepseek-r1, deepseek-v3, deepseek-v3.1, deepseek-v3.2, deepseek-v4, direct-preference-optimization, distillation, domain-specialists, dpo, emotional-stability, ethical-reasoning, expert-trajectories, fine-tuning-risks, fine-tuning-safety, formal-verification, frontier-models, gemini, gemma, grpo, guardrail-circumvention, human-annotation, human-feedback, inference-time-verification, influence-functions, lean-proofs, lean-theorem-proving, llama-2, llama-3, llm-capability-eval, llm-personality, mathematical-reasoning, mcts, memorization, memorization-extraction, mimo-flash, mixture-of-experts, model-compression, model-distress, model-personality, model-training-pipeline, model-weights, monte-carlo-tree-search, mopd, multi-teacher-distillation, nemotron-3-ultra, off-policy-training, olmo-3, on-policy-distillation, open-weight-models, policy-gradient, post-training, post-training-automation, post-training-infrastructure, post-training-rlhf, ppo, preference-optimization, psychological-stability, putnam-exam, rater-agreement, reasoning-models, reasoning-rl, reinforcement-learning, reinforcement-learning-verifiable-rewards, rejection-sampling, reward-hacking, reward-modeling, rl-environment-quality, rl-training-signals, rlhf, rlhf-labeling, rlvr, safety-evals, safety-evaluation, sample-efficiency, self-play, sparse-attention, synthetic-data, synthetic-data-generation, teacher-student-learning, training-costs, training-harness, training-harness-reliability, trajectory-analysis, tulu-3, verbatim-regurgitation, verified-generation]
+tags: [agentic-alignment, agentic-misalignment, agentic-training, agi-bottlenecks, ai-for-ai, ai-rd-automation, ai-research-automation, alignment-brittleness, alignment-research, alignment-reversal, alphago, annotation, api-abuse, api-distillation, autonomous-fine-tuning, autonomous-post-training, benchmark-contamination, constitutional-ai, copyright-alignment, credit-assignment, credit-assignment-problem, crowdsourcing, data-distillation, data-labeling, data-quality, deepseek, deepseek-r1, deepseek-v3, deepseek-v3.1, deepseek-v3.2, deepseek-v4, direct-preference-optimization, distillation, domain-specialists, dpo, emotional-stability, ethical-reasoning, expert-data, expert-trajectories, fine-tuning-risks, fine-tuning-safety, formal-verification, frontier-models, gemini, gemma, grpo, guardrail-circumvention, human-annotation, human-feedback, inference-time-verification, influence-functions, lean-proofs, lean-theorem-proving, llama-2, llama-3, llm-capability-eval, llm-personality, mathematical-reasoning, mcts, memorization, memorization-extraction, mimo-flash, mixture-of-experts, model-compression, model-distillation, model-distress, model-personality, model-training-pipeline, model-weights, monte-carlo-tree-search, mopd, multi-teacher-distillation, nemotron-3-ultra, off-policy-training, olmo-3, on-policy-distillation, open-weight-models, policy-gradient, pope, post-training, post-training-automation, post-training-infrastructure, post-training-rlhf, ppo, preference-optimization, privileged-on-policy-exploration, psychological-stability, putnam-exam, qwen3, rater-agreement, reasoning-models, reasoning-rl, reinforcement-learning, reinforcement-learning-verifiable-rewards, rejection-sampling, reward-hacking, reward-modeling, rl-environment-quality, rl-exploration, rl-training-signals, rlhf, rlhf-labeling, rlvr, safety-evals, safety-evaluation, sample-efficiency, synthetic-data, synthetic-data-generation, training-data-volume]
 ---
 
-# Post-Training, RLHF & Alignment
+# Post-Training & RLHF
 
-Covers the techniques applied after pretraining to make models more useful and aligned: supervised fine-tuning (SFT), reinforcement learning from human feedback (RLHF), direct preference optimization (DPO), constitutional AI, and emerging multi-stage recipes.
+## RL as Synthetic Data Generation (Dwarkesh, June 2026)
 
-## Evolution of Post-Training Recipes (2022-2026)
+**Conceptual framing**: RL can be understood as a form of synthetic data generation where compute is applied against a verifier to find "good" data, which the model is then trained to predict (analogous to predicting next tokens in internet text).
 
-The shape of post-training recipes has changed dramatically:
+**Prior probability requirement**: For RL to work, the model must have at least some prior probability of anticipating the correct solution. This is why extensive human expert trajectories are required across all target domains.
 
-**2022-2023 (InstructGPT era)**: Single pipeline — SFT → reward model → RL
+## Expert Trajectory Data Requirements
 
-**2024**: Open recipes formalize SFT → DPO → RL with verifiable rewards ([[reinforcement-learning-verifiable-rewards]]). Closed recipes use many stages of RLHF.
+**Scale and specificity**: Human expert data requirements are "task specific and bespoke" at extreme scale:
+- Each skill area requires hundreds of human experts generating example completions, writing rubrics, and explaining chain-of-thought
+- Examples: Word document specialists, legal M&A experts, management consultants for market research
+- Data labeling industry earning billions annually, projected to reach "deca-billions"
 
-**2025 (DeepSeek R1)**: Reasoning RL makes large-scale RL the centerpiece rather than an add-on.
+**Training intensity vs. humans**: Models must "grind" tasks far harder than humans:
+- Humans might practice a textbook problem 1-2 times
+- GRPO has models generate hundreds to thousands of rollouts per task
+- Described as "Frankenstein's monster, with a billion grafts of carefully constructed examples sewn together"
 
-**2026 (MiMo Flash V2)**: Recipes fragment into many specialist models that are merged back into one via [[multi-teacher-distillation]].
+## Data as Primary Driver of Progress
 
-## Multi-Teacher On-Policy Distillation (MOPD)
+**Catch-up dynamics**: Epoch reports open models lag state-of-the-art by only ~4 months (as of June 2026).
 
-**Definition**: The dominant pattern in 2026 frontier models. Train N domain-specialist teachers (each: SFT, then RL on relevant domains), then train one general student by sampling its own trajectories and minimizing reverse-KL to the relevant teacher's output distribution, token by token.
+**Hypothesis**: The ease of catching up suggests data is the "real driver of progress" rather than hyperparameters, training tricks, or architectural optimizations, because:
+- Data can be distilled from public APIs
+- Architectural details and training tricks cannot be easily extracted
+- If the latter were primary, catching up would be harder than observed
 
-**Lineage**: 
-- Introduced in MiMo Flash V2
-- Scaled to >10 teachers in DeepSeek V4 and Nemotron 3 Ultra
+**Training data volume**: Frontier models trained on "10s to 100s of trillions of tokens" - metaphorically described as "an unimaginably massive black hole of data" at the center of AI capabilities.
 
-**Why MOPD emerged**:
-1. **RL conflicts**: Mixing math, code, and agentic RL in one run trades capabilities off against each other
-2. **Organizational scalability**: SFT-then-RL on a single domain is well understood and parallelizable across teams
-3. **On-policy distillation maturity**: Literature and know-how emerged through the RLVR renaissance
+## Human vs. AI Sample Efficiency
 
-## Historical Post-Training Recipes
+**Definition**: Sample efficiency = how much data needed to operate fluently in a domain.
 
-### InstructGPT (March 2022)
-Canonical 3-step recipe:
-1. SFT on human demonstrations
-2. Reward model trained on human comparisons
-3. PPO against the reward model
+**Claim (contested/observation)**: "It's not clear that we've actually made much progress on training sample efficiency over the last few years - it seems like more so we've dramatically widened and improved the data distribution."
 
-### Llama 2 (July 2023)
-Multi-stage RLHF:
-- SFT, then iterative RLHF over multiple rounds
-- Each round: rejection sampling → PPO
-- Two reward models — separate helpfulness and safety
+**Quantitative comparisons**:
+- Human lifetime exposure: ~200 million tokens (birth to adulthood, assuming 2,000 words/hour)
+- Frontier model training: 10s-100s of trillions of tokens
+- **Gap: ~1,000,000x difference in data exposure**
 
-### Llama 3 (July 2024)
-Complex multi-stage recipe with simpler optimizers:
-- Per round: reward model → sample K per prompt → rejection sampling → SFT → DPO
-- No online RL — the RM only filters; run over 6 rounds, best models seed the next
+**Domain-specific examples**:
+- Robotics teleoperation: Humans learn in hours; AI requires millions of hours of demonstrations (insufficient for complex open-ended tasks)
+- Autonomous driving: Teenagers learn in ~20 hours of practice; Waymo/Tesla required 3-4 orders of magnitude more data (even including 16 years of physical intuition accumulation)
 
-### Tülü 3 (November 2024)
-Simple three-stage post-training:
-- Curated prompts → SFT → DPO → RLVR (RL with verifiable rewards — acronym coined in this paper)
-
-### OLMo 3 (December 2025)
-Reasoning update to the Tülü 3 recipe
-
-### DeepSeek R1 (January 2025)
-**Major shift**: RL as the centerpiece, not an add-on
-
-Recipe:
-- **R1-Zero**: Pure RL (GRPO) on the base, no SFT; used to seed reasoning behaviors, not a separate product
-- **R1 full**: cold-start SFT → reasoning RL → rejection-sampling SFT → final RL → distill to dense
-
-**Paradigm change**: Large-scale RLVR as primary driver, SFT to distill and refine RL behaviors (reversal of traditional priority)
-
-## DeepSeek Evolution Timeline
-
-**V3** (December 2024): SFT + GRPO RL
-
-**R1** (January 2025): Multi-stage RL; reasoning emerges
-
-**V3.1** (August 2025): Hybrid think/non-think in one model
-
-**V3.2** (December 2025): 6 specialists via RL → SFT distillation → one mixed GRPO
-
-**V4** (April 2026): 10+ domain specialists using [[mopd]]
-
-## Key Technical Patterns
-
-### Rejection Sampling
-Used extensively in [[llama-2]], [[llama-3]], and [[deepseek-r1]] to filter high-quality outputs from intermediate models.
-
-### Multi-Stage RLHF
-Iterative refinement through multiple rounds of RL training, each building on the previous stage.
-
-### Domain Specialists
-Training separate models for specific capabilities (math, code, agentic tasks) before combining them, enabling organizational parallelization and reducing capability conflicts.
+**Evolution/genome objection addressed**: Human genome is 3GB with 1-2% protein-coding - "not enough space to store the model parameters that are supposedly pretrained" (frontier models are terabytes). Author argues this undermines the "billions of years of evolution is our pre-training" counterargument.

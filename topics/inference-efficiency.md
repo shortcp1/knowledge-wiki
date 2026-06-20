@@ -1,5 +1,5 @@
 ---
-tags: [coding-benchmarks, coding-models, deepseek, frontend-coding, glm-5.2, indexshare, inference-efficiency, inference-optimization, long-context, ma-activity, mixture-of-experts, model-fusion, mtp, open-source-models, open-weights, sparse-attention, speculative-decoding]
+tags: [coding-benchmarks, coding-models, context-window, deepseek, dense-attention, energy-efficiency, frontend-coding, glm-5.2, indexshare, inference-efficiency, inference-optimization, inference-speed, long-context, ma-activity, mixture-of-experts, model-fusion, mtp, open-source-models, open-weights, quadratic-complexity, sparse-attention, speculative-decoding, subquadratic, transformer-architecture]
 ---
 
 ## IndexShare for Speculative Decoding
@@ -21,4 +21,38 @@ tags: [coding-benchmarks, coding-models, deepseek, frontend-coding, glm-5.2, ind
 
 **Note**: Technical disclosures are limited; no full paper released as of June 2026, only mention of "minor improvement" on DeepSeek Sparse Attention
 
-See also: [[model-architecture]], [[speculative-decoding]]
+## Sparse Attention for Efficiency Gains
+
+### Computational Benefits Over Dense Attention
+- **Sparse attention** selects subset of token pairs to multiply, avoiding quadratic scaling
+- Enables longer context processing with fewer computations
+- Significantly reduces energy consumption
+- See [[model-architecture]] for technical comparison with dense attention
+
+### Known Implementations
+- **DeepSeek Sparse Attention**: Foundation for IndexShare optimization
+- **SubQ (Subquadratic)**: Claims 12x context length improvement over standard models with competitive performance
+
+## SubQ Efficiency Claims
+
+**Developer**: Subquadratic (Miami-based startup)  
+**Announced**: June 2026  
+**Independent Validation**: Appen (third-party evaluation firm)
+
+### Performance Characteristics
+- Faster inference than existing frontier models
+- Lower operational costs
+- Reduced energy consumption (major efficiency gain)
+- Processes up to **12x more text at once** than most models
+- Maintains competitive performance on coding tasks vs. Google DeepMind, OpenAI, Anthropic models
+
+### Use Case Optimization
+- Data-heavy tasks: analyzing hundreds of documents simultaneously
+- Code base analysis (entire repositories)
+- Tasks requiring extended context windows
+
+**Trade-off Note**: "SubQ won't replace existing top models across the board" but offers "huge increases in speed at a fraction of the typical cost for certain tasks"
+
+**Status**: Not widely available for public testing as of June 2026
+
+See also: [[model-architecture]], [[speculative-decoding]], [[long-context]]
