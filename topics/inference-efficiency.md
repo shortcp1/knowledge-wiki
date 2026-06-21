@@ -1,5 +1,5 @@
 ---
-tags: [coding-benchmarks, coding-models, context-window, deepseek, dense-attention, energy-efficiency, frontend-coding, glm-5.2, indexshare, inference-efficiency, inference-optimization, inference-speed, long-context, ma-activity, mixture-of-experts, model-fusion, mtp, open-source-models, open-weights, quadratic-complexity, sparse-attention, speculative-decoding, subquadratic, transformer-architecture]
+tags: [4-bit-quantization, agentic-tasks, coding-benchmarks, coding-models, context-window, deepseek, dense-attention, energy-efficiency, frontend-coding, glm-5.2, hybrid-transformer-mamba, indexshare, inference-efficiency, inference-optimization, inference-speed, latent-moe, long-context, ma-activity, mixture-of-experts, model-fusion, mtp, multi-teacher-distillation, multi-token-prediction, nemotron-3-ultra, nvfp4, nvidia, open-source-models, open-weights, quadratic-complexity, sparse-attention, speculative-decoding, subquadratic, tokens-per-second, transformer-architecture]
 ---
 
 ## IndexShare for Speculative Decoding
@@ -36,23 +36,38 @@ tags: [coding-benchmarks, coding-models, context-window, deepseek, dense-attenti
 ## SubQ Efficiency Claims
 
 **Developer**: Subquadratic (Miami-based startup)  
-**Announced**: June 2026  
-**Independent Validation**: Appen (third-party evaluation firm)
+**Announced**: June 2026
 
-### Performance Characteristics
-- Faster inference than existing frontier models
-- Lower operational costs
-- Reduced energy consumption (major efficiency gain)
-- Processes up to **12x more text at once** than most models
-- Maintains competitive performance on coding tasks vs. Google DeepMind, OpenAI, Anthropic models
+## Nemotron 3 Ultra Inference Optimization
 
-### Use Case Optimization
-- Data-heavy tasks: analyzing hundreds of documents simultaneously
-- Code base analysis (entire repositories)
-- Tasks requiring extended context windows
+**Released**: June 2026  
+**Developer**: Nvidia  
+**Output Speed**: ~183 tokens per second (fastest among open-weights models of comparable intelligence)
 
-**Trade-off Note**: "SubQ won't replace existing top models across the board" but offers "huge increases in speed at a fraction of the typical cost for certain tasks"
+### Efficiency Techniques
 
-**Status**: Not widely available for public testing as of June 2026
+#### NVFP4 Quantization
+- **4-bit quantized format** used for both training and inference
+- Reduces memory footprint significantly
+- Improves token processing efficiency
+- Nvidia recommends NVFP4 weights for production inference
+- Minimal performance impact: 47.7 (NVFP4) vs 48.2 (full precision) on Artificial Analysis Intelligence Index
+- See [[low-precision-training]] for training methodology
 
-See also: [[model-architecture]], [[speculative-decoding]], [[long-context]]
+#### Mamba-Transformer Hybrid Architecture
+- **Mamba layers**: Handle long sequences with lower memory and computation than pure attention
+- **Selective attention layers**: Smaller set for precise recall when needed
+- Enables 1M token context window with practical inference speeds
+- Combined with [[latent-moe]] for additional efficiency gains
+
+#### Multi-Token Prediction
+- Generates multiple tokens simultaneously
+- Contributes to high throughput (~183 tokens/second)
+- Part of broader MTP strategy for inference acceleration
+
+### Performance Context
+- Designed for long-running agentic tasks requiring sustained generation
+- Trades maximum intelligence score for superior speed among open-weights alternatives
+- 1M token context window with competitive inference performance
+
+**Cross-references**: [[model-architecture]], [[nemotron-3-ultra]], [[latent-moe]], [[multi-token-prediction]], [[low-precision-training]]

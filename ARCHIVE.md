@@ -705,7 +705,34 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-21
+
+**✗ 4.0** — [Issue 348](https://www.deeplearning.ai/the-batch/issue-348)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · ai-in-product-and-engineering · ai-org-design-headcount
+#coding_agents #software_engineering #job_market_impact #product_management_bottleneck
+> Andrew Ng argues that AI will not cause massive unemployment in software engineering, contrary to popular forecasts, pointing to rising job postings in the field as evidence. He outlines five clear trends in AI-accelerated coding (more people coding, less focus on raw syntax, more custom applications, product management bottlenecks, and reduced technical debt costs) while noting open questions about future skills and organizational structures. The article positions software engineering as a bellwether for AI's impact on other professions, suggesting expansion rather than contraction of job opportunities.
+
+**✓ 7.0** — [Nvidias Nemotron Goes Big](https://www.deeplearning.ai/the-batch/nvidias-nemotron-goes-big)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · ai-engineering-agents
+#hybrid_transformer_mamba #mixture_of_experts #multi_token_prediction #multi_teacher_distillation
+> Nvidia released Nemotron 3 Ultra, a 550B parameter hybrid transformer-mamba mixture-of-experts model optimized for long-running agentic tasks with 183 tokens/second generation speed. The model uses a novel architecture combining mamba layers for efficient long-context processing with attention layers, trained on 20 trillion tokens using 4-bit quantization and refined through multi-teacher on-policy distillation across specialized domains. It represents a bet on speed and openness (with weights, data, and training recipes published) to compete in the LLM market, achieving highest intelligence scores among U.S. open-weights models while being the fastest in its performance tier.
+
+**✓ 7.0** — [Open Platforms Beat Power Plays](https://www.deeplearning.ai/the-batch/open-platforms-beat-power-plays)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · lab-dynamics · build-vs-buy-enterprise-ai
+#export_controls #platform_stability #model_restrictions #open_research
+> Andrew Ng argues that Anthropic's restrictions on using Claude for competing LLM development and subsequent U.S. export controls on frontier models demonstrate dangerous power plays that undermine platform stability and accelerate efforts by businesses and nations to ensure independent AI access. The article details how Anthropic restricted usage for LLM research (initially through silent degradation, then transparently) and how Commerce Department export controls led to global access being disabled. These events highlight the fragility of relying on proprietary models and the downstream effects of fear-based marketing around AI capabilities, ultimately making the case for more open and stable AI platforms.
+
 ## 2026-06-20
+
+**✗ 2.3** — [🧠 Community Wisdom: Fractional CPO compensation, free e-signature tools, why some users pay but never use your product, sharing Claude Code context across a team, and more](https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation)  
+*Lenny's Newsletter* · 
+#community_wisdom #product_management #fractional_executives #user_behavior
+> This is a subscriber-only newsletter compilation of community discussions covering various business and product topics including fractional CPO compensation, e-signature tools, user behavior patterns, and Claude Code context sharing. The article appears to be a curated collection of questions and answers from a Slack community rather than original analysis or research. It provides practical advice for product and business operations but lacks depth, novel insights, or clear relevance to the specified AI/semiconductor technical domains.
+
+**✗ 1.0** — [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-e7b)  
+*Latent Space* · 
+#conference_promotion #newsletter #glm_5
+> This is a brief newsletter post announcing that not much happened in AI news on a particular day, mentioning GLM 5.2 as still trending. The post primarily serves as a promotional vehicle for AIE WF 2026 conference tickets with subscriber discounts. It contains no substantive analysis, data, or insights about AI technology, applications, or industry dynamics.
 
 **✓ 7.0** — [Agentic Tests Beyond The Bug Hunt](https://www.deeplearning.ai/the-batch/agentic-tests-beyond-the-bug-hunt)  
 *The Batch (DeepLearning.AI)* · evals-production-deployment · ai-engineering-agents · model-architecture
@@ -778,6 +805,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · 
 #self_quantification #metrics_corruption #goodharts_law #measurement_limitations
 > The article recounts a personal journey with self-quantification and metrics, arguing that while measurement can reveal useful information, it often obscures deeper goals and corrupts intrinsic motivations. The author describes how initial goals like 'getting outside more' and 'self-knowledge' quickly devolved into optimizing arbitrary numerical targets (step counts, analytics). This matters as a cautionary tale about the limitations of quantification culture, though it remains primarily a personal reflection rather than systematic analysis.
+
+**✗ 3.3** — [Brain-computer interface trials are taking off](https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/)  
+*MIT Technology Review* · 
+#brain_computer_interface #neuralink #medical_devices #clinical_trials
+> The article reports on the growing number of brain-computer interface (BCI) clinical trials, highlighting Casey Harrell's three-year experience using a UC Davis BCI to communicate and work despite ALS-related paralysis. It documents the expansion from 67 total volunteers between 1998-2023 to rapid growth in 2024-2025, with companies like Neuralink (21 implants), Synchron, and Neuracle conducting trials. The piece matters as a snapshot of BCI commercialization progress, though it remains descriptive rather than analytical about technical breakthroughs or business implications.
 
 **✗ 5.3** — [[AINews] GLM > GPT? GLM-5.2 passes vibe check; Z.ai forecasts Open Fable by December](https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe)  
 *Latent Space* · model-architecture · lab-dynamics · regulatory-policy
@@ -1190,10 +1222,20 @@ All articles scanned since the wiki started. Updated nightly.
 
 ## 2026-06-15
 
+**✗ 1.3** — [datasette-apps 0.1a3](https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything)  
+*Simon Willison* · 
+#datasette #release_notes #permission_management
+> This is a release note for datasette-apps version 0.1a3, announcing bug fixes related to permission controls for creating and editing apps within Datasette. The fixes address permission bypass issues where unauthorized users could create apps and where non-owners couldn't be granted edit permissions. This is a minor maintenance release with no substantive technical insights or strategic implications.
+
 **✗ 5.0** — [Why do South Koreans love AI so much?](https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/)  
 *MIT Technology Review* · semiconductor-supply-chain · regulatory-policy · funding-and-market-structure
 #ai_adoption_rates #national_ai_strategy #high_bandwidth_memory #semiconductor_manufacturing
 > The article reports that South Korea exhibits the highest AI optimism globally (only 16% concerned vs 50% in US), driven by government-engineered enthusiasm positioning AI as core to economic growth strategy. The evidence includes policy initiatives like the Presidential Council on National AI Strategy, sovereign AI foundation model projects, and South Korea's semiconductor dominance through Samsung and SK Hynix supplying most high-bandwidth memory for AI training. This matters because it illustrates how national industrial policy and cultural attitudes toward technology adoption can create dramatically different AI adoption trajectories compared to Western markets.
+
+**✗ 1.7** — [datasette-apps 0.1a2](https://simonwillison.net/2026/Jun/15/datasette-apps/#atom-everything)  
+*Simon Willison* · 
+#datasette #open_source_tooling #software_release #web_applications
+> This is a release announcement for datasette-apps 0.1a2, detailing minor updates including CSP permission guards, keyboard navigation for stored query pickers, and bug fixes for fragment links and full-screen mode. The changes are incremental technical improvements to an open-source tool for hosting custom HTML applications inside Datasette. This represents routine software maintenance rather than novel AI/ML research or enterprise AI applications.
 
 **✗ 4.3** — [datasette-agent 0.3a0](https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything)  
 *Simon Willison* · ai-engineering-agents · agentic-workflows-production
@@ -1255,6 +1297,11 @@ All articles scanned since the wiki started. Updated nightly.
 #jailbreaking #export_controls #national_security #model_safety
 > The article reports on a U.S. government export control directive that forced Anthropic to suspend access to its Fable 5 and Mythos 5 models due to national security concerns about jailbreaking capabilities, particularly in cybersecurity exploitation. The evidence centers on a demonstrated jailbreak method (reportedly from Amazon) that bypassed safety guardrails to identify vulnerabilities, though Anthropic disputes the severity and uniqueness of the threat. This matters because it illustrates the inevitable tension between AI labs and government regulators as models become more capable, particularly when safety commitments conflict with business interests and national security concerns.
 
+**✓ 6.0** — [Anthropic’s Safety Superpower](https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQ1OTkyNTEsImlhdCI6MTc4MjAwNzI1MSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.im5K0QMALIVKTyO5VRU0M3IqdXAmSu5YsXuFuQK0bAzHFDkoQ-ECN36iecx2w29OlSoT3uG4v69ghnWNGG0H9hgyHOfwh04RGQsNukyFZ1n_vzDa3-DFrT7nwmzA2oR2SrMq5cES7wC8xDQ7NbdwnLdxZFxDK_ZMr23yGIE8DMD0XHm7sHuG8i9zdurdYCFiVCNZeysPs7tStqF_tuJKQI4AciLkIQQEG9Uvg7kcGmdkgkGf9ydmc3ny3uRksQe1IU-1sWyoTkhACtJfzNU-WpVF4PJpMLX7qjhR3hxvxc0dSuIvyPPYEO7DXeFuyId46tFo0w13Vjs2HhDnUAUUEA)  
+*Stratechery (Ben Thompson)* · model-architecture · ai-governance-risk-compliance · regulatory-policy
+#anthropic #model_jailbreaking #export_controls #cybersecurity_capabilities
+> The article examines Anthropic's conflict with the U.S. government over export controls on its Fable/Mythos models following a jailbreak that allegedly exposed cybersecurity capabilities. It argues that Anthropic's safety positioning both legitimizes aggressive business moves and makes conflict with regulators inevitable, particularly as models become powerful enough to raise genuine national security concerns. The piece suggests this represents an emerging pattern where AI safety rhetoric serves dual purposes of marketing differentiation and justification for challenging government oversight.
+
 **✓ 6.7** — [Anthropic’s Safety Superpower](https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQxNjcyNDUsImlhdCI6MTc4MTU3NTI0NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.m4WxOcwiKjEvMeevYn302k31yUb7xZbbDvQ5NA1eDjg5aaBe20aXIFH4U1Fws2H8re1jkH7ebpqNgUDm0Ncl43w7we_4tDu5_RFdx7TA_B7o5WFQc5Nm9E6_C3JVBZAOiPOpYuqYuw7RrV383lEi7pMq7MFYbZwxiWXTrVlZe_92koykDmeUmMe4bF5SDHdf0VcM5PGqYESNqwdkNgGVGcvozwofAfvqs1H7WlJqetwK9-W0z8CwXFZtlh5ITVZnwu8rn0gBya6ZoTJzZ81_JHTZCmnbLATdMPAfnK9btrPblOOk1KjOfiUFyORbSjxVgjKQilDpZ9Lff5AnFihR-g)  
 *Stratechery (Ben Thompson)* · model-architecture · regulatory-policy · lab-dynamics
 #anthropic #model_safety #jailbreaks #export_controls
@@ -1269,6 +1316,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · model-architecture · regulatory-policy · lab-dynamics
 #model_safety #export_controls #jailbreaking #government_relations
 > The article argues that Anthropic's commitment to AI safety gives it justification to both aggressively pursue business interests and challenge U.S. government authority, evidenced by the recent conflict over the Fable/Mythos model release. The key evidence includes the government's emergency export control directive issued after a jailbreak was discovered, and Anthropic's public pushback claiming the concerns are overblown and that similar vulnerabilities exist in other models. This matters because it illustrates the inevitable tension between AI labs' safety narratives and government regulatory authority, particularly as models become capable enough to pose legitimate national security concerns.
+
+**✗ 1.7** — [Quoting Julia Evans](https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything)  
+*Simon Willison* · 
+#writing_advice #technical_writing #content_creation
+> This is a brief quote from Julia Evans about writing technique, specifically imagining a single person as your audience when creating content. The quote suggests targeting either a past version of yourself or a friend as the ideal reader. This is a short excerpt with no substantive analysis or connection to AI, enterprise technology, or related domains.
 
 **✗ 4.7** — [Pharmaceutical Kingpin Eli Lilly Gave Insilico 2 75 Billion For Ai Driven Drug Development](https://www.deeplearning.ai/the-batch/pharmaceutical-kingpin-eli-lilly-gave-insilico-2-75-billion-for-ai-driven-drug-development)  
 *The Batch (DeepLearning.AI)* · 

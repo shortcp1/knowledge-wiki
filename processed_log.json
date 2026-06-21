@@ -20543,6 +20543,229 @@
       ],
       "status": "skipped",
       "skip_reason": "Article contains no actual content - only a Google cookie consent page was scraped instead of the intended article about AI budget waste in Singapore mid-market firms."
+    },
+    "https://www.deeplearning.ai/the-batch/issue-348": {
+      "title": "Issue 348",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-21T02:00:56.417124+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "landscape",
+      "summary": "Andrew Ng argues that AI will not cause massive unemployment in software engineering, contrary to popular forecasts, pointing to rising job postings in the field as evidence. He outlines five clear trends in AI-accelerated coding (more people coding, less focus on raw syntax, more custom applications, product management bottlenecks, and reduced technical debt costs) while noting open questions about future skills and organizational structures. The article positions software engineering as a bellwether for AI's impact on other professions, suggesting expansion rather than contraction of job opportunities.",
+      "tags": [
+        "coding-agents",
+        "software-engineering",
+        "job-market-impact",
+        "product-management-bottleneck",
+        "technical-debt"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level opinion piece with widely discussed talking points about AI's impact on software engineering jobs; lacks original analysis, new data, or deep technical insights beyond commonly circulated observations."
+    },
+    "https://www.deeplearning.ai/the-batch/nvidias-nemotron-goes-big": {
+      "title": "Nvidias Nemotron Goes Big",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-21T02:00:55.984695+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "Nvidia released Nemotron 3 Ultra, a 550B parameter hybrid transformer-mamba mixture-of-experts model optimized for long-running agentic tasks with 183 tokens/second generation speed. The model uses a novel architecture combining mamba layers for efficient long-context processing with attention layers, trained on 20 trillion tokens using 4-bit quantization and refined through multi-teacher on-policy distillation across specialized domains. It represents a bet on speed and openness (with weights, data, and training recipes published) to compete in the LLM market, achieving highest intelligence scores among U.S. open-weights models while being the fastest in its performance tier.",
+      "tags": [
+        "hybrid-transformer-mamba",
+        "mixture-of-experts",
+        "multi-token-prediction",
+        "multi-teacher-distillation",
+        "4-bit-quantization",
+        "agentic-tasks",
+        "open-weights"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/open-platforms-beat-power-plays": {
+      "title": "Open Platforms Beat Power Plays",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-21T02:00:55.303424+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "Andrew Ng argues that Anthropic's restrictions on using Claude for competing LLM development and subsequent U.S. export controls on frontier models demonstrate dangerous power plays that undermine platform stability and accelerate efforts by businesses and nations to ensure independent AI access. The article details how Anthropic restricted usage for LLM research (initially through silent degradation, then transparently) and how Commerce Department export controls led to global access being disabled. These events highlight the fragility of relying on proprietary models and the downstream effects of fear-based marketing around AI capabilities, ultimately making the case for more open and stable AI platforms.",
+      "tags": [
+        "export-controls",
+        "platform-stability",
+        "model-restrictions",
+        "open-research",
+        "ai-sovereignty",
+        "competitive-moats"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/ainews-not-much-happened-today-e7b": {
+      "title": "[AINews] not much happened today",
+      "source": "Latent Space",
+      "date": "2026-06-20T08:06:05+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a brief newsletter post announcing that not much happened in AI news on a particular day, mentioning GLM 5.2 as still trending. The post primarily serves as a promotional vehicle for AIE WF 2026 conference tickets with subscriber discounts. It contains no substantive analysis, data, or insights about AI technology, applications, or industry dynamics.",
+      "tags": [
+        "conference-promotion",
+        "newsletter",
+        "glm-5"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a promotional newsletter stub with no substantive content, analysis, or insights relevant to any technical or business AI topics; it lacks depth, novelty, and actionable information."
+    },
+    "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/": {
+      "title": "Brain-computer interface trials are taking off",
+      "source": "MIT Technology Review",
+      "date": "2026-06-19T09:00:00+00:00",
+      "composite": 3.33,
+      "depth": 4,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article reports on the growing number of brain-computer interface (BCI) clinical trials, highlighting Casey Harrell's three-year experience using a UC Davis BCI to communicate and work despite ALS-related paralysis. It documents the expansion from 67 total volunteers between 1998-2023 to rapid growth in 2024-2025, with companies like Neuralink (21 implants), Synchron, and Neuracle conducting trials. The piece matters as a snapshot of BCI commercialization progress, though it remains descriptive rather than analytical about technical breakthroughs or business implications.",
+      "tags": [
+        "brain-computer-interface",
+        "neuralink",
+        "medical-devices",
+        "clinical-trials",
+        "assistive-technology",
+        "neurotechnology"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level industry landscape overview with no connection to AI/ML systems, enterprise applications, or specified technical domains; primarily a medical device human interest story without depth on relevant technical or business dimensions."
+    },
+    "https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything": {
+      "title": "datasette-apps 0.1a3",
+      "source": "Simon Willison",
+      "date": "2026-06-15T20:25:07+00:00",
+      "composite": 1.3,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a release note for datasette-apps version 0.1a3, announcing bug fixes related to permission controls for creating and editing apps within Datasette. The fixes address permission bypass issues where unauthorized users could create apps and where non-owners couldn't be granted edit permissions. This is a minor maintenance release with no substantive technical insights or strategic implications.",
+      "tags": [
+        "datasette",
+        "release-notes",
+        "permission-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a routine software release note with bug fixes that contains no analysis, novel insights, or relevance to any of the specified AI, semiconductor, or enterprise topic areas."
+    },
+    "https://simonwillison.net/2026/Jun/15/datasette-apps/#atom-everything": {
+      "title": "datasette-apps 0.1a2",
+      "source": "Simon Willison",
+      "date": "2026-06-15T17:26:11+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a release announcement for datasette-apps 0.1a2, detailing minor updates including CSP permission guards, keyboard navigation for stored query pickers, and bug fixes for fragment links and full-screen mode. The changes are incremental technical improvements to an open-source tool for hosting custom HTML applications inside Datasette. This represents routine software maintenance rather than novel AI/ML research or enterprise AI applications.",
+      "tags": [
+        "datasette",
+        "open-source-tooling",
+        "software-release",
+        "web-applications"
+      ],
+      "status": "skipped",
+      "skip_reason": "Software release notes for a general web application tool with no relevance to AI/ML systems, semiconductor technology, or enterprise AI use cases specified in the topic areas."
+    },
+    "https://stratechery.com/2026/anthropics-safety-superpower/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpY3Mtc2FmZXR5LXN1cGVycG93ZXIvIl19LCJleHAiOjE3ODQ1OTkyNTEsImlhdCI6MTc4MjAwNzI1MSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.im5K0QMALIVKTyO5VRU0M3IqdXAmSu5YsXuFuQK0bAzHFDkoQ-ECN36iecx2w29OlSoT3uG4v69ghnWNGG0H9hgyHOfwh04RGQsNukyFZ1n_vzDa3-DFrT7nwmzA2oR2SrMq5cES7wC8xDQ7NbdwnLdxZFxDK_ZMr23yGIE8DMD0XHm7sHuG8i9zdurdYCFiVCNZeysPs7tStqF_tuJKQI4AciLkIQQEG9Uvg7kcGmdkgkGf9ydmc3ny3uRksQe1IU-1sWyoTkhACtJfzNU-WpVF4PJpMLX7qjhR3hxvxc0dSuIvyPPYEO7DXeFuyId46tFo0w13Vjs2HhDnUAUUEA": {
+      "title": "Anthropic\u2019s Safety Superpower",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-06-15T10:00:00+00:00",
+      "composite": 6.0,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-governance-risk-compliance",
+        "regulatory-policy",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "The article examines Anthropic's conflict with the U.S. government over export controls on its Fable/Mythos models following a jailbreak that allegedly exposed cybersecurity capabilities. It argues that Anthropic's safety positioning both legitimizes aggressive business moves and makes conflict with regulators inevitable, particularly as models become powerful enough to raise genuine national security concerns. The piece suggests this represents an emerging pattern where AI safety rhetoric serves dual purposes of marketing differentiation and justification for challenging government oversight.",
+      "tags": [
+        "anthropic",
+        "model-jailbreaking",
+        "export-controls",
+        "cybersecurity-capabilities",
+        "safety-guardrails",
+        "ai-lab-government-relations"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything": {
+      "title": "Quoting Julia Evans",
+      "source": "Simon Willison",
+      "date": "2026-06-15T02:05:19+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a brief quote from Julia Evans about writing technique, specifically imagining a single person as your audience when creating content. The quote suggests targeting either a past version of yourself or a friend as the ideal reader. This is a short excerpt with no substantive analysis or connection to AI, enterprise technology, or related domains.",
+      "tags": [
+        "writing-advice",
+        "technical-writing",
+        "content-creation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief inspirational quote about general writing technique with no relevance to AI, semiconductor supply chains, enterprise technology adoption, or any specified topic areas."
+    },
+    "https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation": {
+      "title": "\ud83e\udde0 Community Wisdom: Fractional CPO compensation, free e-signature tools, why some users pay but never use your product, sharing Claude Code context across a team, and more",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-20T15:53:05+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a subscriber-only newsletter compilation of community discussions covering various business and product topics including fractional CPO compensation, e-signature tools, user behavior patterns, and Claude Code context sharing. The article appears to be a curated collection of questions and answers from a Slack community rather than original analysis or research. It provides practical advice for product and business operations but lacks depth, novel insights, or clear relevance to the specified AI/semiconductor technical domains.",
+      "tags": [
+        "community-wisdom",
+        "product-management",
+        "fractional-executives",
+        "user-behavior",
+        "claude-code"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level community Q&A compilation with minimal depth, no novel insights, and insufficient relevance to specified technical AI/semiconductor topic areas."
     }
   }
 }

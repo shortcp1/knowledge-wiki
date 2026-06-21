@@ -774,3 +774,34 @@ Context: Meta spent $14.3 billion for 49% stake in Scale AI (June 2025) - releva
 **APIs and organizational scaling:**
 - "APIs and abstraction layers become lossy as organizations scale"
 - Suggests information loss through organizational interfaces
+
+---
+**Open Platforms Beat Power Plays** (The Batch (DeepLearning.AI), 2026-06-21T02:00:55.303424+00:00)
+## AI Sovereignty
+
+A new topic emerging from export control actions:
+
+**Definition**: National efforts to ensure uninterrupted, independent access to critical AI technology without reliance on other nations that could suddenly restrict access.
+
+**Trigger Event (June 2026)**: U.S. Commerce Department export controls on Anthropic's Mythos and Fable models, which required licenses for foreign national access and led to worldwide service disruption, demonstrated how quickly access to frontier AI models can be terminated.
+
+**Response Pattern**: Once a nation issues a threat or takes action to limit other nations' access to critical technology, other nations rationally seek alternatives:
+- **Semiconductors**: China's semiconductor manufacturing made slow progress for decades; once U.S. limited China's access, China's efforts "kicked into high gear"
+- **Rare Earth Minerals**: China's threats to U.S. access accelerated U.S. efforts to secure alternatives
+- **AI Models**: U.S. controls on frontier models are now spurring increased investment in alternatives like open source models in multiple nations including U.S. allies
+
+**Challenge**: Training frontier models is not easy, so success of sovereignty efforts remains to be seen.
+
+**Related Topics**: [[regulatory-policy]], [[export-controls]], [[open-source-model-essentiality]], [[lab-dynamics]]
+
+---
+**Anthropic’s Safety Superpower** (Stratechery (Ben Thompson), 2026-06-15T10:00:00+00:00)
+## Economic Context for Frontier Labs
+
+**Value Flow to Compute** (Thompson Analysis, June 2026): In first few years of AI, most economic value has flowed to compute providers due to supply-demand imbalance:
+- Primary beneficiaries: Nvidia, TSMC, memory makers (SK hynix, Samsung, Micron)
+- Frontier labs (Anthropic, OpenAI): Collectively lost tens of billions of dollars building leading-edge models
+- Post-release commoditization: Models are distilled and commoditized by open source alternatives, primarily from China
+- This dynamic represents "the bear case for the labs" - question of whether they can ever cover costs
+
+**Economic Pressure on Safety Posture**: The need to monetize capabilities before commoditization creates structural tension with safety-first approaches that delay or restrict releases.
