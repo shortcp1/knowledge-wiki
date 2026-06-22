@@ -1,35 +1,39 @@
 ---
-tags: [ad-monetization, agent-architecture, agent-ecosystems, agent-paradigm, agent-portals, agentic-ai, agentic-computing, agentic-systems, ai-native-applications, ai-native-business-models, ai-native-interfaces, ai-native-product-design, ai-value-creation, always-on-interpretation, ambient-ai, ambient-finance, app-intents, apple-intelligence, artifact-library, chain-of-thought-routing, cloud-native-agents, code-generation, code-native-generation, consumer-ai, consumer-ai-sufficiency, context-management, contextual-ai, conversational-ai, conversational-interfaces, design-tools, device-ecosystem, device-interaction-paradigms, device-paradigm, diffusion-models, dynamic-ui, dynamic-ui-generation, editability, editability-primitives, embedded-finance, embedded-interpretation, financial-cognition-layer, financial-interpretation-layer, financial-orchestration, free-user-monetization, gpu-infrastructure, grounded-ai, headless-architecture, headless-systems, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, inference-location, interaction-paradigm, interaction-paradigm-shift, intuit-quickbooks-workforce, knowledge-worker-automation, knowledge-worker-displacement, mcp, mcp-integration, on-device-inference, operational-coordination, operational-coordination-layer, personal-context, personal-device-context, pixel-native-generation, plaid-openai-integration, plastic-ui, project-solara, query-commercial-value, quickbooks, return-on-invested-capital, router-architecture, server-side-inference, service-displacement, siri, siri-ai, siri-intelligence, smb-operating-system, smb-operations, state-of-art-vs-good-enough, structured-representations, structured-visual-output, superapp-strategy, svg-generation, thin-client, thin-client-ai, thin-client-architecture, thin-client-computing, unified-data-architecture, unified-data-model, visual-ai, voice-interaction, wearable-interaction, workflow-orchestration, workforce-management]
+tags: [ad-monetization, agent-architecture, agent-ecosystems, agent-paradigm, agent-portals, agentic-ai, agentic-computing, agentic-systems, ai-closed-loops, ai-native-applications, ai-native-business-models, ai-native-interfaces, ai-native-product-design, ai-native-startups, ai-value-creation, always-on-interpretation, ambient-ai, ambient-finance, app-intents, apple-intelligence, artifact-library, bitter-lesson, chain-of-thought-routing, cloud-native-agents, code-generation, code-native-generation, consumer-ai, consumer-ai-sufficiency, context-management, contextual-ai, conversational-ai, conversational-interfaces, design-tools, device-ecosystem, device-interaction-paradigms, device-paradigm, diffusion-models, dynamic-ui, dynamic-ui-generation, editability, editability-primitives, embedded-finance, embedded-interpretation, feedback-loops, financial-cognition-layer, financial-interpretation-layer, financial-orchestration, free-user-monetization, generalist-models, gpu-infrastructure, grounded-ai, headless-architecture, headless-systems, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, inference-location, interaction-paradigm, interaction-paradigm-shift, intuit-quickbooks-workforce, knowledge-worker-automation, knowledge-worker-displacement, mcp, mcp-integration, on-device-inference, operational-coordination, operational-coordination-layer, organizational-structure, personal-context, personal-device-context, pixel-native-generation, plaid-openai-integration, plastic-ui, process-reengineering, product-design, product-layer-ai, project-solara, query-commercial-value, quickbooks, retail-genai-traffic, return-on-invested-capital, router-architecture, server-side-inference, service-displacement, siri, siri-ai, siri-intelligence, smb-operating-system, smb-operations, specialist-models, state-of-art-vs-good-enough, structured-representations, structured-visual-output, superapp-strategy, svg-generation, thin-client, thin-client-ai, thin-client-architecture, thin-client-computing, unified-data-architecture, unified-data-model, visual-ai, voice-interaction, wearable-interaction, workflow-orchestration, workforce-management]
 ---
 
 # AI-Native Product Design
 
-Covers how software companies are redesigning products around AI capabilities.
+Covers architectural patterns, interface paradigms, and business models for applications built with AI as a core component rather than an add-on feature.
 
-## Interaction Paradigm Shift: Computing vs. Interacting
+## AI-Closed Loops & Product Layer Integration
 
-### Historical Computing-Interaction Coupling (Thompson, June 2026)
-**Core Observation**: Throughout tech history, computing has been indistinguishable from interacting. New input methods often set off paradigm shifts, which explains why wearables face adoption challenges—interacting with them "generally sucks" beyond a few seconds compared to swiping a phone.
+**Core principle**: Real AI value comes from integrating AI directly into the product layer, not from deploying AI tools at organizational edges. When AI performs work within the product itself, feedback loops close faster and tighter.
 
-**Agent Paradigm Breakthrough**: Agents decouple computing from interaction by computing on the user's behalf without continuous interaction. A few seconds of input can result in hours of autonomous work (in theory).
+### Product vs. Edge Deployment
 
-### State-of-Art vs. Good-Enough Threshold
-**Consumer Market Dynamics** (Thompson, June 2026): For consumer AI applications, state-of-the-art capability may not be necessary. If a system "works" and meets user needs, it can be "good enough" for the consumer market even while trailing technical leaders.
+- **Edge deployment**: AI tools given to human workers (e.g., Copilots) - useful for technology familiarization but limited value capture
+- **Product layer deployment**: AI performs knowledge work directly within product - enables fundamental process reengineering and closed-loop optimization
 
-**Example**: Apple's Siri AI (June 2024/2026) demonstrates context awareness and app integration through [[app-intents]] framework, but lacks autonomous agent capabilities like independent task execution. Despite being behind state-of-the-art, this may be sufficient for consumer use cases (recipes, DIY tips, image generation).
+Kim & Koning (2026): "Capturing real value from AI often requires re-engineering processes around it—and, as our results suggest, re-engineering the product itself so that AI does the work directly."
 
-## Personal Device Context Advantage
+This architectural choice drives organizational structure changes - see [[ai-org-design-headcount]] for startup headcount implications.
 
-### Grounded AI Through Device Knowledge (Thompson, June 2024/2026)
-AI systems with access to personal device data have unique advantages:
-- **Personal Context**: The device "knows more about you than any other device"
-- **Current Context**: Knows what user is looking at when AI is invoked
-- **Constrained Problem Space**: Personal device context grounds AI in specific, "safe" use cases
-- **Reduced Error Risk**: Domain constraints from real device data make AI less likely to fail
-- **Unique Addressability**: Only the device manufacturer can fully leverage this data
+### Design Imperative
 
-See: [[personal-context]], [[grounded-ai]]
+Building AI-native products requires:
+1. Identifying knowledge work currently done by humans at organizational edges
+2. Redesigning product architecture to internalize that work
+3. Restructuring processes and feedback mechanisms around AI capabilities
 
-## Portal Device Concept
+This is described as "the much harder task" compared to simply distributing AI tools to workers.
 
-See: [[project-solara]] in [[inference-efficiency]]
+## Consumer AI Adoption
+
+### Retail Impact (2026)
+
+GenAI drives approximately 2% of traffic to major retailers (Walmart, Target). Leading categories:
+- Home goods
+- Electronics
+
+Indicates early but measurable consumer adoption of AI for product discovery and shopping assistance.

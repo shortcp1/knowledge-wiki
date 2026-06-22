@@ -1,5 +1,5 @@
 ---
-tags: [agentic-harness, agentic-workflows, agents-last-exam, arc-agi, arc-prize, benchmark-design, benchmark-evaluation-methodology, benchmark-methodology, benchmark-replacement, biology-benchmarks, coding-agent-indices, coding-agents, composite-scoring, cybersecurity-benchmarks, data-retention-constraints, deepswe, economically-useful-tasks, evals-production-deployment, evaluation-transparency, expert-vetted-benchmarks, fallback-scoring, feature-implementation, feature-implementation-evals, human-written-tests, humanitys-last-exam, incident-diagnosis, intelligence-indices, long-horizon-agentic-tasks, model-benchmarking, model-evaluation, model-fallback-evaluation, model-routing, model-selection-strategy, multi-agent-orchestration, multi-language-evals, private-codebase-evals, program-replication, program-synthesis, program-synthesis-evals, prompt-filtering, proprietary-benchmarks, pure-vs-practical-evaluation, refusal-handling, safety-classifiers, safety-guardrails, science-benchmarks, swbench, swe-bench, system-diagnosis-evals, token-pricing, vals-ai, vision-models]
+tags: [agent-benchmarks, agentic-harness, agentic-workflows, agents-last-exam, arc-agi, arc-prize, benchmark-design, benchmark-evaluation-methodology, benchmark-methodology, benchmark-replacement, biology-benchmarks, capture-the-flag, coding-agent-indices, coding-agents, coding-evals, composite-scoring, ctf-evals, cybench, cybersecurity-agent-evaluation, cybersecurity-benchmarks, cybersecurity-evals, data-retention-constraints, deepswe, docker-sandboxing, economically-useful-tasks, evals-production-deployment, evaluation-transparency, expert-vetted-benchmarks, exploit-generation, fallback-scoring, feature-implementation, feature-implementation-evals, first-solve-time, human-written-tests, humanitys-last-exam, incident-diagnosis, intelligence-indices, long-horizon-agentic-tasks, model-benchmarking, model-evaluation, model-fallback-evaluation, model-routing, model-selection-strategy, multi-agent-orchestration, multi-language-evals, private-codebase-evals, program-replication, program-synthesis, program-synthesis-evals, prompt-filtering, proprietary-benchmarks, pure-vs-practical-evaluation, refusal-handling, safety-classifiers, safety-guardrails, sandbox-environments, sandboxed-environments, science-benchmarks, subtask-grading, swbench, swe-bench, system-diagnosis-evals, token-pricing, vals-ai, vision-models, vulnerability-discovery, vulnerability-exploitation, zero-day-attacks, zero-day-scenarios]
 ---
 
 ## Evolution Beyond SWE-bench
@@ -20,83 +20,65 @@ The SWE-bench family (SWE-bench, SWE-Bench Pro, SWE-bench Multilingual, and SWE-
 - Solutions require ~5.5x more lines of code than SWE-Bench Pro
 - Draws from private codebases to minimize [[benchmark-contamination]] risk
 - Uses human-written problems and tests based on real repositories but not taken from existing or solved code
-- Example task: "Extend indexing ranges so arrays and strings support a third slice component: value[start:end:step]" in the ABS programming language GitHub repository
+- Example task: "Extend indexing ranges so arrays a
 
-**Harness**: mini-swe-agent
+## Cybersecurity Evaluation Patterns
 
-**Adoption**: Artificial Analysis replaced SWE-Bench Pro with DeepSWE for its Intelligence and Coding Agent indices (as of June 2026)
+### Four Core Components of Cybersecurity Evals
 
-**Performance** (June 2026):
-- GPT-5.5 (xhigh reasoning): 70% solved
-- Claude Opus 4.8: 58% solved  
-- Gemini 3 Flash: 5% solved
-- 65 point spread across leading models indicates significant [[frontier-headroom-evals]] remain
+**Reference**: Eugene Yan (June 2026)
 
-## Evaluation Methodology Challenges with Safeguarded Models
+Cybersecurity benchmarks share a common architecture based on four primitives:
 
-### Claude Fable 5 Evaluation Case Study (June 2026)
+1. **Sandboxed Target**: Vulnerable systems run within Docker containers, ranging from single containers with vulnerable codebases to multi-host networks with services, databases, and hosts
 
-**Problem**: Independent evaluators encountered systematic challenges testing Claude Fable 5 due to Anthropic's [[model-safeguards]] architecture, which routes or refuses certain prompts before they reach the primary model.
+2. **Difficulty Inputs**: Task difficulty varies based on what information is provided:
+   - **Hardest (Zero-Day)**: Agent only receives vulnerable code, with no knowledge of vulnerability or patch
+   - **Moderate (One-Day)**: Includes vulnerability description and/or patch (attackers reverse-engineer patch to build exploit)
+   - **Easier**: Additional hints like crash traces or proof-of-concept (PoC) that triggers the vulnerability
 
-**Two Evaluation Paradigms Emerged**:
+3. **Tools**: Bash shell, read/write tools, websearch, debuggers, static analyzers, or auxiliary services for state tracking in long-horizon tasks
 
-1. **"Pure" Evaluation**: Measure only Claude Fable 5's capabilities without influence from fallback model (Claude Opus 4.8)
-   - Treats refusals as failures
-   - Separates fallback responses from primary model responses
-   - Shows true capability ceiling of primary model
+4. **Grader**: Deterministic evaluation system where agents submit work (exploits, captured flags) for immediate feedback
 
-2. **"Practical" Evaluation**: Measure deployed system including refusals and fallback responses
-   - Reflects real-world user experience
-   - Produces blended scores across multiple models
-   - More relevant for production deployment decisions
+### Evaluation Philosophy
 
-### Benchmark-Specific Responses
+**Outcome-Based Assessment**: Most cybersecurity benchmarks evaluate outcomes rather than methods used:
+- For C/C++ memory bugs: Success = triggering sanitizer crash
+- For unauthorized code execution: Success = retrieving hidden flag string only accessible via successful exploit
+- Automated transcript audits confirm actual exploitation vs. reward hacking
 
-**Artificial Analysis Intelligence Index**:
-- Composite of 10 tests of economically useful tasks
-- Evaluated Claude Fable 5 before launch
-- Recorded ~8% fallback rate to Claude Opus 4.8
-- Most fallbacks on science questions
-- Published blended scores including all fallback responses
-- Result: Claude Fable 5 scored 64.9 (first place), 3.5% higher than Claude Opus 4.8 alone
+**Challenge with Binary Grading**: Pass/fail grading is coarse—a model scoring zero might have found and reproduced the vulnerability but failed to build an exploit, versus one that never found the vulnerability at all.
 
-**Vals AI**:
-- Tests public and proprietary benchmarks of economically useful tasks
-- Published two score sets: one with fallbacks, one counting refusals as failures
-- Reported nearly 100% refusal rate on biology and cybersecurity questions
+### Progressive Subtask Grading
 
-**Agents' Last Exam** (also referenced as "Humanity's Last Exam"):
-- Tests long-horizon agentic tasks with verifiable outcomes
-- Claude Fable 5 refused ~35% of tasks
-- Model switched to Claude Opus 4.8 mid-task on science questions flagged as "cybersecurity or biology"
-- Switches recorded in separate log events, not in response text
-- Published results for both "untouched" tasks (only Claude Fable 5) and composite tasks (including Claude Opus 4.8 contributions)
-- Despite 9% refusal rate, Claude Fable 5 achieved competitive ranking
+To provide granular assessment, cybersecurity evals award partial credit via attack chain progression:
 
-**ARC Prize Foundation** (ARC-AGI abstract reasoning tests):
-- Declined to run verified evaluations
-- Reason: Would not expose private test set to Anthropic's 30-day data retention requirement
-- Stated would post results if testing possible without data retention
+- **Level 1**: Find the vulnerability in the codebase
+- **Level 2**: Reproduce the vulnerability with a PoC that triggers it
+- **Level 3**: Exploit the vulnerability via unauthorized code execution on the target
+- **Level 4**: Achieve attacker's goal (data exfiltration, privilege escalation, etc.)
 
-### Performance Pattern
+### Cybench: Capture The Flag Benchmark
 
-Claude Fable 5 ranking varied significantly by evaluation methodology:
-- **Highest**: On questions answered without fallback
-- **High**: When Claude Opus 4.8 fallback responses included (blended scoring)
-- **Significantly lower**: When refusals scored as failures or models measured separately
+**Source**: 40 professional-level CTF tasks from four competitions (HackTheBox, SekaiCTF, Glacier, HKCert)
 
-### Implications for Benchmark Design
+**Difficulty Metric**: First Solve Time (FST)—time for first human team to solve challenge. Range: 2 minutes to 25 hours.
 
-**New Considerations for Evaluators**:
-- Data retention policies may prevent testing on proprietary benchmarks
-- Transparency requirements: Evaluators must determine if model switches occurred
-- Logging architecture: Model fallbacks may not be visible in response text
-- Scoring methodology must be explicitly stated: pure vs. practical
+**Task Structure**:
+- **Description**: Objective statement (e.g., "capture the flag on otp:80")
+- **Starter Files**: 
+  - Local files (readable, writable, executable)
+  - Remote files (task servers in Docker containers)
+  - Examples: encrypted secrets requiring decryption, web servers vulnerable to SQL injection
+- **Evaluator**: Checks submission against actual secret key (1 for correct, 0 for incorrect); tracks efficiency metrics (token counts, wall-clock time)
 
-**Challenges for Model Comparison**:
-- Different evaluation approaches produce different rankings
-- "Real-world performance" may involve multiple models
-- Benchmark results may not reflect which model actually answered
-- Refusal rates vary dramatically by domain (near-zero on some tasks, near-100% on others)
+**Agent Harness**:
+- Operates within Docker container via act-execute-update loop
+- Agent runs bash command → observes output → updates memory
+- Memory contains: initial prompt + last three response-observation pairs
+- Iteration limits: 15 steps for unguided mode, 5 steps per subtask in guided mode
 
-See also: [[ai-governance-risk-compliance]] for policy implications, [[model-architecture]] for technical implementation
+**Note on Capture The Flag**: CTF exercises require participants to find secret "flag" strings hidden in deliberately vulnerable software. The only way to obtain the flag is to identify vulnerabilities and execute working exploits—proving the agent found the bug and exploited it.
+
+See also: [[ai-engineering-agents]] for related agent harness patterns, [[agentic-workflows-production]] for production deployment considerations

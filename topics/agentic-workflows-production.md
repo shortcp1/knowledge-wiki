@@ -1,5 +1,5 @@
 ---
-tags: [agent-audit-trail, agent-authorization, agent-clearinghouse, agent-context-serving, agent-evals, agent-execution-control, agent-governance, agent-governance-layer, agent-identity, agent-memory, agent-permissioning, agent-policy-enforcement, agent-telemetry, agent-traces, agent-trust-layer, agentic-commerce, agentic-orchestration, agentic-workflows, agentic-workflows-production, ai-agents-meetings, ai-platform-strategy, authorization-context, change-management-costs, clearinghouse-architecture, conversational-context, data-moats, dynamic-workflows, enterprise-moats, fraud-detection, go-to-market-strategy, liability-models, meeting-recording, multi-agent-coordination, orchestration-layer, payment-governance, strategic-real-estate, switching-costs, system-of-record, systems-of-record, transaction-authorization, unstructured-data, voice-based-systems, wedge-strategy, workflow-orchestration, workflow-switching-costs]
+tags: [agent-audit-trail, agent-authorization, agent-clearinghouse, agent-context-serving, agent-evals, agent-execution-control, agent-governance, agent-governance-layer, agent-identity, agent-memory, agent-permissioning, agent-policy-enforcement, agent-telemetry, agent-traces, agent-trust-layer, agentic-architecture, agentic-commerce, agentic-orchestration, agentic-workflows, agentic-workflows-production, ai-agents-meetings, ai-platform-strategy, always-on-agents, authorization-context, background-agents, change-management-costs, clearinghouse-architecture, coding-agents, context-window-management, conversational-context, data-moats, dynamic-workflows, enterprise-moats, fraud-detection, go-to-market-strategy, liability-models, meeting-recording, memory-hierarchy, modular-permissions, multi-agent-coordination, multi-agent-systems, orchestration-layer, payment-governance, permission-gates, strategic-real-estate, switching-costs, system-of-record, systems-of-record, tool-isolation, transaction-authorization, unstructured-data, voice-based-systems, wedge-strategy, workflow-orchestration, workflow-switching-costs]
 ---
 
 # Agentic Workflows in Production
@@ -19,85 +19,42 @@ The clearinghouse pattern controls:
 1. **Memory**: What agents know (access to historical context and data)
 2. **Context**: What agents see and how information is served to them
 3. **Execution**: What agents are authorized to do (action boundaries)
-4. **Governance**: Permission policies and complete audit trail of agent actions
+4.
 
-### Strategic Positioning
-**Why This Creates Moats**:
-- Migration difficulty exceeds traditional systems of record
-- Consolidat
+## Permission Gate Pattern (Claude Code, April 2026)
 
-## The Evolution from SaaS to Agentic Moats (Ball, June 2026)
+### Modular Tool Isolation Architecture
+**Implementation Example**: Claude Code's production architecture demonstrates practical permission gating:
 
-### Core Thesis Update
-**Business Problem**: Traditional understanding suggested SaaS moats came from owning the system of record (data gravity). The actual moat was the hundreds of workflows touching that system. For AI/agentic systems, the moat shifts from data layer to orchestration layer.
+**Tool-Level Permissions**:
+- Each tool (file readers, bash executors, web fetchers) has its own module
+- Permission gates separate tools from both language model and user's computer
+- Background processes manage memory independently
+- Gates prevent arbitrary code execution beyond defined resource boundaries
 
-**Pattern Applied**: Orchestration-Layer Moat Building
-- Dynamic workflows (vs static SaaS workflows)
-- Moat moves "up a layer" from where data sits to where work gets orchestrated
-- System of record equivalent: orchestration platform managing agent workflows
+**Design Benefits**:
+- Granular control over agent capabilities
+- Failure isolation (tool failures don't compromise entire system)
+- Security boundaries enforced at architectural level, not just prompt level
+- Each tool can have different authorization requirements
 
-### What Made SaaS Moats Work
-**The Real Switching Cost**: Not data portability, but workflow reconstruction
-- Porting data to new system of record was feasible
-- The impossible part: rebuilding/verifying/testing/securing ALL workflows
-- Many workflows were critical path or customer-facing
-- Change management cost > value of switching systems
+**Cross-reference**: See [[ai-engineering-agents]] for full Claude Code architecture details
 
-**Key Insight**: The platform with most workflows touching it had the moat (typically the system of record)
+## Always-On Agent Pattern (Kairos, In Development)
 
-### The Agentic Translation
-**Moat Location Shift**:
-- **SaaS Era**: Moat at data layer → workflows formed around system of record
-- **Agentic Era**: Moat at orchestration layer → workflows become dynamic
-- The "database" in agentic world = the workflows themselves
-- Winner = company owning where workflows get orchestrated
+**Concept**: Background agents that run continuously, even without active user sessions
 
-### Go-to-Market Strategy for Agentic Companies
-**Anti-Pattern**: Don't try to build orchestration layer from day 1
+**Use Case - Memory Maintenance** (Claude Code's Kairos system):
+- Merges duplicate memories
+- Eliminates contradictions
+- Resolves speculations
+- Prunes memory for actionability
+- Optimizes stored data continuously
 
-**Recommended Playbook** (mirrors SaaS system of record evolution):
-1. **Start Narrow**: Pick single workflow
-   - Choose something appearing commoditized but strategic
-   - Select workflow becoming more important (ride the right wave)
-   - Do it much better than anyone else
-   - Accept that others will assume no defensibility (advantage: underestimation)
+**Production Implications**:
+- Requires new governance for agents that act without human-in-loop
+- Background compute costs must be managed
+- Audit trails become critical when agent acts autonomously
+- Permission models must account for time-based triggers, not just request-based
 
-2. **Use as Strategic Real Estate**:
-   - Build adjacent workflows around initial wedge
-   - Expand gradually and go deeper
-
-3. **Build Orchestration Layer Last**:
-   - Slowly build orchestration around workflow portfolio
-   - Earn the right to "manage" (orchestrate) all workflows/agents
-   - "Startups aren't static" - initial focus isn't final state
-
-**Historical Parallel**: Salesforce wasn't touched by thousands of workflows on day 1. Started narrow/niche, owned single use case, got really good, then expanded until workflows built around them.
-
-### Strategic Framework
-**The Wedge Strategy**:
-- Initial workflow = strategic real estate
-- Important: where you start must be defensible territory you can build around
-- End state: orchestration platform managing agent ecosystem
-
-### Generalizability
-**Applies To**:
-- Any B2B function with multiple interconnected workflows
-- Enterprise software categories transitioning to agentic architectures
-- Vertical SaaS providers evolving to agent-based models
-- Horizontal platforms managing cross-functional agent coordination
-
-**Industry Applications**:
-- Financial services (transaction orchestration)
-- Supply chain (multi-party coordination)
-- Healthcare (care coordination workflows)
-- Legal (document and process workflows)
-- HR/recruiting (candidate journey orchestration)
-- Customer support (multi-channel agent coordination)
-
-### Key Metrics for Success
-While no quantitative outcomes cited in this analysis, success indicators would include:
-- Number of workflows touching orchestration platform
-- Percentage of critical-path workflows managed
-- Time/cost to migrate away (switching cost proxy)
-- Number of integrated agent vendors
-- Workflow execution volume and diversity
+**Status**: Kairos referenced in leaked Claude Code source (April 2026) but behind "false" compile flag, suggesting in-development feature

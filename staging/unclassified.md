@@ -805,3 +805,17 @@ A new topic emerging from export control actions:
 - This dynamic represents "the bear case for the labs" - question of whether they can ever cover costs
 
 **Economic Pressure on Safety Posture**: The need to monetize capabilities before commoditization creates structural tension with safety-first approaches that delay or restrict releases.
+
+---
+**🔮 Product eats the AI company; the bitter lesson prevails; Fable 5 as CEO, undersea diplomacy & jellyfish sleep++ #579** (Exponential View (Azeem Azhar), 2026-06-21T03:12:26+00:00)
+## The Bitter Lesson in Medical AI
+
+**Finding (2026)**: Generalist frontier models are outperforming specialist medical AI tools in head-to-head comparisons, including gold-standard tools like OpenEvidence (used by ~66% of US physicians).
+
+**Significance**: Medical AI experts report this was "not anticipated" - challenges assumption that domain-specific models would maintain superiority in specialized fields.
+
+**Theoretical framing**: Validates Richard Sutton's "Bitter Lesson" (2019): "The biggest lesson that can be read from 70 years of AI research is that general methods that leverage computation are ultimately the most effective, and by a large margin. We have to learn the bitter lesson that building in how we think we think does not work in the long run."
+
+**Implication**: Suggests specialist model development may be transitional phase, with generalist models eventually dominating even highly specialized domains through compute scaling rather than domain engineering.
+
+*Note: This finding relates to model architecture and specialization strategy - may warrant dedicated topic on generalist vs. specialist model performance trends.*

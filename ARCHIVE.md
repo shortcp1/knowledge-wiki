@@ -705,7 +705,64 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-22
+
+**✗ 5.0** — [Google Debuted Lyria 3 An App That Turns Text Or Images Into 30 Second Songs](https://www.deeplearning.ai/the-batch/google-debuted-lyria-3-an-app-that-turns-text-or-images-into-30-second-songs)  
+*The Batch (DeepLearning.AI)* · multimodal-models · regulatory-policy · ai-media-content-businesses
+#music_generation #latent_diffusion #synthid_watermarking #copyright_licensing
+> Google released Lyria 3, a latent diffusion model that generates 30-second songs from text or images, integrated into Gemini and YouTube with extensive copyright protections including licensed training data and output filtering. The model uses a three-phase training approach (pretraining, supervised fine-tuning, RLHF) and includes SynthID watermarking to identify synthetic media. This launch is significant as competing music generators like Suno and Udio face copyright litigation, positioning Google as one of few remaining providers generating music from scratch with licensed content.
+
+**✗ 5.7** — [Openai Announced It Would Shut Down Sora Its Once State Of The Art Video Model](https://www.deeplearning.ai/the-batch/openai-announced-it-would-shut-down-sora-its-once-state-of-the-art-video-model)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · ai-pricing-packaging-saas
+#video_generation #diffusion_models #inference_cost #unit_economics
+> OpenAI announced it will shut down Sora, its video generation model, by September 2024 due to unprofitability (losing ~$1M/day) and insufficient user adoption despite initial acclaim. The article reports that Sora's high computational costs for video generation, declining daily active users (from 1M to <500K), and lagging competitive position (19th on leaderboards) made the business unsustainable. This signals that video generation requires fundamentally different economics than text/image AI, and marks OpenAI's strategic retreat to focus resources on more profitable areas like coding tools and robotics.
+
+**✓ 8.0** — [Claude Codes Source Code Leaked Exposing Potential Future Features Kairos And Autodream](https://www.deeplearning.ai/the-batch/claude-codes-source-code-leaked-exposing-potential-future-features-kairos-and-autodream)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production · prompt-architecture
+#agentic_architecture #multi_agent_systems #context_window_management #memory_hierarchy
+> Anthropic accidentally leaked Claude Code's source code via an unobfuscated npm package, revealing its sophisticated architecture as a multi-agent system rather than a simple chatbot wrapper. The leak exposed technical details including 40+ tool modules with permission gates, hierarchical swarm-based subagents with shared memory, and a three-tiered memory system (MEMORY.MD index, Markdown files, JSON transcripts) that prevents context bloat while maintaining file state consistency. This reveals production-ready patterns for building reliable agentic coding systems including memory management, permission isolation, and multi-stage context compression strategies.
+
+**✓ 8.0** — [Cybersecurity Evals](https://eugeneyan.com/writing/cybersecurity-evals/)  
+*Eugene Yan* · evals-production-deployment · ai-engineering-agents · agentic-workflows-production
+#cybersecurity_evals #capture_the_flag #vulnerability_exploitation #agent_benchmarks
+> The article presents design patterns for building cybersecurity evaluation benchmarks that test whether AI agents can find and exploit security vulnerabilities, analyzing frameworks like Cybench that use CTF exercises with sandboxed environments, graded difficulty levels, and deterministic outcome-based grading. It describes four key primitives: sandboxed targets (Docker containers), inputs that vary task difficulty (zero-day vs one-day scenarios), tools (bash, debuggers, analyzers), and graders that evaluate outcomes from vulnerability detection through exploitation to data exfiltration. This work matters because it establishes standardized methods for measuring when AI agents become useful for security defense versus when they dangerously enable attackers, critical for AI safety governance.
+
 ## 2026-06-21
+
+**✗ 2.0** — [sqlite-utils 4.0rc1 adds migrations and nested transactions](https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything)  
+*Simon Willison* · 
+#sqlite #database_migrations #python_tooling #transaction_management
+> This article announces sqlite-utils 4.0rc1, a Python library and CLI tool for SQLite databases, adding two main features: a migration system ported from sqlite-migrate and support for nested transactions via db.atomic(). The migration system uses Python decorators to define sequential database changes without reverse migrations, while the atomic API borrows from Django/Peewee to make SQLite savepoints easier to use. This is a developer tooling update for database management rather than AI/ML infrastructure.
+
+**✗ 1.0** — [sqlite-utils 4.0rc1](https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything)  
+*Simon Willison* · 
+#sqlite #database_tools #python_library
+> This is a brief release announcement for sqlite-utils 4.0rc1, a Python CLI utility and library for manipulating SQLite databases. The article provides no substantive content beyond a title and a link reference to migrations and nested transactions features. It contains no analysis, technical details, or information relevant to AI/ML systems, enterprise applications, or any of the specified topic areas.
+
+**✗ 2.7** — [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment)  
+*OpenAI News* · build-vs-buy-enterprise-ai · ai-in-product-and-engineering
+#chatgpt_enterprise #codex #enterprise_adoption #samsung
+> Samsung Electronics has deployed ChatGPT Enterprise and Codex to its global workforce in what OpenAI describes as one of its largest enterprise rollouts. The article provides no details about implementation specifics, scale, use cases, or outcomes beyond announcing the deployment. This represents a major enterprise adoption signal but lacks substantive information about how Samsung is leveraging these tools or what impact they're having.
+
+**✗ 4.0** — [Temporary Cloudflare Accounts for AI agents](https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#cloudflare_workers #ephemeral_deployment #serverless #developer_tools
+> Cloudflare has released a feature allowing developers to deploy Workers projects to temporary, ephemeral environments that last 60 minutes without creating an account, marketed for AI agents but useful broadly. The author demonstrates using GPT-5.5 to build and deploy a test application using the new `npx wrangler deploy --temporary` command. The feature provides a claim screen to convert temporary deployments into permanent projects if desired.
+
+**✗ 1.0** — [[Exclusive] $250 off AI Engineer tix til Monday](https://www.latent.space/p/exclusive-250-off-ai-engineer-tix)  
+*Latent Space* · 
+#conference_discount #subscription_promotion
+> This is a promotional email offering a $250 discount on AI Engineer conference tickets to paying subscribers of Latent Space. The content is paywalled and only shows a brief teaser mentioning the discount was announced in AINews. This is purely promotional content with no substantive information about AI technology, use cases, or industry developments.
+
+**✗ 5.7** — [Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Teams)](https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering)  
+*Lenny's Newsletter* · ai-engineering-agents · ai-in-product-and-engineering · ai-org-design-headcount
+#claude_code #ai_native_engineering #engineering_productivity #ai_assisted_coding
+> Fiona Fung discusses leading Anthropic's Claude Code and Cowork engineering teams, which now ship 8x more code per quarter than in 2021-2025 due to AI tooling. She shares operational insights on using Claude 'routines' for management, specific team workflows, and her perspective on which engineering roles AI will transform next. The conversation provides a practitioner view of managing AI-native engineering teams but lacks deep technical details or novel frameworks.
+
+**✓ 7.3** — [🔮 Product eats the AI company; the bitter lesson prevails; Fable 5 as CEO, undersea diplomacy & jellyfish sleep++ #579](https://www.exponentialview.co/p/ev-579)  
+*Exponential View (Azeem Azhar)* · ai-org-design-headcount · ai-native-product-design · model-architecture
+#ai_native_startups #organizational_structure #product_design #bitter_lesson
+> The article argues that AI-native startups are structurally different (25% smaller, more engineers, fewer managers) and succeed by embedding AI directly into products rather than as peripheral tools, supported by Harvard/INSEAD research. It provides evidence that generalist frontier models are now outperforming specialized medical AI tools, validating Sutton's "bitter lesson" that general computational methods beat domain-specific engineering. This matters because it suggests companies must fundamentally redesign products and processes around AI-closed loops rather than simply augmenting existing workflows with copilots.
 
 **✗ 4.0** — [Issue 348](https://www.deeplearning.ai/the-batch/issue-348)  
 *The Batch (DeepLearning.AI)* · ai-engineering-agents · ai-in-product-and-engineering · ai-org-design-headcount
@@ -857,6 +914,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · 
 #datasette #access_control #permission_management #release_announcement
 > This is a brief release announcement for datasette-acl version 0.6a0, a plugin for advanced permission management in multi-user Datasette instances. The post credits Alex Garcia for most of the development work on finely grained access control features. It provides no technical details, implementation specifics, or analysis of the capabilities.
+
+**✗ 1.7** — [Coinbase introduces SEC-registered AI financial advisor - Crypto Briefing](https://news.google.com/rss/articles/CBMifEFVX3lxTE0tTW5pMzFpVkVscG4zc1NUZ1h1TGhaRm1PRWVETUZDdE5hd1VNT2I4Uk5tejRNNi10UHZHVEJDMW1RaHgzM0s4X1AxM1hkcFRreEQzRlpBT2JYa0tOSVd2NURtMjBIVkdPamVwUEs3N0I4clNmQmdLbjlrMF8?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#sec_registration #financial_advisor #cryptocurrency #regulatory_compliance
+> The article title suggests Coinbase has introduced an SEC-registered AI financial advisor. However, the article body contains only Google's cookie consent page with no actual content about the announcement. Without the actual article text, no assessment of the claims, evidence, or implications can be made.
 
 **✓ 7.3** — [The Professor of Outputmaxxing — Anjney Midha, AMP](https://www.latent.space/p/anj)  
 *Latent Space Podcast* · gpu-architecture-training-infra · build-vs-buy-enterprise-ai · semiconductor-supply-chain
