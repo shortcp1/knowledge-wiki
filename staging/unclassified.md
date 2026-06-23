@@ -819,3 +819,70 @@ A new topic emerging from export control actions:
 **Implication**: Suggests specialist model development may be transitional phase, with generalist models eventually dominating even highly specialized domains through compute scaling rather than domain engineering.
 
 *Note: This finding relates to model architecture and specialization strategy - may warrant dedicated topic on generalist vs. specialist model performance trends.*
+
+---
+**Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan** (Latent Space Podcast, 2026-06-22T21:06:55+00:00)
+## Gray Swan AI Company Profile
+
+**Founders**: Zico Kolter (CMU, OpenAI Board of Directors - Safety & Security Committee) and Matt Fredrikson (CMU Professor)
+
+**Location**: Pittsburgh, PA
+
+**Funding**: Series A completed as of June 2026 (Snowflake investor)
+
+**Academic Foundation**: Co-authored definitive paper on Indirect Prompt Injections
+
+**Product Suite**:
+1. **Shade**: Automated adversarial red-teaming tool
+2. **Cygnal**: AI guardrails product for policy enforcement
+3. **Gray Swan Arena**: Community red-teaming platform
+
+**Market Positioning**: AI security tooling for enterprise compliance and insurance stack
+
+## OpenClaw
+
+**Type**: Computer-use agent
+
+**Security Classification**: Described as "agent security nightmare" by security researchers
+
+**Risk Profile**: Exemplifies challenges of agents with system-level access
+
+**Related**: Part of broader computer-use agent category alongside Claude Computer Use
+
+---
+**Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI** (Import AI (Jack Clark), 2026-06-22T12:31:45+00:00)
+## AI Superpersuasion Research (June 2026)
+
+**Study**: University of Oxford, UK AI Security Institute, Stanford University, London School of Economics
+**Scale**: 18,978 conversations across 6,923 people in 4 experimental studies
+
+### Core Finding
+AI systems are now decisively more persuasive than expert humans in text-based persuasion scenarios with real-world consequences. "AI systems were reliably more persuasive than expert humans, even when expert humans chose their issues, researched in advance, underwent hours of live, structured practice, and were incentivized with £1,000 cash bonuses."
+
+### Experimental Design
+
+**Study 1 - Basic Persuasion**: Persuadees rated agreement with 10 UK policy stances (0-100 scale), then were randomized to text conversations with AI or human persuaders. AI exceeded all human categories: random laypeople, tournament-selected laypeople, and elite debaters.
+
+**Study 2 - Human Coaching**: 43 elite debaters received coaching using:
+- Chat access to the AI that beat them
+- Visibility into AI prompting
+- Annotated transcripts showing attitude shift per conversation turn  
+- Ability to see what AI would have said at any point
+
+Result: Coaching "narrowed but did not close the human-AI gap."
+
+**Study 3 - Constrained AI**: Researchers limited AI to human-length messages at human writing speeds. AI advantage collapsed from +4.1 pp to 0.0 pp (non-significant) vs. coached elite debaters. "The rate at which AI produces written content is likely to be the source of its persuasive edge." Persuadees rated constrained AI lower on argument strength and learning value.
+
+**Study 4 - Real Expertise, Real Money**: 19 professional canvassers from AppcoUK (who raised £824,297 from 22,583 donors for Save the Children, 2016-2023) competed against AI. After conversations, persuadees could donate any portion of a £1 bonus to Save the Children.
+- AI exceeded canvassers by +5.9 pp in general persuasion
+- AI exceeded canvassers by +10.8 pp in real-money donations ("nearly 3x more effective")
+- AI raised both donation rate and average donation size
+
+### Model Performance
+Strongest persuaders: Claude Opus 4.1 and Opus 4.6, followed by GPT-4o, GPT-5.4, Gemini 2.5 Pro, and Grok 4.20.
+
+### Mechanism of Advantage
+AI's persuasive edge stems from "rapidly deploying larger quantities of information." When forced to operate at human speed and length constraints, the advantage disappears. Persuadees specifically rated AI higher on informational dimensions: argument strength and learning value.
+
+### Societal Implications
+Researchers note: "If AI can out-persuade us, those who control AI can change society." [Note: Article text cuts off here]

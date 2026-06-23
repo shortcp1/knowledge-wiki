@@ -1,5 +1,5 @@
 ---
-tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-execution-limits, agent-governance, agent-governance-architecture, agent-identity, agent-identity-standards, agent-liability, agent-policy-enforcement, agentic-commerce, agentic-commerce-governance, agentic-orchestration, ai-governance-risk-compliance, authorization-context, autonomous-agent-governance, cio-governance-priorities, clearinghouse-architecture, common-crawl, content-classifiers, culturax, dual-use-content-classification, enterprise-moats, fraud-detection, frontier-model-forum, governance-as-competitive-advantage, governance-as-moat, intent-verification, language-specific-bias, liability-models, misuse-classifier, misuse-detection, multi-agent-governance, national-security, national-security-ai, nnsa, nuclear-safeguards, payment-governance, public-private-partnership, public-private-partnerships, responsible-ai, risk-signal-evolution, state-media-bias, switching-costs, systems-of-record, training-data-composition, transaction-authorization]
+tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-execution-limits, agent-governance, agent-governance-architecture, agent-identity, agent-identity-standards, agent-liability, agent-policy-enforcement, agent-vulnerabilities, agentic-commerce, agentic-commerce-governance, agentic-orchestration, agentic-vulnerabilities, ai-governance-risk-compliance, ai-guardrails, ai-insurance, ai-security, authorization-context, automated-adversarial-testing, automated-red-teaming, autonomous-agent-governance, cio-governance-priorities, clearinghouse-architecture, common-crawl, compliance-stack, content-classifiers, culturax, dual-use-content-classification, enterprise-moats, export-controls, fraud-detection, frontier-model-forum, governance-as-competitive-advantage, governance-as-moat, gray-swan-events, guardrails, intent-verification, language-specific-bias, liability-models, misuse-classifier, misuse-detection, multi-agent-governance, mythos-export-control, national-security, national-security-ai, nnsa, nuclear-safeguards, payment-governance, policy-enforcement, prompt-injection, public-private-partnership, public-private-partnerships, red-teaming, responsible-ai, risk-signal-evolution, state-media-bias, switching-costs, systems-of-record, training-data-composition, transaction-authorization]
 ---
 
 # AI Governance, Risk & Compliance
@@ -18,97 +18,57 @@ tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-
 - New: "Can I see what every agent did, set policy on what it can touch, and prove it afterward?" (governance-focused)
 - Assumption: All models are "good enough" - differentiation is control and visibility
 
-### Four Governance Dimensions for Autonomous Agents
+### Four Governance Dim
 
-1. **Memory Governance**
-   - What data/context agents are permitted to access
-   - Historical information boundaries
+## Mythos Export Controls (June 2026)
 
-2. **Context Governance**
-   - What information agents can see in real-time
-   - How data is served to agent systems
+**US Government Action**: Export control directive issued on Mythos and Fable models
+- Brings prompt injection and jailbreak risks into mainstream policy discussion
+- Gray Swan cited as authority on Mythos model card
+- Investigated exact capabilities under export control scrutiny
 
-3. **Execution Governance**
-   - Action authorization boundaries
-   - Spending limits and approval workflows
-   - Data modification permissions
+**Policy Impact**: Elevated AI security from technical concern to national security consideration
 
-4. **Audit Governance**
-   - Complete trace of agent actions
+## AI Insurance and Compliance Stack (Gray Swan, June 2026)
 
-## Nuclear Safeguards for AI: Public-Private Partnership Model (Anthropic & NNSA, August 2025)
+**Emerging Industry Structure**:
+- AI security becoming integrated into insurance and compliance frameworks
+- Gray Swan positioning guardrails and red-teaming as compliance infrastructure
+- Recognition that first major AI prompt-injection breach may be inevitable ("gray swan event")
 
-### Business Problem
-**Dual-Use Risk Management in Frontier AI**:
-- As AI models become more capable, they can provide dangerous technical knowledge
-- Nuclear weapons information is particularly sensitive for national security
-- Private companies lack domain expertise and authority to assess these risks alone
-- Need: Proactive monitoring and prevention of nuclear proliferation risks through model usage
+**Enterprise Requirements**:
+- Policy enforcement through guardrails (see [[Cygnal]])
+- Audit trails and proof of security measures
+- Red-teaming as compliance demonstration
 
-### AI Pattern Applied
-**Content Classification for Misuse Detection**:
-- AI-powered classifier automatically categorizes nuclear-related conversations
-- Distinguishes between concerning and benign nuclear discussions
-- Integrated into production traffic monitoring systems
-- Real-time deployment on Claude conversations
+**Insurance Implications**:
+- Security tooling as risk mitigation for underwriting
+- Compliance documentation through automated testing
+- Pre-breach posture assessment
 
-### Implementation Approach
-**Co-Development Partnership Model**:
-- Partners: Anthropic (private sector) + NNSA + DOE national laboratories
-- Timeline: Partnership initiated April 2024, classifier deployed August 2025
-- Collaborative development combining government domain expertise with industry AI capabilities
-- Knowledge sharing: Approach shared with Frontier Model Forum as blueprint for industry
+## Gray Swan Events in AI Security
 
-### Success Factors
-**What Made It Work**:
-1. **Complementary Strengths**: Government provided nuclear domain expertise; industry provided AI development capabilities
-2. **Shared Access to Sensitive Knowledge**: Government classification expertise enabled accurate training data creation
-3. **Production Integration**: Classifier deployed as part of broader misuse detection system (not standalone)
-4. **Industry Coordination**: Commitment to share approach with other frontier AI companies through FMF
-5. **Iterative Validation**: Testing on real Claude traffic to validate performance beyond lab conditions
+**Definition**: Events that everyone can see coming but may still occur
+- Contrasts with "black swan" (unexpected) events
+- Applied to AI: major prompt-injection breach is visible risk but potentially inevitable
 
-### Quantitative Outcomes
-- **96% accuracy** in preliminary testing for distinguishing concerning vs. benign nuclear conversations
-- Early deployment data confirms classifier performs well on real conversations (specific metrics not disclosed)
+**Characteristics**:
+- Unlikely but clearly visible before occurrence
+- Known vulnerability classes (prompt injection, agent exploitation)
+- Despite tooling and awareness, breaches may be unstoppable at scale
 
-### Industry & Business Function
-- **Industry**: Frontier AI model development
-- **Function**: Trust & Safety / Content Moderation / National Security Risk Management
-- **Cross-functional**: Product Safety, Government Relations, Research
+**Security Posture**: Industry in "staving off the inevitable" mode despite extensive tooling
 
-### Generalizability
-**Pattern Applications Across Dual-Use Domains**:
+## Agent-Native Security Challenges
 
-1. **Chemical/Biological Weapons**: 
-   - Partner with CDC, BARDA, or relevant agencies
-   - Classify dangerous synthesis instructions vs. legitimate research
-   - Applications: Pharma R&D platforms, scientific literature tools
+**New Vulnerability Class**:
+- Agents introduce fundamentally different security model from traditional software
+- "AI security is not just 'cybersecurity with AI'" (Kolter/Fredrikson)
+- Computer-use agents (e.g., OpenClaw) create "agent security nightmare"
 
-2. **Cybersecurity Exploits**:
-   - Partner with CISA, NSA
-   - Detect exploit development vs. legitimate security research
-   - Applications: Code generation tools, security forums
+**Enterprise Deployment Requirements**:
+- Agent-native identity systems (see [[agent-identity]])
+- Permission models designed for autonomous systems
+- Cannot rely on "just prompt it better" for security
 
-3. **Explosives & Terrorism**:
-   - Partner with DHS, FBI
-   - Identify bomb-making instructions vs. educational content
-   - Applications: General-purpose AI assistants, search engines
-
-4. **Export-Controlled Technology**:
-   - Partner with Commerce Dept (BIS)
-   - Flag discussions of ITAR/EAR-controlled information
-   - Applications: Engineering collaboration platforms, technical forums
-
-5. **Financial Crime**:
-   - Partner with FinCEN, Treasury
-   - Detect money laundering schemes vs. legitimate financial planning
-   - Applications: Banking chatbots, financial advisory AI
-
-**Transferable Governance Architecture**:
-- Public-private partnership model for sensitive domain expertise access
-- Classifier-based approach for large-scale monitoring
-- Integration into existing trust & safety infrastructure
-- Industry-wide knowledge sharing through neutral bodies (e.g., FMF)
-- Iterative deployment with real-world validation
-
-**Key Insight**: Where AI capabilities intersect with highly regulated or sensitive domains requiring specialized knowledge, the public-private partnership model enables companies to build effective safeguards they couldn't develop independently.
+**Related Architecture**: See [[agentic-workflows-production]] for clearinghouse pattern addressing these challenges

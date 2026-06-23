@@ -705,7 +705,114 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-23
+
+**✓ 8.3** — [Test Time Training End To End Ttt E2E Retrains Model Weights To Handle Long Inputs](https://www.deeplearning.ai/the-batch/test-time-training-end-to-end-ttt-e2e-retrains-model-weights-to-handle-long-inputs)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · gpu-architecture-training-infra
+#test_time_training #long_context #meta_learning #sliding_window_attention
+> TTT-E2E is a novel method that enables LLMs to handle long contexts by compressing context into model weights through inference-time training, rather than attending to the entire context window. The approach uses meta-learning with nested training loops: an inner loop simulates learning from chunks of context by updating weights in the last quarter of the network, while an outer loop optimizes the model's ability to learn from these updates. This maintains constant inference time and stable accuracy regardless of context length, solving the traditional transformer problem where processing time increases with each generated token.
+
+**✗ 4.3** — [U S Chatbot Use Passes 50 Percent](https://www.deeplearning.ai/the-batch/u-s-chatbot-use-passes-50-percent)  
+*The Batch (DeepLearning.AI)* · agentic-workflows-production · evals-production-deployment · ai-in-product-and-engineering
+#chatbot_adoption #aa_briefcase_benchmark #agentic_resource_discovery #knowledge_work_automation
+> The article reports that U.S. chatbot adoption has crossed 50% among adults (with ChatGPT at 44% and Gemini at 24%), alongside announcements of a new AA-Briefcase benchmark for measuring AI performance on knowledge work and the ARD specification for runtime tool discovery by AI agents. The evidence includes Pew Research survey data showing usage patterns (42% for search, 38% for work tasks) and benchmark results showing that runtime and turn count don't correlate strongly with task performance. This matters because it signals mainstream adoption of chatbots for work despite persistent trust concerns, while new technical infrastructure (ARD, AA-Briefcase) aims to enable more sophisticated agentic applications.
+
+**✗ 4.7** — [Building Voice Enabled Apps Is Easier Than You May Think](https://www.deeplearning.ai/the-batch/building-voice-enabled-apps-is-easier-than-you-may-think)  
+*The Batch (DeepLearning.AI)* · ai-native-product-design · ai-engineering-agents
+#voice_ui #latency_intelligence_tradeoff #multimodal_interaction #dual_agent_architecture
+> Andrew Ng argues that voice UIs will become pervasive in applications as latency and reliability improve, complementing rather than replacing keyboard/mouse interfaces. The key evidence is Vocal Bridge's dual-agent architecture that uses a foreground agent for low-latency conversation and a background agent for complex reasoning and tool-calling. This matters because it suggests voice interfaces will enable new application categories and make existing apps more accessible, though the article provides little technical detail or novel data.
+
+**✗ 4.3** — [Gates Foundation Partnership](https://www.anthropic.com/news/gates-foundation-partnership)  
+*Anthropic Blog* · ai-in-operations · ai-governance-risk-compliance
+#beneficial_deployments #global_health #vaccine_development #healthcare_intelligence
+> Anthropic announces a $200 million partnership with the Gates Foundation to deploy Claude AI in global health, life sciences, education, and economic mobility programs over four years. The partnership will focus on vaccine development acceleration, healthcare intelligence tools for low-income countries, disease modeling, and K-12 education applications. This represents Anthropic's push into beneficial AI deployments in areas where market forces alone are insufficient.
+
 ## 2026-06-22
+
+**✓ 8.0** — [Prompt Injection as Role Confusion](https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything)  
+*Simon Willison* · prompt-architecture · ai-governance-risk-compliance · evals-production-deployment
+#prompt_injection #role_confusion #jailbreaking #destyling
+> The article reports on research by Ye, Cui, and Hadfield-Menell showing that LLMs cannot reliably distinguish between privileged system instructions and untrusted user input, with models prioritizing text style over role tags like <system> and <user>. The research demonstrates that 'destyling' user input (making it look less like expected system formats) drops attack success rates from 61% to 10%, revealing that models suffer from 'role confusion' where they treat stylistically similar text as authoritative regardless of its source. This finding suggests prompt injection defenses will remain a perpetual arms race unless models achieve genuine role perception capabilities, with implications for security and safe deployment of LLM systems.
+
+**✓ 6.0** — [Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code](https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything)  
+*Simon Willison* · inference-efficiency · model-architecture · ai-engineering-agents
+#image_inpainting #webgpu #onnx_runtime #client_side_inference
+> The article describes porting a 0.2B parameter image inpainting model (Moebius) from PyTorch/CUDA to run in-browser using WebGPU, with assistance from Claude Code as a coding agent. The author used Claude for feasibility research suggesting ONNX Runtime Web, then set Claude Code loose to implement the port while working on a parallel Datasette project. This demonstrates practical AI-assisted development workflows and the viability of running small models client-side for inference efficiency.
+
+**✓ 7.3** — [Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan](https://www.latent.space/p/gray-swan)  
+*Latent Space Podcast* · ai-governance-risk-compliance · evals-production-deployment · agentic-workflows-production
+#prompt_injection #red_teaming #ai_security #guardrails
+> Experts Zico Kolter (OpenAI board member) and Matt Fredrikson (Gray Swan CEO) discuss the emerging field of AI red teaming and security, particularly around prompt injection attacks and agent vulnerabilities. They explain why AI security differs fundamentally from traditional cybersecurity, introduce their tools (Shade for automated red teaming, Cygnal for guardrails), and demonstrate how specialized AI systems now outperform humans at breaking models. The conversation reveals that major AI security breaches via prompt injection may be inevitable 'gray swan' events—foreseeable but not yet prevented—especially as agentic systems gain more capabilities.
+
+**✗ 3.0** — [Recognizing Excellence: The 2026 Tearsheet Bankchain Awards Winners](https://tearsheet.co/announcement/the-2026-tearsheet-bankchain-awards-winners/?utm_source=rss&utm_medium=rss&utm_campaign=the-2026-tearsheet-bankchain-awards-winners)  
+*Tearsheet (fintech)* · ai-in-finance-accounting
+#blockchain_banking #tokenization #digital_payments #stablecoins
+> This article announces the 2026 Tearsheet Bankchain Awards winners, recognizing companies advancing blockchain adoption in banking including Rain (infrastructure), Kinexys/JPM Coin (innovation), and UR Technology (tokenization). The article provides brief descriptions of each winner's contributions to digital assets, stablecoins, and blockchain-based financial infrastructure. It represents industry recognition rather than original analysis or substantive technical insight.
+
+**✓ 7.0** — [Three things to watch amid Anthropic’s latest feud with the government](https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/)  
+*MIT Technology Review* · regulatory-policy · lab-dynamics · ai-governance-risk-compliance
+#export_controls #anthropic #chinese_ai_models #cybersecurity_threat
+> The article analyzes the US government's rapid imposition of export controls on Anthropic's Fable coding model in June 2024, following Amazon CEO's national security concerns. It identifies three key ripple effects: European and global companies may shift to Chinese open-source models to avoid US regulatory uncertainty, the shutdown may paradoxically increase cybersecurity vulnerabilities by blocking defensive research access, and lawmakers will likely introduce new legislation defining AI governance boundaries. This incident represents the first major government intervention in AI development based on capability concerns rather than demonstrated harm, setting precedent for future regulatory actions.
+
+**✗ 4.7** — [Adopting AV1 for Real-Time Communication (RTC) at Scale](https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/)  
+*Meta AI / FB Engineering* · 
+#av1_codec #real_time_communication #video_compression #bitrate_reduction
+> Meta describes their multi-year deployment of the AV1 video codec for real-time communications in Messenger and WhatsApp, achieving at least 20% bitrate reduction compared to H.264/AVC while maintaining visual quality. The article covers technical challenges specific to RTC including rate control, error resilience, and maintaining sub-300ms latency constraints that prevent using multi-pass encoding techniques common in VOD applications. This matters for delivering better video quality on bandwidth-constrained networks, particularly in emerging markets where bitrates can drop to 10-100 kbps.
+
+**✓ 6.3** — [🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox](https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops)  
+*Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · prompt-architecture
+#agent_loops #goal_based_automation #subagent_spawning #loop_engineering
+> This tutorial explains how to build AI agent loops in Claude Code and Codex, covering different loop types (heartbeats, crons, webhooks, goals) and demonstrating practical implementations like PR review automation and self-spawning subagent systems. The key mechanism is treating loops as recurring prompts with clear job definitions and success criteria, where goal-based loops validate outcomes rather than running on timers, and agents can spawn their own subagents for complex tasks. This matters because it demystifies loop engineering as basic automation pointed at AI agents, making advanced agentic workflows accessible to practitioners while highlighting cost management and validation design as critical success factors.
+
+**✗ 5.3** — [GLM-5.2 is the step change for open agents](https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open)  
+*Interconnects (Nathan Lambert)* · model-architecture · agentic-workflows-production · ai-engineering-agents
+#glm_5.2 #open_weight_models #agent_capabilities #slime_rl_framework
+> The article argues that GLM-5.2 from Z.ai represents a significant capability threshold for open-weight AI models, particularly for agent capabilities, comparable to DeepSeek R1's impact. It cites community benchmark results showing GLM-5.2 competing with OpenAI and Anthropic's latest models on agent leaderboards, and notes the model's MIT license and use of the SLIME RL framework. The release matters because it demonstrates that open-weight models can now credibly compete with proprietary frontier models for agentic applications, potentially disrupting the competitive moat of companies like Anthropic.
+
+**✗ 1.7** — [Which AI platform should RIAs actually be using? A no-hype guide for 2026 - InvestmentNews](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYVVtbGVFamVuby1VYUxoVnlxOFRyNndma2RReVlGQ0NzV3Exd1phek9CelM4SjVGWkNnY0ZBSGJLR0VxaWRTb0NaUDNMaDhIbzhnaGxlcUljN3EyRFU3QnRzUDBEQnZUaENGUlQtU2wzaVBIMXlxWmExalRwUms5c2JaTGlOOXBGbV9tb3R6N0w3VXBmRXliUTNTb0M5Y01RZzBWZ2tyQWMwVnJndTIxQm5yTWdHS0hqTWR6UWNoWW0xV0k?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory
+#cookie_consent_page #no_content_available
+> Unable to evaluate article content as the provided text consists entirely of Google's cookie consent dialog and language selection options. No substantive content about AI platforms for RIAs (Registered Investment Advisors) was included in the submission. The article title suggests it would cover AI platform selection for wealth management professionals, but the actual article content was not accessible.
+
+**✓ 7.3** — [Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI](https://importai.substack.com/p/import-ai-462-superpersuasion-self)  
+*Import AI (Jack Clark)* · ai-in-sales-gtm · ai-in-marketing-content · evals-production-deployment
+#ai_persuasion #claude_opus #human_ai_comparison #conversational_ai
+> Researchers from Oxford, UK AI Security Institute, Stanford, and LSE conducted four experiments with 18,978 conversations showing AI systems (Claude Opus, GPT-4o, Gemini) are significantly more persuasive than expert humans at changing opinions and driving real-world actions like donations. AI's advantage stems from rapidly deploying larger quantities of information at faster speeds, though constraining AI to human-length messages at human writing speeds eliminates this edge. This demonstrates that current AI systems have achieved superhuman performance in consequential real-world persuasion tasks, with implications for marketing, sales, and potential misuse.
+
+**✗ 2.3** — [The Download: record-breaking subsea tunnels and flexible data centers](https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/)  
+*MIT Technology Review* · semiconductor-supply-chain
+#memory_chips #hynix #samsung #data_center_power
+> This is a newsletter digest covering multiple technology news items, including SK Hynix overtaking Samsung in valuation due to AI-driven memory chip demand, flexible data centers as a grid solution, and various other tech stories. The article provides brief summaries with external links but no original analysis or deep investigation into any single topic. It functions as a curated news aggregator rather than substantive content on any particular subject.
+
+**✓ 8.0** — [How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead](https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year)  
+*Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · evals-production-deployment
+#agentic_bug_finding #goal_loop_pattern #verifier_subagent #llm_judge_prioritization
+> Mozilla engineer Brian Grinstead describes the agentic pipeline that used Claude Mythos to find and fix 423 security bugs in Firefox in one month, including a 15-year-old bug, arguing the custom harness was as important as the model itself. The system uses a goal-loop pattern with LLM-based file prioritization, a verifier subagent to catch false positives, tight scoping, and clear pass/fail signals that let agents retry beyond human patience. This demonstrates how combining frontier models with well-designed tooling, existing CI infrastructure, and human-in-the-loop review can deliver production-scale results in complex codebases.
+
+**✗ 5.3** — [What Fifth Third’s invitation to Project Glasswing says about the bank’s role in the financial system](https://tearsheet.co/banking/what-fifth-thirds-invitation-to-project-glasswing-says-about-the-banks-role-in-the-financial-system/?utm_source=rss&utm_medium=rss&utm_campaign=what-fifth-thirds-invitation-to-project-glasswing-says-about-the-banks-role-in-the-financial-system)  
+*Tearsheet (fintech)* · ai-governance-risk-compliance · build-vs-buy-enterprise-ai
+#project_glasswing #claude_mythos #cybersecurity #vulnerability_detection
+> The article reports that Fifth Third Bank was invited to Anthropic's Project Glasswing, an invite-only program giving select partners early access to Claude Mythos Preview model for cybersecurity vulnerability detection. The evidence provided is that this invitation signals the bank's emerging role as critical financial infrastructure, with the program having already identified 10,000+ vulnerabilities in systemically important software. This matters because it suggests regional bank significance is being redefined by operational criticality rather than traditional metrics like assets or deposits.
+
+**✗ 3.0** — [Real Equity, Real Buy-In: A Practical Framework For Offering Equity Ownership](https://feeds.feedblitz.com/~/958278269/0/kitcesnerdseyeview~Real-Equity-Real-BuyIn-A-Practical-Framework-For-Offering-Equity-Ownership/)  
+*Kitces.com* · 
+#equity_compensation #employee_ownership #wealth_management #firm_succession
+> The article presents a framework for financial advisory firm founders to offer equity ownership to employees, arguing this creates better alignment and sense of ownership among staff. The author shares his specific approach including one-year eligibility thresholds, annual buy-in opportunities, revenue/profitability-based valuations, and liquidation requirements upon departure. This is a case study from wealth management focused on traditional equity compensation structures rather than AI-related business models or operations.
+
+**✗ 2.3** — [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet)  
+*OpenAI News* · 
+#open_source #vulnerability_detection #security #daybreak_initiative
+> OpenAI announces Patch the Planet, an initiative under their Daybreak program to help open-source maintainers identify and fix security vulnerabilities using AI tools and expert review. The article provides only a high-level announcement without technical details about the AI mechanisms, implementation approach, or specific vulnerability detection methods. This represents a corporate social responsibility initiative rather than a substantive technical or strategic development in AI deployment.
+
+**✗ 3.0** — [Daybreak: Tools for securing every organization in the world](https://openai.com/index/daybreak-securing-the-world)  
+*OpenAI News* · ai-in-legal-compliance · ai-governance-risk-compliance
+#cybersecurity #vulnerability_detection #codex_security #gpt_5_5_cyber
+> OpenAI announces Daybreak, a suite of cybersecurity tools including Codex Security and GPT-5.5-Cyber designed to help organizations identify, validate, and remediate security vulnerabilities at scale. The article provides minimal technical detail about how these tools work or their underlying mechanisms. This appears to be a product announcement rather than substantive analysis of cybersecurity applications or their efficacy.
+
+**✗ 1.7** — [Inside the world’s deepest and longest subsea road tunnel](https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/)  
+*MIT Technology Review* · 
+#civil_engineering #infrastructure #tunnel_construction #norway
+> The article profiles Norway's Rogfast project, which will become the world's longest and deepest subsea road tunnel at 26.7 kilometers and 390 meters below sea level. It describes the drill-and-blast construction method, the extreme working conditions 300 meters underwater, and the logistics of building from both ends simultaneously. The piece is a human-interest feature about ambitious civil engineering, but has no connection to AI, semiconductors, or any technology topics relevant to an AI knowledge base.
 
 **✗ 5.0** — [Google Debuted Lyria 3 An App That Turns Text Or Images Into 30 Second Songs](https://www.deeplearning.ai/the-batch/google-debuted-lyria-3-an-app-that-turns-text-or-images-into-30-second-songs)  
 *The Batch (DeepLearning.AI)* · multimodal-models · regulatory-policy · ai-media-content-businesses
@@ -726,6 +833,16 @@ All articles scanned since the wiki started. Updated nightly.
 *Eugene Yan* · evals-production-deployment · ai-engineering-agents · agentic-workflows-production
 #cybersecurity_evals #capture_the_flag #vulnerability_exploitation #agent_benchmarks
 > The article presents design patterns for building cybersecurity evaluation benchmarks that test whether AI agents can find and exploit security vulnerabilities, analyzing frameworks like Cybench that use CTF exercises with sandboxed environments, graded difficulty levels, and deterministic outcome-based grading. It describes four key primitives: sandboxed targets (Docker containers), inputs that vary task difficulty (zero-day vs one-day scenarios), tools (bash, debuggers, analyzers), and graders that evaluate outcomes from vulnerability detection through exploitation to data exfiltration. This work matters because it establishes standardized methods for measuring when AI agents become useful for security defense versus when they dangerously enable attackers, critical for AI safety governance.
+
+**✗ 2.3** — [Codex-maxxing for long-running work](https://openai.com/index/codex-maxxing-long-running-work)  
+*OpenAI News* · prompt-architecture
+#codex #context_preservation #code_generation #long_context
+> The article describes how Jason Liu uses Codex (an early OpenAI code model) to maintain context across long-running projects. It appears to focus on practical techniques for preserving context beyond single prompts when working with code generation models. The piece is extremely sparse and reads as a brief announcement or blog post teaser rather than substantive content.
+
+**✓ 8.3** — [So You Want to Sell Inference](https://www.tomtunguz.com/so-you-want-to-sell-inference/)  
+*Tomasz Tunguz* · inference-efficiency · ai-pricing-packaging-saas · build-vs-buy-enterprise-ai
+#inference_pricing #value_based_pricing #model_distillation #bring_your_own_key
+> The article argues that reselling AI inference at cost creates zero-margin businesses, and companies must choose between cost-plus pricing (capped by raw API costs) or value-based pricing (charging for outcomes like resolved tickets). The key mechanism is distillation to proprietary small models as a defensible cost optimization strategy, while BYOK (bring-your-own-key) arrangements break cost-plus models but preserve value-based and optimization approaches. This matters because it defines the difference between building a low-margin payment processor versus a high-margin software company in the AI era.
 
 ## 2026-06-21
 
@@ -964,6 +1081,11 @@ All articles scanned since the wiki started. Updated nightly.
 *OpenAI News* · 
 #reasoning_models #medical_diagnosis #rare_disease #healthcare_ai
 > Researchers applied an OpenAI reasoning model to diagnose rare genetic diseases in children, successfully identifying 18 new diagnoses in cases that had previously gone unsolved. The article reports this outcome but provides minimal detail on the methodology, model architecture, clinical validation process, or integration approach. While demonstrating a medical application of AI, it lacks depth on implementation details and doesn't map to the specified enterprise AI or technical infrastructure topics.
+
+**✗ 1.7** — [Artificial Intelligence (AI) in Wealth Management - SmartAsset.com](https://news.google.com/rss/articles/CBMikgFBVV95cUxPemhhenh1Tm9MZU1UOF9tWFF1WGFyR19LUTBXNUFfTXlBcGtrZTdKVnpOcDhrb3RGVkVNdkxSNC13bjlwSjVfQnhhVDRPTDRwU01uYnZwVEtZOFhlVGttbFNtQVR2U2tlUkdUV1Nta2tHN05qT1FaT3BXQmdEbElLdW1nd0ljRnpsdFpQLTgwaVNwUQ?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#cookie_consent #privacy_policy #no_content
+> This article appears to be a Google consent/cookie page rather than substantive content about AI in wealth management. No actual analysis, claims, or information about AI applications in wealth management is present in the provided text. The content consists entirely of standard Google privacy policy and cookie consent language.
 
 **✗ 4.3** — [[AINews] Midjourney Medical: scan your organs like you step on a scale](https://www.latent.space/p/ainews-midjourney-medical-scan-your)  
 *Latent Space* · 

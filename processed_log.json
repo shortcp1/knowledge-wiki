@@ -21053,6 +21053,577 @@
       ],
       "status": "skipped",
       "skip_reason": "Article contains no substantive content - only a Google cookie consent page was captured instead of the actual article text."
+    },
+    "https://www.deeplearning.ai/the-batch/test-time-training-end-to-end-ttt-e2e-retrains-model-weights-to-handle-long-inputs": {
+      "title": "Test Time Training End To End Ttt E2E Retrains Model Weights To Handle Long Inputs",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-23T02:00:52.839238+00:00",
+      "composite": 8.33,
+      "depth": 8,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "technical",
+      "summary": "TTT-E2E is a novel method that enables LLMs to handle long contexts by compressing context into model weights through inference-time training, rather than attending to the entire context window. The approach uses meta-learning with nested training loops: an inner loop simulates learning from chunks of context by updating weights in the last quarter of the network, while an outer loop optimizes the model's ability to learn from these updates. This maintains constant inference time and stable accuracy regardless of context length, solving the traditional transformer problem where processing time increases with each generated token.",
+      "tags": [
+        "test-time-training",
+        "long-context",
+        "meta-learning",
+        "sliding-window-attention",
+        "inference-optimization",
+        "weight-update"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/u-s-chatbot-use-passes-50-percent": {
+      "title": "U S Chatbot Use Passes 50 Percent",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-23T02:00:52.772923+00:00",
+      "composite": 4.3,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "evals-production-deployment",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports that U.S. chatbot adoption has crossed 50% among adults (with ChatGPT at 44% and Gemini at 24%), alongside announcements of a new AA-Briefcase benchmark for measuring AI performance on knowledge work and the ARD specification for runtime tool discovery by AI agents. The evidence includes Pew Research survey data showing usage patterns (42% for search, 38% for work tasks) and benchmark results showing that runtime and turn count don't correlate strongly with task performance. This matters because it signals mainstream adoption of chatbots for work despite persistent trust concerns, while new technical infrastructure (ARD, AA-Briefcase) aims to enable more sophisticated agentic applications.",
+      "tags": [
+        "chatbot-adoption",
+        "aa-briefcase-benchmark",
+        "agentic-resource-discovery",
+        "knowledge-work-automation",
+        "tool-discovery",
+        "chatgpt-usage"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news summary without original analysis or deep technical insights; primarily aggregates multiple announcements without substantive investigation into mechanisms or implications"
+    },
+    "https://www.deeplearning.ai/the-batch/building-voice-enabled-apps-is-easier-than-you-may-think": {
+      "title": "Building Voice Enabled Apps Is Easier Than You May Think",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-23T02:00:52.609214+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-native-product-design",
+        "ai-engineering-agents"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Andrew Ng argues that voice UIs will become pervasive in applications as latency and reliability improve, complementing rather than replacing keyboard/mouse interfaces. The key evidence is Vocal Bridge's dual-agent architecture that uses a foreground agent for low-latency conversation and a background agent for complex reasoning and tool-calling. This matters because it suggests voice interfaces will enable new application categories and make existing apps more accessible, though the article provides little technical detail or novel data.",
+      "tags": [
+        "voice-ui",
+        "latency-intelligence-tradeoff",
+        "multimodal-interaction",
+        "dual-agent-architecture",
+        "developer-tools"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level opinion piece with promotional content, minimal technical depth, and no novel frameworks or data beyond describing one company's approach at high level."
+    },
+    "https://www.anthropic.com/news/gates-foundation-partnership": {
+      "title": "Gates Foundation Partnership",
+      "source": "Anthropic Blog",
+      "date": "2026-06-23T02:00:48.061802+00:00",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-operations",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Anthropic announces a $200 million partnership with the Gates Foundation to deploy Claude AI in global health, life sciences, education, and economic mobility programs over four years. The partnership will focus on vaccine development acceleration, healthcare intelligence tools for low-income countries, disease modeling, and K-12 education applications. This represents Anthropic's push into beneficial AI deployments in areas where market forces alone are insufficient.",
+      "tags": [
+        "beneficial-deployments",
+        "global-health",
+        "vaccine-development",
+        "healthcare-intelligence",
+        "nonprofit-partnerships"
+      ],
+      "status": "skipped",
+      "skip_reason": "Press release announcing a partnership with limited technical depth or novel insights into AI capabilities, deployment strategies, or measurable outcomes; primarily describes intended use cases rather than substantive findings or frameworks."
+    },
+    "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything": {
+      "title": "Prompt Injection as Role Confusion",
+      "source": "Simon Willison",
+      "date": "2026-06-22T23:59:53+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "prompt-architecture",
+        "ai-governance-risk-compliance",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "summary": "The article reports on research by Ye, Cui, and Hadfield-Menell showing that LLMs cannot reliably distinguish between privileged system instructions and untrusted user input, with models prioritizing text style over role tags like <system> and <user>. The research demonstrates that 'destyling' user input (making it look less like expected system formats) drops attack success rates from 61% to 10%, revealing that models suffer from 'role confusion' where they treat stylistically similar text as authoritative regardless of its source. This finding suggests prompt injection defenses will remain a perpetual arms race unless models achieve genuine role perception capabilities, with implications for security and safe deployment of LLM systems.",
+      "tags": [
+        "prompt-injection",
+        "role-confusion",
+        "jailbreaking",
+        "destyling",
+        "security-vulnerabilities",
+        "role-tags"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything": {
+      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "source": "Simon Willison",
+      "date": "2026-06-22T23:43:51+00:00",
+      "composite": 6.0,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "inference-efficiency",
+        "model-architecture",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "The article describes porting a 0.2B parameter image inpainting model (Moebius) from PyTorch/CUDA to run in-browser using WebGPU, with assistance from Claude Code as a coding agent. The author used Claude for feasibility research suggesting ONNX Runtime Web, then set Claude Code loose to implement the port while working on a parallel Datasette project. This demonstrates practical AI-assisted development workflows and the viability of running small models client-side for inference efficiency.",
+      "tags": [
+        "image-inpainting",
+        "webgpu",
+        "onnx-runtime",
+        "client-side-inference",
+        "coding-agents",
+        "model-porting"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/gray-swan": {
+      "title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
+      "source": "Latent Space Podcast",
+      "date": "2026-06-22T21:06:55+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "evals-production-deployment",
+        "agentic-workflows-production",
+        "prompt-architecture",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "Experts Zico Kolter (OpenAI board member) and Matt Fredrikson (Gray Swan CEO) discuss the emerging field of AI red teaming and security, particularly around prompt injection attacks and agent vulnerabilities. They explain why AI security differs fundamentally from traditional cybersecurity, introduce their tools (Shade for automated red teaming, Cygnal for guardrails), and demonstrate how specialized AI systems now outperform humans at breaking models. The conversation reveals that major AI security breaches via prompt injection may be inevitable 'gray swan' events\u2014foreseeable but not yet prevented\u2014especially as agentic systems gain more capabilities.",
+      "tags": [
+        "prompt-injection",
+        "red-teaming",
+        "ai-security",
+        "guardrails",
+        "agent-vulnerabilities",
+        "automated-red-teaming"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/": {
+      "title": "Three things to watch amid Anthropic\u2019s latest feud with the government",
+      "source": "MIT Technology Review",
+      "date": "2026-06-22T18:00:00+00:00",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article analyzes the US government's rapid imposition of export controls on Anthropic's Fable coding model in June 2024, following Amazon CEO's national security concerns. It identifies three key ripple effects: European and global companies may shift to Chinese open-source models to avoid US regulatory uncertainty, the shutdown may paradoxically increase cybersecurity vulnerabilities by blocking defensive research access, and lawmakers will likely introduce new legislation defining AI governance boundaries. This incident represents the first major government intervention in AI development based on capability concerns rather than demonstrated harm, setting precedent for future regulatory actions.",
+      "tags": [
+        "export-controls",
+        "anthropic",
+        "chinese-ai-models",
+        "cybersecurity-threat",
+        "open-source-models",
+        "zhipu"
+      ],
+      "status": "integrated"
+    },
+    "https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta/": {
+      "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
+      "source": "Meta AI / FB Engineering",
+      "date": "2026-06-22T16:00:08+00:00",
+      "composite": 4.67,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Meta describes their multi-year deployment of the AV1 video codec for real-time communications in Messenger and WhatsApp, achieving at least 20% bitrate reduction compared to H.264/AVC while maintaining visual quality. The article covers technical challenges specific to RTC including rate control, error resilience, and maintaining sub-300ms latency constraints that prevent using multi-pass encoding techniques common in VOD applications. This matters for delivering better video quality on bandwidth-constrained networks, particularly in emerging markets where bitrates can drop to 10-100 kbps.",
+      "tags": [
+        "av1-codec",
+        "real-time-communication",
+        "video-compression",
+        "bitrate-reduction",
+        "network-constraints",
+        "rate-control"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on video codec engineering for consumer communication apps rather than AI/ML systems, semiconductor supply chains, or enterprise AI applications covered in the specified topic areas."
+    },
+    "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open": {
+      "title": "GLM-5.2 is the step change for open agents",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "2026-06-22T14:52:45+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "agentic-workflows-production",
+        "ai-engineering-agents",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that GLM-5.2 from Z.ai represents a significant capability threshold for open-weight AI models, particularly for agent capabilities, comparable to DeepSeek R1's impact. It cites community benchmark results showing GLM-5.2 competing with OpenAI and Anthropic's latest models on agent leaderboards, and notes the model's MIT license and use of the SLIME RL framework. The release matters because it demonstrates that open-weight models can now credibly compete with proprietary frontier models for agentic applications, potentially disrupting the competitive moat of companies like Anthropic.",
+      "tags": [
+        "glm-5.2",
+        "open-weight-models",
+        "agent-capabilities",
+        "slime-rl-framework",
+        "chinese-ai-labs",
+        "model-benchmarking"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is surface-level commentary on a model release with limited technical depth or original analysis; relies primarily on benchmark results and community reactions rather than novel insights or frameworks"
+    },
+    "https://importai.substack.com/p/import-ai-462-superpersuasion-self": {
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "source": "Import AI (Jack Clark)",
+      "date": "2026-06-22T12:31:45+00:00",
+      "composite": 7.33,
+      "depth": 8,
+      "novelty": 8,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-sales-gtm",
+        "ai-in-marketing-content",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "summary": "Researchers from Oxford, UK AI Security Institute, Stanford, and LSE conducted four experiments with 18,978 conversations showing AI systems (Claude Opus, GPT-4o, Gemini) are significantly more persuasive than expert humans at changing opinions and driving real-world actions like donations. AI's advantage stems from rapidly deploying larger quantities of information at faster speeds, though constraining AI to human-length messages at human writing speeds eliminates this edge. This demonstrates that current AI systems have achieved superhuman performance in consequential real-world persuasion tasks, with implications for marketing, sales, and potential misuse.",
+      "tags": [
+        "ai-persuasion",
+        "claude-opus",
+        "human-ai-comparison",
+        "conversational-ai",
+        "behavioral-influence",
+        "ai-capabilities"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/": {
+      "title": "The Download: record-breaking subsea tunnels and flexible data centers",
+      "source": "MIT Technology Review",
+      "date": "2026-06-22T12:10:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "semiconductor-supply-chain"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest covering multiple technology news items, including SK Hynix overtaking Samsung in valuation due to AI-driven memory chip demand, flexible data centers as a grid solution, and various other tech stories. The article provides brief summaries with external links but no original analysis or deep investigation into any single topic. It functions as a curated news aggregator rather than substantive content on any particular subject.",
+      "tags": [
+        "memory-chips",
+        "hynix",
+        "samsung",
+        "data-center-power",
+        "grid-flexibility"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest format with only surface-level summaries and external link aggregation; no original analysis, research, or actionable insights on any single topic."
+    },
+    "https://openai.com/index/patch-the-planet": {
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "source": "OpenAI News",
+      "date": "2026-06-22T10:00:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "OpenAI announces Patch the Planet, an initiative under their Daybreak program to help open-source maintainers identify and fix security vulnerabilities using AI tools and expert review. The article provides only a high-level announcement without technical details about the AI mechanisms, implementation approach, or specific vulnerability detection methods. This represents a corporate social responsibility initiative rather than a substantive technical or strategic development in AI deployment.",
+      "tags": [
+        "open-source",
+        "vulnerability-detection",
+        "security",
+        "daybreak-initiative"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with no technical depth, novel insights, or clear mapping to specified AI enterprise/technical topic areas; lacks substance on AI methodology or business impact."
+    },
+    "https://openai.com/index/daybreak-securing-the-world": {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "source": "OpenAI News",
+      "date": "2026-06-22T10:00:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-legal-compliance",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI announces Daybreak, a suite of cybersecurity tools including Codex Security and GPT-5.5-Cyber designed to help organizations identify, validate, and remediate security vulnerabilities at scale. The article provides minimal technical detail about how these tools work or their underlying mechanisms. This appears to be a product announcement rather than substantive analysis of cybersecurity applications or their efficacy.",
+      "tags": [
+        "cybersecurity",
+        "vulnerability-detection",
+        "codex-security",
+        "gpt-5-5-cyber",
+        "security-tooling"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement lacking technical depth, implementation details, or substantive analysis of the tools' capabilities and differentiation."
+    },
+    "https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/": {
+      "title": "Inside the world\u2019s deepest and longest subsea road tunnel",
+      "source": "MIT Technology Review",
+      "date": "2026-06-22T08:00:00+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article profiles Norway's Rogfast project, which will become the world's longest and deepest subsea road tunnel at 26.7 kilometers and 390 meters below sea level. It describes the drill-and-blast construction method, the extreme working conditions 300 meters underwater, and the logistics of building from both ends simultaneously. The piece is a human-interest feature about ambitious civil engineering, but has no connection to AI, semiconductors, or any technology topics relevant to an AI knowledge base.",
+      "tags": [
+        "civil-engineering",
+        "infrastructure",
+        "tunnel-construction",
+        "norway"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on civil engineering and subsea tunnel construction with no relevance to AI, semiconductors, ML infrastructure, or enterprise AI topics."
+    },
+    "https://openai.com/index/codex-maxxing-long-running-work": {
+      "title": "Codex-maxxing for long-running work",
+      "source": "OpenAI News",
+      "date": "2026-06-22T00:00:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "prompt-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "The article describes how Jason Liu uses Codex (an early OpenAI code model) to maintain context across long-running projects. It appears to focus on practical techniques for preserving context beyond single prompts when working with code generation models. The piece is extremely sparse and reads as a brief announcement or blog post teaser rather than substantive content.",
+      "tags": [
+        "codex",
+        "context-preservation",
+        "code-generation",
+        "long-context"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only a single sentence description with no actual content, analysis, evidence, or detailed methodology to evaluate\u2014appears to be a title and teaser only."
+    },
+    "https://tearsheet.co/announcement/the-2026-tearsheet-bankchain-awards-winners/?utm_source=rss&utm_medium=rss&utm_campaign=the-2026-tearsheet-bankchain-awards-winners": {
+      "title": "Recognizing Excellence: The 2026 Tearsheet Bankchain Awards Winners",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-22T18:30:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "landscape",
+      "summary": "This article announces the 2026 Tearsheet Bankchain Awards winners, recognizing companies advancing blockchain adoption in banking including Rain (infrastructure), Kinexys/JPM Coin (innovation), and UR Technology (tokenization). The article provides brief descriptions of each winner's contributions to digital assets, stablecoins, and blockchain-based financial infrastructure. It represents industry recognition rather than original analysis or substantive technical insight.",
+      "tags": [
+        "blockchain-banking",
+        "tokenization",
+        "digital-payments",
+        "stablecoins",
+        "financial-infrastructure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level awards announcement with minimal analytical depth, limited novelty (standard fintech press coverage), and marginal relevance to AI-focused topic areas."
+    },
+    "https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops": {
+      "title": "\ud83c\udf99\ufe0f How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-22T15:02:37+00:00",
+      "composite": 6.33,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "prompt-architecture",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "This tutorial explains how to build AI agent loops in Claude Code and Codex, covering different loop types (heartbeats, crons, webhooks, goals) and demonstrating practical implementations like PR review automation and self-spawning subagent systems. The key mechanism is treating loops as recurring prompts with clear job definitions and success criteria, where goal-based loops validate outcomes rather than running on timers, and agents can spawn their own subagents for complex tasks. This matters because it demystifies loop engineering as basic automation pointed at AI agents, making advanced agentic workflows accessible to practitioners while highlighting cost management and validation design as critical success factors.",
+      "tags": [
+        "agent-loops",
+        "goal-based-automation",
+        "subagent-spawning",
+        "loop-engineering",
+        "claude-code",
+        "codex"
+      ],
+      "status": "integrated"
+    },
+    "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year": {
+      "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-22T12:03:06+00:00",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "evals-production-deployment"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Mozilla engineer Brian Grinstead describes the agentic pipeline that used Claude Mythos to find and fix 423 security bugs in Firefox in one month, including a 15-year-old bug, arguing the custom harness was as important as the model itself. The system uses a goal-loop pattern with LLM-based file prioritization, a verifier subagent to catch false positives, tight scoping, and clear pass/fail signals that let agents retry beyond human patience. This demonstrates how combining frontier models with well-designed tooling, existing CI infrastructure, and human-in-the-loop review can deliver production-scale results in complex codebases.",
+      "tags": [
+        "agentic-bug-finding",
+        "goal-loop-pattern",
+        "verifier-subagent",
+        "llm-judge-prioritization",
+        "production-deployment",
+        "human-in-the-loop"
+      ],
+      "status": "integrated"
+    },
+    "https://tearsheet.co/banking/what-fifth-thirds-invitation-to-project-glasswing-says-about-the-banks-role-in-the-financial-system/?utm_source=rss&utm_medium=rss&utm_campaign=what-fifth-thirds-invitation-to-project-glasswing-says-about-the-banks-role-in-the-financial-system": {
+      "title": "What Fifth Third\u2019s invitation to Project Glasswing says about the bank\u2019s role in the financial system",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-22T11:30:00+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports that Fifth Third Bank was invited to Anthropic's Project Glasswing, an invite-only program giving select partners early access to Claude Mythos Preview model for cybersecurity vulnerability detection. The evidence provided is that this invitation signals the bank's emerging role as critical financial infrastructure, with the program having already identified 10,000+ vulnerabilities in systemically important software. This matters because it suggests regional bank significance is being redefined by operational criticality rather than traditional metrics like assets or deposits.",
+      "tags": [
+        "project-glasswing",
+        "claude-mythos",
+        "cybersecurity",
+        "vulnerability-detection",
+        "regional-banks",
+        "financial-infrastructure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article provides only surface-level reporting of a partnership announcement without technical depth, implementation details, or analytical framework about AI deployment in banking security."
+    },
+    "https://www.tomtunguz.com/so-you-want-to-sell-inference/": {
+      "title": "So You Want to Sell Inference",
+      "source": "Tomasz Tunguz",
+      "date": "2026-06-22T00:00:00+00:00",
+      "composite": 8.3,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 10,
+      "relevant_topics": [
+        "inference-efficiency",
+        "ai-pricing-packaging-saas",
+        "build-vs-buy-enterprise-ai",
+        "ai-native-product-design"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that reselling AI inference at cost creates zero-margin businesses, and companies must choose between cost-plus pricing (capped by raw API costs) or value-based pricing (charging for outcomes like resolved tickets). The key mechanism is distillation to proprietary small models as a defensible cost optimization strategy, while BYOK (bring-your-own-key) arrangements break cost-plus models but preserve value-based and optimization approaches. This matters because it defines the difference between building a low-margin payment processor versus a high-margin software company in the AI era.",
+      "tags": [
+        "inference-pricing",
+        "value-based-pricing",
+        "model-distillation",
+        "bring-your-own-key",
+        "gross-margin",
+        "inference-reselling"
+      ],
+      "status": "integrated"
+    },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYVVtbGVFamVuby1VYUxoVnlxOFRyNndma2RReVlGQ0NzV3Exd1phek9CelM4SjVGWkNnY0ZBSGJLR0VxaWRTb0NaUDNMaDhIbzhnaGxlcUljN3EyRFU3QnRzUDBEQnZUaENGUlQtU2wzaVBIMXlxWmExalRwUms5c2JaTGlOOXBGbV9tb3R6N0w3VXBmRXliUTNTb0M5Y01RZzBWZ2tyQWMwVnJndTIxQm5yTWdHS0hqTWR6UWNoWW0xV0k?oc=5": {
+      "title": "Which AI platform should RIAs actually be using? A no-hype guide for 2026 - InvestmentNews",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-06-22T13:24:54+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Unable to evaluate article content as the provided text consists entirely of Google's cookie consent dialog and language selection options. No substantive content about AI platforms for RIAs (Registered Investment Advisors) was included in the submission. The article title suggests it would cover AI platform selection for wealth management professionals, but the actual article content was not accessible.",
+      "tags": [
+        "cookie-consent-page",
+        "no-content-available"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not provided - only Google consent dialog text was submitted, preventing evaluation of depth, novelty, or substantive relevance."
+    },
+    "https://feeds.feedblitz.com/~/958278269/0/kitcesnerdseyeview~Real-Equity-Real-BuyIn-A-Practical-Framework-For-Offering-Equity-Ownership/": {
+      "title": "Real Equity, Real Buy-In: A Practical Framework For Offering Equity Ownership",
+      "source": "Kitces.com",
+      "date": "2026-06-22T11:06:35+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article presents a framework for financial advisory firm founders to offer equity ownership to employees, arguing this creates better alignment and sense of ownership among staff. The author shares his specific approach including one-year eligibility thresholds, annual buy-in opportunities, revenue/profitability-based valuations, and liquidation requirements upon departure. This is a case study from wealth management focused on traditional equity compensation structures rather than AI-related business models or operations.",
+      "tags": [
+        "equity-compensation",
+        "employee-ownership",
+        "wealth-management",
+        "firm-succession",
+        "profitability-sharing"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on traditional equity compensation frameworks for financial advisory firms with no relevance to AI technologies, enterprise AI adoption, or any of the specified topic areas in semiconductor, ML infrastructure, or AI business applications."
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPemhhenh1Tm9MZU1UOF9tWFF1WGFyR19LUTBXNUFfTXlBcGtrZTdKVnpOcDhrb3RGVkVNdkxSNC13bjlwSjVfQnhhVDRPTDRwU01uYnZwVEtZOFhlVGttbFNtQVR2U2tlUkdUV1Nta2tHN05qT1FaT3BXQmdEbElLdW1nd0ljRnpsdFpQLTgwaVNwUQ?oc=5": {
+      "title": "Artificial Intelligence (AI) in Wealth Management - SmartAsset.com",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-06-18T07:00:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be a Google consent/cookie page rather than substantive content about AI in wealth management. No actual analysis, claims, or information about AI applications in wealth management is present in the provided text. The content consists entirely of standard Google privacy policy and cookie consent language.",
+      "tags": [
+        "cookie-consent",
+        "privacy-policy",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content\u2014only a Google cookie consent page with no information about AI in wealth management."
     }
   }
 }
