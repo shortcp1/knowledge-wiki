@@ -705,7 +705,129 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-24
+
+**✗ 2.3** — [Consumer](https://a16z.com/consumer/)  
+*a16z* · ai-in-product-and-engineering
+#consumer_ai #venture_capital #investment_thesis
+> This is a16z's consumer tech team landing page that presents a broad vision of AI ushering in an 'Era of Abundance' for consumers through creativity, self-discovery, and productivity tools. The page provides high-level thematic statements about AI's potential impact and links to various portfolio investments and podcast episodes. It offers no specific analysis, data, or frameworks—merely serving as a marketing overview of the firm's consumer investment thesis.
+
+**✗ 5.0** — [How To Win A Space War](https://a16z.com/how-to-win-a-space-war/)  
+*a16z* · 
+#space_warfare #satellite_defense #gps_jamming #military_satellite_architecture
+> This article argues that space has become an active warfare domain where adversaries like Russia, China, and Iran are conducting hostile operations (jamming GPS, launching missiles through space, threatening satellite destruction), requiring the U.S. to develop offensive and defensive space capabilities rather than relying on treaties. The authors draw on their backgrounds in satellite operations and military service to advocate for a first-principles approach to space warfare, including maximizing upmass, proliferating military space architectures, and developing deterrent offensive capabilities. The piece frames space as the "orbital high ground" critical to modern warfare through communications, reconnaissance, targeting, and navigation services.
+
+**✗ 2.3** — [The World Building Doors Are Open Again](https://a16z.com/the-world-building-doors-are-open-again/)  
+*a16z* · ai-native-product-design
+#consumer_ai #ai_native_apps #platform_shifts #product_development
+> A16z partner Josh Elman announces his new role focusing on AI-first consumer applications, drawing parallels between previous platform shifts (social, mobile) and the current AI wave. He argues that AI represents a new "world-building" opportunity similar to early Facebook, Twitter, and Robinhood, where initial simple use cases evolved into major platforms. The piece is primarily a personal career retrospective and investment thesis announcement rather than substantive analysis of AI consumer product opportunities.
+
+**✓ 8.0** — [Recursive Language Models Offer Path To Aramatically Expand Beyond The Context Window](https://www.deeplearning.ai/the-batch/recursive-language-models-offer-path-to-aramatically-expand-beyond-the-context-window)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · agentic-workflows-production
+#recursive_language_models #context_window_expansion #external_memory_management #code_generation_agents
+> MIT researchers developed Recursive Language Models (RLMs) that overcome context window limitations by treating input text as external variables in a Python programming environment, allowing models to programmatically fetch and process only necessary chunks of data. The approach uses a root model that generates code to manage subtasks across spawned submodels, enabling processing of documents up to 11 million tokens—far beyond typical context windows. RLMs based on Qwen3-8B, GPT-5, and Qwen3-Coder-480B significantly outperformed both stock models and other agentic strategies on long-document reasoning benchmarks, achieving 91.3% accuracy on BrowseComp+ compared to 70.5% for summary-based agents.
+
+**✗ 5.0** — [How Anti Ai Propaganda Hurts The Public](https://www.deeplearning.ai/the-batch/how-anti-ai-propaganda-hurts-the-public)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · lab-dynamics
+#regulatory_capture #public_perception #anti_ai_messaging #federal_preemption
+> Andrew Ng argues that anti-AI groups are using strategic messaging (warfare, environmental impact, job loss, child safety) to turn public opinion against AI, based on a UK study showing which narratives resonate most with the public. He claims these messages distort reality—such as overstating data center environmental impact and AI's role in layoffs—and compares potential AI regulation to how oil industry fear-mongering stifled nuclear power development. He supports federal preemption of state AI regulations to prevent a fragmented regulatory landscape that could slow AI progress.
+
+**✗ 4.3** — [Grok Imagine 1 0 Sharply Cuts Costs For High Quality Video Generation](https://www.deeplearning.ai/the-batch/grok-imagine-1-0-sharply-cuts-costs-for-high-quality-video-generation)  
+*The Batch (DeepLearning.AI)* · inference-efficiency · ai-pricing-packaging-saas
+#video_generation #pricing_benchmarks #generative_ai #model_benchmarks
+> xAI launched Grok Imagine 1.0, a video generation model that topped independent quality rankings at $4.20 per minute, significantly undercutting competitors like OpenAI Sora 2 Pro ($30/min) and Google Veo 3.1 ($12/min). The article provides benchmark comparisons showing Grok Imagine 1.0 ranked first on Artificial Analysis Video Arena and competitive on LM Arena, with generation speeds of 110 seconds per video. This matters because it represents a major price compression in commercial video generation while maintaining top-tier quality, though it raises ongoing safety concerns around misuse on the X platform.
+
+**✗ 4.7** — [Introducing Claude Tag](https://www.anthropic.com/news/introducing-claude-tag)  
+*Anthropic Blog* · agentic-workflows-production · ai-in-product-and-engineering · ai-org-design-headcount
+#slack_integration #agentic_delegation #contextual_memory #asynchronous_execution
+> Anthropic announces Claude Tag, a Slack-integrated AI that teams can mention to delegate tasks, which builds contextual memory from channels and works asynchronously across hours or days. The product extends Claude Code with multiplayer collaboration, ambient monitoring, and scheduled autonomous task execution, with Anthropic reporting 65% of their product team's code now created by their internal version. This represents a shift from chat-based AI assistance to persistent, team-embedded AI agents that learn organizational context and proactively surface information.
+
+**✗ 4.7** — [Strella Transforming Qualitative Research From A Bottleneck Into An Ai Superpower](https://www.bvp.com/atlas/strella-transforming-qualitative-research-from-a-bottleneck-into-an-ai-superpower)  
+*Bessemer Atlas* · ai-in-product-and-engineering · ai-native-product-design · build-vs-buy-enterprise-ai
+#voice_ai #qualitative_research_automation #customer_discovery #wizard_of_oz_mvp
+> Strella is an AI-powered customer research platform that automates qualitative interviews at scale, replacing the human bottleneck in conducting user research for product teams. Founded by Lydia Hylton and Priya Krishnan in 2023, the company uses voice AI to replicate skilled interviewer behavior and serves customers like Amazon, Duolingo, and Chobani. The platform addresses the long-standing tradeoff between research depth (interviews) and speed (surveys) by enabling fully automated, conversational interviews.
+
+**✗ 5.7** — [Papaya Global When Ai Stops Being A Feature And Becomes The Floor](https://www.bvp.com/atlas/papaya-global-when-ai-stops-being-a-feature-and-becomes-the-floor)  
+*Bessemer Atlas* · ai-in-hr-talent · build-vs-buy-enterprise-ai · ai-pricing-packaging-saas
+#embedded_ai #ai_pricing #workforce_management #compliance_automation
+> Papaya Global learned that customers won't pay premium prices for AI features because AI has become an expected baseline capability rather than a differentiator. Instead of launching a standalone AI product, they embedded AI capabilities directly into existing HR and compliance workflows across their global workforce management platform. This approach allowed them to deliver on their core promise of simplifying global employment complexity at scale without adding AI as a separate line item.
+
 ## 2026-06-23
+
+**✗ 1.7** — [datasette 1.0a35](https://simonwillison.net/2026/Jun/23/datasette/#atom-everything)  
+*Simon Willison* · 
+#datasette #database_management #open_source #api_design
+> This article announces the release of Datasette 1.0a35, an open-source data exploration tool, highlighting new UI features for creating and altering database tables through both visual interfaces and JSON APIs. The release includes new template context documentation that establishes a stable API for custom templates. This is a standard software release announcement with feature highlights but no AI-related content or strategic insights.
+
+**✗ 1.7** — [A man of many words](https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/)  
+*MIT Technology Review* · 
+#linguistics #spelling_bee #etymology #human_profile
+> This is a human interest profile of Brian Sietsema, who works as the pronouncer and etymologist at the Scripps National Spelling Bee while also serving as a Greek Orthodox priest. The article traces his childhood fascination with the word 'akimbo' through his education in linguistics and religious studies to his unique dual career. It offers no analysis of AI, technology, semiconductors, or enterprise applications.
+
+**✗ 2.0** — [Heads in the game](https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/)  
+*MIT Technology Review* · 
+#sports_technology #computer_vision #real_time_decision_systems #mit_sports_lab
+> The article describes how semi-automated offside technology (SAOT) was used at the 2022 World Cup, developed in collaboration with MIT Sports Lab, to help referees make split-second decisions during critical moments like the Argentina v. France final. It traces the origin of MIT Sports Lab from a professor's personal interest in mountain biking to a broader sports technology research initiative working with major sports organizations. The piece frames sports technology as an emerging application area for data science and engineering, though it provides minimal technical detail about how these systems actually work.
+
+**✗ 2.0** — [Super Mario is mathier than you think](https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/)  
+*MIT Technology Review* · 
+#computational_complexity #undecidability #halting_problem #algorithm_theory
+> The article describes MIT research proving that certain Super Mario levels are computationally undecidable, meaning no algorithm can determine whether they're solvable. The research uses complexity theory to show Super Mario belongs to the RE-Complete class of problems, harder than previously believed PSPACE problems. This demonstrates fundamental limits of computation through the lens of video game mechanics.
+
+**✗ 2.0** — [OPFS + Pyodide test harness](https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything)  
+*Simon Willison* · 
+#pyodide #webassembly #opfs #sqlite
+> Simon Willison built a test harness to explore using OPFS (Origin Private File System) with Pyodide to enable Datasette Lite to edit persistent SQLite files in the browser. He had Claude Code create a playground UI to test this functionality across different browsers. This is a technical experiment in browser-based file persistence for WebAssembly Python applications.
+
+**✗ 1.0** — [Scaling from Startup to Mid-Market: Building a Professional Database Infrastructure on a Budget - HackerNoon](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeXhRWHN6UGtWRU1fT3FMVGZhMGQ1Q2NPSDh4anNOdnBlMWN4LXZpTEpLa1UtNVluOG1DQVNoV3NBX3RxdnpMQ2k2SmhVTVViYTVXcHVrRFZBN0hHV1dCSWRzTVBpRjN5M0Z6eDJPT1FGNDAycURoLS1uXzN1ZGJmektnQmxrQ1dzWmR0ZjhRT2hDN3ZydDFiaDYwS1VmSW1ORG1uSHVwVmk1SDFGN1B3Y25ib3hVS3di?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#scraping_error #no_content
+> This article appears to be a cookie consent page from Google, not actual content about database infrastructure. The title suggests it should cover building database infrastructure for mid-market companies on a budget, but no actual article content is present. This is a scraping error or redirect page rather than substantive content.
+
+**✗ 2.3** — [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery)  
+*OpenAI News* · 
+#gpt_5 #immunology #scientific_research #t_cells
+> The article reports that GPT-5 Pro helped immunologist Derya Unutmaz solve a three-year mystery about T cell behavior. The piece provides no specific evidence, mechanisms, or details about what the mystery was, how GPT-5 solved it, or what insights were gained. The brevity and lack of concrete information makes it impossible to assess the actual impact on cancer and autoimmune research.
+
+**✗ 5.3** — [How Meta Engineered Ultra-Narrow Batteries for AI Glasses](https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/)  
+*Meta AI / FB Engineering* · 
+#steel_can_battery #electrode_stacking #form_factor_engineering #wearables_power_management
+> Meta engineered ultra-narrow steel-can batteries (down to 7mm width) for AI-powered smart glasses by replacing traditional wound electrode 'jelly rolls' with die-cut stacked layers to achieve lower impedance and better space utilization. The innovation enabled 30% capacity increases (160 to 210 mAh) while maintaining extreme form factor constraints, with system-level efficiency improvements delivering 2x runtime gains across generations. This battery architecture approach is now being scaled across Meta's wearables portfolio to enable AI workloads, cameras, displays, and audio in temple-arm-sized form factors.
+
+**✗ 3.0** — [Partnering with Probook: AI for the Trades](https://sequoiacap.com/article/partnering-with-probook-ai-for-the-trades/)  
+*Sequoia* · ai-in-operations · agentic-workflows-production
+#dispatch_automation #home_services #operations_ai #workflow_automation
+> Sequoia announces a Series A investment in Probook, an AI operating system for home services businesses that automates dispatch and administrative tasks for plumbers, electricians, and HVAC technicians. The platform uses AI to handle customer intake, assign technicians based on availability, experience, and proximity, and coordinate the entire service workflow. The article focuses primarily on the founders' personal backstory and authenticity rather than technical implementation or business metrics.
+
+**✗ 2.7** — [Helping build shared standards for advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai)  
+*OpenAI News* · ai-governance-risk-compliance · evals-production-deployment
+#appia_foundation #ai_standards #safety_practices #evaluation_frameworks
+> OpenAI announces support for the Appia Foundation to develop shared standards for advanced AI evaluation and safety practices. The article provides no specific details about frameworks, methodologies, or concrete standards being developed. This represents a high-level announcement of industry collaboration rather than substantive technical or governance content.
+
+**✗ 4.0** — [The new inner game: Your unfair advantage in the age of AI](https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage)  
+*Lenny's Newsletter* · ai-org-design-headcount · ai-in-product-and-engineering
+#emotional_intelligence #organizational_adaptation #executive_coaching #workforce_transformation
+> This article argues that emotional clarity and soft skills will become the key differentiator for workers in AI-driven environments, as AI commoditizes traditional knowledge work and effort. The author, an executive coach working with OpenAI's research team, claims that success will depend on the ability to handle difficult conversations, avoid self-sabotage under pressure, and persist through failure. The piece matters primarily as a perspective on organizational adaptation and human skill development in response to AI disruption, though it offers more coaching philosophy than concrete frameworks.
+
+**✗ 1.7** — [Accenture Launches Accenture Edge to Help Mid-Market Companies Harness AI and Reinvent How They Operate - bastillepost.com](https://news.google.com/rss/articles/CBMi6wFBVV95cUxOYXNrZkphdXV3ZU5tN3plT2xBRmdVV1J5NVRrZHl4ejViOVB4dDl1TGplT3JOX0VwQl9PSmt1d0JuVEs0Q2JJRW1zVnljTFkwQWRGV0d6a1FLTTBLYUoxMUlzcEZONGxfUUJwelE4Z19tX3I4UTl1R0NXSEtZTHRfeVh6ZkxzWHZQc09kOUNOYWdYRGRxQ0QwbTlXMGRtcERrT0U1X2NYaXp3cExzUnp1bjY4dTl2dkhBY2xJNzF5TEI4azUyLWJGeTA1S3lXeE9obkRpVVVFSXBKaTZENEJUV3Z4OVY2WTRsVUVN?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-operations · build-vs-buy-enterprise-ai
+#accenture #mid_market #enterprise_ai #consulting
+> The article appears to be about Accenture launching a new service called 'Accenture Edge' targeting mid-market companies for AI adoption and operational transformation. However, the provided text contains only Google's cookie consent dialog and no actual article content. Without access to the substantive content, it's impossible to assess the depth of analysis, novelty of insights, or true relevance to the specified topics.
+
+**✗ 3.7** — [Why Grasshopper wants to own more than your bank account](https://tearsheet.co/banking/why-grasshopper-wants-to-own-more-than-your-bank-account/?utm_source=rss&utm_medium=rss&utm_campaign=why-grasshopper-wants-to-own-more-than-your-bank-account)  
+*Tearsheet (fintech)* · 
+#treasury_management #startup_banking #cash_management #banking_platform
+> Grasshopper Bank is launching a treasury management product with Waldo that allows startups to invest excess cash directly from the banking platform rather than moving funds to external brokerages or money market accounts. The article frames this as a response to changed startup cash management behavior following higher interest rates and the 2023 regional banking crisis, where companies now prioritize yield optimization. This represents banks' strategic shift from competing on checking accounts to owning the entire cash-management workflow to prevent capital flight.
+
+**✗ 2.0** — [Scaling To $3.5M Of (Flat-Fee) Revenue By Leaning Into A Unique Retirement Income Approach: #FASuccess Ep 495 With Bradley Clark](https://feeds.feedblitz.com/~/958319204/0/kitcesnerdseyeview~Scaling-To-M-Of-FlatFee-Revenue-By-Leaning-Into-A-Unique-Retirement-Income-Approach-FASuccess-Ep-With-Bradley-Clark/)  
+*Kitces.com* · 
+#flat_fee_pricing #retirement_income_planning #wealth_management #asset_liability_matching
+> This podcast episode profiles Bradley Clark, who has scaled his financial advisory firm to $1.6B AUM and $3.5M revenue using flat-fee pricing ($12,500/year) rather than traditional AUM-based fees. He describes his retirement income planning methodology that segments client spending into needs/wants/wishes with different probability-of-success thresholds, and uses asset-liability matching with bond ladders and income annuities. The episode focuses on traditional wealth management business model optimization rather than AI or technology innovation.
+
+**✗ 4.0** — [[AINews] SpaceX is already a $28B/yr Neocloud](https://www.latent.space/p/ainews-spacex-is-already-a-28byr)  
+*Latent Space* · gpu-architecture-training-infra · funding-and-market-structure · build-vs-buy-enterprise-ai
+#spacex_neocloud #gpu_rental #gb300 #anthropic_compute_deal
+> The article reports that SpaceX has signed three major GPU rental deals (with Reflection AI, Anthropic, and Google) totaling $2.32B per month or $28B annually, positioning it as a major 'Neocloud' provider roughly twice the size of CoreWeave's current revenue. The evidence comes from leaked deal terms showing $150M/month payments for GB300 chips and analyst Jamin Ball's aggregation of the contracts. This matters because it reveals SpaceX as a surprise major player in AI infrastructure competing directly with established cloud providers, though notable AI labs appear absent from its customer list.
 
 **✓ 8.3** — [Test Time Training End To End Ttt E2E Retrains Model Weights To Handle Long Inputs](https://www.deeplearning.ai/the-batch/test-time-training-end-to-end-ttt-e2e-retrains-model-weights-to-handle-long-inputs)  
 *The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · gpu-architecture-training-infra
@@ -726,6 +848,16 @@ All articles scanned since the wiki started. Updated nightly.
 *Anthropic Blog* · ai-in-operations · ai-governance-risk-compliance
 #beneficial_deployments #global_health #vaccine_development #healthcare_intelligence
 > Anthropic announces a $200 million partnership with the Gates Foundation to deploy Claude AI in global health, life sciences, education, and economic mobility programs over four years. The partnership will focus on vaccine development acceleration, healthcare intelligence tools for low-income countries, disease modeling, and K-12 education applications. This represents Anthropic's push into beneficial AI deployments in areas where market forces alone are insufficient.
+
+**✗ 3.3** — [How Omio is building the future of conversational travel](https://openai.com/index/omio)  
+*OpenAI News* · ai-in-product-and-engineering · ai-native-product-design
+#conversational_ai #travel_tech #openai_integration #customer_experience
+> The article describes Omio's implementation of OpenAI technology to create conversational travel booking experiences and transform their product development. It appears to be a high-level case study showcasing how the travel platform integrates AI into their customer-facing applications. The piece serves as a promotional use case example rather than offering deep technical insights or novel AI implementation strategies.
+
+**✗ 3.3** — [The Quietest Part of Startupland isn't so Quiet](https://www.tomtunguz.com/crypto-is-the-quietest-part-of-the-vc-market/)  
+*Tomasz Tunguz* · funding-and-market-structure
+#stablecoins #treasury_bills #crypto_exchanges #perpetual_markets
+> The article argues that despite low venture funding, crypto shows structural importance through stablecoins holding $165B in US T-bills (2.5% of market) and exchanges like Hyperliquid generating $610M annualized fees. It provides specific data points on stablecoin treasury holdings surpassing major countries and real asset trading (gold, oil, stocks) moving to 24/7 crypto markets. The piece suggests crypto's infrastructure role in financial markets is growing despite narrative of decline.
 
 ## 2026-06-22
 
