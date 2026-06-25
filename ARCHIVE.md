@@ -705,7 +705,114 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-25
+
+**✗ 3.3** — [Issue 346](https://www.deeplearning.ai/the-batch/issue-346)  
+*The Batch (DeepLearning.AI)* · regulatory-policy
+#regulatory_capture #public_perception #ai_propaganda #federal_preemption
+> The article argues that anti-AI advocacy groups are strategically testing messaging (warfare, environment, job loss, child safety) to turn public opinion against AI development, after extinction arguments failed. It cites a UK study showing which fear-based messages resonate most with the public and criticizes organizations for one-sided views that benefit themselves through regulatory capture. The author warns this propaganda could lead to harmful overregulation similar to how anti-nuclear messaging led to increased CO2 emissions and pollution deaths.
+
+**✓ 7.3** — [Openais Deal With Amazon To Build A Stateful Runtime Environment For Ai Agents](https://www.deeplearning.ai/the-batch/openais-deal-with-amazon-to-build-a-stateful-runtime-environment-for-ai-agents)  
+*The Batch (DeepLearning.AI)* · agentic-workflows-production · gpu-architecture-training-infra · semiconductor-supply-chain
+#stateful_runtime #ai_agents #amazon_bedrock #trainium_chips
+> OpenAI and Amazon announced a partnership to build a stateful runtime environment for AI agents on AWS, with Amazon investing $15 billion (potentially $50 billion total) as part of OpenAI's $110 billion funding round valued at $730 billion. The stateful runtime differs from stateless APIs by maintaining context, memory, and tool connections across multi-step agent workflows, and runs on Amazon Bedrock while bypassing Microsoft's exclusive Azure agreement for stateless APIs. This represents a significant shift in OpenAI's infrastructure strategy, diversifying beyond Microsoft while Amazon gains access to OpenAI models and OpenAI commits to $100 billion in Amazon Trainium chip usage over 8 years.
+
+**✓ 8.0** — [Nvidias Open Nemotron 3 Super 120B A12B Model Sets New Paces In Its Class](https://www.deeplearning.ai/the-batch/nvidias-open-nemotron-3-super-120b-a12b-model-sets-new-paces-in-its-class)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · gpu-architecture-training-infra
+#mixture_of_experts #mamba_2 #multi_token_prediction #inference_speed
+> Nvidia released Nemotron 3 Super 120B-A12B, an open-source LLM that achieves 442 output tokens per second—the fastest open-weights model in its size class—using a hybrid architecture combining mamba-2, attention, and mixture-of-experts layers with multi-token prediction. The architecture uses LatentMoE compression to activate 22 experts per token at the computational cost of 5-6 experts, mamba-2 layers for efficient long-context processing, and was pretrained in NVFP4 4-bit format native to Blackwell GPUs. This represents the first U.S.-based open-weights leader since Meta's Llama 4, optimized specifically for agentic applications with tool calling, structured outputs, and reasoning modes.
+
 ## 2026-06-24
+
+**✗ 2.7** — [simonw/browser-compat-db](https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything)  
+*Simon Willison* · 
+#sqlite #ai_assisted_programming #github_actions #data_pipeline
+> The article describes a personal project converting Mozilla's browser compatibility data into a SQLite database using AI-assisted coding tools (Claude Code and GPT-5.5). The implementation uses sqlite-utils for conversion and GitHub Actions to deploy the database to a branch with open CORS headers for web access via Datasette Lite. This is a technical proof-of-concept for data pipeline automation using AI coding assistants rather than enterprise AI deployment or research.
+
+**✗ 3.7** — [IN-DEPTH: What Unitree's Evolution Means For Robotics](https://www.fabricatedknowledge.com/p/in-depth-what-unitrees-evolution)  
+*Fabricated Knowledge* · 
+#humanoid_robotics #actuator_manufacturing #vertical_integration #china_supply_chain
+> The article analyzes Unitree's strategy in humanoid robotics, arguing they followed a DJI-style playbook of owning the hardest component (actuators), driving down costs through volume on quadrupeds first, then leveraging that manufacturing scale for humanoids. The key mechanism is vertical integration of motors and gearboxes plus China's supply chain advantages in Shenzhen, allowing Unitree to undercut competitors while maintaining margins. This represents a manufacturing breakthrough rather than a robotics technology breakthrough, potentially enabling cost-effective automation of repetitive tasks.
+
+**✓ 7.3** — [Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks](https://www.latent.space/p/databricks)  
+*Latent Space Podcast* · agentic-workflows-production · rag-over-proprietary-content · data-moats-proprietary-advantages
+#omnigent #meta_harness #ltap #lakehouse
+> Databricks cofounders argue that as frontier model performance commoditizes, durable competitive advantage shifts to company-specific data context, positioning Databricks as an operating system for enterprise agents. They introduce Omnigent (an open-source meta-harness for managing multiple AI agents with unified APIs, sessions, and controls) and LTAP (a database architecture unifying storage layers for real-time agent access to business data). This matters because it reframes the AI infrastructure problem from model performance to systems integration—specifically how to expose the right data, permissions, state, and workflows to agents at execution time.
+
+**✗ 3.0** — [Quoting Tom MacWright](https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything)  
+*Simon Willison* · ai-in-hr-talent
+#llm_generated_content #job_applications #authenticity_signal #hiring_screening
+> Tom MacWright observes that job applications are increasingly being entirely generated by LLMs, from resumes to portfolios to GitHub projects. This creates a problem where candidates present no authentic signal about themselves, only proof they can use AI tools. The observation highlights how AI adoption in professional contexts can paradoxically reduce rather than enhance differentiation and authenticity.
+
+**✗ 5.7** — [Introducing computer use in Gemini 3.5 Flash](https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/)  
+*Google DeepMind* · ai-engineering-agents · agentic-workflows-production · model-architecture
+#computer_use #gemini_3.5_flash #agentic_ai #ui_automation
+> Google DeepMind announces computer use capabilities in Gemini 3.5 Flash, enabling the model to interact with computer interfaces through screen understanding and UI control. The feature allows the model to perceive screens, plan actions, and execute tasks across applications, similar to Anthropic's Claude computer use capability. This represents a significant step toward autonomous AI agents that can perform complex multi-step tasks across software environments.
+
+**✗ 2.0** — [Europe’s extreme heat is shutting down power plants](https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/)  
+*MIT Technology Review* · 
+#energy_grid #climate_impact #nuclear_power #infrastructure_stress
+> The article reports on how extreme heat in Europe is forcing nuclear and other power plants to shut down or reduce output due to cooling system limitations, particularly when river water temperatures exceed regulatory limits. It provides evidence from France's nuclear fleet shutdowns, UK gas plant reductions, and European hydropower supply cuts of 13% in early 2025. The article highlights growing grid stress from increased cooling demand and the need for expensive infrastructure upgrades to climate-proof power generation.
+
+**✗ 1.7** — [Unico Connect Builds New MLOps Practice to Support Enterprises with AI in Production - The Globe and Mail](https://news.google.com/rss/articles/CBMi-AFBVV95cUxPN3FrSzA5dDl6dUFsMUUxOG9pUFFwcUdLdDE0dmlSYlloRnhMWG9DRU5ibXBLajh5MlRRN1l4Zkc1czVyWmt5LUZ6SFRTX1E4bEpxS1JPeHhwSnFkLXBwN1A4LVlJaHUzMzZZMjJGdDNBTzdud0RXckcxLWN1M3ZvdXh3Y1RHT0lOcU1hOTlDeGozRWN5ckxuZENNRURRck5kaGRSV05ZYVozWlRkTW9JUEpSc3FjV2pPaXowbmNzMFZCQVY2MjBTcjQwdWVGUFVJQXZ0cTlvT0JLNDgtbkJHeXdVR0dzWUt6NXRtRlg1RGtvUmNGNTMzVg?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#mlops #enterprise_ai #production_deployment
+> The article appears to announce that Unico Connect is building a new MLOps practice to help enterprises deploy AI in production. No actual article content is provided beyond the title and a Google cookie consent page. Without substantive content, it's impossible to assess the depth of analysis, novelty of claims, or practical relevance to enterprise AI deployment.
+
+**✗ 2.3** — [The Download: introducing the Engineering issue](https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/)  
+*MIT Technology Review* · semiconductor-supply-chain
+#newsletter #news_aggregator #chipmaking #asml
+> This is a newsletter compilation from MIT Technology Review covering multiple brief technology news items, including an Engineering issue announcement, a respiratory infection prevention nonprofit, and various tech developments. The article provides surface-level summaries of disparate topics without deep analysis, primarily linking to other sources for full coverage. It functions as a news aggregator rather than original reporting or analysis.
+
+**✓ 6.3** — [GLM 5.2: why I’m replacing Opus in Claude Code with this new model](https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude)  
+*Lenny's Newsletter* · model-architecture · ai-engineering-agents · ai-in-product-and-engineering
+#open_weight_models #coding_agents #cursor #claude_code
+> This article reports on practical testing of GLM 5.2, an open-weight coding model from Z.AI, comparing it against Claude Opus across four real-world tasks including codebase audits, UI redesigns, and autonomous bug-hunting in production code. The key evidence is performance data showing the model completed 6 million tokens worth of work for $3.36 while successfully matching design systems and generating shippable outputs, though with some unspecified stumbles. This matters for engineers evaluating cost-effective alternatives to proprietary coding models, demonstrating that open-weight models can handle complex, long-running autonomous tasks in production environments.
+
+**✗ 3.0** — [Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections](https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/)  
+*MIT Technology Review* · funding-and-market-structure
+#nonprofit_funding #respiratory_virus_prevention #vaccine_development #air_cleaning_technology
+> Stripe, Anthropic, OpenAI Foundation, and others are backing a $500 million nonprofit called Intercept to prevent respiratory infections like the common cold and flu through vaccines and air-cleaning systems. The initiative argues that modern technologies (RNA drugs, antibodies, computational protein design) make broad-spectrum countermeasures technically feasible, though commercial incentives have been lacking. The effort draws lessons from COVID-19 vaccine development and aims to address what backers see as an underweighted societal burden.
+
+**✗ 1.7** — [Accenture Launches Accenture Edge to Bring AI to Mid-Market Companies - AIM Media House](https://news.google.com/rss/articles/CBMirgFBVV95cUxON2RBZ2k2bWlldFVpMlBJMFJtdWktR0tOaXNGTUVHTC1KcW1QWGdfVDhsRzBoRW0tdXBkNmxDTk0yc0xyelVHR2JZWkt0Mzd2T0R4ZzEwNEFqZmtjMnMyZnVNNWtkUTBIR1BzcERLVlZyYXpmWmFBb0R0YXhRSjVodEpjNFJEVUNHUGpRSzd3aGVQZzduRDVhZzlOZlVHLTB6akJ1Si1IeUFfQVQ2c1E?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-b2b-saas
+#accenture #mid_market #enterprise_ai
+> The article appears to announce Accenture's launch of 'Accenture Edge' targeting mid-market companies with AI solutions. However, the actual content provided is entirely a Google cookie consent form with no substantive information about the product, its features, or implementation details. Without the actual article text, it's impossible to assess the depth, novelty, or true relevance of the announcement.
+
+**✗ 4.3** — [$1 million or less in assets? You may not be worthy of a human financial advisor as professionals hand off smaller portfolios to AI - moneywise.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxPWExqSW5TQmpCcS1DOG9LV0tlVU9rWGFseHFDT1E4YTV5N1NkWHo2Z1JWWUFvcm1qOTk3SmxSNFlROFcyb3Rhd3RVeS1HTm9KSEhNMlBRcldUa3BpamR4aWZoUUxEbkRvS2VPeW9GQVljZ2MwTm01dWprWVZQcW5ITUp5TTVhZnh1V1A0SmNZRFBUcldnVkZVcFc2SEx3SnZV?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #client_segmentation #robo_advisors #aum_threshold
+> The article reports on financial advisors increasingly delegating smaller client portfolios (under $1 million in assets) to AI-based wealth management tools rather than providing human advisory services. The key mechanism is cost-efficiency, as AI tools allow advisors to manage more clients while focusing their personal attention on higher-value accounts. This reflects a bifurcation in wealth management services where AI becomes the primary interface for mass-affluent clients.
+
+**✗ 4.0** — [How Figure and Method closed the loop on debt consolidation and cut delinquency in half](https://tearsheet.co/podcasts/how-figure-and-method-closed-the-loop-on-debt-consolidation-and-cut-delinquency-in-half/?utm_source=rss&utm_medium=rss&utm_campaign=how-figure-and-method-closed-the-loop-on-debt-consolidation-and-cut-delinquency-in-half)  
+*Tearsheet (fintech)* · 
+#debt_consolidation #real_time_liability_data #fintech_infrastructure #loan_performance
+> Figure and Method built a 'verified debt consolidation' system that uses real-time liability data and automated payoff execution at HELOC origination, eliminating the traditional reliance on borrower promises to pay off existing debt. The system reportedly delivered 50% lower delinquency rates, 2x funded conversion, and a 21-point average FICO lift within 30 days by closing the loop between loan origination and debt retirement. This approach transforms debt consolidation from a trust-based process into a closed-loop verification system that could become industry standard.
+
+**✗ 3.7** — [The (Unexpected) Registration Responsibilities When Engaging In Paid Referrals](https://feeds.feedblitz.com/~/958359230/0/kitcesnerdseyeview~The-Unexpected-Registration-Responsibilities-When-Engaging-In-Paid-Referrals/)  
+*Kitces.com* · ai-in-sales-gtm
+#financial_advisory #compliance #paid_referrals #sec_marketing_rule
+> This article explains the compliance requirements for Registered Investment Advisers (RIAs) when using paid promoters or solicitors for client referrals under the SEC's Marketing Rule. It details disclosure obligations, the distinction between supervised persons versus independent promoters, and potential registration requirements as Investment Adviser Representatives (IARs). The article matters for understanding regulatory compliance when RIAs engage in paid referral partnerships, though it focuses on financial advisory rather than AI-related business practices.
+
+**✗ 5.0** — [Bankers mostly skipped SaaS. They’re all in on AI now.](https://writer.com/blog/bankers-skipped-saas-all-in-on-ai/)  
+*Writer.com Blog* · ai-in-sales-gtm · agentic-workflows-production
+#ai_agents #commercial_banking #relationship_management #prospecting_automation
+> The article describes how commercial banks are deploying AI agents to transform relationship manager workflows, particularly in prospecting and outreach activities. It presents a case study where AI agents for lead qualification, account research, and personalized outreach helped relationship managers book 5x more meetings compared to traditional methods. The transformation matters because it addresses a core inefficiency in commercial banking where RMs spend only 25-30% of time on actual client dialogue versus administrative work.
+
+**✓ 6.0** — [[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack](https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive)  
+*Latent Space* · agentic-workflows-production · ai-engineering-agents · ai-in-product-and-engineering
+#async_agents #slack_integration #multiplayer_agents #proactive_agents
+> Anthropic launched Claude Tag, a Slack-native agent that works asynchronously as a team member with channel access, tool permissions, and the ability to tag coworkers, wait for dependencies, and proactively monitor channels. The product evolution shows Claude moving from web to desktop to Slack integration, with internal metrics showing Claude Code (via Tag) now merging 65% of Anthropic's product PRs. This represents a shift from synchronous single-user chat to multiplayer, proactive, persistent agent workflows integrated into existing team collaboration tools.
+
+**✓ 7.3** — [The AI leadership gap: Even marketers who use AI fear they’ll be replaced](https://writer.com/blog/ai-leadership-gap-marketing-fear-replacement/)  
+*Writer.com Blog* · ai-in-marketing-content · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#employee_anxiety #marketing_transformation #ai_adoption_barriers #organizational_change_management
+> The article argues that marketing leaders are failing to address employee anxiety about AI-driven replacement, with 43% of marketing employees who use AI believing their company would replace them tomorrow if possible. It presents survey data showing that executives prioritize efficiency and headcount reduction (53% focus on leaner teams) while employees receive vague encouragement but no clear direction about their future roles. The piece matters because it exposes a critical leadership gap where the business case for AI is communicated as cost-cutting rather than growth, creating fear and disengagement that undermines transformation efforts.
+
+**✗ 4.3** — [OpenAI and Broadcom unveil LLM-optimized inference chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip)  
+*OpenAI News* · inference-efficiency · semiconductor-supply-chain · gpu-architecture-training-infra
+#custom_silicon #inference_chip #jalapeno #openai_broadcom
+> OpenAI and Broadcom have announced Jalapeño, a custom AI chip specifically designed for LLM inference workloads. The article provides only a basic announcement without technical details about architecture, performance metrics, or implementation specifics. This represents OpenAI's move toward custom silicon for inference optimization, following the industry trend of vertical integration in AI infrastructure.
 
 **✗ 2.3** — [Consumer](https://a16z.com/consumer/)  
 *a16z* · ai-in-product-and-engineering
@@ -752,6 +859,11 @@ All articles scanned since the wiki started. Updated nightly.
 #embedded_ai #ai_pricing #workforce_management #compliance_automation
 > Papaya Global learned that customers won't pay premium prices for AI features because AI has become an expected baseline capability rather than a differentiator. Instead of launching a standalone AI product, they embedded AI capabilities directly into existing HR and compliance workflows across their global workforce management platform. This approach allowed them to deliver on their core promise of simplifying global employment complexity at scale without adding AI as a separate line item.
 
+**✗ 3.7** — [Defending Against AI-Powered Attackers](https://www.tomtunguz.com/sunil-agrawal-office-hours/)  
+*Tomasz Tunguz* · ai-governance-risk-compliance
+#ai_security #deepfakes #phishing #attack_surface
+> This is an announcement for an Office Hours session with Glean's CISO discussing security preparedness against AI-powered attacks including reconnaissance, phishing, deepfakes, and exploit generation. The session will cover how AI compresses attack timelines, erodes traditional detection signals, and requires new organizational responses. It's a promotional post for a future webinar rather than substantive analysis or research.
+
 ## 2026-06-23
 
 **✗ 1.7** — [datasette 1.0a35](https://simonwillison.net/2026/Jun/23/datasette/#atom-everything)  
@@ -783,6 +895,11 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Mid-Market Enterprise* · 
 #scraping_error #no_content
 > This article appears to be a cookie consent page from Google, not actual content about database infrastructure. The title suggests it should cover building database infrastructure for mid-market companies on a budget, but no actual article content is present. This is a scraping error or redirect page rather than substantive content.
+
+**✗ 3.0** — [Taxfyle Launches Plan, an AI-Native Tax Strategy Platform Built to Streamline RIA Tax Planning Workflow - CPA Practice Advisor](https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWHctNGQ5Z214OFR6VTZjREhRZHpOSklEcnNIdGNIc1RqSXY4cEpoR3hUUzd3QVpma3ZsYWRRRDN1OGNsWXo0SHItXzR1R05DbDc3S0tKZVpjeGIzZ2c5OEQyaWYyTlpxdkNFTHRId1VhRnJrX1hkczNSZUszNlI4dW1jWThqMmRNeHdoRkNpN3NENGdsN0tNVVhONjFYQmFCUllOcEdkZ21OZjgxRzJmN2l3c29HSTQxcHg0d2h2bnIybkZTMmxPdjV1WlROdGltM3plZ1B2WE5FWGVFajFicjE0Nmp6dF9nazlQMA?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory · ai-in-finance-accounting
+#tax_planning #ria_workflow #financial_advisory #ai_native_platform
+> Taxfyle announces the launch of 'Plan,' an AI-native platform designed to streamline tax planning workflows for Registered Investment Advisors (RIAs). The article appears to be a product announcement but the actual content is obscured by a Google cookie consent page. This represents a potential use case of AI in financial advisory services, specifically targeting tax strategy automation for wealth management professionals.
 
 **✗ 2.3** — [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery)  
 *OpenAI News* · 

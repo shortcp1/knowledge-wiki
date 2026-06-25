@@ -1,5 +1,5 @@
 ---
-tags: [4-bit-quantization, agentic-tasks, code-generation-agents, coding-benchmarks, coding-models, context-window, context-window-expansion, deepseek, dense-attention, energy-efficiency, external-memory-management, frontend-coding, glm-5.2, hybrid-transformer-mamba, indexshare, inference-efficiency, inference-optimization, inference-speed, latent-moe, long-context, long-context-processing, ma-activity, meta-learning, mixture-of-experts, model-fusion, mtp, multi-teacher-distillation, multi-token-prediction, nemotron-3-ultra, nvfp4, nvidia, open-source-models, open-weights, quadratic-complexity, read-evaluate-print-loop, recursive-language-models, rlm, sliding-window-attention, sparse-attention, speculative-decoding, subquadratic, test-time-training, tokens-per-second, transformer-architecture, ttt-e2e, weight-compression, weight-update]
+tags: [4-bit-quantization, agentic-ai, agentic-tasks, code-generation-agents, coding-benchmarks, coding-models, context-window, context-window-expansion, deepseek, dense-attention, energy-efficiency, external-memory-management, frontend-coding, glm-5.2, hybrid-transformer-mamba, indexshare, inference-efficiency, inference-optimization, inference-speed, latent-moe, long-context, long-context-processing, ma-activity, mamba-2, meta-learning, mixture-of-experts, model-fusion, mtp, multi-teacher-distillation, multi-token-prediction, nemotron-3-super, nvfp4, nvidia, open-source-models, open-weights, quadratic-complexity, read-evaluate-print-loop, recursive-language-models, rlm, sliding-window-attention, sparse-attention, speculative-decoding, subquadratic, test-time-training, tokens-per-second, transformer-architecture, ttt-e2e, weight-compression, weight-update]
 ---
 
 ## IndexShare for Speculative Decoding
@@ -26,48 +26,54 @@ tags: [4-bit-quantization, agentic-tasks, code-generation-agents, coding-benchma
 ### Computational Benefits Over Dense Attention
 - **Sparse attention** selects subset of token pairs to multiply, avoiding quadratic scaling
 - Enables longer context processing with fewer computations
-- Significantly reduces energy consumption
-- See [[model-architecture]] for technical comparison with dense attention
 
-### Known Implementations
-- **DeepSeek Sparse Attention**: Foundation for IndexShare extension
+## Multi-Token Prediction for Inference Speed
 
-## Recursive Language Models (RLMs)
+### Nemotron 3 Super Implementation
+**Model**: [[nemotron-3-super]] (March 2026, Nvidia)  
+**Performance**: ~442 output tokens per second (fastest open-weights in 120B class)
 
-**Introduced**: March 2026  
-**Developers**: MIT (Alex L. Zhang, Tim Kraska, Omar Khattab)  
-**Purpose**: Process inputs beyond context window limits by treating context as external variable
+#### Technical Mechanism
+- **MTP heads** integrated into hybrid mamba-2/transformer/MoE architecture
+- Predict multiple output tokens per forward pass
+- During inference: drafts tokens, verifies in single pass, keeps consistent tokens, discards inconsistent
+- Functions as built-in [[speculative-decoding]] mechanism
+- **Training benefit**: Encourages model to learn longer-range patterns
 
-### Core Architecture
-- Offloads prompts to external programming environment (Python REPL)
-- Root model generates code to manipulate context programmatically
-- Spawns submodel instances to handle subtasks iteratively
-- Context stored as persistent variables rather than in-context tokens
+#### Efficiency Synergies
+- Combined with mamba-2 layers (avoid quadratic attention complexity)
+- Works with [[latent-moe]] compression (1/4 token representation size before routing)
+- Enables 22 experts per token activation with ~5-6 expert equivalent processing cost
 
-### Technical Mechanism
-1. Task data loaded into Python interpreter as variable
-2. Root model inspects, chunks, and decomposes tasks via code generation
-3. Submodels process individual chunks according to root model instructions
-4. Intermediate results stored as variables and aggregated by root model
+### Comparison to Other MTP Approaches
+- [[glm-5.2]] uses IndexShare (multi-token prediction for speculative decoding with sparse attention)
+- Nemotron 3 Super integrates MTP directly into architecture with mamba-2/attention hybrid
 
-### Implementations Tested
-- **RLM-Qwen3-8B** (32,768-token base context window)
-- **RLM-GPT-5** with medium reasoning (400,000-token base context window)
-- **RLM-Qwen3-Coder-480B** (256,000-token base context window)
+## Low-Precision Training for Inference Efficiency
 
-### Performance Characteristics
-- **BrowseComp+** (multi-document Q&A): RLM-GPT-5 achieved 91.3% accuracy vs. GPT-5 unable to answer due to context limits; outperformed summary agent at 70.5%
-- **OOLONG-PAIRS** (32K tokens): RLM-GPT-5 achieved 58% accuracy vs. GPT-5 near 0%; maintained ~50% accuracy even at 1M tokens
-- Successfully handles up to 11 million tokens total across multiple documents
-- Significantly outperforms retrieval-augmented and summarization approaches
+### NVFP4 Native Training
+**Implementation**: [[nemotron-3-super]]  
+**Approach**: Pretrained in NVFP4 (4-bit floating-point, native to Nvidia Blackwell architecture)
 
-### Advantages Over Alternative Approaches
-- **vs. Retrieval methods**: Avoids losing critical details through selective retrieval
-- **vs. Summarization**: Preserves information that may be compressed away
-- **vs. Direct long-context processing**: Reduces hallucination and detail loss in ultra-long contexts
-- Enables decomposition of complex tasks before holistic processing
+#### Benefits
+- Model learns to operate with reduced precision during training
+- Avoids accuracy loss from post-training quantization
+- Direct compatibility with hardware acceleration
+- Related to [[hifloat4]] format approaches
 
-### Relationship to Other Techniques
-- See [[agentic-workflows-production]] for agentic framework architecture
-- Complements but differs from sparse attention approaches (algorithmic vs. architectural solution)
-- Alternative to context window expansion strategies in [[model-architecture]]
+**Contrast**: Traditional approach quantizes models after training, potentially degrading performance
+
+## Mamba-2 for Subquadratic Scaling
+
+### Computational Properties
+**Used in**: [[nemotron-3-super]] (majority of layers)
+
+#### Efficiency Characteristics
+- Compresses earlier context into compact representation at each step
+- **Avoids quadratic scaling** with input length (unlike standard attention)
+- Enables processing of million-token contexts efficiently
+
+#### Architectural Trade-offs
+- **Weakness**: Struggles with precise retrieval from distant input parts
+- **Solution**: Selective interleaving of attention layers for tasks requiring long-range precision
+- Hybrid approach balances efficiency with capability
