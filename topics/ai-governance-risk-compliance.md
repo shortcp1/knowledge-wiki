@@ -1,5 +1,5 @@
 ---
-tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-execution-limits, agent-governance, agent-governance-architecture, agent-identity, agent-identity-standards, agent-liability, agent-policy-enforcement, agent-vulnerabilities, agentic-commerce, agentic-commerce-governance, agentic-orchestration, agentic-vulnerabilities, ai-governance-risk-compliance, ai-guardrails, ai-insurance, ai-security, authorization-context, automated-adversarial-testing, automated-red-teaming, autonomous-agent-governance, cio-governance-priorities, clearinghouse-architecture, common-crawl, compliance-stack, content-classifiers, culturax, dual-use-content-classification, enterprise-moats, export-controls, fraud-detection, frontier-model-forum, governance-as-competitive-advantage, governance-as-moat, gray-swan-events, guardrails, intent-verification, language-specific-bias, liability-models, misuse-classifier, misuse-detection, multi-agent-governance, mythos-export-control, national-security, national-security-ai, nnsa, nuclear-safeguards, payment-governance, policy-enforcement, prompt-injection, public-private-partnership, public-private-partnerships, red-teaming, responsible-ai, risk-signal-evolution, state-media-bias, switching-costs, systems-of-record, training-data-composition, transaction-authorization]
+tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-execution-limits, agent-governance, agent-governance-architecture, agent-identity, agent-identity-standards, agent-liability, agent-policy-enforcement, agent-vulnerabilities, agentic-commerce, agentic-commerce-governance, agentic-orchestration, agentic-vulnerabilities, ai-governance-risk-compliance, ai-guardrails, ai-insurance, ai-security, asset-classification, authorization-context, automated-adversarial-testing, automated-red-teaming, autonomous-agent-governance, cio-governance-priorities, clearinghouse-architecture, common-crawl, compliance-stack, content-classifiers, culturax, data-governance, deterministic-rules, dual-use-content-classification, enterprise-moats, export-controls, fraud-detection, frontier-model-forum, governance-as-competitive-advantage, governance-as-moat, gray-swan-events, guardrails, human-in-the-loop, human-in-the-loop-governance, hybrid-governance, intent-verification, language-specific-bias, liability-models, llm-for-compliance, llm-governance-tools, misuse-classifier, misuse-detection, multi-agent-governance, mythos-export-control, national-security, national-security-ai, nnsa, nuclear-safeguards, payment-governance, policy-enforcement, privacy-aware-infrastructure, privacy-controls, prompt-injection, public-private-partnership, public-private-partnerships, red-teaming, responsible-ai, retention-policies, risk-signal-evolution, rule-distillation, state-media-bias, switching-costs, systems-of-record, training-data-composition, transaction-authorization]
 ---
 
 # AI Governance, Risk & Compliance
@@ -16,59 +16,91 @@ tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-
 **New Enterprise Buying Questions**:
 - Old: "Is the model good?" (capability-focused)
 - New: "Can I see what every agent did, set policy on what it can touch, and prove it afterward?" (governance-focused)
-- Assumption: All models are "good enough" - differentiation is control and visibility
+- Assumption: All models are "good enough" - differentiation is c
 
-### Four Governance Dim
+## Privacy-Aware Infrastructure (Meta AI, June 2026)
 
-## Mythos Export Controls (June 2026)
+### Core Challenge: Asset Classification at Scale
 
-**US Government Action**: Export control directive issued on Mythos and Fable models
-- Brings prompt injection and jailbreak risks into mainstream policy discussion
-- Gray Swan cited as authority on Mythos model card
-- Investigated exact capabilities under export control scrutiny
+**Privacy Control Dependency**: Privacy controls (retention, access, allowed-purpose, downstream-sharing, anonymization) require reliable understanding of data before enforcement can operate.
 
-**Policy Impact**: Elevated AI security from technical concern to national security consideration
+**AI-Native Complexity Factors**:
+- New data modalities (embeddings, multimodal inputs)
+- Faster iteration cycles
+- Derived features across pipeline transformations
+- Changing policy interpretations
+- Volume/pace exceeds manual review capacity
 
-## AI Insurance and Compliance Stack (Gray Swan, June 2026)
+### PAI Four-Layer Stack (Dependency Pyramid)
 
-**Emerging Industry Structure**:
-- AI security becoming integrated into insurance and compliance frameworks
-- Gray Swan positioning guardrails and red-teaming as compliance infrastructure
-- Recognition that first major AI prompt-injection breach may be inevitable ("gray swan event")
+1. **Understand**: Asset classification (foundation layer)
+2. **Discover**: Identify policy-relevant data flows
+3. **Enforce**: Apply retention/access/purpose/sharing constraints
+4. **Demonstrate**: Provide verifiable compliance evidence
 
-**Enterprise Requirements**:
-- Policy enforcement through guardrails (see [[Cygnal]])
-- Audit trails and proof of security measures
-- Red-teaming as compliance demonstration
+*Critical dependency*: Errors in classification layer propagate to all downstream controls.
 
-**Insurance Implications**:
-- Security tooling as risk mitigation for underwriting
-- Compliance documentation through automated testing
-- Pre-breach posture assessment
+### Asset Classification Scope
 
-## Gray Swan Events in AI Security
+**Asset Types**:
+- Tables, columns, nested payload fields
+- Log keys, event parameters, API fields
+- ML features, embeddings, derived datasets
+- Data across pipeline transformations
 
-**Definition**: Events that everyone can see coming but may still occur
-- Contrasts with "black swan" (unexpected) events
-- Applied to AI: major prompt-injection breach is visible risk but potentially inevitable
+**Ambiguity Example**: Field named "age" could be:
+- Personal data (person's age) → strict protections required
+- System metadata (cache TTL) → no privacy controls
+- *Implication*: Field name alone insufficient for governance decisions
 
-**Characteristics**:
-- Unlikely but clearly visible before occurrence
-- Known vulnerability classes (prompt injection, agent exploitation)
-- Despite tooling and awareness, breaches may be unstoppable at scale
+### Meta's Hybrid Classification Pattern
 
-**Security Posture**: Industry in "staving off the inevitable" mode despite extensive tooling
+**Architecture Principle**: "LLMs are not the production decision-maker in common cases."
 
-## Agent-Native Security Challenges
+**Four-Component Approach**:
 
-**New Vulnerability Class**:
-- Agents introduce fundamentally different security model from traditional software
-- "AI security is not just 'cybersecurity with AI'" (Kolter/Fredrikson)
-- Computer-use agents (e.g., OpenClaw) create "agent security nightmare"
+1. **Rich Context Assembly**: Gather distributed context (code, lineage, ownership, semantic annotations, documentation, usage patterns) before model reasoning
 
-**Enterprise Deployment Requirements**:
-- Agent-native identity systems (see [[agent-identity]])
-- Permission models designed for autonomous systems
-- Cannot rely on "just prompt it better" for security
+2. **LLM Role** (narrow and deliberate):
+   - Handle ambiguity, cold start scenarios, novel assets
+   - Generate recommendations (not production decisions)
+   - Interpret ambiguous signals
 
-**Related Architecture**: See [[agentic-workflows-production]] for clearinghouse pattern addressing these challenges
+3. **Human Review Layer**:
+   - Human-reviewed labels kept separate from model-generated recommendations
+   - Humans adjudicate reference labels
+   - Humans review and approve rule promotions that change enforcement
+
+4. **Rule Distillation**:
+   - Extract stable behavior into deterministic, versioned rules
+   - Rules handle routine enforcement (low latency, replayable, auditable)
+   - LLM role shrinks over time as rule coverage expands
+
+**Design Goal**: Learn from ambiguous signals while moving production enforcement toward deterministic logic.
+
+### Four Recurring Classification Challenges
+
+1. **Noisy/Weak Signals**:
+   - Dozens of context fields per asset
+   - High token usage dilutes attention
+   - Decision boundaries buried in irrelevant/misleading fields
+   - Example: "age" field without code resolution triggers false restrictions
+
+2. **Distributed Context**:
+   - Relevant context scattered across systems
+   - Requires assembly before classification
+
+3. **Evolving Requirements**:
+   - Product teams iterate quickly
+   - Policy interpretation changes with new capabilities
+   - Static rules/periodic review leave gaps
+
+4. **Enforcement Consequences**:
+   - False positive → unnecessary downstream restrictions
+   - False negative → protection gaps
+   - Classifier sits early in enforcement pipeline (error amplification risk)
+
+### Cross-References
+
+- [[ai-engineering-agents]]: Asset classification for AI-generated features/embeddings
+- [[ai-native-product-design]]: Fast iteration cycles impact governance systems

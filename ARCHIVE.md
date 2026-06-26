@@ -705,7 +705,128 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-26
+
+**✗ 2.3** — [10](https://www.deeplearning.ai/the-batch/page/10)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #deeplearning_ai #the_batch
+> This is a navigation/index page for The Batch newsletter showing headlines and brief introductions from issues published between September-November 2023. The page provides no actual article content, only teaser text and titles for multiple newsletter issues covering various AI news topics. It serves as an archive listing rather than substantive content.
+
+**✗ 2.3** — [12](https://www.deeplearning.ai/the-batch/page/12)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_index #chatgpt #llm_landscape #generative_ai
+> This is a table of contents page listing newsletter issues from The Batch (DeepLearning.AI) spanning February to April 2023, with brief topic summaries for each issue. The page provides headlines covering various AI developments including LLM competition, ChatGPT controversies, GPT-4 launch, and regulatory issues. This is purely navigational content with no substantive analysis or original insights.
+
+**✓ 6.0** — [Inside Jalapeno Openais First Inference Chip](https://www.deeplearning.ai/the-batch/inside-jalapeno-openais-first-inference-chip)  
+*The Batch (DeepLearning.AI)* · inference-efficiency · gpu-architecture-training-infra · agentic-workflows-production
+#custom_inference_chips #model_routing #swe_bench #slack_integration
+> OpenAI and Broadcom announced Jalapeño, OpenAI's first custom inference chip that went from design to tape-out in nine months using AI-accelerated design, targeting better performance per watt than current accelerators. The article also covers Sakana AI's Fugu model-routing system that beats individual models on SWE-Bench Pro by orchestrating multiple foundation models, and Anthropic's Claude Tag for persistent Slack-based AI collaboration. These announcements collectively signal a shift toward vertical integration (custom silicon), hedging against vendor lock-in (model routing), and enterprise workflow integration (async AI teammates).
+
+**✗ 1.3** — [Decision 1 Posture](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-1-posture/)  
+*Bain Insights* · 
+#ai_strategy #decision_framework #enterprise_consulting
+> This appears to be a navigation page or site structure for Bain & Company's content on AI decision-making frameworks. The page contains primarily navigation menus, office locations, and minimal substantive content beyond a heading 'Decision 1: Posture' and related topics. There is no actual analysis, framework explanation, or actionable content provided in the extracted text.
+
+**✗ 2.7** — [Decision 2 Domain Focus](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-2-domain-focus/)  
+*Bain Insights* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#enterprise_ai #implementation_framework #domain_selection
+> This appears to be a navigation page from Bain & Company's website about AI implementation decisions, specifically regarding domain focus as one decision point in their framework. The article provides no actual content, analysis, or insights—only navigation elements and menu structure. This is not substantive content but rather a landing page or framework overview without detail.
+
+**✗ 3.0** — [Decision 3 Proprietary Data](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-3-proprietary-data/)  
+*Bain Insights* · data-moats-proprietary-advantages · build-vs-buy-enterprise-ai
+#proprietary_data #enterprise_ai_strategy #consulting_framework
+> This appears to be a navigation page or section header from a Bain consulting framework about turning AI into 'Proprietary Intelligence' through seven decision points including proprietary data. The article contains only navigation elements and menu structure without actual content about proprietary data strategies, implementation approaches, or case studies. Without substantive content, it provides no actionable insights or analysis on how enterprises should approach proprietary data for AI advantage.
+
+**✓ 6.0** — [[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.](https://www.latent.space/p/ainews-openai-reports-median-internal)  
+*Latent Space* · ai-in-product-and-engineering · ai-in-customer-success-support · ai-in-legal-compliance
+#codex #token_usage #enterprise_adoption #internal_tooling
+> OpenAI's internal Economic Research reveals that median Codex output token usage grew dramatically across departments from November 2025 to June 2026, with Research seeing 56x growth, Customer Support 32x, Engineering 27x, and Legal 13x. The data shows that even OpenAI employees with unlimited access were significantly underusing AI tools until late 2025, suggesting adoption barriers beyond cost or access. This internal usage data provides a real-world baseline for enterprise AI adoption patterns and contradicts concerns about excessive token usage.
+
 ## 2026-06-25
+
+**✓ 8.0** — [Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study](https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/)  
+*Meta AI / FB Engineering* · ai-governance-risk-compliance · ai-engineering-agents · ai-native-product-design
+#privacy_aware_infrastructure #asset_classification #data_governance #llm_for_compliance
+> Meta describes their hybrid approach to asset classification for privacy-aware infrastructure, combining LLMs for handling ambiguous/novel cases with deterministic rules for production enforcement at scale. They build rich context before using LLMs to interpret data assets (tables, embeddings, API fields), then distill stable patterns into human-reviewed versioned rules that gradually reduce LLM involvement in production. This matters because AI-native products create new data modalities and faster iteration that manual review cannot match, requiring automated systems that can learn from ambiguity while maintaining auditability and precision for privacy enforcement.
+
+**✗ 4.7** — [AI and Liability](https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything)  
+*Simon Willison* · ai-governance-risk-compliance · regulatory-policy
+#ai_liability #ai_governance #legal_accountability #ai_overviews
+> This link blog post summarizes Bruce Schneier's commentary on a German ruling holding Google liable for AI-generated content errors, arguing that AI agents should be treated as legal agents of the organizations deploying them. Schneier contends that allowing companies to avoid liability for AI errors would create perverse incentives to replace human workers with AI to escape accountability. The post raises questions about legal frameworks for AI-generated content but provides no original analysis beyond quoting Schneier.
+
+**✗ 1.0** — [datasette-export-database 0.3a2](https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything)  
+*Simon Willison* · 
+#datasette #python_packaging #dependency_management
+> This is a minor patch release (0.3a2) of datasette-export-database that fixes a dependency pinning issue in pyproject.toml. The plugin had incorrectly pinned to a specific Datasette version (==1.0a27) instead of allowing any version >=1.0a27, causing compatibility problems. This is a trivial maintenance update with no substantive technical content or analysis.
+
+**✗ 1.7** — [Arca Raises $64M for AI Wealth Platform - Wealth Management](https://news.google.com/rss/articles/CBMiigFBVV95cUxObnBKTVBUcEprMmdaTGlhWEY2d0dydHFTdHpRdnFHMmlkMjdTMTNLTzYwXzZsT3hWdmJwRmtoazVDSUFFV0twZXBGZmpBVnAyWklVRVNuMVBQV2djZHQ2Yk94WE1scEJ4WjltWmhZWVJnd2pLYXpOMXZGNWs4V0tmTmRmWDhma2xjYnc?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#funding #wealth_management #ai_platform
+> The article appears to announce that Arca has raised $64M in funding for an AI-powered wealth management platform. No actual content is provided beyond the title, as the text consists entirely of Google's cookie consent dialog. Without access to the actual article content, no substantive analysis, data, or insights can be evaluated.
+
+**✗ 1.0** — [Accenture’s $7.5B Buyback and Mid-Market Pivot Aim to Arrest a 50% Slide - Ad-hoc-news.de](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMDVWbVJJSWxCU0tIbEtNaTdtbVNISkxyeXNELXlYTGZ1Z3FxYktROGtPNVZFY0hyLTJEU3RPcUM0MWQ3V2ZGcVJjcWZrQUx6Rjc3N1NRaXNXbFpjMDg3S3ZlNWN2VXBQS3N0OV9ERWZDNGtSWVZxUzE0dFd1OW9RbTZCaXRlUXJERk5wMFlaUjFrMU5nbTY4WFpvZGt3QTBrYXlxdk5QWFRqM2JuSmVNUTE1ajRteHlCMVZSYkFvWk4?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+> This appears to be a Google cookie consent page rather than an article about Accenture's buyback and strategy. No actual content about Accenture's $7.5B buyback, mid-market pivot, or stock performance is present in the provided text. The article text consists entirely of Google's standard privacy and cookie policy language.
+
+**✗ 3.3** — [Repositioning retail for the AI era](https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/)  
+*MIT Technology Review* · ai-in-operations
+#retail_ai #search_personalization #conversational_commerce #ai_first_architecture
+> This article describes how Macy's is adopting an "AI-first" approach by embedding intelligence into search, personalization, inventory, and software development rather than layering AI onto existing workflows. The key mechanism involves moving from isolated AI pilots to integrated systems that compress the time between customer signals and business actions, with early wins in search recommendations building momentum for broader deployment. The piece represents a high-level case study of operational AI adoption in retail but offers limited technical depth or novel insights beyond general principles.
+
+**✗ 4.3** — [Arca Raises $64 Million To Build AI-Native Wealth Management Platform - Pulse 2.0](https://news.google.com/rss/articles/CBMi3AJBVV95cUxNendhd2NzRVFUNWcwcjJEa0FXaHdtalRqSnVOdzJubWNYQVhCbWpJQ1ZHSXF2ckV1RllHX3dERHBFNFdWbll2ODNOa2FNa21icnBhM2VRRzB0RWswaHJ0dEdxUWdibTY2RkhUQVlZbk15djg5OXZsbF9XbGJ1NFlFWUZ0ejZ6MnU4VFZHS0I4V014TDJMZDdYOWo1OVRIWWpVaFU3UkZBQmttSkdUOVpVOUNnNnJXOGJtTnBTbmZtUXpMcWlaSTF0MFZTYi12WmJRbms1UmNCN0hMWDQ1c0ctRlBLV1hWdnVQVUNTb1R5U0xsLXRWeU9aUkFRNmkyNDdQaUkzS2lKLXRLS3BGaWwwaERwVHp6RW9KVHI5dWFqWnlaVnpDYlp2aGk4MGRCRl9SbEpyNkptOUdEWDQwNkhFQTRLVXNmT1hPVWEwYnBBVFZSaUE2U1NsX0Roa0fSAdwCQVVfeXFMTXp3YXdjc0VRVDVnMHIyRGtBV2h3bWpUakp1Tncybm1jWEFYQm1qSUNWR0lxdnJFdUZZR193RERwRTRXVm5ZdjgzTmthTWttYnJwYTNlUUcwdEVrMGhydHRHcVFnYm02NkZIVEFZWW5NeXY4OTl2bGxfV2xidTRZRVlGdHo2ejJ1OFRWR0tCOFdNeEwyTGQ3WDlqNTlUSFlqVWhVN1JGQUJrbUpHVDlaVTlDZzZyVzhibU5wU25mbVF6THFpWkkxdDBWU2ItdlpiUW5rNVJjQjdITFg0NXNHLUZQS1dYVnZ1UFVDU29UeVNMbC10VnlPWlJBUTZpMjQ3UGlJM0tpSi10S0twRmlsMGhEcFR6ekVvSlRyOXVhalp5WlZ6Q2JadmhpODBkQkZfUmxKcjZKbTlHRFg0MDZIRUE0S1VzZk9YT1VhMGJwQVRWUmlBNlNTbF9EaGtH?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #funding #ai_native_platform
+> Arca has raised $64 million in funding to build an AI-native wealth management platform. The article provides only the headline announcement without details about the technology, approach, or specific AI capabilities being developed. This is a funding announcement that signals market activity in AI wealth management but lacks substantive information about implementation or innovation.
+
+**✗ 1.7** — [CXAI Introduces CXAI 2.0: The Agentic Operating Layer for Enterprises of All Sizes - The Globe and Mail](https://news.google.com/rss/articles/CBMigAJBVV95cUxNQTBrYVF6N19KQU1FTXpxYW9aS0RIbDEtdHlRNDB2ZFhhNm0xYnlkY1ZfMVgzSjdiaFNCejFieUczclVIdWltZHVRUTNYZUZfa2ZkcE1IbzRYdmljckpNM0pQeEYwUHhFVmUwMWZRSGUzOUkyUlJZa1Yzc2pGZkwzNHdyNUo1cEpjMDhyOGRDMXI3WXpaQ0EwQ3NEOERvQ2pIZ1dTcnlqeU12dE45emcxdXZwWHZRWGYtTktvMFdaNS0zVGFEcmhMeGEwWlFrb1E0eXBvaGhvUmRVM3NZbkYxTW8zdGh3NzZHVGtSUzdqYU9yR0dTeXN2b01Ld1lvNHR1?oc=5)  
+*GN: AI Mid-Market Enterprise* · agentic-workflows-production · build-vs-buy-enterprise-ai
+#agentic_layer #enterprise_ai #product_announcement
+> The article appears to announce CXAI 2.0 as an 'agentic operating layer' for enterprises, but the actual content provided is only a Google cookie consent page with no substantive information. No evidence, claims, data, or analysis about the product, its capabilities, or enterprise AI deployment are accessible. This represents a content retrieval failure rather than actual article content.
+
+**✗ 1.7** — [Arca Raises $64 Million to Revolutionize and Humanize Wealth Management at Scale - Business Wire](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWXhPWGNLRnZSUklSLVhfRVJBN2ZUWHJwX0FGX3VQcndNWjA0MHNmdTVJUlpQZENxcENFSlNpQy1ZMS02STdQMTN0UE0tU1VjN1dQLW80VmVOc245UXVWRUNxWUVRY2t1TmhSRTMzbXNaNmNuWkZoQmZWeTE2WThybXhfVmR1bF9kY21jeHd1WTBiNG0zYVRyUFI2bklKUl82c2NqNG03TnN2ckpoM0U0ZU1KR2MtMnlvZGEtSV9SQW4tSmtod0JMb0NYZXpxZzI5R0VaWlN3?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #funding #fintech
+> This appears to be a Business Wire press release about Arca raising $64 million for AI-powered wealth management, but the actual article content is blocked by a Google cookie consent page. Without access to the substantive content about Arca's technology, approach, or specific innovations in wealth management, no meaningful analysis of depth, novelty, or specific claims can be performed. The title suggests relevance to AI wealth management, but the missing content prevents evaluation of what makes their approach novel or how they plan to 'humanize' wealth management at scale.
+
+**✗ 3.0** — [The Download: Europe’s heat wave hits the grid, and IBM’s chip targets Moore’s Law](https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/)  
+*MIT Technology Review* · semiconductor-supply-chain
+#moores_law #chip_density #vertical_stacking #model_distillation
+> This is a newsletter digest covering multiple brief technology news items, including IBM's new chip with 100 billion transistors using vertical stacking to extend Moore's Law, Europe's heat wave straining power grids, and Anthropic's claims about Alibaba distilling Claude's capabilities. Each story receives only 2-3 sentences of coverage with no original analysis or investigation. The brief, surface-level treatment of diverse topics provides news awareness but no depth or actionable insights.
+
+**✗ 3.0** — [The on-chain credit card: Stablecoin credit moves from experiment to infrastructure](https://tearsheet.co/payments/the-on-chain-credit-card-stablecoin-credit-moves-from-experiment-to-infrastructure/?utm_source=rss&utm_medium=rss&utm_campaign=the-on-chain-credit-card-stablecoin-credit-moves-from-experiment-to-infrastructure)  
+*Tearsheet (fintech)* · 
+#stablecoin_credit #blockchain_payments #tokenized_collateral #fintech_infrastructure
+> The article reports on fintech developments where Coinbase, Visa, and blockchain infrastructure firms are launching credit card programs backed by stablecoin balances rather than traditional bank deposits. The key mechanism is using tokenized dollar holdings as collateral for credit lines, allowing users to spend without routing through bank accounts. This represents a shift in how payments infrastructure could work outside traditional banking rails, though the article notes three unspecified harder questions remain.
+
+**✓ 8.0** — [🔮 The state of the AI economy](https://www.exponentialview.co/p/the-state-of-the-ai-economy)  
+*Exponential View (Azeem Azhar)* · funding-and-market-structure · build-vs-buy-enterprise-ai · ai-b2b-saas
+#ai_revenue_measurement #demand_side_economics #hyperscaler_ai_revenue #ai_market_size
+> Exponential View constructed the first bottom-up, deduplicated measure of the generative AI economy, finding $110 billion in trailing 12-month revenue and a $175+ billion annualized run rate. The methodology tracks end-customer spending across the full stack using proprietary financial models of private AI companies and hyperscaler AI segments, avoiding double-counting in the supply chain and excluding internal uplift, professional services, and Chinese revenue. This provides critical demand-side visibility into whether AI infrastructure investments are supported by actual revenue, addressing the fundamental question of AI market sustainability.
+
+**✗ 3.0** — [When Clients Would Rather Feel More Financially Successful Than Take Action To BE More Successful: Kitces & Carl 193](https://feeds.feedblitz.com/~/958404839/0/kitcesnerdseyeview~When-Clients-Would-Rather-Feel-More-Financially-Successful-Than-Take-Action-To-BE-More-Successful-Kitces-Carl/)  
+*Kitces.com* · 
+#client_behavior #financial_planning #behavioral_finance #client_communication
+> This article argues that financial advisory clients often derive satisfaction from feeling financially responsible (having a plan and advisor) without taking implementation actions, and that advisors must navigate the gap between perceived progress and actual behavior change. The key mechanism identified is using communication strategies like scaling questions to diagnose client readiness and address hidden reluctance to act. This matters for understanding client psychology in advisory relationships, but focuses on human financial planning rather than AI applications in financial services.
+
+**✗ 3.0** — [What Europe’s heat wave means for the power grid](https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/)  
+*MIT Technology Review* · 
+#climate_change #power_grid #nuclear_power #air_conditioning
+> The article reports on how European heat waves are straining power grids through both reduced generation capacity (nuclear plants shutting down due to high cooling water temperatures) and increased demand from rising air-conditioning adoption. It explains that Europe's historically winter-peaked demand is shifting toward summer peaks as AC adoption grows from ~20% currently, forcing utilities to adapt maintenance schedules and cross-border power purchases. The piece argues this represents a climate adaptation challenge that will intensify, particularly with El Niño patterns expected in 2027.
+
+**✗ 1.7** — [Enterprise AI Budgets: 5-Driver Audit Finds Up to 65% of Spend Recoverable - Tech Times](https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDl2N1hQblFVZnFHellxOTNsR1BER1VmRFhLWllKSjBZTFNiSklCYzBrLUs3QUdYbWh1NmlXcFlzbnUtN3BMMDRpNFJ6bUhoczUtV0hGS1U4eUhaT3BNN1puSmk2TFd6ZC1DWjU4Nm1RS1VwdzdOdWV4cUVYZy1SbFAyZWd4MEd2dVNoVGNQeVh4UnNBdnIzR0hDcmRyNXpzdUw2VFk0Y3NmbWxUTVd5Zk1nTmJyc2k0c3c?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-finance-accounting · build-vs-buy-enterprise-ai
+#enterprise_ai_budgets #cost_optimization #ai_spend
+> The article appears to discuss enterprise AI budget optimization, claiming up to 65% of AI spending may be recoverable through a 5-driver audit framework. However, the actual content provided is only a Google cookie consent page with no substantive article text. Without access to the real article content, it's impossible to evaluate the claims, evidence, or methodology presented.
+
+**✗ 5.7** — [AIUC-1: Building trust in AI agents](https://share.transistor.fm/s/e039d1ca)  
+*Practical AI (Changelog)* · ai-governance-risk-compliance · agentic-workflows-production · build-vs-buy-enterprise-ai
+#ai_agents #red_teaming #enterprise_certification #ai_insurance
+> The article discusses the AIUC-1 framework for building trust in AI agents through traditional enterprise risk management approaches including standards, certification, audit, and insurance. The key mechanism proposed is applying red teaming based on standards to secure agentic AI systems before widespread enterprise deployment. This matters because it addresses a critical blocker to enterprise AI adoption by creating a formal trust and risk mitigation framework similar to existing enterprise procurement processes.
+
+**✗ 4.7** — [[AINews] It's Meta-Harness Summer](https://www.latent.space/p/ainews-its-meta-harness-summer)  
+*Latent Space* · gpu-architecture-training-infra · inference-efficiency · agentic-workflows-production
+#custom_ai_chips #inference_hardware #meta_harnesses #agent_orchestration
+> This AINews roundup reports on OpenAI's announcement of Jalapeño, their first custom AI inference chip, alongside broader ecosystem shifts including Qualcomm's acquisition of Modular and Anthropic's Slack-native agent deployment model. The article presents community speculation about chip specifications (216GB HBM3E, ~10 PFLOPS FP4) and discusses the emergence of 'meta-harnesses' like Omnigent for standardizing agent orchestration across organizations. The significance lies in the vertical integration trend where frontier AI labs are moving toward owning their full hardware-software stack to reduce dependence on GPU suppliers and improve inference economics.
 
 **✗ 3.3** — [Issue 346](https://www.deeplearning.ai/the-batch/issue-346)  
 *The Batch (DeepLearning.AI)* · regulatory-policy
@@ -721,6 +842,16 @@ All articles scanned since the wiki started. Updated nightly.
 *The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · gpu-architecture-training-infra
 #mixture_of_experts #mamba_2 #multi_token_prediction #inference_speed
 > Nvidia released Nemotron 3 Super 120B-A12B, an open-source LLM that achieves 442 output tokens per second—the fastest open-weights model in its size class—using a hybrid architecture combining mamba-2, attention, and mixture-of-experts layers with multi-token prediction. The architecture uses LatentMoE compression to activate 22 experts per token at the computational cost of 5-6 experts, mamba-2 layers for efficient long-context processing, and was pretrained in NVFP4 4-bit format native to Blackwell GPUs. This represents the first U.S.-based open-weights leader since Meta's Llama 4, optimized specifically for agentic applications with tool calling, structured outputs, and reasoning modes.
+
+**✗ 3.0** — [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work)  
+*OpenAI News* · ai-engineering-agents · agentic-workflows-production
+#ai_agents #productivity #task_automation #openai_research
+> OpenAI announces a research paper claiming AI agents are enabling longer, more complex tasks and expanding productivity across work roles. No specific evidence, data, frameworks, or mechanisms are provided in this announcement. The piece serves as a high-level promotional statement about OpenAI's research without substantive detail.
+
+**✓ 7.7** — [Full Sail on Asynchronous Inference](https://www.tomtunguz.com/sail-inference-queue/)  
+*Tomasz Tunguz* · inference-efficiency · agentic-workflows-production · build-vs-buy-enterprise-ai
+#asynchronous_inference #fleet_orchestration #batch_inference #spot_capacity
+> The article argues that AI workloads are shifting from synchronous real-time inference to asynchronous, multi-turn agent workflows that can run for hours in queued batches, enabling massive cost savings. Sail Research's fleet-aware orchestration distributes requests across cheaper open models (like DeepSeek, Qwen, GLM) using spot capacity and queuing, achieving 6x lower cost per token compared to providers like Anthropic while maintaining multi-hour agent state. This architectural shift matters because as agents become background workers processing codebases, CRM data, and documents at scale, the majority of inference tokens will flow through asynchronous queues rather than real-time APIs.
 
 ## 2026-06-24
 
@@ -863,6 +994,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Tomasz Tunguz* · ai-governance-risk-compliance
 #ai_security #deepfakes #phishing #attack_surface
 > This is an announcement for an Office Hours session with Glean's CISO discussing security preparedness against AI-powered attacks including reconnaissance, phishing, deepfakes, and exploit generation. The session will cover how AI compresses attack timelines, erodes traditional detection signals, and requires new organizational responses. It's a promotional post for a future webinar rather than substantive analysis or research.
+
+**✓ 8.3** — [Scaling Laws, Carefully](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/)  
+*Lilian Weng* · model-architecture · gpu-architecture-training-infra
+#scaling_laws #power_law #compute_allocation #chinchilla_scaling
+> This article provides a comprehensive technical analysis of scaling laws in deep learning, examining how training loss decreases predictably with model size, dataset size, and compute following power-law curves, and reconciling different empirical findings (Kaplan vs Chinchilla). It traces the theoretical foundations from early Bayesian learning curve analysis through modern empirical studies, explaining the mathematical frameworks, methodological approaches, and the critical data-infinite versus data-limited regimes. This matters because scaling laws are fundamental to planning compute allocation and predicting training requirements for large language models, directly impacting infrastructure decisions and resource optimization strategies.
 
 ## 2026-06-23
 

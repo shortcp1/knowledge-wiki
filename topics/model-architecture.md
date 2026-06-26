@@ -1,37 +1,17 @@
 ---
-tags: [4-bit-quantization, activation-capping, agentic-ai, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-tasks, ai-coding-productivity, ai-lab-government-relations, ai-safety, aliasing-errors, anthropic, arcee-ai, ascend-npu, assistant-alignment, attention-mechanisms, audio-latency, automated-research, autonomous-coding, autoregressive-reasoner, benchmark-methodology, benchmark-performance, benchmark-vs-deployment, bert-architecture, block-generation, chaotic-systems, character-stability, claude-code, claude-fable-5, claude-mythos, code-generation-agents, coding-agents, coding-benchmarks, coding-models, common-crawl, composer, compositional-control, concurrent-processing, context-caching, context-length, context-window, context-window-expansion, cost-efficiency, culturax, cursor, cybersecurity-capabilities, data-retention-policy, deepseek, dense-attention, diffusion-generation, diffusion-models, diffusion-text-generation, diffusiongemma, encoder-decoder-architecture, encoder-free-architecture, encoder-free-early-fusion, encoder-free-fusion, energy-efficiency, evaluation-transparency, export-controls, external-context-management, external-memory-management, flow-matching-decoder, fluid-dynamics-simulation, frontend-coding, frontier-code-benchmark, frontier-model-competition, frontier-models, gated-attention, gemini, gemma, gemma-4, glm, glm-5.2, gpu-optimization, grouped-query-attention, hierarchical-mlp, hifloat4, hybrid-transformer-mamba, index-as-model, indexshare, inductive-bias, inference-efficiency, inference-optimization, inference-speed, inference-throughput, iterative-composition, iterative-evaluation, kimi, language-specific-bias, latent-moe, layer-outputs, llm-architecture, long-context, long-context-optimization, long-context-processing, low-precision-training, ma-activity, mamba-2, mamba-attention-hybrid, mamba-transformer-moe, meta-learning, meta-superintelligence-labs, mixture-of-experts, mixture-of-transformers, modality-processing, model-archi, model-architecture, open-weight-models, z.ai]
+tags: [4-bit-quantization, activation-capping, agentic-ai, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-tasks, ai-coding-productivity, ai-lab-government-relations, ai-safety, aliasing-errors, anthropic, arcee-ai, architecture-invariant-exponents, ascend-npu, assistant-alignment, attention-mechanisms, audio-latency, automated-research, autonomous-coding, autoregressive-reasoner, benchmark-methodology, benchmark-performance, benchmark-vs-deployment, bert-architecture, block-generation, chaotic-systems, character-stability, chinchilla-scaling, claude-code, claude-fable-5, claude-mythos, code-generation-agents, coding-agents, coding-benchmarks, coding-models, common-crawl, composer, compositional-control, compute-allocation, concurrent-processing, context-caching, context-length, context-window, context-window-expansion, cost-efficiency, culturax, cursor, cybersecurity-capabilities, data-retention-policy, data-scaling, deepseek, dense-attention, diffusion-generation, diffusion-models, diffusion-text-generation, diffusiongemma, encoder-decoder-architecture, encoder-free-architecture, encoder-free-early-fusion, encoder-free-fusion, energy-efficiency, evaluation-transparency, export-controls, external-context-management, external-memory-management, flow-matching-decoder, fluid-dynamics-simulation, frontend-coding, frontier-code-benchmark, frontier-model-competition, frontier-models, gated-attention, gemini, gemma, gemma-4, generalization-error, glm, glm-5.2, gpu-optimization, grouped-query-attention, hierarchical-mlp, hifloat4, hybrid-transformer-mamba, index-as-model, indexshare, inductive-bias, inference-efficiency, inference-optimization, inference-speed, inference-throughput, iterative-composition, iterative-evaluation, kaplan-scaling-laws, kimi, language-specific-bias, latent-moe, layer-outputs, llm-architecture, long-context, long-context-optimization, long-context-processing, low-precision-training, ma-activity, mamba-2, mamba-attention-hybrid, mamba-transformer-moe, meta-learning, meta-superintelligence-labs, mixture-of-experts, mixture-of-transformers, modality-process, model-architecture, model-capacity, model-size-optimization, power-law, power-law-scaling, scaling-laws, training-compute]
 ---
 
-## GLM 5.2
+## Power-Law Scaling Properties
 
-**Developer:** Z.AI  
-**Model Type:** Open-weight coding model  
-**Release Date:** ~June 2026
+Model architecture influences the offset ($E$, irreducible loss) of power-law scaling curves but appears not to affect the power-law exponent ($\alpha$). The slope of the power law appears to be a property of the problem domain rather than the model architecture (Hestness et al. 2017).
 
-### Architecture
-- Open-weight model (weights available but not fully open source)
-- Optimized for coding tasks
+### Architecture-Invariant Scaling
 
-### Benchmark Performance
-- Evaluated on [[coding-benchmarks]] including SWE-Bench Pro
-- Additional evaluation on Frontier Suite and Post-Train Bench benchmarks
+Across four deep learning domains (neural machine translation, image classification, language modeling, speech recognition), architecture changes shift the error curve vertically but preserve the power-law exponent. This suggests that fundamental scaling properties are domain-specific rather than architecture-specific.
 
-### Integration
-- Compatible with [[cursor]] IDE via OpenRouter
-- Compatible with [[claude-code]] via OpenRouter
-- Available through OpenRouter API
+### Model Capacity and Data Regime
 
-### Cost Efficiency
-- Field test: ~6 million tokens for $3.36 (approximately $0.56 per million tokens)
-- Significantly cheaper than [[anthropic]] Claude Opus for comparable coding tasks
+Small models exhibit loss plateaus when training data becomes large, indicating insufficient model capacity. The number of model parameters $N$ needed to fit a dataset of size $D$ scales as a power law. This relationship between model size and data size is critical for optimal compute allocation.
 
-### Real-World Performance Claims
-(Based on single user field test, June 2026)
-- Successfully completed codebase architecture audit on production Next.js application
-- Generated design-system-compliant UI redesign on first attempt
-- Executed 45-minute autonomous bug-hunting task integrating [[sentry]] errors and [[vercel]] logs
-- Produced usable output for production deployment
-
-**Note:** Performance claims based on limited field testing by individual developer. Independent benchmarking and broader evaluation needed for confidence levels.
-
-See also: [[ai-engineering-agents]], [[ai-in-product-and-engineering]]
+See [[scaling-laws]] for detailed power-law formulations and [[gpu-architecture-training-infra]] for compute considerations.

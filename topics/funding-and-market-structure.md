@@ -1,5 +1,5 @@
 ---
-tags: [ai-capex, ai-economy-measurement, ai-infrastructure-costs, anthropic-anthropic, bubble-indicators, capex-trends, cloud-services, colossus, compute-capacity, compute-capacity-growth, economic-strain, funding-and-market-structure, gdp-statistics, grok-5, industry-strain, inference-pricing, labor-substitution, market-fundamentals, neoclouds, quality-adjusted-output, revenue-growth]
+tags: [ai-capex, ai-economy-measurement, ai-infrastructure-costs, ai-market-size, ai-revenue-measurement, anthropic-anthropic, bubble-indicators, capex-trends, cloud-services, colossus, compute-capacity, compute-capacity-growth, demand-side-economics, economic-strain, funding-and-market-structure, gdp-statistics, grok-5, hyperscaler-ai-revenue, industry-strain, inference-pricing, infrastructure-investment, labor-substitution, market-fundamentals, neoclouds, quality-adjusted-output, revenue-growth, token-pricing]
 ---
 
 # Funding & Market Structure
@@ -9,6 +9,23 @@ Tracks where AI investment is flowing: foundation model funding rounds, AI appli
 Key questions tracked: Which layers of the AI stack are capturing the most value? How are valuations holding up relative to revenue multiples? Where is the next wave of AI infrastructure investment going?
 
 ## Key Claims
+
+### AI Economy Market Size & Growth (June 2025)
+- **Total AI revenue (deduplicated)**: $110 billion over trailing 12 months (Exponential View proprietary model, June 2025)
+- **Revenue run rate**: $175 billion annualized based on most recent month (June 2025)
+- **Growth velocity**: AI revenue growing ~3x faster than previous IT waves (mobile, Internet)
+- **Methodology note**: Deduplicated end-customer spend only. If customer pays $1 to Anthropic and Anthropic pays $0.50 to AWS for inference, counted as $1 (not $1.50) to avoid double-counting through supply chain.
+
+### What's Excluded from Market Measurements
+- **Internal AI uplift**: Improvements to existing recommendation systems (e.g., Meta/Google ad revenue gains from better targeting) not counted in headline figures
+- **Efficiency savings**: Internal productivity gains from AI tooling at tech companies excluded
+- **Professional services**: Systems integration and consulting spend not included (only direct AI product/service spend)
+- **China revenues**: Models exist but excluded from v1 report (June 2025)
+
+### Enterprise AI Adoption Stage (June 2025)
+- Stage characterization: Beyond occasional pilots, but still "early stages of scaling and deepening"
+- Executive sentiment: Half of surveyed CEOs believe their jobs depend on "getting AI right"
+- Investment trajectory: Senior executives across industries (industrials, insurance, finance, pharma in US/Europe) indicate plans to "invest more heavily in AI in the coming years"
 
 ### xAI Infrastructure Investment (2025)
 - **Colossus 2 timeline**: Site acquisition March 2025 (1M sqft warehouse + 100 acres in Memphis), cooling infrastructure operational August 2025.
@@ -21,39 +38,4 @@ Key questions tracked: Which layers of the AI stack are capturing the most value
 
 ### Infrastructure Construction Economics
 - **Speed premium**: xAI achieved 6-month build time for 200 MW vs. 15-month industry baseline (Oracle, Crusoe, OpenAI), suggesting significant competitive advantage in infrastructure deployment.
-- **Regulatory arbitrage**: Mississippi granted 12-month temporary permit waiver for gas turbine operation, enabling faster deployment than Tennessee regulatory environment.
-
-### Bubble Indicators Analysis (Exponential View, June 2026)
-Empirical framework tracking five indicators across 300 years of investment boom/bust cycles. Two indicators turning red = bubble conditions.
-
-#### Economic Strain: AMBER (entering red zone)
-- **AI capex**: $157.7B per quarter (Q1 2026), up 43% from $110B (Q3 2025)
-- **GDP percentage**: >1% of US GDP for first time, matching late-1990s telecom build-out peak
-- **Neocloud emergence**: Neocloud share of capex rose from 12% to 18%
-- **Projection**: Goldman Sachs estimates aggregate AI capex approaching $1T in 2027 (~$700B US portion would push indicator into red zone by end of 2027)
-- **Methodology note**: Uses trailing twelve-month numbers for both capex and GDP; quarterly basis shows similar amber status
-
-#### Industry Strain: RED (but improving trajectory)
-- **Definition**: Whether industry can afford investments relative to revenues
-- **Sector revenue**: $25B per quarter (Q1 2026), up from $13B (Q3 2025) using refined value-added methodology
-- **Methodology refinement**: Moved to value-added approach reducing double-counting across cloud/model-lab/application layers (original Q3 2025 figure was $25B under old method, $13B under new method)
-- **Capex/revenue gap**: Still in red zone but trending toward sustainability
-- **Forecast**: Should exit red zone by end of 2026 if revenue growth holds and capex doesn't revise upward
-
-#### Revenue Momentum: GREEN (improving contrary to expectations)
-- **Doubling time**: 0.73 years (Q1 2026)
-- **Growth trajectory**: Revenue growth accelerated rather than decelerated as forecast
-- **Robustness**: Even if revenue growth drops 75 percentage points for rest of year, indicator would remain green into 2027
-- **Market interpretation**: Maturing markets typically show slowing growth; acceleration indicates early-stage dynamics persist
-
-#### Other Indicators
-- Three additional indicators range from green to amber (specific metrics not detailed in source)
-
-#### Overall Assessment
-- **Conclusion**: AI boom, not bubble (1 of 5 indicators red; bubble requires 2 red indicators)
-- **Market context**: NASDAQ up 20% since September 2025
-- **Model releases**: ~170 AI models released September 2025 - June 2026
-- **Capability growth**: Best models handle tasks 4x longer than year-ago top performer
-- **Usage growth**: Quarterly token consumption tripled
-
-See also: [[lab-dynamics]] for foundation model lab revenue dynamics
+- **Regulatory arbitrage**: Mississippi granted 1

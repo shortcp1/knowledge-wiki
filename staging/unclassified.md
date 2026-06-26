@@ -988,3 +988,97 @@ This represents a shift from exclusive cloud partnerships to multi-cloud strateg
 - Originated from Berkeley AMPLab (Apache Spark)
 - Lakehouse thesis: Don't need separate data lake, warehouse, ML platform, and governance layer
 - Current mission: Operating system for enterprise agents
+
+---
+**Inside Jalapeno Openais First Inference Chip** (The Batch (DeepLearning.AI), 2026-06-26T02:00:46.949097+00:00)
+## Autonomous Biology Research System
+
+**Robin System** (Research announcement, June 2026):
+- Multi-agent AI system for fully automated experimental biology research
+- Capabilities: Hypothesis generation, experimental design, data analysis, interpretation
+- Architecture: Literature search agents + data analysis agents in closed loop
+- Example output: Identified Ripasudil (approved glaucoma drug) as therapeutic candidate for dry age-related macular degeneration
+- Represents "lab-in-the-loop" automation for biological research
+
+*Note: This content pertains to scientific research automation rather than production software systems, inference optimization, or GPU/chip architecture. May warrant dedicated topic file for scientific-research-automation or autonomous-research-agents.*
+
+## Video Generation Model Update
+
+**Seedance 2.5** (ByteDance, June 2026):
+- Upgrade focused on higher resolution output and extended video duration
+- Target users: Product visuals, social ads, portfolio work
+- New controls: Aspect ratio and duration tuning for platform-specific output
+- Benefit: Complete scene generation without mid-moment cuts; reduced need for upsampling and clip stitching
+
+*Note: Content relates to video generation models, not covered by existing topic files focused on inference efficiency, training infrastructure, or agentic workflows.*
+
+---
+**Scaling Laws, Carefully** (Lilian Weng, 2026-06-24T00:00:00+00:00)
+# Scaling Laws
+
+## Overview
+
+Scaling laws describe how training loss $L$ decreases predictably as model size $N$, dataset size $D$, and compute $C$ are scaled, following power-law curves that appear as straight lines on log-log plots.
+
+## Key Variables
+
+- $N$: Model size (parameter count)
+- $D$: Training dataset size (token count)
+- $C$: Training compute in FLOPs; $C \approx 6ND$ approximation
+- $E$: Irreducible loss
+- $L, \hat{L}(.)$: Test/training loss (strongly correlated)
+- $\epsilon$: Generalization error
+
+## Historical Development
+
+### Theoretical Foundations (Amari et al. 1992)
+
+Derived four types of learning curves using Bayesian approach and annealed approximation:
+
+1. **Deterministic algorithm, noiseless data, unique solution**: $\epsilon \sim c \cdot D^{-1}$
+2. **Deterministic algorithm, noiseless data, multiple solutions**: $\epsilon \sim c \cdot D^{-2}$ (faster learning as model learns optimal parameter manifold)
+3. **Deterministic algorithm, noisy data**: $\epsilon \sim c \cdot D^{-1/2}$ (noise makes learning harder)
+4. **Stochastic algorithm, noisy data**: $\epsilon \sim c \cdot D^{-1} + E$ (with irreducible loss $E$ from model capacity limits)
+
+General form: $\epsilon \sim c \cdot D^\alpha + E$ where $\alpha = -2, -1, -1/2$ and $E$ may be 0.
+
+### Empirical Studies
+
+#### Hestness et al. (2017)
+
+First large-scale empirical study across neural machine translation, image classification, language modeling, and speech recognition:
+
+**Key findings:**
+- Generalization error scales as power law across factors like data size
+- Model improvements shift error curve but preserve power-law exponent
+- Architecture changes offset ($E$) but not exponent ($\alpha$)
+- Power-law slope is a property of problem domain, not architecture
+- Model parameters $N$ needed to fit dataset $D$ scales as power law
+
+**Three-phase learning curve:**
+1. **Small-data region**: Minimal improvement over random guessing
+2. **Power-law region**: Observable power-law relationship
+3. **Irreducible-error region**: Performance plateau due to data noise or model limits
+
+#### Rosenfeld et al. (2020)
+
+Modeled error as joint function of model size $N$ and data size $D$ across diverse domains.
+
+## Practical Applications
+
+### Extrapolation Workflow
+
+Common practice: Fit scaling laws on small runs, then extrapolate to estimate token and compute requirements for larger models. This predictability enables resource planning for frontier model training.
+
+### Compute Allocation
+
+Scaling laws framework addresses optimal allocation of compute between:
+- Model size $N$ (parameters)
+- Dataset size $D$ (tokens)
+
+This optimization is critical for efficient use of training resources in [[gpu-architecture-training-infra]].
+
+## Cross-References
+
+- [[model-architecture]]: Architecture-specific scaling properties
+- [[gpu-architecture-training-infra]]: Compute requirements and FLOP calculations

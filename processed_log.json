@@ -22767,6 +22767,618 @@
       ],
       "status": "skipped",
       "skip_reason": "Article content is inaccessible due to cookie consent wall; only title and source metadata available for analysis, preventing meaningful evaluation of depth, novelty, or substantive claims."
+    },
+    "https://www.deeplearning.ai/the-batch/page/10": {
+      "title": "10",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-26T02:00:47.233120+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a navigation/index page for The Batch newsletter showing headlines and brief introductions from issues published between September-November 2023. The page provides no actual article content, only teaser text and titles for multiple newsletter issues covering various AI news topics. It serves as an archive listing rather than substantive content.",
+      "tags": [
+        "newsletter-archive",
+        "deeplearning-ai",
+        "the-batch"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a navigation/index page with no substantive content\u2014only headlines and teasers from multiple newsletter issues without actual analysis or reporting."
+    },
+    "https://www.deeplearning.ai/the-batch/page/12": {
+      "title": "12",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-26T02:00:47.100293+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a table of contents page listing newsletter issues from The Batch (DeepLearning.AI) spanning February to April 2023, with brief topic summaries for each issue. The page provides headlines covering various AI developments including LLM competition, ChatGPT controversies, GPT-4 launch, and regulatory issues. This is purely navigational content with no substantive analysis or original insights.",
+      "tags": [
+        "newsletter-index",
+        "chatgpt",
+        "llm-landscape",
+        "generative-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a table of contents/index page with no substantive content, original analysis, or actionable insights\u2014just headlines and navigation links to actual newsletter issues."
+    },
+    "https://www.deeplearning.ai/the-batch/inside-jalapeno-openais-first-inference-chip": {
+      "title": "Inside Jalapeno Openais First Inference Chip",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-26T02:00:46.949097+00:00",
+      "composite": 6.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 9,
+      "relevant_topics": [
+        "inference-efficiency",
+        "gpu-architecture-training-infra",
+        "agentic-workflows-production",
+        "model-architecture",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI and Broadcom announced Jalape\u00f1o, OpenAI's first custom inference chip that went from design to tape-out in nine months using AI-accelerated design, targeting better performance per watt than current accelerators. The article also covers Sakana AI's Fugu model-routing system that beats individual models on SWE-Bench Pro by orchestrating multiple foundation models, and Anthropic's Claude Tag for persistent Slack-based AI collaboration. These announcements collectively signal a shift toward vertical integration (custom silicon), hedging against vendor lock-in (model routing), and enterprise workflow integration (async AI teammates).",
+      "tags": [
+        "custom-inference-chips",
+        "model-routing",
+        "swe-bench",
+        "slack-integration",
+        "vendor-lock-in",
+        "performance-per-watt"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/ainews-openai-reports-median-internal": {
+      "title": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
+      "source": "Latent Space",
+      "date": "2026-06-26T01:12:30+00:00",
+      "composite": 6.0,
+      "depth": 4,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-in-customer-success-support",
+        "ai-in-legal-compliance",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "OpenAI's internal Economic Research reveals that median Codex output token usage grew dramatically across departments from November 2025 to June 2026, with Research seeing 56x growth, Customer Support 32x, Engineering 27x, and Legal 13x. The data shows that even OpenAI employees with unlimited access were significantly underusing AI tools until late 2025, suggesting adoption barriers beyond cost or access. This internal usage data provides a real-world baseline for enterprise AI adoption patterns and contradicts concerns about excessive token usage.",
+      "tags": [
+        "codex",
+        "token-usage",
+        "enterprise-adoption",
+        "internal-tooling",
+        "ai-utilization-rates",
+        "organizational-change-management"
+      ],
+      "status": "integrated"
+    },
+    "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/": {
+      "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
+      "source": "Meta AI / FB Engineering",
+      "date": "2026-06-25T22:30:51+00:00",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "ai-engineering-agents",
+        "ai-native-product-design",
+        "model-architecture",
+        "data-moats-proprietary-advantages"
+      ],
+      "content_type": "technical",
+      "summary": "Meta describes their hybrid approach to asset classification for privacy-aware infrastructure, combining LLMs for handling ambiguous/novel cases with deterministic rules for production enforcement at scale. They build rich context before using LLMs to interpret data assets (tables, embeddings, API fields), then distill stable patterns into human-reviewed versioned rules that gradually reduce LLM involvement in production. This matters because AI-native products create new data modalities and faster iteration that manual review cannot match, requiring automated systems that can learn from ambiguity while maintaining auditability and precision for privacy enforcement.",
+      "tags": [
+        "privacy-aware-infrastructure",
+        "asset-classification",
+        "data-governance",
+        "llm-for-compliance",
+        "human-in-the-loop",
+        "deterministic-rules"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything": {
+      "title": "AI and Liability",
+      "source": "Simon Willison",
+      "date": "2026-06-25T22:28:46+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This link blog post summarizes Bruce Schneier's commentary on a German ruling holding Google liable for AI-generated content errors, arguing that AI agents should be treated as legal agents of the organizations deploying them. Schneier contends that allowing companies to avoid liability for AI errors would create perverse incentives to replace human workers with AI to escape accountability. The post raises questions about legal frameworks for AI-generated content but provides no original analysis beyond quoting Schneier.",
+      "tags": [
+        "ai-liability",
+        "ai-governance",
+        "legal-accountability",
+        "ai-overviews",
+        "corporate-responsibility"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a brief link blog post with no original analysis, merely quoting another source's commentary on a legal ruling without providing deeper context, analysis, or actionable insights."
+    },
+    "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything": {
+      "title": "datasette-export-database 0.3a2",
+      "source": "Simon Willison",
+      "date": "2026-06-25T17:21:09+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a minor patch release (0.3a2) of datasette-export-database that fixes a dependency pinning issue in pyproject.toml. The plugin had incorrectly pinned to a specific Datasette version (==1.0a27) instead of allowing any version >=1.0a27, causing compatibility problems. This is a trivial maintenance update with no substantive technical content or analysis.",
+      "tags": [
+        "datasette",
+        "python-packaging",
+        "dependency-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a trivial software release note about a dependency version fix with no substantive content, analysis, or relevance to any target knowledge areas."
+    },
+    "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/": {
+      "title": "Repositioning retail for the AI era",
+      "source": "MIT Technology Review",
+      "date": "2026-06-25T14:22:59+00:00",
+      "composite": 3.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article describes how Macy's is adopting an \"AI-first\" approach by embedding intelligence into search, personalization, inventory, and software development rather than layering AI onto existing workflows. The key mechanism involves moving from isolated AI pilots to integrated systems that compress the time between customer signals and business actions, with early wins in search recommendations building momentum for broader deployment. The piece represents a high-level case study of operational AI adoption in retail but offers limited technical depth or novel insights beyond general principles.",
+      "tags": [
+        "retail-ai",
+        "search-personalization",
+        "conversational-commerce",
+        "ai-first-architecture",
+        "operational-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Sponsored content providing only surface-level description of AI adoption at Macy's without technical depth, novel frameworks, or specific implementation details that would inform strategic decisions."
+    },
+    "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/": {
+      "title": "The Download: Europe\u2019s heat wave hits the grid, and IBM\u2019s chip targets Moore\u2019s Law",
+      "source": "MIT Technology Review",
+      "date": "2026-06-25T12:10:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "semiconductor-supply-chain"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest covering multiple brief technology news items, including IBM's new chip with 100 billion transistors using vertical stacking to extend Moore's Law, Europe's heat wave straining power grids, and Anthropic's claims about Alibaba distilling Claude's capabilities. Each story receives only 2-3 sentences of coverage with no original analysis or investigation. The brief, surface-level treatment of diverse topics provides news awareness but no depth or actionable insights.",
+      "tags": [
+        "moores-law",
+        "chip-density",
+        "vertical-stacking",
+        "model-distillation",
+        "knowledge-extraction"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter format provides only brief news summaries without original analysis, depth, or actionable insights on any single topic."
+    },
+    "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/": {
+      "title": "What Europe\u2019s heat wave means for the power grid",
+      "source": "MIT Technology Review",
+      "date": "2026-06-25T10:00:00+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article reports on how European heat waves are straining power grids through both reduced generation capacity (nuclear plants shutting down due to high cooling water temperatures) and increased demand from rising air-conditioning adoption. It explains that Europe's historically winter-peaked demand is shifting toward summer peaks as AC adoption grows from ~20% currently, forcing utilities to adapt maintenance schedules and cross-border power purchases. The piece argues this represents a climate adaptation challenge that will intensify, particularly with El Ni\u00f1o patterns expected in 2027.",
+      "tags": [
+        "climate-change",
+        "power-grid",
+        "nuclear-power",
+        "air-conditioning",
+        "electricity-demand",
+        "energy-infrastructure"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on climate change impacts on power grids and does not substantively address any of the specified AI, semiconductor, or enterprise technology topics."
+    },
+    "https://www.latent.space/p/ainews-its-meta-harness-summer": {
+      "title": "[AINews] It's Meta-Harness Summer",
+      "source": "Latent Space",
+      "date": "2026-06-25T02:14:08+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "semiconductor-supply-chain"
+      ],
+      "content_type": "landscape",
+      "summary": "This AINews roundup reports on OpenAI's announcement of Jalape\u00f1o, their first custom AI inference chip, alongside broader ecosystem shifts including Qualcomm's acquisition of Modular and Anthropic's Slack-native agent deployment model. The article presents community speculation about chip specifications (216GB HBM3E, ~10 PFLOPS FP4) and discusses the emergence of 'meta-harnesses' like Omnigent for standardizing agent orchestration across organizations. The significance lies in the vertical integration trend where frontier AI labs are moving toward owning their full hardware-software stack to reduce dependence on GPU suppliers and improve inference economics.",
+      "tags": [
+        "custom-ai-chips",
+        "inference-hardware",
+        "meta-harnesses",
+        "agent-orchestration",
+        "vertical-integration",
+        "moe-training"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news aggregation with minimal original analysis; primarily summarizes public announcements and community speculation without deep technical insight or novel framework"
+    },
+    "https://openai.com/index/how-agents-are-transforming-work": {
+      "title": "How agents are transforming work",
+      "source": "OpenAI News",
+      "date": "2026-06-25T02:00:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI announces a research paper claiming AI agents are enabling longer, more complex tasks and expanding productivity across work roles. No specific evidence, data, frameworks, or mechanisms are provided in this announcement. The piece serves as a high-level promotional statement about OpenAI's research without substantive detail.",
+      "tags": [
+        "ai-agents",
+        "productivity",
+        "task-automation",
+        "openai-research"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement with no original analysis, specific claims, data, or actionable frameworks provided."
+    },
+    "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/": {
+      "title": "Scaling Laws, Carefully",
+      "source": "Lilian Weng",
+      "date": "2026-06-24T00:00:00+00:00",
+      "composite": 8.33,
+      "depth": 9,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "technical",
+      "summary": "This article provides a comprehensive technical analysis of scaling laws in deep learning, examining how training loss decreases predictably with model size, dataset size, and compute following power-law curves, and reconciling different empirical findings (Kaplan vs Chinchilla). It traces the theoretical foundations from early Bayesian learning curve analysis through modern empirical studies, explaining the mathematical frameworks, methodological approaches, and the critical data-infinite versus data-limited regimes. This matters because scaling laws are fundamental to planning compute allocation and predicting training requirements for large language models, directly impacting infrastructure decisions and resource optimization strategies.",
+      "tags": [
+        "scaling-laws",
+        "power-law",
+        "compute-allocation",
+        "chinchilla-scaling",
+        "kaplan-scaling-laws",
+        "generalization-error",
+        "training-compute",
+        "model-size-optimization",
+        "data-scaling"
+      ],
+      "status": "integrated"
+    },
+    "https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-1-posture/": {
+      "title": "Decision 1 Posture",
+      "source": "Bain Insights",
+      "date": "2026-06-26T02:00:46.701306+00:00",
+      "composite": 1.3,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or site structure for Bain & Company's content on AI decision-making frameworks. The page contains primarily navigation menus, office locations, and minimal substantive content beyond a heading 'Decision 1: Posture' and related topics. There is no actual analysis, framework explanation, or actionable content provided in the extracted text.",
+      "tags": [
+        "ai-strategy",
+        "decision-framework",
+        "enterprise-consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "Navigation page with no substantive content; contains only site structure, menus, and headings without analysis, research, or actionable insights."
+    },
+    "https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-2-domain-focus/": {
+      "title": "Decision 2 Domain Focus",
+      "source": "Bain Insights",
+      "date": "2026-06-26T02:00:46.676066+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page from Bain & Company's website about AI implementation decisions, specifically regarding domain focus as one decision point in their framework. The article provides no actual content, analysis, or insights\u2014only navigation elements and menu structure. This is not substantive content but rather a landing page or framework overview without detail.",
+      "tags": [
+        "enterprise-ai",
+        "implementation-framework",
+        "domain-selection"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual content present; only website navigation structure and menu items without substantive analysis, data, or insights."
+    },
+    "https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-3-proprietary-data/": {
+      "title": "Decision 3 Proprietary Data",
+      "source": "Bain Insights",
+      "date": "2026-06-26T02:00:46.598837+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "data-moats-proprietary-advantages",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or section header from a Bain consulting framework about turning AI into 'Proprietary Intelligence' through seven decision points including proprietary data. The article contains only navigation elements and menu structure without actual content about proprietary data strategies, implementation approaches, or case studies. Without substantive content, it provides no actionable insights or analysis on how enterprises should approach proprietary data for AI advantage.",
+      "tags": [
+        "proprietary-data",
+        "enterprise-ai-strategy",
+        "consulting-framework"
+      ],
+      "status": "skipped",
+      "skip_reason": "Navigation page without substantive content; contains only menu structure and section headers without analysis, insights, or actionable information about proprietary data strategies."
+    },
+    "https://tearsheet.co/payments/the-on-chain-credit-card-stablecoin-credit-moves-from-experiment-to-infrastructure/?utm_source=rss&utm_medium=rss&utm_campaign=the-on-chain-credit-card-stablecoin-credit-moves-from-experiment-to-infrastructure": {
+      "title": "The on-chain credit card: Stablecoin credit moves from experiment to infrastructure",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-06-25T11:30:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on fintech developments where Coinbase, Visa, and blockchain infrastructure firms are launching credit card programs backed by stablecoin balances rather than traditional bank deposits. The key mechanism is using tokenized dollar holdings as collateral for credit lines, allowing users to spend without routing through bank accounts. This represents a shift in how payments infrastructure could work outside traditional banking rails, though the article notes three unspecified harder questions remain.",
+      "tags": [
+        "stablecoin-credit",
+        "blockchain-payments",
+        "tokenized-collateral",
+        "fintech-infrastructure",
+        "crypto-banking"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on cryptocurrency/stablecoin payment infrastructure and fintech card programs, which do not map to any of the specified AI, semiconductor, or enterprise AI adoption topic areas."
+    },
+    "https://www.exponentialview.co/p/the-state-of-the-ai-economy": {
+      "title": "\ud83d\udd2e The state of the AI economy",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-06-25T11:18:49+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "funding-and-market-structure",
+        "build-vs-buy-enterprise-ai",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "Exponential View constructed the first bottom-up, deduplicated measure of the generative AI economy, finding $110 billion in trailing 12-month revenue and a $175+ billion annualized run rate. The methodology tracks end-customer spending across the full stack using proprietary financial models of private AI companies and hyperscaler AI segments, avoiding double-counting in the supply chain and excluding internal uplift, professional services, and Chinese revenue. This provides critical demand-side visibility into whether AI infrastructure investments are supported by actual revenue, addressing the fundamental question of AI market sustainability.",
+      "tags": [
+        "ai-revenue-measurement",
+        "demand-side-economics",
+        "hyperscaler-ai-revenue",
+        "ai-market-size",
+        "token-pricing",
+        "infrastructure-investment"
+      ],
+      "status": "integrated"
+    },
+    "https://share.transistor.fm/s/e039d1ca": {
+      "title": "AIUC-1: Building trust in AI agents",
+      "source": "Practical AI (Changelog)",
+      "date": "2026-06-25T09:00:00+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "evals-production-deployment"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article discusses the AIUC-1 framework for building trust in AI agents through traditional enterprise risk management approaches including standards, certification, audit, and insurance. The key mechanism proposed is applying red teaming based on standards to secure agentic AI systems before widespread enterprise deployment. This matters because it addresses a critical blocker to enterprise AI adoption by creating a formal trust and risk mitigation framework similar to existing enterprise procurement processes.",
+      "tags": [
+        "ai-agents",
+        "red-teaming",
+        "enterprise-certification",
+        "ai-insurance",
+        "trust-frameworks",
+        "agentic-security"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.tomtunguz.com/sail-inference-queue/": {
+      "title": "Full Sail on Asynchronous Inference",
+      "source": "Tomasz Tunguz",
+      "date": "2026-06-25T00:00:00+00:00",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "technical",
+      "summary": "The article argues that AI workloads are shifting from synchronous real-time inference to asynchronous, multi-turn agent workflows that can run for hours in queued batches, enabling massive cost savings. Sail Research's fleet-aware orchestration distributes requests across cheaper open models (like DeepSeek, Qwen, GLM) using spot capacity and queuing, achieving 6x lower cost per token compared to providers like Anthropic while maintaining multi-hour agent state. This architectural shift matters because as agents become background workers processing codebases, CRM data, and documents at scale, the majority of inference tokens will flow through asynchronous queues rather than real-time APIs.",
+      "tags": [
+        "asynchronous-inference",
+        "fleet-orchestration",
+        "batch-inference",
+        "spot-capacity",
+        "model-routing",
+        "inference-cost-optimization"
+      ],
+      "status": "integrated"
+    },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxObnBKTVBUcEprMmdaTGlhWEY2d0dydHFTdHpRdnFHMmlkMjdTMTNLTzYwXzZsT3hWdmJwRmtoazVDSUFFV0twZXBGZmpBVnAyWklVRVNuMVBQV2djZHQ2Yk94WE1scEJ4WjltWmhZWVJnd2pLYXpOMXZGNWs4V0tmTmRmWDhma2xjYnc?oc=5": {
+      "title": "Arca Raises $64M for AI Wealth Platform - Wealth Management",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-06-25T16:59:07+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "landscape",
+      "summary": "The article appears to announce that Arca has raised $64M in funding for an AI-powered wealth management platform. No actual content is provided beyond the title, as the text consists entirely of Google's cookie consent dialog. Without access to the actual article content, no substantive analysis, data, or insights can be evaluated.",
+      "tags": [
+        "funding",
+        "wealth-management",
+        "ai-platform"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible (only shows cookie consent dialog); cannot evaluate actual substance, claims, or analysis."
+    },
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMDVWbVJJSWxCU0tIbEtNaTdtbVNISkxyeXNELXlYTGZ1Z3FxYktROGtPNVZFY0hyLTJEU3RPcUM0MWQ3V2ZGcVJjcWZrQUx6Rjc3N1NRaXNXbFpjMDg3S3ZlNWN2VXBQS3N0OV9ERWZDNGtSWVZxUzE0dFd1OW9RbTZCaXRlUXJERk5wMFlaUjFrMU5nbTY4WFpvZGt3QTBrYXlxdk5QWFRqM2JuSmVNUTE1ajRteHlCMVZSYkFvWk4?oc=5": {
+      "title": "Accenture\u2019s $7.5B Buyback and Mid-Market Pivot Aim to Arrest a 50% Slide - Ad-hoc-news.de",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-25T14:53:26+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than an article about Accenture's buyback and strategy. No actual content about Accenture's $7.5B buyback, mid-market pivot, or stock performance is present in the provided text. The article text consists entirely of Google's standard privacy and cookie policy language.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided - only a Google cookie consent page with no substantive information about the claimed topic."
+    },
+    "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNendhd2NzRVFUNWcwcjJEa0FXaHdtalRqSnVOdzJubWNYQVhCbWpJQ1ZHSXF2ckV1RllHX3dERHBFNFdWbll2ODNOa2FNa21icnBhM2VRRzB0RWswaHJ0dEdxUWdibTY2RkhUQVlZbk15djg5OXZsbF9XbGJ1NFlFWUZ0ejZ6MnU4VFZHS0I4V014TDJMZDdYOWo1OVRIWWpVaFU3UkZBQmttSkdUOVpVOUNnNnJXOGJtTnBTbmZtUXpMcWlaSTF0MFZTYi12WmJRbms1UmNCN0hMWDQ1c0ctRlBLV1hWdnVQVUNTb1R5U0xsLXRWeU9aUkFRNmkyNDdQaUkzS2lKLXRLS3BGaWwwaERwVHp6RW9KVHI5dWFqWnlaVnpDYlp2aGk4MGRCRl9SbEpyNkptOUdEWDQwNkhFQTRLVXNmT1hPVWEwYnBBVFZSaUE2U1NsX0Roa0fSAdwCQVVfeXFMTXp3YXdjc0VRVDVnMHIyRGtBV2h3bWpUakp1Tncybm1jWEFYQm1qSUNWR0lxdnJFdUZZR193RERwRTRXVm5ZdjgzTmthTWttYnJwYTNlUUcwdEVrMGhydHRHcVFnYm02NkZIVEFZWW5NeXY4OTl2bGxfV2xidTRZRVlGdHo2ejJ1OFRWR0tCOFdNeEwyTGQ3WDlqNTlUSFlqVWhVN1JGQUJrbUpHVDlaVTlDZzZyVzhibU5wU25mbVF6THFpWkkxdDBWU2ItdlpiUW5rNVJjQjdITFg0NXNHLUZQS1dYVnZ1UFVDU29UeVNMbC10VnlPWlJBUTZpMjQ3UGlJM0tpSi10S0twRmlsMGhEcFR6ekVvSlRyOXVhalp5WlZ6Q2JadmhpODBkQkZfUmxKcjZKbTlHRFg0MDZIRUE0S1VzZk9YT1VhMGJwQVRWUmlBNlNTbF9EaGtH?oc=5": {
+      "title": "Arca Raises $64 Million To Build AI-Native Wealth Management Platform - Pulse 2.0",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-06-25T13:25:30+00:00",
+      "composite": 4.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Arca has raised $64 million in funding to build an AI-native wealth management platform. The article provides only the headline announcement without details about the technology, approach, or specific AI capabilities being developed. This is a funding announcement that signals market activity in AI wealth management but lacks substantive information about implementation or innovation.",
+      "tags": [
+        "wealth-management",
+        "funding",
+        "ai-native-platform"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level funding announcement with no technical details, implementation insights, or analysis of the AI capabilities or business model being developed."
+    },
+    "https://news.google.com/rss/articles/CBMigAJBVV95cUxNQTBrYVF6N19KQU1FTXpxYW9aS0RIbDEtdHlRNDB2ZFhhNm0xYnlkY1ZfMVgzSjdiaFNCejFieUczclVIdWltZHVRUTNYZUZfa2ZkcE1IbzRYdmljckpNM0pQeEYwUHhFVmUwMWZRSGUzOUkyUlJZa1Yzc2pGZkwzNHdyNUo1cEpjMDhyOGRDMXI3WXpaQ0EwQ3NEOERvQ2pIZ1dTcnlqeU12dE45emcxdXZwWHZRWGYtTktvMFdaNS0zVGFEcmhMeGEwWlFrb1E0eXBvaGhvUmRVM3NZbkYxTW8zdGh3NzZHVGtSUzdqYU9yR0dTeXN2b01Ld1lvNHR1?oc=5": {
+      "title": "CXAI Introduces CXAI 2.0: The Agentic Operating Layer for Enterprises of All Sizes - The Globe and Mail",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-25T13:05:25+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce CXAI 2.0 as an 'agentic operating layer' for enterprises, but the actual content provided is only a Google cookie consent page with no substantive information. No evidence, claims, data, or analysis about the product, its capabilities, or enterprise AI deployment are accessible. This represents a content retrieval failure rather than actual article content.",
+      "tags": [
+        "agentic-layer",
+        "enterprise-ai",
+        "product-announcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Content is inaccessible; only cookie consent page was retrieved with no actual article text, analysis, or information about the announced product."
+    },
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWXhPWGNLRnZSUklSLVhfRVJBN2ZUWHJwX0FGX3VQcndNWjA0MHNmdTVJUlpQZENxcENFSlNpQy1ZMS02STdQMTN0UE0tU1VjN1dQLW80VmVOc245UXVWRUNxWUVRY2t1TmhSRTMzbXNaNmNuWkZoQmZWeTE2WThybXhfVmR1bF9kY21jeHd1WTBiNG0zYVRyUFI2bklKUl82c2NqNG03TnN2ckpoM0U0ZU1KR2MtMnlvZGEtSV9SQW4tSmtod0JMb0NYZXpxZzI5R0VaWlN3?oc=5": {
+      "title": "Arca Raises $64 Million to Revolutionize and Humanize Wealth Management at Scale - Business Wire",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-06-25T12:30:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Business Wire press release about Arca raising $64 million for AI-powered wealth management, but the actual article content is blocked by a Google cookie consent page. Without access to the substantive content about Arca's technology, approach, or specific innovations in wealth management, no meaningful analysis of depth, novelty, or specific claims can be performed. The title suggests relevance to AI wealth management, but the missing content prevents evaluation of what makes their approach novel or how they plan to 'humanize' wealth management at scale.",
+      "tags": [
+        "wealth-management",
+        "funding",
+        "fintech"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible due to cookie consent wall; only title visible, providing no substantive information about technology, approach, or claims to evaluate."
+    },
+    "https://feeds.feedblitz.com/~/958404839/0/kitcesnerdseyeview~When-Clients-Would-Rather-Feel-More-Financially-Successful-Than-Take-Action-To-BE-More-Successful-Kitces-Carl/": {
+      "title": "When Clients Would Rather Feel More Financially Successful Than Take Action To BE More Successful: Kitces & Carl 193",
+      "source": "Kitces.com",
+      "date": "2026-06-25T11:06:55+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article argues that financial advisory clients often derive satisfaction from feeling financially responsible (having a plan and advisor) without taking implementation actions, and that advisors must navigate the gap between perceived progress and actual behavior change. The key mechanism identified is using communication strategies like scaling questions to diagnose client readiness and address hidden reluctance to act. This matters for understanding client psychology in advisory relationships, but focuses on human financial planning rather than AI applications in financial services.",
+      "tags": [
+        "client-behavior",
+        "financial-planning",
+        "behavioral-finance",
+        "client-communication",
+        "implementation-gap"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on traditional human financial advisory client psychology and communication tactics without addressing AI applications, automation, or technology in wealth management or financial services."
+    },
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDl2N1hQblFVZnFHellxOTNsR1BER1VmRFhLWllKSjBZTFNiSklCYzBrLUs3QUdYbWh1NmlXcFlzbnUtN3BMMDRpNFJ6bUhoczUtV0hGS1U4eUhaT3BNN1puSmk2TFd6ZC1DWjU4Nm1RS1VwdzdOdWV4cUVYZy1SbFAyZWd4MEd2dVNoVGNQeVh4UnNBdnIzR0hDcmRyNXpzdUw2VFk0Y3NmbWxUTVd5Zk1nTmJyc2k0c3c?oc=5": {
+      "title": "Enterprise AI Budgets: 5-Driver Audit Finds Up to 65% of Spend Recoverable - Tech Times",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-06-25T09:59:09+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to discuss enterprise AI budget optimization, claiming up to 65% of AI spending may be recoverable through a 5-driver audit framework. However, the actual content provided is only a Google cookie consent page with no substantive article text. Without access to the real article content, it's impossible to evaluate the claims, evidence, or methodology presented.",
+      "tags": [
+        "enterprise-ai-budgets",
+        "cost-optimization",
+        "ai-spend"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided - only cookie consent page text - cannot assess depth, novelty, or substantive relevance"
     }
   }
 }

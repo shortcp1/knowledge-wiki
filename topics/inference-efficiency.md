@@ -1,5 +1,5 @@
 ---
-tags: [4-bit-quantization, agentic-ai, agentic-tasks, code-generation-agents, coding-benchmarks, coding-models, context-window, context-window-expansion, deepseek, dense-attention, energy-efficiency, external-memory-management, frontend-coding, glm-5.2, hybrid-transformer-mamba, indexshare, inference-efficiency, inference-optimization, inference-speed, latent-moe, long-context, long-context-processing, ma-activity, mamba-2, meta-learning, mixture-of-experts, model-fusion, mtp, multi-teacher-distillation, multi-token-prediction, nemotron-3-super, nvfp4, nvidia, open-source-models, open-weights, quadratic-complexity, read-evaluate-print-loop, recursive-language-models, rlm, sliding-window-attention, sparse-attention, speculative-decoding, subquadratic, test-time-training, tokens-per-second, transformer-architecture, ttt-e2e, weight-compression, weight-update]
+tags: [4-bit-quantization, agentic-ai, agentic-tasks, async-inference, asynchronous-inference, batch-inference, code-generation-agents, coding-benchmarks, coding-models, context-window, context-window-expansion, cost-optimization, custom-inference-chips, data-movement-optimization, deepseek, dense-attention, energy-efficiency, external-memory-management, fleet-aware-orchestration, fleet-orchestration, frontend-coding, glm-5.2, hybrid-transformer-mamba, indexshare, inference-cost-optimization, inference-efficiency, inference-optimization, inference-pricing, inference-speed, jalapeno-chip, latent-moe, llm-inference-chips, long-context, long-context-processing, ma-activity, mamba-2, memory-compute-networking-balance, meta-learning, mixture-of-experts, model-fusion, model-routing, model-selection, mtp, multi-teacher-distillation, multi-token-prediction, near-real-time-inference, nemotron-3-super, nvfp4, nvidia, open-source-models, open-weights, openai-chip, performance-per-watt, quadratic-complexity, queued-inference, read-evaluate-print-loop, real-time-inference, recursive-language-models, rlm, sail-research, slack-integration, sliding-window-attention, sparse-attention, speculative-decoding, spot-capacity, subquadratic, swe-bench, test-time-training, throughput-optimization, tokens-per-dollar, tokens-per-second, transformer-architecture, ttt-e2e, vendor-lock-in, weight-compression, weight-update]
 ---
 
 ## IndexShare for Speculative Decoding
@@ -21,59 +21,56 @@ tags: [4-bit-quantization, agentic-ai, agentic-tasks, code-generation-agents, co
 
 **Note**: Technical disclosures are limited; no full paper released as of June 2026, only mention of "minor improvement" on DeepSeek Sparse Attention
 
-## Sparse Attention for Efficiency Gains
+## Asynchronous vs. Synchronous Inference Architecture
 
-### Computational Benefits Over Dense Attention
-- **Sparse attention** selects subset of token pairs to multiply, avoiding quadratic scaling
-- Enables longer context processing with fewer computations
+**Segmentation**: As of June 2026, inference market is segmenting into three tiers:
+- **Real-time**: Immediate response (millisecond latency optimization)
+- **Near-real-time**: Seconds latency tolerance
+- **Batch/Async**: Minutes to hours latency tolerance
 
-## Multi-Token Prediction for Inference Speed
+### Synchronous (Real-Time) Inference
+- Optimized for cold-start latency
+- Reserves capacity per request
+- Higher cost per token due to infrastructure overhead
+- Designed for human-in-the-loop interactions
 
-### Nemotron 3 Super Implementation
-**Model**: [[nemotron-3-super]] (March 2026, Nvidia)  
-**Performance**: ~442 output tokens per second (fastest open-weights in 120B class)
+### Asynchronous (Batch) Inference
+- **Cost advantage**: 6x lower cost per token cited (GLM-5.1 via Sail vs. Anthropic Haiku 4.5)
+- Trade-off: Wait minutes instead of seconds (e.g., 2 minutes vs. 2 seconds for code review)
+- Architecture optimized for throughput over latency
+- Packs requests into idle capacity vs. reserving dedicated capacity
 
-#### Technical Mechanism
-- **MTP heads** integrated into hybrid mamba-2/transformer/MoE architecture
-- Predict multiple output tokens per forward pass
-- During inference: drafts tokens, verifies in single pass, keeps consistent tokens, discards inconsistent
-- Functions as built-in [[speculative-decoding]] mechanism
-- **Training benefit**: Encourages model to learn longer-range patterns
+### Economic Model
+- Synchronous stacks: pay for reserved capacity
+- Asynchronous stacks: pay for active compute time only
+- Workload shift: Multi-turn agents running for hours (vs. single-turn chat)
+- Use case: Background workers for code scanning, CRM enrichment, document processing
 
-#### Efficiency Synergies
-- Combined with mamba-2 layers (avoid quadratic attention complexity)
-- Works with [[latent-moe]] compression (1/4 token representation size before routing)
-- Enables 22 experts per token activation with ~5-6 expert equivalent processing cost
+**Market prediction**: "Vast majority of tokens will flow through a queue" as agents shift from chat assistants to background workers
 
-### Comparison to Other MTP Approaches
-- [[glm-5.2]] uses IndexShare (multi-token prediction for speculative decoding with sparse attention)
-- Nemotron 3 Super integrates MTP directly into architecture with mamba-2/attention hybrid
+## Fleet-Aware Orchestration
 
-## Low-Precision Training for Inference Efficiency
+**Developer**: Sail Research (Neil Movva, Samir Menon)
+**Announced**: Series A June 2026 (Theory Ventures, Kleiner Perkins, Redpoint, Sequoia)
 
-### NVFP4 Native Training
-**Implementation**: [[nemotron-3-super]]  
-**Approach**: Pretrained in NVFP4 (4-bit floating-point, native to Nvidia Blackwell architecture)
+### Architecture
+- Distributes requests across multiple open models ([[deepseek]], Qwen, Kimi, [[glm-5.2]])
+- Dynamic model selection based on task requirements and cost
+- Utilizes spot capacity when available with failover to reliable compute
+- Maximizes utilization to keep cost per token low
+- **Sailboxes**: Stateful cloud compute units that:
+  - Persist for duration of agent task
+  - Hold state across entire multi-turn workflow
+  - Pause during inference wait times
+  - Resume in seconds when response arrives
+  - Charge only for active time (no idle billing)
 
-#### Benefits
-- Model learns to operate with reduced precision during training
-- Avoids accuracy loss from post-training quantization
-- Direct compatibility with hardware acceleration
-- Related to [[hifloat4]] format approaches
+### Scale & Applications
+- Serving "trillions of tokens" as of June 2026
+- Use cases: Code review, deep research, cybersecurity
+- Designed for "bursty rhythm of agents"
 
-**Contrast**: Traditional approach quantizes models after training, potentially degrading performance
-
-## Mamba-2 for Subquadratic Scaling
-
-### Computational Properties
-**Used in**: [[nemotron-3-super]] (majority of layers)
-
-#### Efficiency Characteristics
-- Compresses earlier context into compact representation at each step
-- **Avoids quadratic scaling** with input length (unlike standard attention)
-- Enables processing of million-token contexts efficiently
-
-#### Architectural Trade-offs
-- **Weakness**: Struggles with precise retrieval from distant input parts
-- **Solution**: Selective interleaving of attention layers for tasks requiring long-range precision
-- Hybrid approach balances efficiency with capability
+### Relation to Other Concepts
+- Complements [[agentic-workflows-production]] for long-running background agents
+- Model routing strategy relates to [[build-vs-buy-enterprise-ai]] considerations
+- "Token-maxxing": Maximizing work per dollar of compute spend
