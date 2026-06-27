@@ -1,37 +1,83 @@
 ---
-tags: [agentic-loops, agentic-system-improvement, ai-agents-meetings, ai-application-disciplines, ai-harness, ai-in-product-and-engineering, autonomous-coding, build-vs-buy, claude-code, coding-agents, conversational-context, cost-efficiency, cursor, harness-engineering, hill-climbing-loop, intelligence-per-token, meeting-recording, model-selection, open-weight-models, regulatory-risk, system-of-record, systems-design-ai, token-budget-optimization, unstructured-data, voice-based-systems]
+tags: [agentic-loops, agentic-system-improvement, ai-agents-meetings, ai-application-disciplines, ai-bottleneck-claims, ai-coding-tools, ai-harness, ai-in-product-and-engineering, ai-limited-use-cases, autonomous-coding, bottleneck-analysis, build-vs-buy, claude-code, coding-agents, complex-systems-design, context-requirement, conversational-context, cost-efficiency, cursor, data-requirement, harness-engineering, hill-climbing-loop, intelligence-per-token, loop-engineering, meeting-recording, model-selection, open-weight-models, organizational-dynamics, product-development, product-development-activities, product-development-complexity, regulatory-risk, repetition-requirement, situational-awareness, system-of-record, systems-design-ai, systems-thinking, theory-of-constraints, token-budget-optimization, typing-vs-thinking, unstructured-data, voice-based-systems]
 ---
 
----
-tags: [agent-infrastructure, agent-legibility, agent-orchestration, agent-token-costs, agentic-ai, agentic-token-consumption, ai-budgeting, ai-code-review-bottleneck, ai-coding-agents, ai-in-product-and-engineering, ai-tool-economics, anthropic-claude, api-pricing, async-agents, autonomous-agents, autoregressive-transformer, backend-acceleration, backend-development, background-agents, behavioral-data-moats, biotech-ai-tools, cancer-treatment-matching, ci-cd-scaling, cicd-deployment-constraints, claude-anthropic, claude-code, code-generation, code-quality-bottleneck, codex, codex-adoption, coding-agent-acceleration-rates, coding-agents, cognition-devin, content-addressed-caching, context-engineering, cursor, cursor-adoption, cursor-agents-pane, cursor-ide, cursor-michael-truell, dark-factory, data-quality-blockers, developer-definition-expansion, devin, engineering-ai-maturity, enterprise-adoption, enterprise-ai-budgeting, enterprise-pricing, financial-orchestration, frontend-acceleration, frontend-development, function-specific-adoption, ghost-libraries, github-actions, github-copilot, github-copilot-evolution, github-spark, granola, harness-engineering, infrastructure-acceleration, infrastructure-engineering, intuit-quickbooks-workforce, liquid-ai-architecture, living-company-context, low-code-transparency, mcp-integration, meeting-context-tools, micro-skills, monetization-strategy, multimodal-biotech-data, open-source-maintenance, openai-codex, openai-frontier, operational-coordination, operational-coordination-layer, pharma-licensing, product-market-fit, p, cost-vs-capability-tradeoffs, glm-5.2, model-switching, open-weight-economics, openrouter, token-cost-optimization, vendor-independence, z.ai]
----
+## Product Development Reality Check (June 2026)
 
-## Cost Optimization and Model Selection
+**Source**: John Cutler, "TBM 427: The Bottleneck Strike Again!"
 
-### Open-Weight Model Economics
-- **Open-weight models**: Model weights available for download/self-hosting, but typically not fully open source (may have licensing restrictions)
-- Vendor independence: Ability to switch between models without lock-in to proprietary APIs
-- Cost differential: Open-weight models can offer 10-100x cost reduction vs. frontier proprietary models for specific tasks
+### The Nature of Product Development Work
 
-### Real-World Cost Comparison
-(Field data, June 2026, single user)
-- Complex multi-task coding workflow (architecture audit + UI redesign + 45-min autonomous bug hunt): ~6M tokens
-- [[glm-5.2]] via [[openrouter]]: $3.36 (~$0.56/M tokens)
-- Comparable Claude Opus workflow: Estimated $30-60+ based on typical pricing
+Product development is fundamentally not linear production work. It encompasses:
+- **Sensing**: Understanding user needs, market conditions, technical possibilities
+- **Deciding**: Making choices under uncertainty with incomplete information
+- **Learning**: Validating assumptions, discovering requirements
+- **Aligning**: Building shared understanding across teams and stakeholders
+- **Making**: Actually building/coding/creating
+- **Changing**: Adapting to new information and feedback
+- **Supporting**: Maintaining and helping users
+- **Adapting**: Evolving the system over time
 
-**Note:** Cost-effectiveness varies by task type, output quality requirements, and iteration needs.
+"Writing code was never one cognitive activity repeated over and over."
 
-### Model Switching Strategies
-- Use [[openrouter]] for unified API access across multiple models
-- Compatible with [[cursor]] and [[claude-code]] environments
-- Enables A/B testing and task-specific model selection
-- Trade-off: Initial setup complexity vs. long-term cost optimization and flexibility
+### When AI Coding Agents Actually Work
 
-## Token Budget Optimization
+**Specific Conditions Required** (per engineering practitioners):
 
-### Practical Token Consumption
-- Real production tasks can consume millions of tokens (architecture audits, autonomous debugging sessions)
-- Long-running autonomous tasks (45+ minutes) generate substantial token usage
-- Cost becomes material consideration for frequent users and production deployments
+1. **Lots of data**: Well-defined patterns and examples
+2. **Lots of reps**: Repetitive, similar tasks
+3. **Strong situational awareness**: Clear understanding of context and goals
+4. **Confident instruction**: Ability to tell an LLM precisely what to do
 
-See also: [[ai-engineering-agents]], [[model-architecture]]
+**Critical Insight**: "But that isn't the majority of situations in our line of work."
+
+### AI Energy Consumption Reality
+
+**Engineering Consensus**: Conversations with respected engineers "generally net out on typing being faster, AI being an incredible energy suck, and it not being as simple as 'hey, no longer the bottleneck.'"
+
+This suggests:
+- Typing speed was never the real constraint
+- AI adds cognitive overhead in many contexts
+- The productivity equation is more complex than "faster code generation"
+
+### Emerging Patterns and Tools
+
+**Rapid Evolution**: "Every week there's something new like Loop Engineering, or _____________."
+
+This indicates:
+- The space is still highly unsettled
+- No dominant patterns have emerged
+- Claims of "figured it out" are premature
+
+### Non-Bottleneck Situations
+
+**Historical Pattern**: Organizations with "the best engineers money could buy" where "most of the work we're doing right now is pretty trivial" that "couldn't get out of their own way."
+
+**Key Point**: "Coding was not the bottleneck. But then again, nor was there one thing—anything—you could shake a finger at."
+
+This suggests:
+- Technical execution speed rarely the limiting factor
+- Organizational dynamics, alignment, and decision-making typically matter more
+- Multi-dimensional constraints interact in complex ways
+
+### Implications for AI Integration
+
+**System Effects**: Organizations are complex adaptive systems where:
+- Optimizing one dimension can create problems elsewhere
+- "Deferred decisions" accumulate like organizational clutter
+- Speed without direction doesn't improve outcomes
+- "Until you change your relationship with 'stuff'" — addressing root causes matters more than symptomatic fixes
+
+### Generalizability to Other Functions
+
+This analysis applies to any knowledge work where:
+- Work involves novel problem-solving, not just production
+- Context and judgment matter as much as execution
+- Alignment and learning are critical activities
+- The work resists simple linear workflow models
+
+**Examples**: Product management, UX research, architecture, strategic planning, organizational design
+
+### Cross-References
+- See [[ai-org-design-headcount]] for organizational implications
+- See [[ai-engineering-agents]] for specific tools and capabilities

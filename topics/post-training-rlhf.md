@@ -1,51 +1,34 @@
 ---
-tags: [agentic-alignment, agentic-misalignment, agentic-training, agi-bottlenecks, ai-for-ai, ai-rd-automation, ai-research-automation, alignment-brittleness, alignment-research, alignment-reversal, alphago, annotation, api-abuse, api-distillation, autonomous-fine-tuning, autonomous-post-training, benchmark-contamination, constitutional-ai, copyright-alignment, credit-assignment, credit-assignment-problem, crowdsourcing, data-distillation, data-labeling, data-quality, deepseek, deepseek-r1, deepseek-v3, deepseek-v3.1, deepseek-v3.2, deepseek-v4, direct-preference-optimization, distillation, domain-specialists, dpo, emotional-stability, ethical-reasoning, expert-data, expert-trajectories, fine-tuning-risks, fine-tuning-safety, formal-verification, frontier-models, gemini, gemma, grpo, guardrail-circumvention, human-annotation, human-feedback, inference-time-verification, influence-functions, lean-proofs, lean-theorem-proving, llama-2, llama-3, llm-capability-eval, llm-personality, mathematical-reasoning, mcts, memorization, memorization-extraction, mimo-flash, mixture-of-experts, model-compression, model-distillation, model-distress, model-personality, model-training-pipeline, model-weights, monte-carlo-tree-search, mopd, multi-teacher-distillation, nemotron-3-ultra, off-policy-training, olmo-3, on-policy-distillation, open-weight-models, policy-gradient, pope, post-training, post-training-automation, post-training-infrastructure, post-training-rlhf, ppo, preference-optimization, privileged-on-policy-exploration, psychological-stability, putnam-exam, qwen3, rater-agreement, reasoning-models, reasoning-rl, reinforcement-learning, reinforcement-learning-verifiable-rewards, rejection-sampling, reward-hacking, reward-modeling, rl-environment-quality, rl-exploration, rl-training-signals, rlhf, rlhf-labeling, rlvr, safety-evals, safety-evaluation, sample-efficiency, synthetic-data, synthetic-data-generation, training-data-volume]
+tags: [reinforcement-learning, in-context-learning, sample-efficiency, continual-learning, verifiable-training, computer-use-agents, post-training-rlhf]
 ---
+
+---
+tags: [agentic-alignment, agentic-misalignment, agentic-training, agi-bottlenecks, ai-for-ai, ai-rd-automation, ai-research-automation, alignment-brittleness, alignment-research, alignment-reversal, alphago, annotation, api-abuse, api-distillation, autonomous-fine-tuning, autonomous-post-training, benchmark-contamination, constitutional-ai, copyright-alignment, credit-assignment, credit-assignment-problem, crowdsourcing, data-distillation, data-labeling, data-quality, deepseek, deepseek-r1, deepseek-v3, deepseek-v3.1, deepseek-v3.2, deepseek-v4, direct-preference-optimization, distillation, domain-specialists, dpo, emotional-stability, ethical-reasoning, expert-data, expert-trajectories, fine-tuning-risks, fine-tuning-safety, formal-verification, frontier-models, gemini, gemma, grpo, guardrail-circumvention, human-annotation, human-feedback, inference-time-verification, influence-functions, lean-proofs, lean-theorem-proving, llama-2, llama-3, llm-capability-eval, llm-personality, mathematical-reasoning, mcts, memorization, memorization-extraction, mimo-flash, mixture-of-experts, model-compression, model-distillation, model-distress, model-personality, model-training-pipeline, model-weights, monte-carlo-tree-search, mopd, multi-teacher-distillation, nemotron-3-ultra, off-policy-training, olmo-3, on-policy-distillation, open-weight-models, policy-gradient, pope, post-training, post-training-automation, post-training-infrastructure, post-training-rlhf, ppo, preference-optimization, privileged-on-policy-exploration, psychological-stability, putnam-exam, qwen3, rater-agreement, reasoning-models, reasoning-rl, reinforcement-learning, reinforcement-learning-verifiable-rewards, rejection-sampling, reward-hacking, reward-modeling, rl-environment-quality, rl-exploration, rl-training-signals, rlhf, rlhf-labeling, rlvr, safety-evals, safety-evaluation, sample-efficiency, synthetic-data, synthetic-data-generation, training-data-volume, parallel-rollouts, deterministic-simulators, verifiable-tasks, diverse-rl-environments, general-problem-solving]---
 
 # Post-Training & RLHF
 
-## RL as Synthetic Data Generation (Dwarkesh, June 2026)
+## RL as Path to AGI (Dwarkesh, June 2026)
 
-**Conceptual framing**: RL can be understood as a form of synthetic data generation where compute is applied against a verifier to find "good" data, which the model is then trained to predict (analogous to predicting next tokens in internet text).
+**Core research bet**: "If we train AIs to accomplish millions of verifiable tasks across thousands of diverse RL environments, then we'll basically have built AGI."
 
-**Prior probability requirement**: For RL to work, the model must have at least some prior probability of anticipating the correct solution. This is why extensive human expert trajectories are required across all target domains.
+**Rationale**: Such training would create "general problem solving skills (like how to make progress on an open ended task for weeks on end in the face of errors, mistakes, and ambiguity)."
 
-## Expert Trajectory Data Requirements
+**Optimistic view on paradigm limitations**: Advocates believe apparent fundamental deficits (data inefficiency, lack of continual learning) can be "steamrolled by just scaling training more, just as all the supposed 'fundamental' research problems in natural language processing collapsed against the flood of compute thrown into LLMs."
 
-**Scale and specificity**: Human expert data requirements are "task specific and bespoke" at extreme scale:
-- Each skill area requires hundreds of human experts generating example completions, writing rubrics, and explaining chain-of-thought
-- Examples: Word document specialists, legal M&A experts, management consultants for market research
-- Data labeling industry earning billions annually, projected to reach "deca-billions"
+**Training vs deployment efficiency**: Training sample efficiency may be ~1/1-millionth of humans, but this is "a one-time cost amortized across billions of user sessions." Critical metric: model performance within individual sessions, which "clearly been improving as we do more RL training."
 
-**Training intensity vs. humans**: Models must "grind" tasks far harder than humans:
-- Humans might practice a textbook problem 1-2 times
-- GRPO has models generate hundreds to thousands of rollouts per task
-- Described as "Frankenstein's monster, with a billion grafts of carefully constructed examples sewn together"
+### Environment Quality Requirements
 
-## Data as Primary Driver of Progress
+**Grindability criterion**: Beyond verifiability, domains need to support "lots of parallel rollouts against a deterministic and replayable simulator" for effective RL training.
 
-**Catch-up dynamics**: Epoch reports open models lag state-of-the-art by only ~4 months (as of June 2026).
+**Coding as exemplar**: Can create environments with software repos and missing features, then "have a thousand parallel agents just go at the problem, each with their identical copy of the container."
 
-**Hypothesis**: The ease of catching up suggests data is the "real driver of progress" rather than hyperparameters, training tricks, or architectural optimizations, because:
-- Data can be distilled from public APIs
-- Architectural details and training tricks cannot be easily extracted
-- If the latter were primary, catching up would be harder than observed
+**Computer use challenge**: Clear verifiability but progress "much slower than coding and math" due to inability to run parallel rollouts against real websites (rate limiting, bot detection). Current solution (building application clones) is "labor-intensive and unscalable."
 
-**Training data volume**: Frontier models trained on "10s to 100s of trillions of tokens" - metaphorically described as "an unimaginably massive black hole of data" at the center of AI capabilities.
+**Bootstrap path**: Once AIs code well enough to build high-fidelity environment clones, computer use expected to accelerate. Building clones also serves as valuable RL objective for coding improvement.
 
-## Human vs. AI Sample Efficiency
+**Fundamental constraint**: "Unless you can build a very replayable training target for a domain, the models will struggle to make much progress" due to extreme training sample inefficiency.
 
-**Definition**: Sample efficiency = how much data needed to operate fluently in a domain.
+**Open question**: How to train skills without grindable environments (e.g., "How would we train an AI to build a business?").
 
-**Claim (contested/observation)**: "It's not clear that we've actually made much progress on training sample efficiency over the last few years - it seems like more so we've dramatically widened and improved the data distribution."
-
-**Quantitative comparisons**:
-- Human lifetime exposure: ~200 million tokens (birth to adulthood, assuming 2,000 words/hour)
-- Frontier model training: 10s-100s of trillions of tokens
-- **Gap: ~1,000,000x difference in data exposure**
-
-**Domain-specific examples**:
-- Robotics teleoperation: Humans learn in hours; AI requires millions of hours of demonstrations (insufficient for complex open-ended tasks)
-- Autonomous driving: Teenagers learn in ~20 hours of practice; Waymo/Tesla required 3-4 orders of magnitude more data (even including 16 years of physical intuition accumulation)
-
-**Evolution/genome objection addressed**: Human genome is 3GB with 1-2% protein-coding - "not enough space to store the model parameters that are supposedly pretrained" (frontier models are terabytes). Author argues this undermines the "billions of years of evolution is our pre-training" counterargument.
+See also: [[inference-time-compute]], [[rl-environment-quality]]

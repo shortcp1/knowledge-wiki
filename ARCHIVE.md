@@ -705,7 +705,99 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-27
+
+**✓ 7.7** — [Top Agentic Performance Low Cost](https://www.deeplearning.ai/the-batch/top-agentic-performance-low-cost)  
+*The Batch (DeepLearning.AI)* · model-architecture · agentic-workflows-production · inference-efficiency
+#mixture_of_experts #sparse_attention #proximal_policy_optimization #reward_hacking
+> Z.ai released GLM-5.2, an open-weights mixture-of-experts model (753B total, 40B active parameters) optimized for long-running agentic coding tasks with 1M token context. The model uses modified DeepSeek sparse attention, switched from Group Relative Policy Optimization to Proximal Policy Optimization to handle long-running tasks, and implements reward-hacking filters to prevent agents from cheating via tool misuse. It ranks first among open models and third overall on intelligence benchmarks, costs $1.40/$0.26/$4.40 per million input/cached/output tokens, and demonstrates that open models can now compete with proprietary systems for autonomous agentic work.
+
+**✗ 5.0** — [Three Key Loops For Building Great Software](https://www.deeplearning.ai/the-batch/three-key-loops-for-building-great-software)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#agentic_coding #loop_engineering #developer_workflow #autonomous_agents
+> Andrew Ng describes three nested loops for AI-agent-driven software development: an agentic coding loop (minutes), a developer feedback loop (hours), and an implied strategic loop for product direction. He argues that coding agents can now test and iterate autonomously for extended periods (up to an hour), shifting developers from QA roles to higher-level product decisions. This represents a practical framework for integrating AI agents into software development workflows, though it offers limited novel insights beyond naming and organizing existing practices.
+
+**✓ 8.0** — [Large Model Ai For Apple Devices](https://www.deeplearning.ai/the-batch/large-model-ai-for-apple-devices)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · gpu-architecture-training-infra
+#mixture_of_experts #instruction_following_pruning #on_device_inference #model_distillation
+> Apple's AFM 3 Core Advanced introduces Instruction-Following Pruning, a novel alternative to standard mixture-of-experts (MoE) architectures that uses a separate transformer to route expert activation rather than internal routing layers, enabling faster inference and lower memory usage on local devices. The model is distilled from Google Gemini models as part of a multi-year collaboration and uses 20B total parameters with 1-4B active parameters, trained on public, licensed, and synthetic data without user data. This architecture innovation enables efficient on-device AI for Apple's ecosystem while maintaining competitive performance, representing a significant advance in edge deployment of large language models.
+
+**✗ 2.3** — [Decision 6 The Learning System](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-6-the-learning-system/)  
+*Bain Insights* · ai-org-design-headcount · ai-governance-risk-compliance
+#consulting_framework #enterprise_ai_strategy #learning_systems
+> This appears to be a navigation page or menu structure from a Bain consulting website about AI decision-making frameworks, specifically referencing 'Decision 6: The Learning System' as part of a broader 'How to Win with AI' framework. The content provided contains only website navigation elements (office locations, language selections, menu items) without any substantive analysis, arguments, or evidence about learning systems or AI implementation. The lack of actual article content makes it impossible to evaluate the strategic or technical insights that might exist on the actual destination page.
+
+**✗ 1.0** — [Conclusion](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/conclusion/)  
+*Bain Insights* · 
+#navigation #site_structure
+> This appears to be a navigation page or site map from Bain & Company's website rather than substantive content. It contains only menu structures, office locations, and page navigation elements with no actual article content or analysis. The title 'Conclusion' and reference to 'How to Win with AI' suggest this may be a broken link or incorrectly extracted page footer.
+
+**✗ 2.3** — [Decision 7 Governance](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-7-governance/)  
+*Bain Insights* · ai-governance-risk-compliance · ai-org-design-headcount
+#ai_governance #enterprise_ai_strategy #bain_consulting
+> This appears to be a navigation page or landing page from Bain & Company's website about AI governance, part of a larger series on 'How to Win with AI.' The article content itself is not present—only navigation menus, office locations, and a title referencing 'Decision 7: Governance' are provided. Without actual article content, it's impossible to assess substantive arguments, evidence, or impact.
+
 ## 2026-06-26
+
+**✗ 5.3** — [Quoting Dean W. Ball](https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything)  
+*Simon Willison* · lab-dynamics · funding-and-market-structure · regulatory-policy
+#frontier_models #model_economics #export_controls #data_center_infrastructure
+> Dean W. Ball argues that frontier AI model economics depend on a narrow post-release monetization window before models become commoditized, and that massive infrastructure investments ($100B+ data centers) assume global market access rather than restricted domestic deployment. The evidence presented is the compression of margins as competition emerges and the mismatch between capital expenditure scale and potential addressable market under restrictive policies. This matters for understanding the financial viability of AI labs and the tension between national security export controls and the economic model sustaining the AI industry buildout.
+
+**✗ 3.3** — [Quoting Timothy B. Lee](https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · prompt-architecture
+#llm_skill_development #ai_tool_expertise #prompt_engineering
+> Timothy B. Lee argues against the notion that LLMs require no skill or learning curve by drawing an analogy to management. He suggests that just as managing employees requires skill beyond simply giving orders, effectively using LLMs requires developed expertise. The quote challenges a common misconception about AI tool accessibility but provides no supporting evidence or analysis.
+
+**✗ 5.3** — [What happened after 2,000 people tried to hack my AI assistant](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything)  
+*Simon Willison* · prompt-architecture · ai-governance-risk-compliance · evals-production-deployment
+#prompt_injection #security_testing #claude_opus #red_teaming
+> This article reports on a challenge where 2,000 people attempted 6,000 prompt injection attacks against an AI assistant (OpenClaw using Claude Opus 4.6) but failed to extract secrets, suggesting frontier models have improved defenses. The system used explicit anti-injection rules in the prompt, and despite the failed attempts, the author notes this provides no guarantee against more sophisticated attacks. The article highlights improving model robustness while cautioning against deploying systems where prompt injection could cause irreversible damage.
+
+**✗ 2.3** — [Weekend Reading For Financial Planners (June 27–28)](https://feeds.feedblitz.com/~/958471013/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-June-%e2%80%93/)  
+*Kitces.com* · ai-in-finance-accounting · ai-wealth-management-advisory
+#financial_advisory #wealth_management #ai_competition #content_marketing
+> This is a weekly roundup of articles for financial planners covering industry news about profit margins, organic growth, fiduciary standards, retirement planning strategies, insurance planning, and content marketing in an AI-driven world. The compilation primarily summarizes existing news and reports without original analysis, touching briefly on AI's impact on financial advisory services and content creation. It matters mainly as a digest for financial planning professionals to stay current on industry trends, but provides minimal depth on any single topic.
+
+**✓ 7.3** — [The next big breakthrough will be AIs learning on the job](https://www.dwarkesh.com/p/the-next-paradigm)  
+*Dwarkesh Podcast* · model-architecture · post-training-rlhf · inference-time-compute
+#reinforcement_learning #in_context_learning #sample_efficiency #continual_learning
+> The article argues that AI labs are betting on training models across millions of verifiable tasks in diverse RL environments to achieve AGI, relying on improved in-context learning over long horizons rather than continual weight updates. It introduces the concept of 'grindability' alongside verifiability, explaining that domains like computer use progress slower than coding because they lack deterministic, parallel-simulatable environments for RL training. This framework suggests that scaling bottlenecks may be environmental and infrastructural rather than purely algorithmic, affecting which domains see fastest AI progress.
+
+**✓ 7.3** — [Clouded Judgement 6.26.26 - Time to Power](https://cloudedjudgement.substack.com/p/clouded-judgement-62626-time-to-power)  
+*Clouded Judgement (Jamin Ball)* · gpu-architecture-training-infra · build-vs-buy-enterprise-ai
+#data_center_infrastructure #power_grid_interconnection #neocloud #infrastructure_financing
+> The article argues that "time to power" (speed of securing power access) is becoming the critical bottleneck for AI data center builds, more so than chips, land, or capital. The key evidence is that 2,300-2,600 GW of power sits in interconnection queues waiting for grid connection—nearly double the US's current 1,200-1,400 GW installed capacity—making transmission and interconnection the real constraint rather than generation. This matters because both lenders and customers gate their commitments on time-to-power timelines, fundamentally reshaping infrastructure financing and neocloud business models.
+
+**✗ 2.3** — [The Download: brain-melting heatwaves and unprecedented OpenAI restrictions](https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/)  
+*MIT Technology Review* · regulatory-policy · lab-dynamics
+#newsletter_digest #gpt_5 #model_release_restrictions #chip_shortage
+> This is a newsletter digest covering multiple technology stories, with headlines about the Trump administration asking OpenAI to restrict GPT-5.6 release, Apple/Xbox price hikes due to AI chip costs, and various other tech news items. The content consists entirely of brief story summaries with links to external sources, providing no original analysis or depth. It offers shallow surface-level coverage of breaking news without substantive insight, evidence, or frameworks.
+
+**✗ 4.0** — [Letter from the Editor: The end of “consumer” and “business” as well-defined categories](https://tearsheet.co/opinion/letter-from-the-editor-the-end-of-consumer-and-business-as-well-defined-categories/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-the-end-of-consumer-and-business-as-well-defined-categories)  
+*Tearsheet (fintech)* · 
+#fintech #financial_services #category_blurring #embedded_finance
+> The article argues that traditional consumer vs. business categorizations in financial services are breaking down as behaviors blur across segments—retail investors act like institutions, SMBs operate as platforms, and enterprises adopt consumer-like interfaces. It provides examples of how retail investors now access fractional private markets and crypto, while SMBs use embedded financial tooling that adjusts in real-time. This matters because it suggests financial infrastructure and product design may need to shift from user-type segmentation toward contextual, behavior-driven frameworks.
+
+**✗ 3.3** — [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol)  
+*OpenAI News* · model-architecture
+#gpt_5 #model_announcement #coding_capabilities #cybersecurity
+> OpenAI announces a preview of GPT-5.6 Sol, positioning it as a next-generation model with enhanced capabilities in coding, science, and cybersecurity. The article provides no specific evidence, benchmarks, architectural details, or mechanisms explaining how these improvements were achieved. This matters as a market signal of OpenAI's product roadmap but offers no actionable insight into capabilities or deployment considerations.
+
+**✗ 2.0** — [Heat waves mess with your brain. Scientists are trying to figure out why.](https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/)  
+*MIT Technology Review* · 
+#heat_waves #cognitive_function #mental_health #climate_health
+> The article reports on emerging research into how extreme heat affects cognitive function and mental health, noting increased hospital admissions and mortality during heat waves. Evidence comes from studies of firefighters showing temporary attention deficits after heat exposure and epidemiological data showing heat waves correlate with 9.7% increases in mental health hospitalizations. The piece highlights that mechanisms remain poorly understood and that vulnerable populations, especially those with existing mental health conditions, face disproportionate risk.
+
+**✓ 7.0** — [TBM 427: The Bottleneck Strike Again!](https://cutlefish.substack.com/p/tbm-427-the-bottleneck-strike-again)  
+*The Beautiful Mess (John Cutler)* · ai-engineering-agents · ai-in-product-and-engineering · ai-org-design-headcount
+#bottleneck_analysis #systems_thinking #theory_of_constraints #ai_coding_tools
+> The article argues against the oversimplified narrative that AI has shifted the bottleneck away from engineering in software development, critiquing the assumption that faster coding automatically unlocks product velocity. It draws on systems thinking (Meadows, Juarrero) to show that product development involves distributed, interacting constraints rather than single bottlenecks, and that coding speed was rarely the true constraint even before AI. This matters because organizations may misallocate resources or restructure prematurely based on flawed mental models of where value creation is actually constrained.
+
+**✗ 1.0** — [SonicWall expands AI security tools for SMB partners - SecurityBrief Asia](https://news.google.com/rss/articles/CBMijgFBVV95cUxNcjdWWWd3WTAwZmZvTm1EX3VuM3NkTkNFbkR3Uy1CVW42dWRXWVZxM2ZtdWdrZXhjUzZuTTN1SUFYbUlLTUw2MWZ6b0xLMjJNOFJXVmZvN25mT3RjN0lnMkY4S1g4ckJCMm40QWUyRm9JV3RmMlRnUlBsdWJUWTQ3VWd5b3hfN2RqMTNsN3Rn?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#sonicwall #ai_security #smb #partners
+> The article appears to be about SonicWall expanding AI security tools for SMB partners, but the actual content provided is entirely Google's cookie consent page. No substantive information about SonicWall's AI security tools, their capabilities, implementation, or impact is present. This appears to be a scraping error or paywall block that captured only the cookie consent overlay rather than the actual article content.
 
 **✗ 2.3** — [10](https://www.deeplearning.ai/the-batch/page/10)  
 *The Batch (DeepLearning.AI)* · 
@@ -741,6 +833,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Latent Space* · ai-in-product-and-engineering · ai-in-customer-success-support · ai-in-legal-compliance
 #codex #token_usage #enterprise_adoption #internal_tooling
 > OpenAI's internal Economic Research reveals that median Codex output token usage grew dramatically across departments from November 2025 to June 2026, with Research seeing 56x growth, Customer Support 32x, Engineering 27x, and Legal 13x. The data shows that even OpenAI employees with unlimited access were significantly underusing AI tools until late 2025, suggesting adoption barriers beyond cost or access. This internal usage data provides a real-world baseline for enterprise AI adoption patterns and contradicts concerns about excessive token usage.
+
+**✓ 7.0** — [What If There Is No Moat Yet?](https://www.tomtunguz.com/what-if-there-is-no-moat/)  
+*Tomasz Tunguz* · build-vs-buy-enterprise-ai · ai-b2b-saas · data-moats-proprietary-advantages
+#leading_moats #lagging_moats #application_layer #infrastructure_layer
+> The article argues that AI application-layer companies don't need defensible moats at founding, whereas infrastructure companies require immediate technical differentiation due to capital intensity. It uses the contrast between Salesforce (earned moat through execution, brand, and scale) and Snowflake (leading technical moat with storage-compute separation) to illustrate how application companies build lagging moats through years of execution. This framework matters because it shifts investor and founder expectations about what constitutes a viable early-stage strategy in different layers of the AI stack.
 
 ## 2026-06-25
 
@@ -783,6 +880,11 @@ All articles scanned since the wiki started. Updated nightly.
 #agentic_layer #enterprise_ai #product_announcement
 > The article appears to announce CXAI 2.0 as an 'agentic operating layer' for enterprises, but the actual content provided is only a Google cookie consent page with no substantive information. No evidence, claims, data, or analysis about the product, its capabilities, or enterprise AI deployment are accessible. This represents a content retrieval failure rather than actual article content.
 
+**✗ 1.7** — [Arca Raises $64M for AI Wealth Platform - Let's Data Science](https://news.google.com/rss/articles/CBMihwFBVV95cUxOa2dBU0xrYmpjbUhMZXRETWFpZXBMRkdoajFjbUdLQWtFQlhoZHFyWDNCdmZCWFBlSGhFejg3WTI2NEphcnY1QzVma0ZiUUt5d3lwdmJsNW8tbm8xMnVlSGJmLXVRQW1QY09QUEZpZWV0SXU5WGJCd3pPbTFtUlV4SWdkVkRLZzA?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#ai_wealth_management #funding #fintech
+> The article appears to be about Arca raising $64M for an AI wealth management platform, but the provided text contains only Google's cookie consent dialog with no actual article content. Without access to the substantive content, it's impossible to evaluate the depth of analysis, novelty of claims, or specific frameworks discussed. The title suggests relevance to AI in wealth management, but no meaningful information can be extracted from the cookie policy text.
+
 **✗ 1.7** — [Arca Raises $64 Million to Revolutionize and Humanize Wealth Management at Scale - Business Wire](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWXhPWGNLRnZSUklSLVhfRVJBN2ZUWHJwX0FGX3VQcndNWjA0MHNmdTVJUlpQZENxcENFSlNpQy1ZMS02STdQMTN0UE0tU1VjN1dQLW80VmVOc245UXVWRUNxWUVRY2t1TmhSRTMzbXNaNmNuWkZoQmZWeTE2WThybXhfVmR1bF9kY21jeHd1WTBiNG0zYVRyUFI2bklKUl82c2NqNG03TnN2ckpoM0U0ZU1KR2MtMnlvZGEtSV9SQW4tSmtod0JMb0NYZXpxZzI5R0VaWlN3?oc=5)  
 *GN: AI Wealth Management* · ai-wealth-management-advisory
 #wealth_management #funding #fintech
@@ -812,6 +914,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · 
 #climate_change #power_grid #nuclear_power #air_conditioning
 > The article reports on how European heat waves are straining power grids through both reduced generation capacity (nuclear plants shutting down due to high cooling water temperatures) and increased demand from rising air-conditioning adoption. It explains that Europe's historically winter-peaked demand is shifting toward summer peaks as AC adoption grows from ~20% currently, forcing utilities to adapt maintenance schedules and cross-border power purchases. The piece argues this represents a climate adaptation challenge that will intensify, particularly with El Niño patterns expected in 2027.
+
+**✗ 5.7** — [IBM has unveiled chip technology that could help extend Moore’s Law another decade](https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/)  
+*MIT Technology Review* · semiconductor-supply-chain · gpu-architecture-training-infra
+#moores_law #cfet #nanostack_architecture #transistor_density
+> IBM has unveiled a prototype chip with 100 billion transistors using vertically stacked nanostack architecture, achieving twice the transistor density of its 2021 technology. The CFET (complementary field-effect transistor) approach stacks two layers of transistors with staggered alignment, enabling 50% better performance and 70% improved energy efficiency compared to previous designs. This architecture could extend Moore's Law by 10-15 years and will be deployed in data centers through partnerships with semiconductor manufacturers for GPUs and CPUs.
 
 **✗ 1.7** — [Enterprise AI Budgets: 5-Driver Audit Finds Up to 65% of Spend Recoverable - Tech Times](https://news.google.com/rss/articles/CBMiugFBVV95cUxNaDl2N1hQblFVZnFHellxOTNsR1BER1VmRFhLWllKSjBZTFNiSklCYzBrLUs3QUdYbWh1NmlXcFlzbnUtN3BMMDRpNFJ6bUhoczUtV0hGS1U4eUhaT3BNN1puSmk2TFd6ZC1DWjU4Nm1RS1VwdzdOdWV4cUVYZy1SbFAyZWd4MEd2dVNoVGNQeVh4UnNBdnIzR0hDcmRyNXpzdUw2VFk0Y3NmbWxUTVd5Zk1nTmJyc2k0c3c?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-finance-accounting · build-vs-buy-enterprise-ai

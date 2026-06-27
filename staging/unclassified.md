@@ -1082,3 +1082,23 @@ This optimization is critical for efficient use of training resources in [[gpu-a
 
 - [[model-architecture]]: Architecture-specific scaling properties
 - [[gpu-architecture-training-infra]]: Compute requirements and FLOP calculations
+
+---
+**Large Model Ai For Apple Devices** (The Batch (DeepLearning.AI), 2026-06-27T02:00:49.978183+00:00)
+**Apple-Google Partnership Details**
+- Multi-year agreement struck January 2026
+- Apple Foundation Models are distillation-based from Gemini, not wholesale adoption
+- Apple's Foundation Models Framework to support third-party models (Anthropic Claude, Google Gemini) via LanguageModel protocol
+- Developers can choose between AFM 3 and alternatives on Apple hardware
+
+**AFM 3 Model Family**
+- AFM 3 Core: On-device
+- AFM 3 Core Advanced: On-device with instruction-following pruning
+- AFM 3 Cloud: Server-based
+- AFM 3 Cloud Image: Server-based
+- AFM 3 Cloud Pro: Server-based
+- Availability: Fall 2026 with OS updates
+
+---
+**TBM 427: The Bottleneck Strike Again!** (The Beautiful Mess (John Cutler), 2026-06-26T06:13:28+00:00)
+**New emerging concept**: 'Loop Engineering' — mentioned as a recent development but not defined in the article. May warrant future tracking as the concept develops.
