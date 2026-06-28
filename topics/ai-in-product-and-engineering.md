@@ -1,5 +1,5 @@
 ---
-tags: [agentic-loops, agentic-system-improvement, ai-agents-meetings, ai-application-disciplines, ai-bottleneck-claims, ai-coding-tools, ai-harness, ai-in-product-and-engineering, ai-limited-use-cases, autonomous-coding, bottleneck-analysis, build-vs-buy, claude-code, coding-agents, complex-systems-design, context-requirement, conversational-context, cost-efficiency, cursor, data-requirement, harness-engineering, hill-climbing-loop, intelligence-per-token, loop-engineering, meeting-recording, model-selection, open-weight-models, organizational-dynamics, product-development, product-development-activities, product-development-complexity, regulatory-risk, repetition-requirement, situational-awareness, system-of-record, systems-design-ai, systems-thinking, theory-of-constraints, token-budget-optimization, typing-vs-thinking, unstructured-data, voice-based-systems]
+tags: [agentic-coding, agentic-loops, agentic-system-improvement, ai-agents-meetings, ai-application-disciplines, ai-bottleneck-claims, ai-coding-tools, ai-harness, ai-in-product-and-engineering, ai-limited-use-cases, autonomous-coding, bottleneck-analysis, build-vs-buy, claude-code, coding-agents, complex-systems-design, context-advantage, context-requirement, conversational-context, cost-efficiency, cursor, data-requirement, developer-feedback-loop, external-feedback-loop, harness-engineering, hill-climbing-loop, human-ai-collaboration, human-taste, intelligence-per-token, loop-engineering, meeting-recording, model-selection, open-weight-models, organizational-dynamics, product-development, product-development-activities, product-development-complexity, product-vision, regulatory-risk, repetition-requirement, situational-awareness, software-testing, system-of-record, systems-design-ai, systems-thinking, theory-of-constraints, three-loop-framework, token-budget-optimization, typing-vs-thinking, unstructured-data, voice-based-systems]
 ---
 
 ## Product Development Reality Check (June 2026)
@@ -27,57 +27,39 @@ Product development is fundamentally not linear production work. It encompasses:
 1. **Lots of data**: Well-defined patterns and examples
 2. **Lots of reps**: Repetitive, similar tasks
 3. **Strong situational awareness**: Clear understanding of context and goals
-4. **Confident instruction**: Ability to tell an LLM precisely what to do
+4. **Confide
 
-**Critical Insight**: "But that isn't the majority of situations in our line of work."
+## Loop Engineering for Product Development (June 2026)
 
-### AI Energy Consumption Reality
+**Source**: Andrew Ng, The Batch Issue 359
 
-**Engineering Consensus**: Conversations with respected engineers "generally net out on typing being faster, AI being an incredible energy suck, and it not being as simple as 'hey, no longer the bottleneck.'"
+### Three-Loop Framework Overview
 
-This suggests:
-- Typing speed was never the real constraint
-- AI adds cognitive overhead in many contexts
-- The productivity equation is more complex than "faster code generation"
+Andrew Ng describes "loop engineering" as a hot buzzphrase (June 2026) that now guides both software building and product decision-making. The framework consists of three nested loops operating at different time scales.
 
-### Emerging Patterns and Tools
+See [[ai-engineering-agents]] for detailed technical implementation of these loops.
 
-**Rapid Evolution**: "Every week there's something new like Loop Engineering, or _____________."
+### Human Context Advantage in Product Development
 
-This indicates:
-- The space is still highly unsettled
-- No dominant patterns have emerged
-- Claims of "figured it out" are premature
+**Key Insight**: The reason human-in-the-loop remains essential is **context advantage**, not merely "taste."
 
-### Non-Bottleneck Situations
+**What Humans Know That AI Does Not** (mid-2026):
+- Deep user understanding
+- Operational context for the product
+- Organizational and market dynamics
+- Strategic constraints and opportunities
 
-**Historical Pattern**: Organizations with "the best engineers money could buy" where "most of the work we're doing right now is pretty trivial" that "couldn't get out of their own way."
+**Why "Context Advantage" Is Better Framing Than "Taste"**:
+- Provides clearer path to improving AI systems
+- Makes explicit what information needs to transfer to AI
+- Suggests concrete interventions rather than nebulous human superiority
 
-**Key Point**: "Coding was not the bottleneck. But then again, nor was there one thing—anything—you could shake a finger at."
+**Automation Boundary**: "This step can't be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to inject that knowledge into the system."
 
-This suggests:
-- Technical execution speed rarely the limiting factor
-- Organizational dynamics, alignment, and decision-making typically matter more
-- Multi-dimensional constraints interact in complex ways
+### Engineering Role Evolution
 
-### Implications for AI Integration
+**Emerging Pattern** (mid-2026): With coding agents speeding up software development, more engineers are starting to play partial product management roles.
 
-**System Effects**: Organizations are complex adaptive systems where:
-- Optimizing one dimension can create problems elsewhere
-- "Deferred decisions" accumulate like organizational clutter
-- Speed without direction doesn't improve outcomes
-- "Until you change your relationship with 'stuff'" — addressing root causes matters more than symptomatic fixes
+**Implication**: The acceleration of the "Making" activity through AI agents shifts engineer focus toward other product development activities (sensing, deciding, learning, aligning) that were previously time-constrained.
 
-### Generalizability to Other Functions
-
-This analysis applies to any knowledge work where:
-- Work involves novel problem-solving, not just production
-- Context and judgment matter as much as execution
-- Alignment and learning are critical activities
-- The work resists simple linear workflow models
-
-**Examples**: Product management, UX research, architecture, strategic planning, organizational design
-
-### Cross-References
-- See [[ai-org-design-headcount]] for organizational implications
-- See [[ai-engineering-agents]] for specific tools and capabilities
+See also: [[ai-engineering-agents]], [[agentic-workflows-production]]

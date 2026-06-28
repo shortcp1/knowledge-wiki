@@ -705,7 +705,54 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-28
+
+**✗ 2.7** — [2](https://www.deeplearning.ai/the-batch/tag/letters/page/2)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#coding_agents #job_market #sovereign_ai #agi_testing
+> This is a table of contents page listing Andrew Ng's newsletter letters from early 2026, covering topics like coding agents, AI job market impacts, sovereign AI, and AGI testing. The page provides only titles and brief teasers for each letter without substantive content or analysis. This is an index page rather than an actual article with claims or arguments.
+
+**✓ 6.3** — [Issue 359](https://www.deeplearning.ai/the-batch/issue-359)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#loop_engineering #agentic_coding #coding_agents #product_development
+> Andrew Ng describes three nested loops for building AI products: the agentic coding loop (AI agents iteratively writing and testing code), the developer feedback loop (humans steering agents on higher-level product decisions), and an implied user/product-market feedback loop. He argues that as coding agents improve at self-testing, developers can shift from QA work to product strategy, though humans retain context advantages in understanding users and product direction. This represents a practical framework for how teams can orchestrate human-AI collaboration in software development.
+
+**✗ 3.0** — [Ai Degrees On The Rise](https://www.deeplearning.ai/the-batch/ai-degrees-on-the-rise)  
+*The Batch (DeepLearning.AI)* · ai-org-design-headcount
+#ai_education #curriculum_design #computer_science_education #workforce_development
+> The article reports that U.S. universities have rapidly expanded AI programs from 5 undergraduate majors in 2021 to 78 majors and 103 minors across 584 schools as of April 2026, with program structures ranging from math-intensive technical degrees to interdisciplinary humanities-focused programs. It provides examples of different curriculum approaches at Carnegie Mellon (theoretical rigor), University of Oklahoma (applied focus), and Drake University (humanities integration), along with AI concentrations at schools like Stanford. This matters because current curriculum choices will shape the skill profiles and foundational knowledge of the next generation of AI professionals entering the workforce.
+
+**✗ 2.7** — [Decision 5 Operating Model](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-5-operating-model/)  
+*Bain Insights* · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#operating_model #enterprise_ai #bain_framework
+> This appears to be a navigation page or landing page from Bain & Company's website about AI operating models, part of a series on 'How to Win with AI.' The article content is primarily navigational elements and office listings rather than substantive analysis or frameworks. Without actual content beyond headers and navigation, it provides no actionable insights on AI operating model decisions.
+
+**✗ 3.7** — [Turn Artificial Intelligence Into Proprietary Intelligence](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/)  
+*Bain Insights* · build-vs-buy-enterprise-ai · data-moats-proprietary-advantages · ai-governance-risk-compliance
+#proprietary_intelligence #enterprise_ai_strategy #data_moats #ai_governance
+> This Bain article argues that companies should transform generic AI into proprietary intelligence by focusing on seven dimensions: posture, domain focus, proprietary data, technology architecture, operating model, learning systems, and governance. The article provides a high-level framework but lacks substantive evidence, case studies, or detailed mechanisms for how to execute on these dimensions. It represents a consulting firm's positioning piece rather than actionable insights or original research.
+
+**✗ 2.3** — [Decision 4 Technology Architecture](https://www.bain.com/insights/solutions/turn-artificial-intelligence-into-proprietary-intelligence/decision-4-technology-architecture/)  
+*Bain Insights* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#technology_architecture #enterprise_ai_strategy #bain_framework
+> This appears to be a navigation page or skeletal framework from Bain's "How to Win with AI" series, specifically addressing "Decision 4: Technology Architecture." The provided content contains only menu structures, office locations, and navigation elements without substantive analysis, data, or recommendations. This lacks meaningful content to evaluate beyond confirming it touches on enterprise AI implementation decisions.
+
 ## 2026-06-27
+
+**✗ 1.7** — [🧠 Community Wisdom: Beating a career slump, adding more structure to an established team, questions for new-team 1:1s, the evolving shape of the growth role, and more](https://www.lennysnewsletter.com/p/community-wisdom-beating-a-career)  
+*Lenny's Newsletter* · 
+#career_management #team_leadership #one_on_ones #growth_roles
+> This is a community newsletter focused on general career management and team leadership topics including career slumps, team structure, 1:1 meetings, and growth roles. The content appears to be subscriber-only and the full text is not accessible in the provided excerpt. This content does not relate to any AI, semiconductor, or technology-specific topics from the relevance criteria.
+
+**✗ 4.7** — [Using Local Coding Agents](https://magazine.sebastianraschka.com/p/using-local-coding-agents)  
+*Ahead of AI (Raschka)* · ai-engineering-agents · build-vs-buy-enterprise-ai
+#local_llm #coding_agents #open_weight_models #inference_engine
+> This tutorial explains how to set up a local coding agent using open-weight LLMs and local coding harnesses as alternatives to proprietary services like Claude Code and GitHub Codex. The article focuses on practical setup instructions and compares the benefits of local deployment (cost predictability, privacy, offline use, reproducibility) versus cloud-based coding assistants. It positions local coding agents as increasingly viable alternatives for developers who want control, transparency, and freedom from subscription limits.
+
+**✗ 4.7** — [[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners](https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna)  
+*Latent Space* · model-architecture · regulatory-policy · lab-dynamics
+#government_mediated_release #trusted_partners #preparedness_framework #cyber_critical_threshold
+> OpenAI announced GPT-5.6 (Sol/Terra/Luna model family) with restricted access to ~20 government-approved trusted partners rather than broad public release, explicitly at U.S. government request. The models are positioned between Claude Opus and Mythos on capability and pricing, with Sol claiming 91.9% on Terminal-Bench 2.1 while staying below Cyber Critical threshold. This marks a shift toward government-mediated frontier model releases rather than immediate public API rollouts.
 
 **✓ 7.7** — [Top Agentic Performance Low Cost](https://www.deeplearning.ai/the-batch/top-agentic-performance-low-cost)  
 *The Batch (DeepLearning.AI)* · model-architecture · agentic-workflows-production · inference-efficiency
@@ -759,6 +806,16 @@ All articles scanned since the wiki started. Updated nightly.
 #financial_advisory #wealth_management #ai_competition #content_marketing
 > This is a weekly roundup of articles for financial planners covering industry news about profit margins, organic growth, fiduciary standards, retirement planning strategies, insurance planning, and content marketing in an AI-driven world. The compilation primarily summarizes existing news and reports without original analysis, touching briefly on AI's impact on financial advisory services and content creation. It matters mainly as a digest for financial planning professionals to stay current on industry trends, but provides minimal depth on any single topic.
 
+**✗ 5.3** — [Incident Report: CVE-2026-LGTM](https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything)  
+*Simon Willison* · agentic-workflows-production · ai-governance-risk-compliance · semiconductor-supply-chain
+#ai_agents #code_review_automation #inference_cost #multi_agent_coordination
+> This is a satirical hypothetical incident report describing two competing AI code review agents entering an expensive disagreement loop over a supply chain security issue, racking up $41,255 in inference costs. The piece illustrates potential failure modes in autonomous AI agent interactions, including runaway compute costs, adversarial dynamics between competing AI systems, and vendor incentive misalignment. It highlights emerging risks in production AI agent deployments, particularly around cost control, multi-agent coordination failures, and supply chain security automation.
+
+**✗ 4.0** — [Quoting OpenAI](https://simonwillison.net/2026/Jun/26/openai/#atom-everything)  
+*Simon Willison* · model-architecture · inference-efficiency · ai-pricing-packaging-saas
+#gpt_5_6 #llm_pricing #prompt_caching #model_tiering
+> OpenAI announces GPT-5.6 series with three model variants (Sol, Terra, Luna) at different price points and performance levels, with Terra being 2x cheaper than GPT-5.5. The models introduce predictable prompt caching with explicit cache breakpoints and new pricing for cache operations (1.25x for writes, 90% discount for reads). The release follows pre-approval from U.S. government and begins with a limited preview to trusted partners before general availability.
+
 **✓ 7.3** — [The next big breakthrough will be AIs learning on the job](https://www.dwarkesh.com/p/the-next-paradigm)  
 *Dwarkesh Podcast* · model-architecture · post-training-rlhf · inference-time-compute
 #reinforcement_learning #in_context_learning #sample_efficiency #continual_learning
@@ -798,6 +855,11 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Mid-Market Enterprise* · 
 #sonicwall #ai_security #smb #partners
 > The article appears to be about SonicWall expanding AI security tools for SMB partners, but the actual content provided is entirely Google's cookie consent page. No substantive information about SonicWall's AI security tools, their capabilities, implementation, or impact is present. This appears to be a scraping error or paywall block that captured only the cookie consent overlay rather than the actual article content.
+
+**✗ 1.3** — [SonicWall expands AI security tools for SMB partners - IT Brief Australia](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa1RRcjl2c1JzeHZIVmpONzRkQ1FIWVBkc0huWDF5alllQXVVOEkxRXVoOFh0dGxVRC1sYWd1ZFNnbGtzdlUwR2hYQ0l2TTJzaXIyOFZSWmEyV3ZDYVJiMVRhTWhrQXVfOTlQSEQzMG5pM0VFQlQzMDhhUk5NWHc5Mm5hRkhkdTRR?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#sonicwall #ai_security #smb #partners
+> This article appears to announce SonicWall's expansion of AI security tools targeting SMB partners, but the provided text contains only Google's cookie consent dialog rather than actual article content. No substantive information about the security tools, their capabilities, or implementation details is available in the text. Without access to the actual article content, no meaningful evaluation of the security offering or its implications can be made.
 
 **✗ 2.3** — [10](https://www.deeplearning.ai/the-batch/page/10)  
 *The Batch (DeepLearning.AI)* · 
@@ -869,6 +931,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · ai-in-operations
 #retail_ai #search_personalization #conversational_commerce #ai_first_architecture
 > This article describes how Macy's is adopting an "AI-first" approach by embedding intelligence into search, personalization, inventory, and software development rather than layering AI onto existing workflows. The key mechanism involves moving from isolated AI pilots to integrated systems that compress the time between customer signals and business actions, with early wins in search recommendations building momentum for broader deployment. The piece represents a high-level case study of operational AI adoption in retail but offers limited technical depth or novel insights beyond general principles.
+
+**✗ 4.3** — [Arca Raises $64 Million To Build AI-Native Wealth Management Platform - Pulse 2.0](https://news.google.com/rss/articles/CBMikgFBVV95cUxNVW1NckFQT0xjU2NUR19OeEQwRkRTN3hGUFUyYlUtbEJvMHdsaFBweWZxdU5sQW5XVEZfYVJhRkxiRzRpY25ydF9od0RmNTdUQkl2b0NEMjFEblBKcFo4bUVrbU5yN1FoRXhkbGlyWXRwYVhiZVY3c094WkZxdXdZSXNKMVJER2R0dnF6SnFhaDZjQdIBlwFBVV95cUxNQm94bjZlSTFOQzNfaHMwSjZIVGZ6X0lESWFQOGotVTd4UW5YWE5OTzlXUkdZeFhRMHdCdEhqb25ZekJaS1RabGVPZktPdUFZYmFwRkdldmVsSVpBeVVvYWEzZzdRNnRYVm0wWVh6eDREb0N0ZnJRaHhtcVRlcUpTUGI1QWEzbV9fTlF4U0NqSUg1bTFDT3lF?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#funding_announcement #wealth_management_platform #fintech
+> Arca has raised $64 million in funding to build an AI-native wealth management platform. The article appears to be a brief funding announcement without technical details about the platform's architecture, AI capabilities, or implementation approach. This matters as a market signal that significant capital is flowing into AI-powered wealth management solutions, though the article provides insufficient detail for substantive analysis.
 
 **✗ 4.3** — [Arca Raises $64 Million To Build AI-Native Wealth Management Platform - Pulse 2.0](https://news.google.com/rss/articles/CBMi3AJBVV95cUxNendhd2NzRVFUNWcwcjJEa0FXaHdtalRqSnVOdzJubWNYQVhCbWpJQ1ZHSXF2ckV1RllHX3dERHBFNFdWbll2ODNOa2FNa21icnBhM2VRRzB0RWswaHJ0dEdxUWdibTY2RkhUQVlZbk15djg5OXZsbF9XbGJ1NFlFWUZ0ejZ6MnU4VFZHS0I4V014TDJMZDdYOWo1OVRIWWpVaFU3UkZBQmttSkdUOVpVOUNnNnJXOGJtTnBTbmZtUXpMcWlaSTF0MFZTYi12WmJRbms1UmNCN0hMWDQ1c0ctRlBLV1hWdnVQVUNTb1R5U0xsLXRWeU9aUkFRNmkyNDdQaUkzS2lKLXRLS3BGaWwwaERwVHp6RW9KVHI5dWFqWnlaVnpDYlp2aGk4MGRCRl9SbEpyNkptOUdEWDQwNkhFQTRLVXNmT1hPVWEwYnBBVFZSaUE2U1NsX0Roa0fSAdwCQVVfeXFMTXp3YXdjc0VRVDVnMHIyRGtBV2h3bWpUakp1Tncybm1jWEFYQm1qSUNWR0lxdnJFdUZZR193RERwRTRXVm5ZdjgzTmthTWttYnJwYTNlUUcwdEVrMGhydHRHcVFnYm02NkZIVEFZWW5NeXY4OTl2bGxfV2xidTRZRVlGdHo2ejJ1OFRWR0tCOFdNeEwyTGQ3WDlqNTlUSFlqVWhVN1JGQUJrbUpHVDlaVTlDZzZyVzhibU5wU25mbVF6THFpWkkxdDBWU2ItdlpiUW5rNVJjQjdITFg0NXNHLUZQS1dYVnZ1UFVDU29UeVNMbC10VnlPWlJBUTZpMjQ3UGlJM0tpSi10S0twRmlsMGhEcFR6ekVvSlRyOXVhalp5WlZ6Q2JadmhpODBkQkZfUmxKcjZKbTlHRFg0MDZIRUE0S1VzZk9YT1VhMGJwQVRWUmlBNlNTbF9EaGtH?oc=5)  
 *GN: AI Wealth Management* · ai-wealth-management-advisory
@@ -1011,6 +1078,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · funding-and-market-structure
 #nonprofit_funding #respiratory_virus_prevention #vaccine_development #air_cleaning_technology
 > Stripe, Anthropic, OpenAI Foundation, and others are backing a $500 million nonprofit called Intercept to prevent respiratory infections like the common cold and flu through vaccines and air-cleaning systems. The initiative argues that modern technologies (RNA drugs, antibodies, computational protein design) make broad-spectrum countermeasures technically feasible, though commercial incentives have been lacking. The effort draws lessons from COVID-19 vaccine development and aims to address what backers see as an underweighted societal burden.
+
+**✗ 3.7** — [The emergence of the web data infrastructure layer for AI](https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/)  
+*MIT Technology Review* · rag-vs-finetuning-vs-wiki · data-moats-proprietary-advantages · ai-in-product-and-engineering
+#web_data_infrastructure #real_time_data_retrieval #rag #ai_hallucinations
+> The article argues that AI systems need real-time web data infrastructure to overcome limitations of static training data and reduce hallucinations. It cites industry perspectives that fresh, contextually-relevant data retrieval at scale is necessary for AI trust and operational effectiveness, referencing RAG as insufficient without proper infrastructure. The piece matters as a high-level framing of the web data collection market opportunity, though offers limited technical depth or novel insights.
 
 **✗ 1.7** — [Accenture Launches Accenture Edge to Bring AI to Mid-Market Companies - AIM Media House](https://news.google.com/rss/articles/CBMirgFBVV95cUxON2RBZ2k2bWlldFVpMlBJMFJtdWktR0tOaXNGTUVHTC1KcW1QWGdfVDhsRzBoRW0tdXBkNmxDTk0yc0xyelVHR2JZWkt0Mzd2T0R4ZzEwNEFqZmtjMnMyZnVNNWtkUTBIR1BzcERLVlZyYXpmWmFBb0R0YXhRSjVodEpjNFJEVUNHUGpRSzd3aGVQZzduRDVhZzlOZlVHLTB6akJ1Si1IeUFfQVQ2c1E?oc=5)  
 *GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-b2b-saas
