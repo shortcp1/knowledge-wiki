@@ -24212,6 +24212,230 @@
       ],
       "status": "skipped",
       "skip_reason": "Article content is inaccessible behind cookie consent wall; only funding headline visible without technical details, implementation insights, or substantive analysis of the AI platform being built."
+    },
+    "https://www.deeplearning.ai/the-batch/issue-358": {
+      "title": "Issue 358",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-29T02:00:49.859181+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "lab-dynamics",
+        "regulatory-policy",
+        "ai-governance-risk-compliance",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on two significant power demonstrations in AI access control: Anthropic's release of Claude Fable 5 with restrictions on competing LLM development and controversial silent performance degradation for AI researchers, followed by U.S. Commerce Department export controls on Claude models requiring licenses for foreign nationals. These actions revealed how both companies and governments can unilaterally terminate AI access, accelerating efforts by businesses and nation-states to ensure independent, reliable access to AI capabilities. The incidents expose the fragility of building on proprietary LLM platforms and the geopolitical implications of AI export controls, even among allies.",
+      "tags": [
+        "model-access-restrictions",
+        "export-controls",
+        "platform-stability",
+        "ai-competition-policy",
+        "llm-guardrails",
+        "geopolitical-ai-access"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/4": {
+      "title": "4",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-29T02:00:49.685098+00:00",
+      "composite": 2.7,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-org-design-headcount",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a collection of Andrew Ng's weekly newsletter letter titles and brief excerpts covering various AI topics from June-August 2025, including Meta's AI engineer compensation, university AI transformation, U.S.-China AI competition, copyright rulings, and immigration policy. The content consists primarily of article headlines and opening paragraphs without the full analysis or arguments. This matters as a catalog of topics covered by a prominent AI educator, but lacks depth as the actual article content is truncated.",
+      "tags": [
+        "ai-regulation",
+        "ai-compensation",
+        "copyright-fair-use",
+        "immigration-policy",
+        "us-china-ai-race"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is merely a truncated table of contents showing newsletter titles and opening sentences without full content, providing no substantive analysis or insights to evaluate."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/5": {
+      "title": "5",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-06-29T02:00:49.685032+00:00",
+      "composite": 2.7,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "prompt-architecture",
+        "rag-vs-finetuning-vs-wiki",
+        "evals-production-deployment"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a collection of newsletter headlines and brief snippets from Andrew Ng's letters covering various AI topics including education, coding assistance, evaluation methods, fine-tuning decisions, and voice applications. The content provides no substantive analysis or detail\u2014only titles and 1-2 sentence teasers for each letter. This is a navigation page rather than actual content, offering no actionable insights or novel frameworks.",
+      "tags": [
+        "newsletter-index",
+        "ai-education",
+        "evals",
+        "fine-tuning",
+        "voice-applications"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a table of contents page with article titles and brief teasers, containing no actual analysis, research, data, or substantive content to evaluate."
+    },
+    "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything": {
+      "title": "Quoting Jon Udell",
+      "source": "Simon Willison",
+      "date": "2026-06-28T21:57:41+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Jon Udell argues for reframing \"human in the loop\" as \"agent in the loop,\" asserting that humans should retain authority over software development processes rather than ceding control to AI agents. The core mechanism is a philosophical shift: viewing AI coding agents as team members recruited into human-led workflows rather than autonomous black boxes that exclude developers from the process. This matters for how organizations design agentic software development practices, emphasizing human oversight and reviewable outputs over fully automated code generation.",
+      "tags": [
+        "coding-agents",
+        "human-in-the-loop",
+        "agentic-software-development",
+        "code-review",
+        "developer-workflow"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief quote without substantial analysis, novel data, or actionable frameworks; primarily a philosophical reframing rather than technical depth or new evidence."
+    },
+    "https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything": {
+      "title": "Hack Your Summer",
+      "source": "Simon Willison",
+      "date": "2026-06-28T19:26:11+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-hr-talent"
+      ],
+      "content_type": "landscape",
+      "summary": "The article announces Hack Your Summer, a 4-week production sprint program for students to build real projects during summer 2026. The program was created in response to an internship crisis where significantly fewer internships are available due to reduced company hiring and mentorship capacity. Students can apply for the free July cohort, with mentors also being recruited to support participants.",
+      "tags": [
+        "internship-crisis",
+        "student-programs",
+        "mentorship",
+        "hiring-trends"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement of a student program with no analysis, AI-specific insights, or technical depth relevant to the specified knowledge areas."
+    },
+    "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside": {
+      "title": "Latest open artifacts (#22): Zyphra, Cohere, and Poolside are expanding the breadth of the ecosystem",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "2026-06-28T17:03:07+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics",
+        "build-vs-buy-enterprise-ai",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that the open model ecosystem is becoming more diverse, with three categories of players emerging: pure model makers (frontier-focused companies), Big Tech (using open releases for strategic advantage), and product companies (training specialized models for their products). It provides evidence through categorizing recent releases from companies like Zyphra, Cohere, Poolside, NVIDIA, and others, noting shifts in licensing (like NVIDIA's OpenMDW and Cohere's Apache 2.0) and motivations. This matters because it suggests open model development is becoming a long-tail phenomenon driven by diverse motivations rather than concentrated frontier competition, which has implications for AI governance and ecosystem dynamics.",
+      "tags": [
+        "open-models",
+        "sovereign-ai",
+        "model-licensing",
+        "openmmdw-license",
+        "latent-moe",
+        "ecosystem-dynamics"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level categorization of open model releases without deep technical analysis or novel frameworks; primarily observational landscape mapping with limited actionable insights"
+    },
+    "https://openai.com/index/hp-frontier-partnership": {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "source": "OpenAI News",
+      "date": "2026-06-28T17:00:00+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "HP Inc. announces a strategic partnership with OpenAI to integrate AI capabilities across customer experiences, software development, and enterprise operations. The article provides no specific details about implementation, technical architecture, deployment scale, or business outcomes. This is a corporate announcement with minimal substantive information about how the partnership will work or what makes it strategically significant.",
+      "tags": [
+        "openai-partnership",
+        "enterprise-ai-deployment",
+        "customer-experience",
+        "software-development"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate partnership announcement with no technical details, implementation specifics, novel frameworks, or actionable insights about AI deployment strategies."
+    },
+    "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape": {
+      "title": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
+      "source": "Lenny's Newsletter",
+      "date": "2026-06-28T12:31:54+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-engineering-agents",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Andrew Ambrosino, OpenAI Codex desktop lead, argues that AI has fundamentally inverted product development by making building cheaper than deciding what to build, elevating taste as the most critical skill. He describes how nearly 100% of OpenAI employees (not just engineers) now use Codex weekly, with teams operating in a 'zone defense' model where roles collapse and anyone can build. This matters because it represents a concrete case study of how product management, engineering, and design roles are being restructured at a leading AI lab, with implications for how organizations should staff and structure teams in an AI-first world.",
+      "tags": [
+        "codex-desktop",
+        "taste-as-skill",
+        "role-collapse",
+        "zone-defense-model",
+        "ai-native-workflows",
+        "internal-tooling"
+      ],
+      "status": "skipped",
+      "skip_reason": "Podcast transcript lacks substantive technical detail or novel framework; primarily anecdotal discussion of internal tool usage and organizational philosophy without concrete data or mechanisms"
+    },
+    "https://www.exponentialview.co/p/ev-580": {
+      "title": "\ud83d\udd2e Fifty years of Moore\u2019s Law wasn\u2019t fast enough for AI #580",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-06-28T02:14:28+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "semiconductor-supply-chain",
+        "ai-org-design-headcount",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI accelerators have broken a 50-year trend in global compute growth, showing acceleration beyond the historical 66% CAGR that persisted through major platform shifts from mainframes to PCs to mobile. Using a proprietary model tracking total compute stock across all device types globally, the author demonstrates that the shift starting in 2020 represents only the second time this trend has broken since the mid-1990s, when the Pentium and Internet era similarly disrupted the pattern. This matters because it suggests AI's compute demands are fundamentally different from previous computing epochs, potentially sustaining elevated growth for a decade before reverting to historical norms.",
+      "tags": [
+        "compute-growth-trends",
+        "ai-accelerators",
+        "flops-capacity",
+        "moores-law",
+        "dennard-scaling",
+        "platform-shifts"
+      ],
+      "status": "integrated"
     }
   }
 }

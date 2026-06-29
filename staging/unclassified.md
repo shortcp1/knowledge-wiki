@@ -1102,3 +1102,24 @@ This optimization is critical for efficient use of training resources in [[gpu-a
 ---
 **TBM 427: The Bottleneck Strike Again!** (The Beautiful Mess (John Cutler), 2026-06-26T06:13:28+00:00)
 **New emerging concept**: 'Loop Engineering' — mentioned as a recent development but not defined in the article. May warrant future tracking as the concept develops.
+
+---
+**🔮 Fifty years of Moore’s Law wasn’t fast enough for AI #580** (Exponential View (Azeem Azhar), 2026-06-28T02:14:28+00:00)
+## Historical Computing Economics Context
+
+### Solow's Paradox (pre-1990s)
+- Observation by economist Robert Solow that productivity gains from computing were not appearing in economic statistics
+- Businesses "inched past" this paradox in mid-1990s, contributing to compute stock acceleration
+- Referenced as historical precedent for technology adoption lag
+
+### Dennard Scaling
+- Historical principle that broke around 2006
+- Breakdown forced transition to multi-core architectures
+- Multi-core designs don't provide smooth scaling of FLOP capacity compared to single-core frequency improvements
+- Contributed to reversion of compute stock growth to long-term mean
+
+## Notable Figure: Om Malik
+- Tech journalist, founder, investor, photographer
+- Died June 2026
+- Known for understanding "technology is a human endeavor, not just an engineering one"
+- Influential voice in technology journalism and commentary

@@ -705,7 +705,54 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-29
+
+**✓ 8.0** — [Issue 358](https://www.deeplearning.ai/the-batch/issue-358)  
+*The Batch (DeepLearning.AI)* · lab-dynamics · regulatory-policy · ai-governance-risk-compliance
+#model_access_restrictions #export_controls #platform_stability #ai_competition_policy
+> The article reports on two significant power demonstrations in AI access control: Anthropic's release of Claude Fable 5 with restrictions on competing LLM development and controversial silent performance degradation for AI researchers, followed by U.S. Commerce Department export controls on Claude models requiring licenses for foreign nationals. These actions revealed how both companies and governments can unilaterally terminate AI access, accelerating efforts by businesses and nation-states to ensure independent, reliable access to AI capabilities. The incidents expose the fragility of building on proprietary LLM platforms and the geopolitical implications of AI export controls, even among allies.
+
+**✗ 2.7** — [4](https://www.deeplearning.ai/the-batch/tag/letters/page/4)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · ai-org-design-headcount · funding-and-market-structure
+#ai_regulation #ai_compensation #copyright_fair_use #immigration_policy
+> This is a collection of Andrew Ng's weekly newsletter letter titles and brief excerpts covering various AI topics from June-August 2025, including Meta's AI engineer compensation, university AI transformation, U.S.-China AI competition, copyright rulings, and immigration policy. The content consists primarily of article headlines and opening paragraphs without the full analysis or arguments. This matters as a catalog of topics covered by a prominent AI educator, but lacks depth as the actual article content is truncated.
+
+**✗ 2.7** — [5](https://www.deeplearning.ai/the-batch/tag/letters/page/5)  
+*The Batch (DeepLearning.AI)* · prompt-architecture · rag-vs-finetuning-vs-wiki · evals-production-deployment
+#newsletter_index #ai_education #evals #fine_tuning
+> This is a collection of newsletter headlines and brief snippets from Andrew Ng's letters covering various AI topics including education, coding assistance, evaluation methods, fine-tuning decisions, and voice applications. The content provides no substantive analysis or detail—only titles and 1-2 sentence teasers for each letter. This is a navigation page rather than actual content, offering no actionable insights or novel frameworks.
+
 ## 2026-06-28
+
+**✗ 4.7** — [Quoting Jon Udell](https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#coding_agents #human_in_the_loop #agentic_software_development #code_review
+> Jon Udell argues for reframing "human in the loop" as "agent in the loop," asserting that humans should retain authority over software development processes rather than ceding control to AI agents. The core mechanism is a philosophical shift: viewing AI coding agents as team members recruited into human-led workflows rather than autonomous black boxes that exclude developers from the process. This matters for how organizations design agentic software development practices, emphasizing human oversight and reviewable outputs over fully automated code generation.
+
+**✗ 2.3** — [Hack Your Summer](https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything)  
+*Simon Willison* · ai-in-hr-talent
+#internship_crisis #student_programs #mentorship #hiring_trends
+> The article announces Hack Your Summer, a 4-week production sprint program for students to build real projects during summer 2026. The program was created in response to an internship crisis where significantly fewer internships are available due to reduced company hiring and mentorship capacity. Students can apply for the free July cohort, with mentors also being recruited to support participants.
+
+**✗ 5.3** — [Latest open artifacts (#22): Zyphra, Cohere, and Poolside are expanding the breadth of the ecosystem](https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside)  
+*Interconnects (Nathan Lambert)* · model-architecture · lab-dynamics · build-vs-buy-enterprise-ai
+#open_models #sovereign_ai #model_licensing #openmmdw_license
+> The article argues that the open model ecosystem is becoming more diverse, with three categories of players emerging: pure model makers (frontier-focused companies), Big Tech (using open releases for strategic advantage), and product companies (training specialized models for their products). It provides evidence through categorizing recent releases from companies like Zyphra, Cohere, Poolside, NVIDIA, and others, noting shifts in licensing (like NVIDIA's OpenMDW and Cohere's Apache 2.0) and motivations. This matters because it suggests open model development is becoming a long-tail phenomenon driven by diverse motivations rather than concentrated frontier competition, which has implications for AI governance and ecosystem dynamics.
+
+**✗ 2.7** — [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership)  
+*OpenAI News* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#openai_partnership #enterprise_ai_deployment #customer_experience #software_development
+> HP Inc. announces a strategic partnership with OpenAI to integrate AI capabilities across customer experiences, software development, and enterprise operations. The article provides no specific details about implementation, technical architecture, deployment scale, or business outcomes. This is a corporate announcement with minimal substantive information about how the partnership will work or what makes it strategically significant.
+
+**✗ 5.3** — [OpenAI Codex lead on the new shape of product work | Andrew Ambrosino](https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape)  
+*Lenny's Newsletter* · ai-in-product-and-engineering · ai-engineering-agents · ai-org-design-headcount
+#codex_desktop #taste_as_skill #role_collapse #zone_defense_model
+> Andrew Ambrosino, OpenAI Codex desktop lead, argues that AI has fundamentally inverted product development by making building cheaper than deciding what to build, elevating taste as the most critical skill. He describes how nearly 100% of OpenAI employees (not just engineers) now use Codex weekly, with teams operating in a 'zone defense' model where roles collapse and anyone can build. This matters because it represents a concrete case study of how product management, engineering, and design roles are being restructured at a leading AI lab, with implications for how organizations should staff and structure teams in an AI-first world.
+
+**✓ 8.0** — [🔮 Fifty years of Moore’s Law wasn’t fast enough for AI #580](https://www.exponentialview.co/p/ev-580)  
+*Exponential View (Azeem Azhar)* · gpu-architecture-training-infra · semiconductor-supply-chain · ai-org-design-headcount
+#compute_growth_trends #ai_accelerators #flops_capacity #moores_law
+> The article argues that AI accelerators have broken a 50-year trend in global compute growth, showing acceleration beyond the historical 66% CAGR that persisted through major platform shifts from mainframes to PCs to mobile. Using a proprietary model tracking total compute stock across all device types globally, the author demonstrates that the shift starting in 2020 represents only the second time this trend has broken since the mid-1990s, when the Pentium and Internet era similarly disrupted the pattern. This matters because it suggests AI's compute demands are fundamentally different from previous computing epochs, potentially sustaining elevated growth for a decade before reverting to historical norms.
 
 **✗ 2.7** — [2](https://www.deeplearning.ai/the-batch/tag/letters/page/2)  
 *The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
