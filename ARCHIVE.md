@@ -705,7 +705,103 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-06-30
+
+**✗ 2.0** — [13](https://www.deeplearning.ai/the-batch/page/13)  
+*The Batch (DeepLearning.AI)* · model-architecture · ai-governance-risk-compliance · regulatory-policy
+#newsletter_index #chatgpt #large_language_models #ai_safety
+> This is an index page listing newsletter issues from DeepLearning.AI's The Batch publication from late 2022 to early 2023. It provides only headlines and brief teasers for articles covering various AI topics including ChatGPT, language models, privacy, and AI safety. This is a navigation page without substantive content, analysis, or original insights.
+
+**✗ 1.0** — [Cmo Insights](https://www.bain.com/insights/topics/cmo-insights/)  
+*Bain Insights* · 
+#navigation_page #website_structure #no_content
+> This is a navigation page from Bain & Company's website listing their office locations and service areas, not an actual article. It contains no substantive content, analysis, or insights - only menu structure and geographic listings. This appears to be a scraping error that captured the website's navigation skeleton rather than actual CMO-related content.
+
+**✗ 5.7** — [Biological Molecules As Language](https://www.deeplearning.ai/the-batch/biological-molecules-as-language)  
+*The Batch (DeepLearning.AI)* · 
+#protein_folding #alphafold #molecular_structure_prediction #transformer_embeddings
+> ESMFold2, developed by Biohub and EvolutionaryScale, applies transformer-based LLM techniques to molecular structure prediction, matching AlphaFold 3's performance while being open-source and eliminating the need for multiple sequence alignments (MSAs). The model uses a 6.2 billion parameter architecture that embeds individual molecules directly using transformer embeddings trained on 2.8 billion protein sequences, rather than requiring aligned related molecules. This represents an architectural innovation that makes protein structure prediction more accessible and flexible by treating biological sequences as natural language.
+
+**✗ 4.3** — [Gpt 5 6 Arrives But Only For Approved Partners](https://www.deeplearning.ai/the-batch/gpt-5-6-arrives-but-only-for-approved-partners)  
+*The Batch (DeepLearning.AI)* · model-architecture · regulatory-policy · ai-governance-risk-compliance
+#gpt_5_6 #gated_release #computer_use #model_safeguards
+> This newsletter reports on OpenAI's gated release of GPT-5.6 (with three model tiers) and Google's integration of computer-use capabilities into Gemini 3.5 Flash, both with enhanced safety measures. The key evidence includes benchmark improvements in specialized domains and new layered defense mechanisms like real-time classifiers and prompt injection detection. The article signals increased government involvement in model releases and the mainstreaming of agentic computer-control capabilities into production APIs.
+
+**✗ 1.7** — [Btb What Ai Changes And What It Doesnt At Bain](https://www.bain.com/insights/btb-what-ai-changes-and-what-it-doesnt-at-bain/)  
+*Bain Insights* · 
+> The article appears to be a navigation page or broken content from Bain & Company's website rather than substantive content. No actual article text, arguments, evidence, or analysis is provided beyond website navigation menus and office locations. This is not analyzable content and provides no value for a knowledge base.
+
+**✗ 3.0** — [Seven Lessons From Founders Building Robotics Businesses Set To Scale](https://www.bvp.com/atlas/seven-lessons-from-founders-building-robotics-businesses-set-to-scale)  
+*Bessemer Atlas* · 
+#robotics_deployment #vertical_selection #labor_automation #end_to_end_ai
+> The article shares seven lessons from robotics founders building companies in hotels, warehouses, and automotive plants, drawing on experience from Amazon, Waymo, and Covariant. Key insights include building where buyers face acute labor pain, considering full-stack versus partnership approaches, and avoiding premature vertical definition. The article offers practical entrepreneurial advice for robotics startups but lacks depth on AI/ML systems architecture or broader strategic implications beyond basic go-to-market wisdom.
+
 ## 2026-06-29
+
+**✗ 1.7** — [HTML table extractor](https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything)  
+*Simon Willison* · 
+#html_tables #data_conversion #web_scraping #markdown
+> Simon Willison announces a simple HTML table extraction tool that converts pasted HTML, rich text, or plain text tables into multiple formats (HTML, Markdown, CSV, TSV, JSON). The tool automatically detects tables in pasted content and provides preview and export functionality. This is a utility tool for data conversion rather than AI or enterprise technology content.
+
+**✗ 1.0** — [Count the number of Safari tabs](https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything)  
+*Simon Willison* · 
+#applescript #safari #browser_automation
+> The article provides a single-line AppleScript command to count the number of open Safari browser tabs across all windows. It offers no analysis, context, or application beyond the bare technical snippet. This is a minimal technical note with no connection to AI, enterprise systems, or any substantive topic area.
+
+**✓ 7.3** — [AI agents are not your “coworkers”](https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/)  
+*MIT Technology Review* · ai-engineering-agents · agentic-workflows-production · ai-org-design-headcount
+#ai_agents #anthropomorphization #human_ai_collaboration #accountability
+> The article argues that framing AI agents as "employees" or "coworkers" leads to worse human performance and accountability, citing research by Emma Wiles showing people caught 18% fewer errors and were 44% more likely to escalate decisions when AI was positioned as an employee rather than a tool. The mechanism involves an inversion of responsibility where humans feel less accountable for AI output when it's anthropomorphized, undermining oversight and negating productivity gains. This matters because major tech companies are increasingly marketing AI agents as digital colleagues, creating dangerous precedent for accountability gaps in critical domains like healthcare, warfare, and government.
+
+**✗ 5.0** — [Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding](https://simonwillison.net/2026/Jun/29/ornith/#atom-everything)  
+*Simon Willison* · model-architecture · ai-engineering-agents · agentic-workflows-production
+#ornith_model #agentic_coding #mixture_of_experts #local_inference
+> This article announces Ornith-1.0, a new open-weights (MIT licensed) model from DeepReinforce designed for agentic coding, available in variants from 9B to 397B parameters built on Gemma 4 and Qwen 3.5. The author tests the 35B quantized version locally using LM Studio, demonstrating its ability to handle multi-step tool calls for code navigation tasks and simple image generation. The model appears to perform well for agentic workflows, though limited information is available about the developing organization.
+
+**✓ 7.0** — [🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code](https://www.lennysnewsletter.com/p/how-i-ai-glm-52-review-and-how-gusto)  
+*Lenny's Newsletter* · model-architecture · ai-engineering-agents · ai-in-product-and-engineering
+#open_weight_models #glm_5_2 #coding_agents #cursor_ide
+> Claire evaluates GLM-5.2, an open-weight model from Z.ai, as a production-grade alternative to Claude Opus for coding workflows, testing it through real codebase audits, UI redesigns, and a 45-minute autonomous bug-hunting task. The model demonstrated near-frontier performance at significantly lower cost ($3.36 for 6M tokens), successfully running agentic tasks and surfacing production issues, though it struggled with React under multi-step pressure. This represents a shift where open-weight models offer genuine alternatives to closed frontier models for engineering workflows, changing the vendor lock-in dynamics and cost structure for AI-assisted development at scale.
+
+**✗ 5.0** — [Agent confidence on the technical frontier](https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/)  
+*MIT Technology Review* · agentic-workflows-production · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#agentic_ai #enterprise_deployment #business_context #human_oversight
+> This article reports on a survey of 300 technology experts regarding confidence levels in deploying agentic AI across 101 tasks in AI, data, and cloud workflows, with 2026 identified as an inflection point for enterprise AI ROI. The key finding is that confidence is highest for structured, measurable tasks like data quality monitoring and report generation, but drops for complex tasks requiring business context that current systems struggle to provide. This matters because it identifies the technical frontier and specific readiness gaps (particularly business context integration) that organizations must address to scale agentic systems beyond simple automation.
+
+**✓ 7.7** — [Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era](https://importai.substack.com/p/import-ai-463-self-improving-robots)  
+*Import AI (Jack Clark)* · gpu-architecture-training-infra · ai-engineering-agents · agentic-workflows-production
+#self_improving_robots #autonomous_experimentation #physical_feedback_loop #coding_agents
+> NVIDIA has developed ENPIRE, a framework that enables physical robots to self-improve through autonomous experimentation loops similar to AI coding agents, with automatic evaluation and reset capabilities. The system demonstrated 99% success rates on dexterous manipulation tasks using bimanual YAM arms and RTX 5090 GPUs, with multi-agent configurations outperforming single-agent setups. This represents an early prototype of how advanced AI systems might autonomously deploy and improve themselves in physical environments, though current demonstrations remain limited to relatively simple tasks.
+
+**✗ 4.3** — [📈 Data to start your week](https://www.exponentialview.co/p/data-to-start-your-week-29-june-2026)  
+*Exponential View (Azeem Azhar)* · semiconductor-supply-chain · funding-and-market-structure
+#ai_capex #ai_revenue #depreciation_expense #lab_talent
+> This newsletter presents four data points: AI revenues now exceed quarterly capex depreciation (but not cumulative historic depreciation), Chinese AI labs hire less experienced talent than US counterparts, GLP-1 users show increased employment rates, and SK Hynix surpassed Samsung in market value. The evidence consists of brief statistics and charts without detailed methodology or analysis. The article provides surface-level market signals rather than deep insights into underlying dynamics or implications.
+
+**✗ 2.3** — [The Download: metric weaknesses and AI elephant warnings](https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-ai-elephant-warnings/)  
+*MIT Technology Review* · regulatory-policy · model-architecture
+#news_digest #model_releases #china_ai_competition #chip_supply
+> This is a newsletter digest summarizing multiple technology news items, with brief mentions of AI model releases (Anthropic's Mythos 5, Chinese competitor Zhipu AI) and various other tech stories ranging from chip supply chains to data centers. The content provides only surface-level summaries with links to original sources, offering no original analysis or depth. It's a news aggregation piece rather than substantive content on any single topic.
+
+**✓ 7.3** — [No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)](https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto)  
+*Lenny's Newsletter* · ai-engineering-agents · ai-in-product-and-engineering · ai-org-design-headcount
+#claude_code #ai_coding_assistants #product_development_velocity #eval_first_development
+> Gusto's CTO Eddie Kim describes how a 5-person team built a complete AI product line (Gusto Cofounder) in 10 weeks using Claude Code, abandoning traditional processes like Figma, Jira, and documentation in favor of a perma-Zoom workflow and direct code prototyping. The team used a "trash-can method" where full PRs were written and deleted as a product decision tool, enabled a designer to ship code at the 94th percentile, and deployed to production from day one using an eval-first approach. This demonstrates a radically simplified organizational model for AI-native product development that challenges conventional software development processes and shows how AI coding tools can compress team size and timelines while maintaining production quality.
+
+**✗ 2.3** — [PayPal is trimming the parts that don’t fit its new operating model](https://tearsheet.co/10-q/paypal-is-trimming-the-parts-that-dont-fit-its-new-operating-model/?utm_source=rss&utm_medium=rss&utm_campaign=paypal-is-trimming-the-parts-that-dont-fit-its-new-operating-model)  
+*Tearsheet (fintech)* · 
+#corporate_venture_capital #strategic_focus #fintech_strategy #paypal
+> PayPal is reportedly shutting down its venture capital arm, PayPal Ventures, as part of a strategic narrowing to focus on core operations rather than exploratory investments. The article frames this as a shift from 'exploration to execution' where the company can no longer afford strategic ambiguity. This reflects a broader pattern where corporate venture arms become expendable when parent companies prioritize operational clarity over optionality.
+
+**✓ 7.3** — [How I Built A Custom AI Agent For My RIA – And What It’s Changing About How We Work](https://feeds.feedblitz.com/~/958714535/0/kitcesnerdseyeview~How-I-Built-A-Custom-AI-Agent-For-My-RIA-%e2%80%93-And-What-Its-Changing-About-How-We-Work/)  
+*Kitces.com* · ai-wealth-management-advisory · agentic-workflows-production · rag-over-proprietary-content
+#claude_integration #crm_rag #founder_knowledge_transfer #wealth_advisory_workflows
+> Jake Northrup built a custom AI agent called 'Rocky' for his 3-person wealth management firm by integrating Claude into their Slant CRM system and a secure private cloud environment to codify the founder's advisory approach and train team members. The system uses RAG over meeting transcripts, notes, and firm SOPs stored in their CRM to provide consistent planning advice without requiring constant founder input or traditional osmosis-based training. This demonstrates that smaller firms can achieve AI-assisted knowledge transfer without building complex data warehouses, instead leveraging CRM consolidation and secure AI integration to scale advisory quality.
+
+**✗ 2.3** — [Mapping Europe’s AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu)  
+*OpenAI News* · ai-org-design-headcount · regulatory-policy
+#workforce_transformation #labor_market_analysis #eu_employment #automation_risk
+> OpenAI released a report analyzing how AI adoption could impact employment across European Union job categories, identifying which roles face automation risk versus augmentation opportunities. The report appears to map occupational exposure to AI transformation across the EU workforce. This provides a high-level framework for understanding AI's labor market effects in Europe but lacks specific technical or implementation details.
 
 **✓ 8.0** — [Issue 358](https://www.deeplearning.ai/the-batch/issue-358)  
 *The Batch (DeepLearning.AI)* · lab-dynamics · regulatory-policy · ai-governance-risk-compliance
@@ -721,6 +817,11 @@ All articles scanned since the wiki started. Updated nightly.
 *The Batch (DeepLearning.AI)* · prompt-architecture · rag-vs-finetuning-vs-wiki · evals-production-deployment
 #newsletter_index #ai_education #evals #fine_tuning
 > This is a collection of newsletter headlines and brief snippets from Andrew Ng's letters covering various AI topics including education, coding assistance, evaluation methods, fine-tuning decisions, and voice applications. The content provides no substantive analysis or detail—only titles and 1-2 sentence teasers for each letter. This is a navigation page rather than actual content, offering no actionable insights or novel frameworks.
+
+**✓ 8.0** — [When AI Costs More Than the Engineer](https://www.tomtunguz.com/ai-spend-breakeven-2029/)  
+*Tomasz Tunguz* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai · funding-and-market-structure
+#compute_spend_per_engineer #token_deflation #agentic_workflows #ai_native_cost_structure
+> Anthropic spends 2.3x its payroll on compute ($2m per employee annually), while top 1% of software companies spend only 0.4x ($89k per engineer), creating a massive adoption gap. The article models three 2029 scenarios—bear (token deflation wins), base (gradual adoption), and bull (market reaches Anthropic's 2.3x ratio)—where bull case AI costs per engineer ($596k) would match median SaaS employee revenue contribution. This framing redefines AI adoption as a cost-structure transformation where infrastructure spend may permanently exceed labor costs, forcing strategic decisions about competitive positioning versus financial sustainability.
 
 ## 2026-06-28
 
@@ -795,6 +896,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Ahead of AI (Raschka)* · ai-engineering-agents · build-vs-buy-enterprise-ai
 #local_llm #coding_agents #open_weight_models #inference_engine
 > This tutorial explains how to set up a local coding agent using open-weight LLMs and local coding harnesses as alternatives to proprietary services like Claude Code and GitHub Codex. The article focuses on practical setup instructions and compares the benefits of local deployment (cost predictability, privacy, offline use, reproducibility) versus cloud-based coding assistants. It positions local coding agents as increasingly viable alternatives for developers who want control, transparency, and freedom from subscription limits.
+
+**✗ 2.3** — [An RIA is stripping out software from $1 billion-plus of acquisitions -- with a new $48.5 million raise and sky-high praise -- but critics say Arca Wealth mostly has a new narrative for an existing business model - RIABiz](https://news.google.com/rss/articles/CBMi1AJBVV95cUxQX3FaQ2JwbHRtc2w1d1VRN3NpU2FKWlAxeDVkbG5td2JDN0ZpQzhRcTR6ZXpreXBDa3NhX1J1eVduYlJnVTZDczRvRVF4aFFOOWtRZjV5aTh4NFJaZnNHZVZZcWxoRjNyX0hXcWZBTEx2T2liNnFTUHRKTG1sQXI4bnNiSHF4Mlhtb2NRQWRhOTJFeUJVMDhjcjFuYnl0WFpFbGpZR2UtdWM1ZTdOVi15VmpaNWxQYlRkcVpXS3MwTmg2QkVCV0JJUDBoeEhrdnhET2dONWI4RmpqM0NZQjFPZ1FjTEFoYWhkbTZiaGluQ1NnUmhmS0JLRXVaRnFjN3ZWWjA4V1lrX0kwWHFPcGpfNU85QXlYbUNadXd5SnQwQ3BrUTdOZjFyTlk4SFp0akJKaDhvMHU4Q0JFcndVZEdXS19jREU5SnZ4eFV0QnUzaUVyOVRr?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#ria #wealth_management #acquisition_strategy
+> This article appears to discuss an RIA (Registered Investment Advisor) firm called Arca Wealth that raised $48.5 million and is implementing a technology strategy involving software removal from acquired firms worth over $1 billion. However, the actual article content provided consists only of a Google cookie consent screen with no substantive information about the company, its AI strategy, or financial services technology. Without access to the real article text, it's impossible to evaluate the depth of analysis, novelty of claims, or strategic implications for AI in wealth management.
 
 **✗ 4.7** — [[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners](https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna)  
 *Latent Space* · model-architecture · regulatory-policy · lab-dynamics
@@ -988,6 +1094,10 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Wealth Management* · ai-wealth-management-advisory
 #wealth_management #funding #ai_native_platform
 > Arca has raised $64 million in funding to build an AI-native wealth management platform. The article provides only the headline announcement without details about the technology, approach, or specific AI capabilities being developed. This is a funding announcement that signals market activity in AI wealth management but lacks substantive information about implementation or innovation.
+
+**✗ 1.0** — [Jump's AI Leap: Reshaping Wealth Management One Workflow at a Time - BriefGlance](https://news.google.com/rss/articles/CBMingFBVV95cUxPZVhQRDcwdVNDdlI0M0trRm55aEd5R2tkeU5FQmNldHdyUDAwZTBLSHY5dUdiREtiM3dqQTAtVXV0TmNoUFV3UjdndmRhYlVXSEtjMlVvY04zNUxvQUp6aEJHV1lXczJBWUVPZlBJb0FSQ3JQaWZ6dkN4RFNUQmtveXNVX3dvQ1dDdWk3MmJYcks5ODU2QTdhRDVDQmtyQQ?oc=5)  
+*GN: AI Wealth Management* · 
+> This appears to be a Google cookie consent page rather than an actual article about Jump's AI implementation in wealth management. No substantive content about AI, wealth management workflows, or any technical implementation details is present. The text consists entirely of Google's standard privacy policy and language selection options.
 
 **✗ 1.7** — [CXAI Introduces CXAI 2.0: The Agentic Operating Layer for Enterprises of All Sizes - The Globe and Mail](https://news.google.com/rss/articles/CBMigAJBVV95cUxNQTBrYVF6N19KQU1FTXpxYW9aS0RIbDEtdHlRNDB2ZFhhNm0xYnlkY1ZfMVgzSjdiaFNCejFieUczclVIdWltZHVRUTNYZUZfa2ZkcE1IbzRYdmljckpNM0pQeEYwUHhFVmUwMWZRSGUzOUkyUlJZa1Yzc2pGZkwzNHdyNUo1cEpjMDhyOGRDMXI3WXpaQ0EwQ3NEOERvQ2pIZ1dTcnlqeU12dE45emcxdXZwWHZRWGYtTktvMFdaNS0zVGFEcmhMeGEwWlFrb1E0eXBvaGhvUmRVM3NZbkYxTW8zdGh3NzZHVGtSUzdqYU9yR0dTeXN2b01Ld1lvNHR1?oc=5)  
 *GN: AI Mid-Market Enterprise* · agentic-workflows-production · build-vs-buy-enterprise-ai

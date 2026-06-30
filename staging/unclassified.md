@@ -1123,3 +1123,20 @@ This optimization is critical for efficient use of training resources in [[gpu-a
 - Died June 2026
 - Known for understanding "technology is a human endeavor, not just an engineering one"
 - Influential voice in technology journalism and commentary
+
+---
+**Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era** (Import AI (Jack Clark), 2026-06-29T13:03:27+00:00)
+## Technology Prediction Difficulty
+
+Matthew Tokson (Associate Dean for Research, University of Utah S.J. Quinney College of Law) notes in SSRN paper that humans have poor track record predicting how technologies are built and used:
+- Skeptics frequently underestimate likelihood of novel innovations and their ramifications
+- Others are overly optimistic about societal implications
+- Implication: Current predictions about AI trajectory (both positive and negative) likely to be substantially incorrect
+
+Note: This is a meta-observation about forecasting accuracy rather than a technical AI claim.
+
+---
+**🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code** (Lenny's Newsletter, 2026-06-29T15:02:35+00:00)
+## Gusto Product Development Case Study
+
+Episode referenced but content not provided in article text: "No Figma. No Jira. No docs. How Gusto built a new product" - title only, no details to extract.
