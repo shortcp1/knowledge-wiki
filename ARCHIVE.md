@@ -705,7 +705,139 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-01
+
+**✗ 5.0** — [Claude Science Ai Workbench](https://www.anthropic.com/news/claude-science-ai-workbench)  
+*Anthropic Blog* · ai-engineering-agents · agentic-workflows-production · ai-native-product-design
+#scientific_workflows #multi_agent_systems #reproducibility #compute_orchestration
+> Anthropic announces Claude Science, an AI workbench that integrates scientific research tools (PubMed, Jupyter, R, databases) into a single environment with coordinating agents, specialist skills for genomics/proteomics, and compute management capabilities. The platform generates reproducible scientific artifacts (3D protein structures, figures, manuscripts) with full audit trails of code and execution history, while handling cluster compute jobs automatically. This represents Anthropic's expansion into vertical-specific AI tooling for life sciences researchers, though the article is primarily a product announcement rather than technical analysis.
+
+**✗ 5.0** — [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)  
+*Anthropic Blog* · model-architecture · inference-time-compute · ai-engineering-agents
+#agentic_ai #tool_use #inference_time_compute #cost_performance_tradeoff
+> Anthropic announces Claude Sonnet 5, positioning it as their most agentic Sonnet-class model that narrows the performance gap with Opus 4.8 at lower cost. The model shows improvements in reasoning, tool use, coding, and computer use tasks, with performance matching Opus 4.8 at higher effort levels while offering better cost-performance tradeoffs. The release includes introductory pricing of $2/$10 per million input/output tokens (rising to $3/$15 after August 2026) and is available across all Claude plans.
+
+**✗ 2.0** — [14](https://www.deeplearning.ai/the-batch/page/14)  
+*The Batch (DeepLearning.AI)* · ai-careers
+#newsletter_archive #deeplearning_ai #the_batch
+> This is an index page listing multiple issues of The Batch newsletter from DeepLearning.AI spanning July-September 2022. It provides brief headlines and excerpts from various newsletter issues covering topics like image generation models, AI regulation, career advice, and various AI applications. The page serves as a navigation/archive page rather than substantive content itself.
+
+**✗ 1.0** — [16](https://www.deeplearning.ai/the-batch/page/16)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #table_of_contents
+> This is a table of contents page listing DeepLearning.AI's newsletter issues from late 2021 to early 2022. It provides only headlines and brief snippets from Andrew Ng's letters without substantive content. This is purely navigational metadata with no analytical or informational value.
+
+**✗ 1.7** — [18](https://www.deeplearning.ai/the-batch/page/18)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #ai_product_development #software_engineering
+> This is a table of contents page from The Batch newsletter archive showing issue titles and brief excerpts from Andrew Ng's letters from June-August 2021. The excerpts discuss general themes like differences between AI and traditional software development, emotional well-being during the pandemic, and announcements of courses or competitions. This is purely navigational content with no substantive technical or strategic analysis.
+
+**✗ 3.3** — [The Rise Of Cloud Ai In India 2024](https://www.bvp.com/atlas/the-rise-of-cloud-ai-in-india-2024)  
+*Bessemer Atlas* · funding-and-market-structure · ai-b2b-saas
+#india_saas #venture_funding #market_projections #centaurs_unicorns
+> Bessemer Venture Partners reports that India's SaaS market is positioned to generate 3x revenue by 2030 (exceeding their previous $50B ARR prediction), driven by AI adoption and the emergence of unicorns and centaurs. The article cites that 27 Indian unicorns and 14 centaurs added $5.9B in revenue in 2023, with 2024 venture funding expected to exceed 2023 by 25% (~$1B total, including $175M to AI startups). This matters as a regional market snapshot from a major VC, but provides primarily aggregate funding data and growth projections without deeper analysis of mechanisms or differentiated insights.
+
+**✗ 2.3** — [Developer Platforms In India](https://www.bvp.com/atlas/developer-platforms-in-india)  
+*Bessemer Atlas* · 
+#devops #india_startups #developer_tools #continuous_improvement
+> The article argues that India is emerging as a hub for developer platform startups, driven by engineering talent, capital efficiency, and entrepreneurial momentum. It provides background on DevOps culture and cites Google's 2021 State of DevOps report showing performance improvements from continuous improvement practices. The piece positions India as both a consumer and producer of developer tools but offers no specific data, company examples, or novel insights about this market.
+
+**✗ 5.0** — [Roadmap Reinventing Indias It Sector With Ai Services](https://www.bvp.com/atlas/roadmap-reinventing-indias-it-sector-with-ai-services)  
+*Bessemer Atlas* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#it_services_outsourcing #indian_tech_sector #ai_native_business_models #billable_hour_disruption
+> The article argues that India's $264B IT services sector faces generational disruption as AI and LLMs automate the billable-hour, people-driven model that traditional outsourcing was built on. It identifies three emerging business models (AI-enabled services, services built for AI, and pure software platforms) and claims legacy incumbents face structural constraints while AI-native challengers gain ground. Despite near-term price compression, the authors predict the sector will reach $400B by 2030 through domain-specific automation that delivers superior speed, quality, and cost.
+
+**✗ 4.3** — [Forward Deployed Engineers and the future of software engineering](https://www.latent.space/p/forward-deployed-engineers-aiewf)  
+*Latent Space* · ai-org-design-headcount · ai-in-customer-success-support
+#forward_deployed_engineer #agent_engineer #customer_service_ai #conversational_ai
+> The article discusses the evolving role of forward deployed engineers (FDEs) in AI, arguing that the role is now defined more by customer accountability than specific technical skills, with Sierra rebranding them as 'agent engineers' who combine systems integration, agent development, and customer operations expertise. Meurer explains that agent engineers at Sierra build conversational AI for customer service, requiring both technical integration skills and design taste for human-like interactions. The piece suggests product engineering and customer-facing engineering roles may be converging in the AI era.
+
 ## 2026-06-30
+
+**✗ 3.3** — [Quoting Anthropic](https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything)  
+*Simon Willison* · regulatory-policy · lab-dynamics
+#export_controls #claude_fable #claude_mythos #department_of_commerce
+> Anthropic announced that the U.S. Department of Commerce has lifted export controls on their Claude Fable 5 and Mythos 5 models, with access to be restored the following day. This is a bare quotation without analysis or context about why the controls were imposed or what their lifting means. The announcement signals regulatory intervention in advanced AI model deployment but provides no substantive information about the policy dynamics or implications.
+
+**✗ 4.7** — [Ahmad Osman on why local AI is catching up](https://www.latent.space/p/ahmad-osman-local-ai)  
+*Latent Space* · inference-efficiency · build-vs-buy-enterprise-ai · model-architecture
+#local_ai #open_source_models #hardware_inference #model_routing
+> Ahmad Osman argues that local AI (running models on personal hardware) is becoming viable as open-source models close the performance gap with proprietary frontier models to 4-8 months. The article reports on workshops demonstrating hardware comparisons and emphasizes that local AI requires full infrastructure beyond just the model itself, including internet access and tooling. This matters because it suggests enterprises and developers may increasingly treat local AI as serious infrastructure for data control and deployment flexibility.
+
+**✓ 6.3** — [Sonnet 5 review: I ran 64 generations to find out if it's worth it](https://www.lennysnewsletter.com/p/sonnet-5-review-i-ran-64-generations)  
+*Lenny's Newsletter* · model-architecture · evals-production-deployment · ai-engineering-agents
+#model_evaluation #llm_as_judge #benchmark_design #frontier_models
+> The author built a custom evaluation harness (How I AI Bench) to systematically compare Sonnet 5 against four other frontier models (Sonnet 4.6, Opus 4.8, GPT-5.5, Gemini 3 Pro) across 64 blind tests covering PRD quality, prototype generation, agentic tasks, and agent personality. The evaluation methodology combined human vibe scoring (70%) with LLM-as-judge scoring (30%) to assess model performance across different task types. The results challenged initial expectations and provided task-specific model recommendations rather than a single winner.
+
+**✗ 3.0** — [Nano Banana 2 Lite](https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything)  
+*Simon Willison* · multimodal-models
+#text_to_image #gemini #image_generation #model_release
+> The article announces Google's Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image), marketed as the fastest and cheapest Gemini image generation model. The author tests it with a creative prompt and compares results favorably to previous Nano Banana models, noting some spelling errors in generated text. This is a brief product announcement with minimal analysis or implications discussed.
+
+**✗ 5.0** — [Claude Science is Anthropic’s newest flagship product](https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/)  
+*MIT Technology Review* · ai-engineering-agents · ai-professional-services · agentic-workflows-production
+#claude_science #agentic_research #computational_biology #anthropic
+> Anthropic launched Claude Science, a standalone product for scientific research (particularly computational biology and drug development) that autonomously executes research tasks similar to how Claude Code works for software engineering. The article positions this as Anthropic potentially taking over Google DeepMind's leadership in AI for science, noting recent hires like John Jumper and comparing the capability of Opus 4.5 to a second-year graduate student. This signals a competitive shift in AI lab focus toward vertical-specific agentic products beyond general coding assistants.
+
+**✗ 5.7** — [What's new in Claude Sonnet 5](https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything)  
+*Simon Willison* · model-architecture · inference-efficiency
+#claude_sonnet_5 #tokenizer_efficiency #llm_pricing #inference_cost
+> The article reports on the release of Claude Sonnet 5, highlighting API changes including removal of sampling parameters, adaptive thinking enabled by default, and a new tokenizer that produces 30% more tokens. The author provides empirical testing showing the new tokenizer increases costs by 1.4x for English, 1.33x for Spanish, 1.28x for Python code, but maintains similar costs for Simplified Mandarin. This matters because while Anthropic advertises the same nominal pricing as Sonnet 4.6, the tokenizer change effectively represents a significant price increase for most use cases.
+
+**✗ 1.7** — [Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body](https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/)  
+*MIT Technology Review* · 
+#cellular_reprogramming #longevity #anti_aging #biotechnology
+> This is a promotional page for a recorded roundtable discussion about cellular reprogramming and anti-aging research, featuring MIT Technology Review editors. The page provides no actual content beyond announcing the event and linking to related stories about longevity science and Sam Altman's investment in the space. It offers no analysis, data, or insights itself, serving only as a gateway to other content.
+
+**✗ 3.0** — [Start building with Nano Banana 2 Lite and Gemini Omni Flash](https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/)  
+*Google DeepMind* · model-architecture · multimodal-models
+#gemini #model_variants #api_release #lightweight_models
+> The article announces new model variants from Google DeepMind called Nano Banana 2 Lite and Gemini Omni Flash, aimed at developers to start building applications. Without access to the full article content, it appears to be a product launch or API announcement for lighter-weight or flash-optimized versions of existing models. This represents incremental model releases rather than fundamental research or novel architectural insights.
+
+**✗ 2.3** — [10 Years of Meta’s Commitment to Python](https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/)  
+*Meta AI / FB Engineering* · ai-engineering-agents · model-architecture
+#python #open_source_sponsorship #pytorch #pypi_security
+> Meta announces 10 years of sponsoring the Python Software Foundation, highlighting Python's central role across Meta's products from Instagram to AI research. The article describes how Meta's sponsorship funds the Developer-in-Residence program, PyPI security enhancements, and community education efforts like PyCon. This represents corporate PR around open-source sustainability rather than technical insight, with no novel frameworks or analysis.
+
+**✗ 5.3** — [Grant Sanderson – AI and the future of math](https://www.dwarkesh.com/p/grant-sanderson-2)  
+*Dwarkesh Podcast* · model-architecture · lab-dynamics · ai-in-product-and-engineering
+#mathematical_reasoning #agi_benchmarks #proof_discovery #conceptual_breakthroughs
+> This podcast discusses AI's rapid progress in mathematics and what that reveals about future AI capabilities across other domains, including the 'jagged landscape' of AI mathematical abilities and whether AI increases human understanding. The conversation covers conceptual breakthroughs, AI proof discovery, and advice for students in fields being transformed by AI. The article is primarily a podcast description with partial transcript, offering preview of themes rather than deep analysis.
+
+**✗ 3.3** — [How top PMs increase their leverage with AI](https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage)  
+*Lenny's Newsletter* · ai-in-product-and-engineering
+#product_management #ai_tools #cursor #prototyping
+> The article announces a course teaching product managers to use AI tools (Codex, Claude Code, Cursor) for prototyping, querying data, and increasing productivity leverage. It frames PM work as shifting from coordination toward hands-on building with AI agents and introduces a 'three ladders of leverage' framework. The piece is promotional content for an educational offering rather than substantive analysis.
+
+**✗ 4.0** — [The Download: AI “coworkers” and stratospheric internet](https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/)  
+*MIT Technology Review* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#ai_agents #human_ai_collaboration #workplace_ai #anthropomorphization
+> This newsletter aggregates several tech stories, primarily highlighting research showing workers catch 18% fewer errors when AI tools are framed as 'coworkers' rather than chatbots, alongside brief mentions of stratospheric internet platforms and other tech news. The article cites Boston University research on how anthropomorphizing AI agents leads to worse performance from human managers. It matters as a cautionary data point against the trend of tech companies marketing AI agents as digital employees.
+
+**✗ 2.3** — [The European neobank that grew too fast is learning how to be a global bank](https://tearsheet.co/new-banks/the-european-neobank-that-grew-too-fast-is-learning-how-to-be-a-global-bank/?utm_source=rss&utm_medium=rss&utm_campaign=the-european-neobank-that-grew-too-fast-is-learning-how-to-be-a-global-bank)  
+*Tearsheet (fintech)* · 
+#neobank_evolution #fintech_regulation #banking_licenses #product_velocity
+> The article reports on Revolut's transition from a fast-moving fintech to a regulated global bank, highlighting recent expansions into stablecoins, credit cards, and wealth management while facing European regulatory restrictions on product launch speed. It presents this as a challenge of maintaining startup agility while adopting banking discipline and compliance requirements. The piece frames this as a test case for whether neobanks can scale globally without losing their competitive advantages.
+
+**✗ 3.0** — [The Week in Market Moves | June 18-25, 2026](https://tearsheet.co/10-q/the-week-in-market-moves-june-18-25-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-in-market-moves-june-18-25-2026)  
+*Tearsheet (fintech)* · ai-wealth-management-advisory · ai-in-finance-accounting
+#portfolio_management #wealth_advisory #fintech_banking_separation #verticalized_products
+> This is a weekly market roundup covering five companies including Green Dot's bank sale, Amex's verticalized business cards, JPM's succession planning, and Google's AI portfolio management. The article provides brief commentary on each development's strategic significance, emphasizing trends like banking/fintech separation and AI in wealth management. The content is essentially a curated news digest with light strategic interpretation rather than deep analysis.
+
+**✗ 2.0** — [Lessons Learned From Building A $60B Advisory Enterprise: #FASuccess Ep 496 With Shannon Eusey](https://feeds.feedblitz.com/~/958782035/0/kitcesnerdseyeview~Lessons-Learned-From-Building-A-B-Advisory-Enterprise-FASuccess-Ep-With-Shannon-Eusey/)  
+*Kitces.com* · 
+#wealth_management #ma_strategy #private_equity #organizational_culture
+> This podcast episode interviews Shannon Eusey about building Beacon Pointe Advisors from an independent RIA to a $62 billion advisory enterprise through M&A, private equity partnerships, and cultural prioritization. The conversation covers operational centralization strategies, employee engagement practices, and her transition from CEO to chairman role. The content focuses on traditional wealth management firm building rather than AI-enabled transformation or novel business practices.
+
+**✗ 2.3** — [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded)  
+*OpenAI News* · 
+#chatgpt #user_adoption #global_expansion #usage_metrics
+> OpenAI reports that ChatGPT adoption is expanding globally with increasing user engagement and usage across different regions and languages. The article references 'OpenAI Signals data' as evidence but provides no specific metrics, user numbers, growth rates, or detailed analysis. This is a high-level promotional announcement rather than substantive analysis of adoption patterns or business implications.
+
+**✗ 4.3** — [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-07e)  
+*Latent Space* · model-architecture · inference-efficiency · ai-engineering-agents
+#brain_computer_interface #speculative_decoding #coding_agents #evaluation_platforms
+> This is a daily AI news roundup covering Meta's Brain2Qwerty v2 brain-to-text decoder, Cursor's iOS launch with remote agents, open-weight model access productization, and Arena reaching $100M ARR. The article provides brief summaries of announcements and tweets across brain-computer interfaces, coding agents, inference systems (DSpark speculative decoding), and evaluation platforms. It matters primarily as a landscape snapshot rather than deep analysis, documenting incremental product launches and research releases on a relatively quiet news day.
 
 **✗ 2.0** — [13](https://www.deeplearning.ai/the-batch/page/13)  
 *The Batch (DeepLearning.AI)* · model-architecture · ai-governance-risk-compliance · regulatory-policy
@@ -735,6 +867,21 @@ All articles scanned since the wiki started. Updated nightly.
 *Bessemer Atlas* · 
 #robotics_deployment #vertical_selection #labor_automation #end_to_end_ai
 > The article shares seven lessons from robotics founders building companies in hotels, warehouses, and automotive plants, drawing on experience from Amazon, Waymo, and Covariant. Key insights include building where buyers face acute labor pain, considering full-stack versus partnership approaches, and avoiding premature vertical definition. The article offers practical entrepreneurial advice for robotics startups but lacks depth on AI/ML systems architecture or broader strategic implications beyond basic go-to-market wisdom.
+
+**✗ 3.0** — [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro)  
+*OpenAI News* · 
+#genebench_pro #genomics #scientific_research #benchmark
+> OpenAI announces GeneBench-Pro, a new benchmark designed to evaluate AI model performance on genomics, biology, and scientific research tasks. The benchmark uses complex, real-world datasets to test capabilities, though specific details about methodology, datasets, or comparative results are not provided in this brief announcement. This represents an expansion of AI evaluation into specialized scientific domains beyond general-purpose benchmarks.
+
+**✗ 3.0** — [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug)  
+*OpenAI News* · 
+#debugging #infrastructure_reliability #core_dump_analysis #hardware_faults
+> OpenAI engineers describe using large-scale core dump analysis to investigate rare infrastructure crashes in their systems. Their investigation revealed both hardware faults and an 18-year-old software bug that had gone undetected. The article demonstrates systematic debugging methodology but does not connect to AI-specific infrastructure or provide detail on how this affects AI training/inference operations.
+
+**✓ 8.0** — [The CIO's Choices are Clear in 2026](https://www.tomtunguz.com/cio-choices-clear-2026/)  
+*Tomasz Tunguz* · ai-in-product-and-engineering · ai-b2b-saas · build-vs-buy-enterprise-ai
+#seat_based_pricing #agent_substitution #saas_multiples #ai_infrastructure_spending
+> The article analyzes 87 public SaaS companies' performance in 2026, finding that only Infrastructure/Dev Tools (+68.5%) and Security (+17.6%) sectors are positive while seat-priced business applications fell -36.2%, revealing CIOs are funding AI infrastructure while cutting traditional software. The evidence includes specific stock performance data (DigitalOcean +430%, Datadog +50%) and Marc Benioff's disclosure that Salesforce reduced headcount from 9,000 to 5,000 by using Agentforce for 50% of customer interactions. This demonstrates a fundamental market shift where category positioning (AI-adjacent infrastructure vs. seat-based applications) now matters more than growth rate, threatening the economics of traditional horizontal SaaS.
 
 ## 2026-06-29
 
