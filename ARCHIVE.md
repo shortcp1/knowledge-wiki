@@ -705,7 +705,114 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-02
+
+**✓ 8.0** — [Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5)  
+*Anthropic Blog* · regulatory-policy · ai-governance-risk-compliance · lab-dynamics
+#export_controls #jailbreaks #model_safeguards #cybersecurity_vulnerabilities
+> Anthropic's Claude Fable 5 and Mythos 5 models were subject to immediate US export controls on June 12, 2026, after government learned of a jailbreak allowing the model to identify software vulnerabilities and produce exploit code, forcing a global suspension of access. The company's testing revealed that less capable models (including Claude Opus 4.8, GPT-5.5) could produce identical outputs, demonstrating the jailbreak wasn't unique to their most advanced model. This incident prompted industry collaboration on a shared framework for assessing jailbreak severity and deeper pre-release government testing protocols, with controls lifted June 30 after new safeguards were implemented.
+
+**✗ 1.0** — [17](https://www.deeplearning.ai/the-batch/page/17)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #table_of_contents
+> This is a navigation page from The Batch newsletter archive showing a list of past newsletter issues from September-November 2021 with brief snippets from various articles. The page contains no substantive content beyond headlines and opening sentences from different newsletter editions. It serves as an index or table of contents rather than providing actual analysis, research, or insights.
+
+**✗ 2.3** — [19](https://www.deeplearning.ai/the-batch/page/19)  
+*The Batch (DeepLearning.AI)* · ai-in-product-and-engineering
+#newsletter_archive #deeplearning_ai #the_batch
+> This is a table of contents page listing newsletter issues from The Batch by DeepLearning.AI from February to April 2021. It provides brief teasers for each issue covering various AI topics including MLOps, automation, communication skills, and AI ethics. The content is purely navigational metadata without substantive technical or strategic analysis.
+
+**✗ 2.3** — [15](https://www.deeplearning.ai/the-batch/page/15)  
+*The Batch (DeepLearning.AI)* · data-moats-proprietary-advantages · build-vs-buy-enterprise-ai · funding-and-market-structure
+#newsletter_index #ai_startups #data_moats #language_models
+> This is an index page listing 10 issues of The Batch newsletter from April-June 2022, with brief teasers for each issue covering topics like sentient AI claims, AI startups, data moats, and Elon Musk's Twitter acquisition. The content provides only headline-level summaries without substantive analysis or detail on any single topic. This is essentially a table of contents rather than an article with actionable insights or original research.
+
+**✗ 2.3** — [How Leaders Inspire Cracking The Code](https://www.bain.com/insights/how-leaders-inspire-cracking-the-code/)  
+*Bain Insights* · ai-org-design-headcount
+#leadership #management #organizational_behavior
+> This appears to be a Bain & Company article about leadership inspiration based on the title, but the provided text is primarily navigation menu content from the Bain website rather than the actual article. The extracted content shows only organizational structure, office locations, and service categories without substantive analysis or insights. Without access to the actual article content, it's impossible to evaluate the depth, novelty, or specific relevance of the leadership framework being discussed.
+
+**✗ 1.0** — [Consumer Goods Forum](https://www.bain.com/insights/events/consumer-goods-forum/)  
+*Bain Insights* · 
+#website_navigation #consulting_firm #bain_company
+> This is not an article but a navigation page from Bain & Company's website showing office locations, service areas, and menu structure. It contains no substantive content, analysis, research, or insights beyond basic website architecture. There is nothing to evaluate as it provides no information related to AI, technology strategy, or business analysis.
+
+**✗ 1.0** — [Apac Frontline Healthcare](https://www.bain.com/insights/topics/apac-frontline-healthcare/)  
+*Bain Insights* · 
+#healthcare #asia_pacific #bain_company
+> This appears to be a navigation page or website header from Bain & Company's website, with the title 'Asia-Pacific Front Line of Healthcare' but no actual article content. The text contains only menu items, office locations, and site navigation elements without any substantive analysis or information. This is not a readable article and provides no value for a knowledge wiki.
+
 ## 2026-07-01
+
+**✗ 5.7** — [Autoresearch: The feedback loop behind self-improving agents](https://www.latent.space/p/autoresearch-introspection)  
+*Latent Space* · agentic-workflows-production · evals-production-deployment · ai-engineering-agents
+#autoresearch #agent_recipes #feedback_loops #self_improving_agents
+> Introspection CEO Roland Gavrilescu argues that AI systems are evolving from agent harnesses to self-improving 'autoresearch' loops where agents maintain and improve themselves through feedback signals, evals, and human input. He introduces the concept of 'agent recipes' as portable containers that encode human expertise (evals, judges, signal processing) and proposes three patterns: the loop as product, recipes as iterative units, and optimization for both quality and cost. This matters because it represents a shift toward production-ready agentic systems that can improve autonomously while remaining grounded in human-validated feedback mechanisms.
+
+**✗ 4.0** — [OCBC adds AI-powered financial advisor avatars to app - Finextra Research](https://news.google.com/rss/articles/CBMinAFBVV95cUxPTEJOOHM5VTZreHJqeWJIS0NQWVNZdVJZdGtLSzlSQ0gwcDFEc0t2QjF5WEFDZGw2bUVzTHdmbURKUTJTMmtfc1VTSmpoYkdqVzRWX3NXLTJNVTc5Zkx3QzBTaFphWnE1VDN6elhnZzk4azVUdlFVYWJiSTNpSjhiRzZYdmJTT0x4ZThLNmNCYV9aUS1yTzRqbVo3R3Q?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#financial_advisor_avatars #banking_app #conversational_ai #retail_banking
+> OCBC bank has reportedly added AI-powered financial advisor avatars to their mobile application. No substantive details about the implementation, capabilities, or underlying technology are provided in the accessible content. The article appears to be a brief announcement rather than an analytical piece.
+
+**✗ 4.0** — [The Winning Essays for the Big Questions About AI](https://www.dwarkesh.com/p/blog-prize-winners)  
+*Dwarkesh Podcast* · lab-dynamics · funding-and-market-structure
+#biosecurity #pandemic_preparedness #economic_policy #business_models
+> This article announces winners of an essay contest on big questions about AI, covering three topics: using OpenAI Foundation funding to end airborne pathogen transmission, policy advice for countries outside the AI supply chain, and how AI labs will generate revenue. The essays provide perspectives on biosecurity (ending disease transmission for GDP gains and pandemic prevention), growth-oriented economic policy (property rights, low capital taxes, open regulation), and business models (comparing AI labs to Hong Kong's MTR infrastructure model). The article offers a curated collection of strategic thinking about AI's societal and economic implications, though it only provides excerpts rather than full analysis.
+
+**✗ 5.3** — [How Cursor deploys AI inside the enterprise](https://www.latent.space/p/cursor-forward-deployed-engineers)  
+*Latent Space* · ai-engineering-agents · ai-org-design-headcount · agentic-workflows-production
+#forward_deployed_engineering #ai_software_factory #coding_assistants #software_development_lifecycle
+> Pauline Brunet describes how Cursor's Forward Deployed Engineering team helps enterprises implement AI agents across the software development lifecycle, creating 'AI software factories.' The team consists of experienced software engineers with customer-facing experience who work on-site to customize and configure Cursor's AI coding platform for different organizations' workflows and systems. The company is scaling this FDE team tenfold by end of 2026, working with customers in financial services, telecom, software, and semiconductors.
+
+**✗ 2.3** — [P3 Media Launches Forward Deployed Engineering Practice to Help Commerce Brands Adopt, Deploy, and Scale AI - Morningstar](https://news.google.com/rss/articles/CBMi-gFBVV95cUxOblJQVHZSWTJSRjZzWVhSZG1XSm9GSVVhTm9jTFBNV21VWXdfZS1kS2hJemJIRTJLVkxOdXlYVWE4Y3pYWXIyakprd09CNmkxX1RXNmdPVC1NTTY0b3dMU1dtZjZva3ZZSkJEMDJZYlcxV1kyVExwbTRtd0psM2t0aGFULW1pMVA2eWVKZHkwcVo2YlZ3WHpSM1VaNHlkYzFlYjhaT2w1aFlUMVJIN0RSQVM0d3lIMnhyRkM3LWpRa25kWE93TUt6Zk9SU0RBdUlZX2VZekNDODd5SF8wMmhMTVV0aXN0ek4zYUVYenZtQ0VwVlZORC1YMDZR?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering
+#forward_deployed_engineering #commerce_brands #ai_adoption #professional_services
+> P3 Media announces the launch of a forward deployed engineering practice aimed at helping commerce brands adopt and scale AI solutions. The article appears to be a press release or announcement with no substantive details about methodology, implementation approach, or case studies provided in the accessible text. This represents a service offering announcement without technical depth or novel insights into AI deployment challenges or solutions.
+
+**✗ 4.7** — [Brent Summers of Qualcomm Technologies, Inc. on moving AI from magic to muscle — and what gets lost in between](https://writer.com/blog/humans-of-ai-brent-summers-qualcomm/)  
+*Writer.com Blog* · ai-in-marketing-content · ai-in-sales-gtm · ai-org-design-headcount
+#change_management #workflow_redesign #account_based_marketing #adoption_barriers
+> The article argues that enterprise AI transformations fail when organizations treat AI as 'magic' rather than investing in behavior change, workflow redesign, and sustained practice ('muscle building'). Qualcomm's head of AI platforms describes implementing AI-powered account research that reduced manual work from hours to minutes, but emphasizes that the harder challenge is change management, assigning individual ownership, and designing AI into workflows rather than bolting it on top. The key insight is that successful AI adoption requires dedicated ownership, deliberate practice, and human-centered workflow redesign rather than committee-led pilots.
+
+**✗ 1.7** — [What is the best AI voice agent for businesses in 2026? - Technology Org](https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWcxOTZnZlNZZWxUVUhya2VUY0RKOEpMZmZrSWZQS0FXWTh2UnN0X2M0eFZHUVM5RjRyelhVdEJwdDdPY0lTMHh6bEl4ajhoLXYtS0FvYl9SOFVmU1dPUERqMTFYMzNNY0RQejlzZG9kbkxSWms0U18waUxkY2FxSkY0VjNsR2NldmJ1eWpWUWc5aE9fWmJaLQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-customer-success-support
+#ai_voice_agents #customer_support #enterprise_ai
+> This article appears to be about AI voice agents for businesses in 2026, but the provided text only contains Google's cookie consent dialog and language selection options. No actual article content about AI voice agents, their capabilities, comparisons, or business applications is present. Without substantive content, it's impossible to assess the article's actual arguments, evidence, or implications.
+
+**✓ 7.3** — [Meta’s AI Storage Blueprint at Scale](https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/)  
+*Meta AI / FB Engineering* · gpu-architecture-training-infra · semiconductor-supply-chain
+#storage_architecture #gpu_utilization #training_infrastructure #tectonic
+> Meta describes how storage bottlenecks limit GPU utilization in AI training, with storage performance growing slower than compute (GPUs triple every 2 years while storage lags). The company evolved from NFS-like filesystem interfaces on their Tectonic block layer to BLOB-storage architecture to address bounded pMax latencies and bursty high-throughput demands of modern AI workloads. This matters because storage fetch delays stall synchronized GPU training across hundreds of thousands of GPUs, directly impacting both training costs and time-to-market for frontier models.
+
+**✗ 5.3** — [🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI](https://www.latent.space/p/the-coolest-diffusion-research-isnt)  
+*Latent Space Podcast* · 
+#diffusion_models #drug_discovery #protein_structure_prediction #molecular_generation
+> This podcast episode discusses Genesis Molecular AI's work applying diffusion models to small molecule drug discovery, particularly their PEARL model for 3D structure prediction. The key innovation is modeling protein flexibility to better predict ligand binding, moving beyond rigid docking approaches, with CTO Sergey Edunov (former Llama 2/3 lead) arguing that the most exciting diffusion research is happening in molecular structure prediction rather than LLMs. The advance potentially enables agentic drug discovery workflows by crossing accuracy thresholds needed for real-world applications in the 10^60 molecule search space.
+
+**✓ 6.7** — [LLMs are stuck in a groupthink groove. This startup is trying to get them out.](https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/)  
+*MIT Technology Review* · model-architecture · ai-native-product-design
+#llm_homogeneity #response_diversity #training_methodology #hallucination_tolerance
+> The article reports that mainstream LLMs exhibit predictable, homogeneous responses to open-ended prompts (e.g., nearly all return '7' for random numbers, 'Time is a river' for metaphors), a problem Australian startup Springboards addresses with their LLM 'Flint' trained for response diversity. Evidence includes a NeurIPS best paper showing 1,250 responses from 25 LLMs converged on similar metaphors, and demonstrations of Flint producing less predictable outputs than ChatGPT and Claude. This matters because LLM groupthink limits creativity-dependent applications like brainstorming and planning, suggesting training methodology diversity could unlock new use cases beyond deterministic tasks.
+
+**✗ 3.0** — [The Download: Anthropic launches Claude Science, and California’s carbon manure math](https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/)  
+*MIT Technology Review* · model-architecture · ai-in-product-and-engineering
+#claude_science #anthropic #computational_biology #drug_development
+> This is a newsletter digest covering multiple tech news items, with primary focus on Anthropic's launch of Claude Science for scientific research and computational biology. The article provides surface-level announcements without technical details, analysis, or evidence about the products' capabilities or architecture. It matters only as a news aggregation pointing to developments in AI for science applications.
+
+**✗ 5.0** — [Trust, stablecoins, and the AI margin squeeze: What McKinsey and QED’s fintech report means for banks](https://tearsheet.co/podcasts/trust-stablecoins-and-the-ai-margin-squeeze-what-mckinsey-and-qeds-fintech-report-means-for-banks/?utm_source=rss&utm_medium=rss&utm_campaign=trust-stablecoins-and-the-ai-margin-squeeze-what-mckinsey-and-qeds-fintech-report-means-for-banks)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-in-operations
+#ai_agents #banking_commoditization #margin_compression #stablecoins
+> This article reports on a McKinsey-QED joint report arguing that AI agents, trust dynamics, and real-time payments (including stablecoins) are converging to commoditize basic banking functions like deposits and loans. The key mechanism is that AI agents could automate rate-shopping for customers, compressing margins and forcing banks to compete on efficiency and relationships rather than products. It matters because it suggests the simplest banking operations face the greatest AI disruption risk, not the most complex ones.
+
+**✗ 3.0** — [Private Fund Due Diligence: A Checklist For Reviewing Governing Documents And Operational Controls](https://feeds.feedblitz.com/~/958827416/0/kitcesnerdseyeview~Private-Fund-Due-Diligence-A-Checklist-For-Reviewing-Governing-Documents-And-Operational-Controls/)  
+*Kitces.com* · 
+#private_fund_diligence #wealth_management #regulatory_compliance #operational_controls
+> The article provides a practical checklist for financial advisors conducting due diligence on private fund investments, emphasizing the importance of reviewing governing documents versus marketing materials and evaluating operational controls. It details what to look for including conflicts of interest, exit restrictions, side letters, segregation of functions, custodial arrangements, and asset valuation practices. The guidance is framed as a compliance and risk management exercise for wealth advisors adding private investments to client portfolios.
+
+**✗ 1.0** — [How Archia Is Trying to Solve the Most Ignored Problem in AI Adoption - ascendants.in](https://news.google.com/rss/articles/CBMiigFBVV95cUxOdTliekc4QnBNd0k3U0g4RFlCdWtYWmZTWVZEN3gyUF80a0ZER3NHalNQQ3h2VjJ6cHAwRzU3X1F3VTFiTGRNdlpaRUlEVDBaU3d6aEVYM0lKdXRSb2Zad1hNbjUxRG1xVV9ib0wyOFBwQnROUUhBN2l6VmU5Q0RnZFVXUWFDNm9FNkE?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#cookie_consent #scraping_error #no_content
+> This submission contains no actual article content, only a Google cookie consent page. It provides no information about Archia or AI adoption problems. There is nothing to evaluate as the article text was not successfully captured.
 
 **✗ 5.0** — [Claude Science Ai Workbench](https://www.anthropic.com/news/claude-science-ai-workbench)  
 *Anthropic Blog* · ai-engineering-agents · agentic-workflows-production · ai-native-product-design
@@ -752,6 +859,11 @@ All articles scanned since the wiki started. Updated nightly.
 #forward_deployed_engineer #agent_engineer #customer_service_ai #conversational_ai
 > The article discusses the evolving role of forward deployed engineers (FDEs) in AI, arguing that the role is now defined more by customer accountability than specific technical skills, with Sierra rebranding them as 'agent engineers' who combine systems integration, agent development, and customer operations expertise. Meurer explains that agent engineers at Sierra build conversational AI for customer service, requiring both technical integration skills and design taste for human-like interactions. The piece suggests product engineering and customer-facing engineering roles may be converging in the AI era.
 
+**✓ 8.0** — [Most AI Work Can Wait](https://www.tomtunguz.com/ai-execution-routing/)  
+*Tomasz Tunguz* · inference-efficiency · ai-engineering-agents · agentic-workflows-production
+#intelligent_routing #local_models #async_batch_inference #skill_distillation
+> The article argues that AI system design should prioritize intelligent routing over model selection, with routing decisions enabling 70-80% of agent traffic to run on cheap local or asynchronous models. It presents a three-layer architecture (skill classifier, router, model selector) with synchronous and asynchronous feedback loops that reduced Coinbase's AI spend by half while token usage grew. This matters because it reframes the AI infrastructure problem from 'which model' to 'which tier when,' making production AI systems economically sustainable at scale.
+
 ## 2026-06-30
 
 **✗ 3.3** — [Quoting Anthropic](https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything)  
@@ -784,10 +896,20 @@ All articles scanned since the wiki started. Updated nightly.
 #claude_sonnet_5 #tokenizer_efficiency #llm_pricing #inference_cost
 > The article reports on the release of Claude Sonnet 5, highlighting API changes including removal of sampling parameters, adaptive thinking enabled by default, and a new tokenizer that produces 30% more tokens. The author provides empirical testing showing the new tokenizer increases costs by 1.4x for English, 1.33x for Spanish, 1.28x for Python code, but maintains similar costs for Simplified Mandarin. This matters because while Anthropic advertises the same nominal pricing as Sonnet 4.6, the tokenizer change effectively represents a significant price increase for most use cases.
 
+**✗ 2.3** — [The AI Compass](https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything)  
+*Simon Willison* · 
+#ai_ethics #quiz #react #web_development
+> This is a brief link blog post pointing to an interactive quiz that categorizes users into AI ethics archetypes based on 29 questions. The post notes the quiz's technical implementation as a React app using inline Babel without a build step. It provides no analysis, research, or substantive discussion of AI systems, applications, or enterprise use cases.
+
 **✗ 1.7** — [Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body](https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/)  
 *MIT Technology Review* · 
 #cellular_reprogramming #longevity #anti_aging #biotechnology
 > This is a promotional page for a recorded roundtable discussion about cellular reprogramming and anti-aging research, featuring MIT Technology Review editors. The page provides no actual content beyond announcing the event and linking to related stories about longevity science and Sam Altman's investment in the space. It offers no analysis, data, or insights itself, serving only as a gateway to other content.
+
+**✓ 7.3** — [Have your agent record video demos of its work with shot-scraper video](https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#agent_demos #playwright_automation #storyboard_yaml #coding_agents
+> The article demonstrates a new tool (shot-scraper video) that enables AI coding agents to automatically record video demonstrations of their work by executing browser-based routines defined in YAML storyboards. The tool uses Playwright to automate browser interactions and was itself used by GPT-5.5 to generate a demo video showing new Datasette features for CSV/JSON data import. This matters because it addresses a key challenge in agentic workflows—having agents produce human-readable documentation and demos of code changes they make, improving verification and handoff.
 
 **✗ 3.0** — [Start building with Nano Banana 2 Lite and Gemini Omni Flash](https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/)  
 *Google DeepMind* · model-architecture · multimodal-models
@@ -804,6 +926,11 @@ All articles scanned since the wiki started. Updated nightly.
 #mathematical_reasoning #agi_benchmarks #proof_discovery #conceptual_breakthroughs
 > This podcast discusses AI's rapid progress in mathematics and what that reveals about future AI capabilities across other domains, including the 'jagged landscape' of AI mathematical abilities and whether AI increases human understanding. The conversation covers conceptual breakthroughs, AI proof discovery, and advice for students in fields being transformed by AI. The article is primarily a podcast description with partial transcript, offering preview of themes rather than deep analysis.
 
+**✗ 3.0** — [shot-scraper 1.10](https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything)  
+*Simon Willison* · ai-engineering-agents
+#shot_scraper #video_recording #cli_tool #agent_tooling
+> This is a release announcement for shot-scraper 1.10, a CLI utility for taking website screenshots and recording video demos. The main new feature is 'shot-scraper video storyboard.yml' which allows AI agents to record video demonstrations of their work. The article provides minimal detail beyond pointing to a separate detailed post about the video recording feature for agents.
+
 **✗ 3.3** — [How top PMs increase their leverage with AI](https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage)  
 *Lenny's Newsletter* · ai-in-product-and-engineering
 #product_management #ai_tools #cursor #prototyping
@@ -818,6 +945,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Tearsheet (fintech)* · 
 #neobank_evolution #fintech_regulation #banking_licenses #product_velocity
 > The article reports on Revolut's transition from a fast-moving fintech to a regulated global bank, highlighting recent expansions into stablecoins, credit cards, and wealth management while facing European regulatory restrictions on product launch speed. It presents this as a challenge of maintaining startup agility while adopting banking discipline and compliance requirements. The piece frames this as a test case for whether neobanks can scale globally without losing their competitive advantages.
+
+**✗ 4.0** — [Agriculture is ready for AI, but its data isn’t](https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/)  
+*MIT Technology Review* · ai-in-operations
+#data_infrastructure #agricultural_ai #iot_integration #data_quality
+> The article argues that AI adoption in agriculture is being hindered by poor data infrastructure, despite promising use cases showing 26% yield improvements and 41% water reduction. It provides evidence that fragmented IoT data, inconsistent historical records, and complex spatial farming data create a "garbage in, garbage out" problem that vendors often overlook. The piece matters because it highlights that data readiness—not AI capability—is the primary barrier to agricultural AI deployment.
 
 **✗ 3.0** — [The Week in Market Moves | June 18-25, 2026](https://tearsheet.co/10-q/the-week-in-market-moves-june-18-25-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-in-market-moves-june-18-25-2026)  
 *Tearsheet (fintech)* · ai-wealth-management-advisory · ai-in-finance-accounting
@@ -867,6 +999,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Bessemer Atlas* · 
 #robotics_deployment #vertical_selection #labor_automation #end_to_end_ai
 > The article shares seven lessons from robotics founders building companies in hotels, warehouses, and automotive plants, drawing on experience from Amazon, Waymo, and Covariant. Key insights include building where buyers face acute labor pain, considering full-stack versus partnership approaches, and avoiding premature vertical definition. The article offers practical entrepreneurial advice for robotics startups but lacks depth on AI/ML systems architecture or broader strategic implications beyond basic go-to-market wisdom.
+
+**✗ 2.3** — [Inside Genebench-Pro](https://openai.com/index/genebench-pro/case-studies)  
+*OpenAI News* · 
+#genebench_pro #openai #benchmarking
+> The article appears to be a title-only or extremely minimal content piece about Genebench-Pro from OpenAI News. Without substantive content, it's impossible to assess what arguments, evidence, or mechanisms are presented. This represents either a placeholder, broken link, or improperly extracted article that provides no actionable information.
 
 **✗ 3.0** — [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro)  
 *OpenAI News* · 

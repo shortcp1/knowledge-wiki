@@ -1,6 +1,9 @@
 ---
-tags: [4-bit-quantization, agentic-ai, agentic-coding, agentic-tasks, apple-foundation-models, apple-silicon, async-inference, asynchronous-inference, batch-inference, code-generation-agents, coding-benchmarks, coding-models, context-caching, context-window, context-window-expansion, cost-optimization, custom-inference-chips, data-movement-optimization, deepseek, dense-attention, device-memory-constraints, energy-efficiency, expert-routing, external-memory-management, flash-memory-inference, fleet-aware-orchestration, fleet-orchestration, frontend-coding, glm-5.2, hybrid-transformer-mamba, indexcache, indexshare, inference-cost-optimization, inference-efficiency, inference-optimization, inference-pricing, inference-speed, instruction-following-pruning, jalapeno-chip, latent-moe, llm-inference-chips, long-context, long-context-processing, ma-activity, mamba-2, memory-compute-networking-balance, meta-learning, mixture-of-experts, mixture-of-experts-alternatives, model-distillation, model-fusion, model-routing, model-selection, mtp, multi-teacher-distillation, multi-token-prediction, near-real-time-inference, nemotron-3-super, nvfp4, nvidia, on-device-inference, open-source-models, open-weights, openai-chip, performance-per-watt, proximal-policy-optimization, quadratic-complexity, queued-inference, ram-vs-flash, read-evaluate-print-loop, real-time-inference, recursive-language-models, reward-hacking, rlm, sail-research, slack-integration, sliding-window-attention, sparse-attention, sparse-attention-indexer, speculative-decoding, spot-capacity, subquadratic, swe-bench, test-time-training, throughput-optimization, tokens-per-dollar, tokens-per-second, transformer-architecture, ttt-e2e, vendor-lock-in, weight-compression, weight-update]
+tags: [intelligent-routing, local-models, async-batch-inference, skill-distillation, agentic-architecture, cost-optimization, inference-efficiency]
 ---
+
+---
+tags: [4-bit-quantization, agentic-ai, agentic-coding, agentic-tasks, apple-foundation-models, apple-silicon, async-inference, asynchronous-inference, batch-inference, code-generation-agents, coding-benchmarks, coding-models, context-caching, context-window, context-window-expansion, cost-optimization, custom-inference-chips, data-movement-optimization, deepseek, dense-attention, device-memory-constraints, energy-efficiency, expert-routing, external-memory-management, flash-memory-inference, fleet-aware-orchestration, fleet-orchestration, frontend-coding, glm-5.2, hybrid-transformer-mamba, indexcache, indexshare, inference-cost-optimization, inference-efficiency, inference-optimization, inference-pricing, inference-speed, instruction-following-pruning, jalapeno-chip, latent-moe, llm-inference-chips, local-models, long-context, long-context-processing, ma-activity, mamba-2, memory-compute-networking-balance, meta-learning, mixture-of-experts, mixture-of-experts-alternatives, model-distillation, model-fusion, model-routing, model-selection, mtp, multi-teacher-distillation, multi-token-prediction, near-real-time-inference, nemotron-3-super, nvfp4, nvidia, on-device-inference, open-source-models, open-weights, openai-chip, performance-per-watt, proximal-policy-optimization, quadratic-complexity, queued-inference, ram-vs-flash, read-evaluate-print-loop, real-time-inference, recursive-language-models, reward-hacking, rlm, routing-architecture, sail-research, slack-integration, sliding-window-attention, sparse-attention, sparse-attention-indexer, speculative-decoding, spot-capacity, subquadratic, swe-bench, test-time-training, throughput-optimization, tokens-per-dollar, tokens-per-second, transformer-architecture, ttt-e2e, vendor-lock-in, weight-compression, weight-update]---
 
 ## IndexShare for Speculative Decoding
 
@@ -9,32 +12,71 @@ tags: [4-bit-quantization, agentic-ai, agentic-coding, agentic-tasks, apple-foun
 **Purpose**: Improved multi-token prediction (MTP) to boost acceptance rates in speculative decoding
 
 ### Technical Details
-- Extension built on top of DeepSeek Sparse Attention
-- Specifically optimized for ultra-long context windows (1M tokens)
-- Enhances speculative decoding acceptance rates, improving overall inference throughput
-- Works in conjunction with [[sparse-attention-indexer]]
+- Exte
 
-## Instruction-Following Pruning for On-Device Inference
+## Async vs Real-Time Inference Cost Delta
 
-**Introduced**: AFM 3 Core Advanced (Apple, 2026)
-**Purpose**: Enable larger models on memory-constrained devices through optimized expert selection
+**Source**: Tomasz Tunguz (July 2026), Theory Ventures
+**Cost Reduction**: Async batch reasoning runs ~2 orders of magnitude (90%+) cheaper than real-time inference
 
-### Memory Architecture Innovation
-- **Traditional MoE constraint**: Entire model must reside in active memory (RAM/VRAM) due to per-token expert routing
-- **IFP approach**: Separate transformer selects experts for multiple tokens, enabling flash memory storage
-- **Result**: Multi-billion parameter models practical on mobile devices
+### Key Claims
+- Local compute described as "close to free" for on-device models
+- Real cost question: what fraction of work actually needs real-time answers?
+- **Coinbase case study** (Brian Armstrong, ~June 2026): Cut AI spend nearly in half while token usage grew, via better defaults, routing, and caching
 
-### Performance Characteristics
-- Faster inference than traditional MoE of equivalent size (claimed, benchmarks pending)
-- 20B total parameters, 1-4B active per inference
-- Optimized for Apple silicon architecture
-- Flash memory loading viable due to reduced expert switching frequency
+### Architecture Implications
+- Most AI work can be queued rather than requiring sub-second responses
+- Tasks suitable for async: draft replies, repo summaries, diligence memos, nightly evaluator runs
+- See [[agentic-workflows-production]] for queueing patterns
+- See [[ai-engineering-agents]] for skill distillation enabling local model usage
 
-### Device Deployment Context
-- Targets iOS and macOS hardware with memory constraints
-- Enables local inference without cloud dependency for privacy-sensitive applications
-- Part of broader trend toward on-device AI inference with [[model-architecture]] innovations
+## Model Routing Architecture
 
-**Benchmark status**: Apple has not published independent benchmark results as of June 2026 announcement. Human preference measurements show improvement over AFM 2 generation.
+**Emerging Pattern**: Router-first design over model-first design
 
-See also: [[model-architecture]], [[on-device-ai]], [[model-distillation]]
+### Three-Layer Routing System
+
+1. **Skill Classifier** (Intent Recognition Layer)
+   - Converts raw user request into concrete operation labels
+   - Examples: draft-a-reply, summarize-a-repo, run-a-migration
+   - This is a language understanding problem
+   - Output: operation type, not model selection
+
+2. **Router** (Scheduling Layer)
+   - Decides which tier (local/async/real-time) executes the classified operation
+   - **Does not read the prompt** — reads classifier label plus metadata
+   - Input features: complexity, context size, historical success rate
+   - This is a scheduling problem, not a language problem
+   - Enables A/B testing different models against same operation
+
+3. **Model Selector** (Tier Optimization Layer)
+   - Picks cheapest model within selected tier that meets confidence threshold
+   - Final decision point for specific model choice
+
+### Reported Traffic Distribution
+- **70-80% of agent traffic** can run on local models for most non-coding work (claim, July 2026)
+- Prerequisite: skill distillation to flatten operation set (see [[ai-engineering-agents]])
+- Remaining 20-30% requires remote inference (real-time or async)
+
+### Design Principle
+**"Design your system around routing, not around models. Pick your models last."** (Tunguz, July 2026)
+
+This inverts the common pattern of selecting frontier models first then building architecture around them.
+
+## Feedback Mechanisms for Routing
+
+### Synchronous Failure-Mode Signals
+- Predictor annotates incoming routes with risk features:
+  - Missing repo context
+  - Long dependency chains
+  - Risky migrations
+  - Security-sensitive prompts
+  - High-consequence writes
+- Catches known-hard tasks before they fail
+
+### Nightly Closed-Loop Feedback
+- Batch evaluator scores yesterday's traces overnight
+- Updates router weights based on actual performance
+- Runs on async inference to keep evaluation cost near zero
+- Discovers new failure modes the synchronous predictor missed
+- See [[agentic-workflows-production]] for async agent patterns

@@ -1,5 +1,5 @@
 ---
-tags: [ai-competition-policy, ai-sovereignty, anthropic, chinese-ai-models, chinese-models, competitive-moats, competitive-restrictions, cybersecurity-capabilities, cybersecurity-threat, data-retention-policy, export-controls, geopolitical-ai-access, government-relations, jailbreaking, lab-dynamics, llm-guardrails, model-access-restrictions, model-restrictions, model-safety, national-security, open-research, open-source-models, platform-stability, terms-of-service, zhipu]
+tags: [ai-competition-policy, ai-sovereignty, anthropic, chinese-ai-models, chinese-models, competitive-moats, competitive-restrictions, cybersecurity-capabilities, cybersecurity-threat, cybersecurity-vulnerabilities, data-retention-policy, export-controls, geopolitical-ai-access, glasswing-program, government-relations, jailbreaking, jailbreaks, lab-dynamics, llm-guardrails, model-access-restrictions, model-restrictions, model-safeguards, model-safety, national-security, open-research, open-source-models, platform-stability, pre-release-testing, terms-of-service, zhipu]
 ---
 
 ## Anthropic
@@ -16,10 +16,28 @@ Anthropic released Claude Fable 5, a version of its Mythos model with additional
 
 **Data Retention Policy**: Anthropic implemented a mandatory 30-day data retention policy for Claude Fable 5 usage, representing a sudden rule change that concerned developers.
 
-**Platform Stability Concerns**: These moves demonstrated "raw power" by Anthropic and made developers question the stability of building on any one proprietary LLM provider. The sudden rule changes undermined the perception of Anthropic as a stable, reliable partner to build upon. Platforms succeed when viewed as stable.
+**Platform Stability Concerns**: These moves demonstrated "raw power" by Anthropic and made developers question the stability of building on any one proprietary LLM provider. The sudden rule changes undermined the perception of Anthropic as a stable platform partner.
 
-**Safety as Competitive Tool**: Critics argue Anthropic has used "safety" arguments to hinder potential competitors. OpenAI CEO Sam Altman characterized the approach as: "It is clearly incredible marketing to say, 'We have built a bomb, we are about to drop it on your head. We will sell you a bomb shelter for $100 million.'" However, this fear-based marketing increased likelihood of government export controls.
+### Fable 5 and Mythos 5 Export Control Response (June 2026)
 
-**Open Research Concerns**: The restrictions on using Claude Fable 5 for LLM research raised concerns given that the AI community, including Anthropic, has benefitted from open research. The AI revolution was initiated by Google Brain freely publishing the Transformers paper. Anthropic's argument that it was "unsafe" for others to advance AI technology was criticized as hollow.
+**Deployment Timeline**:
+- Both models released June 9, 2026 (shared underlying model, Fable 5 with strong safeguards for general use, Mythos 5 with fewer safeguards limited to Project Glasswing partners)
+- Export controls applied June 12, 2026 requiring real-time nationality verification
+- Access suspended to all users (no reliable way to verify nationality in real-time)
+- Export controls lifted June 30, 2026
+- Fable 5 redeployed globally July 1, 2026
+- Mythos 5 access restored to approved US organizations June 26, 2026
 
-**Comparison to Platform Precedents**: Critics compared the competitive restrictions to hypothetical scenarios where Microsoft's terms barred using its tools to build competitive software, or Google barred using its search engine to research competing search engines.
+**Availability Post-Redeployment**:
+- Fable 5 available on Claude Platform, Claude.ai, Claude Code, and Claude Cowork
+- For Pro, Max, Team, and select Enterprise plans: included for up to 50% of weekly usage limits through July 7, after which available via usage credits
+- Plans to re-enable on AWS, Google Cloud, and Microsoft Foundry
+
+**Safety Response**: Anthropic trained improved safety classifier targeting the Amazon-reported bypass, blocking the technique in over 99% of cases. Blocked requests are now:
+- Notified to users (shift from silent degradation approach)
+- Routed to Opus 4.8 instead
+
+**Project Glasswing**: Partnership program for trusted organizations with access to Mythos 5 for defensive cybersecurity work. Anthropic coordinating with government to expand access to broader domestic and international partners.
+
+### Government Collaboration Expansion (June-July 2026)
+Following export control incident, Anthropic established deeper collaboration with US government including pre-release testing, information sharing, and research collaboration protocols. See [[regulatory-policy]] for details.

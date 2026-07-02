@@ -1140,3 +1140,11 @@ Note: This is a meta-observation about forecasting accuracy rather than a techni
 ## Gusto Product Development Case Study
 
 Episode referenced but content not provided in article text: "No Figma. No Jira. No docs. How Gusto built a new product" - title only, no details to extract.
+
+---
+**LLMs are stuck in a groupthink groove. This startup is trying to get them out.** (MIT Technology Review, 2026-07-01T14:35:16+00:00)
+**Springboards Product:** Creative brainstorming tool for advertising/marketing professionals
+- Backed by multiple LLMs (including ChatGPT, Claude, and proprietary Flint)
+- Interface allows dragging/combining text from different model outputs
+- Targets creative professionals for ideation workflows
+- Flint positioned as diversity-enhancing option within the tool

@@ -25626,6 +25626,617 @@
       ],
       "status": "skipped",
       "skip_reason": "This article covers traditional wealth management firm building and M&A strategy without addressing AI applications, technology transformation, or any of the specified topic areas related to AI/ML systems, enterprise AI adoption, or semiconductor/infrastructure topics."
+    },
+    "https://www.anthropic.com/news/redeploying-fable-5": {
+      "title": "Redeploying Fable 5",
+      "source": "Anthropic Blog",
+      "date": "2026-07-02T02:00:56.474511+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance",
+        "lab-dynamics",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic's Claude Fable 5 and Mythos 5 models were subject to immediate US export controls on June 12, 2026, after government learned of a jailbreak allowing the model to identify software vulnerabilities and produce exploit code, forcing a global suspension of access. The company's testing revealed that less capable models (including Claude Opus 4.8, GPT-5.5) could produce identical outputs, demonstrating the jailbreak wasn't unique to their most advanced model. This incident prompted industry collaboration on a shared framework for assessing jailbreak severity and deeper pre-release government testing protocols, with controls lifted June 30 after new safeguards were implemented.",
+      "tags": [
+        "export-controls",
+        "jailbreaks",
+        "model-safeguards",
+        "cybersecurity-vulnerabilities",
+        "glasswing-program",
+        "pre-release-testing"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/page/17": {
+      "title": "17",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-02T02:00:55.465944+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a navigation page from The Batch newsletter archive showing a list of past newsletter issues from September-November 2021 with brief snippets from various articles. The page contains no substantive content beyond headlines and opening sentences from different newsletter editions. It serves as an index or table of contents rather than providing actual analysis, research, or insights.",
+      "tags": [
+        "newsletter-archive",
+        "table-of-contents"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a navigation/index page with article headlines and snippets, containing no substantive content, analysis, or actionable insights to evaluate."
+    },
+    "https://www.deeplearning.ai/the-batch/page/19": {
+      "title": "19",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-02T02:00:55.383762+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a table of contents page listing newsletter issues from The Batch by DeepLearning.AI from February to April 2021. It provides brief teasers for each issue covering various AI topics including MLOps, automation, communication skills, and AI ethics. The content is purely navigational metadata without substantive technical or strategic analysis.",
+      "tags": [
+        "newsletter-archive",
+        "deeplearning-ai",
+        "the-batch"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a table of contents/archive page with no substantive content, analysis, or actionable insights\u2014only brief teasers for newsletter issues."
+    },
+    "https://www.deeplearning.ai/the-batch/page/15": {
+      "title": "15",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-02T02:00:55.322291+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "data-moats-proprietary-advantages",
+        "build-vs-buy-enterprise-ai",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "This is an index page listing 10 issues of The Batch newsletter from April-June 2022, with brief teasers for each issue covering topics like sentient AI claims, AI startups, data moats, and Elon Musk's Twitter acquisition. The content provides only headline-level summaries without substantive analysis or detail on any single topic. This is essentially a table of contents rather than an article with actionable insights or original research.",
+      "tags": [
+        "newsletter-index",
+        "ai-startups",
+        "data-moats",
+        "language-models",
+        "venture-studio"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely an index page of newsletter issues with surface-level teasers, containing no substantive analysis, research, or detailed insights on any topic."
+    },
+    "https://www.latent.space/p/autoresearch-introspection": {
+      "title": "Autoresearch: The feedback loop behind self-improving agents",
+      "source": "Latent Space",
+      "date": "2026-07-01T23:52:30+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "evals-production-deployment",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "Introspection CEO Roland Gavrilescu argues that AI systems are evolving from agent harnesses to self-improving 'autoresearch' loops where agents maintain and improve themselves through feedback signals, evals, and human input. He introduces the concept of 'agent recipes' as portable containers that encode human expertise (evals, judges, signal processing) and proposes three patterns: the loop as product, recipes as iterative units, and optimization for both quality and cost. This matters because it represents a shift toward production-ready agentic systems that can improve autonomously while remaining grounded in human-validated feedback mechanisms.",
+      "tags": [
+        "autoresearch",
+        "agent-recipes",
+        "feedback-loops",
+        "self-improving-agents",
+        "agent-infrastructure",
+        "evals"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.dwarkesh.com/p/blog-prize-winners": {
+      "title": "The Winning Essays for the Big Questions About AI",
+      "source": "Dwarkesh Podcast",
+      "date": "2026-07-01T22:13:17+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 3,
+      "relevant_topics": [
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "This article announces winners of an essay contest on big questions about AI, covering three topics: using OpenAI Foundation funding to end airborne pathogen transmission, policy advice for countries outside the AI supply chain, and how AI labs will generate revenue. The essays provide perspectives on biosecurity (ending disease transmission for GDP gains and pandemic prevention), growth-oriented economic policy (property rights, low capital taxes, open regulation), and business models (comparing AI labs to Hong Kong's MTR infrastructure model). The article offers a curated collection of strategic thinking about AI's societal and economic implications, though it only provides excerpts rather than full analysis.",
+      "tags": [
+        "biosecurity",
+        "pandemic-preparedness",
+        "economic-policy",
+        "business-models",
+        "openai-foundation",
+        "lab-monetization"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is a contest announcement with brief essay summaries rather than original analysis or actionable insights; provides surface-level coverage of multiple disparate topics without deep exploration of any single relevant domain."
+    },
+    "https://www.latent.space/p/cursor-forward-deployed-engineers": {
+      "title": "How Cursor deploys AI inside the enterprise",
+      "source": "Latent Space",
+      "date": "2026-07-01T19:03:44+00:00",
+      "composite": 5.3,
+      "depth": 4,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-org-design-headcount",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Pauline Brunet describes how Cursor's Forward Deployed Engineering team helps enterprises implement AI agents across the software development lifecycle, creating 'AI software factories.' The team consists of experienced software engineers with customer-facing experience who work on-site to customize and configure Cursor's AI coding platform for different organizations' workflows and systems. The company is scaling this FDE team tenfold by end of 2026, working with customers in financial services, telecom, software, and semiconductors.",
+      "tags": [
+        "forward-deployed-engineering",
+        "ai-software-factory",
+        "coding-assistants",
+        "software-development-lifecycle",
+        "enterprise-implementation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is truncated mid-sentence and provides descriptive overview of FDE role without technical depth, novel frameworks, or actionable insights about implementation challenges or specific deployment patterns"
+    },
+    "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/": {
+      "title": "Meta\u2019s AI Storage Blueprint at Scale",
+      "source": "Meta AI / FB Engineering",
+      "date": "2026-07-01T16:00:36+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "semiconductor-supply-chain"
+      ],
+      "content_type": "technical",
+      "summary": "Meta describes how storage bottlenecks limit GPU utilization in AI training, with storage performance growing slower than compute (GPUs triple every 2 years while storage lags). The company evolved from NFS-like filesystem interfaces on their Tectonic block layer to BLOB-storage architecture to address bounded pMax latencies and bursty high-throughput demands of modern AI workloads. This matters because storage fetch delays stall synchronized GPU training across hundreds of thousands of GPUs, directly impacting both training costs and time-to-market for frontier models.",
+      "tags": [
+        "storage-architecture",
+        "gpu-utilization",
+        "training-infrastructure",
+        "tectonic",
+        "blob-storage",
+        "data-loading-pipeline"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/the-coolest-diffusion-research-isnt": {
+      "title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "source": "Latent Space Podcast",
+      "date": "2026-07-01T14:42:39+00:00",
+      "composite": 5.33,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 4,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This podcast episode discusses Genesis Molecular AI's work applying diffusion models to small molecule drug discovery, particularly their PEARL model for 3D structure prediction. The key innovation is modeling protein flexibility to better predict ligand binding, moving beyond rigid docking approaches, with CTO Sergey Edunov (former Llama 2/3 lead) arguing that the most exciting diffusion research is happening in molecular structure prediction rather than LLMs. The advance potentially enables agentic drug discovery workflows by crossing accuracy thresholds needed for real-world applications in the 10^60 molecule search space.",
+      "tags": [
+        "diffusion-models",
+        "drug-discovery",
+        "protein-structure-prediction",
+        "molecular-generation",
+        "agentic-workflows",
+        "pearl-model"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on computational drug discovery and molecular AI, which does not map to the specified enterprise AI, model architecture, or AI business application topic areas in the relevance criteria."
+    },
+    "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/": {
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "source": "MIT Technology Review",
+      "date": "2026-07-01T14:35:16+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-native-product-design"
+      ],
+      "content_type": "technical",
+      "summary": "The article reports that mainstream LLMs exhibit predictable, homogeneous responses to open-ended prompts (e.g., nearly all return '7' for random numbers, 'Time is a river' for metaphors), a problem Australian startup Springboards addresses with their LLM 'Flint' trained for response diversity. Evidence includes a NeurIPS best paper showing 1,250 responses from 25 LLMs converged on similar metaphors, and demonstrations of Flint producing less predictable outputs than ChatGPT and Claude. This matters because LLM groupthink limits creativity-dependent applications like brainstorming and planning, suggesting training methodology diversity could unlock new use cases beyond deterministic tasks.",
+      "tags": [
+        "llm-homogeneity",
+        "response-diversity",
+        "training-methodology",
+        "hallucination-tolerance",
+        "open-ended-generation",
+        "model-convergence"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/": {
+      "title": "The Download: Anthropic launches Claude Science, and California\u2019s carbon manure math",
+      "source": "MIT Technology Review",
+      "date": "2026-07-01T12:10:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest covering multiple tech news items, with primary focus on Anthropic's launch of Claude Science for scientific research and computational biology. The article provides surface-level announcements without technical details, analysis, or evidence about the products' capabilities or architecture. It matters only as a news aggregation pointing to developments in AI for science applications.",
+      "tags": [
+        "claude-science",
+        "anthropic",
+        "computational-biology",
+        "drug-development",
+        "autonomous-agents"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest providing only surface-level announcements without original analysis, technical depth, or actionable insights; lacks evidence, mechanisms, or substantive claims about the featured products."
+    },
+    "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything": {
+      "title": "The AI Compass",
+      "source": "Simon Willison",
+      "date": "2026-06-30T17:39:23+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a brief link blog post pointing to an interactive quiz that categorizes users into AI ethics archetypes based on 29 questions. The post notes the quiz's technical implementation as a React app using inline Babel without a build step. It provides no analysis, research, or substantive discussion of AI systems, applications, or enterprise use cases.",
+      "tags": [
+        "ai-ethics",
+        "quiz",
+        "react",
+        "web-development"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level link post to an interactive quiz with no technical depth, original analysis, or relevance to enterprise AI deployment, development, or application domains."
+    },
+    "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything": {
+      "title": "Have your agent record video demos of its work with shot-scraper video",
+      "source": "Simon Willison",
+      "date": "2026-06-30T16:54:26+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "The article demonstrates a new tool (shot-scraper video) that enables AI coding agents to automatically record video demonstrations of their work by executing browser-based routines defined in YAML storyboards. The tool uses Playwright to automate browser interactions and was itself used by GPT-5.5 to generate a demo video showing new Datasette features for CSV/JSON data import. This matters because it addresses a key challenge in agentic workflows\u2014having agents produce human-readable documentation and demos of code changes they make, improving verification and handoff.",
+      "tags": [
+        "agent-demos",
+        "playwright-automation",
+        "storyboard-yaml",
+        "coding-agents",
+        "video-documentation",
+        "datasette"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything": {
+      "title": "shot-scraper 1.10",
+      "source": "Simon Willison",
+      "date": "2026-06-30T15:10:14+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "This is a release announcement for shot-scraper 1.10, a CLI utility for taking website screenshots and recording video demos. The main new feature is 'shot-scraper video storyboard.yml' which allows AI agents to record video demonstrations of their work. The article provides minimal detail beyond pointing to a separate detailed post about the video recording feature for agents.",
+      "tags": [
+        "shot-scraper",
+        "video-recording",
+        "cli-tool",
+        "agent-tooling",
+        "automation"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a brief product release announcement with minimal technical depth, novel insights, or actionable information; it primarily redirects to another article for actual content."
+    },
+    "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/": {
+      "title": "Agriculture is ready for AI, but its data isn\u2019t",
+      "source": "MIT Technology Review",
+      "date": "2026-06-30T12:00:00+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that AI adoption in agriculture is being hindered by poor data infrastructure, despite promising use cases showing 26% yield improvements and 41% water reduction. It provides evidence that fragmented IoT data, inconsistent historical records, and complex spatial farming data create a \"garbage in, garbage out\" problem that vendors often overlook. The piece matters because it highlights that data readiness\u2014not AI capability\u2014is the primary barrier to agricultural AI deployment.",
+      "tags": [
+        "data-infrastructure",
+        "agricultural-ai",
+        "iot-integration",
+        "data-quality",
+        "predictive-modeling"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level vendor-sponsored content that restates common data quality challenges without novel frameworks, original research, or deep technical analysis; primarily promotional for Reltio's data platform services."
+    },
+    "https://openai.com/index/genebench-pro/case-studies": {
+      "title": "Inside Genebench-Pro",
+      "source": "OpenAI News",
+      "date": "2026-06-30T00:00:00+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article appears to be a title-only or extremely minimal content piece about Genebench-Pro from OpenAI News. Without substantive content, it's impossible to assess what arguments, evidence, or mechanisms are presented. This represents either a placeholder, broken link, or improperly extracted article that provides no actionable information.",
+      "tags": [
+        "genebench-pro",
+        "openai",
+        "benchmarking"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only a title with no substantive content to evaluate for depth, novelty, claims, or frameworks."
+    },
+    "https://www.bain.com/insights/how-leaders-inspire-cracking-the-code/": {
+      "title": "How Leaders Inspire Cracking The Code",
+      "source": "Bain Insights",
+      "date": "2026-07-02T02:00:52.499596+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Bain & Company article about leadership inspiration based on the title, but the provided text is primarily navigation menu content from the Bain website rather than the actual article. The extracted content shows only organizational structure, office locations, and service categories without substantive analysis or insights. Without access to the actual article content, it's impossible to evaluate the depth, novelty, or specific relevance of the leadership framework being discussed.",
+      "tags": [
+        "leadership",
+        "management",
+        "organizational-behavior"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not provided - only website navigation menu extracted, preventing meaningful evaluation of depth, novelty, or relevance to specified topic areas."
+    },
+    "https://www.bain.com/insights/events/consumer-goods-forum/": {
+      "title": "Consumer Goods Forum",
+      "source": "Bain Insights",
+      "date": "2026-07-02T02:00:52.155405+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is not an article but a navigation page from Bain & Company's website showing office locations, service areas, and menu structure. It contains no substantive content, analysis, research, or insights beyond basic website architecture. There is nothing to evaluate as it provides no information related to AI, technology strategy, or business analysis.",
+      "tags": [
+        "website-navigation",
+        "consulting-firm",
+        "bain-company"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a website navigation page with no actual content, analysis, or insights to evaluate."
+    },
+    "https://www.bain.com/insights/topics/apac-frontline-healthcare/": {
+      "title": "Apac Frontline Healthcare",
+      "source": "Bain Insights",
+      "date": "2026-07-02T02:00:51.761544+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or website header from Bain & Company's website, with the title 'Asia-Pacific Front Line of Healthcare' but no actual article content. The text contains only menu items, office locations, and site navigation elements without any substantive analysis or information. This is not a readable article and provides no value for a knowledge wiki.",
+      "tags": [
+        "healthcare",
+        "asia-pacific",
+        "bain-company"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a website navigation page with no actual article content, analysis, or substantive information to evaluate."
+    },
+    "https://tearsheet.co/podcasts/trust-stablecoins-and-the-ai-margin-squeeze-what-mckinsey-and-qeds-fintech-report-means-for-banks/?utm_source=rss&utm_medium=rss&utm_campaign=trust-stablecoins-and-the-ai-margin-squeeze-what-mckinsey-and-qeds-fintech-report-means-for-banks": {
+      "title": "Trust, stablecoins, and the AI margin squeeze: What McKinsey and QED\u2019s fintech report means for banks",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-07-01T11:30:00+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article reports on a McKinsey-QED joint report arguing that AI agents, trust dynamics, and real-time payments (including stablecoins) are converging to commoditize basic banking functions like deposits and loans. The key mechanism is that AI agents could automate rate-shopping for customers, compressing margins and forcing banks to compete on efficiency and relationships rather than products. It matters because it suggests the simplest banking operations face the greatest AI disruption risk, not the most complex ones.",
+      "tags": [
+        "ai-agents",
+        "banking-commoditization",
+        "margin-compression",
+        "stablecoins",
+        "fintech-trust",
+        "rate-shopping-automation"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://www.tomtunguz.com/ai-execution-routing/": {
+      "title": "Most AI Work Can Wait",
+      "source": "Tomasz Tunguz",
+      "date": "2026-07-01T00:00:00+00:00",
+      "composite": 8.0,
+      "depth": 8,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "inference-efficiency",
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "The article argues that AI system design should prioritize intelligent routing over model selection, with routing decisions enabling 70-80% of agent traffic to run on cheap local or asynchronous models. It presents a three-layer architecture (skill classifier, router, model selector) with synchronous and asynchronous feedback loops that reduced Coinbase's AI spend by half while token usage grew. This matters because it reframes the AI infrastructure problem from 'which model' to 'which tier when,' making production AI systems economically sustainable at scale.",
+      "tags": [
+        "intelligent-routing",
+        "local-models",
+        "async-batch-inference",
+        "skill-distillation",
+        "agentic-architecture",
+        "cost-optimization"
+      ],
+      "status": "integrated"
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTEJOOHM5VTZreHJqeWJIS0NQWVNZdVJZdGtLSzlSQ0gwcDFEc0t2QjF5WEFDZGw2bUVzTHdmbURKUTJTMmtfc1VTSmpoYkdqVzRWX3NXLTJNVTc5Zkx3QzBTaFphWnE1VDN6elhnZzk4azVUdlFVYWJiSTNpSjhiRzZYdmJTT0x4ZThLNmNCYV9aUS1yTzRqbVo3R3Q?oc=5": {
+      "title": "OCBC adds AI-powered financial advisor avatars to app - Finextra Research",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-07-01T23:39:27+00:00",
+      "composite": 4.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "OCBC bank has reportedly added AI-powered financial advisor avatars to their mobile application. No substantive details about the implementation, capabilities, or underlying technology are provided in the accessible content. The article appears to be a brief announcement rather than an analytical piece.",
+      "tags": [
+        "financial-advisor-avatars",
+        "banking-app",
+        "conversational-ai",
+        "retail-banking"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is not accessible beyond cookie consent page; no substantive information available to evaluate depth, novelty, or provide meaningful analysis."
+    },
+    "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOblJQVHZSWTJSRjZzWVhSZG1XSm9GSVVhTm9jTFBNV21VWXdfZS1kS2hJemJIRTJLVkxOdXlYVWE4Y3pYWXIyakprd09CNmkxX1RXNmdPVC1NTTY0b3dMU1dtZjZva3ZZSkJEMDJZYlcxV1kyVExwbTRtd0psM2t0aGFULW1pMVA2eWVKZHkwcVo2YlZ3WHpSM1VaNHlkYzFlYjhaT2w1aFlUMVJIN0RSQVM0d3lIMnhyRkM3LWpRa25kWE93TUt6Zk9SU0RBdUlZX2VZekNDODd5SF8wMmhMTVV0aXN0ek4zYUVYenZtQ0VwVlZORC1YMDZR?oc=5": {
+      "title": "P3 Media Launches Forward Deployed Engineering Practice to Help Commerce Brands Adopt, Deploy, and Scale AI - Morningstar",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-01T19:01:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "P3 Media announces the launch of a forward deployed engineering practice aimed at helping commerce brands adopt and scale AI solutions. The article appears to be a press release or announcement with no substantive details about methodology, implementation approach, or case studies provided in the accessible text. This represents a service offering announcement without technical depth or novel insights into AI deployment challenges or solutions.",
+      "tags": [
+        "forward-deployed-engineering",
+        "commerce-brands",
+        "ai-adoption",
+        "professional-services"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible behind cookie consent wall; only boilerplate Google sign-in page visible with no substantive information about P3 Media's AI practice, methodology, or implementation details."
+    },
+    "https://writer.com/blog/humans-of-ai-brent-summers-qualcomm/": {
+      "title": "Brent Summers of Qualcomm Technologies, Inc. on moving AI from magic to muscle \u2014 and what gets lost in between",
+      "source": "Writer.com Blog",
+      "date": "2026-07-01T17:23:45+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-in-sales-gtm",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that enterprise AI transformations fail when organizations treat AI as 'magic' rather than investing in behavior change, workflow redesign, and sustained practice ('muscle building'). Qualcomm's head of AI platforms describes implementing AI-powered account research that reduced manual work from hours to minutes, but emphasizes that the harder challenge is change management, assigning individual ownership, and designing AI into workflows rather than bolting it on top. The key insight is that successful AI adoption requires dedicated ownership, deliberate practice, and human-centered workflow redesign rather than committee-led pilots.",
+      "tags": [
+        "change-management",
+        "workflow-redesign",
+        "account-based-marketing",
+        "adoption-barriers",
+        "organizational-transformation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level summary of common AI adoption challenges without original research, novel frameworks, or specific technical/operational insights beyond general advice about ownership and change management."
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWcxOTZnZlNZZWxUVUhya2VUY0RKOEpMZmZrSWZQS0FXWTh2UnN0X2M0eFZHUVM5RjRyelhVdEJwdDdPY0lTMHh6bEl4ajhoLXYtS0FvYl9SOFVmU1dPUERqMTFYMzNNY0RQejlzZG9kbkxSWms0U18waUxkY2FxSkY0VjNsR2NldmJ1eWpWUWc5aE9fWmJaLQ?oc=5": {
+      "title": "What is the best AI voice agent for businesses in 2026? - Technology Org",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-01T16:21:31+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-customer-success-support"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be about AI voice agents for businesses in 2026, but the provided text only contains Google's cookie consent dialog and language selection options. No actual article content about AI voice agents, their capabilities, comparisons, or business applications is present. Without substantive content, it's impossible to assess the article's actual arguments, evidence, or implications.",
+      "tags": [
+        "ai-voice-agents",
+        "customer-support",
+        "enterprise-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no substantive content - only Google cookie consent dialog and navigation elements with no actual analysis or information about AI voice agents."
+    },
+    "https://feeds.feedblitz.com/~/958827416/0/kitcesnerdseyeview~Private-Fund-Due-Diligence-A-Checklist-For-Reviewing-Governing-Documents-And-Operational-Controls/": {
+      "title": "Private Fund Due Diligence: A Checklist For Reviewing Governing Documents And Operational Controls",
+      "source": "Kitces.com",
+      "date": "2026-07-01T11:02:46+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article provides a practical checklist for financial advisors conducting due diligence on private fund investments, emphasizing the importance of reviewing governing documents versus marketing materials and evaluating operational controls. It details what to look for including conflicts of interest, exit restrictions, side letters, segregation of functions, custodial arrangements, and asset valuation practices. The guidance is framed as a compliance and risk management exercise for wealth advisors adding private investments to client portfolios.",
+      "tags": [
+        "private-fund-diligence",
+        "wealth-management",
+        "regulatory-compliance",
+        "operational-controls",
+        "financial-advisory"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on traditional wealth management due diligence for private funds with no meaningful connection to AI, machine learning systems, or enterprise AI deployment topics."
+    },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdTliekc4QnBNd0k3U0g4RFlCdWtYWmZTWVZEN3gyUF80a0ZER3NHalNQQ3h2VjJ6cHAwRzU3X1F3VTFiTGRNdlpaRUlEVDBaU3d6aEVYM0lKdXRSb2Zad1hNbjUxRG1xVV9ib0wyOFBwQnROUUhBN2l6VmU5Q0RnZFVXUWFDNm9FNkE?oc=5": {
+      "title": "How Archia Is Trying to Solve the Most Ignored Problem in AI Adoption - ascendants.in",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-01T04:53:02+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This submission contains no actual article content, only a Google cookie consent page. It provides no information about Archia or AI adoption problems. There is nothing to evaluate as the article text was not successfully captured.",
+      "tags": [
+        "cookie-consent",
+        "scraping-error",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "No article content available - only a Google consent page was captured instead of the actual article."
     }
   }
 }
