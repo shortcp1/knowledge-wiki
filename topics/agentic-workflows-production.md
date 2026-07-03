@@ -1,68 +1,56 @@
 ---
-tags: [intelligent-routing, local-models, async-batch-inference, skill-distillation, agentic-architecture, cost-optimization, agentic-workflows-production]
+tags: [bnpl, agentic-commerce, kya-know-your-agent, autonomous-purchasing, intent-verification, financial-underwriting, agentic-workflows-production]
 ---
 
 ---
-tags: [agent-audit-trail, agent-authorization, agent-clearinghouse, agent-context-serving, agent-evals, agent-execution-control, agent-governance, agent-governance-layer, agent-identity, agent-infrastructure, agent-memory, agent-permissioning, agent-permissions, agent-policy-enforcement, agent-telemetry, agent-traces, agentic-architecture, agentic-commerce, agentic-orchestration, agentic-workflows, agentic-workflows-production, ai-agents, ai-agents-meetings, ai-runtime, always-on-agents, amazon-bedrock, ambient-agents, anthropic-claude-tag, async-agents, async-delegation, async-inference, asynchronous-inference, authorization-context, background-agents, background-workers, batch-inference, batch-processing, change-management-costs, channel-permissions, claude-tag, clearinghouse-architecture, cloud-infrastructure, cloud-sandboxes, code-generation, code-ownership-tracking, coding-agents, coinbase-ai-spend, context-window-management, conversational-context, cost-optimization-defaults, cross-channel-coordination, custom-inference-chips, data-as-context, data-context, data-moats, databricks, dynamic-workflows, enterprise-moats, fleet-aware-orchestration, fleet-orchestration, fraud-detection, genie-one, git-webhook-integration, go-to-market-strategy, hours-long-agents, inference-cost-optimization, lakehouse, liability-models, live-operational-context, ltap, meeting-recording, memory-hierarchy, meta-harness, model-routing, modular-permissions, mosaic, multi-agent-coordination, multi-agent-routing, multi-agent-systems, multi-turn-agents, multiplayer-agents, omnigent, openai-frontier, operating-system-for-agents, orchestration-layer, parallel-agents, payment-governance, performance-per-watt, permission-gates, persistent-sessions, portability, proactive-agents, query-decomposition, queued-workloads, rl-fine-tuning, router-first-design, sailboxes, sakana-fugu, shared-context, skill-classifier, slack-integration, slack-native-agents, spend-controls, spot-capacity, stacked-prompts, stateful-compute, stateful-policies, stateful-runtime, stateless-api, strategic-defaults, three-tier-routing]---
+tags: [agent-framework, agent-skills, agentic-architecture, agentic-primitives, agentic-workflows-production, async-batch-inference, business-agents, cost-optimization, intelligent-routing, local-models, mcp-servers, skill-distillation, v0-coding-agent, vercel-eve, agentic-commerce, bnpl-agents, know-your-agent, kya, agent-intent-verification, agent-authorization-commerce, autonomous-buyers, infrastructure-mismatch, payment-agents, purchase-agents]---
 
-## Router-First Architecture for Production Agents
+## Agentic Commerce Infrastructure Gap (Zip Co, July 2026)
 
-**Design Philosophy** (Theory Ventures, July 2026): "Design your system around routing, not around models. Pick your models last."
+### Business Problem
+**BNPL Infrastructure Meets Autonomous Commerce**:
+- Traditional BNPL designed for humans making purchase decisions with visible intent signals
+- Agentic commerce shifts purchasing decisions to software agents
+- Core problem: "Infrastructure mismatch: autonomous buyers operating on systems built to verify human intent"
+- Critical separation: Intent from action - "person making the purchase and person assuming the debt" no longer the same
 
-### Why Routing Matters More Than Model Selection
+### AI Pattern: Autonomous Purchase Agents
+**Agentic Commerce Deployment**:
+- AI agents purchasing, financing, and managing transactions on behalf of consumers
+- Agents act as intermediaries between consumer intent and transaction execution
+- Decision-making process becomes opaque to infrastructure layer
+- Agents execute "exactly as instructed but produce outcomes consumer never wanted"
 
-**Cost optimization through tier selection**:
-- Local models: effectively free per call
-- Async batch inference: 90%+ cheaper than real-time (2 orders of magnitude)
-- Real-time frontier models: most expensive, should be minority of traffic
+### Industry Impact: Payments/BNPL
+**Function**: Consumer credit and point-of-sale financing
+**Company**: Zip Co (Rory Herriman, CTO/COO)
+**Challenge Domain**: Three critical verification questions:
+1. "How do you verify intent when the buyer is software?"
+2. "How do you underwrite a purchase when the decision-making process is invisible?"
+3. "Who bears responsibility when an agent acts exactly as instructed but produces an outcome the consumer never wanted?"
 
-**Target distribution**: 70-80% of agent traffic on local models for non-coding work (with proper routing)
+### KYA Framework Emergence
+**Know Your Agent Paradigm**:
+- New acronym emerging alongside KYC (Know Your Customer)
+- Requirements extending beyond agent authority verification
+- Must prove "action reasonably reflected the user's objectives" - not just authorization but alignment
+- BNPL providers positioned as "early test case" for broader payments ecosystem
 
-### Three-Layer Routing System
+### Success/Failure Factors
+**Infrastructure Adaptation Required**:
+- Traditional signal loss: BNPL relied on step-by-step human signals (product selection, price review, financing choice, terms acceptance)
+- Each step provided risk and intent assessment data
+- Agent-mediated transactions eliminate these intermediate verification points
+- Open question: How to rebuild trust and risk models for opaque agent decision-making
 
-See [[inference-efficiency]] for detailed routing architecture:
-1. **Skill classifier**: Intent recognition (what is the task?)
-2. **Router**: Tier selection (which compute tier?)
-3. **Model selector**: Optimization within tier (which specific model?)
+### Generalizability: High
+**Applicable to**:
+- All consumer lending (credit cards, personal loans, mortgages)
+- E-commerce platforms (product selection, vendor choice)
+- Insurance purchasing and claims
+- Healthcare appointment scheduling and provider selection
+- Travel booking and itinerary management
+- Subscription service management
+- Any transaction where intent verification and responsibility assignment matter
 
-### Queueable vs Real-Time Work
-
-**Key insight**: Most agent work does not need sub-second responses
-
-**Queueable operations** (can run async):
-- Draft replies
-- Repository summaries  
-- Diligence memos
-- Nightly evaluator runs
-- Background analysis tasks
-
-**Real-time operations** (need immediate response):
-- Interactive chat responses
-- Live debugging sessions
-- User-blocking operations
-
-### Cost Optimization Through Defaults
-
-**Coinbase Case Study** (Brian Armstrong, ~June 2026):
-- Cut AI spend nearly in half while token usage grew exponentially
-- **Not** achieved through friction (spend alerts, manual approvals)
-- **Achieved through**: Better defaults, routing, and caching
-- Engineers retain freedom to choose any model, but defaults guide most decisions
-
-**Design principle**: Cost control via intelligent defaults, not restrictions
-
-### Feedback-Driven Router Updates
-
-Theory Ventures agent runtime implementation (July 2026):
-
-**Synchronous layer**:
-- Predictor annotates routes with five risk features before execution
-- Catches known failure patterns: missing context, long dependencies, risky migrations, security-sensitive prompts, high-consequence writes
-
-**Asynchronous layer**:
-- Nightly batch evaluator scores previous day's traces
-- Updates router weights based on actual performance
-- Runs on async inference (Sail) to keep evaluation cost near zero
-- Discovers new failure modes not caught by synchronous predictor
-
-See [[inference-efficiency]] for routing implementation details
+**Pattern**: Whenever autonomous agents act as intermediaries in financial or high-stakes decisions, infrastructure must evolve from verifying human intent to verifying agent authority + alignment with user objectives

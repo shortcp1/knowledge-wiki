@@ -1148,3 +1148,11 @@ Episode referenced but content not provided in article text: "No Figma. No Jira.
 - Interface allows dragging/combining text from different model outputs
 - Targets creative professionals for ideation workflows
 - Flint positioned as diversity-enhancing option within the tool
+
+---
+**Vercel's Andrew Qu on why agents are a new kind of software** (Latent Space, 2026-07-03T00:08:18+00:00)
+**Vercel Agent Platform Strategy**
+
+Vercel is building an end-to-end agent platform comparable to its web development platform, but with a partner ecosystem approach. The article was cut off before completing this section, suggesting Vercel values specialized partners for parts of the agent lifecycle while providing core infrastructure.
+
+**Philosophical Positioning**: Agents as fundamentally new software category requiring different mental models, not just incremental evolution of existing application patterns.

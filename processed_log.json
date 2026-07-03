@@ -26237,6 +26237,526 @@
       ],
       "status": "skipped",
       "skip_reason": "No article content available - only a Google consent page was captured instead of the actual article."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/7": {
+      "title": "7",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-03T02:00:52.704040+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a table of contents page listing brief headlines from Andrew Ng's newsletter letters covering various AI topics including California's SB 1047 veto, AI in education, falling LLM token prices, and regulatory approaches. The page contains only short teasers without full article content or substantive analysis. It functions as an index rather than providing actionable insights or original research.",
+      "tags": [
+        "newsletter-index",
+        "sb-1047",
+        "llm-pricing",
+        "ai-regulation"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a table of contents page with article headlines and brief teasers, containing no substantive analysis, data, or actionable insights."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/3": {
+      "title": "3",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-03T02:00:52.703998+00:00",
+      "composite": 2.7,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering",
+        "regulatory-policy",
+        "gpu-architecture-training-infra"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a table of contents page listing Andrew Ng's newsletter articles from The Batch, covering topics like AI bubbles, agentic workflows, evals, data silos, and the US-China chip race. The page provides only article titles and brief one-sentence descriptions without substantive content or analysis. It serves as a navigation index rather than original content worth ingesting into a knowledge base.",
+      "tags": [
+        "newsletter-index",
+        "agentic-ai",
+        "evals",
+        "semiconductor-policy"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a table of contents page with article titles and snippets, containing no substantive analysis, data, or original insights to add to a knowledge base."
+    },
+    "https://www.deeplearning.ai/the-batch/u-s-lifts-export-controls-on-claude-models": {
+      "title": "U S Lifts Export Controls On Claude Models",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-03T02:00:52.437858+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on the Trump administration lifting export controls on Anthropic's Claude Fable 5 and Mythos 5 models after Anthropic committed to stronger safeguards against jailbreak vulnerabilities, and announces the launch of Claude Sonnet 5, a mid-tier model optimized for autonomous agent work. The resolution came after Anthropic replaced its CEO in negotiations and agreed to build enhanced security measures, while Claude Sonnet 5 delivers near-Opus performance at lower cost with improved reasoning and tool use capabilities. This matters because it resolves a major regulatory bottleneck affecting AI model deployment and introduces a new mid-tier option that could accelerate enterprise adoption of agentic workflows.",
+      "tags": [
+        "export-controls",
+        "jailbreak-vulnerabilities",
+        "claude-models",
+        "autonomous-agents",
+        "safety-restrictions",
+        "model-pricing"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news coverage of policy developments and product launches without meaningful technical depth or original analysis; primarily summarizes press releases and company announcements."
+    },
+    "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework": {
+      "title": "Fable Safeguards Jailbreak Framework",
+      "source": "Anthropic Blog",
+      "date": "2026-07-03T02:00:49.472762+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "evals-production-deployment",
+        "regulatory-policy",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "Anthropic introduces a cybersecurity safeguards framework for Claude Fable 5 that categorizes uses into four risk levels (prohibited, high-risk dual use, low-risk dual use, benign) and proposes an AI jailbreak severity framework developed with Glasswing partners. The system uses safety classifiers to distinguish between defensive cybersecurity activities (like vulnerability scanning) and potentially malicious uses, with a configurable 'safety margin' that blocks some benign uses out of caution. This represents an operational framework for managing dual-use AI capabilities in production and aims to establish industry standards for evaluating jailbreak severity and communicating AI risks to governments.",
+      "tags": [
+        "jailbreak-framework",
+        "safety-classifiers",
+        "dual-use-capabilities",
+        "cybersecurity-safeguards",
+        "safety-margin",
+        "red-teaming"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/vercel-agents-new-software": {
+      "title": "Vercel's Andrew Qu on why agents are a new kind of software",
+      "source": "Latent Space",
+      "date": "2026-07-03T00:08:18+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Andrew Qu explains how Vercel evolved from web development tooling to building eve, an agent framework born from solving operational challenges while building v0's AI coding agent. The key innovation centers on treating agents as a distinct software category requiring new primitives for context management, resumability, tool orchestration, and long-running tasks\u2014rather than just web applications with LLM capabilities. This matters because it validates the enterprise shift toward agentic workflows and provides a major infrastructure player's perspective on productionizing agents for internal business operations.",
+      "tags": [
+        "agent-framework",
+        "vercel-eve",
+        "agentic-primitives",
+        "business-agents",
+        "v0-coding-agent",
+        "mcp-servers",
+        "agent-skills"
+      ],
+      "status": "integrated"
+    },
+    "https://www.latent.space/p/the-website-of-the-future": {
+      "title": "The website of the future may assemble itself for every visitor",
+      "source": "Latent Space",
+      "date": "2026-07-02T21:25:14+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-native-product-design",
+        "rag-over-proprietary-content"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Adobe is experimenting with 'agentic sites' that dynamically generate personalized web pages for each visitor based on their intent, using LLMs to retrieve and compose content from existing material in real-time. The system achieves 1-2 second latency at 1-2 cents per page inference cost, using visitor behavior signals to categorize intent and assemble pages (e.g., reorganizing a coffee machine site for camping context). This represents a shift from traditional segmentation-based personalization to true individualized experiences, though Adobe has not yet deployed this broadly and is seeking experimental customers.",
+      "tags": [
+        "dynamic-content-generation",
+        "real-time-personalization",
+        "inference-latency",
+        "commerce-personalization",
+        "intent-classification",
+        "rag-retrieval"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product demo coverage without technical depth on architecture, retrieval mechanisms, or comparative analysis; primarily a promotional interview about future possibilities rather than substantive implementation details or original insights."
+    },
+    "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything": {
+      "title": "llm-coding-agent 0.1a0",
+      "source": "Simon Willison",
+      "date": "2026-07-02T19:33:12+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "Simon Willison releases llm-coding-agent 0.1a0, a coding agent framework built on his LLM library that provides tools for reading/editing files and executing commands. The agent was itself built by an AI (Fable 5) using test-driven development and includes a CLI interface with safety controls (--yolo, --allow flags) plus a Python API for programmatic use. This demonstrates practical agentic workflow implementation with concrete tool implementations for file manipulation, command execution, and search capabilities.",
+      "tags": [
+        "coding-agents",
+        "llm-library",
+        "tool-calling",
+        "tdd",
+        "cli-interface",
+        "file-manipulation"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything": {
+      "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+      "source": "Simon Willison",
+      "date": "2026-07-02T18:25:00+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "evals-production-deployment",
+        "prompt-architecture",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "This article describes using the DSPy framework to evaluate and optimize system prompts for Datasette Agent, a SQL query assistant that answers questions about data. The methodology involves DSPy agents invoking actual Datasette Agent tool implementations against a live instance, evaluated against a gold-standard dataset with custom metrics. The evaluation revealed specific prompt improvements, such as including column names in schema listings to prevent error-retry loops caused by agents guessing column names.",
+      "tags": [
+        "dspy",
+        "prompt-optimization",
+        "sql-agents",
+        "datasette",
+        "evals",
+        "system-prompts"
+      ],
+      "status": "skipped",
+      "skip_reason": null
+    },
+    "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything": {
+      "title": "Understand to participate",
+      "source": "Simon Willison",
+      "date": "2026-07-02T17:07:14+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on Geoffrey Litt's framing of \"understand to participate\" regarding collaboration with AI coding agents, emphasizing the need to maintain deep understanding to avoid cognitive debt as agents generate increasingly complex code changes. The key mechanism is maintaining sufficient conceptual fluency to actively participate in and guide the creative development process rather than passively accepting agent outputs. This matters because it addresses a critical human-in-the-loop challenge as agentic coding tools become more powerful and autonomous.",
+      "tags": [
+        "coding-agents",
+        "cognitive-debt",
+        "human-in-the-loop",
+        "developer-experience",
+        "agentic-collaboration"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief conference talk summary without original analysis, data, or actionable frameworks; lacks depth on implementation details or novel insights beyond a high-level conceptual framing."
+    },
+    "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/": {
+      "title": "Achieving operational excellence with AI",
+      "source": "MIT Technology Review",
+      "date": "2026-07-02T15:37:08+00:00",
+      "composite": 3.3,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that AI-powered process optimization works best when layered onto existing operational excellence frameworks like Lean Six Sigma and BPM, rather than being implemented on weak foundations. It cites market projections ($113B for AI process optimization) and survey data (88% of leaders plan to increase investment) as evidence of growing adoption. The piece matters as a high-level framing of how traditional process excellence methodologies are evolving to incorporate AI, though it provides no specific technical details or novel implementation insights.",
+      "tags": [
+        "process-optimization",
+        "lean-six-sigma",
+        "business-process-management",
+        "operational-excellence"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional content with generic claims about AI and process excellence; lacks specific frameworks, technical depth, implementation details, or novel insights beyond basic 'AI needs good foundations' messaging."
+    },
+    "https://www.latent.space/p/skill-engineering-design": {
+      "title": "Skill engineering and the case against one-shot AI design",
+      "source": "Latent Space",
+      "date": "2026-07-02T14:36:05+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "prompt-architecture",
+        "ai-native-product-design",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "Paul Bakaus argues for \"skill engineering\" as a discipline that gives AI agents domain-specific vocabularies and steering mechanisms rather than relying on one-shot design generation. Impeccable provides coding agents with precise operational definitions of design terms like \"bolder\" or \"quieter\" that translate designer vocabulary into actionable instructions, using techniques like routing and mixture-of-experts approaches. This matters because it addresses the convergence problem where unguided agents produce homogeneous outputs, while emphasizing human steering over full automation.",
+      "tags": [
+        "skill-engineering",
+        "agentic-workflows",
+        "human-in-the-loop",
+        "design-agents",
+        "mixture-of-experts",
+        "prompt-vocabulary"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/": {
+      "title": "Teaching AI to run with the turbines",
+      "source": "MIT Technology Review",
+      "date": "2026-07-02T12:51:44+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-operations",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article profiles Woodside Energy's decade-long journey deploying AI in industrial operations, culminating in agentic systems like their 'Startup Advisor' copilot for LNG plant operations. The company emphasizes building on operational data infrastructure, governance foundations, and augmenting rather than replacing human expertise in high-stakes environments. The piece illustrates how industrial AI maturity comes from years of foundational work rather than rapid adoption of generative models.",
+      "tags": [
+        "agentic-ai",
+        "industrial-operations",
+        "operational-data",
+        "ai-copilot",
+        "lng-operations",
+        "predictive-maintenance"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study with generic insights about AI augmentation and infrastructure foundations; lacks technical depth, novel frameworks, or substantive operational details that would be valuable for a knowledge wiki."
+    },
+    "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/": {
+      "title": "The Download: a startup has a solution for AI\u2019s groupthink problem",
+      "source": "MIT Technology Review",
+      "date": "2026-07-02T12:10:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "MIT Technology Review's newsletter briefly mentions that an Australian startup called Springboards built an LLM called Flint designed to generate more diverse responses than mainstream models like ChatGPT, Claude, and Gemini, which tend toward predictable outputs. The article provides minimal technical detail beyond noting that current LLMs exhibit 'groupthink' in responses to open-ended questions. This is a surface-level news brief that lacks depth on the underlying architecture, training methodology, or evaluation metrics.",
+      "tags": [
+        "llm-diversity",
+        "response-variation",
+        "chatbot-predictability"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news brief with minimal technical detail, no original analysis, and insufficient depth on the claimed innovation in model architecture or training methodology."
+    },
+    "https://tearsheet.co/bnpl/why-bnpl-infrastructure-needs-to-learn-a-new-acronym-kya-know-your-agent/?utm_source=rss&utm_medium=rss&utm_campaign=why-bnpl-infrastructure-needs-to-learn-a-new-acronym-kya-know-your-agent": {
+      "title": "Why BNPL infrastructure needs to learn a new acronym: KYA (Know Your Agent)",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-07-02T11:30:00+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance",
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that Buy Now Pay Later (BNPL) providers face an infrastructure mismatch as AI agents begin making autonomous purchasing decisions on behalf of consumers, requiring new verification frameworks beyond traditional Know Your Customer (KYC) approaches. It introduces the concept of \"Know Your Agent\" (KYA) to address questions of verifying intent, underwriting invisible decision-making processes, and assigning responsibility when agents act as instructed but produce unintended outcomes. This matters because it identifies BNPL as an early test case for how financial infrastructure must adapt to agentic commerce where the purchaser and debt-holder are decoupled.",
+      "tags": [
+        "bnpl",
+        "agentic-commerce",
+        "kya-know-your-agent",
+        "autonomous-purchasing",
+        "intent-verification",
+        "financial-underwriting"
+      ],
+      "status": "integrated"
+    },
+    "https://share.transistor.fm/s/6d8dad5f": {
+      "title": "Image Generation and Visual Intelligence with Black Forest Labs",
+      "source": "Practical AI (Changelog)",
+      "date": "2026-07-02T09:00:00+00:00",
+      "composite": 4.33,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 6,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "This podcast episode discusses the evolution of AI image generation from diffusion models to flow matching, featuring insights from Black Forest Labs co-founder on the FLUX model family. Podell explains the technical progression of visual AI models and their applications in image editing and practical workflows, including local deployment options. The conversation covers foundational concepts in modern image generation but appears to be an introductory overview rather than deep technical analysis.",
+      "tags": [
+        "diffusion-models",
+        "flow-matching",
+        "image-generation",
+        "flux-models",
+        "visual-intelligence",
+        "latent-space"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level podcast discussion of image generation technology without original research, novel claims, or deep technical analysis; primarily educational overview content."
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcEVidWpQRE1iZU1WRzdKZFFmUkU1R0syNF9kaEhWVkhvOVBEUm5NeGFzS2xwYXZUSVRqT3JYYW9xUlRtOVlqaHFlaWNKamhMVFNfaTA2ekpkUmlrLUFvaXZLSkt3YjltNVhUS2YwdDZpeEcyWnhzeFhMVFg0bkgyQ3d2NGM1WFdaWmozVFpBNTVIUVAwd0FfOGp30gGaAUFVX3lxTE1wRWJ1alBETWJlTVZHN0pkUWZSRTVHSzI0X2RoSFZWSG85UERSbk14YXNLbHBhdlRJVGpPclhhb3FSVG05WWpocWVpY0pqaExUU19pMDZ6SmRSaWstQW9pdktKS3diOW01WFRLZjB0Nml4RzJaeHN4WExUWDRuSDJDd3Y0YzVYV1paajNUWkE1NUhRUDB3QV84anc?oc=5": {
+      "title": "Mid\u2011market companies lose 23% of AI budget before ROI - SME horizon",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-02T23:00:00+00:00",
+      "composite": 1.33,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than an actual article about AI budget loss in mid-market companies. No substantive content about AI ROI, budget waste, or enterprise AI deployment is present in the provided text. The article title suggests relevant content but the body contains only standard Google privacy policy boilerplate.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "Not an actual article - only contains Google cookie consent page boilerplate with no substantive content about the claimed topic of AI budget loss in mid-market companies."
+    },
+    "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdmRiN1lhaFkwSEN4Q2p1QzlmZWIyT3BLVFZsVzZyb3FyemRDZ2x4dG9rNzJIbHJoN3ZtWjZMNG1FNE9MOVlDN3RqVGhiWndiQW9ENURHWllkU2tGQzVPX0hwYTZRSVA2bzBjRXd5Y0dlR01xTU9zd01kOElxWTVZY3JVeVVvNUxLNWtPZzFXWlpPdVFGYzVfdDhqVm10RVZ6MGFaUUs4RGNJQTQxMklySEtOTExTdHNNeU9ZR3NUVnJjYktJdTdUZlZxSVgxVTQzWkNBQ1Fkb0xVQnNJVU1SMHJHOVo0eGxIMlU5WVlmSFEzR3Ew?oc=5": {
+      "title": "Flyboard Raises \u20ac1.9 Million in Funding Led by b2venture, Kfund and Yellow to Scale AI Voice Agents Across Spain's Mid-Market - Capital-Riesgo.es - Capital Riesgo",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-02T15:17:32+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-sales-gtm",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "This appears to be a funding announcement for Flyboard, a company raising \u20ac1.9M to scale AI voice agents in Spain's mid-market. The article content is completely obscured by a Google cookie consent wall, providing no actual information about the technology, business model, or market approach. Without access to the actual article content, it's impossible to assess the depth of analysis, novel insights, or strategic implications.",
+      "tags": [
+        "ai-voice-agents",
+        "funding-announcement",
+        "mid-market",
+        "spain"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible due to cookie consent wall; only the title is available, which contains minimal substantive information about AI voice agent technology or market strategy."
+    },
+    "https://writer.com/blog/ai-agent-key-pipeline-trends/": {
+      "title": "This AI agent analyzes and reports on your key pipeline trends",
+      "source": "Writer.com Blog",
+      "date": "2026-07-02T15:10:40+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-in-sales-gtm",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article describes a marketing VP's custom AI agent that automatically analyzes Salesforce pipeline data weekly and generates tailored reports for different stakeholders (CEO, campaigns team, sales teams). The agent encodes the VP's institutional knowledge about pipeline analysis and saves 2-3 hours per week by automating data pulling, trend analysis, and audience-specific communication. The example demonstrates practical enterprise adoption of agentic workflows for routine marketing operations tasks.",
+      "tags": [
+        "pipeline-analysis",
+        "salesforce-integration",
+        "marketing-automation",
+        "audience-tailored-reporting",
+        "institutional-knowledge-encoding"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional case study with no technical depth, novel methodology, or generalizable insights beyond 'AI agent automates weekly report'\u2014primarily marketing content for Writer's platform."
+    },
+    "https://writer.com/blog/brand-moat-ai-agents-cannes/": {
+      "title": "What Cannes confirmed: Brand is the moat, AI agents are the engine",
+      "source": "Writer.com Blog",
+      "date": "2026-07-02T15:05:52+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-native-product-design",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that as AI enables infinite content scalability, brand differentiation becomes more (not less) important as the only non-replicable competitive moat. The author reports observations from CMO conversations at Cannes showing successful companies automate routine content with AI agents while reinvesting saved resources into high-touch brand building and field marketing. This matters because it reframes AI adoption in marketing from a replacement strategy to an amplification strategy that requires encoding brand standards directly into AI platforms.",
+      "tags": [
+        "brand-differentiation",
+        "content-automation",
+        "field-marketing",
+        "organizational-context",
+        "cmo-strategy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level synthesis of anecdotal observations from industry event without new data, frameworks, or substantive analysis; lacks concrete evidence or mechanisms beyond general assertions about brand importance."
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRlo5dDZneGo5NS1tV2U1QlQ4X3lHeUsxRXFfZTIzU2hwMDFqS0lhNHN1WDZuQ0I5c0lOQl81bFhVcVhPazhFRHJqUDAtQ0hGTnN5cTBrTEtsMVhKS1RxaUhNY0xVZzZVUEFwSFhrMGw4RFBYUWdXSGVZNTR0MnNGTGFKNHlxYmZjNGM3bzA0VU95UQ?oc=5": {
+      "title": "Arca Exits Stealth with $64M to Scale AI-Native Wealth Management - FF News",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-07-02T12:28:30+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "landscape",
+      "summary": "This appears to be a blocked/paywalled article about Arca, a company emerging from stealth with $64M in funding to build AI-native wealth management solutions. No actual article content is provided beyond the title, only Google's cookie consent dialog. Without access to the actual content, it's impossible to assess the depth of analysis, novelty of claims, or specific mechanisms discussed.",
+      "tags": [
+        "wealth-management",
+        "funding",
+        "stealth-mode"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible; only cookie consent page was provided with no substantive information about Arca's technology, approach, or market strategy."
+    },
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWnFLUGJZdU1kdDhFbFE1WS03cmUwRno5cGppbkZmS2E5QVpmbUJLUUk2dG1BOUNKc1VMZFFCem43dC0tSGpZMFREa3FRX2hOZGNLaHN4ODBKVDZVR2Q4T3VCSkhvRnp1eG9CaEJaNjB5NUdiV2c3RGhHSVFGZGczWE9YSFFXOFcxeUw2Ykl1SmdOYzB3eDR4Z2RtalY0X3RiclhiREF4YVlMZ282VnJUcEdIZ9IBuAFBVV95cUxNTUJYaDlZUHZCa01iNFVINGUyVWdleUpJZkVDZmhUWGxJU2V3QkZUSkl4cWduWDNrR01aU1ZQcGp3a3FpLWxGRXFvTi05Q0tMTVR3OWFrWmhBNWNEWWNBT1Y0My1ENDVMS3NPN1BHQURfOE8zMFZmazFXM3BvN2JWSDV6ZGwzMXlPUFhtUkE2WmpXSVcxazdXU045OVJDSmpyb1hBa2ZRbWVObFdTajdkN0NmWWlQMUlC?oc=5": {
+      "title": "Flyboard Captures 1.9 Million to Boost its AI Voice Agents in the Mid-Market - Dem\u00f3crata",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-02T06:04:21+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-sales-gtm",
+        "ai-in-customer-success-support"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce that Flyboard raised $1.9 million in funding to develop AI voice agents targeting the mid-market segment. No actual article content is provided\u2014only a Google cookie consent page is visible. This lack of substantive content makes it impossible to assess the technology, use case details, or market implications.",
+      "tags": [
+        "voice-agents",
+        "mid-market",
+        "funding"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content\u2014only a Google cookie consent page with no substantive information about Flyboard's AI voice agents, technology approach, or market strategy."
+    },
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSUkF2My1DcTB3bTdpMF9xSGxIQTdTMnp2Vy1QeW0zTzc2Y240ckhraG04Ymh5emlhZEE0TnRRZW1SbXVaTVo1bVQyUThlYk9BNXZNTFkwSGlUcUx3dWtGUk5ZSUVELWNfTXU4?oc=5": {
+      "title": "Range Review 2026: Pros, Cons and How It Compares - NerdWallet",
+      "source": "GN: AI Wealth Management",
+      "date": "2026-07-01T07:00:00+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be a cookie consent page from Google that was incorrectly captured instead of the intended NerdWallet review of Range (a financial planning tool). The text contains no substantive content about Range, financial planning, or AI applications in wealth management. This is a data collection error that provides no analyzable information.",
+      "tags": [
+        "data-error",
+        "cookie-consent",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only a Google cookie consent page with no actual content about the stated topic (Range financial planning tool review); appears to be a web scraping error."
     }
   }
 }

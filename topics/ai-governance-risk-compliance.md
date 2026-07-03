@@ -1,6 +1,9 @@
 ---
-tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-execution-limits, agent-governance, agent-governance-architecture, agent-identity, agent-identity-standards, agent-liability, agent-policy-enforcement, agent-vulnerabilities, agentic-commerce, agentic-commerce-governance, agentic-orchestration, agentic-vulnerabilities, ai-governance-risk-compliance, ai-guardrails, ai-insurance, ai-security, asset-classification, authorization-context, automated-adversarial-testing, automated-red-teaming, autonomous-agent-governance, cio-governance-priorities, clearinghouse-architecture, common-crawl, compliance-stack, content-classifiers, culturax, data-governance, deterministic-rules, dual-use-content-classification, enterprise-moats, export-controls, fraud-detection, frontier-model-forum, governance-as-competitive-advantage, governance-as-moat, gray-swan-events, guardrails, human-in-the-loop, human-in-the-loop-governance, hybrid-governance, intent-verification, language-specific-bias, liability-models, llm-for-compliance, llm-governance-tools, misuse-classifier, misuse-detection, multi-agent-governance, mythos-export-control, national-security, national-security-ai, nnsa, nuclear-safeguards, payment-governance, policy-enforcement, privacy-aware-infrastructure, privacy-controls, prompt-injection, public-private-partnership, public-private-partnerships, red-teaming, responsible-ai, retention-policies, risk-signal-evolution, rule-distillation, state-media-bias, switching-costs, systems-of-record, training-data-composition, transaction-authorization]
+tags: [bnpl, agentic-commerce, kya-know-your-agent, autonomous-purchasing, intent-verification, financial-underwriting, ai-governance-risk-compliance]
 ---
+
+---
+tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-execution-limits, agent-governance, agent-governance-architecture, agent-identity, agent-identity-standards, agent-liability, agent-policy-enforcement, agent-vulnerabilities, agentic-commerce, agentic-commerce-governance, agentic-orchestration, agentic-vulnerabilities, ai-governance-risk-compliance, ai-guardrails, ai-insurance, ai-security, asset-classification, authorization-context, automated-adversarial-testing, automated-red-teaming, autonomous-agent-governance, cio-governance-priorities, clearinghouse-architecture, common-crawl, compliance-stack, content-classifiers, culturax, data-governance, deterministic-rules, dual-use-content-classification, enterprise-moats, export-controls, fraud-detection, frontier-model-forum, governance-as-competitive-advantage, governance-as-moat, gray-swan-events, guardrails, human-in-the-loop, human-in-the-loop-governance, hybrid-governance, intent-verification, language-specific-bias, liability-models, llm-for-compliance, llm-governance-tools, misuse-classifier, misuse-detection, multi-agent-governance, mythos-export-control, national-security, national-security-ai, nnsa, nuclear-safeguards, payment-governance, policy-enforcement, privacy-aware-infrastructure, privacy-controls, prompt-injection, public-private-partnership, public-private-partnerships, red-teaming, responsible-ai, retention-policies, risk-signal-evolution, rule-distillation, state-media-bias, switching-costs, systems-of-record, training-data-composition, transaction-authorization, agent-intent-alignment, agent-responsibility-attribution, bnpl-governance, kya-framework, know-your-agent]---
 
 # AI Governance, Risk & Compliance
 
@@ -13,94 +16,65 @@ tags: [agent-audit-trail, agent-authorization-layer, agent-clearinghouse, agent-
 - Emerging: CIOs prioritize governance from initial evaluation (meeting #1)
 - Driver: Autonomous agents create direct operational and compliance risk
 
-**New Enterprise Buying Questions**:
-- Old: "Is the model good?" (capability-focused)
-- New: "Can I see what every agent did, set policy on what it can touch, and prove it afterward?" (governance-focused)
-- Assumption: All models are "good enough" - differentiation is c
+**New Enterpr
 
-## Privacy-Aware Infrastructure (Meta AI, June 2026)
+## KYA (Know Your Agent) Framework (Zip Co, July 2026)
 
-### Core Challenge: Asset Classification at Scale
+### Agentic Commerce Governance Challenge
 
-**Privacy Control Dependency**: Privacy controls (retention, access, allowed-purpose, downstream-sharing, anonymization) require reliable understanding of data before enforcement can operate.
+**Three-Question Framework for Agent Governance**:
+1. **Intent Verification**: "How do you verify intent when the buyer is software?"
+2. **Process Transparency**: "How do you underwrite a purchase when the decision-making process is invisible?"
+3. **Responsibility Attribution**: "Who bears responsibility when an agent acts exactly as instructed but produces an outcome the consumer never wanted?"
 
-**AI-Native Complexity Factors**:
-- New data modalities (embeddings, multimodal inputs)
-- Faster iteration cycles
-- Derived features across pipeline transformations
-- Changing policy interpretations
-- Volume/pace exceeds manual review capacity
+**Dual-Layer Authorization Model**:
+- Layer 1: Agent had authority to act (traditional authorization)
+- Layer 2: Action "reasonably reflected the user's objectives" (alignment verification)
+- Distinction: Authorization ≠ Alignment
+- Challenge: Agent can be properly authorized yet misaligned with user intent
 
-### PAI Four-Layer Stack (Dependency Pyramid)
+### BNPL as Governance Testbed
 
-1. **Understand**: Asset classification (foundation layer)
-2. **Discover**: Identify policy-relevant data flows
-3. **Enforce**: Apply retention/access/purpose/sharing constraints
-4. **Demonstrate**: Provide verifiable compliance evidence
+**Why BNPL Tests Agent Governance Early**:
+- Financial liability directly assigned to consumers
+- High-stakes decisions with immediate financial consequences
+- Rich history of intent signals in traditional flow now eliminated
+- Clear responsibility chain required for credit risk and compliance
 
-*Critical dependency*: Errors in classification layer propagate to all downstream controls.
+**Signal Loss in Agent-Mediated Transactions**:
+- Traditional: Multi-step human verification (product selection → price review → financing choice → terms acceptance)
+- Agentic: Compressed or invisible decision chain
+- Governance gap: Risk models built on behavioral signals no longer available
 
-### Asset Classification Scope
+### Liability Model Evolution
 
-**Asset Types**:
-- Tables, columns, nested payload fields
-- Log keys, event parameters, API fields
-- ML features, embeddings, derived datasets
-- Data across pipeline transformations
+**Responsibility Triangle**:
+1. Consumer who delegated authority
+2. Agent that executed transaction
+3. Platform/provider that enabled transaction
 
-**Ambiguity Example**: Field named "age" could be:
-- Personal data (person's age) → strict protections required
-- System metadata (cache TTL) → no privacy controls
-- *Implication*: Field name alone insufficient for governance decisions
+**Open Question**: When agent acts "exactly as instructed" but produces unwanted outcome:
+- Is consumer liable for poor instruction?
+- Is agent developer liable for misinterpretation?
+- Is platform liable for insufficient guardrails?
 
-### Meta's Hybrid Classification Pattern
+### Industry Context
 
-**Architecture Principle**: "LLMs are not the production decision-maker in common cases."
+**Source**: Rory Herriman (CTO/COO, Zip Co)
+**Position**: BNPL providers as "early test case for questions the broader payments ecosystem is only beginning to recognize"
+**Timing**: July 2026 - framework emerging as agentic commerce scales
 
-**Four-Component Approach**:
+### Generalizability
 
-1. **Rich Context Assembly**: Gather distributed context (code, lineage, ownership, semantic annotations, documentation, usage patterns) before model reasoning
+**Applicable Wherever**:
+- Autonomous agents make binding financial decisions
+- Liability must be attributed across human-agent chain
+- Traditional authorization insufficient without alignment verification
+- Regulatory compliance requires audit trail of intent, not just action
 
-2. **LLM Role** (narrow and deliberate):
-   - Handle ambiguity, cold start scenarios, novel assets
-   - Generate recommendations (not production decisions)
-   - Interpret ambiguous signals
-
-3. **Human Review Layer**:
-   - Human-reviewed labels kept separate from model-generated recommendations
-   - Humans adjudicate reference labels
-   - Humans review and approve rule promotions that change enforcement
-
-4. **Rule Distillation**:
-   - Extract stable behavior into deterministic, versioned rules
-   - Rules handle routine enforcement (low latency, replayable, auditable)
-   - LLM role shrinks over time as rule coverage expands
-
-**Design Goal**: Learn from ambiguous signals while moving production enforcement toward deterministic logic.
-
-### Four Recurring Classification Challenges
-
-1. **Noisy/Weak Signals**:
-   - Dozens of context fields per asset
-   - High token usage dilutes attention
-   - Decision boundaries buried in irrelevant/misleading fields
-   - Example: "age" field without code resolution triggers false restrictions
-
-2. **Distributed Context**:
-   - Relevant context scattered across systems
-   - Requires assembly before classification
-
-3. **Evolving Requirements**:
-   - Product teams iterate quickly
-   - Policy interpretation changes with new capabilities
-   - Static rules/periodic review leave gaps
-
-4. **Enforcement Consequences**:
-   - False positive → unnecessary downstream restrictions
-   - False negative → protection gaps
-   - Classifier sits early in enforcement pipeline (error amplification risk)
-
-### Cross-References
-
-- [[ai-engineering-agents]]: Asset classification for AI-generated features/embeddings
-- [[ai-native-product-design]]: Fast iteration cycles impact governance systems
+**Industries**:
+- All financial services (lending, insurance, wealth management)
+- Healthcare (treatment decisions, provider selection)
+- Legal services (contract generation, filing decisions)
+- Enterprise procurement (vendor selection, purchase commitments)
+- Any regulated domain where "acting as instructed" ≠ "acting appropriately"

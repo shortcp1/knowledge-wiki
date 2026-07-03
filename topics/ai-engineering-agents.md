@@ -1,39 +1,57 @@
 ---
-tags: [agent-demo-generation, agent-demos, agentic-tasks, ai-engineering-agents, benchmark-design, claude-code, claude-sonnet, codex-desktop, coding-agents, cursor-ide, datasette, frontier-models, glm-5-2, gpt-5-5-xhigh, inference-cost, llm-as-judge, model-evaluation, open-weight-models, playwright-agents, playwright-automation, self-hosting, shot-scraper, storyboard-automation, storyboard-yaml, vendor-lock-in, video-demo-agents, video-documentation]---
+tags: [agent-demo-generation, agent-demos, agent-framework, agent-skills, agent-vocabulary, agentic-primitives, agentic-tasks, agentic-workflows, ai-engineering-agents, benchmark-design, business-agents, claude-code, claude-sonnet, cli-interface, codex-desktop, coding-agents, cross-harness-compatibility, cursor-ide, datasette, design-agents, design-skills, file-manipulation, frontier-models, glm-5-2, gpt-5-5-xhigh, human-in-the-loop, impeccable, inference-cost, llm-as-judge, llm-library, mcp-servers, mixture-of-experts, mixture-of-skills, model-evaluation, open-weight-models, playwright-agents, playwright-automation, prompt-vocabulary, self-hosting, shot-scraper, skill-engineering, skill-routing, storyboard-automation, storyboard-yaml, tdd, tool-calling, v0-coding-agent, vendor-lock-in, vercel-eve, video-demo-agents, video-documentation]---
 
 ---
-tags: [4-bit-quantization, agent-architecture, agent-collaboration, agent-harness, agent-harness-design, agent-loops, agent-portability, agent-sdk, agent-state-tracking, agentic-architecture, agentic-behavior, agentic-bug-finding, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-tasks, agentic-workflows, ai-coding-agents, ai-coding-productivity, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, aisuite, alphafold, always-on-agents, anthropic, antigravity-cli, auto-dream, autonomous-agents, autonomous-coding, autonomous-debugging, autonomous-experimentation, autonomous-fine-tuning, autonomous-research, autonomous-workflows, backend-development, background-processes, benchmark-contamination, benchmark-design, benchmark-vs-deployment, browser-automation, bug-finding-agents, capybara, chain-of-thought, change-data-capture, claude-code, claude-fable, claude-fable-5, claude-mythos, claude-opus-4, cli-agents, client-side-inference, cloud-offloading, code-quality-evaluation, codex, codex-cli, codex-desktop, codex-goals, coding-agents, coding-models, composer, context-caching, context-window-management, controller-agents, cors-debugging, cost-efficiency, creative-agents, cron-loops, cursor, cursor-cli, cursorbench, data-retention-privacy, datasette-agent, deepswe, desktop-agent-harness, desktop-agents, developer-feedback-loop, diffusion-transformers, enpire, eval-driven-development, external-feedback-loop, false-positives, feature-implementation, feature-implementation-agents, firefox, frontend-code, frontend-coding, frontier-model-competition, frontiercode, function-calling, fuzzing, git-stealth, glm-5.2, goal-based-agents, goal-based-automation]
+tags: [4-bit-quantization, agent-architecture, agent-collaboration, agent-harness, agent-harness-design, agent-loops, agent-portability, agent-sdk, agent-state-tracking, agentic-architecture, agentic-behavior, agentic-bug-finding, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-tasks, agentic-workflows, ai-coding-agents, ai-coding-productivity, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, aisuite, alphafold, always-on-agents, anthropic, antigravity-cli, auto-dream, autonomous-agents, autonomous-coding, autonomous-debugging, autonomous-experimentation, autonomous-fine-tuning, autonomous-research, autonomous-workflows, backend-development, background-processes, benchmark-contamination, benchmark-design, benchmark-vs-deployment, browser-automation, bug-finding-agents, capybara, chain-of-thought, change-data-capture, claude-code, claude-fable, claude-fable-5, claude-mythos, claude-opus-4, cli-agents, client-side-inference, cloud-offloading, code-quality-evaluation, codex, codex-cli, codex-desktop, codex-goals, coding-agents, coding-models, composer, context-caching, context-window-management, controller-agents, cors-debugging, cost-efficiency, creative-agents, cron-loops, cursor, cursor-cli, cursorbench, data-retention-privacy, datasette-agent, deepswe, skill-engineering, design-skills, impeccable, agent-vocabulary, design-agents, cross-harness-compatibility, skill-routing, mixture-of-skills]
 
-## Agent Demo Generation
+## Skill Engineering
 
-### shot-scraper video (June 2026)
-Tool for having coding agents automatically generate video demonstrations of their work:
-- Built on [[playwright-agents]] automation
-- Accepts YAML storyboard files defining browser interaction routines
-- Records video (WebM/MP4) of agent-produced features
-- Uses Playwright to control browser and capture sessions
+**Definition**: Emerging discipline focused on building reusable, domain-specific capabilities for AI agents that encode expert knowledge and vocabulary
 
-**Technical approach:**
-- Command: `shot-scraper video storyboard.yml --auth auth.json --mp4`
-- Storyboard YAML specifies: server startup, viewport dimensions, wait conditions, scenes with actions (click, fill, pause, wait_for)
-- Supports cursor recording in video (`cursor: true`)
-- Can inject JavaScript for environment setup (e.g., clipboard API mocking)
-- Authentication via JSON cookie files
+### Core Concept (Bakaus, 2026)
+- Skills give agents structured domain knowledge beyond raw instructions
+- Skills provide "a vocabulary" for agents to operate in specialized domains
+- Unlike one-shot prompting, skills enable iterative human steering through domain-specific commands
 
-**Agent integration pattern:**
-- Agent reads `--help` output to learn tool usage ("SKILL.md bundled inside the tool")
-- Example prompt pattern: "Review branch changes, run shot-scraper video --help, use it to record demo of new features"
-- GPT-5.5 xhigh in [[codex-desktop]] successfully generated complete storyboard YAML from this pattern
-- Tool designed for agent self-documentation via comprehensive CLI help
+### Key Example: Impeccable Design Skills System
+- **Origin**: Started as extension of Anthropic's frontend design skill
+- **Purpose**: Gives coding agents vocabulary for improving interfaces through terms like "bolder," "quieter," "denser"
+- **Architecture**: Open-source system with multiple components and workflows
+- **Design philosophy**: "Never going to be a tool for one-shot design" — intended for human-guided iteration
 
-**Implementation details:**
-- Earlier Playwright versions included unwanted chrome in videos for debugging
-- Fixed in recent Playwright releases for cleaner demo videos
-- Enables [[developer-feedback-loop]] improvements by providing visual artifact of agent work
+### Skill Design Principles
 
-**Related tools using same help-as-skill pattern:**
-- showboat
-- rodney
+#### Domain Vocabulary Translation
+- Takes terms familiar to domain experts and gives them "precise operational meaning" for agents
+- Example: "Bold" without context may produce gradients/neon; with skill definition, produces hierarchy/scale/decisive typography
+- "An adjective with nothing behind it is just a nice apostrophe" — requires explicit meaning
+- Compresses expert vocabulary into agent-accessible format
 
-### Rationale
-Importance of coding agents producing demos of their work highlighted as key workflow pattern. Enables human reviewers to quickly understand agent-implemented features without manual testing.
+#### Cross-Harness Compatibility Challenge
+- Different agent harnesses (Codex, Claude Code, Cursor, GitHub Copilot) handle subagents and permissions differently
+- Skills intended for multiple platforms cannot assume identical capabilities
+- Requires careful design to work across heterogeneous environments
+
+#### Skill Routing and Mixture-of-Skills
+- Skills can include internal routing to combine multiple capabilities
+- Routes tasks toward relevant instructions within the skill
+- Analogous to mixture-of-experts models
+- Benefits: token conservation and improved effectiveness
+
+### Known Limitations
+
+#### Creativity Convergence Problem
+- "Most skills — [and] most models — are not very creative"
+- Tendency to "converge in one direction"
+- Risk: If everyone uses same skill, "everything ends up looking the same"
+- Open challenge for skill engineering discipline
+
+#### Appropriate Level of Abstraction
+- Not all tasks benefit from skill-level control
+- Direct manipulation (e.g., spacing adjustments) may be faster for small changes
+- Open-ended prompting still useful for initial exploration
+- Goal: Determine "exact level of control" and insert human judgment where most valuable
+
+### Cross-references
+- [[prompt-architecture]] — Skills as structured prompt knowledge
+- [[ai-native-product-design]] — Human steering vs. full automation philosophy

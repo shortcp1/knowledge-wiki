@@ -705,7 +705,113 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-03
+
+**✗ 2.3** — [7](https://www.deeplearning.ai/the-batch/tag/letters/page/7)  
+*The Batch (DeepLearning.AI)* · regulatory-policy
+#newsletter_index #sb_1047 #llm_pricing #ai_regulation
+> This is a table of contents page listing brief headlines from Andrew Ng's newsletter letters covering various AI topics including California's SB 1047 veto, AI in education, falling LLM token prices, and regulatory approaches. The page contains only short teasers without full article content or substantive analysis. It functions as an index rather than providing actionable insights or original research.
+
+**✗ 2.7** — [3](https://www.deeplearning.ai/the-batch/tag/letters/page/3)  
+*The Batch (DeepLearning.AI)* · agentic-workflows-production · ai-in-product-and-engineering · regulatory-policy
+#newsletter_index #agentic_ai #evals #semiconductor_policy
+> This is a table of contents page listing Andrew Ng's newsletter articles from The Batch, covering topics like AI bubbles, agentic workflows, evals, data silos, and the US-China chip race. The page provides only article titles and brief one-sentence descriptions without substantive content or analysis. It serves as a navigation index rather than original content worth ingesting into a knowledge base.
+
+**✗ 4.7** — [U S Lifts Export Controls On Claude Models](https://www.deeplearning.ai/the-batch/u-s-lifts-export-controls-on-claude-models)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · ai-governance-risk-compliance · model-architecture
+#export_controls #jailbreak_vulnerabilities #claude_models #autonomous_agents
+> The article reports on the Trump administration lifting export controls on Anthropic's Claude Fable 5 and Mythos 5 models after Anthropic committed to stronger safeguards against jailbreak vulnerabilities, and announces the launch of Claude Sonnet 5, a mid-tier model optimized for autonomous agent work. The resolution came after Anthropic replaced its CEO in negotiations and agreed to build enhanced security measures, while Claude Sonnet 5 delivers near-Opus performance at lower cost with improved reasoning and tool use capabilities. This matters because it resolves a major regulatory bottleneck affecting AI model deployment and introduces a new mid-tier option that could accelerate enterprise adoption of agentic workflows.
+
+**✓ 8.0** — [Fable Safeguards Jailbreak Framework](https://www.anthropic.com/news/fable-safeguards-jailbreak-framework)  
+*Anthropic Blog* · ai-governance-risk-compliance · evals-production-deployment · regulatory-policy
+#jailbreak_framework #safety_classifiers #dual_use_capabilities #cybersecurity_safeguards
+> Anthropic introduces a cybersecurity safeguards framework for Claude Fable 5 that categorizes uses into four risk levels (prohibited, high-risk dual use, low-risk dual use, benign) and proposes an AI jailbreak severity framework developed with Glasswing partners. The system uses safety classifiers to distinguish between defensive cybersecurity activities (like vulnerability scanning) and potentially malicious uses, with a configurable 'safety margin' that blocks some benign uses out of caution. This represents an operational framework for managing dual-use AI capabilities in production and aims to establish industry standards for evaluating jailbreak severity and communicating AI risks to governments.
+
+**✓ 6.7** — [Vercel's Andrew Qu on why agents are a new kind of software](https://www.latent.space/p/vercel-agents-new-software)  
+*Latent Space* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#agent_framework #vercel_eve #agentic_primitives #business_agents
+> Andrew Qu explains how Vercel evolved from web development tooling to building eve, an agent framework born from solving operational challenges while building v0's AI coding agent. The key innovation centers on treating agents as a distinct software category requiring new primitives for context management, resumability, tool orchestration, and long-running tasks—rather than just web applications with LLM capabilities. This matters because it validates the enterprise shift toward agentic workflows and provides a major infrastructure player's perspective on productionizing agents for internal business operations.
+
 ## 2026-07-02
+
+**✗ 1.3** — [Mid‑market companies lose 23% of AI budget before ROI - SME horizon](https://news.google.com/rss/articles/CBMimgFBVV95cUxNcEVidWpQRE1iZU1WRzdKZFFmUkU1R0syNF9kaEhWVkhvOVBEUm5NeGFzS2xwYXZUSVRqT3JYYW9xUlRtOVlqaHFlaWNKamhMVFNfaTA2ekpkUmlrLUFvaXZLSkt3YjltNVhUS2YwdDZpeEcyWnhzeFhMVFg0bkgyQ3d2NGM1WFdaWmozVFpBNTVIUVAwd0FfOGp30gGaAUFVX3lxTE1wRWJ1alBETWJlTVZHN0pkUWZSRTVHSzI0X2RoSFZWSG85UERSbk14YXNLbHBhdlRJVGpPclhhb3FSVG05WWpocWVpY0pqaExUU19pMDZ6SmRSaWstQW9pdktKS3diOW01WFRLZjB0Nml4RzJaeHN4WExUWDRuSDJDd3Y0YzVYV1paajNUWkE1NUhRUDB3QV84anc?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+> This appears to be a Google cookie consent page rather than an actual article about AI budget loss in mid-market companies. No substantive content about AI ROI, budget waste, or enterprise AI deployment is present in the provided text. The article title suggests relevant content but the body contains only standard Google privacy policy boilerplate.
+
+**✗ 5.3** — [The website of the future may assemble itself for every visitor](https://www.latent.space/p/the-website-of-the-future)  
+*Latent Space* · ai-in-marketing-content · ai-native-product-design · rag-over-proprietary-content
+#dynamic_content_generation #real_time_personalization #inference_latency #commerce_personalization
+> Adobe is experimenting with 'agentic sites' that dynamically generate personalized web pages for each visitor based on their intent, using LLMs to retrieve and compose content from existing material in real-time. The system achieves 1-2 second latency at 1-2 cents per page inference cost, using visitor behavior signals to categorize intent and assemble pages (e.g., reorganizing a coffee machine site for camping context). This represents a shift from traditional segmentation-based personalization to true individualized experiences, though Adobe has not yet deployed this broadly and is seeking experimental customers.
+
+**✓ 6.7** — [llm-coding-agent 0.1a0](https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#coding_agents #llm_library #tool_calling #tdd
+> Simon Willison releases llm-coding-agent 0.1a0, a coding agent framework built on his LLM library that provides tools for reading/editing files and executing commands. The agent was itself built by an AI (Fable 5) using test-driven development and includes a CLI interface with safety controls (--yolo, --allow flags) plus a Python API for programmatic use. This demonstrates practical agentic workflow implementation with concrete tool implementations for file manipulation, command execution, and search capabilities.
+
+**✗ 5.7** — [Using DSPy to evaluate and improve Datasette Agent's SQL system prompts](https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything)  
+*Simon Willison* · evals-production-deployment · prompt-architecture · ai-engineering-agents
+#dspy #prompt_optimization #sql_agents #datasette
+> This article describes using the DSPy framework to evaluate and optimize system prompts for Datasette Agent, a SQL query assistant that answers questions about data. The methodology involves DSPy agents invoking actual Datasette Agent tool implementations against a live instance, evaluated against a gold-standard dataset with custom metrics. The evaluation revealed specific prompt improvements, such as including column names in schema listings to prevent error-retry loops caused by agents guessing column names.
+
+**✗ 4.7** — [Understand to participate](https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#coding_agents #cognitive_debt #human_in_the_loop #developer_experience
+> The article reports on Geoffrey Litt's framing of "understand to participate" regarding collaboration with AI coding agents, emphasizing the need to maintain deep understanding to avoid cognitive debt as agents generate increasingly complex code changes. The key mechanism is maintaining sufficient conceptual fluency to actively participate in and guide the creative development process rather than passively accepting agent outputs. This matters because it addresses a critical human-in-the-loop challenge as agentic coding tools become more powerful and autonomous.
+
+**✗ 3.3** — [Achieving operational excellence with AI](https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/)  
+*MIT Technology Review* · ai-in-operations
+#process_optimization #lean_six_sigma #business_process_management #operational_excellence
+> The article argues that AI-powered process optimization works best when layered onto existing operational excellence frameworks like Lean Six Sigma and BPM, rather than being implemented on weak foundations. It cites market projections ($113B for AI process optimization) and survey data (88% of leaders plan to increase investment) as evidence of growing adoption. The piece matters as a high-level framing of how traditional process excellence methodologies are evolving to incorporate AI, though it provides no specific technical details or novel implementation insights.
+
+**✗ 2.7** — [Flyboard Raises €1.9 Million in Funding Led by b2venture, Kfund and Yellow to Scale AI Voice Agents Across Spain's Mid-Market - Capital-Riesgo.es - Capital Riesgo](https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdmRiN1lhaFkwSEN4Q2p1QzlmZWIyT3BLVFZsVzZyb3FyemRDZ2x4dG9rNzJIbHJoN3ZtWjZMNG1FNE9MOVlDN3RqVGhiWndiQW9ENURHWllkU2tGQzVPX0hwYTZRSVA2bzBjRXd5Y0dlR01xTU9zd01kOElxWTVZY3JVeVVvNUxLNWtPZzFXWlpPdVFGYzVfdDhqVm10RVZ6MGFaUUs4RGNJQTQxMklySEtOTExTdHNNeU9ZR3NUVnJjYktJdTdUZlZxSVgxVTQzWkNBQ1Fkb0xVQnNJVU1SMHJHOVo0eGxIMlU5WVlmSFEzR3Ew?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-sales-gtm · ai-b2b-saas
+#ai_voice_agents #funding_announcement #mid_market #spain
+> This appears to be a funding announcement for Flyboard, a company raising €1.9M to scale AI voice agents in Spain's mid-market. The article content is completely obscured by a Google cookie consent wall, providing no actual information about the technology, business model, or market approach. Without access to the actual article content, it's impossible to assess the depth of analysis, novel insights, or strategic implications.
+
+**✗ 4.0** — [This AI agent analyzes and reports on your key pipeline trends](https://writer.com/blog/ai-agent-key-pipeline-trends/)  
+*Writer.com Blog* · ai-in-marketing-content · ai-in-sales-gtm · agentic-workflows-production
+#pipeline_analysis #salesforce_integration #marketing_automation #audience_tailored_reporting
+> This article describes a marketing VP's custom AI agent that automatically analyzes Salesforce pipeline data weekly and generates tailored reports for different stakeholders (CEO, campaigns team, sales teams). The agent encodes the VP's institutional knowledge about pipeline analysis and saves 2-3 hours per week by automating data pulling, trend analysis, and audience-specific communication. The example demonstrates practical enterprise adoption of agentic workflows for routine marketing operations tasks.
+
+**✗ 5.0** — [What Cannes confirmed: Brand is the moat, AI agents are the engine](https://writer.com/blog/brand-moat-ai-agents-cannes/)  
+*Writer.com Blog* · ai-in-marketing-content · ai-native-product-design · build-vs-buy-enterprise-ai
+#brand_differentiation #content_automation #field_marketing #organizational_context
+> The article argues that as AI enables infinite content scalability, brand differentiation becomes more (not less) important as the only non-replicable competitive moat. The author reports observations from CMO conversations at Cannes showing successful companies automate routine content with AI agents while reinvesting saved resources into high-touch brand building and field marketing. This matters because it reframes AI adoption in marketing from a replacement strategy to an amplification strategy that requires encoding brand standards directly into AI platforms.
+
+**✓ 6.7** — [Skill engineering and the case against one-shot AI design](https://www.latent.space/p/skill-engineering-design)  
+*Latent Space* · ai-engineering-agents · prompt-architecture · ai-native-product-design
+#skill_engineering #agentic_workflows #human_in_the_loop #design_agents
+> Paul Bakaus argues for "skill engineering" as a discipline that gives AI agents domain-specific vocabularies and steering mechanisms rather than relying on one-shot design generation. Impeccable provides coding agents with precise operational definitions of design terms like "bolder" or "quieter" that translate designer vocabulary into actionable instructions, using techniques like routing and mixture-of-experts approaches. This matters because it addresses the convergence problem where unguided agents produce homogeneous outputs, while emphasizing human steering over full automation.
+
+**✗ 4.0** — [Teaching AI to run with the turbines](https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/)  
+*MIT Technology Review* · agentic-workflows-production · ai-in-operations · ai-org-design-headcount
+#agentic_ai #industrial_operations #operational_data #ai_copilot
+> The article profiles Woodside Energy's decade-long journey deploying AI in industrial operations, culminating in agentic systems like their 'Startup Advisor' copilot for LNG plant operations. The company emphasizes building on operational data infrastructure, governance foundations, and augmenting rather than replacing human expertise in high-stakes environments. The piece illustrates how industrial AI maturity comes from years of foundational work rather than rapid adoption of generative models.
+
+**✗ 1.7** — [Arca Exits Stealth with $64M to Scale AI-Native Wealth Management - FF News](https://news.google.com/rss/articles/CBMikgFBVV95cUxQRlo5dDZneGo5NS1tV2U1QlQ4X3lHeUsxRXFfZTIzU2hwMDFqS0lhNHN1WDZuQ0I5c0lOQl81bFhVcVhPazhFRHJqUDAtQ0hGTnN5cTBrTEtsMVhKS1RxaUhNY0xVZzZVUEFwSFhrMGw4RFBYUWdXSGVZNTR0MnNGTGFKNHlxYmZjNGM3bzA0VU95UQ?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #funding #stealth_mode
+> This appears to be a blocked/paywalled article about Arca, a company emerging from stealth with $64M in funding to build AI-native wealth management solutions. No actual article content is provided beyond the title, only Google's cookie consent dialog. Without access to the actual content, it's impossible to assess the depth of analysis, novelty of claims, or specific mechanisms discussed.
+
+**✗ 3.0** — [The Download: a startup has a solution for AI’s groupthink problem](https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/)  
+*MIT Technology Review* · model-architecture
+#llm_diversity #response_variation #chatbot_predictability
+> MIT Technology Review's newsletter briefly mentions that an Australian startup called Springboards built an LLM called Flint designed to generate more diverse responses than mainstream models like ChatGPT, Claude, and Gemini, which tend toward predictable outputs. The article provides minimal technical detail beyond noting that current LLMs exhibit 'groupthink' in responses to open-ended questions. This is a surface-level news brief that lacks depth on the underlying architecture, training methodology, or evaluation metrics.
+
+**✓ 8.0** — [Why BNPL infrastructure needs to learn a new acronym: KYA (Know Your Agent)](https://tearsheet.co/bnpl/why-bnpl-infrastructure-needs-to-learn-a-new-acronym-kya-know-your-agent/?utm_source=rss&utm_medium=rss&utm_campaign=why-bnpl-infrastructure-needs-to-learn-a-new-acronym-kya-know-your-agent)  
+*Tearsheet (fintech)* · agentic-workflows-production · ai-governance-risk-compliance · ai-in-finance-accounting
+#bnpl #agentic_commerce #kya_know_your_agent #autonomous_purchasing
+> The article argues that Buy Now Pay Later (BNPL) providers face an infrastructure mismatch as AI agents begin making autonomous purchasing decisions on behalf of consumers, requiring new verification frameworks beyond traditional Know Your Customer (KYC) approaches. It introduces the concept of "Know Your Agent" (KYA) to address questions of verifying intent, underwriting invisible decision-making processes, and assigning responsibility when agents act as instructed but produce unintended outcomes. This matters because it identifies BNPL as an early test case for how financial infrastructure must adapt to agentic commerce where the purchaser and debt-holder are decoupled.
+
+**✗ 4.3** — [Image Generation and Visual Intelligence with Black Forest Labs](https://share.transistor.fm/s/6d8dad5f)  
+*Practical AI (Changelog)* · model-architecture
+#diffusion_models #flow_matching #image_generation #flux_models
+> This podcast episode discusses the evolution of AI image generation from diffusion models to flow matching, featuring insights from Black Forest Labs co-founder on the FLUX model family. Podell explains the technical progression of visual AI models and their applications in image editing and practical workflows, including local deployment options. The conversation covers foundational concepts in modern image generation but appears to be an introductory overview rather than deep technical analysis.
+
+**✗ 1.7** — [Flyboard Captures 1.9 Million to Boost its AI Voice Agents in the Mid-Market - Demócrata](https://news.google.com/rss/articles/CBMiswFBVV95cUxQWnFLUGJZdU1kdDhFbFE1WS03cmUwRno5cGppbkZmS2E5QVpmbUJLUUk2dG1BOUNKc1VMZFFCem43dC0tSGpZMFREa3FRX2hOZGNLaHN4ODBKVDZVR2Q4T3VCSkhvRnp1eG9CaEJaNjB5NUdiV2c3RGhHSVFGZGczWE9YSFFXOFcxeUw2Ykl1SmdOYzB3eDR4Z2RtalY0X3RiclhiREF4YVlMZ282VnJUcEdIZ9IBuAFBVV95cUxNTUJYaDlZUHZCa01iNFVINGUyVWdleUpJZkVDZmhUWGxJU2V3QkZUSkl4cWduWDNrR01aU1ZQcGp3a3FpLWxGRXFvTi05Q0tMTVR3OWFrWmhBNWNEWWNBT1Y0My1ENDVMS3NPN1BHQURfOE8zMFZmazFXM3BvN2JWSDV6ZGwzMXlPUFhtUkE2WmpXSVcxazdXU045OVJDSmpyb1hBa2ZRbWVObFdTajdkN0NmWWlQMUlC?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-sales-gtm · ai-in-customer-success-support
+#voice_agents #mid_market #funding
+> The article appears to announce that Flyboard raised $1.9 million in funding to develop AI voice agents targeting the mid-market segment. No actual article content is provided—only a Google cookie consent page is visible. This lack of substantive content makes it impossible to assess the technology, use case details, or market implications.
 
 **✓ 8.0** — [Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5)  
 *Anthropic Blog* · regulatory-policy · ai-governance-risk-compliance · lab-dynamics
@@ -808,6 +914,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Kitces.com* · 
 #private_fund_diligence #wealth_management #regulatory_compliance #operational_controls
 > The article provides a practical checklist for financial advisors conducting due diligence on private fund investments, emphasizing the importance of reviewing governing documents versus marketing materials and evaluating operational controls. It details what to look for including conflicts of interest, exit restrictions, side letters, segregation of functions, custodial arrangements, and asset valuation practices. The guidance is framed as a compliance and risk management exercise for wealth advisors adding private investments to client portfolios.
+
+**✗ 1.0** — [Range Review 2026: Pros, Cons and How It Compares - NerdWallet](https://news.google.com/rss/articles/CBMia0FVX3lxTFBSUkF2My1DcTB3bTdpMF9xSGxIQTdTMnp2Vy1QeW0zTzc2Y240ckhraG04Ymh5emlhZEE0TnRRZW1SbXVaTVo1bVQyUThlYk9BNXZNTFkwSGlUcUx3dWtGUk5ZSUVELWNfTXU4?oc=5)  
+*GN: AI Wealth Management* · 
+#data_error #cookie_consent #no_content
+> This article appears to be a cookie consent page from Google that was incorrectly captured instead of the intended NerdWallet review of Range (a financial planning tool). The text contains no substantive content about Range, financial planning, or AI applications in wealth management. This is a data collection error that provides no analyzable information.
 
 **✗ 1.0** — [How Archia Is Trying to Solve the Most Ignored Problem in AI Adoption - ascendants.in](https://news.google.com/rss/articles/CBMiigFBVV95cUxOdTliekc4QnBNd0k3U0g4RFlCdWtYWmZTWVZEN3gyUF80a0ZER3NHalNQQ3h2VjJ6cHAwRzU3X1F3VTFiTGRNdlpaRUlEVDBaU3d6aEVYM0lKdXRSb2Zad1hNbjUxRG1xVV9ib0wyOFBwQnROUUhBN2l6VmU5Q0RnZFVXUWFDNm9FNkE?oc=5)  
 *GN: AI Mid-Market Enterprise* · 

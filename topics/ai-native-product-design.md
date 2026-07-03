@@ -1,39 +1,72 @@
 ---
-tags: [ad-monetization, agent-architecture, agent-ecosystems, agent-paradigm, agent-portals, agentic-ai, agentic-computing, agentic-systems, ai-closed-loops, ai-native-applications, ai-native-business-models, ai-native-interfaces, ai-native-product-design, ai-native-startups, ai-value-creation, always-on-interpretation, ambient-ai, ambient-finance, app-intents, apple-intelligence, artifact-library, bitter-lesson, chain-of-thought-routing, cloud-native-agents, code-generation, code-native-generation, consumer-ai, consumer-ai-sufficiency, context-management, contextual-ai, conversational-ai, conversational-interfaces, design-tools, device-ecosystem, device-interaction-paradigms, device-paradigm, diffusion-models, dynamic-ui, dynamic-ui-generation, editability, editability-primitives, embedded-finance, embedded-interpretation, feedback-loops, financial-cognition-layer, financial-interpretation-layer, financial-orchestration, free-user-monetization, generalist-models, gpu-infrastructure, grounded-ai, headless-architecture, headless-systems, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, inference-location, interaction-paradigm, interaction-paradigm-shift, intuit-quickbooks-workforce, knowledge-worker-automation, knowledge-worker-displacement, mcp, mcp-integration, on-device-inference, operational-coordination, operational-coordination-layer, organizational-structure, personal-context, personal-device-context, pixel-native-generation, plaid-openai-integration, plastic-ui, process-reengineering, product-design, product-layer-ai, project-solara, query-commercial-value, quickbooks, retail-genai-traffic, return-on-invested-capital, router-architecture, server-side-inference, service-displacement, siri, siri-ai, siri-intelligence, smb-operating-system, smb-operations, specialist-models, state-of-art-vs-good-enough, structured-representations, structured-visual-output, superapp-strategy, svg-generation, thin-client, thin-client-ai, thin-client-architecture, thin-client-computing, unified-data-architecture, unified-data-model, visual-ai, voice-interaction, wearable-interaction, workflow-orchestration, workforce-management]
+tags: [skill-engineering, agentic-workflows, human-in-the-loop, design-agents, mixture-of-experts, prompt-vocabulary, ai-native-product-design]
 ---
 
-# AI-Native Product Design
+---
+tags: [ad-monetization, agent-architecture, agent-ecosystems, agent-paradigm, agent-portals, agentic-ai, agentic-computing, agentic-systems, ai-closed-loops, ai-native-applications, ai-native-business-models, ai-native-interfaces, ai-native-product-design, ai-native-startups, ai-value-creation, always-on-interpretation, ambient-ai, ambient-finance, app-intents, apple-intelligence, artifact-library, bitter-lesson, chain-of-thought-routing, cloud-native-agents, code-generation, code-native-generation, consumer-ai, consumer-ai-sufficiency, context-management, contextual-ai, conversational-ai, conversational-interfaces, design-tools, device-ecosystem, device-interaction-paradigms, device-paradigm, diffusion-models, dynamic-ui, dynamic-ui-generation, editability, editability-primitives, embedded-finance, embedded-interpretation, feedback-loops, financial-cognition-layer, financial-interpretation-layer, financial-orchestration, free-user-monetization, generalist-models, gpu-infrastructure, grounded-ai, headless-architecture, headless-systems, hyperscaler-capex, hyperscaler-economics, inference-compute-economics, inference-location, interaction-paradigm, interaction-paradigm-shift, intuit-quickbooks-workforce, knowledge-worker-automation, knowledge-worker-displacement, mcp, mcp-integration, on-device-inference, operational-coordination, operational-coordination-layer, organizational-structure, personal-context, personal-device-context, pixel-native-generation, plaid-openai-integration, plastic-ui, process-reengineering, product-design, product-layer-ai, project-solara, query-commercial-value, quickbooks, retail-genai-traffic, return-on-invested-capital, router-architecture, server-side-inference, service-displacement, siri, siri-ai, siri-intelligence, smb-operating-system, smb-operations, specialist-models, state-of-art-vs-good-enough, structured-representations, structured-visual-output, superapp-strategy, svg-generation, thin-client, thin-client-ai, thin-client-archi, one-shot-design, human-steering, iterative-ai-design, control-abstraction-levels, designer-engineer-convergence, skill-based-design, loopmaxxing]---
 
-Covers architectural patterns, interface paradigms, and business models for applications built with AI as a core component rather than an add-on feature.
+## Design Philosophy Debates
 
-## AI-Closed Loops & Product Layer Integration
+### The Case Against One-Shot AI Design (Bakaus, 2026)
 
-**Core principle**: Real AI value comes from integrating AI directly into the product layer, not from deploying AI tools at organizational edges. When AI performs work within the product itself, feedback loops close faster and tighter.
+**Core argument**: AI agents should enable human steering, not replace human judgment in creative processes
 
-### Product vs. Edge Deployment
+#### One-Shot Design Critique
+- Tools designed for single-pass generation remove human creative control
+- Insufficient for professional design work where iteration and judgment are essential
+- Risk of commoditization: uniform output when everyone uses same one-shot systems
 
-- **Edge deployment**: AI tools given to human workers (e.g., Copilots) - useful for technology familiarization but limited value capture
-- **Product layer deployment**: AI performs knowledge work directly within product - enables fundamental process reengineering and closed-loop optimization
+#### Human-in-the-Loop Design Pattern
+- Agents need "more than instructions" — require domain knowledge, context, and steering mechanisms
+- Goal: Determine "exact level of control" and insert person where judgment most valuable
+- Three modes should coexist:
+  - Skill-based commands (high-level steering)
+  - Direct manipulation (granular control)
+  - Open-ended prompting (exploration)
+- Match tool to task and human value-add
 
-Kim & Koning (2026): "Capturing real value from AI often requires re-engineering processes around it—and, as our results suggest, re-engineering the product itself so that AI does the work directly."
+#### "Loopmaxxing" Context
+- Term appears to reference emphasis on iteration loops in AI workflows
+- Contrasts with one-shot generation approaches
+- Implies multiple rounds of refinement guided by human judgment
 
-This architectural choice drives organizational structure changes - see [[ai-org-design-headcount]] for startup headcount implications.
+### Skill-Based Design Systems
 
-### Design Imperative
+**Pattern**: Give agents domain-specific vocabulary to enable guided iteration (see [[ai-engineering-agents]], [[prompt-architecture]])
 
-Building AI-native products requires:
-1. Identifying knowledge work currently done by humans at organizational edges
-2. Redesigning product architecture to internalize that work
-3. Restructuring processes and feedback mechanisms around AI capabilities
+- Example: Impeccable design skills — commands like "bolder," "quieter," "denser" with precise operational definitions
+- Enables designers to "express themselves better" through compressed expert vocabulary
+- Addresses expert-novice gap: designers produce better results than engineers with same model due to vocabulary
 
-This is described as "the much harder task" compared to simply distributing AI tools to workers.
+### Role Convergence in AI-Native Design
 
-## Consumer AI Adoption
+**Observation**: "Designers are moving into code, engineers are moving into design, and vice versa"
 
-### Retail Impact (2026)
+#### Blurring Boundaries
+- Design, engineering, and product management roles becoming less distinct
+- Enabled by AI tools that lower barriers between disciplines
 
-GenAI drives approximately 2% of traffic to major retailers (Walmart, Target). Leading categories:
-- Home goods
-- Electronics
+#### Automation Pressure Points
+- **High risk**: Work primarily consisting of translating artifacts between forms
+  - Engineers turning Figma designs into code
+  - Designers making existing interfaces "look competent"
+- **Implication**: "Designers all have to move one layer up the stack" (quote cut off, but implies strategic/conceptual work)
 
-Indicates early but measurable consumer adoption of AI for product discovery and shopping assistance.
+#### Skill Premium Shift
+- Value moves from execution craft to:
+  - Knowing how to articulate desired results (domain vocabulary)
+  - Making judgment calls at appropriate abstraction level
+  - Understanding when to use which mode of interaction
+
+### Control Abstraction Levels
+
+**Design principle**: Not all tasks benefit from same level of abstraction
+
+- **High-level (skill-based)**: Domain commands for major changes
+- **Mid-level (direct manipulation)**: Fastest for small adjustments (e.g., spacing)
+- **Low-level (open prompting)**: Useful for initial exploration
+- Anti-pattern: Forcing all interaction through single abstraction level
+
+### Cross-references
+- [[ai-engineering-agents]] — Skill engineering discipline
+- [[prompt-architecture]] — Domain vocabulary encoding

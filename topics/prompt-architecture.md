@@ -1,5 +1,5 @@
 ---
-tags: [agent-based-simulation, agent-loops, agentic-workflows, ai-engineering-tools, autonomous-agents, autonomous-prompting, chain-of-thought, claude-code, codex, codex-goals, consensus-mechanisms, destyling, diversity-metrics, diversity-optimization, evolutionary-algorithms, evolutionary-prompting, few-shot-learning, goal-based-automation, goal-based-prompting, groupthink, idea-preservation, in-context-learning, jailbreaking, label-bias, llm-councils, loop-engineering, loop-prompting, model-diversity, multi-model-orchestration, multi-model-systems, peer-review-patterns, persona-generation, prompt-architecture, prompt-engineering, prompt-injection, role-confusion, role-tags, security-vulnerabilities, self-consistency, subagent-spawning, task-automation, user-simulation]
+tags: [agent-based-simulation, agent-loops, agentic-workflows, ai-engineering-tools, autonomous-agents, autonomous-prompting, chain-of-thought, claude-code, codex, codex-goals, consensus-mechanisms, design-agents, destyling, diversity-metrics, diversity-optimization, domain-vocabulary, evolutionary-algorithms, evolutionary-prompting, few-shot-learning, goal-based-automation, goal-based-prompting, groupthink, human-in-the-loop, idea-preservation, imbued-prompts, in-context-learning, jailbreaking, label-bias, llm-councils, loop-engineering, loop-prompting, mixture-of-experts, model-diversity, multi-model-orchestration, multi-model-systems, peer-review-patterns, persona-generation, prompt-architecture, prompt-engineering, prompt-injection, prompt-vocabulary, role-confusion, role-tags, security-vulnerabilities, self-consistency, skill-engineering, skill-routing, subagent-spawning, task-automation, user-simulation]
 ---
 
 # Prompt Architecture
@@ -23,32 +23,35 @@ Key questions tracked: Which prompting patterns generalize across models? How do
 - **Usage**: Common baseline for benchmarking LLM performance
 - **Trade-off**: Simpler but often lower performance than few-shot
 
-#### Few-Shot Learning
-- **Definition**: Presenting set of high-quality demonstrations with both input and desired output
+#### Few-Shot Le
 
-## Loop Prompting (Grinstead, June 2026)
+## Skill-Based Prompting
 
-### Core Pattern
-**Definition**: Prompts designed to trigger their own re-execution
-- Automation primitive (heartbeats, crons, webhooks) + agent prompt
-- Not a new concept—reframing of existing automation patterns
+**Emerging pattern**: Encoding domain expertise as reusable "skills" rather than per-task prompts
 
-### Design as Job Description
-**Mental model**: Write loop prompts like employee onboarding
-- Specify: what to check, frequency, output format, error handling
-- Example: "Every Friday at 10 a.m., review all merged PRs and identify skills our agents are missing"
+### Domain Vocabulary Encoding (Bakaus, 2026)
+- **Concept**: "Imbue" common terms with precise operational meaning for specific domains
+- **Mechanism**: Translate expert vocabulary into agent-actionable instructions
+- **Example**: "Bold" in design context → hierarchy, scale, decisive typography (not gradients/neon)
+- **Rationale**: Models have generic understanding of terms; skills provide professional domain mapping
 
-### Goal-Based Loop Prompting
-**Specialized pattern for outcome-driven tasks**
+### Expert-Novice Gap
+- Observation: Designers using same model as engineers produce significantly different results
+- Cause: Designers possess domain vocabulary that non-experts lack
+- Skill engineering goal: "Compress" expert language into accessible system
 
-**Success criteria criticality**:
-- **Risk**: Fuzzy criteria → infinite execution loops
-- **Mitigation**: Use formal goal-writing frameworks (e.g., OpenAI's goal-writing guide)
-- **Best practice**: Let the agent (e.g., Codex) write its own goals using structured templates
+### Skill Routing Patterns
+- Skills can contain internal routing logic to select appropriate sub-capabilities
+- Similar to mixture-of-experts approach applied to prompt components
+- Benefits: Token efficiency, improved task-instruction matching
+- Challenge: Must account for differences between agent harnesses (see [[ai-engineering-agents]])
 
-**Validation requirements**:
-- Must include concrete stopping conditions
-- Should verify work completion, not just time elapsed
-- Needs clear "agent stuck" detection
+### Limitations of Skill Abstraction
+- Not all control benefits from skill-level prompting
+- Direct manipulation still faster for granular adjustments
+- Free-form prompting remains useful for exploratory phases
+- Design principle: Match abstraction level to task type and human judgment value
 
-**Cross-references**: See [[ai-engineering-agents]] for loop architecture patterns and [[agentic-workflows-production]] for production deployment considerations.
+### Cross-references
+- [[ai-engineering-agents]] — Skill engineering as discipline, cross-harness compatibility
+- [[ai-native-product-design]] — Balance between automation and human steering
