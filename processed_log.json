@@ -26757,6 +26757,534 @@
       ],
       "status": "skipped",
       "skip_reason": "Article contains only a Google cookie consent page with no actual content about the stated topic (Range financial planning tool review); appears to be a web scraping error."
+    },
+    "https://www.deeplearning.ai/the-batch/microsoft-strikes-out-on-its-own": {
+      "title": "Microsoft Strikes Out On Its Own",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-04T02:00:54.811340+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-time-compute",
+        "lab-dynamics"
+      ],
+      "content_type": "technical",
+      "summary": "Microsoft announced MAI-Thinking-1, a Claude Sonnet 4.6-sized reasoning model (1T parameters, 35B active) trained from scratch without distillation from third-party models, marking a strategic shift from its OpenAI partnership dependence. The model was built through pretraining on 30T tokens of primarily human-generated data (50%+ code), followed by specialized fine-tuning of three expert models (STEM, coding, safety) that were then consolidated via supervised distillation and reinforcement learning to generate original chains of thought. This represents a significant competitive move by Microsoft to develop proprietary model capabilities rather than relying solely on reselling or fine-tuning others' models, with implications for the AI lab ecosystem and enterprise AI infrastructure.",
+      "tags": [
+        "reasoning-models",
+        "mixture-of-experts",
+        "reinforcement-learning",
+        "model-training",
+        "chain-of-thought",
+        "microsoft",
+        "inference-time-reasoning"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/fugu-blends-models-task-by-task": {
+      "title": "Fugu Blends Models Task By Task",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-04T02:00:54.800455+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "agentic-workflows-production",
+        "inference-efficiency",
+        "ai-engineering-agents",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "technical",
+      "summary": "Sakana AI released Fugu and Fugu-Ultra, orchestrator models that dynamically delegate tasks to multiple LLMs (Claude, Gemini, GPT) and agents, achieving performance comparable to top-tier models while avoiding vendor lock-in. The models were trained via supervised fine-tuning on diverse tasks and evolutionary algorithms (sep-CMA-ES) to learn which worker models to call for each subtask, with Fugu optimizing for speed and Fugu-Ultra for complex multi-step workflows. This represents a shift toward meta-models that compose existing LLMs rather than building monolithic systems, potentially changing how enterprises deploy AI by enabling model-agnostic orchestration layers.",
+      "tags": [
+        "model-orchestration",
+        "agentic-workflows",
+        "evolutionary-algorithms",
+        "multi-model-systems",
+        "vendor-independence",
+        "sep-cma-es"
+      ],
+      "status": "integrated"
+    },
+    "https://www.deeplearning.ai/the-batch/better-reward-models-for-robots": {
+      "title": "Better Reward Models For Robots",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-04T02:00:54.641675+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "summary": "Researchers at Stanford and UC Berkeley developed RoboReward, a family of 4B and 8B parameter vision-language reward models that train robots via reinforcement learning by evaluating robot actions against task commands. The key innovation is augmenting sparse success-only robot training datasets with synthetic negative examples (relabeled commands and truncated videos) and progress scores (1-5) generated via GPT-5 mini and Qwen models, enabling better reward signal learning. While RoboReward models outperformed existing robotics and generalist models on the new RoboRewardBench benchmark, they still fell short of human-assigned rewards in real-world robot training scenarios.",
+      "tags": [
+        "reward-models",
+        "robotics",
+        "reinforcement-learning",
+        "vision-language-models",
+        "synthetic-data-generation",
+        "robot-training"
+      ],
+      "status": "integrated"
+    },
+    "https://www.anthropic.com/news/anthropics-responsible-scaling-policy": {
+      "title": "Anthropics Responsible Scaling Policy",
+      "source": "Anthropic Blog",
+      "date": "2026-07-04T02:00:54.298109+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "regulatory-policy",
+        "lab-dynamics",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic announces its Responsible Scaling Policy (RSP) that defines AI Safety Levels (ASL-1 through ASL-4+) modeled after biosafety standards, requiring progressively stricter safety and security measures as models gain catastrophic risk potential. The framework mandates that Anthropic pause training if safety measures cannot keep pace with capability advances, with ASL-2 representing current systems like Claude, ASL-3 requiring demonstrations that models pose no catastrophic misuse risk under red-team testing, and ASL-4+ requiring unsolved safety research like mechanistic interpretability guarantees. This policy aims to create industry-wide standards that align competitive incentives with safety progress, potentially establishing a \"race to the top\" dynamic among frontier AI labs.",
+      "tags": [
+        "responsible-scaling-policy",
+        "ai-safety-levels",
+        "catastrophic-risk",
+        "red-teaming",
+        "biosafety-standards",
+        "model-capabilities"
+      ],
+      "status": "integrated"
+    },
+    "https://www.anthropic.com/news/visible-extended-thinking": {
+      "title": "Visible Extended Thinking",
+      "source": "Anthropic Blog",
+      "date": "2026-07-04T02:00:50.453075+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-time-compute",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "technical",
+      "summary": "Anthropic introduces extended thinking mode for Claude 3.7 Sonnet, allowing users to toggle longer reasoning processes and developers to set 'thinking budgets' for compute time allocation. The company makes Claude's reasoning process visible to users, which enables transparency and trust-building but raises concerns about faithfulness (whether visible thoughts represent actual model cognition), potential security vulnerabilities through exposed reasoning patterns, and future risks if models learn to mask their thinking. This represents a key architectural decision in the inference-time compute paradigm, trading off transparency benefits against safety risks and the fundamental uncertainty of whether chain-of-thought reasoning truly reflects model decision-making.",
+      "tags": [
+        "extended-thinking",
+        "inference-time-compute",
+        "chain-of-thought",
+        "model-transparency",
+        "faithfulness",
+        "thinking-budget"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything": {
+      "title": "Open Source AI Gap Map",
+      "source": "Simon Willison",
+      "date": "2026-07-03T22:04:31+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 5,
+      "relevance": 6,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "Simon Willison reports on Current AI's Gap Map v0.1, which catalogs 421 open source AI products across models, tools, datasets, and hardware from 228 organizations. The project has released all underlying data (1,184 YAML files) under MIT license on GitHub, making the ecosystem mappable and analyzable. This creates a public resource for understanding the open source AI landscape, though the article itself is primarily a brief announcement rather than deep analysis.",
+      "tags": [
+        "open-source-ai",
+        "ecosystem-mapping",
+        "github-data",
+        "datasette",
+        "model-cataloging"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level announcement of a resource with minimal analysis or novel insights; primarily a link blog post pointing to an external project without substantive evaluation or implications."
+    },
+    "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything": {
+      "title": "Quoting Josh W. Comeau",
+      "source": "Simon Willison",
+      "date": "2026-07-03T21:25:52+00:00",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-media-content-businesses"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Developer educator Josh W. Comeau reports that his online course sales have dropped by roughly 50-67% since AI tools became prevalent, citing both reduced demand as developers fear job displacement and competition from LLMs that provide personalized tutoring using content scraped from course creators. He notes this is a consistent trend among multiple course creators he's spoken with, who all report similar revenue declines and audience disengagement. This illustrates direct disruption of the educational content business model by generative AI, raising questions about both economic sustainability and content attribution.",
+      "tags": [
+        "online-education",
+        "content-monetization",
+        "developer-training",
+        "llm-competition",
+        "content-scraping",
+        "business-model-disruption"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief quotation without original analysis or actionable insights; reports anecdotal trend data but lacks depth on mechanisms, solutions, or broader implications."
+    },
+    "https://simonwillison.net/2026/Jul/3/judgement/#atom-everything": {
+      "title": "Fable's judgement",
+      "source": "Simon Willison",
+      "date": "2026-07-03T18:51:06+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "prompt-architecture",
+        "agentic-workflows-production",
+        "inference-efficiency"
+      ],
+      "content_type": "technical",
+      "summary": "The article shares a practical tip for managing Claude Code (Fable model) usage: instructing the AI to use its own judgment in delegating tasks to lower-tier models via subagents, rather than always using the most powerful model. The author demonstrates this with a specific prompt that tells Fable to spawn subagents with appropriate models (Sonnet for substantive work, Haiku for trivial edits) while keeping judgment-heavy tasks in the main loop. This approach reduces token consumption of expensive Fable credits while maintaining output quality through intelligent model selection.",
+      "tags": [
+        "model-delegation",
+        "subagent-architecture",
+        "token-optimization",
+        "claude-code",
+        "prompt-engineering",
+        "cost-efficiency"
+      ],
+      "status": "skipped",
+      "skip_reason": "Primarily a brief tactical tip about prompt engineering for a specific tool rather than deep analysis or novel research; useful practitioner advice but limited scope and depth."
+    },
+    "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/": {
+      "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
+      "source": "MIT Technology Review",
+      "date": "2026-07-03T17:34:37+00:00",
+      "composite": 3.3,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Researchers developed the Eye-in-a-Care-Box (ECaBox), a perfusion device that maintains freshly removed eyeballs by supplying oxygen-rich fluid, potentially enabling future whole-eye transplants. Testing on pig and human donor eyes showed perfused eyes retained cellular viability and light-response abilities for hours, while untreated eyes degenerated quickly. The device could advance eye transplantation research and provide a non-animal model for testing eye treatments, though actual transplant success remains unproven.",
+      "tags": [
+        "organ-perfusion",
+        "transplant-technology",
+        "biomedical-devices",
+        "retina-preservation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on biomedical transplant technology with no relevance to AI, semiconductors, or enterprise software topics in the knowledge base."
+    },
+    "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/": {
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "source": "Google DeepMind",
+      "date": "2026-07-03T14:25:43+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Google DeepMind and A24 (an independent film studio) have announced a research partnership to explore AI applications in creative filmmaking. The article provides no details about the specific research agenda, technical approaches, or use cases being explored. This represents a corporate announcement with minimal substantive information about methodology, outcomes, or strategic implications.",
+      "tags": [
+        "deepmind",
+        "creative-ai",
+        "film-production",
+        "partnership-announcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level corporate announcement lacking technical depth, concrete details about research methodology, or actionable insights about AI capabilities or enterprise implementation."
+    },
+    "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/": {
+      "title": "The Download: a smoking \u201cendgame\u201d and a new Elizabeth Bear story",
+      "source": "MIT Technology Review",
+      "date": "2026-07-03T12:10:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a newsletter roundup from MIT Technology Review covering diverse topics including UK tobacco policy, a speculative fiction short story, and brief technology news items. The content includes mentions of AI usage caps at companies, Trump's tech stock purchases, and Meta's subscription pricing changes. It is a surface-level news aggregation without original analysis or in-depth exploration of any single topic.",
+      "tags": [
+        "news-roundup",
+        "ai-cost-management",
+        "meta-glasses",
+        "tesla",
+        "spyware"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter aggregation with no substantive analysis or depth on any AI/tech topic relevant to the knowledge base; purely surface-level news summaries without actionable insights."
+    },
+    "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/": {
+      "title": "The UK\u2019s generational tobacco ban might not work. I\u2019m supporting it anyway.",
+      "source": "MIT Technology Review",
+      "date": "2026-07-03T09:00:00+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article discusses the UK's generational tobacco sales ban that prohibits selling tobacco to anyone born after January 1, 2009, arguing this 'endgame' approach represents a significant shift in public health policy despite uncertain effectiveness. The author provides evidence that similar bans have been attempted in New Zealand (repealed), the Maldives (too early to assess), and various US towns, while noting most smokers start as teenagers and wish they'd never begun. The piece argues that while long-term impact is unknown and political support varies, preventing youth smoking initiation is worth pursuing even if the ban faces implementation challenges.",
+      "tags": [
+        "tobacco-control",
+        "generational-ban",
+        "public-health-policy",
+        "uk-regulation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on tobacco regulation and public health policy with no connection to AI, semiconductor technology, enterprise software, or any of the specified topic areas."
+    },
+    "https://www.latent.space/p/aiewf-daily-dispatch-locomotives": {
+      "title": "AIEWF Daily Dispatch: The great loops debate and the state of AI engineering",
+      "source": "Latent Space",
+      "date": "2026-07-03T05:11:43+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This conference dispatch reports on a debate at the AI Engineer World's Fair about whether autonomous coding loops and software factories are viable now or overhyped. Pro-loop advocates argued that loops are inevitable and verifiability matters more than code origin, while skeptics contended that the discipline hasn't caught up to the hype and economic viability is questionable. The debate captures a central tension in AI engineering about whether to fully automate development workflows or maintain more deterministic, human-supervised approaches.",
+      "tags": [
+        "agentic-loops",
+        "software-factories",
+        "code-generation",
+        "verifiability",
+        "deterministic-loops"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level conference coverage without novel technical insights, data, or frameworks; primarily reports existing debate positions without original analysis or resolution."
+    },
+    "https://www.latent.space/p/ainews-not-much-happened-today-900": {
+      "title": "[AINews] not much happened today",
+      "source": "Latent Space",
+      "date": "2026-07-02T07:10:14+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "ai-engineering-agents",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a daily AI news roundup covering the re-launch of Anthropic's Claude Fable 5 model with new safety guardrails, and developments around open coding models like GLM-5.2 including new tooling and benchmarks. The article reports that teams are increasingly adopting multi-model orchestration strategies rather than depending on single frontier models, with various coding assistants (Cursor, Devin, Perplexity) integrating Fable 5. The coverage represents a snapshot of incremental product updates and tactical model deployment choices rather than fundamental shifts in capabilities or enterprise strategy.",
+      "tags": [
+        "claude-fable-5",
+        "multi-model-orchestration",
+        "glm-5.2",
+        "coding-assistants",
+        "speculative-decoding",
+        "model-routing"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news aggregation with minimal original analysis; primarily lists product updates and benchmark numbers without deeper investigation into implications, mechanisms, or strategic insights."
+    },
+    "https://www.latent.space/p/aiewf-daily-dispatch-agency": {
+      "title": "AIEWF Daily Dispatch: Autoresearch and the tension between AI and human agency",
+      "source": "Latent Space",
+      "date": "2026-07-02T06:13:49+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on conference discussions about 'autoresearch' (agents that maintain and study systems through outer loops) and the tension between agent automation versus human control in software development. Speakers presented contrasting views: some advocating for agents in outer maintenance loops, others arguing humans must retain the outer 'agency' loop while agents handle inner execution. The piece reflects pushback against fully automated 'software factory' visions, emphasizing that human understanding remains critical for creative work and preventing replacement by agents.",
+      "tags": [
+        "autoresearch",
+        "agent-loops",
+        "human-agency",
+        "software-factory",
+        "design-engineering",
+        "code-understanding"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level conference coverage without original analysis or substantial new frameworks; primarily reports contrasting speaker opinions without deeper synthesis or novel insights."
+    },
+    "https://www.bain.com/insights/how-to-break-through-pharmas-innovation-bottleneck-with-ai/": {
+      "title": "How To Break Through Pharmas Innovation Bottleneck With Ai",
+      "source": "Bain Insights",
+      "date": "2026-07-04T02:00:56.758079+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a Bain & Company consulting piece about using AI to address pharmaceutical innovation challenges. Based on the navigation structure and metadata provided, this is likely a high-level business case or framework rather than detailed technical analysis. Without the actual article content (only navigation elements were provided), it's impossible to assess the specific claims, evidence, or actionable insights offered.",
+      "tags": [
+        "pharma-innovation",
+        "ai-in-pharma",
+        "enterprise-consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content not provided - only website navigation structure visible. Unable to assess actual depth, novelty, or relevance of the pharmaceutical AI innovation arguments."
+    },
+    "https://www.bain.com/insights/what-is-zero-based-budgeting/": {
+      "title": "What Is Zero Based Budgeting",
+      "source": "Bain Insights",
+      "date": "2026-07-04T02:00:56.623382+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a basic explanation of zero-based budgeting from Bain & Company. Based on the limited content provided (mostly navigation and site structure), it likely explains the traditional financial management concept of building budgets from zero rather than incremental adjustments. This is a general business finance topic with minimal connection to AI-specific knowledge areas.",
+      "tags": [
+        "zero-based-budgeting",
+        "financial-planning",
+        "cost-management"
+      ],
+      "status": "skipped",
+      "skip_reason": "Generic business finance concept with no meaningful depth, novelty, or relevance to AI/semiconductor topics; appears to be standard consulting firm content explaining traditional budgeting methodology."
+    },
+    "https://www.bain.com/insights/financing-climate-solutions-in-brazil/": {
+      "title": "Financing Climate Solutions In Brazil",
+      "source": "Bain Insights",
+      "date": "2026-07-04T02:00:56.064190+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a navigation page or header for Bain & Company's website about financing climate solutions in Brazil. No actual content, analysis, or substantive information is provided beyond website navigation elements and office locations. This is not a meaningful article but rather a web page structure.",
+      "tags": [
+        "climate-finance",
+        "brazil",
+        "sustainability"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content provided; appears to be a website navigation page or incomplete article text with only header/menu elements."
+    },
+    "https://cutlefish.substack.com/p/tbm-428-yes-robot-yes-boss": {
+      "title": "TBM 428: Yes, Robot. Yes, Boss?",
+      "source": "The Beautiful Mess (John Cutler)",
+      "date": "2026-07-03T20:15:44+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount",
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article argues that AI amplifies existing organizational dynamics rather than fixing them\u2014it can reduce friction in healthy organizations but accelerate dysfunction in toxic ones. The key mechanism is that AI responds to the actual intent behind requests, whether that's genuine inquiry or political self-protection, making both improvement and avoidance easier to automate. This matters because it reframes AI adoption as an organizational health challenge rather than a purely technical one, suggesting that dysfunction-prone organizations may worsen by deploying AI.",
+      "tags": [
+        "organizational-dysfunction",
+        "ai-amplification-effects",
+        "psychological-safety",
+        "workplace-politics",
+        "intent-vs-outcome",
+        "metis"
+      ],
+      "status": "integrated"
+    },
+    "https://cloudedjudgement.substack.com/p/clouded-judgement-7326-the-end-of": {
+      "title": "Clouded Judgement 7.3.26 - The End of Compute Scarcity? Not So Fast",
+      "source": "Clouded Judgement (Jamin Ball)",
+      "date": "2026-07-03T13:04:05+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "inference-efficiency",
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that recent news of SpaceX/xAI and Meta renting out GPU compute capacity does not signal the end of compute scarcity, but rather reflects specific company dynamics and strategic timing. The key evidence is that xAI's rental deals include 90-day exit clauses at premium pricing and stem from their model struggles and team losses, not genuine excess capacity, while the optimal training-to-inference compute ratio means temporarily unused training capacity makes economic sense to rent short-term. This matters because it counters the bear thesis that hyperscaler capex will decline, instead suggesting compute demand remains strong and short-term rentals are tactical moves by companies with weak inference demand, not structural oversupply.",
+      "tags": [
+        "compute-capacity-utilization",
+        "gpu-rental-economics",
+        "training-inference-ratio",
+        "xai-anthropic-deals",
+        "hyperscaler-capex",
+        "model-demand-dynamics"
+      ],
+      "status": "integrated"
+    },
+    "https://feeds.feedblitz.com/~/958931822/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-July-%e2%80%93/": {
+      "title": "Weekend Reading For Financial Planners (July 4\u20135)",
+      "source": "Kitces.com",
+      "date": "2026-07-03T18:00:26+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a weekly roundup article for financial planners covering various industry news items, including IRS guidance on Section 530A 'Trump' Accounts, SEC proposals for electronic document delivery, and articles on retirement planning and advisor marketing. The article provides brief summaries of multiple topics without deep analysis, functioning as a news digest. It offers surface-level coverage across financial planning topics with minimal analytical depth or actionable insights.",
+      "tags": [
+        "financial-planning",
+        "wealth-management",
+        "retirement-planning",
+        "advisor-marketing",
+        "estate-planning"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news roundup with no original analysis, novel insights, or substantive coverage of AI-related financial services applications; minimal relevance to specified topic areas."
+    },
+    "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA4WjlWWlVDU2RhT284c0JVZjhtYXNrMnJSRmZ0WmZFcm13YUxYekFZUFFCU3h0OWtHcmtR?oc=5": {
+      "title": "Envestnet\u2019s CEO Chris Todd on AI, Scale and the Advisor-Client Relationship - t.co",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-07-03T10:13:19+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This is not an article but a Google cookie consent page that appears before accessing content. It contains only boilerplate text about Google's data collection and cookie policies. There is no actual content about Envestnet, AI, or financial advisory workflows to evaluate.",
+      "tags": [
+        "cookie-consent",
+        "no-content",
+        "access-barrier"
+      ],
+      "status": "skipped",
+      "skip_reason": "No article content present - only a Google cookie consent interstitial page with no substantive information to evaluate."
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd3YybVdmYndmekdtV19jellDOVdZa1FlS1ZxWEI3enYzMGtYNGgtbmotdWlpRURFaDRmUmhFem5fMEFXelA4U3EyQkVWbUJrTDN0QnZ0dHZ3c1ExY3F1Si1pU0hfQ2hVRFZpaXlWUG0tYUY4WmszcGEtLWdVRGM2NXVUNWtyZFMyQlRCT1FzSWV6d9IBkgFBVV95cUxNd3YybVdmYndmekdtV19jellDOVdZa1FlS1ZxWEI3enYzMGtYNGgtbmotdWlpRURFaDRmUmhFem5fMEFXelA4U3EyQkVWbUJrTDN0QnZ0dHZ3c1ExY3F1Si1pU0hfQ2hVRFZpaXlWUG0tYUY4WmszcGEtLWdVRGM2NXVUNWtyZFMyQlRCT1FzSWV6dw?oc=5": {
+      "title": "Mid\u2011market companies lose 23% of AI budget before ROI - SME horizon",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-02T23:00:00+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This is not an actual article but rather a Google cookie consent page with no substantive content. The title suggests an article about mid-market AI ROI loss, but the provided text contains only standard Google privacy policy boilerplate. No analysis, data, or insights are present to evaluate.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided - only a Google cookie consent page with privacy policy text unrelated to the claimed AI budget ROI topic."
     }
   }
 }

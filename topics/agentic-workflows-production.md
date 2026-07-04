@@ -1,9 +1,9 @@
 ---
-tags: [bnpl, agentic-commerce, kya-know-your-agent, autonomous-purchasing, intent-verification, financial-underwriting, agentic-workflows-production]
+tags: [agentic-commerce, agentic-workflows, agentic-workflows-production, autonomous-purchasing, bnpl, conductor-architecture, evolutionary-algorithms, financial-underwriting, intent-verification, kya-know-your-agent, model-orchestration, multi-model-orchestration, multi-model-systems, orchestrator-models, sep-cma-es, vendor-independence]
 ---
 
 ---
-tags: [agent-framework, agent-skills, agentic-architecture, agentic-primitives, agentic-workflows-production, async-batch-inference, business-agents, cost-optimization, intelligent-routing, local-models, mcp-servers, skill-distillation, v0-coding-agent, vercel-eve, agentic-commerce, bnpl-agents, know-your-agent, kya, agent-intent-verification, agent-authorization-commerce, autonomous-buyers, infrastructure-mismatch, payment-agents, purchase-agents]---
+tags: [agent-framework, agent-skills, agentic-architecture, agentic-primitives, agentic-workflows-production, async-batch-inference, business-agents, cost-optimization, intelligent-routing, local-models, mcp-servers, skill-distillation, v0-coding-agent, vercel-eve, agentic-commerce, bnpl-agents, know-your-agent, kya, agent-intent-verification, agent-authorization-commerce, autonomous-buyers, infrastructure-mismatch, payment-agents, purchase-agents, multi-agent-coordination, shared-memory-agents, task-decomposition]---
 
 ## Agentic Commerce Infrastructure Gap (Zip Co, July 2026)
 
@@ -29,28 +29,51 @@ tags: [agent-framework, agent-skills, agentic-architecture, agentic-primitives, 
 2. "How do you underwrite a purchase when the decision-making process is invisible?"
 3. "Who bears responsibility when an agent acts exactly as instructed but produces an outcome the consumer never wanted?"
 
-### KYA Framework Emergence
-**Know Your Agent Paradigm**:
-- New acronym emerging alongside KYC (Know Your Customer)
-- Requirements extending beyond agent authority verification
-- Must prove "action reasonably reflected the user's objectives" - not just authorization but alignment
-- BNPL providers positioned as "early test case" for broader payments ecosystem
+## Multi-Agent Orchestration Architecture (Sakana AI, July 2026)
 
-### Success/Failure Factors
-**Infrastructure Adaptation Required**:
-- Traditional signal loss: BNPL relied on step-by-step human signals (product selection, price review, financing choice, terms acceptance)
-- Each step provided risk and intent assessment data
-- Agent-mediated transactions eliminate these intermediate verification points
-- Open question: How to rebuild trust and risk models for opaque agent decision-making
+### Production Pattern: Orchestrator Models
+**Fugu/Fugu-Ultra System**:
+- **Architecture**: Dedicated models trained to coordinate other models and agents rather than execute tasks directly
+- **Deployment**: Production systems (Sakana API, OpenRouter, Vercel, others)
+- **Design philosophy**: Unified API abstracts heterogeneous worker model backends
+- **Worker coordination**: Dynamically routes subtasks to Claude, Gemini, GPT, and open models
 
-### Generalizability: High
-**Applicable to**:
-- All consumer lending (credit cards, personal loans, mortgages)
-- E-commerce platforms (product selection, vendor choice)
-- Insurance purchasing and claims
-- Healthcare appointment scheduling and provider selection
-- Travel booking and itinerary management
-- Subscription service management
-- Any transaction where intent verification and responsibility assignment matter
+### Conductor: Multi-Agent Coordination Component
+**Coordination Primitives** (used in Fugu-Ultra):
+- **Task decomposition**: Breaks complex tasks into subtasks before agent assignment
+- **Parallel agent execution**: Multiple agents work independently on different subtasks simultaneously
+- **Shared memory architecture**: Agents observe tool calls made by other agents
+- **Tool autonomy**: Each agent independently selects tools within its subtask scope
+- **Workflow design**: Constructs end-to-end agentic workflows with defined termination conditions
 
-**Pattern**: Whenever autonomous agents act as intermediaries in financial or high-stakes decisions, infrastructure must evolve from verifying human intent to verifying agent authority + alignment with user objectives
+**Pattern**: Differs from sequential orchestration - enables true parallel, independent agent operation with coordination layer
+
+### Production Deployment Characteristics
+**Integration Points**:
+- OpenAI Codex compatibility
+- Multiple harness support: Claude Code, Codex, OpenCode
+- Tool use capabilities
+- Reasoning level controls (high/extra high)
+
+**Operational Modes**:
+- **Speed-optimized (Fugu)**: Sequential model selection for discrete tasks
+- **Performance-optimized (Fugu-Ultra)**: Parallel task decomposition for long-running operations
+- **Recursive orchestration**: Orchestrator can call itself for further task subdivision
+
+**Pricing Models**:
+- Pay-per-token: Variable based on underlying models selected
+- Subscription tiers: $20/$100/$200/month with usage multipliers
+- Context-aware pricing: 2x rates for contexts >272K tokens
+
+### Production Trade-offs
+**Transparency vs. Performance**:
+- Undisclosed: Orchestration recipes, training datasets, architectures, parameter counts
+- Performance claim: Comparable to frontier models (Claude Mythos 5, GPT-5.6 Sol)
+- **Vendor independence benefit**: Reduces lock-in while accessing multiple frontier capabilities
+
+**Cost-Efficiency Pattern**:
+- Single API replaces multiple model subscriptions
+- Dynamic routing to most cost-effective model per subtask
+- Fixed-step optimization during training limits token consumption
+
+Cross-references: [[inference-efficiency]] for routing and optimization details

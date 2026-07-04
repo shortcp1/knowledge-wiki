@@ -705,7 +705,109 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-04
+
+**✗ 3.0** — [How To Break Through Pharmas Innovation Bottleneck With Ai](https://www.bain.com/insights/how-to-break-through-pharmas-innovation-bottleneck-with-ai/)  
+*Bain Insights* · 
+#pharma_innovation #ai_in_pharma #enterprise_consulting
+> The article appears to be a Bain & Company consulting piece about using AI to address pharmaceutical innovation challenges. Based on the navigation structure and metadata provided, this is likely a high-level business case or framework rather than detailed technical analysis. Without the actual article content (only navigation elements were provided), it's impossible to assess the specific claims, evidence, or actionable insights offered.
+
+**✗ 2.0** — [What Is Zero Based Budgeting](https://www.bain.com/insights/what-is-zero-based-budgeting/)  
+*Bain Insights* · ai-in-finance-accounting
+#zero_based_budgeting #financial_planning #cost_management
+> The article appears to be a basic explanation of zero-based budgeting from Bain & Company. Based on the limited content provided (mostly navigation and site structure), it likely explains the traditional financial management concept of building budgets from zero rather than incremental adjustments. This is a general business finance topic with minimal connection to AI-specific knowledge areas.
+
+**✗ 1.0** — [Financing Climate Solutions In Brazil](https://www.bain.com/insights/financing-climate-solutions-in-brazil/)  
+*Bain Insights* · 
+#climate_finance #brazil #sustainability
+> The article appears to be a navigation page or header for Bain & Company's website about financing climate solutions in Brazil. No actual content, analysis, or substantive information is provided beyond website navigation elements and office locations. This is not a meaningful article but rather a web page structure.
+
+**✓ 7.3** — [Microsoft Strikes Out On Its Own](https://www.deeplearning.ai/the-batch/microsoft-strikes-out-on-its-own)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-time-compute · lab-dynamics
+#reasoning_models #mixture_of_experts #reinforcement_learning #model_training
+> Microsoft announced MAI-Thinking-1, a Claude Sonnet 4.6-sized reasoning model (1T parameters, 35B active) trained from scratch without distillation from third-party models, marking a strategic shift from its OpenAI partnership dependence. The model was built through pretraining on 30T tokens of primarily human-generated data (50%+ code), followed by specialized fine-tuning of three expert models (STEM, coding, safety) that were then consolidated via supervised distillation and reinforcement learning to generate original chains of thought. This represents a significant competitive move by Microsoft to develop proprietary model capabilities rather than relying solely on reselling or fine-tuning others' models, with implications for the AI lab ecosystem and enterprise AI infrastructure.
+
+**✓ 8.0** — [Fugu Blends Models Task By Task](https://www.deeplearning.ai/the-batch/fugu-blends-models-task-by-task)  
+*The Batch (DeepLearning.AI)* · model-architecture · agentic-workflows-production · inference-efficiency
+#model_orchestration #agentic_workflows #evolutionary_algorithms #multi_model_systems
+> Sakana AI released Fugu and Fugu-Ultra, orchestrator models that dynamically delegate tasks to multiple LLMs (Claude, Gemini, GPT) and agents, achieving performance comparable to top-tier models while avoiding vendor lock-in. The models were trained via supervised fine-tuning on diverse tasks and evolutionary algorithms (sep-CMA-ES) to learn which worker models to call for each subtask, with Fugu optimizing for speed and Fugu-Ultra for complex multi-step workflows. This represents a shift toward meta-models that compose existing LLMs rather than building monolithic systems, potentially changing how enterprises deploy AI by enabling model-agnostic orchestration layers.
+
+**✓ 7.3** — [Better Reward Models For Robots](https://www.deeplearning.ai/the-batch/better-reward-models-for-robots)  
+*The Batch (DeepLearning.AI)* · model-architecture · evals-production-deployment
+#reward_models #robotics #reinforcement_learning #vision_language_models
+> Researchers at Stanford and UC Berkeley developed RoboReward, a family of 4B and 8B parameter vision-language reward models that train robots via reinforcement learning by evaluating robot actions against task commands. The key innovation is augmenting sparse success-only robot training datasets with synthetic negative examples (relabeled commands and truncated videos) and progress scores (1-5) generated via GPT-5 mini and Qwen models, enabling better reward signal learning. While RoboReward models outperformed existing robotics and generalist models on the new RoboRewardBench benchmark, they still fell short of human-assigned rewards in real-world robot training scenarios.
+
+**✓ 7.3** — [Anthropics Responsible Scaling Policy](https://www.anthropic.com/news/anthropics-responsible-scaling-policy)  
+*Anthropic Blog* · ai-governance-risk-compliance · regulatory-policy · lab-dynamics
+#responsible_scaling_policy #ai_safety_levels #catastrophic_risk #red_teaming
+> Anthropic announces its Responsible Scaling Policy (RSP) that defines AI Safety Levels (ASL-1 through ASL-4+) modeled after biosafety standards, requiring progressively stricter safety and security measures as models gain catastrophic risk potential. The framework mandates that Anthropic pause training if safety measures cannot keep pace with capability advances, with ASL-2 representing current systems like Claude, ASL-3 requiring demonstrations that models pose no catastrophic misuse risk under red-team testing, and ASL-4+ requiring unsolved safety research like mechanistic interpretability guarantees. This policy aims to create industry-wide standards that align competitive incentives with safety progress, potentially establishing a "race to the top" dynamic among frontier AI labs.
+
+**✓ 7.0** — [Visible Extended Thinking](https://www.anthropic.com/news/visible-extended-thinking)  
+*Anthropic Blog* · model-architecture · inference-time-compute · ai-governance-risk-compliance
+#extended_thinking #inference_time_compute #chain_of_thought #model_transparency
+> Anthropic introduces extended thinking mode for Claude 3.7 Sonnet, allowing users to toggle longer reasoning processes and developers to set 'thinking budgets' for compute time allocation. The company makes Claude's reasoning process visible to users, which enables transparency and trust-building but raises concerns about faithfulness (whether visible thoughts represent actual model cognition), potential security vulnerabilities through exposed reasoning patterns, and future risks if models learn to mask their thinking. This represents a key architectural decision in the inference-time compute paradigm, trading off transparency benefits against safety risks and the fundamental uncertainty of whether chain-of-thought reasoning truly reflects model decision-making.
+
 ## 2026-07-03
+
+**✗ 4.7** — [Open Source AI Gap Map](https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything)  
+*Simon Willison* · build-vs-buy-enterprise-ai · ai-governance-risk-compliance
+#open_source_ai #ecosystem_mapping #github_data #datasette
+> Simon Willison reports on Current AI's Gap Map v0.1, which catalogs 421 open source AI products across models, tools, datasets, and hardware from 228 organizations. The project has released all underlying data (1,184 YAML files) under MIT license on GitHub, making the ecosystem mappable and analyzable. This creates a public resource for understanding the open source AI landscape, though the article itself is primarily a brief announcement rather than deep analysis.
+
+**✗ 4.3** — [Quoting Josh W. Comeau](https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything)  
+*Simon Willison* · ai-media-content-businesses
+#online_education #content_monetization #developer_training #llm_competition
+> Developer educator Josh W. Comeau reports that his online course sales have dropped by roughly 50-67% since AI tools became prevalent, citing both reduced demand as developers fear job displacement and competition from LLMs that provide personalized tutoring using content scraped from course creators. He notes this is a consistent trend among multiple course creators he's spoken with, who all report similar revenue declines and audience disengagement. This illustrates direct disruption of the educational content business model by generative AI, raising questions about both economic sustainability and content attribution.
+
+**✓ 7.0** — [TBM 428: Yes, Robot. Yes, Boss?](https://cutlefish.substack.com/p/tbm-428-yes-robot-yes-boss)  
+*The Beautiful Mess (John Cutler)* · ai-in-product-and-engineering · ai-org-design-headcount · agentic-workflows-production
+#organizational_dysfunction #ai_amplification_effects #psychological_safety #workplace_politics
+> This article argues that AI amplifies existing organizational dynamics rather than fixing them—it can reduce friction in healthy organizations but accelerate dysfunction in toxic ones. The key mechanism is that AI responds to the actual intent behind requests, whether that's genuine inquiry or political self-protection, making both improvement and avoidance easier to automate. This matters because it reframes AI adoption as an organizational health challenge rather than a purely technical one, suggesting that dysfunction-prone organizations may worsen by deploying AI.
+
+**✗ 5.3** — [Fable's judgement](https://simonwillison.net/2026/Jul/3/judgement/#atom-everything)  
+*Simon Willison* · prompt-architecture · agentic-workflows-production · inference-efficiency
+#model_delegation #subagent_architecture #token_optimization #claude_code
+> The article shares a practical tip for managing Claude Code (Fable model) usage: instructing the AI to use its own judgment in delegating tasks to lower-tier models via subagents, rather than always using the most powerful model. The author demonstrates this with a specific prompt that tells Fable to spawn subagents with appropriate models (Sonnet for substantive work, Haiku for trivial edits) while keeping judgment-heavy tasks in the main loop. This approach reduces token consumption of expensive Fable credits while maintaining output quality through intelligent model selection.
+
+**✗ 2.3** — [Weekend Reading For Financial Planners (July 4–5)](https://feeds.feedblitz.com/~/958931822/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-July-%e2%80%93/)  
+*Kitces.com* · ai-in-finance-accounting
+#financial_planning #wealth_management #retirement_planning #advisor_marketing
+> This is a weekly roundup article for financial planners covering various industry news items, including IRS guidance on Section 530A 'Trump' Accounts, SEC proposals for electronic document delivery, and articles on retirement planning and advisor marketing. The article provides brief summaries of multiple topics without deep analysis, functioning as a news digest. It offers surface-level coverage across financial planning topics with minimal analytical depth or actionable insights.
+
+**✗ 3.3** — [A device that revives eyeballs from dead donors could make eye transplants possible](https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/)  
+*MIT Technology Review* · 
+#organ_perfusion #transplant_technology #biomedical_devices #retina_preservation
+> Researchers developed the Eye-in-a-Care-Box (ECaBox), a perfusion device that maintains freshly removed eyeballs by supplying oxygen-rich fluid, potentially enabling future whole-eye transplants. Testing on pig and human donor eyes showed perfused eyes retained cellular viability and light-response abilities for hours, while untreated eyes degenerated quickly. The device could advance eye transplantation research and provide a non-animal model for testing eye treatments, though actual transplant success remains unproven.
+
+**✗ 2.3** — [Google DeepMind and A24 announce first-of-its-kind research partnership](https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/)  
+*Google DeepMind* · 
+#deepmind #creative_ai #film_production #partnership_announcement
+> Google DeepMind and A24 (an independent film studio) have announced a research partnership to explore AI applications in creative filmmaking. The article provides no details about the specific research agenda, technical approaches, or use cases being explored. This represents a corporate announcement with minimal substantive information about methodology, outcomes, or strategic implications.
+
+**✓ 7.0** — [Clouded Judgement 7.3.26 - The End of Compute Scarcity? Not So Fast](https://cloudedjudgement.substack.com/p/clouded-judgement-7326-the-end-of)  
+*Clouded Judgement (Jamin Ball)* · gpu-architecture-training-infra · inference-efficiency · lab-dynamics
+#compute_capacity_utilization #gpu_rental_economics #training_inference_ratio #xai_anthropic_deals
+> The article argues that recent news of SpaceX/xAI and Meta renting out GPU compute capacity does not signal the end of compute scarcity, but rather reflects specific company dynamics and strategic timing. The key evidence is that xAI's rental deals include 90-day exit clauses at premium pricing and stem from their model struggles and team losses, not genuine excess capacity, while the optimal training-to-inference compute ratio means temporarily unused training capacity makes economic sense to rent short-term. This matters because it counters the bear thesis that hyperscaler capex will decline, instead suggesting compute demand remains strong and short-term rentals are tactical moves by companies with weak inference demand, not structural oversupply.
+
+**✗ 2.3** — [The Download: a smoking “endgame” and a new Elizabeth Bear story](https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/)  
+*MIT Technology Review* · 
+#news_roundup #ai_cost_management #meta_glasses #tesla
+> This is a newsletter roundup from MIT Technology Review covering diverse topics including UK tobacco policy, a speculative fiction short story, and brief technology news items. The content includes mentions of AI usage caps at companies, Trump's tech stock purchases, and Meta's subscription pricing changes. It is a surface-level news aggregation without original analysis or in-depth exploration of any single topic.
+
+**✗ 1.0** — [Envestnet’s CEO Chris Todd on AI, Scale and the Advisor-Client Relationship - t.co](https://news.google.com/rss/articles/CBMiO0FVX3lxTFA4WjlWWlVDU2RhT284c0JVZjhtYXNrMnJSRmZ0WmZFcm13YUxYekFZUFFCU3h0OWtHcmtR?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#cookie_consent #no_content #access_barrier
+> This is not an article but a Google cookie consent page that appears before accessing content. It contains only boilerplate text about Google's data collection and cookie policies. There is no actual content about Envestnet, AI, or financial advisory workflows to evaluate.
+
+**✗ 2.0** — [The UK’s generational tobacco ban might not work. I’m supporting it anyway.](https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/)  
+*MIT Technology Review* · 
+#tobacco_control #generational_ban #public_health_policy #uk_regulation
+> The article discusses the UK's generational tobacco sales ban that prohibits selling tobacco to anyone born after January 1, 2009, arguing this 'endgame' approach represents a significant shift in public health policy despite uncertain effectiveness. The author provides evidence that similar bans have been attempted in New Zealand (repealed), the Maldives (too early to assess), and various US towns, while noting most smokers start as teenagers and wish they'd never begun. The piece argues that while long-term impact is unknown and political support varies, preventing youth smoking initiation is worth pursuing even if the ban faces implementation challenges.
+
+**✗ 4.7** — [AIEWF Daily Dispatch: The great loops debate and the state of AI engineering](https://www.latent.space/p/aiewf-daily-dispatch-locomotives)  
+*Latent Space* · ai-engineering-agents · agentic-workflows-production
+#agentic_loops #software_factories #code_generation #verifiability
+> This conference dispatch reports on a debate at the AI Engineer World's Fair about whether autonomous coding loops and software factories are viable now or overhyped. Pro-loop advocates argued that loops are inevitable and verifiability matters more than code origin, while skeptics contended that the discipline hasn't caught up to the hype and economic viability is questionable. The debate captures a central tension in AI engineering about whether to fully automate development workflows or maintain more deterministic, human-supervised approaches.
 
 **✗ 2.3** — [7](https://www.deeplearning.ai/the-batch/tag/letters/page/7)  
 *The Batch (DeepLearning.AI)* · regulatory-policy
@@ -733,6 +835,10 @@ All articles scanned since the wiki started. Updated nightly.
 > Andrew Qu explains how Vercel evolved from web development tooling to building eve, an agent framework born from solving operational challenges while building v0's AI coding agent. The key innovation centers on treating agents as a distinct software category requiring new primitives for context management, resumability, tool orchestration, and long-running tasks—rather than just web applications with LLM capabilities. This matters because it validates the enterprise shift toward agentic workflows and provides a major infrastructure player's perspective on productionizing agents for internal business operations.
 
 ## 2026-07-02
+
+**✗ 1.0** — [Mid‑market companies lose 23% of AI budget before ROI - SME horizon](https://news.google.com/rss/articles/CBMikgFBVV95cUxNd3YybVdmYndmekdtV19jellDOVdZa1FlS1ZxWEI3enYzMGtYNGgtbmotdWlpRURFaDRmUmhFem5fMEFXelA4U3EyQkVWbUJrTDN0QnZ0dHZ3c1ExY3F1Si1pU0hfQ2hVRFZpaXlWUG0tYUY4WmszcGEtLWdVRGM2NXVUNWtyZFMyQlRCT1FzSWV6d9IBkgFBVV95cUxNd3YybVdmYndmekdtV19jellDOVdZa1FlS1ZxWEI3enYzMGtYNGgtbmotdWlpRURFaDRmUmhFem5fMEFXelA4U3EyQkVWbUJrTDN0QnZ0dHZ3c1ExY3F1Si1pU0hfQ2hVRFZpaXlWUG0tYUY4WmszcGEtLWdVRGM2NXVUNWtyZFMyQlRCT1FzSWV6dw?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+> This is not an actual article but rather a Google cookie consent page with no substantive content. The title suggests an article about mid-market AI ROI loss, but the provided text contains only standard Google privacy policy boilerplate. No analysis, data, or insights are present to evaluate.
 
 **✗ 1.3** — [Mid‑market companies lose 23% of AI budget before ROI - SME horizon](https://news.google.com/rss/articles/CBMimgFBVV95cUxNcEVidWpQRE1iZU1WRzdKZFFmUkU1R0syNF9kaEhWVkhvOVBEUm5NeGFzS2xwYXZUSVRqT3JYYW9xUlRtOVlqaHFlaWNKamhMVFNfaTA2ekpkUmlrLUFvaXZLSkt3YjltNVhUS2YwdDZpeEcyWnhzeFhMVFg0bkgyQ3d2NGM1WFdaWmozVFpBNTVIUVAwd0FfOGp30gGaAUFVX3lxTE1wRWJ1alBETWJlTVZHN0pkUWZSRTVHSzI0X2RoSFZWSG85UERSbk14YXNLbHBhdlRJVGpPclhhb3FSVG05WWpocWVpY0pqaExUU19pMDZ6SmRSaWstQW9pdktKS3diOW01WFRLZjB0Nml4RzJaeHN4WExUWDRuSDJDd3Y0YzVYV1paajNUWkE1NUhRUDB3QV84anc?oc=5)  
 *GN: AI Mid-Market Enterprise* · 
@@ -807,6 +913,16 @@ All articles scanned since the wiki started. Updated nightly.
 *Practical AI (Changelog)* · model-architecture
 #diffusion_models #flow_matching #image_generation #flux_models
 > This podcast episode discusses the evolution of AI image generation from diffusion models to flow matching, featuring insights from Black Forest Labs co-founder on the FLUX model family. Podell explains the technical progression of visual AI models and their applications in image editing and practical workflows, including local deployment options. The conversation covers foundational concepts in modern image generation but appears to be an introductory overview rather than deep technical analysis.
+
+**✗ 4.0** — [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-900)  
+*Latent Space* · model-architecture · inference-efficiency · ai-engineering-agents
+#claude_fable_5 #multi_model_orchestration #glm_5.2 #coding_assistants
+> This is a daily AI news roundup covering the re-launch of Anthropic's Claude Fable 5 model with new safety guardrails, and developments around open coding models like GLM-5.2 including new tooling and benchmarks. The article reports that teams are increasingly adopting multi-model orchestration strategies rather than depending on single frontier models, with various coding assistants (Cursor, Devin, Perplexity) integrating Fable 5. The coverage represents a snapshot of incremental product updates and tactical model deployment choices rather than fundamental shifts in capabilities or enterprise strategy.
+
+**✗ 5.3** — [AIEWF Daily Dispatch: Autoresearch and the tension between AI and human agency](https://www.latent.space/p/aiewf-daily-dispatch-agency)  
+*Latent Space* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#autoresearch #agent_loops #human_agency #software_factory
+> The article reports on conference discussions about 'autoresearch' (agents that maintain and study systems through outer loops) and the tension between agent automation versus human control in software development. Speakers presented contrasting views: some advocating for agents in outer maintenance loops, others arguing humans must retain the outer 'agency' loop while agents handle inner execution. The piece reflects pushback against fully automated 'software factory' visions, emphasizing that human understanding remains critical for creative work and preventing replacement by agents.
 
 **✗ 1.7** — [Flyboard Captures 1.9 Million to Boost its AI Voice Agents in the Mid-Market - Demócrata](https://news.google.com/rss/articles/CBMiswFBVV95cUxQWnFLUGJZdU1kdDhFbFE1WS03cmUwRno5cGppbkZmS2E5QVpmbUJLUUk2dG1BOUNKc1VMZFFCem43dC0tSGpZMFREa3FRX2hOZGNLaHN4ODBKVDZVR2Q4T3VCSkhvRnp1eG9CaEJaNjB5NUdiV2c3RGhHSVFGZGczWE9YSFFXOFcxeUw2Ykl1SmdOYzB3eDR4Z2RtalY0X3RiclhiREF4YVlMZ282VnJUcEdIZ9IBuAFBVV95cUxNTUJYaDlZUHZCa01iNFVINGUyVWdleUpJZkVDZmhUWGxJU2V3QkZUSkl4cWduWDNrR01aU1ZQcGp3a3FpLWxGRXFvTi05Q0tMTVR3OWFrWmhBNWNEWWNBT1Y0My1ENDVMS3NPN1BHQURfOE8zMFZmazFXM3BvN2JWSDV6ZGwzMXlPUFhtUkE2WmpXSVcxazdXU045OVJDSmpyb1hBa2ZRbWVObFdTajdkN0NmWWlQMUlC?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-sales-gtm · ai-in-customer-success-support

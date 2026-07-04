@@ -1,9 +1,9 @@
 ---
-tags: [reinforcement-learning, in-context-learning, sample-efficiency, continual-learning, verifiable-training, computer-use-agents, inference-time-compute]
+tags: [action-scaling, chain-of-thought, computer-use-agents, continual-learning, extended-thinking, faithfulness, in-context-learning, inference-time-compute, inference-time-reasoning, microsoft, mixture-of-experts, model-training, model-transparency, reasoning-models, reinforcement-learning, sample-efficiency, thinking-budget, thought-process-visibility, verifiable-training]
 ---
 
 ---
-tags: [agentic-reasoning, agi-bottlenecks, ai-research-automation, alphago, best-of-n-sampling, chain-of-thought, coding-agents, credit-assignment, credit-assignment-problem, deepseek-r1, expert-data, formal-verification, grpo, inference-time-compute, inference-time-scaling, inference-time-verification, iterative-evaluation, lean-proofs, lean-theorem-proving, mathematical-reasoning, mcts, mixture-of-experts, model-distillation, monte-carlo-tree-search, off-policy-training, open-weights, policy-gradient, pope, post-training, privileged-on-policy-exploration, putnam-exam, reasoning-models, reinforcement-learning, rejection-sampling, rl-exploration, rl-training-signals, rl-training-targets, rlhf, rlvr, rollout-generation, sample-efficiency, self-consistency, self-play, self-refinement, swe-bench, synthetic-data, synthetic-data-generation, training-costs, verified-generation, parallel-rollouts, deterministic-simulators, context-window-scaling, in-context-learning, continual-learning, sample-efficiency-deficit, environment-quality, grindability]---
+tags: [agentic-reasoning, agi-bottlenecks, ai-research-automation, alphago, best-of-n-sampling, chain-of-thought, coding-agents, credit-assignment, credit-assignment-problem, deepseek-r1, expert-data, formal-verification, grpo, inference-time-compute, inference-time-scaling, inference-time-verification, iterative-evaluation, lean-proofs, lean-theorem-proving, mathematical-reasoning, mcts, mixture-of-agents, model-distillation, monte-carlo-tree-search, off-policy-training, open-weights, policy-gradient, pope, post-training, privileged-on-policy-exploration, putnam-exam, reasoning-models, reinforcement-learning, rejection-sampling, rl-exploration, rl-training-signals, rl-training-targets, rlhf, rlvr, rollout-generation, sample-efficiency, self-consistency, self-play, self-refinement, swe-bench, synthetic-data, synthetic-data-generation, training-costs, verified-generation, parallel-rollouts, deterministic-simulators, context-window-scaling, in-context-learning, continual-learning, sample-efficiency-deficit, environment-quality, grindability, mai-thinking-1, microsoft, stem-reasoning, agentic-coding-specialization, multi-stage-distillation, extended-thinking-mode, thinking-budget-control, action-scaling, thought-process-visibility, claude-3.7-sonnet, osworld-benchmark]---
 
 # Inference-Time Compute & Reasoning Models
 
@@ -15,42 +15,34 @@ Key questions tracked: What is the scaling law for inference-time compute? When 
 
 ### Conceptual Foundations (Weng, May 2025)
 
-**Test-time compute (thinking time)**: Core research area since ~2016 (Graves et al. 2016, Ling et al. 2017, Cobbe et al. 2021), formalized as using additional computation during inference rather than fixed forward passes.
+**Test-time compute (thin
 
-**Computational perspective**: In standard Transformers, computation per generated token ≈ 2 × parameters. For MoE models: computation = 2 × parameters / sparsity (where sparsity = fraction of experts active).
-- **CoT advantage**: Enables variable compute allocation based on problem d
+## Extended Thinking Mode (Anthropic, Feb 2025)
 
-### Rollout Generation at Scale (Dwarkesh, June 2026)
+**Architecture approach**: Claude 3.7 Sonnet implements extended thinking as a single-model capability, not a separate model switch. The same model can allocate variable compute at inference time based on task difficulty.
 
-**GRP
+**User control mechanisms**:
+- Toggle-based "extended thinking mode" for end users
+- "Thinking budget" parameter for developers to control inference compute allocation
+- Configurable trade-off between speed and depth of reasoning
 
-### In-Context Learning as Alternative to Weight Updates (Dwarkesh, June 2026)
+**Character training separation**: Extended thinking output is not subjected to standard character training, allowing "maximum leeway in thinking whatever thoughts were necessary" - resulting in more detached, exploratory reasoning that may include incorrect or half-baked intermediate thoughts (similar to human thinking process).
 
-**Continual learning may be unnecessary**: If in-context learning improves across longer horizons, weight updates from deployment may not be required for on-the-job learning. Analogy: human employees often take 6+ months to become net productive; with sufficiently large context windows, this learning period could fit within context.
+## Action Scaling
 
-**Architectural progress**: "Tons of architectural innovations on the transformer which dramatically increase the length of context you can store." Prediction: "With a couple more years of progress, why couldn't we have arbitrarily large context windows?"
+**Definition** (Anthropic, Feb 2025): "Action scaling" refers to improved capability allowing models to iteratively call functions, respond to environmental changes, and continue until open-ended tasks complete. Distinct from but complementary to extended thinking.
 
-**Session-level vs training-level efficiency**: Training sample efficiency may be ~1/1-millionth of human performance, but this is a one-time cost amortized across billions of sessions. What matters: "how smart, general, and sample efficient the model is within a session."
+**Implementation in computer use**: Claude 3.7 Sonnet can allocate more turns and compute to [[computer-use-agents]] tasks. Demonstrated improvements on OSWorld benchmark for multimodal AI agent capabilities.
 
-**Empirical observation**: "AIs are able to solve more and more ambitious problems across longer and longer time spans - anybody who's been using these models for coding knows that."
+## Thought Process Visibility & Faithfulness
 
-### Domain Characteristics for RL Training (Dwarkesh, June 2026)
+**Visibility benefits** (Anthropic, Feb 2025):
+- **Trust**: Observable reasoning enables answer verification and potentially better outputs
+- **Alignment research**: Contradictions between internal thinking and external statements can identify concerning behaviors like deception (see [[ai-safety]])
+- **Interpretability**: Researchers note similarity between Claude's exposed reasoning and human problem-solving patterns
 
-**Grindability as critical factor**: Verifiability alone insufficient for rapid progress. Domains must be "grindable"—supporting many parallel rollouts against deterministic, replayable simulators.
+**Faithfulness problem**: *Active research area* - Uncertainty whether visible thought process truly represents model's internal reasoning. English-language words may be insufficient to describe actual decision-making factors. 
 
-**Computer use as counterexample**: Despite clear verifiability (e.g., "did the desired Etsy item get ordered"), progress has been "much slower than coding and math." 
+**Key finding** (Anthropic, Feb 2025): "Models very often make decisions based on factors that they don't explicitly discuss in their thinking process" - meaning visible thoughts cannot be fully relied upon for safety monitoring.
 
-**Reasons for computer use lag**:
-- Less high-quality multimodal data during pretraining
-- Video consumes context window faster
-- **Cannot run parallel rollouts**: "You can't have a thousand agents go try the same checkout flow on Amazon.com. Because Andy Jassy will find and detect your bots and shut your ass down."
-
-**Workaround**: Building clones of Slack, Gmail, and other applications—but "currently, this is a very labor-intensive and unscalable way to build environments."
-
-**Future solution**: Once AIs can code well enough to build high-fidelity clones themselves, computer use progress expected to accelerate. This creates dual benefit: building clones is itself "a great RL objective for coding."
-
-**Sample efficiency bottleneck**: Models' extreme training sample inefficiency means "unless you can build a very replayable training target for a domain, the models will struggle to make much progress."
-
-**Unsolved domains**: Many AGI-relevant skills lack grindable environments: "How would we train an AI to build a business? How would you make an AI that&" [article truncated]
-
-See also: [[rl-environment-quality]], [[post-training-rlhf]], [[model-architecture]]
+**Status**: Claude 3.7 Sonnet's visible thought process should be considered a "research preview" - future releases may or may not expose thinking depending on risk/benefit analysis.
