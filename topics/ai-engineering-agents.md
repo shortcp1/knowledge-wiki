@@ -1,57 +1,61 @@
 ---
-tags: [agent-demo-generation, agent-demos, agent-framework, agent-skills, agent-vocabulary, agentic-primitives, agentic-tasks, agentic-workflows, ai-engineering-agents, benchmark-design, business-agents, claude-code, claude-sonnet, cli-interface, codex-desktop, coding-agents, cross-harness-compatibility, cursor-ide, datasette, design-agents, design-skills, file-manipulation, frontier-models, glm-5-2, gpt-5-5-xhigh, human-in-the-loop, impeccable, inference-cost, llm-as-judge, llm-library, mcp-servers, mixture-of-experts, mixture-of-skills, model-evaluation, open-weight-models, playwright-agents, playwright-automation, prompt-vocabulary, self-hosting, shot-scraper, skill-engineering, skill-routing, storyboard-automation, storyboard-yaml, tdd, tool-calling, v0-coding-agent, vendor-lock-in, vercel-eve, video-demo-agents, video-documentation]---
+tags: [ai-coding-agents, ai-engineering-agents, autonomous-debugging, claude-code, claude-fable, coding-agents, cross-model-tool-compatibility, model-regression, model-specific-tool-training, pre-release-testing, reinforcement-learning, reinforcement-learning-tool-bias, software-quality-assurance, tool-calling, tool-calling-reliability, tool-schema, transaction-management]
+---
 
 ---
-tags: [4-bit-quantization, agent-architecture, agent-collaboration, agent-harness, agent-harness-design, agent-loops, agent-portability, agent-sdk, agent-state-tracking, agentic-architecture, agentic-behavior, agentic-bug-finding, agentic-coding, agentic-coding-tools, agentic-reasoning, agentic-science, agentic-systems, agentic-tasks, agentic-workflows, ai-coding-agents, ai-coding-productivity, ai-engineering-agents, ai-engineering-tools, ai-rd-automation, ai-scientists, aisuite, alphafold, always-on-agents, anthropic, antigravity-cli, auto-dream, autonomous-agents, autonomous-coding, autonomous-debugging, autonomous-experimentation, autonomous-fine-tuning, autonomous-research, autonomous-workflows, backend-development, background-processes, benchmark-contamination, benchmark-design, benchmark-vs-deployment, browser-automation, bug-finding-agents, capybara, chain-of-thought, change-data-capture, claude-code, claude-fable, claude-fable-5, claude-mythos, claude-opus-4, cli-agents, client-side-inference, cloud-offloading, code-quality-evaluation, codex, codex-cli, codex-desktop, codex-goals, coding-agents, coding-models, composer, context-caching, context-window-management, controller-agents, cors-debugging, cost-efficiency, creative-agents, cron-loops, cursor, cursor-cli, cursorbench, data-retention-privacy, datasette-agent, deepswe, skill-engineering, design-skills, impeccable, agent-vocabulary, design-agents, cross-harness-compatibility, skill-routing, mixture-of-skills]
+tags: [agent-demo-generation, agent-demos, agent-framework, agent-skills, agent-vocabulary, agentic-primitives, agentic-tasks, agentic-workflows, ai-engineering-agents, benchmark-design, business-agents, claude-code, claude-sonnet, cli-interface, codex-desktop, coding-agents, cross-harness-compatibility, cursor-ide, datasette, design-agents, design-skills, file-manipulation, frontier-models, glm-5-2, gpt-5-5-xhigh, human-in-the-loop, impeccable, inference-cost, llm-as-judge, llm-library, mcp-servers, mixture-of-experts, mixture-of-skills, model-evaluation, open-weight-models, playwright-agents, playwright-automation, prompt-vocabulary, self-hosting, shot-scraper, skill-engineering, skill-routing, storyboard-automation, storyboard-yaml, tdd, tool-calling, v0-coding-agent, vendor-lock-in, vercel-eve, video-demo-agents, video-documentation, claude-fable, sqlite-utils, pre-release-review, bug-detection, transaction-handling, mobile-prompting, async-work-pattern, multi-model-review, gpt-5-5-review]---
 
-## Skill Engineering
+## sqlite-utils 4.0rc2: Production Library Development with Claude Fable (July 2026)
 
-**Definition**: Emerging discipline focused on building reusable, domain-specific capabilities for AI agents that encode expert knowledge and vocabulary
+**Source**: Simon Willison, "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)"
 
-### Core Concept (Bakaus, 2026)
-- Skills give agents structured domain knowledge beyond raw instructions
-- Skills provide "a vocabulary" for agents to operate in specialized domains
-- Unlike one-shot prompting, skills enable iterative human steering through domain-specific commands
+### Business Problem
+- Final pre-release review and hardening of sqlite-utils 4.0 library before stable release
+- Critical need to identify breaking changes and bugs before committing to SemVer major version
+- Maintaining library quality and backward compatibility standards
 
-### Key Example: Impeccable Design Skills System
-- **Origin**: Started as extension of Anthropic's frontend design skill
-- **Purpose**: Gives coding agents vocabulary for improving interfaces through terms like "bolder," "quieter," "denser"
-- **Architecture**: Open-source system with multiple components and workflows
-- **Design philosophy**: "Never going to be a tool for one-shot design" — intended for human-guided iteration
+### AI Pattern Applied
+**Agentic coding review and implementation** using Claude Fable (Claude Code for web)
+- Initial comprehensive review prompt: "Final review before shipping a stable 4.0 release - very important to spot any last minute things that would be a breaking change if we fix them later"
+- Iterative bug fixing and design improvements over
 
-### Skill Design Principles
+## Tool Calling Reliability Degradation in Newer Models (Pi/Claude, July 2026)
 
-#### Domain Vocabulary Translation
-- Takes terms familiar to domain experts and gives them "precise operational meaning" for agents
-- Example: "Bold" without context may produce gradients/neon; with skill definition, produces hierarchy/scale/decisive typography
-- "An adjective with nothing behind it is just a nice apostrophe" — requires explicit meaning
-- Compresses expert vocabulary into agent-accessible format
+**Source**: Armin Ronacher via Simon Willison, "Better Models: Worse Tools"
 
-#### Cross-Harness Compatibility Challenge
-- Different agent harnesses (Codex, Claude Code, Cursor, GitHub Copilot) handle subagents and permissions differently
-- Skills intended for multiple platforms cannot assume identical capabilities
-- Requires careful design to work across heterogeneous environments
+### Problem Pattern
+**Tool Schema Violations in Frontier Models**: Claude Opus 4.8 and Sonnet 5 exhibit **worse** tool calling reliability than older Claude models when using third-party coding harnesses like Pi.
 
-#### Skill Routing and Mixture-of-Skills
-- Skills can include internal routing to combine multiple capabilities
-- Routes tasks toward relevant instructions within the skill
-- Analogous to mixture-of-experts models
-- Benefits: token conservation and improved effectiveness
+**Specific Failure Mode**:
+- Models call Pi's edit tool with **extra, invented fields** in nested `edits[]` array
+- Fields do not match schema - models "invent made-up keys"
+- Edit content itself usually correct, but malformed arguments cause rejection
+- Pi rejects tool call and requests retry
+- **Counter-intuitive**: SOTA models perform worse than older siblings on this specific task
 
-### Known Limitations
+### Root Cause Analysis
+**Model-Specific Tool Training Bias** (high confidence):
+- Recent Anthropic models trained via Reinforcement Learning to optimize performance with **Claude Code's native edit tools**
+- Claude Code uses **search-and-replace** edit mechanism
+- Training optimizes for vendor-specific tool schemas, degrading generalization to third-party tools
+- Similar pattern: OpenAI trains models specifically for **Codex's apply_patch mechanism**
 
-#### Creativity Convergence Problem
-- "Most skills — [and] most models — are not very creative"
-- Tendency to "converge in one direction"
-- Risk: If everyone uses same skill, "everything ends up looking the same"
-- Open challenge for skill engineering discipline
+### Cross-Harness Compatibility Crisis
+**Design Tension**: As vendors train models for their own tool ecosystems, third-party harnesses face degrading compatibility:
+- Pi (third-party harness) uses custom edit tool schema
+- Claude Code (Anthropic native) uses search-and-replace
+- OpenAI Codex uses apply_patch
+- Each vendor optimizes models for their own tooling
 
-#### Appropriate Level of Abstraction
-- Not all tasks benefit from skill-level control
-- Direct manipulation (e.g., spacing adjustments) may be faster for small changes
-- Open-ended prompting still useful for initial exploration
-- Goal: Determine "exact level of control" and insert human judgment where most valuable
+### Potential Mitigation Pattern
+**Multi-Tool Adaptation Strategy** (contested approach):
+- Third-party harnesses may need to implement **multiple edit tool interfaces**
+- Route to vendor-specific tool based on underlying model selection
+- Example: Use search-replace tool for Claude models, apply_patch for OpenAI
+- Trade-off: Increased complexity vs. improved reliability
+- Open question: Does this create unsustainable maintenance burden?
 
-### Cross-references
-- [[prompt-architecture]] — Skills as structured prompt knowledge
-- [[ai-native-product-design]] — Human steering vs. full automation philosophy
+### Cross-References
+- Related to [[model-architecture]] reinforcement learning training effects
+- Related to [[agentic-workflows-production]] multi-model orchestration challenges
+- Vendor lock-in implications through tool training bias

@@ -27285,6 +27285,326 @@
       "tags": [],
       "status": "skipped",
       "skip_reason": "No actual article content provided - only a Google cookie consent page with privacy policy text unrelated to the claimed AI budget ROI topic."
+    },
+    "https://www.deeplearning.ai/the-batch/page/20": {
+      "title": "20",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-05T02:00:51.580985+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a table of contents page listing issues of The Batch newsletter from DeepLearning.AI from late 2020 to early 2021. The page contains only brief headlines and first sentences from various newsletter issues covering topics like AI ethics, model deployment, and industry news. It provides no substantive analysis or original content, serving purely as an archive navigation interface.",
+      "tags": [
+        "newsletter-archive",
+        "table-of-contents",
+        "deeplearning-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a table of contents/archive page with no substantive content, analysis, or actionable information."
+    },
+    "https://www.deeplearning.ai/the-batch/gpt-5-6-lands-in-limbo": {
+      "title": "Gpt 5 6 Lands In Limbo",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-05T02:00:51.343334+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-time-compute",
+        "ai-governance-risk-compliance",
+        "regulatory-policy",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI announced GPT-5.6 family (Sol, Terra, Luna) with extensive safety guardrails and government-controlled access restrictions, currently available only to U.S. government-approved partners. The models feature reasoning-level controls, multi-agent coordination (ultra mode), and multi-layered classifiers that scan conversations and internal activations for dangerous biological, chemical, and cybersecurity information. This represents a significant shift toward government-mediated AI deployment and raises questions about access control, dual-use technology governance, and the balance between safety and open availability.",
+      "tags": [
+        "government-approval-access",
+        "safety-guardrails",
+        "dual-use-technology",
+        "multi-agent-coordination",
+        "reasoning-traces",
+        "jailbreak-resistance"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with limited technical depth and speculative future release date (2026); lacks original analysis or investigation into the implications of government-controlled AI access"
+    },
+    "https://www.deeplearning.ai/the-batch/how-we-decide-what-courses-to-teach-the-ai-world-is-full-of-hype-and-sales-pitches-deeplearning-ai-focuses-on-most-important-tools-and-techniques-in-ways-you-can-apply-to-any-ai-vendors": {
+      "title": "How We Decide What Courses To Teach The Ai World Is Full Of Hype And Sales Pitches Deeplearning Ai Focuses On Most Important Tools And Techniques In Ways You Can Apply To Any Ai Vendors",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-05T02:00:50.636737+00:00",
+      "composite": 3.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "evals-production-deployment",
+        "prompt-architecture"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Andrew Ng explains DeepLearning.AI's course selection philosophy, prioritizing learner value over partner sales interests and focusing on vendor-agnostic AI engineering fundamentals. The approach emphasizes teaching transferable skills like agentic workflows, evals, and prompting that apply across any vendor ecosystem, rather than product-specific training. This matters as a counterpoint to vendor-driven AI education, though the article is promotional rather than analytical.",
+      "tags": [
+        "ai-engineering",
+        "agentic-workflows",
+        "evals",
+        "prompting",
+        "vendor-agnostic",
+        "educational-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Promotional meta-content about course selection rather than substantive technical or strategic analysis; lacks original insights, data, or frameworks applicable to AI implementation."
+    },
+    "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything": {
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "source": "Simon Willison",
+      "date": "2026-07-05T01:00:48+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Simon Willison used Claude Fable (via Claude Code) to complete a major 4.0 release of sqlite-utils, spending approximately $149.25 across 37 prompts and 34 commits that modified 30 files. Claude identified 5 critical \"release blocker\" bugs including a severe data loss issue in delete_where() that left database connections in an uncommitted transaction state, poisoning subsequent operations. This demonstrates the practical application of AI coding agents for comprehensive pre-release auditing and refactoring work, with the agent able to work autonomously for 10-15 minutes while the developer attended to other activities.",
+      "tags": [
+        "ai-coding-agents",
+        "claude-fable",
+        "software-quality-assurance",
+        "transaction-management",
+        "pre-release-testing",
+        "autonomous-debugging"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything": {
+      "title": "Building a World Map with only 500 bytes",
+      "source": "Simon Willison",
+      "date": "2026-07-04T23:09:02+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article describes a technique for generating an ASCII world map using only 445 bytes of data by leveraging deflate compression. The implementation uses a JavaScript fetch() with data URIs and DecompressionStream to decode and display the compressed map data. The project was created by Iwo Kadziela with assistance from Codex (an AI coding tool).",
+      "tags": [
+        "deflate-compression",
+        "ascii-art",
+        "data-compression",
+        "javascript",
+        "codex",
+        "code-generation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is about creative data compression and JavaScript techniques for rendering ASCII art, with no connection to AI systems architecture, enterprise AI use cases, or any of the specified topic areas beyond tangential mention of Codex as a coding assistant."
+    },
+    "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything": {
+      "title": "Better Models: Worse Tools",
+      "source": "Simon Willison",
+      "date": "2026-07-04T22:53:52+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "model-architecture",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "The article reports a counterintuitive finding where newer, more advanced Claude models (Opus 4.8, Sonnet 5) perform worse at calling custom coding tools than older models, specifically inventing extra fields that don't match the tool schema. The key mechanism is that newer models appear to be specifically trained via reinforcement learning to use Claude's native edit tools (search-and-replace), causing them to misuse third-party tools with different schemas like Pi's coding harness. This raises the question of whether third-party AI coding tools must now implement multiple edit tool variants optimized for different foundation models, fragmenting the ecosystem.",
+      "tags": [
+        "tool-calling",
+        "reinforcement-learning",
+        "coding-agents",
+        "model-regression",
+        "claude-code",
+        "tool-schema"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/": {
+      "title": "Why California\u2019s carbon manure math doesn\u2019t add up",
+      "source": "MIT Technology Review",
+      "date": "2026-07-02T09:00:00+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that California's Low Carbon Fuel Standard program, which pays dairy farmers to capture methane from manure and convert it to natural gas, uses flawed carbon accounting that trades short-term methane reductions for long-term CO2 increases. The key mechanism is that the program assumes methane's 25x warming equivalence over 100 years justifies allowing petroleum companies to buy credits instead of reducing their own emissions, ignoring that methane dissipates in decades while CO2 persists for millennia. This matters because it exemplifies how carbon offset and trading schemes systematically overstate actual climate benefits while potentially increasing long-term warming.",
+      "tags": [
+        "carbon-offsets",
+        "methane-vs-co2",
+        "biogas",
+        "lcfs-credits",
+        "climate-accounting"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on agricultural climate policy and carbon accounting methodology rather than AI, semiconductors, or enterprise technology topics covered in the knowledge wiki."
+    },
+    "https://www.latent.space/p/software-factories": {
+      "title": "Warp CEO Zach Lloyd on why software factories are the next phase of coding",
+      "source": "Latent Space",
+      "date": "2026-07-01T14:28:23+00:00",
+      "composite": 5.67,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Warp CEO Zach Lloyd argues that software development is transitioning from engineers working interactively with individual coding agents to fully automated 'software factories' that continuously triage, implement, review, verify and monitor code changes. The company has evolved from a Rust-based CLI terminal to launching Oz, an agent orchestration platform that connects multiple models and coding harnesses across environments to automate the main loop of software engineering. Lloyd predicts most significant software projects will operate some form of automated factory within the next year.",
+      "tags": [
+        "software-factories",
+        "agent-orchestration",
+        "warp",
+        "oz-platform",
+        "automated-development",
+        "coding-agents"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is primarily a high-level interview about product vision and company pivot rather than deep technical analysis or novel research; contains useful industry perspective but lacks substantive detail on implementation or novel claims."
+    },
+    "https://www.latent.space/p/aiewf-daily-dispatch-loops": {
+      "title": "AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers",
+      "source": "Latent Space",
+      "date": "2026-07-01T04:46:21+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "landscape",
+      "summary": "This article reports on conversations at the AI Engineer World's Fair focused on 'loops' as a paradigm for AI agent automation, with multiple speakers discussing how repeated execution cycles enable agents to perform software development tasks. The key evidence comes from presentations by OpenAI, Microsoft, Warp, and others describing 'software factories' where agents handle coding, feedback collection, and deployment through iterative loops. This matters as it signals an industry shift toward viewing AI engineering as orchestrating automated systems rather than direct coding.",
+      "tags": [
+        "agent-loops",
+        "software-factories",
+        "autonomous-coding",
+        "agentic-orchestration",
+        "ai-engineer-worldsfair"
+      ],
+      "status": "skipped",
+      "skip_reason": "Event recap with surface-level summaries of multiple presentations; lacks original analysis, specific technical details, or novel frameworks beyond reporting that 'loops' was a popular topic"
+    },
+    "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5": {
+      "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
+      "source": "Latent Space",
+      "date": "2026-07-01T03:01:09+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "ai-pricing-packaging-saas",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Anthropic's release of Claude Sonnet 5, which disappointed users by being more expensive to run than competitors due to tokenizer changes and increased turn-taking in benchmarks. The launch was accompanied by platform expansions (Linux support, Managed Agents updates) but notably did not include the anticipated Fable 5 model release. The pricing paradox\u2014where Sonnet 5 cost more than the larger Opus 4.8 model on benchmarks\u2014became the central narrative, dampening excitement around what was marketed as their most agentic mid-tier model.",
+      "tags": [
+        "claude-sonnet-5",
+        "inference-cost",
+        "tokenizer-efficiency",
+        "model-pricing",
+        "anthropic",
+        "managed-agents"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news aggregation of model release announcements without original analysis or deep technical insights; primarily social media commentary compilation"
+    },
+    "https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/": {
+      "title": "Outlook Gaining Traction Global Private Equity Report 2026",
+      "source": "Bain Insights",
+      "date": "2026-07-05T02:00:50.461339+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation menu/header structure from Bain & Company's website for their Private Equity Report 2026, not the actual report content. The text consists entirely of website navigation elements, office locations, and menu items without any substantive analysis or information. No actual content about private equity outlook, trends, or insights is present in the provided text.",
+      "tags": [
+        "private-equity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text contains only website navigation elements and headers with no actual report content, analysis, or substantive information to evaluate."
+    },
+    "https://www.bain.com/insights/generative-ai-in-insurance/": {
+      "title": "Generative Ai In Insurance",
+      "source": "Bain Insights",
+      "date": "2026-07-05T02:00:50.076053+00:00",
+      "composite": 2.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-insurance-claims"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or landing page for Bain & Company's website rather than substantive content about generative AI in insurance. The article contains only menu structure, office locations, and site navigation elements with no actual analysis, insights, or information about AI applications in insurance. This represents a web scraping error rather than meaningful content to evaluate.",
+      "tags": [
+        "insurance",
+        "generative-ai",
+        "bain-consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "Web scraping captured only navigation/menu content with no actual article body or substantive information about generative AI in insurance."
+    },
+    "https://www.bain.com/insights/welcome-to-a-new-era-global-private-equity-report-2026/": {
+      "title": "Welcome To A New Era Global Private Equity Report 2026",
+      "source": "Bain Insights",
+      "date": "2026-07-05T02:00:49.638580+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation page or header for Bain & Company's Global Private Equity Report 2026, not the actual report content. The text consists entirely of website navigation menus, office locations, and structural elements without any substantive analysis or information. No actual content about private equity trends, strategies, or insights is present in the provided text.",
+      "tags": [
+        "private-equity",
+        "bain-report"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only website navigation and structural elements with no substantive content to evaluate."
+    },
+    "https://www.lennysnewsletter.com/p/community-wisdom-quarterly-planning": {
+      "title": "\ud83e\udde0 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more",
+      "source": "Lenny's Newsletter",
+      "date": "2026-07-04T16:58:47+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This is a community newsletter digest that aggregates member discussions on various business topics including quarterly planning with AI, compensation structures, and compliance opportunities. The article provides no substantive content beyond titles of discussion topics, as the actual content is paywalled for paid subscribers only. Without access to the actual discussions and insights, the article offers no actionable analysis or data.",
+      "tags": [
+        "community-digest",
+        "quarterly-planning",
+        "compensation-structure",
+        "compliance"
+      ],
+      "status": "skipped",
+      "skip_reason": "Paywalled newsletter digest with no accessible content beyond discussion topic titles; provides no substantive analysis, data, or insights to evaluate."
     }
   }
 }

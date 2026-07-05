@@ -705,7 +705,59 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-05
+
+**✗ 2.3** — [20](https://www.deeplearning.ai/the-batch/page/20)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #table_of_contents #deeplearning_ai
+> This is a table of contents page listing issues of The Batch newsletter from DeepLearning.AI from late 2020 to early 2021. The page contains only brief headlines and first sentences from various newsletter issues covering topics like AI ethics, model deployment, and industry news. It provides no substantive analysis or original content, serving purely as an archive navigation interface.
+
+**✗ 5.3** — [Gpt 5 6 Lands In Limbo](https://www.deeplearning.ai/the-batch/gpt-5-6-lands-in-limbo)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-time-compute · ai-governance-risk-compliance
+#government_approval_access #safety_guardrails #dual_use_technology #multi_agent_coordination
+> OpenAI announced GPT-5.6 family (Sol, Terra, Luna) with extensive safety guardrails and government-controlled access restrictions, currently available only to U.S. government-approved partners. The models feature reasoning-level controls, multi-agent coordination (ultra mode), and multi-layered classifiers that scan conversations and internal activations for dangerous biological, chemical, and cybersecurity information. This represents a significant shift toward government-mediated AI deployment and raises questions about access control, dual-use technology governance, and the balance between safety and open availability.
+
+**✗ 3.3** — [How We Decide What Courses To Teach The Ai World Is Full Of Hype And Sales Pitches Deeplearning Ai Focuses On Most Important Tools And Techniques In Ways You Can Apply To Any Ai Vendors](https://www.deeplearning.ai/the-batch/how-we-decide-what-courses-to-teach-the-ai-world-is-full-of-hype-and-sales-pitches-deeplearning-ai-focuses-on-most-important-tools-and-techniques-in-ways-you-can-apply-to-any-ai-vendors)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · evals-production-deployment · prompt-architecture
+#ai_engineering #agentic_workflows #evals #prompting
+> Andrew Ng explains DeepLearning.AI's course selection philosophy, prioritizing learner value over partner sales interests and focusing on vendor-agnostic AI engineering fundamentals. The approach emphasizes teaching transferable skills like agentic workflows, evals, and prompting that apply across any vendor ecosystem, rather than product-specific training. This matters as a counterpoint to vendor-driven AI education, though the article is promotional rather than analytical.
+
+**✗ 1.0** — [Outlook Gaining Traction Global Private Equity Report 2026](https://www.bain.com/insights/outlook-gaining-traction-global-private-equity-report-2026/)  
+*Bain Insights* · 
+#private_equity
+> This appears to be a navigation menu/header structure from Bain & Company's website for their Private Equity Report 2026, not the actual report content. The text consists entirely of website navigation elements, office locations, and menu items without any substantive analysis or information. No actual content about private equity outlook, trends, or insights is present in the provided text.
+
+**✗ 2.0** — [Generative Ai In Insurance](https://www.bain.com/insights/generative-ai-in-insurance/)  
+*Bain Insights* · ai-insurance-claims
+#insurance #generative_ai #bain_consulting
+> This appears to be a navigation page or landing page for Bain & Company's website rather than substantive content about generative AI in insurance. The article contains only menu structure, office locations, and site navigation elements with no actual analysis, insights, or information about AI applications in insurance. This represents a web scraping error rather than meaningful content to evaluate.
+
+**✗ 1.7** — [Welcome To A New Era Global Private Equity Report 2026](https://www.bain.com/insights/welcome-to-a-new-era-global-private-equity-report-2026/)  
+*Bain Insights* · 
+#private_equity #bain_report
+> This appears to be a navigation page or header for Bain & Company's Global Private Equity Report 2026, not the actual report content. The text consists entirely of website navigation menus, office locations, and structural elements without any substantive analysis or information. No actual content about private equity trends, strategies, or insights is present in the provided text.
+
+**✓ 7.0** — [sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)](https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
+#ai_coding_agents #claude_fable #software_quality_assurance #transaction_management
+> Simon Willison used Claude Fable (via Claude Code) to complete a major 4.0 release of sqlite-utils, spending approximately $149.25 across 37 prompts and 34 commits that modified 30 files. Claude identified 5 critical "release blocker" bugs including a severe data loss issue in delete_where() that left database connections in an uncommitted transaction state, poisoning subsequent operations. This demonstrates the practical application of AI coding agents for comprehensive pre-release auditing and refactoring work, with the agent able to work autonomously for 10-15 minutes while the developer attended to other activities.
+
 ## 2026-07-04
+
+**✗ 2.0** — [Building a World Map with only 500 bytes](https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything)  
+*Simon Willison* · 
+#deflate_compression #ascii_art #data_compression #javascript
+> This article describes a technique for generating an ASCII world map using only 445 bytes of data by leveraging deflate compression. The implementation uses a JavaScript fetch() with data URIs and DecompressionStream to decode and display the compressed map data. The project was created by Iwo Kadziela with assistance from Codex (an AI coding tool).
+
+**✓ 8.0** — [Better Models: Worse Tools](https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · model-architecture · agentic-workflows-production
+#tool_calling #reinforcement_learning #coding_agents #model_regression
+> The article reports a counterintuitive finding where newer, more advanced Claude models (Opus 4.8, Sonnet 5) perform worse at calling custom coding tools than older models, specifically inventing extra fields that don't match the tool schema. The key mechanism is that newer models appear to be specifically trained via reinforcement learning to use Claude's native edit tools (search-and-replace), causing them to misuse third-party tools with different schemas like Pi's coding harness. This raises the question of whether third-party AI coding tools must now implement multiple edit tool variants optimized for different foundation models, fragmenting the ecosystem.
+
+**✗ 2.3** — [🧠 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more](https://www.lennysnewsletter.com/p/community-wisdom-quarterly-planning)  
+*Lenny's Newsletter* · 
+#community_digest #quarterly_planning #compensation_structure #compliance
+> This is a community newsletter digest that aggregates member discussions on various business topics including quarterly planning with AI, compensation structures, and compliance opportunities. The article provides no substantive content beyond titles of discussion topics, as the actual content is paywalled for paid subscribers only. Without access to the actual discussions and insights, the article offers no actionable analysis or data.
 
 **✗ 3.0** — [How To Break Through Pharmas Innovation Bottleneck With Ai](https://www.bain.com/insights/how-to-break-through-pharmas-innovation-bottleneck-with-ai/)  
 *Bain Insights* · 
@@ -909,6 +961,11 @@ All articles scanned since the wiki started. Updated nightly.
 #bnpl #agentic_commerce #kya_know_your_agent #autonomous_purchasing
 > The article argues that Buy Now Pay Later (BNPL) providers face an infrastructure mismatch as AI agents begin making autonomous purchasing decisions on behalf of consumers, requiring new verification frameworks beyond traditional Know Your Customer (KYC) approaches. It introduces the concept of "Know Your Agent" (KYA) to address questions of verifying intent, underwriting invisible decision-making processes, and assigning responsibility when agents act as instructed but produce unintended outcomes. This matters because it identifies BNPL as an early test case for how financial infrastructure must adapt to agentic commerce where the purchaser and debt-holder are decoupled.
 
+**✗ 3.0** — [Why California’s carbon manure math doesn’t add up](https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/)  
+*MIT Technology Review* · regulatory-policy
+#carbon_offsets #methane_vs_co2 #biogas #lcfs_credits
+> The article argues that California's Low Carbon Fuel Standard program, which pays dairy farmers to capture methane from manure and convert it to natural gas, uses flawed carbon accounting that trades short-term methane reductions for long-term CO2 increases. The key mechanism is that the program assumes methane's 25x warming equivalence over 100 years justifies allowing petroleum companies to buy credits instead of reducing their own emissions, ignoring that methane dissipates in decades while CO2 persists for millennia. This matters because it exemplifies how carbon offset and trading schemes systematically overstate actual climate benefits while potentially increasing long-term warming.
+
 **✗ 4.3** — [Image Generation and Visual Intelligence with Black Forest Labs](https://share.transistor.fm/s/6d8dad5f)  
 *Practical AI (Changelog)* · model-architecture
 #diffusion_models #flow_matching #image_generation #flux_models
@@ -1016,6 +1073,11 @@ All articles scanned since the wiki started. Updated nightly.
 #llm_homogeneity #response_diversity #training_methodology #hallucination_tolerance
 > The article reports that mainstream LLMs exhibit predictable, homogeneous responses to open-ended prompts (e.g., nearly all return '7' for random numbers, 'Time is a river' for metaphors), a problem Australian startup Springboards addresses with their LLM 'Flint' trained for response diversity. Evidence includes a NeurIPS best paper showing 1,250 responses from 25 LLMs converged on similar metaphors, and demonstrations of Flint producing less predictable outputs than ChatGPT and Claude. This matters because LLM groupthink limits creativity-dependent applications like brainstorming and planning, suggesting training methodology diversity could unlock new use cases beyond deterministic tasks.
 
+**✗ 5.7** — [Warp CEO Zach Lloyd on why software factories are the next phase of coding](https://www.latent.space/p/software-factories)  
+*Latent Space* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#software_factories #agent_orchestration #warp #oz_platform
+> Warp CEO Zach Lloyd argues that software development is transitioning from engineers working interactively with individual coding agents to fully automated 'software factories' that continuously triage, implement, review, verify and monitor code changes. The company has evolved from a Rust-based CLI terminal to launching Oz, an agent orchestration platform that connects multiple models and coding harnesses across environments to automate the main loop of software engineering. Lloyd predicts most significant software projects will operate some form of automated factory within the next year.
+
 **✗ 3.0** — [The Download: Anthropic launches Claude Science, and California’s carbon manure math](https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/)  
 *MIT Technology Review* · model-architecture · ai-in-product-and-engineering
 #claude_science #anthropic #computational_biology #drug_development
@@ -1040,6 +1102,16 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Mid-Market Enterprise* · 
 #cookie_consent #scraping_error #no_content
 > This submission contains no actual article content, only a Google cookie consent page. It provides no information about Archia or AI adoption problems. There is nothing to evaluate as the article text was not successfully captured.
+
+**✗ 4.7** — [AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers](https://www.latent.space/p/aiewf-daily-dispatch-loops)  
+*Latent Space* · ai-engineering-agents · agentic-workflows-production
+#agent_loops #software_factories #autonomous_coding #agentic_orchestration
+> This article reports on conversations at the AI Engineer World's Fair focused on 'loops' as a paradigm for AI agent automation, with multiple speakers discussing how repeated execution cycles enable agents to perform software development tasks. The key evidence comes from presentations by OpenAI, Microsoft, Warp, and others describing 'software factories' where agents handle coding, feedback collection, and deployment through iterative loops. This matters as it signals an industry shift toward viewing AI engineering as orchestrating automated systems rather than direct coding.
+
+**✗ 4.7** — [[AINews] Sonnet 5 today, and Fable 5 tomorrow](https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5)  
+*Latent Space* · model-architecture · inference-efficiency · ai-pricing-packaging-saas
+#claude_sonnet_5 #inference_cost #tokenizer_efficiency #model_pricing
+> The article reports on Anthropic's release of Claude Sonnet 5, which disappointed users by being more expensive to run than competitors due to tokenizer changes and increased turn-taking in benchmarks. The launch was accompanied by platform expansions (Linux support, Managed Agents updates) but notably did not include the anticipated Fable 5 model release. The pricing paradox—where Sonnet 5 cost more than the larger Opus 4.8 model on benchmarks—became the central narrative, dampening excitement around what was marketed as their most agentic mid-tier model.
 
 **✗ 5.0** — [Claude Science Ai Workbench](https://www.anthropic.com/news/claude-science-ai-workbench)  
 *Anthropic Blog* · ai-engineering-agents · agentic-workflows-production · ai-native-product-design
