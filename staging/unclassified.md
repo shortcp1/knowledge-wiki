@@ -1156,3 +1156,18 @@ Episode referenced but content not provided in article text: "No Figma. No Jira.
 Vercel is building an end-to-end agent platform comparable to its web development platform, but with a partner ecosystem approach. The article was cut off before completing this section, suggesting Vercel values specialized partners for parts of the agent lifecycle while providing core infrastructure.
 
 **Philosophical Positioning**: Agents as fundamentally new software category requiring different mental models, not just incremental evolution of existing application patterns.
+
+---
+**🔮 Exponential View #591: Never skilling; tricking OpenClaw; screwworm & progress; synth cells, tungsten & AI superforecasters++** (Exponential View (Azeem Azhar), 2026-07-05T08:21:58+00:00)
+**China-US AI Geopolitics: Open Source as Resilience Infrastructure**
+
+*New finding from academic paper (July 2026)*:
+- **Export control response pattern**: US chip controls (2022+) correlate with sharp increase in Chinese developer forking of LLM repos on GitHub. Post-control events: +0.143 forks/repo-week (China-linked developers) vs +0.012 (US developers)—an 11x gap.
+- **Strategic interpretation**: China treating open-source AI models as "resilience infrastructure" to reduce dependence on upstream US-controlled inputs under geopolitical uncertainty.
+- **Model diffusion**: Qwen and DeepSeek achieved near-parity global research/commercial adoption speed with best US models.
+- **Patent disclosure asymmetry**: US patents rarely disclose use of Chinese-origin models (suggests either non-use, strategic non-disclosure, or both).
+- **Domestic science-to-patent linkage**: China's share of domestic science underlying domestic patents grew 1% (2000) → 26% (2025). Still builds on foreign research but increasing self-reliance trend confirmed.
+
+**Tungsten geopolitics**: Wars depleting global tungsten stocks; China mines 80%; West reopening mines. Relevant to semiconductor manufacturing but insufficient detail for existing topics.
+
+*Suggested new topic files: [[ai-geopolitics-open-source]] or [[china-ai-supply-chain-strategy]]*

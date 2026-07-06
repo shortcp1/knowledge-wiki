@@ -27605,6 +27605,207 @@
       ],
       "status": "skipped",
       "skip_reason": "Paywalled newsletter digest with no accessible content beyond discussion topic titles; provides no substantive analysis, data, or insights to evaluate."
+    },
+    "https://www.deeplearning.ai/the-batch/page/22": {
+      "title": "22",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-06T02:00:51.465966+00:00",
+      "composite": 1.3,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is an index page showing titles and brief snippets from past issues of The Batch newsletter from DeepLearning.AI, covering April-June 2020. The page provides no actual article content, only headlines and first sentences from various newsletter issues about topics ranging from NLP courses to COVID-19 applications. This is navigational content without substantive analysis or information.",
+      "tags": [
+        "newsletter-index",
+        "deeplearning-ai",
+        "the-batch"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a navigation/index page with no substantive content\u2014only headlines and snippets from past newsletter issues without actual articles or analysis."
+    },
+    "https://www.deeplearning.ai/the-batch/page/21": {
+      "title": "21",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-06T02:00:51.465919+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is an index page from The Batch newsletter showing titles and brief snippets from issues published between July and September 2020. The page contains no substantive content, only navigation links and partial excerpts from newsletter issues covering various AI topics. This provides no actionable insights, analysis, or information beyond serving as an archive directory.",
+      "tags": [
+        "newsletter-archive",
+        "navigation-page"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely an index/navigation page with no substantive content\u2014only newsletter titles and incomplete snippets without any actual analysis, data, or insights."
+    },
+    "https://www.deeplearning.ai/the-batch/anthropic-opus-4-8-leaps-forward": {
+      "title": "Anthropic Opus 4 8 Leaps Forward",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-06T02:00:51.116768+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-time-compute",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "Anthropic released Claude Opus 4.8 with adaptive reasoning that dynamically adjusts compute per request across five effort levels, parallel subagent workflows, and mid-turn system prompt updates, temporarily claiming the top spot on AI intelligence benchmarks. The model achieved 69% on GDPval-AA agentic tasks and 46% on Humanity's Last Exam, with pricing at $5/$0.50/$25 per million input/cached/output tokens. The release demonstrates progress in inference-time compute strategies and agentic capabilities, though it was quickly surpassed by Claude Fable 5.",
+      "tags": [
+        "inference-time-compute",
+        "adaptive-reasoning",
+        "parallel-subagents",
+        "benchmark-performance",
+        "anthropic-claude",
+        "dynamic-workflows"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with benchmark scores but no technical depth on architecture, training methodology, or novel insights beyond feature descriptions"
+    },
+    "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything": {
+      "title": "sqlite-utils 4.0rc2",
+      "source": "Simon Willison",
+      "date": "2026-07-05T00:47:38+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for sqlite-utils 4.0rc2, a Python CLI utility for manipulating SQLite databases. The only substantive detail is that the release was mostly written by Claude Fable (an AI agent) for approximately $149.25. This serves as a minimal data point on AI-assisted coding cost but provides no analysis, technical details, or broader implications.",
+      "tags": [
+        "claude",
+        "ai-coding",
+        "sqlite-utils",
+        "agent-development-cost"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level release announcement with minimal content; mentions AI involvement but provides no analysis, technical depth, or insights beyond a single cost figure."
+    },
+    "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything": {
+      "title": "June 2026 newsletter",
+      "source": "Simon Willison",
+      "date": "2026-07-03T14:50:50+00:00",
+      "composite": 1.7,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter announcement promoting Simon Willison's June 2026 paid newsletter for sponsors. The article merely lists topics covered (Claude Fable 5, GPT-5.6, GLM-5.2, tokenization trends, Datasette tools) without any actual content or analysis. It functions purely as a paywall teaser with no substantive information to evaluate.",
+      "tags": [
+        "newsletter",
+        "claude-fable-5",
+        "gpt-5-6",
+        "glm-5-2",
+        "tokenization"
+      ],
+      "status": "skipped",
+      "skip_reason": "Paywall teaser with no actual content, analysis, or substantive claims to evaluate."
+    },
+    "https://www.bain.com/insights/generative-ai-in-retail-banking/": {
+      "title": "Generative Ai In Retail Banking",
+      "source": "Bain Insights",
+      "date": "2026-07-06T02:00:50.950402+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Bain & Company landing page or navigation page for content about generative AI in retail banking, but contains no actual article content beyond website navigation elements and office listings. The submission contains only the website structure (menu items, office locations, career information) without any substantive analysis, arguments, data, or insights about generative AI applications in retail banking. This is not analyzable as content.",
+      "tags": [
+        "retail-banking",
+        "financial-services",
+        "generative-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content\u2014only website navigation and structural elements from a Bain & Company page, making substantive evaluation impossible."
+    },
+    "https://www.bain.com/insights/what-is-strategic-workforce-planning/": {
+      "title": "What Is Strategic Workforce Planning",
+      "source": "Bain Insights",
+      "date": "2026-07-06T02:00:50.720677+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "ai-in-hr-talent"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Bain & Company landing page about strategic workforce planning, but the article text provided contains only navigation menus and site structure rather than actual content. No arguments, evidence, or mechanisms are present in the extracted text. Without substantive content, it's impossible to assess what insights or frameworks the article might offer about workforce planning.",
+      "tags": [
+        "workforce-planning",
+        "hr-strategy",
+        "organizational-design"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text contains only website navigation elements with no actual content to evaluate for depth, novelty, or strategic insights."
+    },
+    "https://www.bain.com/insights/what-is-responsible-ai/": {
+      "title": "What Is Responsible Ai",
+      "source": "Bain Insights",
+      "date": "2026-07-06T02:00:50.463284+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Bain & Company webpage about Responsible AI, but the article text provided consists almost entirely of website navigation elements and office listings rather than substantive content. No actual analysis, frameworks, or insights about Responsible AI are present in the provided text. The content cannot be evaluated as it is essentially a navigation menu rather than an article.",
+      "tags": [
+        "responsible-ai",
+        "ai-governance",
+        "consulting"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text contains only website navigation elements with no substantive content about Responsible AI to evaluate."
+    },
+    "https://www.exponentialview.co/p/ev-591": {
+      "title": "\ud83d\udd2e Exponential View #591: Never skilling; tricking OpenClaw; screwworm & progress; synth cells, tungsten & AI superforecasters++",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-07-05T08:21:58+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "semiconductor-supply-chain",
+        "optical-interconnects",
+        "lab-dynamics",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI adoption is driving employment growth rather than replacement, with heavy AI adopters increasing headcount by 10% over two years, and that US chip controls are pushing China toward open-source AI as resilience infrastructure. It provides evidence from Ramp/Revelio Labs employment data showing entry-level hiring accelerating 12% and GitHub data showing China-linked developers forking LLM repos 11x more than US developers after export controls. This matters because it challenges both job displacement narratives and reveals how geopolitical restrictions are reshaping global AI development patterns toward distributed, open-source ecosystems.",
+      "tags": [
+        "ai-adoption-employment",
+        "complementarity-effects",
+        "us-chip-controls",
+        "open-source-llm",
+        "china-ai-strategy",
+        "optical-transceivers",
+        "tungsten-supply-chain"
+      ],
+      "status": "integrated"
     }
   }
 }

@@ -705,7 +705,44 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-06
+
+**✗ 1.3** — [22](https://www.deeplearning.ai/the-batch/page/22)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_index #deeplearning_ai #the_batch
+> This is an index page showing titles and brief snippets from past issues of The Batch newsletter from DeepLearning.AI, covering April-June 2020. The page provides no actual article content, only headlines and first sentences from various newsletter issues about topics ranging from NLP courses to COVID-19 applications. This is navigational content without substantive analysis or information.
+
+**✗ 1.0** — [21](https://www.deeplearning.ai/the-batch/page/21)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #navigation_page
+> This is an index page from The Batch newsletter showing titles and brief snippets from issues published between July and September 2020. The page contains no substantive content, only navigation links and partial excerpts from newsletter issues covering various AI topics. This provides no actionable insights, analysis, or information beyond serving as an archive directory.
+
+**✗ 5.3** — [Anthropic Opus 4 8 Leaps Forward](https://www.deeplearning.ai/the-batch/anthropic-opus-4-8-leaps-forward)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-time-compute · agentic-workflows-production
+#inference_time_compute #adaptive_reasoning #parallel_subagents #benchmark_performance
+> Anthropic released Claude Opus 4.8 with adaptive reasoning that dynamically adjusts compute per request across five effort levels, parallel subagent workflows, and mid-turn system prompt updates, temporarily claiming the top spot on AI intelligence benchmarks. The model achieved 69% on GDPval-AA agentic tasks and 46% on Humanity's Last Exam, with pricing at $5/$0.50/$25 per million input/cached/output tokens. The release demonstrates progress in inference-time compute strategies and agentic capabilities, though it was quickly surpassed by Claude Fable 5.
+
+**✗ 2.7** — [Generative Ai In Retail Banking](https://www.bain.com/insights/generative-ai-in-retail-banking/)  
+*Bain Insights* · ai-in-finance-accounting
+#retail_banking #financial_services #generative_ai
+> This appears to be a Bain & Company landing page or navigation page for content about generative AI in retail banking, but contains no actual article content beyond website navigation elements and office listings. The submission contains only the website structure (menu items, office locations, career information) without any substantive analysis, arguments, data, or insights about generative AI applications in retail banking. This is not analyzable as content.
+
+**✗ 2.0** — [What Is Strategic Workforce Planning](https://www.bain.com/insights/what-is-strategic-workforce-planning/)  
+*Bain Insights* · ai-org-design-headcount · ai-in-hr-talent
+#workforce_planning #hr_strategy #organizational_design
+> This appears to be a Bain & Company landing page about strategic workforce planning, but the article text provided contains only navigation menus and site structure rather than actual content. No arguments, evidence, or mechanisms are present in the extracted text. Without substantive content, it's impossible to assess what insights or frameworks the article might offer about workforce planning.
+
+**✗ 2.3** — [What Is Responsible Ai](https://www.bain.com/insights/what-is-responsible-ai/)  
+*Bain Insights* · ai-governance-risk-compliance
+#responsible_ai #ai_governance #consulting
+> This appears to be a Bain & Company webpage about Responsible AI, but the article text provided consists almost entirely of website navigation elements and office listings rather than substantive content. No actual analysis, frameworks, or insights about Responsible AI are present in the provided text. The content cannot be evaluated as it is essentially a navigation menu rather than an article.
+
 ## 2026-07-05
+
+**✓ 7.3** — [🔮 Exponential View #591: Never skilling; tricking OpenClaw; screwworm & progress; synth cells, tungsten & AI superforecasters++](https://www.exponentialview.co/p/ev-591)  
+*Exponential View (Azeem Azhar)* · ai-org-design-headcount · semiconductor-supply-chain · optical-interconnects
+#ai_adoption_employment #complementarity_effects #us_chip_controls #open_source_llm
+> The article argues that AI adoption is driving employment growth rather than replacement, with heavy AI adopters increasing headcount by 10% over two years, and that US chip controls are pushing China toward open-source AI as resilience infrastructure. It provides evidence from Ramp/Revelio Labs employment data showing entry-level hiring accelerating 12% and GitHub data showing China-linked developers forking LLM repos 11x more than US developers after export controls. This matters because it challenges both job displacement narratives and reveals how geopolitical restrictions are reshaping global AI development patterns toward distributed, open-source ecosystems.
 
 **✗ 2.3** — [20](https://www.deeplearning.ai/the-batch/page/20)  
 *The Batch (DeepLearning.AI)* · 
@@ -741,6 +778,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
 #ai_coding_agents #claude_fable #software_quality_assurance #transaction_management
 > Simon Willison used Claude Fable (via Claude Code) to complete a major 4.0 release of sqlite-utils, spending approximately $149.25 across 37 prompts and 34 commits that modified 30 files. Claude identified 5 critical "release blocker" bugs including a severe data loss issue in delete_where() that left database connections in an uncommitted transaction state, poisoning subsequent operations. This demonstrates the practical application of AI coding agents for comprehensive pre-release auditing and refactoring work, with the agent able to work autonomously for 10-15 minutes while the developer attended to other activities.
+
+**✗ 3.0** — [sqlite-utils 4.0rc2](https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
+#claude #ai_coding #sqlite_utils #agent_development_cost
+> This is a brief release announcement for sqlite-utils 4.0rc2, a Python CLI utility for manipulating SQLite databases. The only substantive detail is that the release was mostly written by Claude Fable (an AI agent) for approximately $149.25. This serves as a minimal data point on AI-assisted coding cost but provides no analysis, technical details, or broader implications.
 
 ## 2026-07-04
 
@@ -830,6 +872,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · 
 #organ_perfusion #transplant_technology #biomedical_devices #retina_preservation
 > Researchers developed the Eye-in-a-Care-Box (ECaBox), a perfusion device that maintains freshly removed eyeballs by supplying oxygen-rich fluid, potentially enabling future whole-eye transplants. Testing on pig and human donor eyes showed perfused eyes retained cellular viability and light-response abilities for hours, while untreated eyes degenerated quickly. The device could advance eye transplantation research and provide a non-animal model for testing eye treatments, though actual transplant success remains unproven.
+
+**✗ 1.7** — [June 2026 newsletter](https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything)  
+*Simon Willison* · model-architecture
+#newsletter #claude_fable_5 #gpt_5_6 #glm_5_2
+> This is a newsletter announcement promoting Simon Willison's June 2026 paid newsletter for sponsors. The article merely lists topics covered (Claude Fable 5, GPT-5.6, GLM-5.2, tokenization trends, Datasette tools) without any actual content or analysis. It functions purely as a paywall teaser with no substantive information to evaluate.
 
 **✗ 2.3** — [Google DeepMind and A24 announce first-of-its-kind research partnership](https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/)  
 *Google DeepMind* · 
