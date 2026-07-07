@@ -705,7 +705,79 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-07
+
+**✗ 5.0** — [Building Safeguards For Claude](https://www.anthropic.com/news/building-safeguards-for-claude)  
+*Anthropic Blog* · ai-governance-risk-compliance · model-architecture · post-training-rlhf
+#safeguards #usage_policy #harm_framework #policy_vulnerability_testing
+> Anthropic describes its Safeguards team's multi-layered approach to preventing misuse of Claude, including policy development, model training interventions, and real-time enforcement. The team uses a Unified Harm Framework across five dimensions (physical, psychological, economic, societal, autonomy) and conducts Policy Vulnerability Testing with external experts to stress-test concerns. This operational overview matters as a transparency measure from a major AI lab, though it provides limited technical detail on implementation mechanisms.
+
+**✓ 7.3** — [Alberta Government Claude Cybersecurity](https://www.anthropic.com/news/alberta-government-claude-cybersecurity)  
+*Anthropic Blog* · ai-in-operations · ai-governance-risk-compliance · agentic-workflows-production
+#claude_code #autonomous_agents #legacy_code_modernization #government_cybersecurity
+> The Government of Alberta used Claude Code (Opus and Sonnet models) to scan 466 million lines of code across 1,280 applications in 20 hours, identify security vulnerabilities, and generate fixes—a task estimated to otherwise take 6.5 years. The Ministry deployed ~50 autonomous agents in parallel to flag vulnerabilities, generate patches, write tests, and even rebuild legacy systems in modern languages within days. This demonstrates how government agencies can use AI agents at scale to address massive technical debt and secure critical infrastructure holding sensitive citizen data.
+
 ## 2026-07-06
+
+**✗ 5.0** — [tencent/Hy3](https://simonwillison.net/2026/Jul/6/hy3/#atom-everything)  
+*Simon Willison* · model-architecture · inference-efficiency
+#mixture_of_experts #moe_architecture #model_release #open_source_models
+> Tencent released Hy3, a 295B-parameter MoE model with 21B active parameters under Apache 2.0 license, claiming performance comparable to open-source models with 2-5x more parameters. The model was refined through scaled post-training using feedback from 50+ products and is available in both full-size (598GB) and FP8 quantized (300GB) versions with 256K context length. This represents another competitive open-source release from Chinese AI labs, though the post provides minimal technical detail or independent verification.
+
+**✗ 1.7** — [TBM 429: How To Thrive At Work When You Think Too Much](https://cutlefish.substack.com/p/tbm-429-how-to-thrive-at-work-when)  
+*The Beautiful Mess (John Cutler)* · 
+#workplace_feedback #overthinking #self_reflection #soft_skills
+> This article is a personal reflection on workplace feedback for people who 'think too much' or overthink, framed as an introduction to an unpublished book. The author uses childhood memories and common workplace criticisms to explore feelings of being misunderstood at work. It offers no specific frameworks, data, or actionable insights—it's a personal essay about emotional responses to feedback.
+
+**✗ 4.3** — [Your family’s $300 stake in OpenAI](https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/)  
+*MIT Technology Review* · regulatory-policy · funding-and-market-structure · lab-dynamics
+#equity_stake #wealth_redistribution #training_data_compensation #regulatory_relationships
+> The article reports on OpenAI CEO Sam Altman's discussions with President Trump about giving the US government a 5% equity stake in OpenAI, worth approximately $42.6 billion or roughly $320 per American household. The proposal is positioned as compensation for human-generated training data and as a potential labor market safety net, though details remain vague and implementation uncertain. The article argues this functions more as a political narrative to maintain favorable regulatory relationships than as concrete policy, with the real benefit being OpenAI's ability to stay aligned with the Trump administration's tech deal-making approach.
+
+**✓ 7.0** — [🎙️ How I AI: Sonnet 5 review & How to run autonomous coding agents from your phone](https://www.lennysnewsletter.com/p/how-i-ai-sonnet-5-review-and-how)  
+*Lenny's Newsletter* · model-architecture · evals-production-deployment · ai-engineering-agents
+#model_benchmarking #llm_as_judge #claude_sonnet_5 #autonomous_agents
+> Claire conducts a hands-on benchmark comparing Sonnet 5 against four other frontier models (Sonnet 4.6, Opus 4.8, GPT-5.5, Gemini 3 Pro) across 64 generations testing PRDs, prototypes, agentic tasks, and agent personality. She finds that LLM-as-judge evals are too generous and miss what humans catch visually, that her personal taste diverged sharply from automated scores, and that Sonnet 4.6 remains her daily choice for agent work due to personality over raw benchmark performance. This matters because it demonstrates the gap between automated model evaluation and real-world builder preferences, and provides a replicable methodology for creating personalized benchmarks using actual work history.
+
+**✗ 5.0** — [📈 Data to start your week](https://www.exponentialview.co/p/data-to-start-your-week-6-july-2026)  
+*Exponential View (Azeem Azhar)* · gpu-architecture-training-infra · model-architecture · ai-engineering-agents
+#grace_blackwell_gpu #horizon_scaling #parameter_efficiency #ai_agents
+> This weekly data roundup reports signals across AI deployment and capabilities, including that 95% of Nvidia's Grace-Blackwell GPUs remain undeployed, a 35B-parameter model matching 1T-parameter models via horizon scaling, and AI agents completing 16% of real freelance projects at human-level quality. The evidence consists of aggregated metrics and benchmarks from various sources, including the Remote Labor Index and deployment statistics. The data points suggest rapid AI capability improvements and significant infrastructure buildout ahead, though presented without deep analysis.
+
+**✗ 2.3** — [The Download: South Korea’s hottest bachelors, and advancing eye transplants](https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/)  
+*MIT Technology Review* · regulatory-policy
+#news_digest #ai_regulation #semiconductor_industry #tech_policy
+> This is a newsletter digest that aggregates headlines across technology topics, including AI chip worker bonuses in South Korea, UN warnings about AI regulation, and various other tech news items. The content provides only surface-level summaries with links to external sources, offering no original analysis or deep investigation. This is a news aggregation format designed for quick scanning rather than substantive insight.
+
+**✓ 7.3** — [Import AI 464: Fable writes GPU kernels; AI automation; and analog computation](https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels)  
+*Import AI (Jack Clark)* · gpu-architecture-training-infra · ai-engineering-agents · agentic-workflows-production
+#gpu_kernel_optimization #cuda_programming #recursive_self_improvement #economic_automation
+> The article reports on Fable AI achieving a record 18.71X speedup on KernelBench-Mega by writing optimized CUDA GPU kernels, and describes rapid progress in the Remote Labor Index where AI systems now complete 16.1% of online freelance tasks (up from 2.5% in eight months). The key evidence is Fable's single-kernel solution outperforming multi-kernel approaches from other frontier models, and the 6.4X improvement in automated task completion across real freelance work like CAD design, video production, and architecture. This matters because autonomous kernel optimization suggests approaching recursive self-improvement capabilities in AI development, while the economic automation metrics provide concrete signals about AI's impact on knowledge work employment.
+
+**✓ 6.7** — [How I run autonomous coding agents from my phone with OpenAI Symphony + Linear | Alessio Fanelli (Kernel Labs)](https://www.lennysnewsletter.com/p/how-i-run-autonomous-coding-agents)  
+*Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#autonomous_agents #openai_symphony #linear_integration #agent_orchestration
+> Alessio Fanelli demonstrates two autonomous AI agent workflows: using OpenAI Symphony with Linear as a state machine to run parallel coding agents with zero supervision through full development lifecycles, and using Codex with browser access to autonomously scout underpriced Pokémon cards on eBay for his retail business. The key mechanisms are Linear acting as the agent state tracker, Symphony managing multi-agent orchestration, and web-enabled agents performing complex multi-step tasks (browsing, data extraction, price comparison) without human intervention. This matters because it shows production-ready patterns for both enterprise software development automation and AI-enabled small business operations that weren't economically viable before.
+
+**✗ 4.0** — [Why Green Dot believes two independent businesses are better than one](https://tearsheet.co/funding/why-green-dot-believes-two-independent-businesses-are-better-than-one/?utm_source=rss&utm_medium=rss&utm_campaign=why-green-dot-believes-two-independent-businesses-are-better-than-one)  
+*Tearsheet (fintech)* · build-vs-buy-enterprise-ai · ai-governance-risk-compliance
+#embedded_finance #banking_as_a_service #regulatory_compliance #organizational_structure
+> Green Dot is separating its banking and fintech/embedded finance operations into two independent companies, arguing that the divergent priorities of speed/flexibility versus compliance/risk controls make separation more valuable than integration. The restructuring reflects tensions between fintech innovation and regulatory constraints that became apparent as embedded finance matured and regulatory scrutiny increased. This reverses the 2010s trend of fintechs seeking to control the full stack by acquiring bank charters.
+
+**✗ 5.0** — [Salesforce, RightCapital, And YCharts Launch Their Own New AI Capabilities (And More Of The Latest In Financial #AdvisorTech – July 2026)](https://feeds.feedblitz.com/~/959381495/0/kitcesnerdseyeview~Salesforce-RightCapital-And-YCharts-Launch-Their-Own-New-AI-Capabilities-And-More-Of-The-Latest-In-Financial-AdvisorTech-%e2%80%93-July/)  
+*Kitces.com* · ai-in-sales-gtm · ai-in-finance-accounting · ai-wealth-management-advisory
+#financial_advisor_tech #ai_notetakers #incumbent_advantage #crm_systems
+> This article provides a monthly roundup of AI feature launches by incumbent financial advisor technology platforms (Salesforce, RightCapital, YCharts) who are adding AI notetakers, portfolio analyzers, and document extraction to compete with standalone AI disruptors. The key evidence is that established platforms are preempting disruption by building AI features in-house rather than losing users to new AI-native startups, while the article also tracks funding rounds and competitive dynamics in the advisor tech space. This matters because it illustrates a common enterprise software pattern where slow customer switching speeds allow incumbents to copy innovation and retain market position rather than being disrupted.
+
+**✗ 3.7** — [South Korea’s hottest new bachelors are chip workers](https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/)  
+*MIT Technology Review* · semiconductor-supply-chain
+#hbm_chips #sk_hynix #samsung_semiconductors #profit_sharing
+> The article reports on how the AI chip boom has created a new elite class of South Korean semiconductor workers at Samsung and SK Hynix, with bonuses reaching $476,000 per employee making them highly sought-after marriage partners. The key evidence is the 10% profit-sharing deal at SK Hynix, the dominance of these companies in HBM chip production for AI accelerators, and anecdotal accounts from matchmakers about increased demand for chip workers as dating partners. This illustrates the broader socioeconomic impacts of the semiconductor supply chain boom, including wealth inequality and cultural shifts in South Korea's economy.
+
+**✗ 2.7** — [sqlite-utils 4.0rc3](https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything)  
+*Simon Willison* · ai-engineering-agents
+#sqlite_utils #release_notes #compound_foreign_keys #ai_assisted_development
+> This is a release note for sqlite-utils 4.0rc3, announcing new features like compound foreign key support and case-insensitive column name handling. The author mentions using Claude Fable 5 and GPT-5.5 to work through issues and PRs, with the changelog growing larger than expected. The post is primarily a software release announcement with minimal substantive content beyond feature listing.
 
 **✗ 1.3** — [22](https://www.deeplearning.ai/the-batch/page/22)  
 *The Batch (DeepLearning.AI)* · 
@@ -736,6 +808,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Bain Insights* · ai-governance-risk-compliance
 #responsible_ai #ai_governance #consulting
 > This appears to be a Bain & Company webpage about Responsible AI, but the article text provided consists almost entirely of website navigation elements and office listings rather than substantive content. No actual analysis, frameworks, or insights about Responsible AI are present in the provided text. The content cannot be evaluated as it is essentially a navigation menu rather than an article.
+
+**✓ 7.0** — [AI Worldviews](https://www.tomtunguz.com/godless-hippies-ai-models-values/)  
+*Tomasz Tunguz* · model-architecture · post-training-rlhf · build-vs-buy-enterprise-ai
+#model_alignment #world_values_survey #post_training #enterprise_procurement
+> The article argues that frontier AI models exhibit significantly different worldviews when tested on the World Values Survey, with variance driven more by post-training alignment choices than lab of origin (e.g., DeepSeek R1 and V4 Flash from the same lab are polar opposites). The evidence comes from The Economist's analysis of 25 models showing GPT-4o and DeepSeek R1 as near-twins despite different origins, while models like Gemini and Qwen cluster together due to similar alignment approaches. This matters because worldview should become a procurement consideration for enterprise AI use cases involving business decisions, marketing, customer support, and policy work—not just technical benchmarks.
 
 ## 2026-07-05
 
@@ -932,6 +1009,10 @@ All articles scanned since the wiki started. Updated nightly.
 *Latent Space* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
 #agent_framework #vercel_eve #agentic_primitives #business_agents
 > Andrew Qu explains how Vercel evolved from web development tooling to building eve, an agent framework born from solving operational challenges while building v0's AI coding agent. The key innovation centers on treating agents as a distinct software category requiring new primitives for context management, resumability, tool orchestration, and long-running tasks—rather than just web applications with LLM capabilities. This matters because it validates the enterprise shift toward agentic workflows and provides a major infrastructure player's perspective on productionizing agents for internal business operations.
+
+**✗ 1.0** — [Search](https://www.tomtunguz.com/search/)  
+*Tomasz Tunguz* · 
+> This appears to be a navigation/search page from Tomasz Tunguz's website with no substantive content. It contains only header elements, navigation links, and copyright information. There is no article content to evaluate for depth, novelty, or relevance to any topic areas.
 
 ## 2026-07-02
 

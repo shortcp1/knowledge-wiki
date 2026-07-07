@@ -1,5 +1,5 @@
 ---
-tags: [agency-dexterity, ai-agents, ai-in-operations, ai-infrastructure-deployment, commercial-viability, data-center-operations, data-center-regulation, embodied-ai, energy-constraints, general-purpose-robots, grid-demand-management, grid-flexibility, hyperscale-operations, infrastructure-efficiency, labor-automation, manufacturing-automation, operational-automation, performance-optimization, physical-automation, power-flexible-data-centers, power-management, regression-detection, robotics, robotics-autonomy, workload-orchestration, workload-throttling]
+tags: [agency-dexterity, ai-agents, ai-in-operations, ai-infrastructure-deployment, autonomous-agents, claude-code, code-scanning, commercial-viability, cybersecurity-automation, data-center-operations, data-center-regulation, embodied-ai, energy-constraints, general-purpose-robots, government-cybersecurity, grid-demand-management, grid-flexibility, hyperscale-operations, infrastructure-efficiency, labor-automation, legacy-code-modernization, legacy-modernization, manufacturing-automation, operational-automation, performance-optimization, physical-automation, power-flexible-data-centers, power-management, regression-detection, robotics, robotics-autonomy, technical-debt, vulnerability-remediation, workload-orchestration, workload-throttling]
 ---
 
 # AI in Operations
@@ -19,26 +19,52 @@ Key questions tracked: Where is AI actually replacing manual processes end-to-en
   - **MCP Tools**: Standardized interfaces for LLMs to invoke code (query profiling data, fetch experiment results, retrieve config history, search code, extract docs)
   - **Skills**: Encoded domain expertise of senior efficiency engineers into reusable, composable reasoning patterns (e.g., "consult top GraphQL endpoints for endpoint latency regressions")
 - **Success Factors**:
-  - Realized offense and defense share same underlying structure, enabling single unified platform
-  - Separation of tools (what to invoke) from skills (domain expertise/reasoning patterns)
-  - Composability and reusability of encoded expertise
+  - Rea
 
-### Data Center Power Management
+### Government Cybersecurity & Legacy System Modernization
 
-**Emerald AI Conductor Platform (Emerald AI, December 2025 simulation, 2026 live deployment)**
-- **Business Problem**: Data centers face 8-year lead times for new power plant approvals (PJM region), public opposition ($150B+ projects stalled in 2025), and regulatory constraints (state bans, local moratoriums, federal GRID Act proposing to sever data centers from public grids). Infrastructure bottleneck is primary constraint on data center deployment.
-- **AI Pattern**: Real-time workload orchestration and power management. AI system ("Conductor") dynamically adjusts data center power consumption during grid stress events while prioritizing time-sensitive computational workloads.
-- **Success Factors** (December 2025 simulation):
-  - Successfully managed simulated UK grid stress event (Euro 2020 match halftime tea-making surge)
-  - Reduced data center power draw during peak demand while maintaining critical operations
-  - Demonstrated feasibility of "power-flexible AI factories"
-- **Industry & Function**: Data center operations / infrastructure management
+**Alberta Government Code Security Review (Government of Alberta, July 2026)**
+- **Business Problem**: Provincial government maintains systems for 27 ministries (1,280 applications, 3,400 code repositories) with billions in accumulated technical debt. Most code never underwent systematic security review. Systems hold highly sensitive data (tax records, procurement data, social services files) but are "old, insecure, and incompletely documented."
+- **AI Pattern**: Multi-agent autonomous scanning and remediation system
+  - **Stage 1 - Mass Scanning**: ~50 Claude Code agents (Opus + Sonnet) working in parallel. Two-stage routine: rules engine flags known vulnerability patterns, then LLM reviews flags and cites exact file/line.
+  - **Stage 2 - Automated Remediation**: Claude Code generates fixes, writes missing tests first if needed, rebuilds legacy systems in modern languages when patching inefficient.
+  - **Stage 3 - Continuous Review**: Specialized agent roles:
+    - "Red team" agent: Probes application externally like attacker, maps exploit paths
+    - "Blue team" agent: Assesses defenses against international security standards, writes remediation plans with exact file references
+    - Additional agents: Code quality checks, public-facing writing clarity
+    - Checks ~95 security controls per application per pass
+  - Built on Claude Agent SDK
+- **Success Factors**:
+  - **Parallel autonomous execution**: 50 agents scanning simultaneously
+  - **Two-stage verification**: Automated pattern matching + LLM contextual review reduces false positives
+  - **Human-in-the-loop approval**: All patches reviewed by Ministry engineers before shipping
+  - **Test-first approach**: Agents write automated tests before patching when missing
+  - **Pragmatic modernization**: Rebuilds systems in modern languages when more efficient than patching legacy code
+  - **Continuous integration**: Security agents embedded throughout development process, not just one-time scan
+- **Industry**: Government / Public Sector
+- **Business Function**: IT Operations, Cybersecurity, Application Security
 - **Quantitative Outcomes**:
-  - Duke University research: US grid could offer additional 76 GW capacity (5% of total, enough for projected US data center growth through 2030) to facilities willing to reduce usage just 0.25% of time (~22 hours/year)
-  - Princeton/Google research: 500 MW flexible facility in PJM region could reach full operation 3-5 years faster than inflexible facility by flexing <1% of year
-  - 2026 live deployment planned in Data Center Alley, Virginia with Nvidia and Digital Realty
-- **Generalizability**: 
-  - **High generalizability**: Any power-intensive industrial operation facing grid constraints or demand charges (manufacturing, chemical processing, cryptocurrency mining, steel production)
-  - **Adjacent industries**: EV charging networks, cold storage facilities, industrial heating/cooling systems
-  - **Core pattern**: Real-time workload prioritization + demand response = faster infrastructure deployment and regulatory approval
-  - **Regulatory arbitrage**: Flexible power use may avoid proposed regulations targeting inflexible data centers
+  - **466 million lines of code** scanned in **20 hours**
+  - Estimated **6.5 years** for traditional approach to complete same review
+  - **~330x faster** than manual review (6.5 years vs 20 hours)
+  - Legacy subsidy portal (originally 5 months to build, ~25 years old Java) **rebuilt in 4-5 days**
+  - **~30x faster** legacy system modernization
+  - Found vulnerabilities that "traditional automated scanning tools had missed"
+- **Generalizability**:
+  - **High generalizability across sectors**: Pattern applies to any organization with:
+    - Large legacy codebases with accumulated technical debt
+    - Insufficient security review coverage
+    - Limited engineering capacity for manual audits
+    - Regulatory/compliance pressure for security attestation
+  - **Specific applicable industries**:
+    - **Financial services**: Banks, insurance with decades-old core banking systems
+    - **Healthcare**: Hospital systems, health records platforms with HIPAA requirements
+    - **Other government agencies**: Federal, state, local with similar technical debt challenges
+    - **Education**: Universities with sprawling legacy student information systems
+    - **Enterprise IT departments**: Large corporations with decades of accumulated applications
+  - **Cross-functional applications**:
+    - Application security teams in any industry
+    - Platform engineering/DevOps teams managing large application portfolios
+    - Compliance teams needing security attestation
+    - Technical debt reduction initiatives
+  - **Key requirement for replication**: Access to codebase, ability to run agents with appropriate permissions, engineering capacity to review/approve fixes
