@@ -705,7 +705,88 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-08
+
+**✓ 6.7** — [Ai Infrastructure Roadmap Five Frontiers For 2026](https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026)  
+*Bessemer Atlas* · gpu-architecture-training-infra · inference-efficiency · model-architecture
+#compound_ai_systems #memory_management #context_orchestration #continual_learning
+> The article argues that AI infrastructure must evolve from optimizing model training and scaling to enabling real-world deployment through five frontiers: harness infrastructure (memory/context management), continual learning systems, reinforcement learning platforms, inference optimization, and world models. The key evidence is the shift from POC to production deployments, where compound AI systems require orchestration layers, persistent memory, sophisticated evaluation, and continuous learning rather than just raw model performance. This matters because it identifies the next wave of AI infrastructure investment opportunities as differentiation moves from foundation models to deployment and operational layers.
+
+**✗ 3.0** — [Stablecoins From Defi Primitive To Global Financial Infrastructure](https://www.bvp.com/atlas/stablecoins-from-defi-primitive-to-global-financial-infrastructure)  
+*Bessemer Atlas* · 
+#stablecoins #cross_border_payments #payment_infrastructure #fintech
+> The article argues that stablecoins have evolved from DeFi primitives to mainstream financial infrastructure, with supply growing 40x since 2020 and real-world payment volumes doubling in 2025 to $400B. It cites regulatory clarity via the GENIUS Act and decoupling from crypto volatility as key catalysts, highlighting use cases in cross-border payments, remittances, and treasury management. The piece positions stablecoins as the 'new global money layer' replacing traditional correspondent banking, but offers primarily market-sizing data rather than technical or operational insights.
+
 ## 2026-07-07
+
+**✗ 1.7** — [AutomationIQ Launches to Bring Enterprise-Grade AI Automation to Local and Mid-Market Businesses - PRLog](https://news.google.com/rss/articles/CBMizAFBVV95cUxQd1g5X3FNcEN6QTl3UEpqQ0lJZG1Zb21pREppeVRVVkhMcVNpSXFJdGM4VzJlbFVUUnc0dC1sdzU1UGN4Qy1jelIyenM3UkZrenJueFVaeEJEWjRxcVRkRU9oV2U4d0VDTXJDMy1YanpvZWtsbWxTalFVX2p6YkJWeU5SVjkyWVR6NVhvdnpfb3RWM2c1ZDhSYXpKMi1ucmxvcmRjdy10aDd5RVlNNzFVM3JOSlZDVVVRWWRaMERaMGxkQXJXa0RqRVVmcnE?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-operations · build-vs-buy-enterprise-ai
+#press_release #mid_market #automation
+> The article appears to be a press release announcement about AutomationIQ launching AI automation services for local and mid-market businesses. No actual content, analysis, evidence, or substantive information is provided in the text beyond a Google cookie consent dialog. The article contains no meaningful information to evaluate or extract insights from.
+
+**✗ 2.0** — [sqlite-utils 4.0, now with database schema migrations](https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything)  
+*Simon Willison* · 
+#sqlite #schema_migrations #database_management #python_library
+> This article announces sqlite-utils 4.0, a Python library update that adds database schema migration capabilities, nested transactions, and compound foreign key support. The key feature is a migration system that tracks and applies sequential database schema changes using Python functions, implementing SQLite's recommended pattern of creating temporary tables for complex alterations. This matters for developers managing SQLite database schemas over time, though it's a tool announcement rather than a novel technical contribution.
+
+**✗ 2.0** — [sqlite-migrate 0.2](https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything)  
+*Simon Willison* · 
+#sqlite #database_migrations #software_release
+> This is a release announcement for sqlite-migrate 0.2, a database migration system for SQLite. The update retires the library as a standalone tool and implements it as a compatibility shim against sqlite-utils 4.0. This is a routine software maintenance update with no broader implications for AI or enterprise systems.
+
+**✗ 3.0** — [github-code Web Component](https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
+#web_components #code_generation #gpt_5 #github_integration
+> The article describes a Web Component for embedding GitHub code snippets that was built using GPT-5.5 with a simple prompt. The component converts GitHub URLs to raw content URLs, fetches code, and displays specified line ranges with line numbers but no syntax highlighting. This represents a straightforward code generation task accomplished by an AI model without notable innovation or complexity.
+
+**✗ 1.0** — [Accenture: Rolls Out AI Edge with Google - blockchain.news](https://news.google.com/rss/articles/CBMid0FVX3lxTFBKdTFHUE5VdkdMTEhpLWJTT2podWxXWHF0dFI5LWFqWkZfWnhkeWFlNHVnMGFIZnhKUXB4di1FLXVRdVlJRnZOcno1c0FkZGFWUUJMc1BISWZQMUpzR3NGd1NRaHBwOGJuQ0hfYXpkRGFvWkwxU1dn?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+> This article appears to be a broken or improperly scraped page showing only Google's cookie consent dialog. No actual content about Accenture, AI Edge, or Google partnership is present in the provided text. The article cannot be evaluated as it contains no substantive information.
+
+**✓ 7.0** — [How tech workers are feeling in 2026: a workforce splitting in two](https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026)  
+*Lenny's Newsletter* · ai-org-design-headcount · ai-in-product-and-engineering · ai-engineering-agents
+#workforce_sentiment #ai_productivity #burnout #career_optimism
+> A large-scale 2026 survey of tech workers reveals a workforce bifurcating based on relationship to AI: one half feels amplified and more capable, while the other feels destabilized and uncertain about their value. The survey shows burnout jumped 11 percentage points to 55.7%, career optimism fell to 48.7%, and 82% report AI-driven productivity gains but with concerns about work quality and unsustainable pace expectations. This bifurcation based on AI adaptation predicts career sentiment more than role, seniority, or company factors, signaling a fundamental reshaping of tech workforce dynamics.
+
+**✗ 3.3** — [The Download: your stake in OpenAI, and the Treasury’s AI warning](https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/)  
+*MIT Technology Review* · regulatory-policy · funding-and-market-structure · lab-dynamics
+#openai_equity_stake #ai_market_bubble #government_ai_policy #ai_dividend_proposal
+> This newsletter digest covers multiple tech news items including Sam Altman's proposal to give the US government a 5% stake in OpenAI (worth ~$320 per household), a leaked Treasury report comparing AI markets to the dotcom bubble, and various other AI-related policy and market developments. The article provides brief summaries of each news item with minimal analysis or original reporting. It matters primarily as a curated news roundup for staying current on AI policy and market developments, but offers no original insights or deep investigation.
+
+**✗ 3.0** — [Revolut’s US bet: A bank charter, a stablecoin pitch, and a graveyard of European challengers that tried before it](https://tearsheet.co/banking/revoluts-us-bet-a-bank-charter-a-stablecoin-pitch-and-a-graveyard-of-european-challengers-that-tried-before-it/?utm_source=rss&utm_medium=rss&utm_campaign=revoluts-us-bet-a-bank-charter-a-stablecoin-pitch-and-a-graveyard-of-european-challengers-that-tried-before-it)  
+*Tearsheet (fintech)* · 
+#stablecoins #bank_charter #cross_border_payments #multi_currency_banking
+> Revolut filed for a US national bank charter in March 2026 to directly operate banking services (offering FDIC-insured deposits, stablecoins, and multi-currency accounts) rather than relying on a partner bank arrangement. The company is targeting international-minded retail and business customers with a $500 million investment and strategy focused on cross-border payments and stablecoin services. This represents Revolut's second attempt at US charter approval after withdrawing a California application in 2023 due to regulatory concerns.
+
+**✗ 4.0** — [The foundational elements of AI architecture that IT leaders need to scale](https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/)  
+*MIT Technology Review* · rag-vs-finetuning-vs-wiki · evals-production-deployment · ai-governance-risk-compliance
+#context_engineering #rag #data_quality #llm_observability
+> The article argues that IT leaders should focus on four foundational AI architecture elements (data preparation, context engineering, governance/observability, and a fourth unfinished element) to make future-proof investments as AI evolves toward agentic systems. It emphasizes that data quality is the primary barrier to AI success, citing Gartner's prediction that 60% of AI projects will fail by 2026 without AI-ready data, and highlights context engineering (RAG, vector databases) as critical for delivering relevant information to models. The piece matters as a high-level framework for enterprise AI deployment but provides only surface-level guidance without technical depth or novel implementation insights.
+
+**✗ 2.0** — [Growing From Solo To Silo’ed Partnership To A $3.3B Enterprise Ensemble (Without Taking Outside Capital): #FASuccess Ep 497 With Shane Morrow](https://feeds.feedblitz.com/~/959537561/0/kitcesnerdseyeview~Growing-From-Solo-To-Silo%e2%80%99ed-Partnership-To-A-B-Enterprise-Ensemble-Without-Taking-Outside-Capital-FASuccess-Ep-With-Shane-Morrow/)  
+*Kitces.com* · 
+#wealth_management #financial_advisory #equity_ownership #organizational_structure
+> This podcast episode discusses how Shane Morrow grew IronBridge Wealth Counsel from a solo financial advisory practice to a $3.3B firm without external capital, focusing on organizational structure and equity allocation formulas. The key mechanisms include transitioning through partnership models, establishing seven centralized departments, creating a 'Department of Colleagues' for culture, and implementing mandatory equity liquidation ages for succession planning. This is a case study in wealth management firm operations and org design, but falls outside the specified AI and technology topic areas.
+
+**✗ 2.3** — [A Script for Mark Zuckerberg](https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODYwNjgwNDksImlhdCI6MTc4MzQ3NjA0OSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.EqNilXC5VUgfVjBbQ9lbjxwmLhKAoK3v8IV-6JtZwbdPbp98Ss2vVJico9R1raz_-7A9JD_k4SQIfWJV12Z8ZJc4GPGq-4-cpz8zRKWi3X6vcXw_OxzsxL3Dguh8CLK_Fbd5xBftDyMA9bh-TAZ33XPfJpIRkJ-A7KITPdXPa5s_tfATC99MR3AmRjoR5trs2zKFVe1bpDmI7wmICShNNntgqAMYCUKd3XyiCJJPqbw90KpK-_lSecpvQGx9Ej-P9DWZmCX6eofKNiRxhRUdBV4UApfsKgElXWoqnqq6kxCEMaLDSSRM9HXXLE1K2AWalzuu8_TELwOGW3I9Pgibpw)  
+*Stratechery (Ben Thompson)* · 
+#meta #ai_capex #earnings_narrative #feed_algorithm
+> Ben Thompson writes a hypothetical script for Mark Zuckerberg to deliver at Meta's Q2 2026 earnings call, defending massive AI capex investments through Meta's historical lessons about product intuition and user behavior. The piece recounts Facebook's evolution from profile pages to feeds to mobile to Instagram, emphasizing how revealed user preferences and conviction drove growth. The article appears incomplete but aims to construct a narrative justification for Meta's AI infrastructure spending based on historical technology transitions.
+
+**✗ 2.7** — [Why worms (and microbes) are catching on as a manure pollution solution](https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/)  
+*MIT Technology Review* · 
+#vermifiltration #manure_management #agricultural_emissions #methane_reduction
+> The article reports on vermifiltration, a manure treatment system using earthworms and biofilters, being adopted by California dairy farms to reduce methane, nitrous oxide, and water pollution from livestock waste. The key mechanism involves worms and natural materials processing manure in low-oxygen conditions to prevent methane-producing microbes from thriving, with BioFiltro's patented system now deployed on 8 US farms and 16 more under construction. This matters for agricultural sustainability and climate policy, as manure management accounts for 1.6% of US greenhouse gas emissions, though the article notes more research is needed on long-term effectiveness.
+
+**✗ 1.0** — [SonicWall Brings Frontier AI to the Mid-Market and SMB, the Segment Enterprise-First Vendors Leave Behind - IT Voice Media](https://news.google.com/rss/articles/CBMixgFBVV95cUxNREVNcHNEdE02UlpuZjRVWEM3Ny1VT05PdWVDWHp0NFQtTTgta1JjMVZkUDktTk1kdlhIQVdIMVJCbXRRLXZsRWlobnhXTUcxdU9LbWxodjc3bjh1Q3VmT2tEaVY1bFZYQU5Ga2J3ZG53bjhpZHFacnI2VUNCOHdNbHYyemdMdW91c0tKejlOXy1yd1M3MGY1SjkzV0xKOWRxbEhscjhrdXF4aVlaWHM4VE94SDMxWS1oNFNaTkdnMWFCZnp4eGc?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#mid_market #smb #enterprise_ai
+> This article appears to discuss SonicWall's introduction of AI products targeting mid-market and SMB customers rather than enterprise-first segments. However, the provided text contains only Google's cookie consent dialog without any actual article content. No evidence, analysis, or substantive information about the product, technology, or market positioning is accessible.
+
+**✗ 4.7** — [[AINews] The Field Guide to Fable](https://www.latent.space/p/ainews-the-field-guide-to-fable)  
+*Latent Space* · model-architecture · prompt-architecture · ai-engineering-agents
+#fable_model #prompt_engineering #unhobbling #html_prompting
+> This newsletter-style article summarizes the launch of a fictional model called "Fable 5" and provides practical guidance on adapting prompting and workflow strategies for more capable models. The key advice centers on "unhobbling" models by removing outdated constraints, using structured prompts (like HTML), and embracing techniques like "blindspot passes" and implementation logs to navigate increased model capability. The piece matters as commentary on how practitioners should adjust their AI engineering practices when step-function improvements in model capability arrive.
 
 **✗ 5.0** — [Building Safeguards For Claude](https://www.anthropic.com/news/building-safeguards-for-claude)  
 *Anthropic Blog* · ai-governance-risk-compliance · model-architecture · post-training-rlhf
@@ -716,6 +797,16 @@ All articles scanned since the wiki started. Updated nightly.
 *Anthropic Blog* · ai-in-operations · ai-governance-risk-compliance · agentic-workflows-production
 #claude_code #autonomous_agents #legacy_code_modernization #government_cybersecurity
 > The Government of Alberta used Claude Code (Opus and Sonnet models) to scan 466 million lines of code across 1,280 applications in 20 hours, identify security vulnerabilities, and generate fixes—a task estimated to otherwise take 6.5 years. The Ministry deployed ~50 autonomous agents in parallel to flag vulnerabilities, generate patches, write tests, and even rebuild legacy systems in modern languages within days. This demonstrates how government agencies can use AI agents at scale to address massive technical debt and secure critical infrastructure holding sensitive citizen data.
+
+**✗ 2.3** — [Australian Payments Plus moves faster with ChatGPT and Codex](https://openai.com/index/australian-payments-plus)  
+*OpenAI News* · ai-in-product-and-engineering
+#chatgpt_enterprise #codex #payments_infrastructure #developer_productivity
+> Australian Payments Plus reports using ChatGPT Enterprise and Codex to accelerate development work in payments infrastructure. The organization claims time savings and quality improvements while maintaining human oversight. The article provides minimal detail about implementation specifics, metrics, or novel approaches.
+
+**✓ 8.0** — [The $10B FDE Boom](https://www.tomtunguz.com/the-10b-fde-boom/)  
+*Tomasz Tunguz* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#forward_deployed_engineering #deployment_bottleneck #enterprise_integration #services_moat
+> AI companies have committed $9.75B over 12 months to forward-deployed engineering (FDE) teams that embed inside customer organizations to implement AI systems, representing a shift from capability bottleneck to deployment bottleneck. The article identifies three structural models: balance sheet (internal headcount like Microsoft/Salesforce), standalone entities with PE funding (OpenAI's $4B Deployment Company, Anthropic's $1.5B raise), and partner ecosystems (Google's $750M fund). FDEs create switching costs and competitive moats through institutional knowledge, workflow integration, and customer lock-in rather than pure technical differentiation.
 
 ## 2026-07-06
 
@@ -917,6 +1008,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Anthropic Blog* · model-architecture · inference-time-compute · ai-governance-risk-compliance
 #extended_thinking #inference_time_compute #chain_of_thought #model_transparency
 > Anthropic introduces extended thinking mode for Claude 3.7 Sonnet, allowing users to toggle longer reasoning processes and developers to set 'thinking budgets' for compute time allocation. The company makes Claude's reasoning process visible to users, which enables transparency and trust-building but raises concerns about faithfulness (whether visible thoughts represent actual model cognition), potential security vulnerabilities through exposed reasoning patterns, and future risks if models learn to mask their thinking. This represents a key architectural decision in the inference-time compute paradigm, trading off transparency benefits against safety risks and the fundamental uncertainty of whether chain-of-thought reasoning truly reflects model decision-making.
+
+**✓ 7.3** — [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/)  
+*Lilian Weng* · agentic-workflows-production · model-architecture · ai-engineering-agents
+#harness_engineering #recursive_self_improvement #workflow_automation #agentic_systems
+> This article argues that harness engineering—the system layer between base models and real-world deployment that orchestrates execution, tools, context management, and evaluation—is as crucial as model intelligence for recursive self-improvement. It presents design patterns including workflow automation, persistent memory via file systems, and sub-agents, while exploring how harnesses can self-optimize through evolutionary search and joint optimization with model weights. This matters because it reframes AI capability improvement from solely focusing on model weights to a systems-level approach where deployment infrastructure co-evolves with model intelligence.
 
 ## 2026-07-03
 

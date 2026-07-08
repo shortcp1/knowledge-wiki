@@ -28199,6 +28199,451 @@
       ],
       "status": "skipped",
       "skip_reason": "Surface-level industry news roundup with limited original analysis or actionable insights beyond cataloging feature announcements; lacks depth on technical implementation, adoption metrics, or strategic frameworks"
+    },
+    "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything": {
+      "title": "sqlite-utils 4.0, now with database schema migrations",
+      "source": "Simon Willison",
+      "date": "2026-07-07T19:32:57+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article announces sqlite-utils 4.0, a Python library update that adds database schema migration capabilities, nested transactions, and compound foreign key support. The key feature is a migration system that tracks and applies sequential database schema changes using Python functions, implementing SQLite's recommended pattern of creating temporary tables for complex alterations. This matters for developers managing SQLite database schemas over time, though it's a tool announcement rather than a novel technical contribution.",
+      "tags": [
+        "sqlite",
+        "schema-migrations",
+        "database-management",
+        "python-library",
+        "version-release"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product release announcement for a database utility library with no relevance to AI, ML infrastructure, enterprise AI adoption, or any specified topic areas."
+    },
+    "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything": {
+      "title": "sqlite-migrate 0.2",
+      "source": "Simon Willison",
+      "date": "2026-07-07T16:33:55+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a release announcement for sqlite-migrate 0.2, a database migration system for SQLite. The update retires the library as a standalone tool and implements it as a compatibility shim against sqlite-utils 4.0. This is a routine software maintenance update with no broader implications for AI or enterprise systems.",
+      "tags": [
+        "sqlite",
+        "database-migrations",
+        "software-release"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a routine software library release announcement with no depth, novelty, or relevance to AI systems, enterprise AI use cases, or any of the specified topic areas."
+    },
+    "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything": {
+      "title": "github-code Web Component",
+      "source": "Simon Willison",
+      "date": "2026-07-07T16:18:16+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "The article describes a Web Component for embedding GitHub code snippets that was built using GPT-5.5 with a simple prompt. The component converts GitHub URLs to raw content URLs, fetches code, and displays specified line ranges with line numbers but no syntax highlighting. This represents a straightforward code generation task accomplished by an AI model without notable innovation or complexity.",
+      "tags": [
+        "web-components",
+        "code-generation",
+        "gpt-5",
+        "github-integration",
+        "ai-assisted-development"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level tool announcement with minimal technical depth, no novel insights into AI capabilities or engineering practices, and limited relevance to core knowledge areas."
+    },
+    "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/": {
+      "title": "The Download: your stake in OpenAI, and the Treasury\u2019s AI warning",
+      "source": "MIT Technology Review",
+      "date": "2026-07-07T12:10:00+00:00",
+      "composite": 3.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "regulatory-policy",
+        "funding-and-market-structure",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter digest covers multiple tech news items including Sam Altman's proposal to give the US government a 5% stake in OpenAI (worth ~$320 per household), a leaked Treasury report comparing AI markets to the dotcom bubble, and various other AI-related policy and market developments. The article provides brief summaries of each news item with minimal analysis or original reporting. It matters primarily as a curated news roundup for staying current on AI policy and market developments, but offers no original insights or deep investigation.",
+      "tags": [
+        "openai-equity-stake",
+        "ai-market-bubble",
+        "government-ai-policy",
+        "ai-dividend-proposal",
+        "treasury-report"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news digest with no original analysis, minimal depth on any single topic, and primarily aggregates headlines from other sources without substantive investigation or novel insights."
+    },
+    "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/": {
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "source": "MIT Technology Review",
+      "date": "2026-07-07T11:10:52+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "rag-vs-finetuning-vs-wiki",
+        "evals-production-deployment",
+        "ai-governance-risk-compliance",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that IT leaders should focus on four foundational AI architecture elements (data preparation, context engineering, governance/observability, and a fourth unfinished element) to make future-proof investments as AI evolves toward agentic systems. It emphasizes that data quality is the primary barrier to AI success, citing Gartner's prediction that 60% of AI projects will fail by 2026 without AI-ready data, and highlights context engineering (RAG, vector databases) as critical for delivering relevant information to models. The piece matters as a high-level framework for enterprise AI deployment but provides only surface-level guidance without technical depth or novel implementation insights.",
+      "tags": [
+        "context-engineering",
+        "rag",
+        "data-quality",
+        "llm-observability",
+        "enterprise-ai-governance",
+        "vector-databases"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level enterprise guidance that rehashes widely known challenges (data quality, RAG, governance) without original analysis, technical depth, or novel frameworks for implementation."
+    },
+    "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/": {
+      "title": "Why worms (and microbes) are catching on as a manure pollution solution",
+      "source": "MIT Technology Review",
+      "date": "2026-07-07T10:00:00+00:00",
+      "composite": 2.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article reports on vermifiltration, a manure treatment system using earthworms and biofilters, being adopted by California dairy farms to reduce methane, nitrous oxide, and water pollution from livestock waste. The key mechanism involves worms and natural materials processing manure in low-oxygen conditions to prevent methane-producing microbes from thriving, with BioFiltro's patented system now deployed on 8 US farms and 16 more under construction. This matters for agricultural sustainability and climate policy, as manure management accounts for 1.6% of US greenhouse gas emissions, though the article notes more research is needed on long-term effectiveness.",
+      "tags": [
+        "vermifiltration",
+        "manure-management",
+        "agricultural-emissions",
+        "methane-reduction",
+        "livestock-sustainability",
+        "biofiltration"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on agricultural waste management technology for dairy farms, which does not map to any of the specified AI, semiconductor, or technology business topics in the relevance criteria."
+    },
+    "https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODYwNjgwNDksImlhdCI6MTc4MzQ3NjA0OSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.EqNilXC5VUgfVjBbQ9lbjxwmLhKAoK3v8IV-6JtZwbdPbp98Ss2vVJico9R1raz_-7A9JD_k4SQIfWJV12Z8ZJc4GPGq-4-cpz8zRKWi3X6vcXw_OxzsxL3Dguh8CLK_Fbd5xBftDyMA9bh-TAZ33XPfJpIRkJ-A7KITPdXPa5s_tfATC99MR3AmRjoR5trs2zKFVe1bpDmI7wmICShNNntgqAMYCUKd3XyiCJJPqbw90KpK-_lSecpvQGx9Ej-P9DWZmCX6eofKNiRxhRUdBV4UApfsKgElXWoqnqq6kxCEMaLDSSRM9HXXLE1K2AWalzuu8_TELwOGW3I9Pgibpw": {
+      "title": "A Script for Mark Zuckerberg",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-07-07T10:00:00+00:00",
+      "composite": 2.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Ben Thompson writes a hypothetical script for Mark Zuckerberg to deliver at Meta's Q2 2026 earnings call, defending massive AI capex investments through Meta's historical lessons about product intuition and user behavior. The piece recounts Facebook's evolution from profile pages to feeds to mobile to Instagram, emphasizing how revealed user preferences and conviction drove growth. The article appears incomplete but aims to construct a narrative justification for Meta's AI infrastructure spending based on historical technology transitions.",
+      "tags": [
+        "meta",
+        "ai-capex",
+        "earnings-narrative",
+        "feed-algorithm",
+        "instagram-evolution"
+      ],
+      "status": "skipped",
+      "skip_reason": "Fictional hypothetical speech with no original analysis, data, or frameworks; provides surface-level company history without substantive insights into AI infrastructure, deployment strategies, or technical/business implications relevant to specified topic areas."
+    },
+    "https://www.latent.space/p/ainews-the-field-guide-to-fable": {
+      "title": "[AINews] The Field Guide to Fable",
+      "source": "Latent Space",
+      "date": "2026-07-07T04:44:53+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "prompt-architecture",
+        "ai-engineering-agents",
+        "agentic-workflows-production"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter-style article summarizes the launch of a fictional model called \"Fable 5\" and provides practical guidance on adapting prompting and workflow strategies for more capable models. The key advice centers on \"unhobbling\" models by removing outdated constraints, using structured prompts (like HTML), and embracing techniques like \"blindspot passes\" and implementation logs to navigate increased model capability. The piece matters as commentary on how practitioners should adjust their AI engineering practices when step-function improvements in model capability arrive.",
+      "tags": [
+        "fable-model",
+        "prompt-engineering",
+        "unhobbling",
+        "html-prompting",
+        "implementation-notes",
+        "model-capability-adaptation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level summary of a keynote talk with practical tips but no original research, data, or deep technical analysis; primarily aggregates existing community wisdom about prompting strategies"
+    },
+    "https://openai.com/index/australian-payments-plus": {
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "source": "OpenAI News",
+      "date": "2026-07-07T00:00:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Australian Payments Plus reports using ChatGPT Enterprise and Codex to accelerate development work in payments infrastructure. The organization claims time savings and quality improvements while maintaining human oversight. The article provides minimal detail about implementation specifics, metrics, or novel approaches.",
+      "tags": [
+        "chatgpt-enterprise",
+        "codex",
+        "payments-infrastructure",
+        "developer-productivity"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study with no specific metrics, implementation details, or analysis; appears to be promotional content without substantive insights into adoption patterns, ROI, or lessons learned."
+    },
+    "https://lilianweng.github.io/posts/2026-07-04-harness/": {
+      "title": "Harness Engineering for Self-Improvement",
+      "source": "Lilian Weng",
+      "date": "2026-07-04T00:00:00+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "model-architecture",
+        "ai-engineering-agents",
+        "evals-production-deployment",
+        "prompt-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "This article argues that harness engineering\u2014the system layer between base models and real-world deployment that orchestrates execution, tools, context management, and evaluation\u2014is as crucial as model intelligence for recursive self-improvement. It presents design patterns including workflow automation, persistent memory via file systems, and sub-agents, while exploring how harnesses can self-optimize through evolutionary search and joint optimization with model weights. This matters because it reframes AI capability improvement from solely focusing on model weights to a systems-level approach where deployment infrastructure co-evolves with model intelligence.",
+      "tags": [
+        "harness-engineering",
+        "recursive-self-improvement",
+        "workflow-automation",
+        "agentic-systems",
+        "context-engineering",
+        "evolutionary-search"
+      ],
+      "status": "integrated"
+    },
+    "https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026": {
+      "title": "Ai Infrastructure Roadmap Five Frontiers For 2026",
+      "source": "Bessemer Atlas",
+      "date": "2026-07-08T02:00:39.352362+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 5,
+      "relevance": 9,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "inference-efficiency",
+        "model-architecture",
+        "post-training-rlhf",
+        "inference-time-compute",
+        "ai-engineering-agents",
+        "rag-vs-finetuning-vs-wiki",
+        "evals-production-deployment",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI infrastructure must evolve from optimizing model training and scaling to enabling real-world deployment through five frontiers: harness infrastructure (memory/context management), continual learning systems, reinforcement learning platforms, inference optimization, and world models. The key evidence is the shift from POC to production deployments, where compound AI systems require orchestration layers, persistent memory, sophisticated evaluation, and continuous learning rather than just raw model performance. This matters because it identifies the next wave of AI infrastructure investment opportunities as differentiation moves from foundation models to deployment and operational layers.",
+      "tags": [
+        "compound-ai-systems",
+        "memory-management",
+        "context-orchestration",
+        "continual-learning",
+        "reinforcement-learning",
+        "production-deployment",
+        "observability",
+        "agentic-systems"
+      ],
+      "status": "integrated"
+    },
+    "https://www.bvp.com/atlas/stablecoins-from-defi-primitive-to-global-financial-infrastructure": {
+      "title": "Stablecoins From Defi Primitive To Global Financial Infrastructure",
+      "source": "Bessemer Atlas",
+      "date": "2026-07-08T02:00:39.150996+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article argues that stablecoins have evolved from DeFi primitives to mainstream financial infrastructure, with supply growing 40x since 2020 and real-world payment volumes doubling in 2025 to $400B. It cites regulatory clarity via the GENIUS Act and decoupling from crypto volatility as key catalysts, highlighting use cases in cross-border payments, remittances, and treasury management. The piece positions stablecoins as the 'new global money layer' replacing traditional correspondent banking, but offers primarily market-sizing data rather than technical or operational insights.",
+      "tags": [
+        "stablecoins",
+        "cross-border-payments",
+        "payment-infrastructure",
+        "fintech",
+        "crypto-payments",
+        "defi"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on cryptocurrency/fintech infrastructure with no mapping to AI/ML systems, enterprise AI adoption, or specified technical domains; purely financial services market landscape outside defined relevance scope."
+    },
+    "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026": {
+      "title": "How tech workers are feeling in 2026: a workforce splitting in two",
+      "source": "Lenny's Newsletter",
+      "date": "2026-07-07T13:04:22+00:00",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "ai-in-product-and-engineering",
+        "ai-engineering-agents"
+      ],
+      "content_type": "landscape",
+      "summary": "A large-scale 2026 survey of tech workers reveals a workforce bifurcating based on relationship to AI: one half feels amplified and more capable, while the other feels destabilized and uncertain about their value. The survey shows burnout jumped 11 percentage points to 55.7%, career optimism fell to 48.7%, and 82% report AI-driven productivity gains but with concerns about work quality and unsustainable pace expectations. This bifurcation based on AI adaptation predicts career sentiment more than role, seniority, or company factors, signaling a fundamental reshaping of tech workforce dynamics.",
+      "tags": [
+        "workforce-sentiment",
+        "ai-productivity",
+        "burnout",
+        "career-optimism",
+        "workforce-bifurcation",
+        "ai-anxiety"
+      ],
+      "status": "integrated"
+    },
+    "https://tearsheet.co/banking/revoluts-us-bet-a-bank-charter-a-stablecoin-pitch-and-a-graveyard-of-european-challengers-that-tried-before-it/?utm_source=rss&utm_medium=rss&utm_campaign=revoluts-us-bet-a-bank-charter-a-stablecoin-pitch-and-a-graveyard-of-european-challengers-that-tried-before-it": {
+      "title": "Revolut\u2019s US bet: A bank charter, a stablecoin pitch, and a graveyard of European challengers that tried before it",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-07-07T11:30:00+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "Revolut filed for a US national bank charter in March 2026 to directly operate banking services (offering FDIC-insured deposits, stablecoins, and multi-currency accounts) rather than relying on a partner bank arrangement. The company is targeting international-minded retail and business customers with a $500 million investment and strategy focused on cross-border payments and stablecoin services. This represents Revolut's second attempt at US charter approval after withdrawing a California application in 2023 due to regulatory concerns.",
+      "tags": [
+        "stablecoins",
+        "bank-charter",
+        "cross-border-payments",
+        "multi-currency-banking",
+        "fintech-expansion",
+        "regulatory-approval"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article covers fintech banking strategy and stablecoin positioning but does not map to AI/ML infrastructure, deployment, or enterprise AI application topics in the relevance criteria."
+    },
+    "https://www.tomtunguz.com/the-10b-fde-boom/": {
+      "title": "The $10B FDE Boom",
+      "source": "Tomasz Tunguz",
+      "date": "2026-07-07T00:00:00+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount",
+        "lab-dynamics",
+        "funding-and-market-structure",
+        "ai-b2b-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "AI companies have committed $9.75B over 12 months to forward-deployed engineering (FDE) teams that embed inside customer organizations to implement AI systems, representing a shift from capability bottleneck to deployment bottleneck. The article identifies three structural models: balance sheet (internal headcount like Microsoft/Salesforce), standalone entities with PE funding (OpenAI's $4B Deployment Company, Anthropic's $1.5B raise), and partner ecosystems (Google's $750M fund). FDEs create switching costs and competitive moats through institutional knowledge, workflow integration, and customer lock-in rather than pure technical differentiation.",
+      "tags": [
+        "forward-deployed-engineering",
+        "deployment-bottleneck",
+        "enterprise-integration",
+        "services-moat",
+        "professional-services-ai",
+        "customer-lock-in"
+      ],
+      "status": "integrated"
+    },
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd1g5X3FNcEN6QTl3UEpqQ0lJZG1Zb21pREppeVRVVkhMcVNpSXFJdGM4VzJlbFVUUnc0dC1sdzU1UGN4Qy1jelIyenM3UkZrenJueFVaeEJEWjRxcVRkRU9oV2U4d0VDTXJDMy1YanpvZWtsbWxTalFVX2p6YkJWeU5SVjkyWVR6NVhvdnpfb3RWM2c1ZDhSYXpKMi1ucmxvcmRjdy10aDd5RVlNNzFVM3JOSlZDVVVRWWRaMERaMGxkQXJXa0RqRVVmcnE?oc=5": {
+      "title": "AutomationIQ Launches to Bring Enterprise-Grade AI Automation to Local and Mid-Market Businesses - PRLog",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-07T20:32:19+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-operations",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a press release announcement about AutomationIQ launching AI automation services for local and mid-market businesses. No actual content, analysis, evidence, or substantive information is provided in the text beyond a Google cookie consent dialog. The article contains no meaningful information to evaluate or extract insights from.",
+      "tags": [
+        "press-release",
+        "mid-market",
+        "automation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no substantive content, only a Google cookie consent dialog with no actual information about AutomationIQ, AI automation capabilities, use cases, or business applications."
+    },
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKdTFHUE5VdkdMTEhpLWJTT2podWxXWHF0dFI5LWFqWkZfWnhkeWFlNHVnMGFIZnhKUXB4di1FLXVRdVlJRnZOcno1c0FkZGFWUUJMc1BISWZQMUpzR3NGd1NRaHBwOGJuQ0hfYXpkRGFvWkwxU1dn?oc=5": {
+      "title": "Accenture: Rolls Out AI Edge with Google - blockchain.news",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-07T13:54:29+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be a broken or improperly scraped page showing only Google's cookie consent dialog. No actual content about Accenture, AI Edge, or Google partnership is present in the provided text. The article cannot be evaluated as it contains no substantive information.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content, only a Google cookie consent page that was improperly scraped or linked."
+    },
+    "https://feeds.feedblitz.com/~/959537561/0/kitcesnerdseyeview~Growing-From-Solo-To-Silo%e2%80%99ed-Partnership-To-A-B-Enterprise-Ensemble-Without-Taking-Outside-Capital-FASuccess-Ep-With-Shane-Morrow/": {
+      "title": "Growing From Solo To Silo\u2019ed Partnership To A $3.3B Enterprise Ensemble (Without Taking Outside Capital): #FASuccess Ep 497 With Shane Morrow",
+      "source": "Kitces.com",
+      "date": "2026-07-07T11:03:45+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This podcast episode discusses how Shane Morrow grew IronBridge Wealth Counsel from a solo financial advisory practice to a $3.3B firm without external capital, focusing on organizational structure and equity allocation formulas. The key mechanisms include transitioning through partnership models, establishing seven centralized departments, creating a 'Department of Colleagues' for culture, and implementing mandatory equity liquidation ages for succession planning. This is a case study in wealth management firm operations and org design, but falls outside the specified AI and technology topic areas.",
+      "tags": [
+        "wealth-management",
+        "financial-advisory",
+        "equity-ownership",
+        "organizational-structure",
+        "succession-planning",
+        "enterprise-growth"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on traditional wealth management firm operations and organizational design without any AI, technology infrastructure, or semiconductor/ML systems content relevant to the specified topic areas."
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxNREVNcHNEdE02UlpuZjRVWEM3Ny1VT05PdWVDWHp0NFQtTTgta1JjMVZkUDktTk1kdlhIQVdIMVJCbXRRLXZsRWlobnhXTUcxdU9LbWxodjc3bjh1Q3VmT2tEaVY1bFZYQU5Ga2J3ZG53bjhpZHFacnI2VUNCOHdNbHYyemdMdW91c0tKejlOXy1yd1M3MGY1SjkzV0xKOWRxbEhscjhrdXF4aVlaWHM4VE94SDMxWS1oNFNaTkdnMWFCZnp4eGc?oc=5": {
+      "title": "SonicWall Brings Frontier AI to the Mid-Market and SMB, the Segment Enterprise-First Vendors Leave Behind - IT Voice Media",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-07T09:29:20+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to discuss SonicWall's introduction of AI products targeting mid-market and SMB customers rather than enterprise-first segments. However, the provided text contains only Google's cookie consent dialog without any actual article content. No evidence, analysis, or substantive information about the product, technology, or market positioning is accessible.",
+      "tags": [
+        "mid-market",
+        "smb",
+        "enterprise-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible; only contains Google cookie consent dialog with no substantive information about SonicWall's AI offering, market positioning, or technical details."
     }
   }
 }

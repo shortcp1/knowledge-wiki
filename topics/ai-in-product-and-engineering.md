@@ -1,9 +1,9 @@
 ---
-tags: [autonomous-agents, openai-symphony, linear-integration, agent-orchestration, web-browsing-agents, zero-supervision-workflows, ai-in-product-and-engineering]
+tags: [agent-orchestration, ai-in-product-and-engineering, autonomous-agents, customer-lock-in, deployment-bottleneck, enterprise-integration, forward-deployed-engineering, linear-integration, openai-symphony, professional-services-ai, services-moat, web-browsing-agents, zero-supervision-workflows]
 ---
 
 ---
-tags: [agent-substitution, agentic-coding, agentic-loops, agentic-system-improvement, agentic-workflows, ai-agents-meetings, ai-application-disciplines, ai-bottleneck-claims, ai-coding-tools, ai-cost-per-engineer, ai-harness, ai-in-product-and-engineering, ai-infrastructure-spending, ai-limited-use-cases, ai-native-cost-structure, autonomous-coding, bottleneck-analysis, build-vs-buy, cio-priorities, claude-code, coding-agents, complex-systems-design, compute-economics, compute-spend-per-engineer, context-advantage, context-requirement, conversational-context, cost-efficiency, cursor, data-requirement, developer-feedback-loop, external-feedback-loop, harness-engineering, hill-climbing-loop, human-ai-collaboration, human-taste, inference-cost, intelligence-per-token, loop-engineering, meeting-recording, model-economics, model-selection, open-weight-models, organizational-dynamics, product-development, product-development-activities, product-development-complexity, product-vision, regulatory-risk, repetition-requirement, saas-headcount-reduction, saas-multiples, seat-based-pricing, situational-awareness, software-testing, system-of-record, systems-design-ai, systems-thinking, theory-of-constraints, three-loop-framework, token-budget-optimization, token-deflation, token-economics, typing-vs-thinking, unstructured-data, voice-based-systems, pre-release-qa, library-maintenance, multi-model-review, mobile-development-workflow, async-agent-patterns, openai-symphony, linear-state-machine, mobile-agent-management, zero-babysitting-agents, cloud-vps-agents, agent-orchestration-frameworks]---
+tags: [agent-substitution, agentic-coding, agentic-loops, agentic-system-improvement, agentic-workflows, ai-agents-meetings, ai-application-disciplines, ai-bottleneck-claims, ai-coding-tools, ai-cost-per-engineer, ai-harness, ai-in-product-and-engineering, ai-infrastructure-spending, ai-limited-use-cases, ai-native-cost-structure, autonomous-coding, bottleneck-analysis, build-vs-buy, cio-priorities, claude-code, coding-agents, complex-systems-design, compute-economics, compute-spend-per-engineer, context-advantage, context-requirement, conversational-context, cost-efficiency, cursor, data-requirement, developer-feedback-loop, external-feedback-loop, harness-engineering, hill-climbing-loop, human-ai-collaboration, human-taste, inference-cost, intelligence-per-token, loop-engineering, meeting-recording, model-economics, model-selection, open-weight-models, organizational-dynamics, product-development, product-development-activities, product-development-complexity, product-vision, regulatory-risk, repetition-requirement, saas-headcount-reduction, saas-multiples, seat-based-pricing, situational-awareness, software-testing, system-of-record, systems-design-ai, systems-thinking, theory-of-constraints, three-loop-framework, token-budget-optimization, token-deflation, token-economics, typing-vs-thinking, unstructured-data, voice-based-systems, pre-release-qa, library-maintenance, multi-model-review, mobile-development-workflow, async-agent-patterns, openai-symphony, linear-state-machine, mobile-agent-management, zero-babysitting-agents, cloud-vps-agents, agent-orchestration-frameworks, forward-deployed-engineering, fde-teams, deployment-bottleneck, model-capability-vs-deployment, enterprise-ai-installation, embedded-engineering, institutional-switching-costs]---
 
 ## Product Development Reality Check (June 2026)
 
@@ -11,73 +11,41 @@ tags: [agent-substitution, agentic-coding, agentic-loops, agentic-system-improve
 
 ### The Nature of Product Development Work
 
-Product development is fundamentally not linear production work. It encompasses:
-- **Sensing**: Understanding user needs, market conditions, technical possibilities
-- **Deciding**: Making choi
+Product development is fundamentally not linear produc
 
-## Mobile-Driven Autonomous Coding Workflow with OpenAI Symphony + Linear (July 2026)
+## The Deployment Bottleneck (July 2026)
 
-**Source**: Alessio Fanelli (Kernel Labs), "How I run autonomous coding agents from my phone with OpenAI Symphony + Linear", Lenny's Newsletter
+**Source**: Tomasz Tunguz, "The $10B FDE Boom"
 
-### Business Problem
-- Running autonomous coding agents through full development lifecycle without constant supervision
-- Managing parallel coding tasks from mobile device while away from desk
-- Tracking agent progress and costs across multiple concurrent development tasks
-- Scaling beyond local compute constraints (local Mac Minis don't scale for multi-agent workloads)
+### The Shift from Model Capability to Deployment
 
-### AI Pattern: Orchestrated Autonomous Coding Agents
-**Symphony + Linear State Machine Architecture**:
-- **OpenAI Symphony**: Open-source framework managing coding agents through complete dev lifecycle
-- **Linear as State Machine**: Project management tool acts as state tracker and task queue for agents
-- **Zero Babysitting**: Agents operate autonomously without human monitoring during execution
-- **Mobile Management**: Full agent orchestration controllable from phone interface
-- **Cloud VPS Deployment**: Agents run on cloud infrastructure rather than local machines for scalability
+**Key claim**: The bottleneck in AI adoption has shifted from model capability to deployment (as of 2026). GPT-4, Claude, and Gemini are described as "powerful enough" - most enterprises cannot install, configure, and operate them without embedded engineering support.
 
-**Agent Manager vs. Agent Prompter Mental Model**:
-- Shift from "prompting agents" to "managing agents" as conceptual framework
-- Manager role: Define tasks, set constraints, track progress, review outputs
-- Agents handle execution autonomously within defined parameters
+This represents a fundamental market transition where technical capability is no longer the constraint in enterprise AI adoption. See [[build-vs-buy-enterprise-ai]] for related infrastructure considerations.
 
-### Success Factors
-**Infrastructure Design**:
-- **Linear Integration**: Wire Symphony and Linear together for state management
-- **Cloud Compute**: VPS enables parallel agent execution at scale
-- **Token Cost Tracking**: Monitor per-task token consumption (example: 221 million tokens tracked)
-- **Mobile Interface**: Full control from phone unlocks async management pattern
+### Forward-Deployed Engineering (FDE) Models
 
-**Configuration Best Practices**:
-- **Purge Instruction Files**: Recommendation to fully purge CLAUDE.md files rather than continuously adding instructions
-- **Clean State**: Start with minimal instructions rather than accumulating guidance
-- **Agent Senses**: Better sensing capabilities (e.g., Glimpse) extend autonomous run lengths
+AI companies committed $9.75B in 12 months (2025-2026) to build FDE teams - engineers embedded inside customer organizations to deploy AI systems. This represents 21% of Accenture's annual labor cost ($47.45B in FY2025).
 
-### Industry and Function
-- **Industry**: Software Development Tools / Developer Infrastructure
-- **Function**: Software Engineering, Engineering Operations
-- **User**: Technical founder/CTO managing development workflow
+**Three structural models**:
 
-### Quantitative Outcomes
-- **Token Volume**: 221 million tokens consumed tracked across tasks
-- **Cost Example**: ~$149.25 for major library development task (from related sqlite-utils work)
-- **Zero Supervision**: Complete dev lifecycle runs without human intervention
-- **Parallel Execution**: Multiple agents running concurrent tasks
+1. **The Balance Sheet Model**: Microsoft, Amazon, Salesforce fund FDE from existing headcount. No external capital required. Salesforce committed 1,000 FDE roles. Advantage: speed and control without board approval for reassignments.
 
-### Generalizability
-**Pattern Applies To**:
-1. **Any Task-Based Knowledge Work**: Architecture of state machine + autonomous executor generalizes beyond coding
-2. **Mobile-First Operations**: Any professional needing to manage complex workflows while mobile
-3. **Async Management Patterns**: Knowledge workers managing multiple parallel work streams
-4. **Constrained Supervision Time**: Scenarios where manager time is bottleneck but agent execution time is abundant
+2. **The Standalone Entity Model**: OpenAI and Anthropic created separate entities with external private equity:
+   - OpenAI's Deployment Company: $4B raise at $14B post-money valuation, 17.5% return floor, 19 investors led by TPG. Acquired Tomoro (150-person Edinburgh consultancy with clients including Virgin Atlantic, Tesco, NBA).
+   - Anthropic: $1.5B from Blackstone ($300M), Hellman & Friedman ($300M), Goldman Sachs ($150M), Apollo, General Atlantic. Targets Blackstone's 275 portfolio companies first.
+   - Rationale: Scale without diluting the parent company.
 
-**Industries/Functions**:
-- Content production (writing, design) with editorial review
-- Data analysis pipelines with quality checks
-- Research synthesis with human validation
-- Customer support case resolution with escalation paths
-- Financial analysis with compliance review
-- Legal document review and drafting
+3. **The Partner Ecosystem Model**: Google Cloud committed $750M to a partner fund rather than building direct FDE teams. Capital flows to system integrators and specialists. Leverage strategy: one dollar mobilizes multiple dollars of partner headcount.
 
-**Key Transferable Insight**: The state machine pattern (Linear) + autonomous executor pattern (Symphony) + mobile management interface creates "zero babysitting" workflows applicable wherever:
-- Tasks can be clearly specified upfront
-- Progress can be tracked through state transitions
-- Quality can be validated asynchronously
-- Cost per task is acceptable relative to human alternative
+### FDE as Competitive Moat
+
+**Key claim**: FDE investment creates institutional switching costs, not just technical ones.
+
+Mechanisms:
+- **Education builds lock-in**: Once teams are trained on one lab's patterns, retraining on a competitor's stack creates friction
+- **Proprietary intelligence**: Embedded engineers observe workflows, data schemas, and failure modes that no API call reveals. This intelligence flows back into model tuning.
+- **Organizational expansion**: FDE teams expand across the organization and serve as defense when competitors approach
+- **Institutional switching costs**: The barrier is organizational retraining and workflow disruption, not technical migration
+
+See [[ai-org-design-headcount]] for workforce transformation implications.

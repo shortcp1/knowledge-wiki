@@ -1171,3 +1171,51 @@ Vercel is building an end-to-end agent platform comparable to its web developmen
 **Tungsten geopolitics**: Wars depleting global tungsten stocks; China mines 80%; West reopening mines. Relevant to semiconductor manufacturing but insufficient detail for existing topics.
 
 *Suggested new topic files: [[ai-geopolitics-open-source]] or [[china-ai-supply-chain-strategy]]*
+
+---
+**Harness Engineering for Self-Improvement** (Lilian Weng, 2026-07-04T00:00:00+00:00)
+## Recursive Self-Improvement (RSI) - New Topic
+
+**Historical Foundation**: I. J. Good (1965) - "ultraintelligent machine" concept
+- System surpassing humans in all intellectual activities
+- Designs better machines to improve itself
+
+**Modern Definition** (Yudkowsky 2008): AI uses current intelligence to improve cognitive machinery producing its intelligence
+
+**Feedback Loop Mechanisms**:
+- Direct: Model rewriting own weights
+- Indirect: Model improves training pipeline and deployment system
+- Outcome: Better successor models with improved performance on economically valuable tasks
+
+**Empirical Evidence**: "Speed of research development in AI has been shown to drastically accelerated in frontier labs (Anthropic; OpenAI)" [confidence: stated as shown]
+
+**Harness Role in RSI**: [[ai-engineering-agents]] harness engineering contributes to RSI through workflow automation, persistent state management, and self-improvement mechanisms
+
+**Related Research Areas** (mentioned but not focus of source):
+- Model self-play
+- Synthetic data
+- Test-time training
+- Continual learning
+- References: Yuan et al. 2024, Chen et al. 2024, Zhao et al. 2025, Choi et al. 2026
+
+**Cross-reference**: [[ai-engineering-agents]] for harness patterns, [[agentic-workflows-production]] for production deployment
+
+---
+**Ai Infrastructure Roadmap Five Frontiers For 2026** (Bessemer Atlas, 2026-07-08T02:00:39.352362+00:00)
+## Five AI Infrastructure Frontiers (2026)
+
+**Source**: Bessemer AI Infrastructure Roadmap (July 2026)
+
+Bessemer identifies five structural frontiers for next-generation AI infrastructure beyond model scaling:
+
+1. **Harness infrastructure**: Tools to unlock full potential of models in compound systems (memory, context management, orchestration)
+2. **Continual learning systems**: [content truncated in article]
+3. **Reinforcement learning platforms**: [content truncated in article]
+4. **Inference inflection point**: Observability and evaluation for production deployment
+5. **World models**: [content truncated in article]
+
+**Paradigm Shift**: First generation AI infrastructure focused on "brains" for intelligence (foundation models, compute capacity, training techniques, data ops). Next generation focuses on enabling AI to interface with and operate in the real world.
+
+**Market Context**: Big labs moving from benchmark optimization to real-world interfaces; enterprises graduating from POCs to production deployment.
+
+**Investment Context**: Bessemer's 2024 AI Infrastructure Roadmap drove investments in Anthropic, Fal AI, Supermaven (acquired by Cursor), and VAPI.
