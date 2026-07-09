@@ -1,8 +1,8 @@
 ---
-tags: [agent-orchestration, agent-runtime, agentic-systems, agentic-workflows-production, autonomous-agents, context-engineering, evolutionary-search, goal-oriented-loops, harness-engineering, linear-integration, openai-symphony, recursive-self-improvement, self-improving-agents, web-browsing-agents, workflow-automation, zero-supervision-workflows]---
+tags: [adversarial-review, agent-experience, agent-memory-architecture, agent-orchestration, agent-runtime, agent-sandboxes, agentic-systems, agentic-workflows, agentic-workflows-production, asynchronous-inference, automated-refactoring, autonomous-agents, bursty-workloads, code-generation, context-engineering, deterministic-rewriting, elastic-compute, elastic-inference, evolutionary-search, goal-oriented-loops, gpu-snapshotting, harness-engineering, linear-integration, local-model-routing, memory-architecture, multi-cloud-capacity, openai-symphony, overnight-processing, preflight-checks, preflight-retrieval, programmatic-infrastructure, recursive-self-improvement, rl-rollouts, rust-migration, sandbox-environments, self-improving-agents, self-improving-systems, serverless-functions, serverless-gpu, skills-library, test-driven-agents, watchdog-monitoring, web-browsing-agents, workflow-automation, workflow-versioning, zero-supervision-workflows]---
 
 ---
-tags: [agentic-ai, agentic-commerce, agentic-workflows, agentic-workflows-production, autonomous-purchasing, bnpl, conductor-architecture, cuda-programming, economic-automation, evolutionary-algorithms, financial-underwriting, gpu-kernel-optimization, intent-verification, kya-know-your-agent, model-orchestration, multi-model-orchestration, multi-model-systems, orchestrator-models, recursive-self-improvement, remote-labor-index, sep-cma-es, vendor-independence, openai-codex, browser-automation-agents, ebay-scouting, price-arbitrage-agents, small-business-ai, retail-intelligence, psa-certificate-validation, tcgplayer-pricing, collectibles-market-agents, autonomous-browsing]---
+tags: [agentic-ai, agentic-commerce, agentic-workflows, agentic-workflows-production, autonomous-purchasing, bnpl, conductor-architecture, cuda-programming, economic-automation, evolutionary-algorithms, financial-underwriting, gpu-kernel-optimization, intent-verification, kya-know-your-agent, model-orchestration, multi-model-orchestration, multi-model-systems, orchestrator-models, recursive-self-improvement, remote-labor-index, sep-cma-es, vendor-independence, openai-codex, browser-automation-agents, ebay-scouting, price-arbitrage-agents, small-business-ai, retail-intelligence, psa-certificate-validation, tcgplayer-pricing, collectibles-market-agents, autonomous-browsing, conformance-suites, adversarial-review, parallel-agent-coordination, large-scale-refactoring]---
 
 ## Agentic Commerce Infrastructure Gap (Zip Co, July 2026)
 
@@ -11,53 +11,53 @@ tags: [agentic-ai, agentic-commerce, agentic-workflows, agentic-workflows-produc
 - Traditional BNPL designed for humans making purchase decisions with visible intent signals
 - Agentic commerce shifts purchasing decisions to software agents
 - Core problem: "Infrastructure mismatch: autonomous buyers operating on systems built to verify human intent"
-- Critical separation: Intent from action - "person making the purchase and person assuming the debt" no longer the same
+- Critical separation: Intent from action - "person making the purchase and person assuming the debt" no longe
 
-### AI Pattern: Autonomous Purchase Agents
-**Agentic Commerce Deployment**:
-- AI agents purchasing, financing, and managing transactions on behalf of consumers
-- Agents act as intermediaries between consumer intent and transaction execution
-- Decision-making process becomes opaque to infrastructure layer
-- Agents execute "exactly as instructed but produce outcomes consume
+## Memory Architecture: Preflight Pattern (Theory Ventures, July 2026)
 
-## Autonomous Retail Intelligence: Codex for Collectibles Market Arbitrage (July 2026)
+**Source**: Tomasz Tunguz, "The AI Preflight Check"
 
-**Source**: Alessio Fanelli (Kernel Labs), "How I run autonomous coding agents from my phone with OpenAI Symphony + Linear", Lenny's Newsletter
+### Core Architectural Pattern
 
-### Bu
+**Central Claim**: "Context size is not the ceiling. Memory architecture is."
 
-## Harness Engineering Framework for Production Workflows (July 2026)
+Three-stage memory architecture for production agent deployment:
 
-**Source**: Lilian Weng, "Harness Engineering for Self-Improvement"
+1. **Preflight Retrieval**: Agent inspects skills library, selects relevant skills, loads only those into context window
+   - Skills are "consolidated memory"
+   - Preflight is the selection mechanism
+   - Example workload: "Summarize the Q3 board deck" over 200,000 raw tokens of emails, PDFs, chats
 
-### Harness Role in Production Systems
-**Definition**: Layer between base model and real-world context that is "as important as the model's raw intelligence"
+2. **Local Execution**: [[inference-efficiency]] routing pattern
+   - Ornith 35B (local 35B-parameter model on Apple Silicon via Ollama) handles ~80% of routine tasks
+   - Hard tasks route to frontier models
+   - Local model executes on loaded context only
 
-**Evidence from Production Systems**: "Successful coding agent products such as Claude Code and Codex" demonstrate harness importance
+3. **Watchdog + Overnight Processing**: [[inference-efficiency]]
+   - Logs every preflight decision, skill invocation as named, versioned artifact
+   - Monitors: which skills loaded, decisions made, success rates
+   - Overnight [[inference-efficiency#Asynchronous Inference]]: processes day's trail, decides new skill development
+   - **Deterministic Rewriting**: Identifies workflow components that should become Rust code (e.g., calendar free/busy comparison)
+   - Self-improving loop: rewrites skills library, restarts system
 
-### Workflow Automation Pattern
-**Standard Goal-Oriented Loop**:
-1. Plan
-2. Execute
-3. Observe/Test
-4. Improve
-5. Execute again (until goal achieved)
+### Skills Library Architecture
 
-**User Interaction**: Process may trigger proactive requests for:
-- Task specification clarity
-- Execution preference
+**Technical Implementation** (~90 workflow files as of July 2026):
+- On-disk indexed storage
+- Retrieved by intent match
+- Workflows written once, versioned
+- Handed to model as tool schemas
+- See [[ai-engineering-agents#Skill Distillation]]
 
-**Runtime vs Static**: Workflow emphasizes model analyzing own trajectories and failure cases through "agent runtime" rather than static prompt templates
+### Plateau Behavior
 
-### Persistent State Management
-**File System Pattern**: Harness keeps durable state in files rather than carrying entire workflow in context
+**Empirical Finding**: First day where watchdog suggested zero improvements observed
+- Uncertain if sustainable: "I doubt it will continue"
+- Hypothesis: "at some level of improvement, the system reaches a plateau. Only genuinely new exceptions need human help"
+- **Confidence Level**: Single observation, requires validation
 
-**Long-Horizon Artifacts** (commonly exceed context window):
-- Experiment logs
-- Code diffs
-- Error traces
-- Past rollout trajectories
-
-**Implementation**: File system operations via bash commands as foundation skill
-
-**Cross-reference**: [[ai-engineering-agents]] for detailed harness patterns, [[recursive-self-improvement]] for self-improvement mechanisms
+### Cross-References
+- Local execution model: [[inference-efficiency#Local Models]]
+- Overnight processing: [[inference-efficiency#Asynchronous Inference]]
+- Skill development: [[ai-engineering-agents#Skill Distillation]]
+- Code generation patterns: [[ai-engineering-agents]]

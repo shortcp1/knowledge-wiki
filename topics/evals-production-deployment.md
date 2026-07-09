@@ -1,68 +1,50 @@
 ---
-tags: [adversarial-testing, agent-benchmarks, agent-personality-eval, agent-vulnerabilities, agentic-bug-finding, agentic-harness, agentic-workflows, agents-last-exam, ai-security, arc-agi, arc-prize, automated-red-teaming, autonomous-agents, benchmark-design, benchmark-evaluation-methodology, benchmark-methodology, benchmark-replacement, biology-benchmarks, bug-finding-evals, capture-the-flag, claude-sonnet-5, clear-pass-fail-signals, coding-agent-indices, coding-agents, coding-evals, composite-scoring, ctf-evals, custom-benchmarks, cybench, cybersecurity-agent-evaluation, cybersecurity-benchmarks, cybersecurity-evals, data-retention-constraints, deepswe, docker-sandboxing, economically-useful-tasks, evals-production-deployment, evaluation-methodology, evaluation-transparency, expert-vetted-benchmarks, exploit-generation, fallback-scoring, false-positive-detection, feature-implementation, feature-implementation-evals, first-solve-time, frozen-inputs, goal-loop-evals, goal-loop-pattern, gray-swan-arena, guardrails, gut-feel-scoring, human-in-the-loop, human-judgment, human-written-tests, humanitys-last-exam, incident-diagnosis, intelligence-indices, llm-as-judge, llm-as-judge-limitations, llm-judge, llm-judge-prioritization, long-horizon-agentic-tasks, model-benchmarking, model-evaluation, model-fallback-evaluation, model-personality, model-routing, model-selection-strategy, multi-agent-orchestration, multi-language-evals, personal-benchmarks, prd-evaluation, private-codebase-evals, production-deployment, program-replication, program-synthesis, program-synthesis-evals, prompt-filtering, prompt-injection, proprietary-benchmarks, prototype-evaluation, pure-vs-practical-evaluation, red-teaming, red-teaming-models, refusal-handling, repeatability, robustness-evaluation, safety-classifiers, safety-guardrails, sandbox-environments, sandboxed-environments, sanitizer-validation, science-benchmarks, scoring-rubric, security-bug-evals, security-evals, session-history-generation, subtask-grading, swbench, swe-bench, system-diagnosis-evals, task-specific-recommendations, token-pricing, ui-evaluation, vals-ai, verifier-subagent, vibe-checks, vision-models, visual-inspection, vulnerability-discovery, vulnerability-exploitation, weighted-indices, zero-da]
+tags: [adversarial-testing, agent-benchmarks, agent-personality-eval, agent-vulnerabilities, agentic-bug-finding, agentic-harness, agentic-workflows, agents-last-exam, ai-safety-evaluations, ai-security, arc-agi, arc-prize, automated-red-teaming, autonomous-agents, benchmark-design, benchmark-evaluation-methodology, benchmark-methodology, benchmark-replacement, bespoke-evaluation-interfaces, binary-reverse-engineering, biology-benchmarks, biosecurity, bug-finding-evals, capability-probing, capture-the-flag, catastrophic-risk, claude-3-7-sonnet, claude-sonnet-5, clear-pass-fail-signals, coding-agent-indices, coding-agents, coding-evals, composite-scoring, ctf-evals, custom-benchmarks, cybench, cyber-ranges, cybersecurity-agent-evaluation, cybersecurity-benchmarks, cybersecurity-capabilities, cybersecurity-evals, data-retention-constraints, deepswe, docker-sandboxing, domain-expert-red-teaming, dual-use-ai, dual-use-capabilities, economically-useful-tasks, evals-production-deployment, evaluation-methodology, evaluation-transparency, expert-vetted-benchmarks, exploit-generation, fallback-scoring, false-positive-detection, feature-implementation, feature-implementation-evals, first-solve-time, frontier-red-team, frontier-red-teaming, frozen-inputs, goal-loop-evals, goal-loop-pattern, gray-swan-arena, guardrails, gut-feel-scoring, human-in-the-loop, human-judgment, human-written-tests, humanitys-last-exam, incalmo, incident-diagnosis, information-security-protections, intelligence-indices, intercode-ctf, jailbreak-testing, jailbreaking, lateral-movement, llm-as-judge, llm-as-judge-limitations, llm-judge, llm-judge-prioritization, long-horizon-agentic-tasks, model-benchmarking, model-evaluation, model-fallback-evaluation, model-personality, model-routing, model-selection-strategy, multi-agent-orchestration, multi-language-evals, multi-stage-attacks, national-security, national-security-risk, national-security-risk-assessment, network-reconnaissance, personal-benchmarks, prd-evaluation, private-codebase-evals, production-deployment, program-replication, program-synthesis, program-synthesis-evals, prompt-filtering, prompt-injection, proprietary-benchmarks, red-teaming, threat-model-definition]
 ---
 
-## How I AI Bench: Personal Benchmark Design Pattern (July 2026)
+## Frontier Threats Red Teaming
 
-**Source**: Claire (How I AI/Lenny's Newsletter), "Sonnet 5 review: I ran 64 generations to find out if it's worth it"
+**Definition**: Specialized adversarial testing focused on national security-relevant capabilities (biosecurity, cybersecurity) requiring intensive time investment and subject matter expertise.
 
-### Benchmark Construction Methodology
+### Resource Requirements
+- **Expert time**: 100+ hours per domain with subject matter experts (decades of experience)
+- **Anthropic biology case study**: 150+ hours with top biosecurity experts (July 2023)
+- Close collaboration between domain experts and LLM experts required
 
-**Claude Code for benchmark generation**: Models can read stored session history to generate eval tasks tailored to individual work patterns. Claire prompted Claude Code to brainstorm eval tasks based on previous collaboration sessions stored on desktop, allowing automatic generation of personally-relevant benchmark tasks.
+### Methodology Components
 
-**Frozen inputs requirement**: Repeatability requires frozen inputs, fixed rubric, and identical tasks across model releases. One-off vibe checks feel useful but aren't repeatable—repeatability is what makes benchmarks matter for longitudinal comparison.
+**Threat Model Definition**: Structured analysis covering:
+- What information types are dangerous
+- How information combines to create harm
+- Required accuracy and frequency thresholds for danger
+- Multi-step information chaining requirements (not single harmful outputs)
 
-**Manual HTML scoring interface**: Building an HTML scoring page for gut-feel ratings with JSON export takes ~45 minutes with [[ai-engineering-agents|Claude Code]]. Claire scored 64 generations across 5 models by hand using 1-to-5 gut scores with loose notes.
+**Capability Probing**: Domain experts learning to:
+- Interact optimally with models
+- Execute jailbreaks
+- Assess true capabilities in target domain
 
-### Task Categories in How I AI Bench v1
+**Evaluation Development**: Building automated, repeatable evaluations based on expert knowledge with supporting tooling infrastructure.
 
-- **PRD generation**: Product requirements document creation
-- **Prototype building**: UI implementation from specifications
-- **Agentic tasks**: Multi-step autonomous work
-- **Agent personality**: Voice/tone evaluation (e.g., "ugh, deploys are red again" prompts)
+**Security Requirements**:
+- Bespoke, secure interfaces without public deployment safeguards
+- Partnerships with trusted third parties
+- Strong information security protections for sensitive findings
+- Findings shared selectively with government, labs, stakeholders
 
-**Task retirement criteria**: Agentic bug-hunting task proved too easy—every model aced it, providing no differentiation between good and great models. Tasks that don't differentiate get retired.
+### Key Findings Pattern (Biology Domain)
 
-### LLM-as-Judge Limitations
+**Current Capabilities**:
+- Frontier models can produce sophisticated, accurate, expert-level knowledge
+- Frequency varies by specific area studied
+- Indication of capability scaling with model size
+- Tool access likely to advance capabilities further
 
-**Confidence: High** - Direct empirical observation from systematic comparison
+**Risk Assessment**: Unmitigated LLMs could:
+- Accelerate bad actor efforts relative to internet-only access
+- Enable tasks impossible without LLM assistance
+- Effects characterized as "small today, but growing relatively fast"
+- **Timeline**: Near-term risks (2-3 years from July 2023) if unmitigated
+- However: mitigations exist to "substantially reduce these risks"
 
-**Clustering toward middle scores**: LLM judges (GPT-5.5, Opus 4.8) are too generous and cluster toward middle of scale. They lack the "spikiness" needed to differentiate quality levels.
-
-**Visual inspection failure**: Models miss what human eye catches immediately in first screenshot—broken prototypes, ignored wireframe constraints. Vision models cannot yet match human visual evaluation for UI quality.
-
-**Judge-human divergence**: LLM judges ranked Gemini 3 Pro highest and Sonnet 4.6 lowest. Claire's personal ranking was almost exactly opposite. This divergence indicates rubric needs to encode more of what evaluator actually cares about before automated scores can be trusted.
-
-### Weighted Index Approach
-
-**70/30 human-to-LLM weighting**: When Claire applied 70% weight to her scores and 30% to LLM judge scores, Sonnet 4.6 jumped from lowest to first place. This "Claire-weighted index" produced task-by-task recommendations that aligned better with her actual preferences.
-
-**Human signal primacy**: Manual gut-feel scoring "turned out to be the most useful part of the whole benchmark" despite being subjective and time-intensive.
-
-### Task-Specific Model Recommendations from How I AI Bench
-
-From Claire-weighted index results:
-- **PRD generation**: GPT-5.5
-- **Prototypes and conversational interaction**: [[model-architecture|Sonnet 4.6]]
-- **Codebase navigation**: [[model-architecture|Opus 4.8]] or [[model-architecture|Sonnet 5]]
-- **Complex, dense UI work**: Opus 4.8 (justifies price premium)
-
-**Agent personality differentiation**: Sonnet 4.6 remains Claire's choice for daily agent work due to personality/voice, not benchmark scores. No other model in test matched it on voice evaluation.
-
-### Cross-Model Comparison Context
-
-Claire's benchmark compared:
-- [[model-architecture|Sonnet 5]]: $2/M input, $10/M output (summer 2026 promotional pricing)
-- [[model-architecture|Sonnet 4.6]]: Previous-generation pricing tier
-- [[model-architecture|Opus 4.8]]: Premium tier
-- [[model-architecture|GPT-5.5]]
-- [[model-architecture|Gemini 3 Pro]]
-
-**Sonnet 5 positioning**: Priced closer to previous Sonnet models than to Opus, finished near bottom of Claire's personal preference ranking. Cost argument only holds if quality argument holds for specific use case—not a universal upgrade.
-
-### Benchmark Evolution Goals
-
-- Encode more evaluator taste into rubric
-- Run blind evaluation on every new model release
-- Goal: create benchmark that labs actually care about
-- Acknowledge this is "version one" requiring continued sharpening
+**Strategic Context**: Work creates baseline risk evaluation and repeatable methodology for scaling across multiple domains. See [[ai-governance-risk-compliance]] for policy framework and [[lab-dynamics]] for organizational commitments.

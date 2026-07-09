@@ -1219,3 +1219,37 @@ Bessemer identifies five structural frontiers for next-generation AI infrastruct
 **Market Context**: Big labs moving from benchmark optimization to real-world interfaces; enterprises graduating from POCs to production deployment.
 
 **Investment Context**: Bessemer's 2024 AI Infrastructure Roadmap drove investments in Anthropic, Fal AI, Supermaven (acquired by Cursor), and VAPI.
+
+---
+**Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO** (Latent Space, 2026-07-08T22:55:07+00:00)
+## Agent Sandboxes Topic (New)
+
+**Source**: Akshat Bubna (Modal CTO), "Why AI Infrastructure must evolve for Agent Experience", Latent Space, July 2026
+
+### Sandbox Primitives for Agents
+**Conceptual Role**: "Sandboxes are a clear representation of this shift [to agent experience]"
+- Isolated environments that agents can easily spin up
+- Programmatic environment control without human intervention
+
+**Agent Sandbox Requirements**:
+- Write code in isolated environment
+- Run code and inspect output
+- Change environment configuration
+- Debug failures with clear feedback
+- Fast iteration cycles
+
+**Scale Requirements**: Production agent workflows can require extreme sandbox parallelism
+- RL rollouts: up to 100,000 simultaneous sandboxes
+- Ephemeral: created and destroyed at high frequency
+
+### Modal Sandbox Features
+**Networked Sandboxes**:
+- Sidecar containers for auxiliary services
+- Private IPv6 networking between sandboxes
+- Enables complex multi-service agent workflows
+
+**Persistent Storage**: Integration with persistent storage for stateful agent workflows
+
+**Production Guardrails**: "Production agents need hard guardrails" (specific mechanisms not detailed)
+
+**Cross-Reference**: See [[ai-engineering-agents]] for agent experience patterns, [[agentic-workflows-production]] for RL rollout scale, [[gpu-architecture-training-infra]] for infrastructure primitives

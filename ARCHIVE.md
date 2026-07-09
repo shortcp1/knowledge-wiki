@@ -705,7 +705,149 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-09
+
+**✓ 8.0** — [Strategic Warning For Ai Risk Progress And Insights From Our Frontier Red Team](https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)  
+*Anthropic Blog* · model-architecture · evals-production-deployment · regulatory-policy
+#frontier_red_teaming #cybersecurity_capabilities #capture_the_flag #dual_use_ai
+> Anthropic reports on one year of frontier AI red teaming, finding that models like Claude 3.7 Sonnet are showing 'early warning' signs of dual-use capabilities, progressing from high school to undergraduate level in cybersecurity CTF challenges (from <25% to nearly 100% on Intercode CTF) and approaching expert-level knowledge in some biology domains. The evidence comes from custom-developed evaluations across four model releases, including work with external experts at Carnegie Mellon on realistic cyber ranges, demonstrating rapid capability improvement while noting that models still fall short of generating substantially elevated national security risks. This matters because it establishes a concrete methodology and baseline for tracking potentially dangerous AI capabilities, informing both internal safety decisions and broader policy discussions around frontier model evaluation.
+
+**✓ 7.3** — [Frontier Threats Red Teaming For Ai Safety](https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety)  
+*Anthropic Blog* · evals-production-deployment · ai-governance-risk-compliance · lab-dynamics
+#red_teaming #biosecurity #catastrophic_risk #jailbreaking
+> Anthropic reports on their 'frontier threats red teaming' methodology for evaluating catastrophic risks from AI models, specifically biological weapons design capabilities, involving 150+ hours of expert evaluation. The article describes their systematic approach: defining threat models with domain experts, extensive adversarial testing including jailbreaking attempts, and developing automated evaluations while maintaining information security. They found that current models may soon present national security risks if unmitigated, but that effective mitigations exist, informing both immediate safety practices and policy commitments announced at the White House.
+
+**✗ 2.3** — [24](https://www.deeplearning.ai/the-batch/page/24)  
+*The Batch (DeepLearning.AI)* · ai-in-product-and-engineering
+#newsletter_archive #ai_project_failure #change_management #model_robustness
+> This is a table of contents page listing newsletter issues from The Batch (DeepLearning.AI) from September-November 2019, covering topics like AI project failures, change management, robustness, and small data challenges. The page provides brief snippets from Andrew Ng's letters discussing why ML projects fail, including issues with test set performance vs. real-world deployment and the challenges of building robust AI systems. This is purely archival/navigational content with no substantive analysis or original insights.
+
+**✗ 4.7** — [Gpt 5 6 Will See A Wider Release This Week](https://www.deeplearning.ai/the-batch/gpt-5-6-will-see-a-wider-release-this-week)  
+*The Batch (DeepLearning.AI)* · model-architecture · inference-efficiency · regulatory-policy
+#gpt_5_6 #model_pricing #government_ai_regulation #vertical_integration
+> The article reports on OpenAI's planned release of GPT-5.6 models after government safety review delays, China's consideration of restricting foreign access to advanced AI models, and Microsoft's shift from third-party models (OpenAI/Anthropic) to internal MAI models to reduce costs. Key evidence includes benchmark scores (GPT-5.6 Sol Ultra at 91.9% vs Claude Mythos 5 at 88% on TerminalBench 2.1), pricing comparisons showing GPT-5.6 at roughly half of Anthropic's rates, and Microsoft's explicit goal to eliminate third-party AI spending as partnerships expire. This matters because it signals three major shifts: emerging government oversight of frontier model releases, potential fragmentation of the global AI market through export controls, and consolidation as large tech companies reduce dependency on AI labs through vertical integration.
+
+**✗ 5.0** — [Charting A Path To Ai Accountability](https://www.anthropic.com/news/charting-a-path-to-ai-accountability)  
+*Anthropic Blog* · regulatory-policy · evals-production-deployment · ai-governance-risk-compliance
+#ai_accountability #model_evaluation #risk_thresholds #pre_registration
+> Anthropic proposes a framework for AI accountability to NTIA including government-funded evaluation standards, risk-responsive assessments based on model capabilities, and pre-registration requirements for large training runs. The company recommends threshold-based deployment decisions where models exceeding risk thresholds require enhanced oversight and regulatory notification, alongside third-party auditors with technical expertise. This represents an AI lab's perspective on balancing safety regulation with continued development, potentially influencing future U.S. AI governance frameworks.
+
+**✗ 2.0** — [23](https://www.deeplearning.ai/the-batch/page/23)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #table_of_contents #deeplearning_ai
+> This is a table of contents page from The Batch newsletter archive, listing issue titles and brief introductory snippets from early 2020. The content provides headlines about various AI applications and Andrew Ng's reflections on teaching, careers, and habits, but contains no substantive analysis or complete articles. This is purely navigational content without actionable insights or technical depth.
+
+**✗ 4.0** — [How to Increase Your Chances of Being Selected by AI](https://airealizednow.substack.com/p/how-to-increase-your-chances-of-being)  
+*AI Realized Now* · 
+#ai_discoverability #brand_positioning #ai_recommendation_systems #content_optimization
+> The article introduces a DUV framework (Discoverability, Understanding, Validation) for optimizing how AI systems find, interpret, and recommend brands, illustrated through the author's experience with their organic skincare brand Red Pantz. The framework argues that brands need all three layers working together: making content crawlable for AI retrieval, ensuring consistent messaging across platforms so AI describes the brand correctly, and establishing credible signals so AI recommends the brand. The article matters for businesses trying to optimize their presence in AI-driven search and recommendation systems, though it provides limited technical depth or novel insights beyond reframing traditional SEO concepts for the AI era.
+
 ## 2026-07-08
+
+**✓ 9.0** — [Rewriting Bun in Rust](https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything)  
+*Simon Willison* · agentic-workflows-production · ai-engineering-agents · ai-in-product-and-engineering
+#agentic_workflows #code_generation #rust_migration #automated_refactoring
+> Bun's creator Jarred Sumner rewrote the entire JavaScript runtime from Zig to Rust in 11 days using AI agents (Claude/Mythos/Fable), spending approximately $165,000 in tokens to process 5.9B input tokens and generate 690M output tokens. The rewrite was validated through a million-assertion TypeScript test suite, adversarial code review, and a process-oriented approach where bugs triggered improvements to the code generation workflow rather than manual fixes. This demonstrates that frontier AI models have fundamentally changed the economics of large-scale rewrites, turning what was historically considered a cardinal sin of software engineering into a viable strategy when paired with comprehensive testing and agent orchestration.
+
+**✗ 4.7** — [Introducing GPT‑Live](https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything)  
+*Simon Willison* · multimodal-models · model-architecture · inference-time-compute
+#gpt_live #voice_mode #multimodal_inference #task_delegation
+> OpenAI upgraded ChatGPT's voice mode to GPT-Live, which can delegate complex tasks to GPT-5.5 in the background while maintaining conversation flow. The author reports the new model is significantly more capable than the previous GPT-4o-era voice mode, but encountered bugs during preview where the model would inappropriately interrupt with laughter. This represents an architectural shift toward hybrid synchronous-asynchronous conversation handling in multimodal models.
+
+**✓ 7.3** — [Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO](https://www.latent.space/p/modal2026)  
+*Latent Space Podcast* · gpu-architecture-training-infra · inference-efficiency · agentic-workflows-production
+#agent_experience #serverless_gpu #elastic_inference #sandbox_environments
+> Modal's CTO argues that cloud infrastructure must evolve from developer-oriented to agent-oriented design, as agents cannot reason through documentation and dashboards like humans can. The article details Modal's technical approach including elastic inference, GPU snapshotting, sandboxes for RL rollouts (up to 100,000 concurrent), and a 17-cloud capacity pool designed for bursty AI workloads. This represents a fundamental shift in cloud architecture assumptions from human-in-the-loop web applications to autonomous agent workloads requiring programmatic infrastructure, fast feedback loops, and hard guardrails.
+
+**✗ 4.0** — [Advisor360° Debuts Meeting Prep AI Agent to Slash Financial Advisor Prep Time by 60% - FF News](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZnhGTU1GXzM2R1JYSnc1N0o3cE96djNjVjM0UHBhNzIxQ3NXREFYZHl0TnpZd01IXzlXblI3RXpqTU85SlhQa3Y3TjBvcWhLZEY4cC1ZTFRmeVVfTW5wR2tLNkRxM1p1b21WNm1fYXlyaGFyeEFic1JTM2piVTJ4UnU1a2w4ZVFNODQ5Nk00TWxqT0RpWGZyeFBKWVJhU2RCaGtPbUNQVDR0UQ?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory · agentic-workflows-production
+#meeting_prep #ai_agent #financial_advisors #workflow_automation
+> Advisor360° announced a Meeting Prep AI Agent designed to reduce financial advisor preparation time by 60%. The article appears to be a product announcement but the actual content is blocked by a Google consent page, preventing access to details about the agent's capabilities, implementation, or evidence supporting the 60% claim. Without the actual article content, it's impossible to assess the technical depth, novel insights, or substantive analysis of this AI agent deployment.
+
+**✗ 4.7** — [Quoting Kenton Varda](https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything)  
+*Simon Willison* · ai-in-product-and-engineering · ai-engineering-agents
+#ai_generated_code_descriptions #code_review_workflow #commit_messages #engineering_team_practices
+> Kenton Varda reports implementing a moratorium on AI-generated commit messages and PR descriptions within his engineering team. The AI-generated descriptions failed to provide necessary high-level context for code review, instead merely restating low-level implementation details visible in the code itself. This represents a practical failure mode of AI tooling in software engineering workflows where summarization quality matters for team collaboration.
+
+**✗ 1.7** — [Avioneer Launches AI-Powered Cybersecurity for Mid-Market Businesses - Carroll County Mirror-Democrat](https://news.google.com/rss/articles/CBMitwFBVV95cUxNOE1jSEdQOXN5V0ZhQ05pYWlJZUZGX2xwaWlJUDBPNEktR1o4M1VZYU1fZWd5NkJJSXA4SElEaVZaMXJlRU1naHBwNXJEY251SVNFUjBST0ZHRU40Rk9nVDBvOW9kcmhSYmw2U0tBbDlkb3h6dTd2S0MzNWdKenY3U2R3X0w0NXV2NEQwV2RnS3h3clFnTS1DTGVTckhtd0laYjY0TjdtaUZRWlA1WUJVUk0yQjU2elE?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-governance-risk-compliance
+#cybersecurity #mid_market #product_launch
+> The article appears to announce Avioneer's launch of an AI-powered cybersecurity solution targeting mid-market businesses. No actual article content is provided—only Google's cookie consent dialog is visible in the scraped text. Without access to the actual article, it's impossible to assess the depth of analysis, novelty of claims, or specific relevance to AI topics.
+
+**✗ 2.3** — [EmTech AI 2026: The Rise of the AI Platform](https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/)  
+*MIT Technology Review* · 
+#conference #ai_platforms #emtech
+> This appears to be a conference announcement or promotional page for EmTech AI 2026 with the theme 'The Rise of the AI Platform.' No substantive content, analysis, data, or arguments are provided in the article text. This is marketing material for an event rather than analytical or research content.
+
+**✗ 1.7** — [RICS Extends Early Access Program for GAIA | RIA™, the Investment Adviser Industry's First Patented AI-Driven Platform for the Rule 206(4)-7 Annual Review - Morningstar](https://news.google.com/rss/articles/CBMisgJBVV95cUxNTEdBU1BCcUQwb1c4dTV0X25TakRlWUk5NHo1cTNBWDk5NWRvYmpBcXJJZWdoT0JFNkJwOUJ0TmVZX0EwSUhJa3lGUHExMmVyNG1hMWZNcWZtckNoSklhMzFueUZtWUlqQVlzYTkyak5leEI5azFtVzg4X0tMN2NrdTBGb0hEV0M2QlVMUTdfbEFmZUhaMWN3d2s3b2VOWlczQmRrSWxOTVktRnU0YjVnOUg2T3FxODk3bENOUzdEN0pWZGotTjlQWDFza3E5eU16b1N3RTJvUUdjUWpzMHpZQThZNXpOV01Qa2FaaTlyT2dZWGhJM0J2M0ROaHZhV1I0a1lFaDdRTlMxQ29fVU95OUEtRHNrMHl3R29tSDlhVHRYQ1ZveE1IUXpzdmI4c2dUaXc?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory · ai-governance-risk-compliance
+#compliance_automation #investment_adviser #regulatory_technology
+> The article appears to be a press release about RICS extending early access for GAIA, an AI platform for investment advisers' Rule 206(4)-7 annual compliance reviews. No actual content is provided beyond the title, as the page shows only a Google cookie consent dialog. Without substantive content, it's impossible to assess the platform's capabilities, methodology, or impact on wealth management compliance workflows.
+
+**✗ 2.7** — [Our approach to government and national security partnerships](https://openai.com/index/government-national-security-partnerships)  
+*OpenAI News* · regulatory-policy · ai-governance-risk-compliance
+#government_partnerships #national_security #responsible_ai #democratic_accountability
+> OpenAI outlines high-level principles for engaging with government and national security entities, emphasizing responsible AI use, democratic accountability, and public safety. The article provides general policy statements without specific implementation details, operational frameworks, or concrete examples of partnership structures. This matters primarily as a public positioning statement on OpenAI's approach to government collaboration, but offers limited actionable insight.
+
+**✗ 2.7** — [More Human, Not Less: New Edward Jones and Morning Consult Research Shows AI is Deepening the Role of the Financial Advisor - Morningstar](https://news.google.com/rss/articles/CBMijwJBVV95cUxNQ2t4NUhmUWhQMUdneUZtX09yZUw4STB1bFZNbXNtb0puTWJ2M2V4REQ1SUx3VFlTc0JHZGE3U3NFZThSalkxMGh1RkZBSzJYbFlDeUt5LTFhc0xOR3hxMmUtdHlMMkpXbzZxMG9iaVlXc3AxSXlXNkxKcDFfck1iMV9pQk9aR1lxU3lRRHk1bVBrMUpNNXYtTDdVbFZyY1J6TUcyZHFPOThaZlFSTGNmZF9MdVB5LU9tM1AwMDFFUFJwY0Y2eEFFcTRZRmoxUEU1YWFydVpsMkk0WDZoSXpIQ0ZYRmZhRkZuVERleWg3enU5QjFmSU53XzktSnp5ZHd4Y3FaWVZ0Tm9EdXVxMEtJ?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#financial_advisors #wealth_management #human_ai_collaboration
+> The article appears to discuss research from Edward Jones and Morning Consult about AI's impact on financial advisors, suggesting AI enhances rather than replaces human advisory roles. However, the actual content provided is only a Google cookie consent page with no substantive information about the research findings, methodology, or specific claims. Without access to the actual article content, no meaningful evaluation of depth, novelty, or specific insights can be conducted.
+
+**✗ 2.7** — [More Human, Not Less: New Edward Jones and Morning Consult Research Shows AI is Deepening the Role of the Financial Advisor - PR Newswire](https://news.google.com/rss/articles/CBMiiAJBVV95cUxPMnM2TnI4Q0J0eTl2QjREVUJIWi1MejJQNG9lYnc4bU5qQ0g4SWZ4OVZXMFAzYldNdUVvVjE2dEtrTWZJUUNjTFd1Uk9JSjRSVUtNbVp5TkstYXV4WU5iVVJpNm9iUTlnVEJRUDRrekNGYWFZVDlFbnkwNHFZeGY0OVRxTlA4eE1CZDNjNWNTa184M1pUbHVLcC1zNmloZnRXWFRRclluRWxKUk4yTkxOTTluY3lXOHRYZTZkUHRrTnVUNFBWbkZEaUhkTUd4Y05YbXhidk1UTUM1Wkd6bFV0SFFmeTJrcVFrWkdZZzg2NlRWNEVTQ3YxTzJ6RXk0OTZ4by1MRmhNaHk?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory
+#financial_advisors #wealth_management #human_ai_collaboration
+> The article appears to be a press release about research from Edward Jones and Morning Consult regarding AI's impact on financial advisors, suggesting AI is enhancing rather than replacing human advisors. However, the actual article content is completely obscured by a Google cookie consent page, making it impossible to extract the key evidence, methodology, or specific findings. Without access to the actual research findings or claims, the article provides no actionable insights or novel information.
+
+**✗ 4.7** — [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations)  
+*OpenAI News* · evals-production-deployment · ai-engineering-agents
+#swe_bench #benchmark_reliability #coding_evaluation #model_benchmarking
+> OpenAI reports finding reliability issues in SWE-Bench Pro, a widely-used benchmark for evaluating AI coding capabilities. The analysis identifies problems with accuracy and signal quality in the benchmark that may affect model evaluation validity. This matters because it questions the trustworthiness of a prominent evaluation standard used across the AI industry to measure coding agent performance.
+
+**✗ 2.3** — [The Download: worms fight pollution, and geoengineering faces reality](https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/)  
+*MIT Technology Review* · regulatory-policy · model-architecture
+#news_digest #gpt_5 #deepseek #ai_regulation
+> This newsletter digest covers multiple technology stories, with the most relevant being Trump administration lifting restrictions on OpenAI's GPT 5.6, China considering curbing overseas access to its AI models, and Meta testing always-recording AI glasses. The article provides surface-level summaries of breaking news without analysis or original reporting. It serves as a daily technology news roundup rather than substantive content on any single topic.
+
+**✓ 7.3** — [What a harness is and how to build one with Claude Agent SDK](https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build)  
+*Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#claude_agent_sdk #ai_harness #bug_triage_automation #agentic_workflows
+> This article demonstrates how to build an AI harness using Claude Agent SDK, specifically a Sentry bug-debugging harness that automates evidence gathering, root-cause analysis, and artifact creation for bug triage. The author walks through the practical architecture including runs, tasks, tools, and artifacts, and explains when to build a custom harness versus using general-purpose AI coding tools. This matters because it provides a concrete, replicable pattern for encoding domain-specific workflows and permissions into AI agents rather than relying on generic prompting.
+
+**✗ 1.7** — [Why AI complacency is wealth management's most expensive bad habit - financial-planning.com](https://news.google.com/rss/articles/CBMirAFBVV95cUxNel9TYTBMR1hfSFY0VHlsakMwcklKV2Y2ZlNlMHlvLVR0NEdDYmFuY2JmWjZGNXItbjJwdjF1QlhvY2hjYUFJa2pTQmgzbWdPYzkyTkFvOGdCNHcxVTFSdjFzc3VDbDVpSndTbGRvRmF1Qm5YSWFBTFdwSHg4aGp6MXZ6QlVkZ3hVTkFBb0VoTnR0OHQ3RmExY3BaZjA2My0wYTEyejhCWGl4eWxM?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#wealth_management #article_blocked #no_content
+> Unable to determine content - the article appears to be blocked by a Google consent/cookie wall. The text provided only contains cookie policy language and sign-in requirements rather than the actual article content. Without access to the substantive content about AI complacency in wealth management, no meaningful evaluation can be performed.
+
+**✗ 3.3** — [The 3-Min Read: Fintechs want to become small businesses’ next employee](https://tearsheet.co/funding/fintechs-want-to-become-small-businesses-next-employee/?utm_source=rss&utm_medium=rss&utm_campaign=fintechs-want-to-become-small-businesses-next-employee)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-b2b-saas
+#smb_financial_services #embedded_finance #ai_customer_acquisition #integrated_financial_tools
+> The article reports that SoFi, Square, and Capital One are converging on a strategy to embed themselves deeper into small business operations through fast lending, AI-powered customer acquisition, and integrated financial tools. The key evidence is product announcements (SoFi's 24-hour loans, Square's ChatGPT/Claude integrations) and Capital One research showing 75% of SMBs struggle with fragmented financial systems. The piece argues this represents a shift from standalone financial products to comprehensive operational platforms that act as virtual employees.
+
+**✗ 3.0** — [2026 Mid-Year Market Outlook: 10 Charts On Market Highs And Key Client Topics](https://feeds.feedblitz.com/~/959728172/0/kitcesnerdseyeview~MidYear-Market-Outlook-Charts-On-Market-Highs-And-Key-Client-Topics/)  
+*Kitces.com* · ai-wealth-management-advisory
+#wealth_management #market_outlook #client_communication #ai_technology_stocks
+> This article provides a mid-2026 market outlook for financial advisors, noting that despite geopolitical uncertainty and inflation concerns, the S&P 500 posted positive returns in the first half driven by energy and AI-related tech stocks. The evidence includes data on inflation (CPI at 4.2% YoY, driven by energy), Federal Reserve rate expectations shifting from cuts to potential hikes, and elevated equity valuations. The article emphasizes that advisors should help clients focus on fundamentals like corporate earnings rather than headline-driven volatility to maintain investment discipline.
+
+**✗ 1.7** — [AI projects are stalling at mid-market firms – Google Cloud and Accenture want to solve that - IT Pro](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZ1hzd1c4cGVDVTJ1bEJOQW1aTHZoTXZyWUhkSTZFQ09jVWVUNzg1NzdCeGhMTHN0RjZ2eldaYzdzN1M0Nkd5aklzdlh3dTU0QXVlVExlVHY4enQ1ZW0xWGJFcFBYX2RaNVhRaUdmQ2RNbmhVTlpZelRraVpFZDlsUFVQTW1HTkxBSTFEVDFKNGNMc1pVeThjMXFEWVFEVzd0RC1nSkZrMWZPRW94RWNoTGVYSnZhWGdBZTQxdEd6blBlaHVmOHJ1M0ZIVkM4Tm1DTXV2YnN3?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#mid_market #google_cloud #accenture
+> The article title suggests Google Cloud and Accenture are addressing AI project failures at mid-market companies, but the provided text contains only a Google cookie consent dialog with no actual article content. No evidence, analysis, or insights are present in the submission. This appears to be a scraping or access error rather than article content.
+
+**✗ 2.0** — [Helping K–12 educators build practical AI skills](https://openai.com/index/k-12-educators-practical-skills)  
+*OpenAI News* · 
+#k12_education #educator_training #openai_academy #walton_family_foundation
+> OpenAI Academy and the Walton Family Foundation are launching AI Skills Jams to train K–12 educators on using AI in classroom settings. The article announces this partnership initiative but provides no details on curriculum, methods, or outcomes. This is a brief corporate announcement without substantive analysis or framework for educational AI deployment.
+
+**✗ 1.7** — [Mid-Market AI Adoption Hindered by Lack of Expertise and Inadequate Technology Foundations, Klarus Finds - Business Wire](https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS1lVaF91cTU0bnNOdDFndGF4Ukd1My1jYzZ6RjZqbmRmdzVIb0tXR2Z2YW9oanQ5VnNteUZYcWRhcS02ZEdLYl9tS3FCTllOaHNSb19HTEFOZi1NbmRVV2M3bWg5UVFrelp2aXpPM1FyUnhzZ3VCMG5CQXotQ1A4dDhSNVJ1WVNyRnJlNXlwU3g4WW9PZDhwUGJJYmswOXRtM3dRMThGcF9pbEFVZlozMHZPVzBnZWxPMjJWZmFhTVNtcFpfdFFXaVotVE9YR0pTbjRZOWFfV2FpN3V6MTQ3TXFoS0tWOUIzVk5KSDhvcGNjUQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#mid_market #ai_adoption #enterprise_readiness
+> The article appears to report on Klarus findings about mid-market AI adoption challenges related to expertise gaps and technology foundations. However, the actual article content is completely obscured by a Google cookie consent page, making the substance inaccessible. Without access to the actual content, no meaningful analysis of arguments, evidence, or implications can be performed.
+
+**✗ 5.3** — [[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI](https://www.latent.space/p/ainews-lilian-weng-summarizes-35)  
+*Latent Space* · model-architecture · agentic-workflows-production · lab-dynamics
+#harness_engineering #recursive_self_improvement #agent_scaffolding #auto_research
+> This article reports on Lilian Weng's research recap covering 35 papers on 'harness engineering' (agent scaffolding/tooling) and its relationship to recursive self-improvement (RSI) in AI systems. The key mechanism discussed is how harnesses—external systems that provide tools, context, and goal specification to models—may evolve toward self-improvement and enable auto-research capabilities, though core models may eventually internalize many harness improvements. This matters because it suggests a research direction where model capabilities and scaffolding co-evolve, with implications for how frontier labs approach AI development.
 
 **✓ 6.7** — [Ai Infrastructure Roadmap Five Frontiers For 2026](https://www.bvp.com/atlas/ai-infrastructure-roadmap-five-frontiers-for-2026)  
 *Bessemer Atlas* · gpu-architecture-training-infra · inference-efficiency · model-architecture
@@ -716,6 +858,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Bessemer Atlas* · 
 #stablecoins #cross_border_payments #payment_infrastructure #fintech
 > The article argues that stablecoins have evolved from DeFi primitives to mainstream financial infrastructure, with supply growing 40x since 2020 and real-world payment volumes doubling in 2025 to $400B. It cites regulatory clarity via the GENIUS Act and decoupling from crypto volatility as key catalysts, highlighting use cases in cross-border payments, remittances, and treasury management. The piece positions stablecoins as the 'new global money layer' replacing traditional correspondent banking, but offers primarily market-sizing data rather than technical or operational insights.
+
+**✓ 7.3** — [The AI Preflight Check](https://www.tomtunguz.com/the-ai-preflight-check/)  
+*Tomasz Tunguz* · agentic-workflows-production · inference-efficiency · ai-engineering-agents
+#agent_memory_architecture #skills_library #preflight_retrieval #local_model_routing
+> The article describes a three-part memory architecture for AI agents using 'preflight' retrieval (selecting relevant skills from a library before execution), local model execution (Ornith 35B handles 80% of tasks locally), and a watchdog system that asynchronously reviews daily operations to improve the skills library overnight. The key mechanism is treating skills as versioned, reusable workflow artifacts that get retrieved by intent matching, with the system self-improving by identifying which skills should be refined or converted to deterministic code. This matters because it demonstrates a practical production architecture for reducing context window bloat and inference costs while enabling continuous agent improvement through logged decision trails.
 
 ## 2026-07-07
 
@@ -777,6 +924,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · 
 #vermifiltration #manure_management #agricultural_emissions #methane_reduction
 > The article reports on vermifiltration, a manure treatment system using earthworms and biofilters, being adopted by California dairy farms to reduce methane, nitrous oxide, and water pollution from livestock waste. The key mechanism involves worms and natural materials processing manure in low-oxygen conditions to prevent methane-producing microbes from thriving, with BioFiltro's patented system now deployed on 8 US farms and 16 more under construction. This matters for agricultural sustainability and climate policy, as manure management accounts for 1.6% of US greenhouse gas emissions, though the article notes more research is needed on long-term effectiveness.
+
+**✗ 2.7** — [A Script for Mark Zuckerberg](https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODYxNTQ0NDcsImlhdCI6MTc4MzU2MjQ0NywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.uppTGQXFRozSmd5sf4QSjxVWpW2ck3kaNQJoM_F4sHOZaS6nIvG6vxMeLiKNiOROXhgN7hcm3Znss8Uy424orbvRCxyyffwG9JwvorAGtpRY2qITcdpxJ9NvMVxxx4AZshH_paTM5fkEhchHmDF6FGY7dcTccwh4_FURPJTE8Cz6tjlTiv3UjdT-U9PxUsqXI8Z8uNPj2e0fU9VGY4SkVwS6mVK2IDnRK__oNC7ekSNkcRtqg6LfBb-zjPCeEthZEdXcJX4w-4UT9v49_khvYZ0DchnYAgV9xboaqYpEPGL96GqYFXkPW52E7wDf72Wlyo-Ub-ss-DedUlxdEQlsvA)  
+*Stratechery (Ben Thompson)* · 
+#meta #capex_spending #ai_infrastructure #corporate_narrative
+> This article presents a fictional script for Mark Zuckerberg to justify Meta's AI capex spending by recounting Facebook's history and lessons learned. The piece uses a narrative device to walk through Facebook's evolution from face books to feeds to mobile to Instagram, emphasizing user engagement data and product intuition. The article appears incomplete but aims to build a case for Meta's current AI infrastructure investments through historical pattern recognition.
 
 **✗ 1.0** — [SonicWall Brings Frontier AI to the Mid-Market and SMB, the Segment Enterprise-First Vendors Leave Behind - IT Voice Media](https://news.google.com/rss/articles/CBMixgFBVV95cUxNREVNcHNEdE02UlpuZjRVWEM3Ny1VT05PdWVDWHp0NFQtTTgta1JjMVZkUDktTk1kdlhIQVdIMVJCbXRRLXZsRWlobnhXTUcxdU9LbWxodjc3bjh1Q3VmT2tEaVY1bFZYQU5Ga2J3ZG53bjhpZHFacnI2VUNCOHdNbHYyemdMdW91c0tKejlOXy1yd1M3MGY1SjkzV0xKOWRxbEhscjhrdXF4aVlaWHM4VE94SDMxWS1oNFNaTkdnMWFCZnp4eGc?oc=5)  
 *GN: AI Mid-Market Enterprise* · 

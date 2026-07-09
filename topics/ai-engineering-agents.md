@@ -1,9 +1,8 @@
 ---
-tags: [harness-engineering, recursive-self-improvement, workflow-automation, agentic-systems, context-engineering, evolutionary-search, ai-engineering-agents]
----
+tags: [adversarial-review, agent-experience, agent-observability, agentic-systems, agentic-workflows, ai-engineering-agents, ai-harness, artifact-generation, automated-refactoring, bug-triage-automation, claude-agent-sdk, code-generation, context-engineering, custom-terminal-ui, custom-tooling, elastic-inference, evolutionary-search, gpu-snapshotting, harness-engineering, ink-library, observability-over-code, opinionated-adapters, programmatic-infrastructure, recursive-self-improvement, rl-rollouts, rust-migration, sandbox-environments, sentry-integration, serverless-functions, test-driven-agents, workflow-automation]---
 
 ---
-tags: [agentic-ai, ai-coding-agents, ai-engineering-agents, autonomous-debugging, claude-code, claude-fable, coding-agents, cross-model-tool-compatibility, cuda-programming, economic-automation, gpu-kernel-optimization, model-regression, model-specific-tool-training, pre-release-testing, recursive-self-improvement, reinforcement-learning, reinforcement-learning-tool-bias, remote-labor-index, software-quality-assurance, tool-calling, tool-calling-reliability, tool-schema, transaction-management, harness-engineering, agent-harness, workflow-automation, file-system-memory, persistent-state-management, self-improving-agents, evolutionary-search, context-engineering, harness-optimization, loop-engineering, sub-agents, backend-jobs, goal-oriented-loops, bash-commands, artifact-management, auto-research, autoresearch-karpathy]---
+tags: [agentic-ai, ai-coding-agents, ai-engineering-agents, autonomous-debugging, claude-code, claude-fable, coding-agents, cross-model-tool-compatibility, cuda-programming, economic-automation, gpu-kernel-optimization, model-regression, model-specific-tool-training, pre-release-testing, recursive-self-improvement, reinforcement-learning, reinforcement-learning-tool-bias, remote-labor-index, software-quality-assurance, tool-calling, tool-calling-reliability, tool-schema, transaction-management, harness-engineering, agent-harness, workflow-automation, file-system-memory, persistent-state-management, self-improving-agents, evolutionary-search, context-engineering, harness-optimization, loop-engineering, sub-agents, backend-jobs, goal-oriented-loops, bash-commands, artifact-management, auto-research, autoresearch-karpathy, conformance-suites, adversarial-review, language-migration, large-scale-refactoring, rust, zig, bun-runtime]---
 
 ## sqlite-utils 4.0rc2: Production Library Development with Claude Fable (July 2026)
 
@@ -18,70 +17,50 @@ tags: [agentic-ai, ai-coding-agents, ai-engineering-agents, autonomous-debugging
 **Source**: Lilian Weng, "Harness Engineering for Self-Improvement", Lil'Log
 
 ### Conceptual Foundation
-**Recursive Self-Improvement (RSI)**: Historical concept from I. J. Good (1965) defining "ultraintelligent machine" as system that can surpass humans in all intellectual activities and design better machines to improve itself.
+**Recursive Self
 
-**Modern AI Interpretation**: AI uses its current intelligence to improve the cognitive machinery that produces its intelligence. This includes:
-- Model rewriting its own weights directly
-- Model improving training pipeline and deployment system
-- Enabling better successor models with improved performance on economically valuable tasks
+## Custom Harness Architecture: Sentry Bug Triage Case Study (July 2026)
 
-**Key Insight**: "The layer between the raw model and the real-world context seems to be as important as the model's raw intelligence (i.e. the evals right after pretraining)"
+**Source**: Claire Vo, "What a harness is and how to build one with Claude Agent SDK", Lenny's Newsletter
 
-### Harness Definition
-**Core Components**: System surrounding base model that orchestrates:
-- Execution and decision-making about how model thinks and plans
-- Tool calling and actions
-- Perception and context management
-- Artifact storage
-- Result evaluation
+### Harness Definition and Core Components
+**What a Harness Is**: A purpose-built wrapper around agent capabilities that encodes specific workflows, permissions, and artifact structures for repetitive, structured tasks. Distinct from general-purpose tools like Claude Code or [[ai-coding-tools|Codex]].
 
-**Scope Beyond Early Agent Frameworks**: Evolution from "agent = LLM + memory + tools + planning + action" to include:
-- Workflow design (loop engineering)
-- Evaluation
-- Permission controls
-- Persistent state management
-- Runtime and software system design
+**Three Required Components**:
+1. **Runs, Tasks, and Tools**: Structured execution framework
+2. **Opinionated Adapters**: Custom integrations for specific services (Sentry, Linear, GitHub, Vercel in this case)
+3. **Artifact Generation**: Structured outputs consumable by entire team
 
-**Operating System Analogy**: Like an OS, harness should encapsulate complicated logic while keeping interface simple. Configs, tool interfaces, and protocols may gradually standardize across industry.
+### When to Build vs. Use General Tools
+**Build a Harness When**:
+- Workflow is repetitive and structured
+- Specific permissions need encoding
+- Team-wide artifact consumption required
+- "Dear agent, please fix this" pattern emerges repeatedly
 
-### Design Principle
-**Deliberate Simplicity**: Design should be "deliberately simple and generic to enable generalization, likely with reference to existing software engineering practices to benefit from pretraining knowledge"
+**Use General Tools When**: Ad-hoc or exploratory work without established patterns
 
-### Pattern 1: Workflow Automation
-**Goal-Oriented Loop Structure**:
-- Plan → Execute → Observe/Test → Improve → Execute again
-- Loop continues until goal is achieved
-- May trigger proactive requests to users for task specification clarity or execution preferences
+### Implementation: ChatPRD Sentry Bug Triage Harness
+**Technology Stack**:
+- **[[claude-agent-sdk]]**: Core agent framework from Anthropic
+- **Claude Sonnet 4.6**: Model used inside the harness for investigation
+- **Ink Library**: Custom terminal UI for Node.js
+- **Integration Points**: Sentry (error monitoring), Linear (project management), GitHub, Vercel
 
-**Example - Codex Agent Loop**: Agent calls tools, tool responses affect model's next generation (simplified workflow)
+**Harness Capabilities**:
+- Automated evidence gathering from error logs
+- Root-cause analysis
+- Follow-up artifact creation (bug reports, PRs)
+- Eliminates manual "please investigate this bug" prompting
 
-**Reference Implementation**: Karpathy's autoresearch repo (https://github.com/karpathy/autoresearch) as "clean example" of workflow construction
+**Development Approach**:
+- Built the harness code itself using GPT-5.5 (Codex) and Claude Opus
+- Both models initially resisted certain architectural choices (not specified which)
+- Code structure designed for reusability across similar workflows
 
-**Key Characteristic**: Workflow graph emphasizes model analyzing its own trajectories and failure cases, iterating through "agent runtime" rather than static prompt template
+### Key Architectural Insight
+**Permission Encoding**: Harnesses embed specific permissions directly, avoiding repeated authorization decisions. This separates "what the agent can do" (harness design) from "what the agent should do" (runtime execution).
 
-### Pattern 2: File System as Persistent Memory
-**Core Pattern**: "Simple control over rich states and artifacts"
+**Artifact Structure**: Output format designed for non-technical team members to consume results without understanding agent internals.
 
-**Design Principle**: Harness should NOT carry entire workflow and logs in context. Instead, should keep durable state in files.
-
-**Long-Horizon Challenge**: Artifacts often grow much longer than model's trained context window:
-- Experiment logs
-- Code diffs
-- Paper summaries
-- Error traces
-- Past rollout trajectories
-
-**Foundation Skill**: "Learning how to read, write, and edit the file system (commonly via bash commands) is a foundation skill for LLMs"
-
-**Benefit**: Managing persistent memory in simple form of files leverages existing software engineering practices
-
-### Pattern 3: Sub-agent and Backend Jobs
-**Referenced but not detailed in excerpt**
-
-### Harness Optimization Directions
-**Three Areas Mentioned**:
-1. Context Engineering
-2. Workflow Design
-3. Self-Improving Harness (including evolutionary search and joint optimization with model weights)
-
-**Cross-reference**: [[recursive-self-improvement]] for broader RSI concepts, [[model-architecture]] for model weight optimization aspects
+See also: [[agentic-workflows-production]], [[ai-in-product-and-engineering]]

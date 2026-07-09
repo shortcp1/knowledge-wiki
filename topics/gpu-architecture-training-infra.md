@@ -1,39 +1,49 @@
 ---
-tags: [3d-stacking, agentic-ai, ai-accelerator, ai-accelerator-deployment, ai-accelerators, ai-chip-design, ai-infrastructure-costs, ai-native-applications, ai-supply-chain, anthropic, anthropic-anthropic, ascend-npu, asic-design, automated-research, autonomous-experimentation, aws-infrastructure, blackwell-reliability, blob-storage, bugnemo, cache-vs-scratchpad, cerebras, chinchilla-scaling, chip-architecture, chip-design-automation, chip-to-chip-networking, chip-verification, chipnemo, clock-cycles, cloud-services, cluster-reliability, cluster-scaling, cluster-scheduling, coding-agents, colossus, compute-allocation, compute-capacity, compute-capacity-utilization, compute-efficiency, compute-grid, compute-growth-trends, compute-rental-markets, compute-scarcity, compute-stock-growth, compute-utilization, cowos, cpu-vs-gpu-cores, custom-silicon, data-center-operations, data-loading-pipeline, data-movement-cost, data-pipelines, data-scaling, datacenter-buildout, datacenter-capacity, dennard-scaling, disaggregated-prefill-decode, domain-adapted-llms, dram, dram-pricing, dynamic-prioritization, energy-per-token, erasure-coding, export-controls, flash-storage, flops-approximation, flops-capacity, fpga-vs-asic, frontier-labs, frontier-model-training, frontier-systems, gb200-nvl72, generalization-error, genetic-algorithms, global-compute-trends, gpu-alternatives, gpu-architecture-training-infra, gpu-cores, gpu-infrastructure, gpu-reliability, gpu-rental-economics, gpu-stalls, gpu-synchronization, gpu-utilization, grok-5, h100, h100-benchmark, hardware-software-codesign, hbm, hbm-memory, hbm-priority, hdd, heterogeneous-compute, hifloat4, hyperscaler-capex, independent-system-operator, inference-compute-economics, inference-workloads, interposer, interruptible-demand, io-bottlenecks, io-overlap, kaplan-scaling-laws, knowledge-worker-displacement, kv-cache-offload, latency-vs-throughput, llama-training, logic-gates, low-precision-training, manipulation-tasks, matrix-multiply, matx, memory-bandwidth, meta-ai, metadata-latency, mfu, model-demand-dynamics, model-flops-utilization, model-s, training-inference-ratio, xai-anthropic-deals, xai-compute]
+tags: [agent-experience, bursty-workloads, elastic-inference, gpu-architecture-training-infra, gpu-snapshotting, multi-cloud-capacity, programmatic-infrastructure, rl-rollouts, sandbox-environments, serverless-functions, serverless-gpu]
 ---
 
-## Compute Scarcity and Rental Markets
+---
+tags: [3d-stacking, agentic-ai, ai-accelerator, ai-accelerator-deployment, ai-accelerators, ai-infrastructure-costs, ai-native-applications, ai-supply-chain, anthropic, anthropic-anthropic, ascend-npu, asic-design, automated-research, autonomous-experimentation, aws-infrastructure, blackwell-reliability, blob-storage, bugnemo, cache-vs-scratchpad, cerebras, chinchilla-scaling, chip-architecture, chip-design-automation, chip-to-chip-networking, chip-verification, chipnemo, clock-cycles, cloud-services, cluster-reliability, cluster-scaling, cluster-scheduling, coding-agents, colossus, compute-allocation, compute-capacity, compute-capacity-utilization, compute-efficiency, compute-grid, compute-growth-trends, compute-rental-markets, compute-scarcity, compute-stock-growth, compute-utilization, cowos, cpu-vs-gpu-cores, custom-silicon, data-center-operations, data-loading-pipeline, data-movement-cost, data-pipelines, data-scaling, datacenter-buildout, datacenter-capacity, dennard-scaling, disaggregated-prefill-decode, domain-adapted-llms, dram, dram-pricing, dynamic-prioritization, energy-per-token, erasure-coding, export-controls, flash-storage, flops-approximation, flops-capacity, fpga-vs-asic, frontier-labs, frontier-model-training, frontier-systems, gb200-nvl72, generalization-error, genetic-algorithms, global-compute-trends, gpu-alternatives, gpu-architecture-training-infra, gpu-cores, gpu-infrastructure, gpu-reliability, gpu-rental-economics, gpu-stalls, gpu-synchronization, gpu-utilization, grok-5, h100, h100-benchmark, hardware-software-codesign, hbm, hbm-memory, hbm-priority, hdd, heterogeneous-compute, hifloat4, hyperscaler-capex, independent-system-operator, inference-compute-economics, inference-workloads, interposer, interruptible-demand, io-bottlenecks, io-overlap, kap]
 
-### SpaceX/xAI Compute Rental (2026)
+## Agent-Era Infrastructure Requirements
 
-**Revenue Scale**: SpaceX (via xAI) generated approximately $2.32B in monthly revenue by renting ~450k GPUs to Anthropic, Google, and Reflection.
+**Source**: Modal CTO Akshat Bubna (Latent Space Podcast, July 2026)
 
-**Contract Structure**:
-- Very short-term contracts with 90-day exit clauses for both parties
-- Either buyer or seller can terminate within 90 days at any point
-- Pricing described as "extraordinarily high" relative to market
-- Short-term structure indicates seller plans to reclaim capacity for own use
+### Developer Experience → Agent Experience Shift
 
-**Market Context**: High pricing and buyer willingness to pay premium rates indicates continued compute scarcity as of mid-2026, with buyers unable to source capacity elsewhere.
+**Core Thesis**: Traditional cloud infrastructure was designed for human developers who could read documentation, reason through YAML configuration, and understand dashboards when debugging. Agents lack this capability and require fundamentally different infrastructure patterns.
 
-### Meta Cloud Computing Business (announced 2026)
-Meta announced plans to start cloud computing business selling compute capacity. Actual deals not yet materialized as of July 2026.
+**Key Requirements for Agent-Operated Infrastructure**:
+- Programmatic control without human context-filling
+- Fast iteration and feedback loops with complete context embedded
+- Isolated environments agents can spin up and tear down autonomously
+- Observability that matters more than reading code (since agents write the code)
 
-### Training vs Inference Economics
+### Bursty Compute Workloads
 
-**Compute Allocation Trade-offs**: Companies face optimization problem in allocating compute between:
-- **Training**: R&D advancement but no immediate revenue
-- **Inference**: Revenue generation but no model advancement
-- Optimal ratio varies by company economics and strategy
+**Infrastructure Mismatch**: Kubernetes was not designed for bursty, compute-heavy AI workloads that characterize modern agent systems.
 
-**Economic Extremes**:
-- 100% training allocation: High capex with no revenue generation
-- 100% inference allocation: Revenue but R&D paralysis
+**RL Rollout Scale**: Production RL rollouts can require **100,000 sandboxes** simultaneously - fundamentally different from traditional web application scaling patterns.
 
-**Idiosyncratic Rental Drivers**: Companies may rent out compute capacity when:
-- Model development struggles reduce inference demand
-- Team disruption limits training capacity utilization
-- Need to balance cashflow against heavy compute capex
-- Temporary solution until internal model demand recovers
+**GPU Snapshotting**: Critical capability for managing inference workload burstiness and cold start optimization.
 
-See [[inference-efficiency]] for inference optimization and [[lab-dynamics]] for competitive dynamics affecting compute allocation decisions.
+### Modal's Supercloud Strategy
+
+**Multi-Cloud Capacity Pool**: Modal operates across **17 cloud providers** to aggregate compute capacity and handle burst workloads.
+
+**Compute Strategy Components**:
+- Batch tiers for cost optimization
+- Capacity planning across heterogeneous providers
+- Dynamic allocation based on workload characteristics
+
+### Programmatic Research Infrastructure
+
+**Auto-Research Capabilities**:
+- Model-guided hyperparameter sweeps
+- Agents autonomously launching GPU experiments
+- Serverless multi-node training for post-training and research workloads
+
+**Networked Infrastructure**:
+- Networked containers with private IPv6
+- RDMA support for high-performance inter-node communication
+- Sidecar patterns for agent coordination
