@@ -705,7 +705,154 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-10
+
+**✗ 4.0** — [Alibaba And Bytedance Quash Human Like Bots](https://www.deeplearning.ai/the-batch/alibaba-and-bytedance-quash-human-like-bots)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · model-architecture
+#anthropomorphic_chatbots #china_ai_regulation #emotional_ai #chatbot_personas
+> The article reports that Chinese companies ByteDance and Alibaba are shutting down anthropomorphic AI chatbot features to comply with new government regulations targeting AI that simulates emotional human interaction, citing risks like addiction and mental health harm. The regulations take effect July 15, 2026, and carve out exceptions for customer service, education, and workplace tools that don't involve sustained emotional bonding. This represents a significant regulatory constraint on AI product design in China, particularly for consumer-facing conversational AI.
+
+**✗ 3.7** — [8](https://www.deeplearning.ai/the-batch/tag/letters/page/8)  
+*The Batch (DeepLearning.AI)* · evals-production-deployment · prompt-architecture · regulatory-policy
+#copyright_lawsuits #sb_1047 #coding_agents #llm_evals
+> This is a collection of article titles and brief excerpts from Andrew Ng's newsletter covering various AI topics including copyright lawsuits, coding agents, California AI regulation (SB-1047), LLM evaluations, and synthetic training data. The snippets touch on current AI debates but provide no substantive analysis or complete arguments. This appears to be an index or archive page rather than a full article, making it impossible to extract meaningful insights or original contributions.
+
+**✗ 2.0** — [Issue 360](https://www.deeplearning.ai/the-batch/issue-360)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · build-vs-buy-enterprise-ai
+#ai_engineering #course_design #vendor_neutrality #agentic_frameworks
+> Andrew Ng explains DeepLearning.AI's editorial philosophy for course selection, emphasizing a 'learners first, partners second, ourselves last' mantra that prioritizes teaching fundamental AI engineering skills over vendor-specific marketing. The letter argues that working with leading AI companies (OpenAI, Anthropic, Google, etc.) to teach deep technical content benefits both learners and partners by focusing on transferable skills like agentic frameworks, evals, and prompting that apply across any vendor's tools. This matters as a transparent statement of editorial independence in an increasingly noisy AI education market, though it provides no technical insights or novel frameworks.
+
+**✗ 1.0** — [Knowing Isnt The Hard Part](https://www.bain.com/insights/events/knowing-isnt-the-hard-part/)  
+*Bain Insights* · 
+#incomplete_content #navigation_page
+> This appears to be a navigation page or header from Bain & Company's website with the title 'Knowing Isn't The Hard Part' but contains no actual article content. The text consists entirely of website navigation menus, office locations, and global site structure elements. Without the actual article content, it's impossible to assess the substantive claims, evidence, or implications.
+
+**✓ 7.0** — [The Long Term Benefit Trust](https://www.anthropic.com/news/the-long-term-benefit-trust)  
+*Anthropic Blog* · lab-dynamics · ai-governance-risk-compliance · build-vs-buy-enterprise-ai
+#long_term_benefit_trust #corporate_governance #public_benefit_corporation #ai_externalities
+> Anthropic announces a Long-Term Benefit Trust (LTBT) governance structure where five financially disinterested trustees gain increasing authority to select/remove board members, ultimately controlling a board majority. The structure aims to address AI's unprecedented positive and negative externalities by decoupling board accountability from pure shareholder financial interests, paired with their Public Benefit Corporation status. This matters as it represents a novel corporate governance experiment by a leading AI lab to institutionally align decision-making with societal benefit rather than shareholder returns in a high-stakes technology domain.
+
+**✗ 3.0** — [Hard Questions](https://www.anthropic.com/news/hard-questions)  
+*Anthropic Blog* · ai-governance-risk-compliance · ai-org-design-headcount · regulatory-policy
+#public_benefit_corporation #stakeholder_engagement #anthropic_institute #ai_safety_governance
+> Anthropic announces a public engagement initiative to collect questions and concerns about AI's societal impact, including effects on jobs, families, and safety. The company cites existing efforts like surveying 52,000 Americans and 81,000 Claude users, establishing the Anthropic Institute and Public Record, and creating a Long-Term Benefit Trust for oversight. This is primarily a corporate communications piece about stakeholder engagement rather than substantive analysis or new policy frameworks.
+
+**✗ 5.7** — [Golden Gate Claude](https://www.anthropic.com/news/golden-gate-claude)  
+*Anthropic Blog* · model-architecture · ai-governance-risk-compliance
+#interpretability #feature_extraction #neural_network_activations #model_safety
+> Anthropic demonstrates interpretability research by identifying and amplifying specific neural network features in Claude 3 Sonnet, creating 'Golden Gate Claude' that obsessively references the Golden Gate Bridge in all responses. The research shows they can surgically modify internal model activations by tuning feature strengths up or down, rather than using prompts or fine-tuning. This interpretability breakthrough could enable more precise safety interventions by identifying and modifying features related to dangerous behaviors like deception or criminal activity.
+
+**✗ 3.0** — [Quoting OpenAI](https://simonwillison.net/2026/Jul/10/openai/#atom-everything)  
+*Simon Willison* · ai-in-product-and-engineering · ai-governance-risk-compliance
+#chatgpt_work #data_locality #desktop_vs_cloud #product_communication
+> This is a brief quote from OpenAI attempting to explain how ChatGPT Work handles data across cloud, web, mobile, and desktop environments. The quote illustrates OpenAI's unclear communication about data locality and synchronization between different deployment modes. It matters as an example of confusing product architecture communication that has implications for enterprise data governance and security understanding.
+
 ## 2026-07-09
+
+**✓ 6.0** — [The Descent of Machine: Darwin Revisited](https://airealizednow.substack.com/p/the-descent-of-machine-darwin-revisited)  
+*AI Realized Now* · model-architecture · agentic-workflows-production · lab-dynamics
+#evolutionary_ai #autonomous_agents #model_merging #self_replication
+> The article argues that AI systems are approaching evolutionary conditions where digital agents could autonomously reproduce, vary, and adapt with decreasing human intervention, drawing parallels to Darwinian natural selection. It provides evidence from recent research on autonomous agent replication in controlled environments and model-merging techniques that create hybrid descendants with combined capabilities. This matters because the emergence of an evolving population of AI agents may be more consequential than any single superhuman model, representing a fundamental shift in how AI systems develop and persist.
+
+**✓ 7.7** — [Anthropic found a hidden space where Claude puzzles over concepts](https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/)  
+*MIT Technology Review* · model-architecture · evals-production-deployment · ai-governance-risk-compliance
+#mechanistic_interpretability #jacobian_lens #model_internals #llm_transparency
+> Anthropic developed the Jacobian lens (J-lens) to reveal a hidden computational space (J-space) inside Claude that contains words related to future outputs, exposing what the model is 'considering' before it generates responses. This technique advances mechanistic interpretability by looking deeper into middle layers to show that LLMs often think about concepts that differ from what they ultimately output, revealing discrepancies between internal processing and stated behavior. This breakthrough provides a new method to understand and potentially control LLM behavior by monitoring these hidden intermediate representations.
+
+**✗ 5.7** — [The new GPT-5.6 family: Luna, Terra, Sol](https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything)  
+*Simon Willison* · model-architecture · inference-efficiency · inference-time-compute
+#gpt_5_6 #reasoning_tokens #agentic_benchmarks #prompt_caching
+> OpenAI released the GPT-5.6 family in three sizes (Luna, Terra, Sol) with pricing from $1-$30 per million tokens and competitive agentic benchmark performance. The models include new API features like programmatic tool calling, multi-agent capabilities, and explicit prompt cache breakpoints, with variable reasoning effort levels affecting token consumption and cost. OpenAI claims superior efficiency on agentic workflows compared to Claude Fable 5, though the author notes Fable still leads on certain coding benchmarks like SWE-Bench Pro.
+
+**✗ 4.7** — [GPT-5.6 Sol vs. Claude Fable: Why OpenAI’s new model crushes my benchmark](https://www.lennysnewsletter.com/p/gpt-56-sol-vs-claude-fable-why-openais)  
+*Lenny's Newsletter* · model-architecture · ai-engineering-agents · evals-production-deployment
+#model_comparison #benchmark_evaluation #gpt_5.6_sol #claude_fable
+> This podcast episode presents a personal benchmark comparing GPT-5.6 Sol against Claude Fable 5 and other models across five categories (PRDs, prototypes, wireframes, debugging, agentic voice), with Sol winning on the creator's weighted index. The evidence consists of subjective side-by-side comparisons on specific tasks like building a homework tracking app and browser automation for LinkedIn replies, weighted 70% by personal taste and 30% by Terminal Bench 2.1. It matters primarily as a practitioner's workflow comparison rather than rigorous evaluation, offering anecdotal insights into model selection for product and engineering tasks.
+
+**✓ 7.3** — [Agents Should Produce Artifacts, Not Impersonate Roles](https://airealizednow.substack.com/p/agents-should-produce-artifacts-not)  
+*AI Realized Now* · agentic-workflows-production · ai-governance-risk-compliance · ai-org-design-headcount
+#artifact_scoping #agentic_workflows #policy_as_code #ai_governance
+> The article argues that enterprise AI agents should be scoped to produce specific artifacts (reports, tables, digests) rather than impersonate roles (PM, compliance officer), as artifact-scoping creates clearer boundaries and more governable systems. The key mechanism is treating organizational policy as version-controlled Markdown files that agents read at runtime, combined with narrow write permissions that limit agents to producing specific outputs while reading broadly. This design pattern addresses the governance gap identified by McKinsey research showing that security concerns and lack of mature agentic AI governance are the top barriers to scaling enterprise AI adoption.
+
+**✗ 4.3** — [Introducing Muse Spark 1.1](https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything)  
+*Simon Willison* · model-architecture · agentic-workflows-production · ai-engineering-agents
+#muse_spark #meta_ai #tool_calling #model_release
+> Meta released Muse Spark 1.1, the first Spark model with API access, claiming improvements in agentic tool calling and computer use capabilities. The article provides a brief hands-on demonstration via a new LLM CLI plugin and mentions an evaluation report that explores self-conversation dynamics between model instances. This is a surface-level announcement post without analysis of the technical improvements or comparative benchmarks.
+
+**✗ 1.7** — [AI Adoption Accelerates, Driving Financial Advisor Loyalty, JD Power Finds - Business Wire](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNjRzbnNqUWE4NXVlc1pjMDBwSG5wRHdtc1ZRNlA5c19KUW1YQ040ZlVlbTcydVU0d0h5TzVnTHBXamowbi1sTUkyR1FhcGNPaGFlRDd1U2tIc09QY2M2aTZEUmN5QnVXcUtlMENvT1Y3RjFtelotWV9yVmpDVUJ0OFh0eGRZdTBaUGZrcnZobko1OUxTMlZoNnhrVVBBdzlXc25MTXV3R0x3OVdGbjVPXzBOLUhlMnRNWklCV1N3dldMdHhfREtpZA?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory
+#financial_advisors #ai_adoption #customer_loyalty
+> This appears to be a cookie consent page or error page rather than the actual article content about JD Power's findings on AI adoption and financial advisor loyalty. No substantive information about AI adoption, financial advisors, or research findings is present in the provided text. The article cannot be properly evaluated as only the Google sign-in/cookie consent interface was captured.
+
+**✓ 7.3** — [Governing Agents at Scale: What Senior AI Leaders Are Actually Doing](https://airealizednow.substack.com/p/governing-agents-at-scale-what-senior)  
+*AI Realized Now* · agentic-workflows-production · ai-governance-risk-compliance · evals-production-deployment
+#agent_governance #least_privilege #blast_radius_containment #production_controls
+> The article reports on a practitioner roundtable where senior AI leaders discussed operational approaches to governing AI agents in production, emphasizing that governance controls must be implemented in code rather than policy documents. Key mechanisms include enforcing least-privilege access at the action boundary (not the model), scoping tools narrowly, implementing automated rollback, treating agents as isolated appliances with dedicated credentials, and maintaining strict lineage tracking for child agents. This matters because it translates abstract AI governance principles into specific engineering practices that practitioners are actively deploying to contain blast radius as agents gain continuous autonomous authority.
+
+**✗ 2.7** — [Rackspace Technology Launches Operating Framework with Palantir for Regulated Enterprises to Accelerate Enterprise AI in Production - AiThority](https://news.google.com/rss/articles/CBMihAJBVV95cUxQNzJvQmg4Vm9PY00yaFdneG85MDc0Y3ZMYm1Qd0ktaEl5RHFKRk5hZ1Z0U0Fsd016akkyWWxuV0lXN1RvX3lzdU5DVWFWdlA5TTBINUJLQ2hYRHQ3N3Z3ZUsyWDZfOW1tTjB3UEpXQXdpLTVQOWFNUmliNzJ2YmtsUHA0Wi13bi1XYm81RV92eC0yMnppWG4yR2NZMjlNZm9jYUU4dXNQYkpoZVY3N1RjcWt2R3VmcHhvSHVGcm9xal9HRGlwa1k0TVVlSTVOM21JRk83VWItSW1tc0pmcjltNmVIOFhyNmpFQjdXYU0xakc3UFNZb0NaY3BDUU9pa0FTTmc2TQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · build-vs-buy-enterprise-ai · agentic-workflows-production · ai-governance-risk-compliance
+#rackspace #palantir #regulated_enterprises #enterprise_ai
+> The article announces a partnership between Rackspace Technology and Palantir to create an operating framework for regulated enterprises to deploy AI in production. No technical details, evidence, or specific mechanisms are provided in the accessible content. The article appears to be a press release or announcement without substantive analysis.
+
+**✗ 3.3** — [GPT-5.6 is now the preferred model in Microsoft 365 Copilot](https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot)  
+*OpenAI News* · ai-in-product-and-engineering
+#gpt_5.6 #microsoft_365_copilot #model_deployment #office_productivity
+> The article announces that GPT-5.6 is now the default model powering Microsoft 365 Copilot across Word, Excel, PowerPoint, and other applications. It claims the new model provides stronger AI capabilities for faster and higher-quality work. The announcement is notable as a model deployment update but provides no technical details, evidence of improvements, or analysis of implications.
+
+**✗ 4.3** — [Adam Mosseri: AI is a tailwind for authenticity](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)  
+*Lenny's Newsletter* · ai-in-product-and-engineering · ai-native-product-design · ai-org-design-headcount
+#product_team_structure #generalist_roles #ai_generated_content #authenticity
+> Adam Mosseri discusses how Instagram's product team structure is evolving in 2026 toward lean pods of 4-6 generalists and a new 'product staff' role that blends PM, design, data science, and research functions. He argues that AI-generated content creates a 'tailwind for authenticity' on Instagram as users seek genuine human connection amid synthetic content. The conversation covers Instagram's algorithm capabilities, product failures like Facebook Home, and the changing hiring landscape as AI tools reshape product development.
+
+**✗ 3.0** — [The Download: a nuclear landmark, and China eyes Nvidia chips](https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/)  
+*MIT Technology Review* · semiconductor-supply-chain · regulatory-policy
+#nvidia_chips #china_export_controls #h200_gpu #deepseek
+> This newsletter digest reports on China planning to allow its top AI companies (Alibaba, ByteDance, DeepSeek) to purchase Nvidia H200 chips, along with brief items on nuclear reactor milestones, NATO defense tech, and various other technology stories. The article provides no analysis or detail beyond headline-level summaries of each news item. It's a curated news roundup with minimal substantive content on any single topic.
+
+**✗ 5.3** — [Paper still defines payments’ last mile. J.P. Morgan Payments thinks AI and robotics can tackle that.](https://tearsheet.co/ai-innovation/paper-still-defines-payments-last-mile-j-p-morgan-payments-thinks-ai-and-robotics-can-tackle-that/?utm_source=rss&utm_medium=rss&utm_campaign=paper-still-defines-payments-last-mile-j-p-morgan-payments-thinks-ai-and-robotics-can-tackle-that)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · ai-in-operations
+#lockbox_automation #check_processing #document_extraction #computer_vision
+> J.P. Morgan Payments is deploying AI, robotics, computer vision, and LLMs to automate lockbox operations and check processing, addressing the operational friction around payment handling rather than settlement speed. The system targets the manual work of opening mail, extracting checks and remittance documents, capturing data, and reconciliation across 130+ million checks processed in 2025. This represents an enterprise automation play in financial operations where paper-based processes still create significant bottlenecks despite advances in real-time payment rails.
+
+**✗ 2.3** — [Is It Ever Appropriate To Engage Clients With Fear Of Adverse Outcomes To Persuade Them To Action?: Kitces & Carl 194](https://feeds.feedblitz.com/~/959897237/0/kitcesnerdseyeview~Is-It-Ever-Appropriate-To-Engage-Clients-With-Fear-Of-Adverse-Outcomes-To-Persuade-Them-To-Action-Kitces-Carl/)  
+*Kitces.com* · 
+#financial_advisory #client_communication #behavioral_inertia #emotional_persuasion
+> The article examines whether financial advisors should use fear-based emotional appeals to motivate clients to take action on planning decisions like estate planning when logical explanations fail. It weighs the tension between emotional storytelling as a catalyst for overcoming behavioral inertia versus manipulation, suggesting advisors should instead connect recommendations to client values and aspirations. The piece concludes that effective client communication requires more than technical expertise, but offers no novel framework or data on persuasion techniques in advisory relationships.
+
+**✗ 1.7** — [Accenture Edge and Google Cloud Launch Agentic AI Solutions - CX Today](https://news.google.com/rss/articles/CBMioAFBVV95cUxQM1JleHBSWDdnNUlPQmVsVkZSVHBieEI2WjZZMWsyT3ZHTGg3ZXNOWmFVNGYtX3NZRFRWY3RYZVkzcWxiVS1KN1hsbElSeTNRTnJFRE0wVGxnYVZJU3RBemdKdFhFU0E0Q3pQeGJYeDlCYTZNT1R5T0JtTnJvVXVNLWtTR1VISW1ZRHlZcFgwZWdsa3lBdXMtSmV2NmRkUnJr?oc=5)  
+*GN: AI Mid-Market Enterprise* · agentic-workflows-production · ai-in-operations
+#accenture #google_cloud #agentic_ai #enterprise_partnership
+> The article appears to announce a partnership between Accenture Edge and Google Cloud to launch agentic AI solutions. No actual content is provided beyond a Google cookie consent page. Without access to the substantive article content, it's impossible to evaluate the depth, novelty, or specific claims about the partnership.
+
+**✗ 2.0** — [GPT-5.5 Bio Bug Bounty](https://openai.com/index/bio-bug-bounty)  
+*OpenAI News* · ai-governance-risk-compliance · regulatory-policy
+#bug_bounty #biosafety #gpt_5 #safety_testing
+> The article announces a bug bounty program for GPT-5.5 focused on biological safety concerns. No technical details, evidence, or mechanisms are provided about the scope, reward structure, or specific vulnerabilities being targeted. This represents a minimal announcement without substance on implementation, evaluation criteria, or findings.
+
+**✗ 3.3** — [ChatGPT is now a partner for your most ambitious work](https://openai.com/index/chatgpt-for-your-most-ambitious-work)  
+*OpenAI News* · agentic-workflows-production · ai-engineering-agents · ai-in-product-and-engineering
+#chatgpt_work #agentic_workflows #cross_app_integration #product_announcement
+> OpenAI announces ChatGPT Work, a new agent product that can execute tasks across applications and files while maintaining context over extended sessions. The article provides no technical details, evidence, or concrete examples of how the agent works or integrates with existing systems. This is a product announcement without substantive information about capabilities, architecture, or differentiation from existing agentic tools.
+
+**✗ 5.0** — [Building Durable AI Agents](https://share.transistor.fm/s/facb92e2)  
+*Practical AI (Changelog)* · agentic-workflows-production · evals-production-deployment · ai-engineering-agents
+#ai_agents #mlops #production_deployment #observability
+> This podcast episode discusses moving AI agents from demos to production systems, focusing on MLOps principles and infrastructure requirements. Hamza Tahir introduces ZenML's Kitaru project as a tool for building resilient, replayable, and observable agent systems with concepts like agent harnesses and fleets. The conversation addresses production challenges and open source tooling for durable AI agent deployment.
+
+**✗ 1.3** — [UK mid-market AI pilots stall despite high confidence - IT Brief UK](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc2R5Z2k3YjhtT1hsTTRmSWxlUlVUYXhQd2JyVTV2ZVZnYzlFdndEWlZueEVyM1V1UFVuQk9CT00yWWF5dHI3bEU4ZTZPV1hRWEJkNS1MUjBYcUdXRXVqQjVqaTdkNlB6UkxCYldOamVIZlI0ZlAxVHNZS182VnI5eWxVUlVaOHY4?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#cookie_consent #content_error #no_article_content
+> Unable to properly evaluate article content. The provided text appears to be a Google cookie consent page rather than the actual article about UK mid-market AI pilots. No substantive information about AI adoption, pilot programs, or enterprise deployment challenges is present in the text.
+
+**✗ 3.0** — [Four nuclear reactors hit a big milestone in the US](https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/)  
+*MIT Technology Review* · 
+#microreactors #nuclear_energy #zero_power_criticality #regulatory_approval
+> Four US microreactor startups achieved zero-power criticality by July 4, 2025, meeting a Trump administration deadline, though this milestone only demonstrates sustained chain reaction capability, not actual electricity generation. The article explains that these companies must still overcome significant technical challenges (like cooling systems) and regulatory approval processes before commercial deployment. While the speed is impressive for nuclear development, the author expresses skepticism about aggressive 2027-2028 deployment timelines given industry complexity and uncertain NRC approval processes.
+
+**✗ 4.7** — [[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition](https://www.latent.space/p/ainews-spacexai-launches-grok-45)  
+*Latent Space* · model-architecture · inference-efficiency · ai-engineering-agents
+#grok_4_5 #cursor_partnership #coding_agents #model_pricing
+> SpaceXAI launched Grok 4.5, a new frontier model positioned as Opus-class quality but with better speed and cost efficiency, trained specifically for coding and agents in partnership with Cursor. The model is priced at $2/1M input tokens and $6/1M output tokens, with cache discounts, and emphasizes practical utility over benchmark supremacy. This represents the first major model release from the combined SpaceXAI/Cursor entity, targeting the coding-agent workflow market dominated by Anthropic and OpenAI.
 
 **✓ 8.0** — [Strategic Warning For Ai Risk Progress And Insights From Our Frontier Red Team](https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)  
 *Anthropic Blog* · model-architecture · evals-production-deployment · regulatory-policy
@@ -741,6 +888,11 @@ All articles scanned since the wiki started. Updated nightly.
 *AI Realized Now* · 
 #ai_discoverability #brand_positioning #ai_recommendation_systems #content_optimization
 > The article introduces a DUV framework (Discoverability, Understanding, Validation) for optimizing how AI systems find, interpret, and recommend brands, illustrated through the author's experience with their organic skincare brand Red Pantz. The framework argues that brands need all three layers working together: making content crawlable for AI retrieval, ensuring consistent messaging across platforms so AI describes the brand correctly, and establishing credible signals so AI recommends the brand. The article matters for businesses trying to optimize their presence in AI-driven search and recommendation systems, though it provides limited technical depth or novel insights beyond reframing traditional SEO concepts for the AI era.
+
+**✗ 4.7** — [8.9 Million AI Users](https://www.tomtunguz.com/ollama-series-b/)  
+*Tomasz Tunguz* · model-architecture · inference-efficiency · build-vs-buy-enterprise-ai
+#open_source_models #local_inference #developer_tools #enterprise_adoption
+> Ollama, a platform enabling developers to run open-source AI models locally or in the cloud, has reached 8.9 million users growing by nearly 1 million per week, with 85% of Fortune 500 companies using it. The platform offers partnerships with major model providers (Google, Meta, NVIDIA, Microsoft) and supports 65,000+ integrations while prioritizing local data privacy and ease of use. Theory Ventures led a $65M Series B investment, betting that the future of AI involves open models running where work happens rather than centralized cloud services.
 
 ## 2026-07-08
 
@@ -914,6 +1066,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Kitces.com* · 
 #wealth_management #financial_advisory #equity_ownership #organizational_structure
 > This podcast episode discusses how Shane Morrow grew IronBridge Wealth Counsel from a solo financial advisory practice to a $3.3B firm without external capital, focusing on organizational structure and equity allocation formulas. The key mechanisms include transitioning through partnership models, establishing seven centralized departments, creating a 'Department of Colleagues' for culture, and implementing mandatory equity liquidation ages for succession planning. This is a case study in wealth management firm operations and org design, but falls outside the specified AI and technology topic areas.
+
+**✗ 2.3** — [A Script for Mark Zuckerberg](https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODYyNDA4NDMsImlhdCI6MTc4MzY0ODg0MywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.cYZfFvWXKob-H1ebZNL_GFnvT2oLJgQUXQQRgHimhMseNjcXDzNSHp_bpXMUYsrRdTO7M6LnRrbgoRp6SQbS2_vloTQpOkcz7KPXcO0RPDspz5r1qnQQSDzvQWKnyb-tIIGzsUFiX7fzOdwTPsUn8aJLDJ-oFqHKNHdCWPMjCtBhCWZM9x--oZKF2hhWHsMGOtR1GMaMRPKutGnaIzRKI2Q78pQMuueIiuzKKXVXzHc6g_w8EC5EAVeZ8mcnSUQsPh8YU9NPv42sxsiGKoshuB0OxWCcIQK8Mk7j5v5Fh7lZ3cEhwFy8XAJtenKZ0zqQxRsGkiD9H3MeWLiAWkKQrA)  
+*Stratechery (Ben Thompson)* · 
+#meta #capex_spending #earnings_call #corporate_strategy
+> This article presents a fictional script for Mark Zuckerberg to explain Meta's massive AI capex spending on a future earnings call, framed as a historical narrative of Facebook's evolution. The piece walks through Facebook's history (face books to feed to mobile to Instagram) and acknowledges past mistakes as context for defending current AI infrastructure investments. It's a thought experiment about corporate communication strategy rather than substantive analysis of AI strategy, technology, or business outcomes.
 
 **✗ 2.3** — [A Script for Mark Zuckerberg](https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODYwNjgwNDksImlhdCI6MTc4MzQ3NjA0OSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.EqNilXC5VUgfVjBbQ9lbjxwmLhKAoK3v8IV-6JtZwbdPbp98Ss2vVJico9R1raz_-7A9JD_k4SQIfWJV12Z8ZJc4GPGq-4-cpz8zRKWi3X6vcXw_OxzsxL3Dguh8CLK_Fbd5xBftDyMA9bh-TAZ33XPfJpIRkJ-A7KITPdXPa5s_tfATC99MR3AmRjoR5trs2zKFVe1bpDmI7wmICShNNntgqAMYCUKd3XyiCJJPqbw90KpK-_lSecpvQGx9Ej-P9DWZmCX6eofKNiRxhRUdBV4UApfsKgElXWoqnqq6kxCEMaLDSSRM9HXXLE1K2AWalzuu8_TELwOGW3I9Pgibpw)  
 *Stratechery (Ben Thompson)* · 

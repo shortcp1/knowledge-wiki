@@ -1,5 +1,5 @@
 ---
-tags: [ai-safety-levels, biosafety-standards, biosecurity, catastrophic-risk, compute-capacity-utilization, gpu-rental-economics, hyperscaler-capex, jailbreaking, lab-dynamics, model-capabilities, model-demand-dynamics, model-evaluation, national-security, red-teaming, responsible-scaling-policy, training-inference-ratio, xai-anthropic-deals]
+tags: [ai-externalities, ai-safety-levels, biosafety-standards, biosecurity, catastrophic-risk, compute-capacity-utilization, corporate-governance, fiduciary-duty, gpu-rental-economics, hyperscaler-capex, jailbreaking, lab-dynamics, lab-governance-structure, long-term-benefit-trust, model-capabilities, model-demand-dynamics, model-evaluation, national-security, public-benefit-corporation, red-teaming, responsible-scaling-policy, training-inference-ratio, xai-anthropic-deals]
 ---
 
 ---
@@ -9,30 +9,21 @@ tags: [ai-competition-policy, ai-sovereignty, anthropic, chain-of-thought, chine
 
 ### Governance Structure
 
-**Board Oversight**: Formal board approval required for Responsible Scaling Policy (RSP) and changes to it, following consultations with the Long Term Benefit Trust (announced September 2023). See [[ai-governance-risk-compliance]] for RSP details.
+**Long-Term Benefit Trust (LTBT)**: Announced September 19, 2023. Independent body of five financially disinterested members with authority to select and remove a portion of Anthropic's Board that will grow over time (ultimately, a majority of the Board). Developed since Anthropic's founding to address unique challenges and long-term opportunities of transformative AI.
+
+**Key Governance Features**:
+- Board members selected/removable by LTBT (expanding authority over time)
+- Paired with Public Benefit Corporation status
+- Designed to align corporate governance with mission of developing AI for long-term benefit of humanity
+- LTBT expected to primarily concern itself with extreme events and long-range issues, not day-to-day commercial decisions
+- Intended to ensure organizational leadership incentivized to handle extreme events with humanity's interests in mind
+
+**Rationale**: AI may create "unprecedentedly large externalities" including national security risks, large-scale economic disruption, fundamental threats to humanity, and enormous benefits to human safety and health. Technology advancing faster than laws and social norms. Most day-to-day decisions show public benefit and commercial success are "strongly synergistic."
+
+**Board Oversight**: Formal board approval required for Responsible Scaling Policy (RSP) and changes to it, following consultations with the Long Term Benefit Trust. See [[ai-governance-risk-compliance]] for RSP details.
 
 ### White House AI Safety Commitments (July 21, 2023)
 
 Anthropic joined other major AI labs in commitments including:
 - Internal and external security testing of AI systems
-- Focus on "most significant sources of AI risks, such as biosecurity and cybersecurity"
-- CEO Dario Amodei had previously highlighted national security-relevant capabilities in Senate testimony
-
-### Frontier Threats Red Teaming Program
-
-**Launch**: Anthropic publicly disclosed frontier threats red teaming approach in July 2023, sharing findings from biology test project.
-
-**Strategic Position**: Anthropic advocated for inclusion of specialized security testing in White House commitments, positioning itself as leader in this evaluation methodology.
-
-**Collaboration Model**:
-- Sharing findings with government, labs, and other stakeholders
-- Advocating for "more independent groups doing this work"
-- Building repeatable methodology for scaling across topic areas
-
-**Resource Commitment**: Scaling up frontier threats red teaming to reliably identify risks and build mitigations. See [[evals-production-deployment]] for methodology details and [[ai-governance-risk-compliance]] for policy context.
-
-### Mythos Model Development (April 2026)
-Anthropic built an AI model called Mythos described as "so good at working with code it could pose a global cybersecurity threat." Company provided restricted access to small group of cybersecurity experts to evaluate the threat landscape.
-
-### Claude Fable 5 Release & Controversy (June 2026)
-Anthropic released Claude Fabl
+- Focus on "most significant sources of AI risk

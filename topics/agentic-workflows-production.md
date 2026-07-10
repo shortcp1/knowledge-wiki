@@ -1,63 +1,66 @@
 ---
-tags: [adversarial-review, agent-experience, agent-memory-architecture, agent-orchestration, agent-runtime, agent-sandboxes, agentic-systems, agentic-workflows, agentic-workflows-production, asynchronous-inference, automated-refactoring, autonomous-agents, bursty-workloads, code-generation, context-engineering, deterministic-rewriting, elastic-compute, elastic-inference, evolutionary-search, goal-oriented-loops, gpu-snapshotting, harness-engineering, linear-integration, local-model-routing, memory-architecture, multi-cloud-capacity, openai-symphony, overnight-processing, preflight-checks, preflight-retrieval, programmatic-infrastructure, recursive-self-improvement, rl-rollouts, rust-migration, sandbox-environments, self-improving-agents, self-improving-systems, serverless-functions, serverless-gpu, skills-library, test-driven-agents, watchdog-monitoring, web-browsing-agents, workflow-automation, workflow-versioning, zero-supervision-workflows]---
+tags: [agent-design-patterns, agent-governance, agentic-workflows, agentic-workflows-production, ai-governance, artifact-scoping, automated-rollback, blast-radius-containment, credential-management, least-privilege, policy-as-code, production-controls, trust-boundaries]
+---
 
 ---
-tags: [agentic-ai, agentic-commerce, agentic-workflows, agentic-workflows-production, autonomous-purchasing, bnpl, conductor-architecture, cuda-programming, economic-automation, evolutionary-algorithms, financial-underwriting, gpu-kernel-optimization, intent-verification, kya-know-your-agent, model-orchestration, multi-model-orchestration, multi-model-systems, orchestrator-models, recursive-self-improvement, remote-labor-index, sep-cma-es, vendor-independence, openai-codex, browser-automation-agents, ebay-scouting, price-arbitrage-agents, small-business-ai, retail-intelligence, psa-certificate-validation, tcgplayer-pricing, collectibles-market-agents, autonomous-browsing, conformance-suites, adversarial-review, parallel-agent-coordination, large-scale-refactoring]---
+tags: [adversarial-review, agent-experience, agent-memory-architecture, agent-orchestration, agent-runtime, agent-sandboxes, agentic-systems, agentic-workflows, agentic-workflows-production, ai-evolution, artifact-scoped-agents, asynchronous-inference, automated-refactoring, autonomous-agents, autonomous-replication, bounded-outputs, bursty-workloads, code-generation, context-engineering, decision-records, deterministic-rewriting, digital-darwinism, digital-evolution, elastic-compute, elastic-inference, evolutionary-ai, evolutionary-search, goal-oriented-loops, gpu-snapshotting, harness-engineering, institutional-memory, lamarckian-inheritance, linear-integration, local-model-routing, memory-architecture, model-merging, multi-cloud-capacity, narrow-write-channels, openai-symphony, overnight-processing, policy-as-code, population-dynamics, preflight-checks, preflight-retrieval, programmatic-infrastructure, read-widely-write-narrowly, recursive-self-improvement, rl-rollouts, rust-migration, sandbox-environments, self-improving-agents, self-improving-systems, self-modification, self-replication, serverless-functions, serverless-gpu, skills-library, test-driven-agents, version-controlled-policy, watchdog-monitoring, web-browsing-agents, workflow-automation, workflow-versioning, zero-supervision-workflows, agent-retirement-pathways, agent-scope-creep, child-agent-governance, dry-run-mode, orphaned-agents, permission-creep, read-only-inputs, scoped-tools, segregated-outputs, tool-boundary-controls]---
 
 ## Agentic Commerce Infrastructure Gap (Zip Co, July 2026)
 
-### Business Problem
-**BNPL Infrastructure Meets Autonomous Commerce**:
-- Traditional BNPL designed for humans making purchase decisions with visible intent signals
-- Agentic commerce shifts purchasing decisions to software agents
-- Core problem: "Infrastructure mismatch: autonomous buyers operating on systems built to verify human intent"
-- Critical separation: Intent from action - "person making the purchase and person assuming the debt" no longe
+#
 
-## Memory Architecture: Preflight Pattern (Theory Ventures, July 2026)
+## Artifact-Scoped Agent Design Pattern (July 2026)
 
-**Source**: Tomasz Tunguz, "The AI Preflight Check"
+**Core principle:** Scope agents to specific, bounded outputs (artifacts) rather than organizational roles. When an agent is scoped to produce a launch readiness report, compliance status table, or portfolio digest, it has clear definition of success, required inputs, and completion criteria. Role-based scoping ("PM agent," "compliance officer agent") creates ambiguous, chatbot-like systems.
 
-### Core Architectural Pattern
+**
 
-**Central Claim**: "Context size is not the ceiling. Memory architecture is."
+## Production Agent Governance Patterns (AI Realized/AiGovOps Foundation Roundtable, June 2026)
 
-Three-stage memory architecture for production agent deployment:
+**Business problem:** Agents acting continuously at machine speed with escalating authority create governance gaps that paper policies cannot address. Permission creep causes agents to accumulate unauthorized capabilities (RFP detector becomes CRM writer, ticket-closer gains write authority, coding agent rewrites 40% of repository).
 
-1. **Preflight Retrieval**: Agent inspects skills library, selects relevant skills, loads only those into context window
-   - Skills are "consolidated memory"
-   - Preflight is the selection mechanism
-   - Example workload: "Summarize the Q3 board deck" over 200,000 raw tokens of emails, PDFs, chats
+**AI pattern:** Multi-agent systems with tool-calling capabilities in production environments
 
-2. **Local Execution**: [[inference-efficiency]] routing pattern
-   - Ornith 35B (local 35B-parameter model on Apple Silicon via Ollama) handles ~80% of routine tasks
-   - Hard tasks route to frontier models
-   - Local model executes on loaded context only
+**Industry/function:** Cross-industry (security, governance, engineering leadership)
 
-3. **Watchdog + Overnight Processing**: [[inference-efficiency]]
-   - Logs every preflight decision, skill invocation as named, versioned artifact
-   - Monitors: which skills loaded, decisions made, success rates
-   - Overnight [[inference-efficiency#Asynchronous Inference]]: processes day's trail, decides new skill development
-   - **Deterministic Rewriting**: Identifies workflow components that should become Rust code (e.g., calendar free/busy comparison)
-   - Self-improving loop: rewrites skills library, restarts system
+**Success factors:**
 
-### Skills Library Architecture
+### Govern at Action Boundary, Not Model
+- **Control placement:** Insert governance between model output and action execution. "The model just produces tokens. The action is what costs you a customer record, a CRM rewrite, or a wire transfer."
+- **Headcount rule:** Agent should never hold more access than the person who authorized it (received strongest consensus)
+- **Tool boundary controls:** Strongest controls live at tool boundary. Scope each tool to minimum required. Default new agents to dry-run mode.
 
-**Technical Implementation** (~90 workflow files as of July 2026):
-- On-disk indexed storage
-- Retrieved by intent match
-- Workflows written once, versioned
-- Handed to model as tool schemas
-- See [[ai-engineering-agents#Skill Distillation]]
+### Policy-as-Code Architecture
+- **Structural enforcement:** Policy enforced in code path, not prompts. "A prompt that says 'don't do that' is not a control."
+- **Immutable policy:** Policy-and-provenance graph that agent reads but cannot edit
+- **Software engineering discipline:** Apply least privilege, change control, observability, versioned policy
+- **Code travel:** Policy versions travel with code
 
-### Plateau Behavior
+### Blast Radius Containment
+- **Read widely, write narrowly:** Lock write authority to single artifact type, one action per run
+- **SCIF model:** Sealed enclave with read-only inputs, segregated outputs, sandboxed execution, human inspection before release
+- **Appliance analogy:** "My dishwasher does a job, in a certain way, and it only washes what's inside the dishwasher."
 
-**Empirical Finding**: First day where watchdog suggested zero improvements observed
-- Uncertain if sustainable: "I doubt it will continue"
-- Hypothesis: "at some level of improvement, the system reaches a plateau. Only genuinely new exceptions need human help"
-- **Confidence Level**: Single observation, requires validation
+### Identity and Lineage Management
+- **Individual credentials:** Every agent gets own credentials (not inherited personal access tokens). Rotate and scan for exposure.
+- **Canary testing:** One leader planted key deliberately, detected within one day
+- **Child agent inheritance:** Child agents inherit equal or narrower scope
+- **Handoff interception:** Every handoff gets policy-checked
+- **Named ownership:** Every agent gets named owner with defined retirement pathway before owner leaves
+- **Orphaned agent prevention:** Address agents whose owners have departed
 
-### Cross-References
-- Local execution model: [[inference-efficiency#Local Models]]
-- Overnight processing: [[inference-efficiency#Asynchronous Inference]]
-- Skill development: [[ai-engineering-agents#Skill Distillation]]
-- Code generation patterns: [[ai-engineering-agents]]
+### Infrastructure Security
+- **Substrate as attack surface:** Red-teaming model misses infrastructure layer—tools called, inputs read, retrieval indexes
+- **Assume prompt injection:** Treat untrusted input (tickets, emails, support transcripts, web pages) as hostile instruction
+- **Documented case:** Buried instruction at support-agent boundary triggered unauthorized password resets
+- **Poisoned tools:** Poisoned tool description can turn well-behaved model into attacker's instrument
+- **Expanded agent definition:** MCP server, retrieval index, AI-generated code all part of the agent
+
+**Key insight:** "We're building this beautiful castle of identity and separation on top of infrastructure that already has big problems." —Startup CEO and former security executive
+
+**Generalizability:** Universal pattern for any production agent deployment across industries. Particularly critical for:
+- Customer service agents with CRM access
+- Financial agents with transaction authority  
+- DevOps agents with infrastructure access
+- Sales/marketing agents with data write permissions
+- Support agents processing untrusted user input

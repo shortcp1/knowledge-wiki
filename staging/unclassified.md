@@ -1253,3 +1253,17 @@ Bessemer identifies five structural frontiers for next-generation AI infrastruct
 **Production Guardrails**: "Production agents need hard guardrails" (specific mechanisms not detailed)
 
 **Cross-Reference**: See [[ai-engineering-agents]] for agent experience patterns, [[agentic-workflows-production]] for RL rollout scale, [[gpu-architecture-training-infra]] for infrastructure primitives
+
+---
+**The Descent of Machine: Darwin Revisited** (AI Realized Now, 2026-07-09T21:00:28+00:00)
+## Evolutionary Theory Applied to Digital Systems
+
+**Darwin's Mechanism as Substrate-Independent**: On the Origin of Species (1859) identified a general mechanism for complexity emergence without design, applicable beyond biology. Requirements:
+- Entity reproduction
+- Inherited variation
+- Environmental selection pressure
+- Adaptive change following selection
+
+**Digital Substrate Transition**: For most of the digital age, evolutionary machinery was incomplete - software could be copied but only through human initiation. AI training improved models but objectives, architectures, and deployment remained under human control. This distinction is beginning to blur.
+
+**Quote**: Darwin described natural selection as "daily and hourly scrutinising, throughout the world, every variation, even the slightest" - written about finches and barnacles, but the mechanism is substrate-agnostic.
