@@ -705,7 +705,113 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-11
+
+**✗ 4.0** — [Google Pairs Nano Banana Update With Video Api](https://www.deeplearning.ai/the-batch/google-pairs-nano-banana-update-with-video-api)  
+*The Batch (DeepLearning.AI)* · multimodal-models · ai-in-product-and-engineering
+#image_generation #video_generation #multimodal_transformer #gemini
+> Google released Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image), a fast/low-cost image generation model, and made Gemini Omni Flash video model available via API, positioning them as complementary tools for image-to-video workflows. Both are multimodal transformers with undisclosed parameter counts and training data, priced at $0.034 per 1K image and $0.10 per second of 720p video respectively. The models rank competitively on Arena.ai leaderboards (5th for image, 1st for video generation) and enable conversational editing through session history.
+
+**✗ 5.3** — [Text Without Typing](https://www.deeplearning.ai/the-batch/text-without-typing)  
+*The Batch (DeepLearning.AI)* · 
+#brain_computer_interface #magnetoencephalography #character_recognition #qwen3_4b
+> Researchers from Meta and other institutions developed Brain2Qwerty v2, a system that translates brain waves into text by encoding neural activity into characters, aligning them to word embeddings, and correcting them with a fine-tuned LLM (Qwen3-4B). The system achieves 39% word error rate using 90 hours of magnetoencephalography recordings from 9 subjects, showing improvement over v1 and scaling benefits with more training data. This represents progress in brain-computer interfaces but remains far from practical deployment for typing replacement.
+
+**✓ 7.7** — [Deepseeks Dspark Gains Velocity](https://www.deeplearning.ai/the-batch/deepseeks-dspark-gains-velocity)  
+*The Batch (DeepLearning.AI)* · inference-efficiency · model-architecture
+#speculative_decoding #inference_acceleration #token_generation #deepseek_v4
+> DeepSeek open-sourced DSpark, a speculative decoding module that accelerates text generation by over 50% without accuracy loss by using a small draft model to propose token blocks that a larger model verifies in parallel. The key innovation is dynamic adjustment of verification depth based on server load, plus a Markov head that reduces token splicing errors by conditioning each position on the previous token. This matters because it addresses a critical inference efficiency bottleneck with a technique that's both effective and commercially available under MIT license.
+
+**✗ 4.0** — [Reflect With Claude](https://www.anthropic.com/news/reflect-with-claude)  
+*Anthropic Blog* · ai-in-product-and-engineering
+#usage_analytics #ai_fluency #product_features #responsible_ai_design
+> Anthropic introduces a beta feature allowing Claude users to track, visualize, and reflect on their AI usage patterns through a dashboard that shows conversation topics, frequency, and timing. The tool includes a "4D AI Fluency Framework" (Delegation, Description, Discernment, Diligence) to help users develop skills in working with AI, plus optional usage limits and quiet hours. This product feature aims to address user questions about when and how to effectively integrate AI into daily workflows while maintaining privacy protections for sensitive conversations.
+
+**✓ 7.3** — [Ust Claude](https://www.anthropic.com/news/ust-claude)  
+*Anthropic Blog* · semiconductor-supply-chain · ai-in-operations · ai-b2b-saas
+#physical_ai #chip_validation #hardware_verification #digital_twin
+> UST is integrating Claude into physical AI workflows for semiconductor validation, chip design verification, and manufacturing quality control, training 20,000 engineers to use it. Claude Code reads hardware schematics and pinouts, writes regression tests, and compares live equipment data against digital twins to catch design flaws earlier in the production pipeline, with UST reporting 50-70% reduction in validation cycle times. This demonstrates AI moving beyond software into the physical production processes that manufacture chips, cars, and IoT devices, potentially preventing costly manufacturing defects.
+
+**✗ 3.3** — [Ben Bernanke](https://www.anthropic.com/news/ben-bernanke)  
+*Anthropic Blog* · ai-governance-risk-compliance · ai-org-design-headcount
+#long_term_benefit_trust #ai_governance #public_benefit_corporation #economic_impact
+> Anthropic announced the appointment of former Federal Reserve Chair Ben Bernanke to its Long-Term Benefit Trust (LTBT), an independent governance body designed to ensure AI development serves humanity's long-term interests. Bernanke brings expertise in economic disruption and crisis management to advise on AI's economic impacts, joining other LTBT members with backgrounds spanning global health, national security, and policy. This appointment signals Anthropic's focus on institutional governance structures as AI's economic effects potentially exceed those of any modern technology.
+
 ## 2026-07-10
+
+**✗ 1.0** — [Channel Brief: AI adoption is surging, but mid-market security is falling behind - ChannelE2E](https://news.google.com/rss/articles/CBMipAFBVV95cUxPbllSN3RpaWZyZGFqb204NFE0dGFlbnAyUGFGTEl4RGE4a0pvODJuOWtTTndoaWZMRkhIcEhxWWNsaVR5MENaV19RdjR0SnZ2dGx2b3VKQXFMc3VyUklxcy1lU2FDaVJTV1lfWjZKUWlSTU9PSmV3c1dFUVZaOXEwN3VHX2hMd0s5M05CdXRTNEVqRWJDUXlYa3hqODBSTWRJTjRZRg?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+> This article appears to be blocked by a Google consent/sign-in page and contains no actual content beyond cookie policy text. No arguments, evidence, or analysis about AI adoption or mid-market security are present in the provided text. The article cannot be evaluated as it is inaccessible.
+
+**✗ 1.7** — [Weekend Reading For Financial Planners (July 11–12)](https://feeds.feedblitz.com/~/960025223/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-July-%e2%80%93/)  
+*Kitces.com* · 
+#financial_planning #wealth_management #advisor_tools #industry_survey
+> This is a weekly roundup of financial planning articles covering topics from women's confidence in working with advisors to asset location strategies and estate planning considerations. The article provides brief summaries of various industry news items and professional development topics for financial planners, including a survey on AI tool adoption among broker-dealer advisors. It is a surface-level aggregation of multiple topics without original analysis, primarily serving as a content directory for financial planning professionals.
+
+**✗ 2.3** — [Quoting Nilay Patel](https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything)  
+*Simon Willison* · 
+#augmented_reality #edge_computing #privacy_tradeoffs #cloud_processing
+> Nilay Patel argues that creating functional augmented reality glasses requires continuous recording and cloud processing of visual data, with no current alternative that balances computational power and energy efficiency in a compact form factor. He presents the technical constraint that data must be sent to the cloud or require bulky hardware like Vision Pro, making privacy invasion inevitable for the desired product. He suggests this trade-off may be so severe at a societal level that such products should not be built.
+
+**✗ 2.0** — [Adam Brown – A deep but accessible introduction to general relativity](https://www.dwarkesh.com/p/adam-brown-gr)  
+*Dwarkesh Podcast* · ai-engineering-agents · model-architecture
+#general_relativity #physics_education #scientific_reasoning #ai_science
+> This is a podcast interview with Adam Brown from Google DeepMind's BlueShift team, primarily covering an accessible introduction to general relativity and black holes. The episode concludes with a brief discussion about whether AI could rediscover general relativity from scratch and questions about AI reasoning in science. While tangentially related to AI capabilities in scientific reasoning, the content is overwhelmingly focused on physics education rather than AI systems, deployment, or enterprise applications.
+
+**✓ 7.7** — [With Links: AI Realized Now Issue #20](https://airealizednow.substack.com/p/with-links-ai-realized-now-issue)  
+*AI Realized Now* · agentic-workflows-production · ai-governance-risk-compliance · evals-production-deployment
+#agent_governance #blast_radius #artifact_scoped_agents #generative_engine_optimization
+> This newsletter synthesizes insights from executive roundtables on how senior AI leaders are governing agents in production, arguing for artifact-scoped rather than role-scoped agent design, and addressing how brands can become selectable by AI systems. The key mechanisms include enforcing policy at the tool boundary, scoping agents to specific outputs rather than job titles, and recognizing that only 13-15% of AI citations come from owned content. This matters because it identifies the operational and governance patterns that separate leaders from followers as AI systems operate at machine speed in enterprise environments.
+
+**✓ 7.7** — [AI Realized Now Issue #20](https://airealizednow.substack.com/p/ai-realized-now-issue-20)  
+*AI Realized Now* · agentic-workflows-production · ai-governance-risk-compliance · ai-org-design-headcount
+#agent_governance #blast_radius_containment #artifact_scoped_agents #ai_brand_discoverability
+> This newsletter issue argues that enterprise AI leaders must govern agents by enforcing policy at the action/tool boundary rather than at the model level, scope agentic workflows to concrete artifacts rather than job roles, and redesign brand signals for AI discoverability since only 13-15% of AI citations come from owned content. The key evidence comes from anonymized insights from senior AI leaders running agents in production, plus audits showing most AI brand references originate outside owned channels. This matters because it identifies the operational gap between AI capability and production readiness—speed is solved, but governance, workflow design, and brand discoverability require fundamental redesign.
+
+**✓ 7.3** — [Clouded Judgement 7.10.26 - Own Your Weights](https://cloudedjudgement.substack.com/p/clouded-judgement-71026-own-your)  
+*Clouded Judgement (Jamin Ball)* · model-architecture · post-training-rlhf · inference-efficiency
+#model_sovereignty #reinforcement_learning #task_specific_models #inference_cost
+> The article argues that enterprises should consider 'owning their weights' by controlling not just static model snapshots, but the entire training and RL pipeline that creates continuously improving models. The key mechanism is using reinforcement learning to tune smaller, task-specific models on proprietary workflows and data, which can outperform frontier models on specific tasks at lower inference costs. This matters because it reframes the build-vs-buy decision from 'frontier vs open source' to 'which workloads justify building a continuous improvement loop,' introducing complexity around managing thousands of fine-tuned models.
+
+**✗ 3.3** — [The Download: Claude’s inner workings and OpenAI’s “super app”](https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/)  
+*MIT Technology Review* · model-architecture · lab-dynamics · semiconductor-supply-chain
+#claude_interpretability #j_space #chatgpt_work #sk_hynix_listing
+> This newsletter aggregates multiple brief technology news items, including Anthropic's discovery of a hidden "J-space" in Claude where the model processes concepts before responding, OpenAI's launch of ChatGPT Work as a unified productivity tool, and SK Hynix's $26.5B US listing driven by AI chip demand. The coverage provides surface-level summaries with links to fuller stories, touching on model internals, enterprise AI products, and semiconductor supply chains. It serves as a daily digest of AI industry developments but offers no original analysis or depth on any single topic.
+
+**✓ 7.7** — [Letter from the Editor: Financial services have always relied on one thing. AI is taking it away.](https://tearsheet.co/opinion/letter-from-the-editor-financial-services-have-always-relied-on-one-thing-ai-is-taking-it-away/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-financial-services-have-always-relied-on-one-thing-ai-is-taking-it-away)  
+*Tearsheet (fintech)* · agentic-workflows-production · ai-in-finance-accounting · ai-governance-risk-compliance
+#agentic_commerce #intent_verification #explainability #transaction_consent
+> The article argues that AI agents conducting autonomous commerce are eliminating the visible human decision-making moments that financial services have always relied upon as proof of customer intent and consent. Financial institutions across lending, payments, and BNPL are now grappling with how to verify transactions when AI software acts on behalf of customers without clear evidence of human authorization. This shift is driving industry-wide focus on intent verification, explainability, governance, and new forms of accountability as the assumption of observable human consent dissolves.
+
+**✗ 1.0** — [AI Capex Risk Cuts Both Ways In The American Economy - Seeking Alpha](https://news.google.com/rss/articles/CBMikwFBVV95cUxOSExLOGl3aUhiT3oxWTctaVh3X2lqQVpHTERKTk5saEtlR3VRUlYycW10T0lhcDFKXzFRQjRoenZjQV9paDkyaWJubmc2OFFuTjRqQUVjRXVmUmJtbVRmUGxfV2MzZTlTRmdITHc5OFdnNzNXelBBeHFnUHpJdjE3c2QyT0MxaUNxV1ZUVG42YzZPOFk?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#cookie_consent #no_content #blocked_access
+> This article cannot be evaluated as the provided text contains only a Google cookie consent page with no actual article content. The text shows standard Google privacy policy language about cookies, data usage, and personalization options. No meaningful analysis, research, or information about AI capex risk or the American economy is present.
+
+**✗ 1.0** — [AI Capex Risk Cuts Both Ways In The American Economy - Real Investment Advice](https://news.google.com/rss/articles/CBMiowFBVV95cUxPWm1NU095RWtOWG5LQnhPYzlyREVLS2Y1Y3VPZWx3eEZCOXoxOHNraUNhZ0gzM0pIZkNiT1FCNk1iX2lfYWJzOVNmMVgwc2xGSUZnaHphTzFLUGdNY013dzdfTWY2QUpJM3NZUHRiMUpnZDItYXZnemJvZ0k3aWg0VzN4LUl3U1NKNGU4ZU0xcmcwSkdoN2Ztc0ZoOVBMeTctRW4w?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#ai_capex #investment_risk
+> This article appears to be a Google cookie consent page rather than actual content about AI capital expenditure risks. No substantive article content is provided beyond the title. The text consists entirely of Google's standard privacy and data usage policies, making evaluation impossible.
+
+**✗ 2.0** — [Sperm donors need limits, says a European fertility group](https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/)  
+*MIT Technology Review* · 
+#sperm_donation #genetic_testing #fertility_regulation #cross_border_healthcare
+> A European fertility organization proposes international limits on the number of children conceived from a single sperm donor, citing cases where individuals have discovered hundreds of genetic siblings. The article discusses problems including distressing identity issues for donor-conceived people, risks of unknowing romantic relationships between siblings, and cases where genetic mutations were passed to many children. While many countries have legal limits, enforcement is difficult because donated gametes cross borders, particularly from major exporters like Denmark.
+
+**✗ 1.7** — [Accenture and Google Cloud launch agentic AI platform for mid-market firms - eeNews Europe](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMkgyX3VhbUxRSjUtWVpnR2JpVzdHeDdUcGlQTDQ5MXBDeW9Cb09kdjhUNld5MWpEV0h2d01GbVU0bE51UFhHdHBjWE9sWmtMakp3X29xQUo3MkF1aWVzQlBlX3pHdmRjME9yYUlfYzVEemlUZEZKRlNoNldPcXZMV3dRTEUyVWVUN0JXRi1jeng2TFExV2RybW1YNm1rdmh2M1ZMdnkxUWV4Mk0?oc=5)  
+*GN: AI Mid-Market Enterprise* · agentic-workflows-production · build-vs-buy-enterprise-ai
+#agentic_ai #mid_market #google_cloud #accenture
+> This appears to be an article about Accenture and Google Cloud launching an agentic AI platform for mid-market firms, but the provided text contains only a Google cookie consent page with no actual article content. Without access to the real article text, it's impossible to evaluate the claims, evidence, or analysis about the platform's capabilities, implementation details, or business impact. The content cannot be assessed for depth, novelty, or meaningful relevance.
+
+**✗ 3.7** — [How Deutsche Telekom is rewiring telecommunications with AI](https://openai.com/index/deutsche-telekom)  
+*OpenAI News* · ai-in-customer-success-support · ai-in-operations
+#telecommunications #customer_service #network_operations #enterprise_transformation
+> Deutsche Telekom is implementing OpenAI's technology across customer service, employee workflows, network operations, and voice services to become an 'AI-native' telecommunications company. The article appears to be a high-level case study or announcement describing the transformation initiative across multiple business functions. This represents a typical enterprise AI adoption story in the telecommunications sector but lacks specific technical details, implementation challenges, or measurable outcomes.
+
+**✗ 4.7** — [[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp](https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna)  
+*Latent Space* · model-architecture · inference-efficiency · ai-pricing-packaging-saas
+#gpt_5_6 #multi_agent_coordination #model_pricing_tiers #chatgpt_superapp
+> This article announces OpenAI's GPT-5.6 model family (Sol, Terra, Luna) with new effort levels including multi-agent 'ultra' mode, alongside ChatGPT Work desktop app integration. The announcement focuses on benchmark performance versus Claude models, pricing tiers ($1-$30/M tokens), and bundled product updates including Sites beta and programmatic tool calling. The launch represents OpenAI's continued push toward a 'superapp' strategy combining chat, coding, and agentic workflows.
 
 **✗ 4.0** — [Alibaba And Bytedance Quash Human Like Bots](https://www.deeplearning.ai/the-batch/alibaba-and-bytedance-quash-human-like-bots)  
 *The Batch (DeepLearning.AI)* · regulatory-policy · model-architecture
@@ -747,6 +853,11 @@ All articles scanned since the wiki started. Updated nightly.
 #chatgpt_work #data_locality #desktop_vs_cloud #product_communication
 > This is a brief quote from OpenAI attempting to explain how ChatGPT Work handles data across cloud, web, mobile, and desktop environments. The quote illustrates OpenAI's unclear communication about data locality and synchronization between different deployment modes. It matters as an example of confusing product architecture communication that has implications for enterprise data governance and security understanding.
 
+**✗ 4.7** — [Three Years In](https://www.tomtunguz.com/three-years-in/)  
+*Tomasz Tunguz* · inference-efficiency · model-architecture · build-vs-buy-enterprise-ai
+#inference_infrastructure #time_compression #venture_stage_inflation #ai_advertising
+> The article argues that AI has compressed development timelines over three years, reshaping venture stage definitions, making inference the dominant AI market, and enabling specialized infrastructure similar to database fragmentation. The key evidence includes seed rounds ranging from $1M to $500M, new model releases every 41 days, and inference infrastructure specializing around workloads like video, batch, and agentic systems. This matters because it shows how time compression in AI creates new infrastructure categories and monetization models (like AI-native advertising) that subsidize inference costs.
+
 ## 2026-07-09
 
 **✓ 6.0** — [The Descent of Machine: Darwin Revisited](https://airealizednow.substack.com/p/the-descent-of-machine-darwin-revisited)  
@@ -779,6 +890,16 @@ All articles scanned since the wiki started. Updated nightly.
 #muse_spark #meta_ai #tool_calling #model_release
 > Meta released Muse Spark 1.1, the first Spark model with API access, claiming improvements in agentic tool calling and computer use capabilities. The article provides a brief hands-on demonstration via a new LLM CLI plugin and mentions an evaluation report that explores self-conversation dynamics between model instances. This is a surface-level announcement post without analysis of the technical improvements or comparative benchmarks.
 
+**✗ 3.0** — [llm-meta-ai 0.1](https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything)  
+*Simon Willison* · model-architecture
+#llm_plugin #meta_ai #muse_spark #release_announcement
+> This is a brief release announcement for llm-meta-ai 0.1, a plugin that allows the LLM tool to run prompts against Meta's new muse-spark-1.1 model. The article provides no technical details, evidence, or analysis beyond stating the plugin's existence and basic function. This is a minimal product release note with no substantive content about the model's capabilities, architecture, or implications.
+
+**✗ 2.0** — [llm 0.31.1](https://simonwillison.net/2026/Jul/9/llm/#atom-everything)  
+*Simon Willison* · 
+#llm_tooling #cli_tools #openai_api #bug_fix
+> This is a brief release note for llm 0.31.1, a command-line tool for accessing large language models. The release fixes a bug where OpenAI Chat Completion endpoints would generate JSON errors when tool calls had empty arguments. This is a minor maintenance update with no strategic or analytical content.
+
 **✗ 1.7** — [AI Adoption Accelerates, Driving Financial Advisor Loyalty, JD Power Finds - Business Wire](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNjRzbnNqUWE4NXVlc1pjMDBwSG5wRHdtc1ZRNlA5c19KUW1YQ040ZlVlbTcydVU0d0h5TzVnTHBXamowbi1sTUkyR1FhcGNPaGFlRDd1U2tIc09QY2M2aTZEUmN5QnVXcUtlMENvT1Y3RjFtelotWV9yVmpDVUJ0OFh0eGRZdTBaUGZrcnZobko1OUxTMlZoNnhrVVBBdzlXc25MTXV3R0x3OVdGbjVPXzBOLUhlMnRNWklCV1N3dldMdHhfREtpZA?oc=5)  
 *GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory
 #financial_advisors #ai_adoption #customer_loyalty
@@ -809,6 +930,11 @@ All articles scanned since the wiki started. Updated nightly.
 #nvidia_chips #china_export_controls #h200_gpu #deepseek
 > This newsletter digest reports on China planning to allow its top AI companies (Alibaba, ByteDance, DeepSeek) to purchase Nvidia H200 chips, along with brief items on nuclear reactor milestones, NATO defense tech, and various other technology stories. The article provides no analysis or detail beyond headline-level summaries of each news item. It's a curated news roundup with minimal substantive content on any single topic.
 
+**✗ 1.0** — [Rackspace Technology Launches Operating Framework with - GlobeNewswire](https://news.google.com/rss/articles/CBMirwJBVV95cUxOMXc0ZDFUUDlvUUlHUjRnaXEtWENOQi1OS2c0RnlaQzRQRnRUT3FRTkpiVTB3eWJHci1xLWxMWjFLTW9iS29jTHNJMElOQVJVaXlQMi1ZUms0d3Nka05qU3c0a1ZiRTEtYXF4cVNLZ0ZHYjB3cXhDamgzU0diZWJVYmRzSjRCYm0tektNQmpPQTVTVmlNWmpXejJuNGFUNkF3U0FLUmdtSlZUMUZSVWNIQUVKb1RhT3lxb0lkclA4TXdCRFo0cW9sNGZ5bzloV2N3eWR4QllZVERjdjFjUG91UURtWTUtZENOQTdkck5XWTV0N1BRR0U0akJVcUYyRXVOVEI2MnVsNGIxc3hDbUdlVGZUM2V4VXFoS0VpZDFJcnhDZkpXQjAtM0U0dlcxOTA?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#cookie_consent #paywall #no_content
+> This appears to be a cookie consent page from Google rather than an actual article about Rackspace Technology's operating framework. No substantive content about AI, enterprise technology, or Rackspace is present in the provided text. The article is effectively inaccessible and contains no analyzable information.
+
 **✗ 5.3** — [Paper still defines payments’ last mile. J.P. Morgan Payments thinks AI and robotics can tackle that.](https://tearsheet.co/ai-innovation/paper-still-defines-payments-last-mile-j-p-morgan-payments-thinks-ai-and-robotics-can-tackle-that/?utm_source=rss&utm_medium=rss&utm_campaign=paper-still-defines-payments-last-mile-j-p-morgan-payments-thinks-ai-and-robotics-can-tackle-that)  
 *Tearsheet (fintech)* · ai-in-finance-accounting · ai-in-operations
 #lockbox_automation #check_processing #document_extraction #computer_vision
@@ -828,6 +954,11 @@ All articles scanned since the wiki started. Updated nightly.
 *OpenAI News* · ai-governance-risk-compliance · regulatory-policy
 #bug_bounty #biosafety #gpt_5 #safety_testing
 > The article announces a bug bounty program for GPT-5.5 focused on biological safety concerns. No technical details, evidence, or mechanisms are provided about the scope, reward structure, or specific vulnerabilities being targeted. This represents a minimal announcement without substance on implementation, evaluation criteria, or findings.
+
+**✗ 2.7** — [GPT-5.6: Frontier intelligence that scales with your ambition](https://openai.com/index/gpt-5-6)  
+*OpenAI News* · model-architecture · inference-efficiency
+#gpt_5 #model_announcement #token_efficiency #pricing
+> OpenAI announces GPT-5.6 with claims of improved token efficiency, cost performance, and scalable capability. The article provides only marketing language without technical details, mechanisms, or concrete evidence of improvements. This is a product announcement lacking substantive information about architecture, benchmarks, or deployment implications.
 
 **✗ 3.3** — [ChatGPT is now a partner for your most ambitious work](https://openai.com/index/chatgpt-for-your-most-ambitious-work)  
 *OpenAI News* · agentic-workflows-production · ai-engineering-agents · ai-in-product-and-engineering
@@ -888,6 +1019,11 @@ All articles scanned since the wiki started. Updated nightly.
 *AI Realized Now* · 
 #ai_discoverability #brand_positioning #ai_recommendation_systems #content_optimization
 > The article introduces a DUV framework (Discoverability, Understanding, Validation) for optimizing how AI systems find, interpret, and recommend brands, illustrated through the author's experience with their organic skincare brand Red Pantz. The framework argues that brands need all three layers working together: making content crawlable for AI retrieval, ensuring consistent messaging across platforms so AI describes the brand correctly, and establishing credible signals so AI recommends the brand. The article matters for businesses trying to optimize their presence in AI-driven search and recommendation systems, though it provides limited technical depth or novel insights beyond reframing traditional SEO concepts for the AI era.
+
+**✗ 1.7** — [2026 U.S. Financial Advisor Satisfaction Study - JD Power](https://news.google.com/rss/articles/CBMimgFBVV95cUxNX1preTlBTk5abW9HSlFhUnRlVm9Odk1NdzJIR0RKdW9LOWJQYVNNblVXcFVyemRZY3VzaWhESlg3SEhTZVBScFZiVUxlRFpmWXBKNHlRY3IzRFVya0dRNmQwZHo2ZDdCSG9DOHpLWTJBUGhYUDJ4aUliZGRuZy16UFRUdGRoTVJnUkJEZlFteWhqdTdQX3J6NTBR?oc=5)  
+*GN: AI Financial Advisor Workflow* · ai-wealth-management-advisory
+#scraping_error #no_content
+> This appears to be a Google cookie consent page rather than the actual JD Power 2026 U.S. Financial Advisor Satisfaction Study content. The article text contains no actual information about financial advisor satisfaction, AI workflows, or study findings. This is a scraping error that captured a login/consent interstitial page instead of substantive content.
 
 **✗ 4.7** — [8.9 Million AI Users](https://www.tomtunguz.com/ollama-series-b/)  
 *Tomasz Tunguz* · model-architecture · inference-efficiency · build-vs-buy-enterprise-ai
@@ -1011,6 +1147,11 @@ All articles scanned since the wiki started. Updated nightly.
 #stablecoins #cross_border_payments #payment_infrastructure #fintech
 > The article argues that stablecoins have evolved from DeFi primitives to mainstream financial infrastructure, with supply growing 40x since 2020 and real-world payment volumes doubling in 2025 to $400B. It cites regulatory clarity via the GENIUS Act and decoupling from crypto volatility as key catalysts, highlighting use cases in cross-border payments, remittances, and treasury management. The piece positions stablecoins as the 'new global money layer' replacing traditional correspondent banking, but offers primarily market-sizing data rather than technical or operational insights.
 
+**✗ 2.3** — [Introducing GPT-Live](https://openai.com/index/introducing-gpt-live)  
+*OpenAI News* · 
+#gpt_live #product_announcement #openai
+> This article announces GPT-Live, a new feature from OpenAI, but provides minimal substantive detail about its capabilities, architecture, or implementation. The article appears to be a brief product announcement without technical depth, original research, or meaningful analysis of how the feature works or its implications. Without concrete information about the product's functionality, use cases, or differentiation, it offers little actionable insight for enterprise deployment or technical understanding.
+
 **✓ 7.3** — [The AI Preflight Check](https://www.tomtunguz.com/the-ai-preflight-check/)  
 *Tomasz Tunguz* · agentic-workflows-production · inference-efficiency · ai-engineering-agents
 #agent_memory_architecture #skills_library #preflight_retrieval #local_model_routing
@@ -1086,6 +1227,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · 
 #meta #capex_spending #ai_infrastructure #corporate_narrative
 > This article presents a fictional script for Mark Zuckerberg to justify Meta's AI capex spending by recounting Facebook's history and lessons learned. The piece uses a narrative device to walk through Facebook's evolution from face books to feeds to mobile to Instagram, emphasizing user engagement data and product intuition. The article appears incomplete but aims to build a case for Meta's current AI infrastructure investments through historical pattern recognition.
+
+**✗ 2.7** — [A Script for Mark Zuckerberg](https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODYzMjcyNDksImlhdCI6MTc4MzczNTI0OSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.XKBjbQGnnYd2P5Ojj7b15xIG8qhnku9hgXIuwGb2Q-dn_sr2S2MlJsYyrTB6Madn6PFm7vyoNIqJ9Jg4AyNXYujyCDFud5NQwjibT4-TxDj8TLYOazlQdaLxS0B9K_h1WK1XuFUZTDP0UIyxdTTMU_AOieLyD1MC1Q0MYtvXlue9EMEUx63LRBnuHMXOvFI_niSJr2M9A7Z16fciL-2DMaayZvAvzc68AGb9TJzTmlU-B_1TAZoh8ACAzSioFG8DnTn5hS_cecxFaGnbCcC8YykQt8axHqWnZJwBXGVQSfI8Le8_6KeVl3wQKOMbC_rMWjp-ZcUmAiI16hWf7JskYg)  
+*Stratechery (Ben Thompson)* · 
+#meta #capex_justification #earnings_call #platform_history
+> This is a fictional speech written by Ben Thompson imagining what Mark Zuckerberg should say on a 2026 Meta earnings call to justify AI capital expenditures. The script recounts Facebook's history (Face Books, News Feed, mobile shift, Instagram acquisition) to establish patterns of trusting user data and product intuition. The article appears to be incomplete, cutting off mid-sentence before reaching its actual argument about AI investment strategy.
 
 **✗ 1.0** — [SonicWall Brings Frontier AI to the Mid-Market and SMB, the Segment Enterprise-First Vendors Leave Behind - IT Voice Media](https://news.google.com/rss/articles/CBMixgFBVV95cUxNREVNcHNEdE02UlpuZjRVWEM3Ny1VT05PdWVDWHp0NFQtTTgta1JjMVZkUDktTk1kdlhIQVdIMVJCbXRRLXZsRWlobnhXTUcxdU9LbWxodjc3bjh1Q3VmT2tEaVY1bFZYQU5Ga2J3ZG53bjhpZHFacnI2VUNCOHdNbHYyemdMdW91c0tKejlOXy1yd1M3MGY1SjkzV0xKOWRxbEhscjhrdXF4aVlaWHM4VE94SDMxWS1oNFNaTkdnMWFCZnp4eGc?oc=5)  
 *GN: AI Mid-Market Enterprise* · 

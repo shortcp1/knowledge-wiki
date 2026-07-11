@@ -30104,6 +30104,673 @@
       ],
       "status": "skipped",
       "skip_reason": "Article text consists only of a Google cookie consent page with no actual content about AI pilots or enterprise adoption to evaluate."
+    },
+    "https://www.deeplearning.ai/the-batch/google-pairs-nano-banana-update-with-video-api": {
+      "title": "Google Pairs Nano Banana Update With Video Api",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-11T02:00:52.542786+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 5,
+      "relevant_topics": [
+        "multimodal-models",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "technical",
+      "summary": "Google released Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image), a fast/low-cost image generation model, and made Gemini Omni Flash video model available via API, positioning them as complementary tools for image-to-video workflows. Both are multimodal transformers with undisclosed parameter counts and training data, priced at $0.034 per 1K image and $0.10 per second of 720p video respectively. The models rank competitively on Arena.ai leaderboards (5th for image, 1st for video generation) and enable conversational editing through session history.",
+      "tags": [
+        "image-generation",
+        "video-generation",
+        "multimodal-transformer",
+        "gemini",
+        "api-pricing",
+        "model-release"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement with limited technical depth, minimal novel insights beyond pricing and availability, and weak relevance to specialized topic areas beyond general multimodal models."
+    },
+    "https://www.deeplearning.ai/the-batch/text-without-typing": {
+      "title": "Text Without Typing",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-11T02:00:52.435673+00:00",
+      "composite": 5.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Researchers from Meta and other institutions developed Brain2Qwerty v2, a system that translates brain waves into text by encoding neural activity into characters, aligning them to word embeddings, and correcting them with a fine-tuned LLM (Qwen3-4B). The system achieves 39% word error rate using 90 hours of magnetoencephalography recordings from 9 subjects, showing improvement over v1 and scaling benefits with more training data. This represents progress in brain-computer interfaces but remains far from practical deployment for typing replacement.",
+      "tags": [
+        "brain-computer-interface",
+        "magnetoencephalography",
+        "character-recognition",
+        "qwen3-4b",
+        "lora-fine-tuning",
+        "sequence-correction"
+      ],
+      "status": "skipped",
+      "skip_reason": "While technically interesting, this brain-computer interface research does not map to any of the specified topic areas focused on AI product deployment, enterprise use cases, or semiconductor/model architecture in production systems."
+    },
+    "https://www.deeplearning.ai/the-batch/deepseeks-dspark-gains-velocity": {
+      "title": "Deepseeks Dspark Gains Velocity",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-11T02:00:51.887305+00:00",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "inference-efficiency",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "DeepSeek open-sourced DSpark, a speculative decoding module that accelerates text generation by over 50% without accuracy loss by using a small draft model to propose token blocks that a larger model verifies in parallel. The key innovation is dynamic adjustment of verification depth based on server load, plus a Markov head that reduces token splicing errors by conditioning each position on the previous token. This matters because it addresses a critical inference efficiency bottleneck with a technique that's both effective and commercially available under MIT license.",
+      "tags": [
+        "speculative-decoding",
+        "inference-acceleration",
+        "token-generation",
+        "deepseek-v4",
+        "draft-model",
+        "parallel-decoding"
+      ],
+      "status": "integrated"
+    },
+    "https://www.anthropic.com/news/reflect-with-claude": {
+      "title": "Reflect With Claude",
+      "source": "Anthropic Blog",
+      "date": "2026-07-11T02:00:50.566083+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic introduces a beta feature allowing Claude users to track, visualize, and reflect on their AI usage patterns through a dashboard that shows conversation topics, frequency, and timing. The tool includes a \"4D AI Fluency Framework\" (Delegation, Description, Discernment, Diligence) to help users develop skills in working with AI, plus optional usage limits and quiet hours. This product feature aims to address user questions about when and how to effectively integrate AI into daily workflows while maintaining privacy protections for sensitive conversations.",
+      "tags": [
+        "usage-analytics",
+        "ai-fluency",
+        "product-features",
+        "responsible-ai-design",
+        "user-reflection"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement for a usage tracking dashboard with minimal novel insights into AI deployment patterns, enterprise strategy, or technical architecture; primarily describes a consumer-facing feature rather than providing substantive analysis."
+    },
+    "https://www.anthropic.com/news/ust-claude": {
+      "title": "Ust Claude",
+      "source": "Anthropic Blog",
+      "date": "2026-07-11T02:00:50.551003+00:00",
+      "composite": 7.33,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "semiconductor-supply-chain",
+        "ai-in-operations",
+        "ai-b2b-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "UST is integrating Claude into physical AI workflows for semiconductor validation, chip design verification, and manufacturing quality control, training 20,000 engineers to use it. Claude Code reads hardware schematics and pinouts, writes regression tests, and compares live equipment data against digital twins to catch design flaws earlier in the production pipeline, with UST reporting 50-70% reduction in validation cycle times. This demonstrates AI moving beyond software into the physical production processes that manufacture chips, cars, and IoT devices, potentially preventing costly manufacturing defects.",
+      "tags": [
+        "physical-ai",
+        "chip-validation",
+        "hardware-verification",
+        "digital-twin",
+        "regression-testing",
+        "claude-code"
+      ],
+      "status": "integrated"
+    },
+    "https://www.anthropic.com/news/ben-bernanke": {
+      "title": "Ben Bernanke",
+      "source": "Anthropic Blog",
+      "date": "2026-07-11T02:00:46.655690+00:00",
+      "composite": 3.33,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic announced the appointment of former Federal Reserve Chair Ben Bernanke to its Long-Term Benefit Trust (LTBT), an independent governance body designed to ensure AI development serves humanity's long-term interests. Bernanke brings expertise in economic disruption and crisis management to advise on AI's economic impacts, joining other LTBT members with backgrounds spanning global health, national security, and policy. This appointment signals Anthropic's focus on institutional governance structures as AI's economic effects potentially exceed those of any modern technology.",
+      "tags": [
+        "long-term-benefit-trust",
+        "ai-governance",
+        "public-benefit-corporation",
+        "economic-impact",
+        "institutional-oversight"
+      ],
+      "status": "skipped",
+      "skip_reason": "Press release announcing a governance appointment with minimal technical depth, limited novel insights into AI systems or applications, and superficial treatment of governance mechanisms."
+    },
+    "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything": {
+      "title": "Quoting Nilay Patel",
+      "source": "Simon Willison",
+      "date": "2026-07-10T17:05:26+00:00",
+      "composite": 2.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Nilay Patel argues that creating functional augmented reality glasses requires continuous recording and cloud processing of visual data, with no current alternative that balances computational power and energy efficiency in a compact form factor. He presents the technical constraint that data must be sent to the cloud or require bulky hardware like Vision Pro, making privacy invasion inevitable for the desired product. He suggests this trade-off may be so severe at a societal level that such products should not be built.",
+      "tags": [
+        "augmented-reality",
+        "edge-computing",
+        "privacy-tradeoffs",
+        "cloud-processing",
+        "wearable-compute"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a brief opinion quote about AR hardware constraints and privacy, lacking depth, novel technical insights, and alignment with the specified AI/ML enterprise topic areas."
+    },
+    "https://www.dwarkesh.com/p/adam-brown-gr": {
+      "title": "Adam Brown \u2013 A deep but accessible introduction to general relativity",
+      "source": "Dwarkesh Podcast",
+      "date": "2026-07-10T16:23:56+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a podcast interview with Adam Brown from Google DeepMind's BlueShift team, primarily covering an accessible introduction to general relativity and black holes. The episode concludes with a brief discussion about whether AI could rediscover general relativity from scratch and questions about AI reasoning in science. While tangentially related to AI capabilities in scientific reasoning, the content is overwhelmingly focused on physics education rather than AI systems, deployment, or enterprise applications.",
+      "tags": [
+        "general-relativity",
+        "physics-education",
+        "scientific-reasoning",
+        "ai-science"
+      ],
+      "status": "skipped",
+      "skip_reason": "Content is primarily a physics lecture with only minimal discussion of AI capabilities in scientific reasoning; lacks depth on AI systems, novel insights about AI, or relevance to enterprise AI topics."
+    },
+    "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/": {
+      "title": "The Download: Claude\u2019s inner workings and OpenAI\u2019s \u201csuper app\u201d",
+      "source": "MIT Technology Review",
+      "date": "2026-07-10T12:10:00+00:00",
+      "composite": 3.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "model-architecture",
+        "lab-dynamics",
+        "semiconductor-supply-chain",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter aggregates multiple brief technology news items, including Anthropic's discovery of a hidden \"J-space\" in Claude where the model processes concepts before responding, OpenAI's launch of ChatGPT Work as a unified productivity tool, and SK Hynix's $26.5B US listing driven by AI chip demand. The coverage provides surface-level summaries with links to fuller stories, touching on model internals, enterprise AI products, and semiconductor supply chains. It serves as a daily digest of AI industry developments but offers no original analysis or depth on any single topic.",
+      "tags": [
+        "claude-interpretability",
+        "j-space",
+        "chatgpt-work",
+        "sk-hynix-listing",
+        "ai-chips",
+        "model-internals"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter format provides only surface-level summaries of multiple stories without original analysis, depth, or substantive technical or strategic insights on any single topic."
+    },
+    "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/": {
+      "title": "Sperm donors need limits, says a European fertility group",
+      "source": "MIT Technology Review",
+      "date": "2026-07-10T09:00:00+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "A European fertility organization proposes international limits on the number of children conceived from a single sperm donor, citing cases where individuals have discovered hundreds of genetic siblings. The article discusses problems including distressing identity issues for donor-conceived people, risks of unknowing romantic relationships between siblings, and cases where genetic mutations were passed to many children. While many countries have legal limits, enforcement is difficult because donated gametes cross borders, particularly from major exporters like Denmark.",
+      "tags": [
+        "sperm-donation",
+        "genetic-testing",
+        "fertility-regulation",
+        "cross-border-healthcare",
+        "genetic-screening"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on fertility donation policy and genetic testing for genealogy, which does not map to any of the specified AI, semiconductor, or enterprise technology topic areas."
+    },
+    "https://openai.com/index/deutsche-telekom": {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "source": "OpenAI News",
+      "date": "2026-07-10T07:00:00+00:00",
+      "composite": 3.67,
+      "depth": 3,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-customer-success-support",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Deutsche Telekom is implementing OpenAI's technology across customer service, employee workflows, network operations, and voice services to become an 'AI-native' telecommunications company. The article appears to be a high-level case study or announcement describing the transformation initiative across multiple business functions. This represents a typical enterprise AI adoption story in the telecommunications sector but lacks specific technical details, implementation challenges, or measurable outcomes.",
+      "tags": [
+        "telecommunications",
+        "customer-service",
+        "network-operations",
+        "enterprise-transformation",
+        "voice-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level promotional case study lacking specific technical details, novel frameworks, implementation data, or measurable outcomes that would provide actionable insights."
+    },
+    "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna": {
+      "title": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
+      "source": "Latent Space",
+      "date": "2026-07-10T06:19:40+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency",
+        "ai-pricing-packaging-saas",
+        "agentic-workflows-production"
+      ],
+      "content_type": "landscape",
+      "summary": "This article announces OpenAI's GPT-5.6 model family (Sol, Terra, Luna) with new effort levels including multi-agent 'ultra' mode, alongside ChatGPT Work desktop app integration. The announcement focuses on benchmark performance versus Claude models, pricing tiers ($1-$30/M tokens), and bundled product updates including Sites beta and programmatic tool calling. The launch represents OpenAI's continued push toward a 'superapp' strategy combining chat, coding, and agentic workflows.",
+      "tags": [
+        "gpt-5-6",
+        "multi-agent-coordination",
+        "model-pricing-tiers",
+        "chatgpt-superapp",
+        "benchmark-performance",
+        "effort-levels"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement recap without original analysis, novel technical insights, or substantive enterprise use case exploration; primarily summarizes press releases and Twitter reactions."
+    },
+    "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything": {
+      "title": "llm-meta-ai 0.1",
+      "source": "Simon Willison",
+      "date": "2026-07-09T16:12:20+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "This is a brief release announcement for llm-meta-ai 0.1, a plugin that allows the LLM tool to run prompts against Meta's new muse-spark-1.1 model. The article provides no technical details, evidence, or analysis beyond stating the plugin's existence and basic function. This is a minimal product release note with no substantive content about the model's capabilities, architecture, or implications.",
+      "tags": [
+        "llm-plugin",
+        "meta-ai",
+        "muse-spark",
+        "release-announcement"
+      ],
+      "status": "skipped",
+      "skip_reason": "Minimal content consisting only of a product release announcement with no analysis, technical details, evidence, or meaningful insights about the model or its implications."
+    },
+    "https://simonwillison.net/2026/Jul/9/llm/#atom-everything": {
+      "title": "llm 0.31.1",
+      "source": "Simon Willison",
+      "date": "2026-07-09T16:06:15+00:00",
+      "composite": 2.0,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This is a brief release note for llm 0.31.1, a command-line tool for accessing large language models. The release fixes a bug where OpenAI Chat Completion endpoints would generate JSON errors when tool calls had empty arguments. This is a minor maintenance update with no strategic or analytical content.",
+      "tags": [
+        "llm-tooling",
+        "cli-tools",
+        "openai-api",
+        "bug-fix",
+        "tool-calling"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a trivial software release note with no analysis, insights, or substantive information about AI systems, deployment, or enterprise applications."
+    },
+    "https://openai.com/index/gpt-5-6": {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "source": "OpenAI News",
+      "date": "2026-07-09T10:00:00+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture",
+        "inference-efficiency"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI announces GPT-5.6 with claims of improved token efficiency, cost performance, and scalable capability. The article provides only marketing language without technical details, mechanisms, or concrete evidence of improvements. This is a product announcement lacking substantive information about architecture, benchmarks, or deployment implications.",
+      "tags": [
+        "gpt-5",
+        "model-announcement",
+        "token-efficiency",
+        "pricing"
+      ],
+      "status": "skipped",
+      "skip_reason": "Marketing announcement with no technical depth, novel claims, or actionable information; contains only promotional language without evidence, data, or analysis."
+    },
+    "https://openai.com/index/introducing-gpt-live": {
+      "title": "Introducing GPT-Live",
+      "source": "OpenAI News",
+      "date": "2026-07-08T00:00:00+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article announces GPT-Live, a new feature from OpenAI, but provides minimal substantive detail about its capabilities, architecture, or implementation. The article appears to be a brief product announcement without technical depth, original research, or meaningful analysis of how the feature works or its implications. Without concrete information about the product's functionality, use cases, or differentiation, it offers little actionable insight for enterprise deployment or technical understanding.",
+      "tags": [
+        "gpt-live",
+        "product-announcement",
+        "openai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level product announcement lacking technical depth, novel insights, or detailed analysis of capabilities, implementation, or business impact."
+    },
+    "https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODYzMjcyNDksImlhdCI6MTc4MzczNTI0OSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.XKBjbQGnnYd2P5Ojj7b15xIG8qhnku9hgXIuwGb2Q-dn_sr2S2MlJsYyrTB6Madn6PFm7vyoNIqJ9Jg4AyNXYujyCDFud5NQwjibT4-TxDj8TLYOazlQdaLxS0B9K_h1WK1XuFUZTDP0UIyxdTTMU_AOieLyD1MC1Q0MYtvXlue9EMEUx63LRBnuHMXOvFI_niSJr2M9A7Z16fciL-2DMaayZvAvzc68AGb9TJzTmlU-B_1TAZoh8ACAzSioFG8DnTn5hS_cecxFaGnbCcC8YykQt8axHqWnZJwBXGVQSfI8Le8_6KeVl3wQKOMbC_rMWjp-ZcUmAiI16hWf7JskYg": {
+      "title": "A Script for Mark Zuckerberg",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-07-07T10:00:00+00:00",
+      "composite": 2.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This is a fictional speech written by Ben Thompson imagining what Mark Zuckerberg should say on a 2026 Meta earnings call to justify AI capital expenditures. The script recounts Facebook's history (Face Books, News Feed, mobile shift, Instagram acquisition) to establish patterns of trusting user data and product intuition. The article appears to be incomplete, cutting off mid-sentence before reaching its actual argument about AI investment strategy.",
+      "tags": [
+        "meta",
+        "capex-justification",
+        "earnings-call",
+        "platform-history"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is incomplete and provides only historical context without delivering the substantive AI strategy argument promised; lacks depth, novelty, and relevance to specified technical or enterprise AI topics."
+    },
+    "https://airealizednow.substack.com/p/with-links-ai-realized-now-issue": {
+      "title": "With Links: AI Realized Now Issue #20",
+      "source": "AI Realized Now",
+      "date": "2026-07-10T15:07:01+00:00",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance",
+        "evals-production-deployment",
+        "ai-org-design-headcount",
+        "ai-in-marketing-content",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "landscape",
+      "summary": "This newsletter synthesizes insights from executive roundtables on how senior AI leaders are governing agents in production, arguing for artifact-scoped rather than role-scoped agent design, and addressing how brands can become selectable by AI systems. The key mechanisms include enforcing policy at the tool boundary, scoping agents to specific outputs rather than job titles, and recognizing that only 13-15% of AI citations come from owned content. This matters because it identifies the operational and governance patterns that separate leaders from followers as AI systems operate at machine speed in enterprise environments.",
+      "tags": [
+        "agent-governance",
+        "blast-radius",
+        "artifact-scoped-agents",
+        "generative-engine-optimization",
+        "ai-citation-sources",
+        "human-in-the-loop",
+        "tool-boundary-enforcement"
+      ],
+      "status": "integrated"
+    },
+    "https://airealizednow.substack.com/p/ai-realized-now-issue-20": {
+      "title": "AI Realized Now Issue #20",
+      "source": "AI Realized Now",
+      "date": "2026-07-10T14:54:13+00:00",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance",
+        "ai-org-design-headcount",
+        "ai-in-marketing-content",
+        "prompt-architecture",
+        "evals-production-deployment"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This newsletter issue argues that enterprise AI leaders must govern agents by enforcing policy at the action/tool boundary rather than at the model level, scope agentic workflows to concrete artifacts rather than job roles, and redesign brand signals for AI discoverability since only 13-15% of AI citations come from owned content. The key evidence comes from anonymized insights from senior AI leaders running agents in production, plus audits showing most AI brand references originate outside owned channels. This matters because it identifies the operational gap between AI capability and production readiness\u2014speed is solved, but governance, workflow design, and brand discoverability require fundamental redesign.",
+      "tags": [
+        "agent-governance",
+        "blast-radius-containment",
+        "artifact-scoped-agents",
+        "ai-brand-discoverability",
+        "geo-optimization",
+        "human-in-the-loop",
+        "policy-enforcement"
+      ],
+      "status": "integrated"
+    },
+    "https://cloudedjudgement.substack.com/p/clouded-judgement-71026-own-your": {
+      "title": "Clouded Judgement 7.10.26 - Own Your Weights",
+      "source": "Clouded Judgement (Jamin Ball)",
+      "date": "2026-07-10T13:04:29+00:00",
+      "composite": 7.33,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 9,
+      "relevant_topics": [
+        "model-architecture",
+        "post-training-rlhf",
+        "inference-efficiency",
+        "build-vs-buy-enterprise-ai",
+        "rag-vs-finetuning-vs-wiki",
+        "ai-governance-risk-compliance",
+        "data-moats-proprietary-advantages"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that enterprises should consider 'owning their weights' by controlling not just static model snapshots, but the entire training and RL pipeline that creates continuously improving models. The key mechanism is using reinforcement learning to tune smaller, task-specific models on proprietary workflows and data, which can outperform frontier models on specific tasks at lower inference costs. This matters because it reframes the build-vs-buy decision from 'frontier vs open source' to 'which workloads justify building a continuous improvement loop,' introducing complexity around managing thousands of fine-tuned models.",
+      "tags": [
+        "model-sovereignty",
+        "reinforcement-learning",
+        "task-specific-models",
+        "inference-cost",
+        "open-weights",
+        "model-governance",
+        "frontier-models"
+      ],
+      "status": "integrated"
+    },
+    "https://tearsheet.co/opinion/letter-from-the-editor-financial-services-have-always-relied-on-one-thing-ai-is-taking-it-away/?utm_source=rss&utm_medium=rss&utm_campaign=letter-from-the-editor-financial-services-have-always-relied-on-one-thing-ai-is-taking-it-away": {
+      "title": "Letter from the Editor: Financial services have always relied on one thing. AI is taking it away.",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-07-10T11:30:00+00:00",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 7,
+      "relevance": 9,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-finance-accounting",
+        "ai-governance-risk-compliance",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that AI agents conducting autonomous commerce are eliminating the visible human decision-making moments that financial services have always relied upon as proof of customer intent and consent. Financial institutions across lending, payments, and BNPL are now grappling with how to verify transactions when AI software acts on behalf of customers without clear evidence of human authorization. This shift is driving industry-wide focus on intent verification, explainability, governance, and new forms of accountability as the assumption of observable human consent dissolves.",
+      "tags": [
+        "agentic-commerce",
+        "intent-verification",
+        "explainability",
+        "transaction-consent",
+        "autonomous-agents",
+        "financial-governance"
+      ],
+      "status": "integrated"
+    },
+    "https://www.tomtunguz.com/three-years-in/": {
+      "title": "Three Years In",
+      "source": "Tomasz Tunguz",
+      "date": "2026-07-10T00:00:00+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "inference-efficiency",
+        "model-architecture",
+        "build-vs-buy-enterprise-ai",
+        "funding-and-market-structure",
+        "ai-native-product-design"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI has compressed development timelines over three years, reshaping venture stage definitions, making inference the dominant AI market, and enabling specialized infrastructure similar to database fragmentation. The key evidence includes seed rounds ranging from $1M to $500M, new model releases every 41 days, and inference infrastructure specializing around workloads like video, batch, and agentic systems. This matters because it shows how time compression in AI creates new infrastructure categories and monetization models (like AI-native advertising) that subsidize inference costs.",
+      "tags": [
+        "inference-infrastructure",
+        "time-compression",
+        "venture-stage-inflation",
+        "ai-advertising",
+        "open-vs-closed-models",
+        "workload-specialization"
+      ],
+      "status": "skipped",
+      "skip_reason": "High-level market commentary without original analysis, data, or frameworks; primarily observational synthesis of widely discussed trends in AI infrastructure and venture funding without novel insights or proprietary evidence."
+    },
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbllSN3RpaWZyZGFqb204NFE0dGFlbnAyUGFGTEl4RGE4a0pvODJuOWtTTndoaWZMRkhIcEhxWWNsaVR5MENaV19RdjR0SnZ2dGx2b3VKQXFMc3VyUklxcy1lU2FDaVJTV1lfWjZKUWlSTU9PSmV3c1dFUVZaOXEwN3VHX2hMd0s5M05CdXRTNEVqRWJDUXlYa3hqODBSTWRJTjRZRg?oc=5": {
+      "title": "Channel Brief: AI adoption is surging, but mid-market security is falling behind - ChannelE2E",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-10T18:21:39+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be blocked by a Google consent/sign-in page and contains no actual content beyond cookie policy text. No arguments, evidence, or analysis about AI adoption or mid-market security are present in the provided text. The article cannot be evaluated as it is inaccessible.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "Article content is completely inaccessible; only Google sign-in and cookie consent page text is present with no actual article content to evaluate."
+    },
+    "https://feeds.feedblitz.com/~/960025223/0/kitcesnerdseyeview~Weekend-Reading-For-Financial-Planners-July-%e2%80%93/": {
+      "title": "Weekend Reading For Financial Planners (July 11\u201312)",
+      "source": "Kitces.com",
+      "date": "2026-07-10T18:00:34+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a weekly roundup of financial planning articles covering topics from women's confidence in working with advisors to asset location strategies and estate planning considerations. The article provides brief summaries of various industry news items and professional development topics for financial planners, including a survey on AI tool adoption among broker-dealer advisors. It is a surface-level aggregation of multiple topics without original analysis, primarily serving as a content directory for financial planning professionals.",
+      "tags": [
+        "financial-planning",
+        "wealth-management",
+        "advisor-tools",
+        "industry-survey"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level content aggregation with no depth or novelty; minimal relevance to AI/technology focus areas as it only briefly mentions AI tools in passing without substantive analysis."
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSExLOGl3aUhiT3oxWTctaVh3X2lqQVpHTERKTk5saEtlR3VRUlYycW10T0lhcDFKXzFRQjRoenZjQV9paDkyaWJubmc2OFFuTjRqQUVjRXVmUmJtbVRmUGxfV2MzZTlTRmdITHc5OFdnNzNXelBBeHFnUHpJdjE3c2QyT0MxaUNxV1ZUVG42YzZPOFk?oc=5": {
+      "title": "AI Capex Risk Cuts Both Ways In The American Economy - Seeking Alpha",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-07-10T11:10:00+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article cannot be evaluated as the provided text contains only a Google cookie consent page with no actual article content. The text shows standard Google privacy policy language about cookies, data usage, and personalization options. No meaningful analysis, research, or information about AI capex risk or the American economy is present.",
+      "tags": [
+        "cookie-consent",
+        "no-content",
+        "blocked-access"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text contains only a cookie consent page with no actual content about AI capex, making meaningful evaluation impossible."
+    },
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWm1NU095RWtOWG5LQnhPYzlyREVLS2Y1Y3VPZWx3eEZCOXoxOHNraUNhZ0gzM0pIZkNiT1FCNk1iX2lfYWJzOVNmMVgwc2xGSUZnaHphTzFLUGdNY013dzdfTWY2QUpJM3NZUHRiMUpnZDItYXZnemJvZ0k3aWg0VzN4LUl3U1NKNGU4ZU0xcmcwSkdoN2Ztc0ZoOVBMeTctRW4w?oc=5": {
+      "title": "AI Capex Risk Cuts Both Ways In The American Economy - Real Investment Advice",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-07-10T09:24:52+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article appears to be a Google cookie consent page rather than actual content about AI capital expenditure risks. No substantive article content is provided beyond the title. The text consists entirely of Google's standard privacy and data usage policies, making evaluation impossible.",
+      "tags": [
+        "ai-capex",
+        "investment-risk"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content\u2014only a Google cookie consent page with no analysis, claims, or discussion of AI capital expenditure or economic impacts."
+    },
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMkgyX3VhbUxRSjUtWVpnR2JpVzdHeDdUcGlQTDQ5MXBDeW9Cb09kdjhUNld5MWpEV0h2d01GbVU0bE51UFhHdHBjWE9sWmtMakp3X29xQUo3MkF1aWVzQlBlX3pHdmRjME9yYUlfYzVEemlUZEZKRlNoNldPcXZMV3dRTEUyVWVUN0JXRi1jeng2TFExV2RybW1YNm1rdmh2M1ZMdnkxUWV4Mk0?oc=5": {
+      "title": "Accenture and Google Cloud launch agentic AI platform for mid-market firms - eeNews Europe",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-10T07:46:14+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be an article about Accenture and Google Cloud launching an agentic AI platform for mid-market firms, but the provided text contains only a Google cookie consent page with no actual article content. Without access to the real article text, it's impossible to evaluate the claims, evidence, or analysis about the platform's capabilities, implementation details, or business impact. The content cannot be assessed for depth, novelty, or meaningful relevance.",
+      "tags": [
+        "agentic-ai",
+        "mid-market",
+        "google-cloud",
+        "accenture"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible; only a cookie consent page was provided with no substantive information to evaluate."
+    },
+    "https://news.google.com/rss/articles/CBMirwJBVV95cUxOMXc0ZDFUUDlvUUlHUjRnaXEtWENOQi1OS2c0RnlaQzRQRnRUT3FRTkpiVTB3eWJHci1xLWxMWjFLTW9iS29jTHNJMElOQVJVaXlQMi1ZUms0d3Nka05qU3c0a1ZiRTEtYXF4cVNLZ0ZHYjB3cXhDamgzU0diZWJVYmRzSjRCYm0tektNQmpPQTVTVmlNWmpXejJuNGFUNkF3U0FLUmdtSlZUMUZSVWNIQUVKb1RhT3lxb0lkclA4TXdCRFo0cW9sNGZ5bzloV2N3eWR4QllZVERjdjFjUG91UURtWTUtZENOQTdkck5XWTV0N1BRR0U0akJVcUYyRXVOVEI2MnVsNGIxc3hDbUdlVGZUM2V4VXFoS0VpZDFJcnhDZkpXQjAtM0U0dlcxOTA?oc=5": {
+      "title": "Rackspace Technology Launches Operating Framework with - GlobeNewswire",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-09T11:30:00+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a cookie consent page from Google rather than an actual article about Rackspace Technology's operating framework. No substantive content about AI, enterprise technology, or Rackspace is present in the provided text. The article is effectively inaccessible and contains no analyzable information.",
+      "tags": [
+        "cookie-consent",
+        "paywall",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only a Google cookie consent page with no actual content about the stated topic."
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX1preTlBTk5abW9HSlFhUnRlVm9Odk1NdzJIR0RKdW9LOWJQYVNNblVXcFVyemRZY3VzaWhESlg3SEhTZVBScFZiVUxlRFpmWXBKNHlRY3IzRFVya0dRNmQwZHo2ZDdCSG9DOHpLWTJBUGhYUDJ4aUliZGRuZy16UFRUdGRoTVJnUkJEZlFteWhqdTdQX3J6NTBR?oc=5": {
+      "title": "2026 U.S. Financial Advisor Satisfaction Study - JD Power",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-07-09T00:00:00+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than the actual JD Power 2026 U.S. Financial Advisor Satisfaction Study content. The article text contains no actual information about financial advisor satisfaction, AI workflows, or study findings. This is a scraping error that captured a login/consent interstitial page instead of substantive content.",
+      "tags": [
+        "scraping-error",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains only a Google cookie consent page with no actual content about financial advisors, AI workflows, or satisfaction study findings."
     }
   }
 }

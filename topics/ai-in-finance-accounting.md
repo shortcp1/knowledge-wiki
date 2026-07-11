@@ -1,5 +1,5 @@
 ---
-tags: [bnpl, agentic-commerce, kya-know-your-agent, autonomous-purchasing, intent-verification, financial-underwriting, ai-in-finance-accounting]
+tags: [agentic-commerce, agentic-commerce-infrastructure, ai-in-finance-accounting, autonomous-agents, autonomous-purchasing, bnpl, consent-verification, decision-trail-reconstruction, dispute-resolution-ai, explainability, financial-governance, financial-underwriting, fraud-detection-agents, human-decision-assumption, intent-opacity, intent-verification, kya-know-your-agent, transaction-consent, transaction-visibility]
 ---
 
 ---
@@ -19,67 +19,36 @@ Key questions tracked: Which finance workflows are achieving full automation vs.
 - **Request-Response → Always-On**: Traditional model: users open apps, check balances, apply for credit, reconcile. New model: continuous background interpretation and dynamic response
 - **"Embedded Interpretation" Pattern**: Systems expected to understand patterns, maintain continuity across fragmented financial activity, surface relevance proactively, and participate in decisions
 - **Key Distinction**: "Not just to process transactions, but to understand patterns" - shift from transaction optimization to cognitive optimization
-- **Interface Evolution**: Financial experiences historically lived inside financial products; now testing finance embedded inside conversational intelligence layers users already inhabit
-- **Example Case**: Plaid-OpenAI ChatGPT integration - users connect accounts through Plaid, ChatGPT provides contextual insights (budgeting, spending analysis, debt management, savings recom
+- **Interface Evolution**: Financial
 
-### BNPL Infrastructure Meets Agentic Commerce (Zip Co, July 2026)
-
-**Business Problem - Infrastructure Mismatch**:
-- BNPL systems architected for human decision-makers with visible intent signals
-- Agentic commerce introduces "autonomous buyers operating on systems built to verify human intent"
-- Core challenge: "Agentic commerce separates intent from action"
-- Traditional model: "person making the purchase and person assuming the debt are the same"
-- New model: Agent intermediates, breaking the intent-action-liability chain
-
-**AI Pattern - Autonomous Purchase Agents**:
-- AI agents purchasing, financing, and managing transactions on behalf of consumers
-- Agents execute full transaction lifecycle without human intervention at each step
-- Decision-making process becomes "invisible" to infrastructure layer
-- Risk: Agents can act "exactly as instructed but produce an outcome the consumer never wanted"
-
-**What Made This Critical**:
-- **Signal Elimination**: Traditional BNPL flow generated multiple verification points:
-  - Customer selects product
-  - Reviews price
-  - Chooses financing option
-  - Accepts repayment terms
-  - Each step = signal for risk and intent assessment
-- **Agent Compression**: Agentic flow collapses or eliminates these intermediate signals
-- **Underwriting Blind Spot**: "How do you underwrite a purchase when the decision-making process is invisible?"
-
-**Industry & Business Function**:
-- **Industry**: Payments/Consumer Credit
-- **Function**: Point-of-sale financing (Buy Now Pay Later)
-- **Company**: Zip Co
-- **Source**: Rory Herriman, CTO/COO
-- **Date**: July 2026
-
-**Framework Emergence - KYA (Know Your Agent)**:
-- New verification paradigm emerging alongside KYC
-- Two-layer requirement:
-  1. Prove agent had authority to act (authorization)
-  2. Prove "action reasonably reflected the user's objectives" (alignment)
-- Distinction: Authorization ≠ Alignment
-- BNPL positioned as "early test case for questions the broader payments ecosystem is only beginning to recognize"
-
-**Three Critical Questions for Payments Infrastructure**:
-1. "How do you verify intent when the buyer is software?"
-2. "How do you underwrite a purchase when the decision-making process is invisible?"
-3. "Who bears responsibility when an agent acts exactly as instructed but produces an outcome the consumer never wanted?"
-
-**Success Factors - Not Yet Determined**:
-- Article identifies problem space, not solutions
-- Industry in discovery phase of governance models
-- Open questions around liability, verification, and risk models
-
-**Generalizability - Very High**:
-- **Consumer Credit**: Credit cards, personal loans, mortgages where agent negotiates terms
-- **Insurance**: Agents selecting coverage, filing claims, managing policies
-- **Wealth Management**: Robo-advisors making binding investment decisions
-- **Corporate Finance**: Procurement agents committing to vendor contracts
-- **Healthcare Payments**: Medical procedure scheduling with financial commitment
-- **Any Domain Where**: 
-  - Financial liability assigned to humans
-  - Decisions delegated to autonomous agents
-  - Intent verification currently relies on human-generated signals
-  - Responsibility attribution matters for compliance/risk
+### Intent Opacity Crisis (July 2026)
+- **Core Problem**: AI agents taking autonomous purchasing actions create invisible decision-making - "the transaction remains visible, but the decision-making behind it becomes increasingly opaque"
+- **Historical Assumption Breaking**: Financial services built on assumption that "somewhere in every financial interaction, there was a visible human decision" (click Buy, sign agreement, tap Confirm)
+- **Evidence Gap**: Traditional proof points disappearing - fraud systems trained on human behavior patterns, lenders using application behavior to infer commitment, dispute resolution assuming clear consent moments
+- **Industry**: Financial Services (cross-cutting: lending, payments, BNPL, merchant services, fraud detection)
+- **Business Functions Affected**: Risk assessment, fraud detection, dispute resolution, underwriting, merchant operations
+- **Pattern Applied**: Autonomous agent commerce - agents "researching products, comparing prices, selecting merchants, arranging financing, and eventually completing purchases"
+- **Why It's Failing Traditional Systems**: 
+  - Fraud systems can't distinguish "normal" behavior when agents act
+  - Lenders lose behavioral signals during application process
+  - Banks can't identify clear consent moments for disputes
+  - Customer intent becomes unobservable to financial institutions
+- **Industry Response**: "Reconstructing the decision trail AI has hidden" through focus on:
+  - Intent verification systems
+  - Context capture
+  - Governance frameworks
+  - Permission systems
+  - Explainability requirements
+  - Accountability mechanisms
+- **Emerging Pattern**: "Know Your Agent" (KYA) - BNPL providers exploring KYC-like approaches for AI agents
+- **Cross-Industry Convergence**: "Companies across financial services suddenly working on similar problems, even if using different language"
+- **Generalizability**: Any transaction-based industry relying on observable human decision-making:
+  - E-commerce (merchant fraud detection)
+  - Insurance (claims validation)
+  - Healthcare (treatment consent)
+  - Legal services (contract acceptance)
+  - Real estate (offer authenticity)
+  - Travel/hospitality (booking verification)
+- **Critical Insight**: The challenge isn't the transaction itself - it's the loss of the observable decision trail that financial infrastructure was built to verify
+- **Source**: Tearsheet Letter from the Editor, Sara Khairi, July 10, 2026
+- **No Quantitative Metrics**: Article is conceptual/analytical, no specific performance data cited

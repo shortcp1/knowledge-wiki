@@ -1,5 +1,5 @@
 ---
-tags: [agent-design-patterns, agent-governance, agentic-workflows, agentic-workflows-production, ai-governance, artifact-scoping, automated-rollback, blast-radius-containment, credential-management, least-privilege, policy-as-code, production-controls, trust-boundaries]
+tags: [agent-design-patterns, agent-governance, agentic-workflows, agentic-workflows-production, ai-brand-discoverability, ai-citation-sources, ai-governance, artifact-scoped-agents, artifact-scoping, automated-rollback, blast-radius, blast-radius-containment, credential-management, generative-engine-optimization, geo-optimization, human-in-the-loop, least-privilege, policy-as-code, policy-enforcement, production-controls, tool-boundary-enforcement, trust-boundaries]
 ---
 
 ---
@@ -7,60 +7,69 @@ tags: [adversarial-review, agent-experience, agent-memory-architecture, agent-or
 
 ## Agentic Commerce Infrastructure Gap (Zip Co, July 2026)
 
-#
+## Governing Agents at Scale: Production Patterns (AI Realized Now Executive Roundtable, June 2026)
 
-## Artifact-Scoped Agent Design Pattern (July 2026)
+**Business Problem**: Enterprise organizations running agents in production needed governance frameworks that could handle delegated authority and blast radius at machine speed.
 
-**Core principle:** Scope agents to specific, bounded outputs (artifacts) rather than organizational roles. When an agent is scoped to produce a launch readiness report, compliance status table, or portfolio digest, it has clear definition of success, required inputs, and completion criteria. Role-based scoping ("PM agent," "compliance officer agent") creates ambiguous, chatbot-like systems.
+**AI Pattern Applied**: Multi-agent systems with production governance controls
 
-**
+**Industry/Function**: Cross-industry, senior AI leadership level
 
-## Production Agent Governance Patterns (AI Realized/AiGovOps Foundation Roundtable, June 2026)
+**What Made It Succeed**:
+- **Govern the action, not the model**: Core reframe from senior AI leaders - focus governance on what agents do, not how models work
+- **Policy-as-code enforcement**: Policy encoded in code that agents cannot edit themselves
+- **Tool boundary containment**: Blast radius contained at the tool boundary where agents interact with systems
+- **Substrate-as-attack-surface**: Treating the execution substrate (runtime environment, APIs, tool access) as the primary security concern
+- **Specific human-in-the-loop definitions**: HITL scoped precisely to failure modes rather than generic oversight
+- **Authority-based risk assessment**: Recognition that delegated authority creates blast radius, not model capability alone
 
-**Business problem:** Agents acting continuously at machine speed with escalating authority create governance gaps that paper policies cannot address. Permission creep causes agents to accumulate unauthorized capabilities (RFP detector becomes CRM writer, ticket-closer gains write authority, coding agent rewrites 40% of repository).
+**Key Insight**: Authority is what creates blast radius in agent systems. The containment strategy must focus on where agents exercise authority (tools, actions, system access) rather than attempting to constrain model behavior directly.
 
-**AI pattern:** Multi-agent systems with tool-calling capabilities in production environments
+**Source**: AI Realized Now executive roundtable co-hosted with AiGovOps Foundation (anonymized under Chatham House Rule)
 
-**Industry/function:** Cross-industry (security, governance, engineering leadership)
+**Generalizability**: This governance pattern applies to any domain deploying agents with:
+- System write access
+- Financial transaction authority
+- Customer-facing actions
+- Compliance obligations
+- Multi-agent orchestration
 
-**Success factors:**
+Relevant for: Financial services, healthcare, legal, manufacturing, supply chain, customer service, IT operations.
 
-### Govern at Action Boundary, Not Model
-- **Control placement:** Insert governance between model output and action execution. "The model just produces tokens. The action is what costs you a customer record, a CRM rewrite, or a wire transfer."
-- **Headcount rule:** Agent should never hold more access than the person who authorized it (received strongest consensus)
-- **Tool boundary controls:** Strongest controls live at tool boundary. Scope each tool to minimum required. Default new agents to dry-run mode.
+## Artifact-Scoped Agent Design (Chris Butler, AI Realized Now, July 2026)
 
-### Policy-as-Code Architecture
-- **Structural enforcement:** Policy enforced in code path, not prompts. "A prompt that says 'don't do that' is not a control."
-- **Immutable policy:** Policy-and-provenance graph that agent reads but cannot edit
-- **Software engineering discipline:** Apply least privilege, change control, observability, versioned policy
-- **Code travel:** Policy versions travel with code
+**Business Problem**: Enterprise AI teams building agentic workflows that are slow, opaque, and hard to govern because they're scoped to roles ("PM agent", "compliance officer agent") rather than outputs.
 
-### Blast Radius Containment
-- **Read widely, write narrowly:** Lock write authority to single artifact type, one action per run
-- **SCIF model:** Sealed enclave with read-only inputs, segregated outputs, sandboxed execution, human inspection before release
-- **Appliance analogy:** "My dishwasher does a job, in a certain way, and it only washes what's inside the dishwasher."
+**AI Pattern Applied**: Artifact-scoped agents (agents designed around specific, bounded outputs rather than job titles)
 
-### Identity and Lineage Management
-- **Individual credentials:** Every agent gets own credentials (not inherited personal access tokens). Rotate and scan for exposure.
-- **Canary testing:** One leader planted key deliberately, detected within one day
-- **Child agent inheritance:** Child agents inherit equal or narrower scope
-- **Handoff interception:** Every handoff gets policy-checked
-- **Named ownership:** Every agent gets named owner with defined retirement pathway before owner leaves
-- **Orphaned agent prevention:** Address agents whose owners have departed
+**Industry/Function**: Cross-industry, product management, compliance, any knowledge work function
 
-### Infrastructure Security
-- **Substrate as attack surface:** Red-teaming model misses infrastructure layer—tools called, inputs read, retrieval indexes
-- **Assume prompt injection:** Treat untrusted input (tickets, emails, support transcripts, web pages) as hostile instruction
-- **Documented case:** Buried instruction at support-agent boundary triggered unauthorized password resets
-- **Poisoned tools:** Poisoned tool description can turn well-behaved model into attacker's instrument
-- **Expanded agent definition:** MCP server, retrieval index, AI-generated code all part of the agent
+**Anti-Pattern Identified**: Role-based agent scoping
+- **Why it fails**: 
+  - Roles are ambiguous and multi-faceted
+  - No clear definition of "done"
+  - Unclear input requirements
+  - Creates "chatbots with ambitions" rather than reliable automation
+  - Hard to govern due to scope ambiguity
 
-**Key insight:** "We're building this beautiful castle of identity and separation on top of infrastructure that already has big problems." —Startup CEO and former security executive
+**Success Pattern**: Artifact-scoped agents
+- **Why it succeeds**:
+  - Agent knows exactly what to produce (e.g., launch readiness report, compliance status table)
+  - Clear input requirements
+  - Explicit definition of completion
+  - Bounded scope enables governance
+  - Focuses on specific outputs teams already depend on
 
-**Generalizability:** Universal pattern for any production agent deployment across industries. Particularly critical for:
-- Customer service agents with CRM access
-- Financial agents with transaction authority  
-- DevOps agents with infrastructure access
-- Sales/marketing agents with data write permissions
-- Support agents processing untrusted user input
+**Key Principle**: "Scope agents to artifacts" - the specific, bounded outputs a team already depends on, not the roles that produce them.
+
+**Generalizability**: Universal pattern for knowledge work automation:
+- Financial reporting and analysis
+- Compliance documentation
+- Status reports and dashboards
+- Research briefs
+- Technical documentation
+- Customer communications
+- Contract review summaries
+- Risk assessments
+
+Any function producing recurring, structured artifacts with defined quality criteria can apply this pattern.

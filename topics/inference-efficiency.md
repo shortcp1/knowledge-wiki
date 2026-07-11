@@ -1,9 +1,9 @@
 ---
-tags: [agent-memory-architecture, skills-library, preflight-retrieval, local-model-routing, asynchronous-inference, self-improving-systems, workflow-versioning, inference-efficiency]
+tags: [deepseek-v4, draft-model, frontier-models, inference-acceleration, inference-cost, inference-efficiency, model-governance, model-sovereignty, open-weights, parallel-decoding, reinforcement-learning, speculative-decoding, task-specific-models, token-generation]
 ---
 
 ---
-tags: [4-bit-quantization, agent-experience, agentic-architecture, agentic-systems, agentic-workflows, async-batch-inference, bursty-workloads, compound-ai-systems, conductor-model, context-orchestration, continual-learning, cost-optimization, elastic-inference, evolutionary-algorithms, fugu, gpu-snapshotting, inference-efficiency, intelligent-routing, local-models, memory-management, model-orchestration, multi-cloud-capacity, multi-model-routing, multi-model-systems, observability, orchestrator-models, production-deployment, reinforcement-learning, rl-rollouts, sandbox-environments, sep-cma-es, serverless-gpu, skill-distillation, vendor-independence, apple-silicon, ollama, ornith-35b, preflight-routing]---
+tags: [4-bit-quantization, agent-experience, agentic-architecture, agentic-systems, agentic-workflows, async-batch-inference, bursty-workloads, compound-ai-systems, conductor-model, context-orchestration, continual-learning, cost-optimization, elastic-inference, evolutionary-algorithms, fugu, gpu-snapshotting, inference-efficiency, intelligent-routing, local-models, memory-management, model-orchestration, multi-cloud-capacity, multi-model-routing, multi-model-systems, observability, orchestrator-models, production-deployment, reinforcement-learning, rl-rollouts, sandbox-environments, sep-cma-es, serverless-gpu, skill-distillation, vendor-independence, apple-silicon, ollama, ornith-35b, preflight-routing, speculative-decoding, dspark, parallel-drafting, confidence-calibration, dynamic-verification, task-specific-models, model-sizing, cost-per-inference]---
 
 ## Inference Inflection Point (2026)
 
@@ -20,47 +20,39 @@ As AI deployments shift from single models to compound systems, the infrastructu
 - **The drift**: AI gradually answers a different question than what was asked
 - **The silent mismatch**: AI misunderstands but produces plausible enough output that users don't challenge it
 
-These failure modes represent a fundamental shift from traditional software monitoring paradigms. Traditional metrics (completion rates, latency, error codes, thumbs up/down) fail to capture conversational AI degradation where the conversation appears normal in dashboards while quietly failing.
+These failure modes represent a fundamental shift from traditional software monitoring paradigms. Traditional metrics (completion rates, latency, error codes, thumbs up/down)
 
-### Observability Infrastructure Gap
+## Task-Specific Model Inference Economics (2026)
 
-Novel evaluation and observability requirements emerge that didn't exist in prior software development paradigms. Conversational AI sys
+**Source**: Clouded Judgement (Jamin Ball, July 2026)
 
-## Local Model Execution Pattern (July 2026)
+### Inference Cost Pattern: Specialized vs. Generalist
 
-**Source**: Tomasz Tunguz, "The AI Preflight Check"
+**Finding**: Task-specific models customized via RL deliver "fraction of the inference cost" compared to frontier models for their trained tasks.
 
-### Ornith 35B Production Deployment
+**Cost Driver Analysis**:
+- **Frontier models**: Carry ALL weights for generalist capabilities
+- **Task-specific models**: Only carry weights needed for ONE job
+- Result: Smaller model size → lower inference cost
 
-**Technical Stack**:
-- **Model**: Ornith 35B (35-billion-parameter open-weight model)
-- **Infrastructure**: Apple Silicon via Ollama
-- **Workload Split**: ~80% routine tasks handled locally, remainder routed to frontier models
+**Additional Performance Benefits**:
+- Lower latency (smaller model)
+- Better performance on specific trained task
+- No single vendor dependency
 
-**Routine Task Categories**:
-- Classification
-- Drafting
-- Tool selection
-- Structured extraction
+**Tradeoff**: Complexity tax
+- Enterprises may operate thousands of fine-tuned models
+- Requires governance infrastructure
+- Version control overhead
+- Audit and security complexity
+- Emerging market opportunity for model fleet management tooling
 
-### Intelligent Routing Architecture
+### Strategic Inference Cost Decision
 
-Two-tier execution model:
-1. **Local tier**: Ornith 35B on-device for high-frequency, routine operations
-2. **Frontier tier**: Hard/novel tasks escalated to larger models
+Key question shifts from "which model?" to "which workloads justify the infrastructure to build cheaper, specialized models?"
 
-**Cost/Performance Tradeoff**: By handling 80% locally, reduces frontier model API costs while maintaining quality for complex tasks.
-
-**Integration Pattern**: Works with [[agentic-workflows-production#Memory Architecture: Preflight Pattern]] - local model executes on pre-selected context from skills library.
-
-## Asynchronous Inference
-
-**Reference**: "Full Sail on Asynchronous Inference" architecture (referenced but not detailed in source)
-
-**Key Pattern**: Queue architecture enabling hours-long overnight agent runs
-- Processes day's execution trail asynchronously
-- Enables batch analysis of skill usage, decision patterns, success rates
-- Makes long-duration improvement cycles tractable
-- See [[agentic-workflows-production#Watchdog + Overnight Processing]]
-
-**Production Characteristic**: Decouples real-time agent execution from improvement/learning cycles
+**When Task-Specific Makes Sense**:
+- Repeated, high-volume workflows
+- Cost-sensitive applications
+- Performance-critical tasks
+- Sufficient scale to justify ML infrastructure investment

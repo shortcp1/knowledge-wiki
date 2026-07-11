@@ -1267,3 +1267,75 @@ Bessemer identifies five structural frontiers for next-generation AI infrastruct
 **Digital Substrate Transition**: For most of the digital age, evolutionary machinery was incomplete - software could be copied but only through human initiation. AI training improved models but objectives, architectures, and deployment remained under human control. This distinction is beginning to blur.
 
 **Quote**: Darwin described natural selection as "daily and hourly scrutinising, throughout the world, every variation, even the slightest" - written about finches and barnacles, but the mechanism is substrate-agnostic.
+
+---
+**With Links: AI Realized Now Issue #20** (AI Realized Now, 2026-07-10T15:07:01+00:00)
+## Generative Engine Optimization (GEO) - Brand Discoverability Challenge
+
+**Core problem:** When AI engines cite sources about brands, most citations do not come from brand-owned content.
+
+**ThoughtSpot audit finding:** Only 13-15% of AI citations about their brand came from owned content. 85% came from sources marketing teams don't formally own or measure.
+
+**Three signal types that move AI answers:** (Content from executive roundtable, GEO webinar, and Bospar PR discussion - specific signals not detailed in source material)
+
+**Implication:** Traditional SEO frameworks insufficient. AI systems select and cite through different mechanisms than page-rank algorithms. Brand presence requires addressing the 85% of citations outside direct control.
+
+Note: This represents a distinct domain (brand discoverability in AI systems) that may warrant its own topic file or integration into marketing/brand strategy topics if they exist.
+
+---
+**AI Realized Now Issue #20** (AI Realized Now, 2026-07-10T14:54:13+00:00)
+## Generative Engine Optimization (GEO) - ThoughtSpot Case Study (AI Realized Now, July 2026)
+
+**Business Problem**: Brands losing control of their narrative in AI-generated answers; lack of visibility into what AI systems say about them.
+
+**Industry/Function**: Marketing, brand management, public relations
+
+**Quantitative Outcome**: 
+- **ThoughtSpot audit finding**: Only 13-15% of AI citations about their brand came from their own content
+- **85% of citations** came from sources marketing teams don't formally own or measure
+
+**Key Insight**: Reframes the GEO problem from "optimize our content" to "understand and influence the full ecosystem of signals AI systems use to form brand representations."
+
+**Success Pattern**: Three signal types consistently move the needle in AI answers (specific signal types not detailed in this excerpt)
+
+**Source**: Synthesis of AI Realized Now executive roundtable, GEO webinar, and podcast with Bospar PR's Curtis Sparrer
+
+**Implication**: Traditional content marketing metrics (owned properties, SEO rankings) miss 85% of the brand signal landscape that shapes AI recommendations.
+
+**Generalizability**: 
+- B2B technology vendors
+- Professional services firms
+- Any brand where AI systems mediate discovery/selection
+- Enterprise software
+- Financial services
+- Healthcare providers
+
+---
+
+## Digital Evolution: Darwinian Prerequisites in AI Systems (Shomit Ghose, Clearvision Ventures, July 2026)
+
+**Theoretical Framework**: Digital systems approaching prerequisites for evolutionary dynamics: reproduction, heritable variation, differential selection.
+
+**AI Patterns Identified**:
+- Agent replication
+- Model merging
+- Competitive resource pressure
+
+**Key Argument**: 
+- Darwin's mechanism (reproduction, heritable variation, selection) doesn't require carbon-based life
+- Digital systems now meeting these conditions
+- **Unique characteristic**: Lamarckian layer on Darwinian selection - acquired characteristics become transmissible without waiting for blind variation
+- **Result**: Evolutionary time compressed categorically, not just incrementally
+
+**Implication**: Consequences may exceed arrival of any single superhuman model. Focus shifts from individual model capability to evolutionary dynamics of populations of agents/models.
+
+**Industry/Function**: Cross-industry, strategic/existential concern for AI governance
+
+**Generalizability**: Relevant to:
+- AI safety and alignment
+- Long-term AI strategy
+- Multi-agent system design
+- Organizational AI adoption at scale
+- Regulatory frameworks for autonomous systems
+
+**Note**: This represents a paradigm shift from evaluating individual AI systems to understanding population-level dynamics and emergent evolutionary pressures in digital ecosystems.
