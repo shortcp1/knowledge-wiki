@@ -705,7 +705,39 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-12
+
+**✗ 1.3** — [25](https://www.deeplearning.ai/the-batch/page/25)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_index #deeplearning_ai #the_batch
+> This is an index page listing newsletter issues from The Batch (DeepLearning.AI) from 2019, showing headlines and brief introductory snippets from Andrew Ng's letters. The content consists only of navigation elements and teaser text without any substantive technical or analytical content. It serves as a table of contents rather than providing actionable insights or analysis.
+
+**✗ 1.0** — [26](https://www.deeplearning.ai/the-batch/page/26)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_archive #deeplearning_ai
+> This is a navigation page for The Batch newsletter archive, specifically page 26 of 26, showing only a single issue from April 2019. The page contains no substantive content beyond a course promotion and newsletter subscription form. It provides no analysis, research, or actionable insights about AI.
+
+**✗ 4.7** — [Make All Your Tokens And Your Brainwork Count](https://www.deeplearning.ai/the-batch/make-all-your-tokens-and-your-brainwork-count)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#agentic_coding #spec_driven_development #rapid_prototyping #0_to_1_development
+> Andrew Ng argues for an iterative approach to building AI applications where developers write rough specs quickly, let coding agents build prototypes, then refine specs based on what the agents produce rather than spending extensive time on upfront design. The key mechanism is treating AI tokens as cheap and human planning time as expensive, allowing rapid iteration cycles where entire codebases can be thrown away early in 0-to-1 development. This matters as a practical workflow pattern for leveraging agentic coding tools, though it primarily applies to early-stage prototyping rather than mature systems.
+
 ## 2026-07-11
+
+**✗ 3.0** — [sqlite-utils 4.1](https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything)  
+*Simon Willison* · ai-engineering-agents
+#sqlite_utils #ai_assisted_programming #codex #cli_tools
+> This article announces sqlite-utils 4.1, a minor release adding features like Python code blocks for row generation, type overrides for CSV imports, and strict mode toggling for SQLite tables. The key evidence is the demonstration of new CLI commands and API methods, with several features developed using AI coding assistants (GPT-5.6 Sol/Codex). It matters primarily as an example of AI-assisted software development workflow rather than for the database utility features themselves.
+
+**✗ 1.7** — [🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on track, and more](https://www.lennysnewsletter.com/p/community-wisdom-negative-network)  
+*Lenny's Newsletter* · 
+#product_management #workplace_dynamics #community_discussion
+> This is a community newsletter highlighting Slack conversations about general product management and workplace dynamics topics like network effects, managing colleagues, and stakeholder meetings. The article provides no actual content beyond a paywall notice and table of contents. It has no relevance to AI, semiconductors, or any of the specified technical or AI-application topic areas.
+
+**✗ 4.7** — [[AINews] not much happened today](https://www.latent.space/p/ainews-not-much-happened-today-f5c)  
+*Latent Space* · model-architecture · inference-efficiency · ai-pricing-packaging-saas
+#gpt_5_6 #model_tiering #usage_limits #pricing_complexity
+> The article reports on OpenAI's GPT-5.6 rollout, which introduced a complex tiered model system (Luna/Terra/Sol with effort levels) that confused users with 36+ configuration variants and unclear usage costs. OpenAI responded to UX complaints by resetting usage limits multiple times and acknowledging that default settings pushed users toward expensive options. Early benchmarks show GPT-5.6 excelling in agentic coding and presentations but not dominating across all tasks, while the pricing complexity is making users question the $200 Pro plan value.
 
 **✗ 4.0** — [Google Pairs Nano Banana Update With Video Api](https://www.deeplearning.ai/the-batch/google-pairs-nano-banana-update-with-video-api)  
 *The Batch (DeepLearning.AI)* · multimodal-models · ai-in-product-and-engineering
@@ -1127,6 +1159,11 @@ All articles scanned since the wiki started. Updated nightly.
 #k12_education #educator_training #openai_academy #walton_family_foundation
 > OpenAI Academy and the Walton Family Foundation are launching AI Skills Jams to train K–12 educators on using AI in classroom settings. The article announces this partnership initiative but provides no details on curriculum, methods, or outcomes. This is a brief corporate announcement without substantive analysis or framework for educational AI deployment.
 
+**✗ 1.0** — [Why Did Accenture (NYSE:ACN) Expand Google Cloud AI Services? - Kalkine Media](https://news.google.com/rss/articles/CBMitwFBVV95cUxQRVdxbTZFYkxWcUEtcW1IQWI2cDVOQjdBUy1JdEZPN2dKVzE5SnZIMU1UYW53YWZVYzUwc3VYVlIzc3hrbXJWd2ZKUjYxbHBvSy1sOUdmVTBsdXloSTFpYzJoa3o2QnpxVHl1T25FN29zQ3pzZTF5ZmhHN0FHYlZUcHV6M3lDX1d6a28zWjhLSDhUYW01ZDRRZ0hXQWxvdV9HbEcwd2dseVhCUDhiSUJLVVExT0lRZjQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#cookie_consent #google_policy #data_privacy
+> This is not an article but rather a Google cookie consent page that was mistakenly captured. It contains no actual content about Accenture or Google Cloud AI services. The text only describes Google's cookie policy and data usage practices.
+
 **✗ 1.7** — [Mid-Market AI Adoption Hindered by Lack of Expertise and Inadequate Technology Foundations, Klarus Finds - Business Wire](https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS1lVaF91cTU0bnNOdDFndGF4Ukd1My1jYzZ6RjZqbmRmdzVIb0tXR2Z2YW9oanQ5VnNteUZYcWRhcS02ZEdLYl9tS3FCTllOaHNSb19HTEFOZi1NbmRVV2M3bWg5UVFrelp2aXpPM1FyUnhzZ3VCMG5CQXotQ1A4dDhSNVJ1WVNyRnJlNXlwU3g4WW9PZDhwUGJJYmswOXRtM3dRMThGcF9pbEFVZlozMHZPVzBnZWxPMjJWZmFhTVNtcFpfdFFXaVotVE9YR0pTbjRZOWFfV2FpN3V6MTQ3TXFoS0tWOUIzVk5KSDhvcGNjUQ?oc=5)  
 *GN: AI Mid-Market Enterprise* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
 #mid_market #ai_adoption #enterprise_readiness
@@ -1178,6 +1215,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
 #web_components #code_generation #gpt_5 #github_integration
 > The article describes a Web Component for embedding GitHub code snippets that was built using GPT-5.5 with a simple prompt. The component converts GitHub URLs to raw content URLs, fetches code, and displays specified line ranges with line numbers but no syntax highlighting. This represents a straightforward code generation task accomplished by an AI model without notable innovation or complexity.
+
+**✗ 2.3** — [sqlite-utils 4.0](https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything)  
+*Simon Willison* · 
+#sqlite #database_tooling #python_cli #schema_migrations
+> This is a brief release announcement for sqlite-utils 4.0, a Python CLI utility for manipulating SQLite databases that now includes database schema migration capabilities. The article provides no technical details, evidence, or analysis—it simply links to another article for more information. This represents a minimal changelog-style announcement with no substantive content to evaluate.
 
 **✗ 1.0** — [Accenture: Rolls Out AI Edge with Google - blockchain.news](https://news.google.com/rss/articles/CBMid0FVX3lxTFBKdTFHUE5VdkdMTEhpLWJTT2podWxXWHF0dFI5LWFqWkZfWnhkeWFlNHVnMGFIZnhKUXB4di1FLXVRdVlJRnZOcno1c0FkZGFWUUJMc1BISWZQMUpzR3NGd1NRaHBwOGJuQ0hfYXpkRGFvWkwxU1dn?oc=5)  
 *GN: AI Mid-Market Enterprise* · 
@@ -1237,6 +1279,11 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Mid-Market Enterprise* · 
 #mid_market #smb #enterprise_ai
 > This article appears to discuss SonicWall's introduction of AI products targeting mid-market and SMB customers rather than enterprise-first segments. However, the provided text contains only Google's cookie consent dialog without any actual article content. No evidence, analysis, or substantive information about the product, technology, or market positioning is accessible.
+
+**✗ 3.0** — [sqlite-utils 4.0rc4](https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
+#sqlite_utils #claude_fable_5 #ai_code_review #developer_tooling
+> This article announces sqlite-utils version 4.0rc4, a release candidate for a Python CLI utility and library for manipulating SQLite databases. The key information is that this version implements feedback from a detailed code review performed by Claude Fable 5, an AI model. The article suggests AI agents are being used for software development review and quality assurance tasks, though provides minimal detail about the implementation or outcomes.
 
 **✗ 4.7** — [[AINews] The Field Guide to Fable](https://www.latent.space/p/ainews-the-field-guide-to-fable)  
 *Latent Space* · model-architecture · prompt-architecture · ai-engineering-agents
