@@ -705,7 +705,64 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-13
+
+**✗ 4.0** — [9](https://www.deeplearning.ai/the-batch/tag/letters/page/9)  
+*The Batch (DeepLearning.AI)* · agentic-workflows-production · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#agentic_workflows #llm_agents #python_tooling #ai_entrepreneurship
+> This is a table of contents page from Andrew Ng's newsletter 'The Batch' showing 10 article titles and brief descriptions covering topics like AI agents, Python package management, AI entrepreneurship, privacy, and LLM commoditization. The page provides only article titles and 1-2 sentence previews without the actual substantive content of any individual article. This is metadata about content rather than actual analysis or research, making it unusable for knowledge extraction.
+
+**✗ 2.7** — [6](https://www.deeplearning.ai/the-batch/tag/letters/page/6)  
+*The Batch (DeepLearning.AI)* · ai-in-product-and-engineering · ai-native-product-design
+#newsletter_archive #ai_product_management #ai_assisted_coding
+> This is a collection of letter titles and brief excerpts from Andrew Ng's newsletter covering topics like DeepSeek developments, AI product management, and AI-assisted coding. The content provides only headlines and introductory sentences without substantive analysis, evidence, or detailed frameworks. This appears to be a pagination or archive page rather than a standalone article with meaningful content.
+
+**✗ 4.3** — [Fables Return And Fallout](https://www.deeplearning.ai/the-batch/fables-return-and-fallout)  
+*The Batch (DeepLearning.AI)* · regulatory-policy · ai-governance-risk-compliance
+#export_controls #model_safety_guardrails #cybersecurity_risks #government_ai_regulation
+> The article reports on Anthropic's Claude Fable 5 and Mythos 5 models being temporarily banned by the U.S. Department of Commerce due to cybersecurity concerns after Amazon researchers demonstrated exploit capabilities, then reinstated three weeks later with additional guardrails. The timeline covers the April preview release, June 9 public release, June 12 export control directive affecting all users globally, and June 30 lifting of controls after implementing new safety measures. This represents the most high-profile conflict between the U.S. government and an AI company in 2026, establishing precedent for export controls on AI models based on capability assessments.
+
 ## 2026-07-12
+
+**✗ 4.3** — [Directly Responsible Individuals (DRI)](https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything)  
+*Simon Willison* · agentic-workflows-production · ai-governance-risk-compliance · ai-org-design-headcount
+#dri #accountability #agentic_ai #organizational_design
+> The article discusses the concept of Directly Responsible Individuals (DRI) from Apple/GitLab organizational practice and argues that AI agents should never be designated as DRIs because accountability requires human responsibility. The key evidence is a reference to IBM's 1979 principle that computers cannot be held accountable and therefore shouldn't make management decisions. This matters for organizations deploying agentic AI systems by establishing a clear boundary: agents can assist but humans must remain accountable for outcomes.
+
+**✗ 1.3** — [shot-scraper 1.11](https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything)  
+*Simon Willison* · 
+#cli_tools #web_scraping #screenshot_automation #developer_tools
+> This article announces shot-scraper 1.11, a CLI tool for taking website screenshots and scraping with JavaScript. The release includes minor improvements like extending server startup wait time from 1 to 30 seconds, adding a --js-file option for loading JavaScript from files, and adding --timeout options for consistency. These are incremental maintenance updates to a developer tool unrelated to AI or enterprise technology topics.
+
+**✗ 4.7** — [Fable gets another bump](https://simonwillison.net/2026/Jul/12/bump/#atom-everything)  
+*Simon Willison* · ai-pricing-packaging-saas · model-architecture
+#claude_fable #gpt_5_6_sol #usage_limits #compute_constraints
+> The article reports that Anthropic extended access to its Claude Fable 5 model through July 19 in response to OpenAI's GPT-5.6 Sol release, which is characterized as a Fable/Mythos class model. The key evidence is that OpenAI appears confident enough in compute availability to offer unrestricted access to GPT-5.6 Sol for paid subscribers, while Anthropic continues usage caps citing compute constraints. This matters because the author argues Anthropic's uncertainty around Fable availability is causing them to lose users to OpenAI in the competitive frontier model market.
+
+**✗ 1.7** — [CBE Launches New Generative AI Training Cohort for Financial Sector - Sada Elbalad english](https://news.google.com/rss/articles/CBMijAFBVV95cUxNdE5fOFkyQ1RYS3QyOG1ycDNkUlNuVElNcmh3SEdneWtMRWNNbURFTmNTNW5yVFNwZGllNU5zTGd0dUdLY085c3QyTno0YUdzTDBOR1JubHFjbVhmajI0dFJJWlY5cHdJSkJFcGhoTGsyNmpLR0thTEJTS19YODZnREtMLWZsdExmdnBQOQ?oc=5)  
+*GN: AI Fintech Deployment* · ai-in-finance-accounting
+#financial_services #training_program #generative_ai
+> The article appears to announce a generative AI training cohort for the financial sector launched by CBE (likely Central Bank of Egypt). No substantive content is provided beyond the title, as the article text consists entirely of Google's cookie consent dialog. Without access to the actual article content, no evaluation of arguments, evidence, or impact can be made.
+
+**✗ 4.0** — [TBM 430: Incubate, Compound, Refinance, Liquidate](https://cutlefish.substack.com/p/tbm-430-incubate-compound-refinance)  
+*The Beautiful Mess (John Cutler)* · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#software_portfolio_management #technical_debt #carrying_costs #product_lifecycle
+> The article applies portfolio theory to software assets, categorizing them into four quadrants (incubate, compound, refinance, liquidate) based on value created versus carrying costs, and briefly mentions AI's impact on these dynamics. It frames technical debt as a financing choice whose rationality depends on which quadrant the asset occupies and its trajectory over time. The author acknowledges this is not novel but rather a Sunday thought exercise combining familiar concepts to surface patterns in software portfolio management.
+
+**✓ 8.0** — [6 months to live for open models](https://www.interconnects.ai/p/6-months-to-live-for-open-models)  
+*Interconnects (Nathan Lambert)* · regulatory-policy · lab-dynamics · model-architecture
+#open_weights_models #distillation #frontier_capabilities #regulatory_capture
+> The article argues that open-source AI models face their most serious existential threat within the next 6 months due to potential White House executive orders targeting Chinese-origin models and frontier capabilities above GPT-5.5/Claude Opus 4.8 levels. The key mechanism is a two-pronged policy debate around distillation and frontier capability thresholds, driven by closed-model companies (particularly Anthropic) who have more effective lobbying power and economic incentives to push regulatory frameworks that would disadvantage open models. This matters because it represents the first regulatory action with real enforcement mechanisms that could permanently relegate open models to second-class status, reshaping the competitive landscape of AI development.
+
+**✓ 7.7** — [How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)](https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about)  
+*Lenny's Newsletter* · ai-org-design-headcount · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
+#workforce_sentiment #ai_adoption_impact #burnout_metrics #organizational_change_management
+> This annual survey of thousands of tech workers reveals AI has bifurcated the workforce into four emotional archetypes (Energized, Conflicted, Disoriented, Resentful), with burnout increasing 11 points year-over-year and almost no one recommending their jobs to newcomers. The research provides quantitative evidence of workforce sentiment shifts, identifying managers as the single biggest lever for employee well-being amid AI transformation. The findings matter because they quantify the human impact of rapid AI adoption across product, engineering, design, and other tech functions, informing organizational design and change management strategies.
+
+**✗ 4.7** — [🔮 Reading is dying. GPU demand isn’t.](https://www.exponentialview.co/p/ev-592)  
+*Exponential View (Azeem Azhar)* · gpu-architecture-training-infra · ai-in-product-and-engineering
+#reading_literacy_decline #academic_integrity #gpu_demand #h100_pricing
+> The article argues that declining reading habits and AI-assisted academic cheating signal a broader trend toward cognitive disengagement, while GPU demand remains strong despite speculation about softening. It provides anecdotal evidence from a Brown University economics class where most students' grades collapsed in closed-book exams, alongside data showing American reading for pleasure dropped from 28% to 16% between 2004-2023, and cites GPU pricing data showing H100 contracts rebounded 38% since October. The piece matters as a cultural commentary on AI's impact on learning and thinking, though it offers limited novel insights on either literacy trends or GPU markets.
 
 **✗ 1.3** — [25](https://www.deeplearning.ai/the-batch/page/25)  
 *The Batch (DeepLearning.AI)* · 
@@ -845,6 +902,11 @@ All articles scanned since the wiki started. Updated nightly.
 #gpt_5_6 #multi_agent_coordination #model_pricing_tiers #chatgpt_superapp
 > This article announces OpenAI's GPT-5.6 model family (Sol, Terra, Luna) with new effort levels including multi-agent 'ultra' mode, alongside ChatGPT Work desktop app integration. The announcement focuses on benchmark performance versus Claude models, pricing tiers ($1-$30/M tokens), and bundled product updates including Sites beta and programmatic tool calling. The launch represents OpenAI's continued push toward a 'superapp' strategy combining chat, coding, and agentic workflows.
 
+**✗ 1.0** — [Hightower's 'Signature' growth soars and recruiter smells 'economics' • Strive CEO says 'never' means 'never, ever'• Ex-Fido CTO nets $7.7 million backing for RIA idea • Mariner vs. client age timebomb • After SpaceX win, Choreo rolls-up 4th RIA • Avantis adds - RIABiz](https://news.google.com/rss/articles/CBMipwNBVV95cUxNZGxYczJubl9rWkgzazFLS25kZW9odGVacWZqNl9qdm9KZzg1U05aMmhITk1fVXk3bEhLSGcwTWhITVQyeXBnUjFxaDBkRlpCeDRQM2pTVDMyeEFSODl1bExoOEsxS2hZVm9CZklSUURfa1hLZkFaUlZxUWJ3MUhLQTRKZmxrUXNXX1ZaQmlibEJpVEt5RDdQNVZjaU9nazFJZHhDenU1TVpzQjVhMmxTQm9tQmt4a1RKU21CNUlSQUxFaWhnZXZZSHJtYkVDVHR0bE1kdHNvYmdDblBBeW9pWm1BWEtBMnhqdDFxelMwWGZtdkZHWjFCOWpxTG5tSG1FOGxSVFU1YVBwUXBtVWw1Q1VDeE42Zlh1RklCSUVBRGQwMmxteVN4cTNZenFmUEdqVS03M280TDk3MDhEb2d6MmFFcHk0WjlNc2NIWXZiQ1hmdHVRajhTVGRyN2xlNmdQUXpZLXZWWkNrZ212cUN4OTVxTGh2SEprQXFhcWRWbVVNc2dpNDI0bWxjQ21pOVBCMzZUaWd6ZnVaRnNlRGhKY1prNXdMUTQ?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#cookie_consent #privacy_policy #capture_error
+> This appears to be a Google sign-in consent page that was mistakenly captured instead of the actual RIABiz article about wealth management industry news. The page contains only standard Google cookie and privacy policy text with no substantive content. No actual article content about Hightower, RIAs, or financial advisors is present to evaluate.
+
 **✗ 4.0** — [Alibaba And Bytedance Quash Human Like Bots](https://www.deeplearning.ai/the-batch/alibaba-and-bytedance-quash-human-like-bots)  
 *The Batch (DeepLearning.AI)* · regulatory-policy · model-architecture
 #anthropomorphic_chatbots #china_ai_regulation #emotional_ai #chatbot_personas
@@ -917,6 +979,11 @@ All articles scanned since the wiki started. Updated nightly.
 #artifact_scoping #agentic_workflows #policy_as_code #ai_governance
 > The article argues that enterprise AI agents should be scoped to produce specific artifacts (reports, tables, digests) rather than impersonate roles (PM, compliance officer), as artifact-scoping creates clearer boundaries and more governable systems. The key mechanism is treating organizational policy as version-controlled Markdown files that agents read at runtime, combined with narrow write permissions that limit agents to producing specific outputs while reading broadly. This design pattern addresses the governance gap identified by McKinsey research showing that security concerns and lack of mature agentic AI governance are the top barriers to scaling enterprise AI adoption.
 
+**✗ 1.7** — [Accenture and Alphabet (GOOGL) Launch Agentic AI Solutions for Mid-Market Firms - Yahoo Finance](https://news.google.com/rss/articles/CBMipgFBVV95cUxPNVBISFQ2c2FLUk0wSWVnU1RFLW5fUE9GS1ZYUVhlRFR5OUdmZWpQQXBBamtKb2JGajVBSnJnLUQ5ZkxPYjFYX1NDUTNCbDJFZllnUW5xX0F5bGlWdk5xZF9qSW81XzIzSllqdXE2Z2laZEJEWkdnV0dITW5jYWcwcFhmU1FfOVNMcml5V2JOaEtQNGlhS0FxTmRZcUc4aXUzZE9fZTl3?oc=5)  
+*GN: AI Mid-Market Enterprise* · agentic-workflows-production · build-vs-buy-enterprise-ai
+#accenture #alphabet #agentic_ai #mid_market
+> The article appears to announce a partnership between Accenture and Alphabet to launch agentic AI solutions targeting mid-market firms. However, the provided text contains only Google's cookie consent dialog and no actual article content. Without access to the substantive content, no meaningful evaluation of depth, novelty, or specific relevance can be conducted.
+
 **✗ 4.3** — [Introducing Muse Spark 1.1](https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything)  
 *Simon Willison* · model-architecture · agentic-workflows-production · ai-engineering-agents
 #muse_spark #meta_ai #tool_calling #model_release
@@ -966,6 +1033,11 @@ All articles scanned since the wiki started. Updated nightly.
 *GN: AI Mid-Market Enterprise* · 
 #cookie_consent #paywall #no_content
 > This appears to be a cookie consent page from Google rather than an actual article about Rackspace Technology's operating framework. No substantive content about AI, enterprise technology, or Rackspace is present in the provided text. The article is effectively inaccessible and contains no analyzable information.
+
+**✗ 1.0** — [Rackspace Technology Launches Operating Framework with - GlobeNewswire](https://news.google.com/rss/articles/CBMirwJBVV95cUxNX2tKYjF5ZDU4OHlDZHlNUTdrSUtveEg1ZEpMQmRGeC1LWVJHMTB1LVZzSENUWmkzR0twekM0c1VwYTJ0UklwTFVKd09IeG14VzVCWUc5WDdveGQ4LUJjU1NpWDlsTVlEVG5USDh0N0hkbmZ1ekp2ZU4yMWtGR2RPeGJBZm5yMWpfSWdfT1BmcmhHTkY2UWN4V3dackk5N01nck9uS29xWkF3X19SR1BGbzRoU1BISnZTRjYxejgyajNnNXl0VFZvRjRZcHI5WGtnUDl4THdqRENaZ1lzWVBBRWgxZHNHMXN4Q21abGpVMWk3Mm9ObElLQ1YtU01PbVZqTFNsTWdlV3RmQlQ4OUQxQVJ0M1VDdmlTVFdpd184VFhKTUVZVF9CZ3UwcEpOcXM?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#rackspace #press_release #no_content
+> The article appears to be a GlobeNewswire press release about Rackspace Technology launching an operating framework, but the actual content provided is only a Google cookie consent page with no substantive information. No actual details about the framework, its capabilities, or business implications are available in the text. This makes it impossible to assess the article's claims or relevance to AI enterprise topics.
 
 **✗ 5.3** — [Paper still defines payments’ last mile. J.P. Morgan Payments thinks AI and robotics can tackle that.](https://tearsheet.co/ai-innovation/paper-still-defines-payments-last-mile-j-p-morgan-payments-thinks-ai-and-robotics-can-tackle-that/?utm_source=rss&utm_medium=rss&utm_campaign=paper-still-defines-payments-last-mile-j-p-morgan-payments-thinks-ai-and-robotics-can-tackle-that)  
 *Tearsheet (fintech)* · ai-in-finance-accounting · ai-in-operations
@@ -1274,6 +1346,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · 
 #meta #capex_justification #earnings_call #platform_history
 > This is a fictional speech written by Ben Thompson imagining what Mark Zuckerberg should say on a 2026 Meta earnings call to justify AI capital expenditures. The script recounts Facebook's history (Face Books, News Feed, mobile shift, Instagram acquisition) to establish patterns of trusting user data and product intuition. The article appears to be incomplete, cutting off mid-sentence before reaching its actual argument about AI investment strategy.
+
+**✗ 2.7** — [A Script for Mark Zuckerberg](https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODY1MDAwNDUsImlhdCI6MTc4MzkwODA0NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.rgf8qOvB-ulQ88k91VUVpozKnujhqdoMvhf_X-4Kuh07Lp1fTwjh7tU8QrNIXA3ZoB9ib_dwEGlHNheCMPDHHejgTaS4KooUyhf0J-yaoqzS77ikganAyODuNXiglHaN5s9gBZVdcFIYDdVh-U-FFFkgIqdH3KV-4tOtMCjLvkLZuT-4o_lV34zRbENVWgTP1DYpRxX3gr1rdcYngdBob1GW6WVNkCKXltEKN0EigQldrjZmP3f-L51NBilNR1UREl_Pxc8izN2Jcrc-70HsI9zzVYGx4dsjtRlTpylYXIDtlFcGIAxQ2uJSDVc7Z4VJeXDbBuVGsDEGSCvsH9WBUA)  
+*Stratechery (Ben Thompson)* · 
+#meta #ai_capex #earnings_call #corporate_strategy
+> Ben Thompson provides a fictional script for Mark Zuckerberg to defend Meta's AI capex spending on a future earnings call by recounting Facebook's history and strategic lessons. The piece reviews familiar Meta milestones like the News Feed, mobile transition, and Instagram acquisition as context for AI investment justification. This is a rhetorical exercise rather than original analysis, offering no new data, frameworks, or insights into AI strategy beyond generic historical narrative.
 
 **✗ 1.0** — [SonicWall Brings Frontier AI to the Mid-Market and SMB, the Segment Enterprise-First Vendors Leave Behind - IT Voice Media](https://news.google.com/rss/articles/CBMixgFBVV95cUxNREVNcHNEdE02UlpuZjRVWEM3Ny1VT05PdWVDWHp0NFQtTTgta1JjMVZkUDktTk1kdlhIQVdIMVJCbXRRLXZsRWlobnhXTUcxdU9LbWxodjc3bjh1Q3VmT2tEaVY1bFZYQU5Ga2J3ZG53bjhpZHFacnI2VUNCOHdNbHYyemdMdW91c0tKejlOXy1yd1M3MGY1SjkzV0xKOWRxbEhscjhrdXF4aVlaWHM4VE94SDMxWS1oNFNaTkdnMWFCZnp4eGc?oc=5)  
 *GN: AI Mid-Market Enterprise* · 

@@ -30966,6 +30966,353 @@
       ],
       "status": "skipped",
       "skip_reason": "Article contains no actual content - only a Google cookie consent page was captured instead of the intended Accenture/Google Cloud AI article"
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/9": {
+      "title": "9",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-13T02:00:49.314496+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a table of contents page from Andrew Ng's newsletter 'The Batch' showing 10 article titles and brief descriptions covering topics like AI agents, Python package management, AI entrepreneurship, privacy, and LLM commoditization. The page provides only article titles and 1-2 sentence previews without the actual substantive content of any individual article. This is metadata about content rather than actual analysis or research, making it unusable for knowledge extraction.",
+      "tags": [
+        "agentic-workflows",
+        "llm-agents",
+        "python-tooling",
+        "ai-entrepreneurship",
+        "cloud-privacy",
+        "llm-commoditization"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a navigation/index page containing only article titles and brief teasers, not substantive content suitable for a knowledge wiki."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/6": {
+      "title": "6",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-13T02:00:49.314447+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-native-product-design"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a collection of letter titles and brief excerpts from Andrew Ng's newsletter covering topics like DeepSeek developments, AI product management, and AI-assisted coding. The content provides only headlines and introductory sentences without substantive analysis, evidence, or detailed frameworks. This appears to be a pagination or archive page rather than a standalone article with meaningful content.",
+      "tags": [
+        "newsletter-archive",
+        "ai-product-management",
+        "ai-assisted-coding"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a table of contents or archive page listing newsletter titles and brief snippets without any substantive analysis, novel insights, or actionable content."
+    },
+    "https://www.deeplearning.ai/the-batch/fables-return-and-fallout": {
+      "title": "Fables Return And Fallout",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-13T02:00:49.138579+00:00",
+      "composite": 4.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 8,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on Anthropic's Claude Fable 5 and Mythos 5 models being temporarily banned by the U.S. Department of Commerce due to cybersecurity concerns after Amazon researchers demonstrated exploit capabilities, then reinstated three weeks later with additional guardrails. The timeline covers the April preview release, June 9 public release, June 12 export control directive affecting all users globally, and June 30 lifting of controls after implementing new safety measures. This represents the most high-profile conflict between the U.S. government and an AI company in 2026, establishing precedent for export controls on AI models based on capability assessments.",
+      "tags": [
+        "export-controls",
+        "model-safety-guardrails",
+        "cybersecurity-risks",
+        "government-ai-regulation",
+        "model-censorship"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level timeline reporting of a regulatory event without deep analysis of technical mechanisms, policy implications, or novel frameworks for understanding AI export controls."
+    },
+    "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything": {
+      "title": "Directly Responsible Individuals (DRI)",
+      "source": "Simon Willison",
+      "date": "2026-07-12T23:57:14+00:00",
+      "composite": 4.3,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article discusses the concept of Directly Responsible Individuals (DRI) from Apple/GitLab organizational practice and argues that AI agents should never be designated as DRIs because accountability requires human responsibility. The key evidence is a reference to IBM's 1979 principle that computers cannot be held accountable and therefore shouldn't make management decisions. This matters for organizations deploying agentic AI systems by establishing a clear boundary: agents can assist but humans must remain accountable for outcomes.",
+      "tags": [
+        "dri",
+        "accountability",
+        "agentic-ai",
+        "organizational-design",
+        "ai-agents",
+        "human-in-the-loop"
+      ],
+      "status": "skipped",
+      "skip_reason": "Brief link blog post offering a single opinion point rather than substantive analysis, original research, or detailed framework for implementing DRI principles with AI agents in practice."
+    },
+    "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything": {
+      "title": "shot-scraper 1.11",
+      "source": "Simon Willison",
+      "date": "2026-07-12T23:46:52+00:00",
+      "composite": 1.3,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "This article announces shot-scraper 1.11, a CLI tool for taking website screenshots and scraping with JavaScript. The release includes minor improvements like extending server startup wait time from 1 to 30 seconds, adding a --js-file option for loading JavaScript from files, and adding --timeout options for consistency. These are incremental maintenance updates to a developer tool unrelated to AI or enterprise technology topics.",
+      "tags": [
+        "cli-tools",
+        "web-scraping",
+        "screenshot-automation",
+        "developer-tools"
+      ],
+      "status": "skipped",
+      "skip_reason": "Software release notes for a web scraping tool with no connection to AI, machine learning, or any of the specified topic areas."
+    },
+    "https://simonwillison.net/2026/Jul/12/bump/#atom-everything": {
+      "title": "Fable gets another bump",
+      "source": "Simon Willison",
+      "date": "2026-07-12T21:20:07+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-pricing-packaging-saas",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports that Anthropic extended access to its Claude Fable 5 model through July 19 in response to OpenAI's GPT-5.6 Sol release, which is characterized as a Fable/Mythos class model. The key evidence is that OpenAI appears confident enough in compute availability to offer unrestricted access to GPT-5.6 Sol for paid subscribers, while Anthropic continues usage caps citing compute constraints. This matters because the author argues Anthropic's uncertainty around Fable availability is causing them to lose users to OpenAI in the competitive frontier model market.",
+      "tags": [
+        "claude-fable",
+        "gpt-5-6-sol",
+        "usage-limits",
+        "compute-constraints",
+        "model-pricing",
+        "subscription-tiers"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary on pricing policy changes without original analysis, technical depth, or actionable frameworks beyond suggesting Anthropic should match OpenAI's access model"
+    },
+    "https://www.interconnects.ai/p/6-months-to-live-for-open-models": {
+      "title": "6 months to live for open models",
+      "source": "Interconnects (Nathan Lambert)",
+      "date": "2026-07-12T16:47:42+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics",
+        "model-architecture"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that open-source AI models face their most serious existential threat within the next 6 months due to potential White House executive orders targeting Chinese-origin models and frontier capabilities above GPT-5.5/Claude Opus 4.8 levels. The key mechanism is a two-pronged policy debate around distillation and frontier capability thresholds, driven by closed-model companies (particularly Anthropic) who have more effective lobbying power and economic incentives to push regulatory frameworks that would disadvantage open models. This matters because it represents the first regulatory action with real enforcement mechanisms that could permanently relegate open models to second-class status, reshaping the competitive landscape of AI development.",
+      "tags": [
+        "open-weights-models",
+        "distillation",
+        "frontier-capabilities",
+        "regulatory-capture",
+        "executive-order",
+        "chinese-ai-models"
+      ],
+      "status": "integrated"
+    },
+    "https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODY1MDAwNDUsImlhdCI6MTc4MzkwODA0NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.rgf8qOvB-ulQ88k91VUVpozKnujhqdoMvhf_X-4Kuh07Lp1fTwjh7tU8QrNIXA3ZoB9ib_dwEGlHNheCMPDHHejgTaS4KooUyhf0J-yaoqzS77ikganAyODuNXiglHaN5s9gBZVdcFIYDdVh-U-FFFkgIqdH3KV-4tOtMCjLvkLZuT-4o_lV34zRbENVWgTP1DYpRxX3gr1rdcYngdBob1GW6WVNkCKXltEKN0EigQldrjZmP3f-L51NBilNR1UREl_Pxc8izN2Jcrc-70HsI9zzVYGx4dsjtRlTpylYXIDtlFcGIAxQ2uJSDVc7Z4VJeXDbBuVGsDEGSCvsH9WBUA": {
+      "title": "A Script for Mark Zuckerberg",
+      "source": "Stratechery (Ben Thompson)",
+      "date": "2026-07-07T10:00:00+00:00",
+      "composite": 2.67,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Ben Thompson provides a fictional script for Mark Zuckerberg to defend Meta's AI capex spending on a future earnings call by recounting Facebook's history and strategic lessons. The piece reviews familiar Meta milestones like the News Feed, mobile transition, and Instagram acquisition as context for AI investment justification. This is a rhetorical exercise rather than original analysis, offering no new data, frameworks, or insights into AI strategy beyond generic historical narrative.",
+      "tags": [
+        "meta",
+        "ai-capex",
+        "earnings-call",
+        "corporate-strategy",
+        "facebook-history"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a speculative rhetorical exercise with no original analysis, novel claims, or substantive connection to the specified AI/semiconductor topic areas; it provides generic corporate history without technical depth or actionable insights."
+    },
+    "https://cutlefish.substack.com/p/tbm-430-incubate-compound-refinance": {
+      "title": "TBM 430: Incubate, Compound, Refinance, Liquidate",
+      "source": "The Beautiful Mess (John Cutler)",
+      "date": "2026-07-12T20:57:05+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article applies portfolio theory to software assets, categorizing them into four quadrants (incubate, compound, refinance, liquidate) based on value created versus carrying costs, and briefly mentions AI's impact on these dynamics. It frames technical debt as a financing choice whose rationality depends on which quadrant the asset occupies and its trajectory over time. The author acknowledges this is not novel but rather a Sunday thought exercise combining familiar concepts to surface patterns in software portfolio management.",
+      "tags": [
+        "software-portfolio-management",
+        "technical-debt",
+        "carrying-costs",
+        "product-lifecycle",
+        "build-trap"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level conceptual framework without original research, minimal AI analysis beyond brief mention that AI changes cost/speed/feasibility, and only tangential relevance to specified AI/engineering topics"
+    },
+    "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about": {
+      "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
+      "source": "Lenny's Newsletter",
+      "date": "2026-07-12T12:32:14+00:00",
+      "composite": 7.67,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-org-design-headcount",
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This annual survey of thousands of tech workers reveals AI has bifurcated the workforce into four emotional archetypes (Energized, Conflicted, Disoriented, Resentful), with burnout increasing 11 points year-over-year and almost no one recommending their jobs to newcomers. The research provides quantitative evidence of workforce sentiment shifts, identifying managers as the single biggest lever for employee well-being amid AI transformation. The findings matter because they quantify the human impact of rapid AI adoption across product, engineering, design, and other tech functions, informing organizational design and change management strategies.",
+      "tags": [
+        "workforce-sentiment",
+        "ai-adoption-impact",
+        "burnout-metrics",
+        "organizational-change-management",
+        "employee-wellbeing",
+        "tech-workforce-research"
+      ],
+      "status": "integrated"
+    },
+    "https://www.exponentialview.co/p/ev-592": {
+      "title": "\ud83d\udd2e Reading is dying. GPU demand isn\u2019t.",
+      "source": "Exponential View (Azeem Azhar)",
+      "date": "2026-07-12T10:32:10+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "gpu-architecture-training-infra",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that declining reading habits and AI-assisted academic cheating signal a broader trend toward cognitive disengagement, while GPU demand remains strong despite speculation about softening. It provides anecdotal evidence from a Brown University economics class where most students' grades collapsed in closed-book exams, alongside data showing American reading for pleasure dropped from 28% to 16% between 2004-2023, and cites GPU pricing data showing H100 contracts rebounded 38% since October. The piece matters as a cultural commentary on AI's impact on learning and thinking, though it offers limited novel insights on either literacy trends or GPU markets.",
+      "tags": [
+        "reading-literacy-decline",
+        "academic-integrity",
+        "gpu-demand",
+        "h100-pricing",
+        "cognitive-complexity",
+        "postliteracy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level commentary combining widely-discussed literacy decline trends with basic GPU pricing data points; lacks original analysis, new frameworks, or actionable insights on either topic."
+    },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdE5fOFkyQ1RYS3QyOG1ycDNkUlNuVElNcmh3SEdneWtMRWNNbURFTmNTNW5yVFNwZGllNU5zTGd0dUdLY085c3QyTno0YUdzTDBOR1JubHFjbVhmajI0dFJJWlY5cHdJSkJFcGhoTGsyNmpLR0thTEJTS19YODZnREtMLWZsdExmdnBQOQ?oc=5": {
+      "title": "CBE Launches New Generative AI Training Cohort for Financial Sector - Sada Elbalad english",
+      "source": "GN: AI Fintech Deployment",
+      "date": "2026-07-12T21:05:11+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce a generative AI training cohort for the financial sector launched by CBE (likely Central Bank of Egypt). No substantive content is provided beyond the title, as the article text consists entirely of Google's cookie consent dialog. Without access to the actual article content, no evaluation of arguments, evidence, or impact can be made.",
+      "tags": [
+        "financial-services",
+        "training-program",
+        "generative-ai"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no substantive content\u2014only a cookie consent dialog\u2014preventing any meaningful analysis of depth, novelty, or actionable insights."
+    },
+    "https://news.google.com/rss/articles/CBMipwNBVV95cUxNZGxYczJubl9rWkgzazFLS25kZW9odGVacWZqNl9qdm9KZzg1U05aMmhITk1fVXk3bEhLSGcwTWhITVQyeXBnUjFxaDBkRlpCeDRQM2pTVDMyeEFSODl1bExoOEsxS2hZVm9CZklSUURfa1hLZkFaUlZxUWJ3MUhLQTRKZmxrUXNXX1ZaQmlibEJpVEt5RDdQNVZjaU9nazFJZHhDenU1TVpzQjVhMmxTQm9tQmt4a1RKU21CNUlSQUxFaWhnZXZZSHJtYkVDVHR0bE1kdHNvYmdDblBBeW9pWm1BWEtBMnhqdDFxelMwWGZtdkZHWjFCOWpxTG5tSG1FOGxSVFU1YVBwUXBtVWw1Q1VDeE42Zlh1RklCSUVBRGQwMmxteVN4cTNZenFmUEdqVS03M280TDk3MDhEb2d6MmFFcHk0WjlNc2NIWXZiQ1hmdHVRajhTVGRyN2xlNmdQUXpZLXZWWkNrZ212cUN4OTVxTGh2SEprQXFhcWRWbVVNc2dpNDI0bWxjQ21pOVBCMzZUaWd6ZnVaRnNlRGhKY1prNXdMUTQ?oc=5": {
+      "title": "Hightower's 'Signature' growth soars and recruiter smells 'economics' \u2022 Strive CEO says 'never' means 'never, ever'\u2022 Ex-Fido CTO nets $7.7 million backing for RIA idea \u2022 Mariner vs. client age timebomb \u2022 After SpaceX win, Choreo rolls-up 4th RIA \u2022 Avantis adds - RIABiz",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-07-10T02:53:08+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a Google sign-in consent page that was mistakenly captured instead of the actual RIABiz article about wealth management industry news. The page contains only standard Google cookie and privacy policy text with no substantive content. No actual article content about Hightower, RIAs, or financial advisors is present to evaluate.",
+      "tags": [
+        "cookie-consent",
+        "privacy-policy",
+        "capture-error"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is a Google sign-in page with no substantive information; appears to be a web scraping or access error that captured a paywall/login screen instead of the actual article."
+    },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNVBISFQ2c2FLUk0wSWVnU1RFLW5fUE9GS1ZYUVhlRFR5OUdmZWpQQXBBamtKb2JGajVBSnJnLUQ5ZkxPYjFYX1NDUTNCbDJFZllnUW5xX0F5bGlWdk5xZF9qSW81XzIzSllqdXE2Z2laZEJEWkdnV0dITW5jYWcwcFhmU1FfOVNMcml5V2JOaEtQNGlhS0FxTmRZcUc4aXUzZE9fZTl3?oc=5": {
+      "title": "Accenture and Alphabet (GOOGL) Launch Agentic AI Solutions for Mid-Market Firms - Yahoo Finance",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-09T16:44:43+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce a partnership between Accenture and Alphabet to launch agentic AI solutions targeting mid-market firms. However, the provided text contains only Google's cookie consent dialog and no actual article content. Without access to the substantive content, no meaningful evaluation of depth, novelty, or specific relevance can be conducted.",
+      "tags": [
+        "accenture",
+        "alphabet",
+        "agentic-ai",
+        "mid-market",
+        "enterprise-partnership"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content unavailable - only cookie consent dialog provided with no substantive information about the partnership, solutions, or implementation details."
+    },
+    "https://news.google.com/rss/articles/CBMirwJBVV95cUxNX2tKYjF5ZDU4OHlDZHlNUTdrSUtveEg1ZEpMQmRGeC1LWVJHMTB1LVZzSENUWmkzR0twekM0c1VwYTJ0UklwTFVKd09IeG14VzVCWUc5WDdveGQ4LUJjU1NpWDlsTVlEVG5USDh0N0hkbmZ1ekp2ZU4yMWtGR2RPeGJBZm5yMWpfSWdfT1BmcmhHTkY2UWN4V3dackk5N01nck9uS29xWkF3X19SR1BGbzRoU1BISnZTRjYxejgyajNnNXl0VFZvRjRZcHI5WGtnUDl4THdqRENaZ1lzWVBBRWgxZHNHMXN4Q21abGpVMWk3Mm9ObElLQ1YtU01PbVZqTFNsTWdlV3RmQlQ4OUQxQVJ0M1VDdmlTVFdpd184VFhKTUVZVF9CZ3UwcEpOcXM?oc=5": {
+      "title": "Rackspace Technology Launches Operating Framework with - GlobeNewswire",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-09T11:30:00+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to be a GlobeNewswire press release about Rackspace Technology launching an operating framework, but the actual content provided is only a Google cookie consent page with no substantive information. No actual details about the framework, its capabilities, or business implications are available in the text. This makes it impossible to assess the article's claims or relevance to AI enterprise topics.",
+      "tags": [
+        "rackspace",
+        "press-release",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content - only a Google cookie consent page without the underlying press release or framework details."
     }
   }
 }

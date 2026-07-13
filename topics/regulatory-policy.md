@@ -1,5 +1,5 @@
 ---
-tags: [ai-competition-policy, ai-lab-government-relations, ai-sovereignty, anthropic, chinese-ai-models, chinese-models, commerce-department, competitive-moats, congressional-regulation, cybersecurity-capabilities, cybersecurity-threat, cybersecurity-vulnerabilities, export-controls, foreign-national-access, geopolitical-ai-access, glasswing-program, government-relations, jailbreaking, jailbreaks, llm-guardrails, model-access-restrictions, model-jailbreaking, model-restrictions, model-safeguards, model-safety, national-security, nonproliferation-doctrine, open-research, open-source-models, platform-stability, pre-release-testing, regulatory-policy, safety-guardrails, white-house-ai-policy, zhipu]
+tags: [ai-competition-policy, ai-lab-government-relations, ai-sovereignty, anthropic, chinese-ai-models, chinese-models, commerce-department, competitive-moats, congressional-regulation, cybersecurity-capabilities, cybersecurity-threat, cybersecurity-vulnerabilities, deepseek, distillation, executive-order, export-controls, foreign-national-access, frontier-capabilities, geopolitical-ai-access, glasswing-program, glm-models, government-relations, jailbreaking, jailbreaks, llm-guardrails, model-access-restrictions, model-jailbreaking, model-restrictions, model-safeguards, model-safety, national-security, nonproliferation-doctrine, open-research, open-source-models, open-weights-models, platform-stability, pre-release-testing, reflection-ai, regulatory-capture, regulatory-policy, safety-guardrails, white-house-ai-model-checker, white-house-ai-policy, zhipu]
 ---
 
 ## Export Controls
@@ -15,24 +15,51 @@ The U.S. Commerce Department used its authority to regulate technologies that ma
 - Anthropic revoked access to both Claude Mythos 5 and Claude Fable 5 hours after government directive
 - Amazon CEO Andy Jassy reportedly informed government officials that Fable would be dangerous (Amazon is both invested in Anthropic and building competing AI models)
 - Export controls lifted (June 30, 2026)
-- Fable 5 redeployed globally (July 1, 2026)
-- Mythos 5 access restored to approved US organizations (June 26, 2026) with plans to expand to broader domestic and international partners in Glasswing program
 
-**Anthropic's Position**: Company claims the identified vulnerabilities were "relatively simple" and discoverable by other publicly-available models without requiring a bypass. Anthropic argued that non-universal jailbreaks are inevitable and narrow, with no evidence of a universal jailbreak. 
+**Policy Meeting Context (June 9, 2026)**:
+- Meeting included White House discussion of the Glasswing program framework
+- Reflection AI representative argued open-source models should have capability-based exemptions
+- Chinese open-source models (particularly DeepSeek) noted to have substantial lead over other available open models at the time
+- Reflection AI had not yet launched a public model as of meeting
 
-**Technical Analysis**: Anthropic's testing confirmed that many less capable models (Claude Opus 4.8, GPT-5.5, Kimi K2.7) could identify the same vulnerabilities as Fable 5. All tested models (including Claude Haiku 4.5, Sonnet 4.6, Opus 4.6, Opus 4.7, Opus 4.8, GPT-5.4, GPT-5.5, Kimi K2.7) could produce the same exploit demonstration. The reported technique did not expose unique Mythos-level cyber capabilities; it was characterized as "routine defensive cybersecurity work" and a "borderline case" for Fable 5's safeguards.
+### GPT-5.6 Licensing (June 2026)
+Model licensing agreements discussed in relation to government framework, alongside Fable controls.
 
-**Resolution**: Anthropic trained an improved safety classifier that blocks the reported bypass technique in over 99% of cases. When requests are blocked, users are notified and requests are routed to Opus 4.8 instead.
+## Open-Weights Model Policy Debates (Mid-2026)
 
-### Shared Industry Framework for Jailbreak Assessment
-In response to the Fable 5 export control incident, Anthropic, Amazon, Microsoft, Google, and other Glasswing partners began developing a shared framework for assessing and fixing potential jailbreaks. The framework aims to:
-- Provide a consistent way to assess severity of jailbreaks
-- Help AI developers triage new findings
-- Enable launching highly capable models with greater safety
-- Communicate risk levels consistently to government and industry partners
+### Pending White House Action
+**Status as of July 2026**: Multiple sources citing White House discussions on managing open models via new executive order. No official information released.
 
-### Enhanced Government Collaboration
-Following the export control incident, Anthropic strengthened collaboration with the U.S. government including:
-- Pre-release testing protocols
-- Information sharing agreements
-- Research collaboration initiatives
+**Expected scope**:
+- Likely to impact: a) Chinese-origin models and b) government uses
+- Capability threshold under discussion: models meaningfully above GPT-5.5, Claude Opus 4.8, or GLM-5.2 performance levels
+- Timeline concern: Ban or indefinite delay could occur within 6 months (from July 2026)
+- Mechanism: "Right to review" threshold from government, expected to progress slower for open models than closed models
+
+**Rationale cited**: Primary driver is anticipation that an open-weights model will soon reach capabilities of Claude's Mythos model, potentially triggering nascent White House AI model checker.
+
+### Distillation Debate
+
+**Anthropic's Campaign (2026)**:
+- Led anti-Chinese models political campaign through blog posts and letters to representatives
+- Detected API usage from foreign companies, eventually terminated access
+- Shared policy recommendations with minimal technical evidence shared publicly
+- **Regulatory capture concerns**: Campaign characterized by critics as benefiting Anthropic economically if accused Chinese model makers were banned
+- Critics note: If Anthropic's technology is as powerful as claimed, company should be able to secure its API through technical means
+
+**Foreign Company API Access**:
+- Foreign companies identified as "coming and paying for [Anthropic's] API"
+- Anthropic turned off usage following detection
+
+### Policy Action Vectors
+Two crucial policy discussions identified as unfolding simultaneously:
+1. **Distillation concerns** - focused on Chinese companies using closed model APIs
+2. **Frontier capabilities** - focused on open-weights models reaching sensitive capability thresholds
+
+These discussions characterized as "different in their nature, the necessity of response, and the potential response space" but together forming basis for potential open model restrictions.
+
+### Structural Disadvantages for Open Models
+- Lack central economic champion to represent potential downsides of regulatory action
+- Capability gap with closed models makes them likely subject of first major restrictions
+- Chinese origin of leading open models (DeepSeek noted specifically) links capability discussions to geopolitical concerns
+- Closed model companies have "far more effective lobbying"

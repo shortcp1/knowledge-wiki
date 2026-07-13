@@ -1339,3 +1339,22 @@ Note: This represents a distinct domain (brand discoverability in AI systems) th
 - Regulatory frameworks for autonomous systems
 
 **Note**: This represents a paradigm shift from evaluating individual AI systems to understanding population-level dynamics and emergent evolutionary pressures in digital ecosystems.
+
+---
+**6 months to live for open models** (Interconnects (Nathan Lambert), 2026-07-12T16:47:42+00:00)
+**Reflection AI**: U.S.-based open-source model provider mentioned in June 9, 2026 White House meeting. Argued for capability-based exemptions for open-source models from Glasswing framework. Had not launched public model as of June 2026. Context: Made arguments during policy discussions about how framework would handle open-source models, amid concerns about Chinese open-source model capabilities (particularly DeepSeek).
+
+---
+**How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)** (Lenny's Newsletter, 2026-07-12T12:32:14+00:00)
+**Concrete Recommendations Section** (mentioned but not detailed in transcript):
+- What employees can do right now
+- What leaders can do right now
+- How resilient workers handle burnout (referenced article)
+
+**Referenced Case Studies Not Detailed**:
+- Devin AI (autonomous engineer, 50% of code by end of year)
+- Anthropic Fable 5 redeployment
+- Ramp velocity culture
+- Various product leader perspectives (Nikhyl Singhal, Karri Saarinen, Katie Dill, Jenny Wen, Andrew Ambrosino)
+
+These references suggest follow-up content exists but specific implementation details not captured in this transcript.
