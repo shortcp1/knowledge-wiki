@@ -1,5 +1,5 @@
 ---
-tags: [adversarial-review, agent-experience, agent-observability, agentic-systems, agentic-workflows, ai-engineering-agents, ai-harness, artifact-generation, automated-refactoring, bug-triage-automation, claude-agent-sdk, code-generation, context-engineering, custom-terminal-ui, custom-tooling, elastic-inference, evolutionary-search, gpu-snapshotting, harness-engineering, ink-library, observability-over-code, opinionated-adapters, programmatic-infrastructure, recursive-self-improvement, rl-rollouts, rust-migration, sandbox-environments, sentry-integration, serverless-functions, test-driven-agents, workflow-automation]---
+tags: [adversarial-review, agent-experience, agent-harness, agent-observability, agentic-systems, agentic-workflows, ai-engineering-agents, ai-harness, artifact-generation, automated-refactoring, bug-triage-automation, claude-agent-sdk, code-generation, context-engineering, custom-terminal-ui, custom-tooling, elastic-inference, evolutionary-search, gpu-snapshotting, harness-engineering, ink-library, multi-model-routing, observability-over-code, opinionated-adapters, opinionated-tool-adapters, programmatic-infrastructure, recursive-self-improvement, rl-rollouts, rust-migration, sandbox-environments, sentry-integration, serverless-functions, structured-artifacts, test-driven-agents, workflow-automation, workflow-constraints]---
 
 ---
 tags: [agentic-ai, ai-coding-agents, ai-engineering-agents, autonomous-debugging, claude-code, claude-fable, coding-agents, cross-model-tool-compatibility, cuda-programming, economic-automation, gpu-kernel-optimization, model-regression, model-specific-tool-training, pre-release-testing, recursive-self-improvement, reinforcement-learning, reinforcement-learning-tool-bias, remote-labor-index, software-quality-assurance, tool-calling, tool-calling-reliability, tool-schema, transaction-management, harness-engineering, agent-harness, workflow-automation, file-system-memory, persistent-state-management, self-improving-agents, evolutionary-search, context-engineering, harness-optimization, loop-engineering, sub-agents, backend-jobs, goal-oriented-loops, bash-commands, artifact-management, auto-research, autoresearch-karpathy, conformance-suites, adversarial-review, language-migration, large-scale-refactoring, rust, zig, bun-runtime]---
@@ -12,55 +12,67 @@ tags: [agentic-ai, ai-coding-agents, ai-engineering-agents, autonomous-debugging
 - Final pre-release review and hardening of sqlite-utils 4.0 library before stable release
 - Critical need to identify breaking changes and bugs before committing to SemVer major vers
 
-## Harness Engineering for Recursive Self-Improvement (July 2026)
+## Harness Engineering
 
-**Source**: Lilian Weng, "Harness Engineering for Self-Improvement", Lil'Log
+## What Is an Agent Harness (July 2026)
 
-### Conceptual Foundation
-**Recursive Self
+**Source**: Claire, "What a harness is and how to build one with Claude Agent SDK", Lenny's Newsletter
 
-## Custom Harness Architecture: Sentry Bug Triage Case Study (July 2026)
+### Definition
+- **Agent harness**: Code written around an AI agent to make it more effective at a specific job
+- Not architecturally complex or mysterious—can be as simple as eight files and a terminal UI
+- Both Cursor and [[claude-code]] are complex harnesses
+- Represents owned infrastructure layer between general-purpose agents and specialized workflows
 
-**Source**: Claire Vo, "What a harness is and how to build one with Claude Agent SDK", Lenny's Newsletter
+### When to Build a Harness
 
-### Harness Definition and Core Components
-**What a Harness Is**: A purpose-built wrapper around agent capabilities that encodes specific workflows, permissions, and artifact structures for repetitive, structured tasks. Distinct from general-purpose tools like Claude Code or [[ai-coding-tools|Codex]].
+**Trigger conditions**:
+- Same workflow requires same setup and same outcomes every time
+- Job is partly deterministic (defined steps, defined tools) and partly non-deterministic (AI determines approach)
+- Example: Sentry bug triage—consistent evidence-gathering process, standardized artifact output
 
-**Three Required Components**:
-1. **Runs, Tasks, and Tools**: Structured execution framework
-2. **Opinionated Adapters**: Custom integrations for specific services (Sentry, Linear, GitHub, Vercel in this case)
-3. **Artifact Generation**: Structured outputs consumable by entire team
+### Design Principles
 
-### When to Build vs. Use General Tools
-**Build a Harness When**:
-- Workflow is repetitive and structured
-- Specific permissions need encoding
-- Team-wide artifact consumption required
-- "Dear agent, please fix this" pattern emerges repeatedly
+**Opinionated tool adapters over general MCP access**:
+- Custom adapters pull exactly what matters for specific workflow, nothing else
+- More effective than broad MCP access that allows agent to "wander"
+- Result: faster execution, lower cost, reduced off-script behavior
+- Example: Custom Sentry adapter vs. general Sentry MCP access
 
-**Use General Tools When**: Ad-hoc or exploratory work without established patterns
+**Encoded permissions**:
+- Constraints built into harness interface rather than prompted each time
+- Example: "Investigate only, do not write code" as interface flag vs. repeated prompt instruction
+- Eliminates need to remember and restate constraints
 
-### Implementation: ChatPRD Sentry Bug Triage Harness
-**Technology Stack**:
-- **[[claude-agent-sdk]]**: Core agent framework from Anthropic
-- **Claude Sonnet 4.6**: Model used inside the harness for investigation
-- **Ink Library**: Custom terminal UI for Node.js
-- **Integration Points**: Sentry (error monitoring), Linear (project management), GitHub, Vercel
+**Structured artifact output**:
+- Separates one-off investigations from team-wide resources
+- Consistent, scannable records without manual write-up
+- Example bundle: task log, Sentry issue brief, relevant logs, worker report, HTML summary file
 
-**Harness Capabilities**:
-- Automated evidence gathering from error logs
-- Root-cause analysis
-- Follow-up artifact creation (bug reports, PRs)
-- Eliminates manual "please investigate this bug" prompting
+### Technical Advantages
 
-**Development Approach**:
-- Built the harness code itself using GPT-5.5 (Codex) and Claude Opus
-- Both models initially resisted certain architectural choices (not specified which)
-- Code structure designed for reusability across similar workflows
+**Multi-model routing**:
+- Custom harness enables model selection per workflow step
+- Different tool policies per invocation
+- Model swapping without interface changes
+- General-purpose tools (Claude Code, Codex) locked to single model
 
-### Key Architectural Insight
-**Permission Encoding**: Harnesses embed specific permissions directly, avoiding repeated authorization decisions. This separates "what the agent can do" (harness design) from "what the agent should do" (runtime execution).
+**Workflow specificity**:
+- [[claude-agent-sdk]] enables precise control over agent behavior for repeated tasks
+- Integration with specific tools ([[sentry-integration]], [[linear-integration]])
 
-**Artifact Structure**: Output format designed for non-technical team members to consume results without understanding agent internals.
+### Architectural Shift
 
-See also: [[agentic-workflows-production]], [[ai-in-product-and-engineering]]
+**From general-purpose to orchestrated specialized**:
+- Shift from "general-purpose agents do everything" to "general-purpose agents orchestrate specialized harnesses"
+- Open chat fields remain useful but insufficient for consistent, repeatable workflows
+- Constrained agent with specific harness produces more consistent output than powerful agent with open prompt
+
+### ChatPRD Case Study: Sentry Bug Triage Harness
+
+**Implementation using [[claude-agent-sdk]]**:
+- Automated [[sentry-integration]] bug triage workflow
+- Custom tool adapters for evidence gathering
+- Permission encoding in interface
+- Standardized artifact bundle output
+- More consistent results than manual investigation

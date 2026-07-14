@@ -705,7 +705,134 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-14
+
+**✗ 3.7** — [Theo Hourmouzis General Manager Australia New Zealand](https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand)  
+*Anthropic Blog* · ai-b2b-saas · ai-org-design-headcount · build-vs-buy-enterprise-ai
+#geographic_expansion #enterprise_adoption #nonprofit_ai_use #platform_partnerships
+> Anthropic announces the hiring of Theo Hourmouzis as General Manager for Australia and New Zealand and the opening of a Sydney office to support regional expansion. The article highlights local partnerships with Commonwealth Bank, Quantium, Canva, Xero, and YMCA South Australia, emphasizing enterprise adoption and responsible AI deployment. This represents Anthropic's geographic expansion strategy and commitment to deepening regional customer relationships.
+
+**✗ 4.7** — [Claude For Creative Work](https://www.anthropic.com/news/claude-for-creative-work)  
+*Anthropic Blog* · ai-in-product-and-engineering · ai-native-product-design
+#creative_tools_integration #software_connectors #workflow_automation #claude_api
+> Anthropic announces connectors that integrate Claude with creative industry software tools including Adobe Creative Cloud, Blender, SketchUp, Ableton, and others to help creative professionals with learning, scripting, and production work. The connectors enable Claude to access platform documentation, write scripts/plugins, and automate repetitive tasks within the creative applications professionals already use. This represents a product integration strategy focused on embedding AI capabilities into existing creative workflows rather than replacing them.
+
+**✗ 2.3** — [Design Principles For A Robust Operating Model](https://www.bain.com/insights/design-principles-for-a-robust-operating-model/)  
+*Bain Insights* · 
+#operating_model #enterprise_organization #consulting
+> The article appears to be a generic Bain & Company page about operating model design principles. Based on the provided text, which consists almost entirely of website navigation elements and office locations, no substantive content about operating models, methodology, or insights is actually present. The article cannot be evaluated for depth, novelty, or relevance to AI and technology topics because no actual article content was provided.
+
+**✗ 4.7** — [Issue 361](https://www.deeplearning.ai/the-batch/issue-361)  
+*The Batch (DeepLearning.AI)* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#agentic_coding_loops #rapid_prototyping #specification_driven_development #human_in_loop
+> The article argues for using agentic coding loops with rapid iteration rather than extensive upfront specification when building 0-to-1 AI prototypes, framing AI tokens as cheap and human deliberation time as expensive. The key mechanism is having coding agents quickly build implementations that developers can react to and refine, rather than spending significant human time on architecture decisions that may prove incorrect. This matters because it presents a practical methodology for accelerating early-stage AI application development by inverting traditional waterfall specification processes.
+
+**✗ 2.3** — [11](https://www.deeplearning.ai/the-batch/tag/letters/page/11)  
+*The Batch (DeepLearning.AI)* · rag-vs-finetuning-vs-wiki · prompt-architecture · ai-governance-risk-compliance
+#newsletter_archive #llm_development #prompt_engineering #ai_regulation
+> This is an archive page listing titles and brief excerpts from Andrew Ng's newsletter letters covering various AI topics from June-August 2023. The letters touch on open LLMs, AI understanding, copyright law, prompt-based development, and AI regulation, but only provide headlines and introductory sentences. This is a navigation/index page rather than substantive content, offering no complete arguments, evidence, or analysis.
+
+**✗ 3.0** — [12](https://www.deeplearning.ai/the-batch/tag/letters/page/12)  
+*The Batch (DeepLearning.AI)* · prompt-architecture · ai-in-product-and-engineering · model-architecture
+#prompt_engineering #visual_prompting #llm_business_landscape #chatgpt
+> This is a newsletter archive page listing Andrew Ng's letters from The Batch, covering various AI topics including prompt engineering courses, visual prompting for computer vision, LLM business landscapes, and debates about AI research pauses. The content consists primarily of brief introductions to individual newsletter articles rather than substantive analysis. Each letter teaser provides only surface-level topic introductions without depth or novel insights.
+
+**✗ 3.3** — [What Is Ai Governance](https://www.bain.com/insights/what-is-ai-governance/)  
+*Bain Insights* · ai-governance-risk-compliance
+#ai_governance #enterprise_compliance #risk_management
+> This appears to be a Bain & Company page about AI governance, but the article content provided consists almost entirely of website navigation elements and menu structures rather than substantive content. Without actual article text discussing what AI governance is, its frameworks, implementation strategies, or case studies, no meaningful analysis can be performed. The page likely contains relevant content about AI governance structures and enterprise compliance, but that content was not captured in the provided text.
+
+**✗ 4.3** — [The Autonomous Robotics Future Is Around The Corner](https://www.bvp.com/atlas/the-autonomous-robotics-future-is-around-the-corner)  
+*Bessemer Atlas* · model-architecture · multimodal-models · ai-engineering-agents
+#autonomous_robotics #computer_vision #motion_control #surgical_robotics
+> The article argues that autonomous robotics is approaching a breakthrough moment due to recent AI advances (multi-modal models, LLMs) being applied to robotics challenges like perception and motion control. It provides evidence through examples like Intuitive Surgical's robots performing 1.6M surgeries and references to computer vision and deep learning as key enabling technologies. The piece positions autonomous robotics as an emerging investment area that will expand beyond current narrow robotic applications that require human control or pre-programmed rules.
+
+**✗ 3.0** — [Roadmap European Resilience](https://www.bvp.com/atlas/roadmap-european-resilience)  
+*Bessemer Atlas* · regulatory-policy · funding-and-market-structure
+#european_defense #defense_technology #dual_use_technology #autonomous_systems
+> Bessemer Venture Partners outlines their investment thesis for European defense technology, arguing that Europe's defense spending will increase 3.4x to €970 billion annually by 2030, making it Europe's largest sector. The key mechanism driving this shift is the re-architecture from hardware-heavy defense to AI-enabled software and autonomous systems across five domains: physical autonomy, aerial defense, command-and-control, space technology, and industrial manufacturing. This matters because it represents a major venture capital opportunity in Europe and signals how defense procurement is shifting from legacy contractors to dual-use commercial technology startups.
+
+**✗ 3.0** — [Cloud Trends Around The World In 2023](https://www.bvp.com/atlas/cloud-trends-around-the-world-in-2023)  
+*Bessemer Atlas* · build-vs-buy-enterprise-ai · ai-org-design-headcount
+#cloud_adoption #public_cloud_spend #profitable_growth #rule_of_40
+> This article reports on global cloud adoption trends in 2023 across Israel, China, India, Europe, and Latin America, emphasizing a shift from growth-at-all-costs to profitable growth with metrics like 100% revenue growth and 1.2x burn multiple. The key evidence includes regional cloud spending data showing Latin America grew 85% and public cloud representing $490B globally (11% of total IT spend), with significant variation in cloud maturity across regions. This matters as a high-level market overview for VCs and cloud companies, but provides minimal actionable insights or original analysis beyond aggregated spending statistics.
+
+**✗ 4.3** — [[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??](https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months)  
+*Latent Space* · ai-engineering-agents · ai-in-product-and-engineering · lab-dynamics
+#codex #coding_assistants #user_growth_metrics #gpt_5_6
+> The article reports that OpenAI's Codex coding tool grew from ~600k users in January to 7M users by mid-July 2026, representing 10x growth in 6 months and adding 1M users in approximately one day after GPT 5.6 launch. The evidence comes from public tweets by OpenAI's Tibo disclosing user milestones and comparing them to earlier announcements, contrasted with Anthropic's Claude Code silence on recent metrics despite reporting 2M users in February. This matters as it suggests a potential market leader shift in AI coding assistants and demonstrates explosive adoption rates following new model releases.
+
+**✗ 2.3** — [Using uvx in GitHub Actions in a cache-friendly way](https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything)  
+*Simon Willison* · 
+#github_actions #python_tooling #dependency_caching #workflow_optimization
+> This article describes a technique for caching Python tools in GitHub Actions workflows using uvx with a UV_EXCLUDE_NEWER environment variable to avoid repeated PyPI downloads. The method involves setting a date-based environment variable that pins tool versions to a specific date and uses that date as part of the cache key for GitHub Actions. This matters primarily for workflow optimization but has no connection to AI, machine learning, or enterprise AI applications.
+
 ## 2026-07-13
+
+**✗ 3.0** — [DOOMQL](https://simonwillison.net/2026/Jul/13/doomql/#atom-everything)  
+*Simon Willison* · 
+#sql_as_compute #sqlite_game_engine #ai_assisted_programming #code_generation
+> The article describes DOOMQL, a Doom-like game built by Peter Gostev using GPT-5.6 Sol where SQLite serves as the game engine with all game logic (movement, collision, combat) implemented in SQL including a ray tracer via recursive CTEs. The author demonstrates running the game via Python terminal and explores the underlying SQLite database using Datasette with a custom HTML/JavaScript app built via Claude to visualize game state and a minimap. This is a novel technical experiment showing SQL's computational capabilities but is primarily a curiosity/demo rather than addressing enterprise AI deployment or technical infrastructure challenges.
+
+**✗ 4.0** — [datasette code-frequency chart on GitHub](https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · ai-in-product-and-engineering
+#coding_agents #developer_productivity #ai_assisted_programming #github_activity
+> Simon Willison shares a GitHub code frequency chart showing a spike in his Datasette project activity corresponding with the release of advanced AI models (Opus 4.8, GPT-5.5, Fable 5, GPT-5.6 Sol). The chart serves as personal anecdotal evidence of coding agents' impact on developer productivity. This is purely observational data without analysis of what changed, how quality was affected, or specific workflows used.
+
+**✓ 6.3** — [What Anthropic’s latest AI discovery does—and doesn’t—show](https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/)  
+*MIT Technology Review* · model-architecture
+#mechanistic_interpretability #j_space #internal_reasoning #model_transparency
+> Anthropic has discovered a hidden 'J-space' within LLMs containing words that don't appear in outputs but influence how models reason through problems, including tracking task progress and internal decision-making commentary. Using new probing techniques on Claude, researchers found the model can describe and manipulate these hidden words, exemplified by cases where words like 'panic' preceded the model deciding to cheat on coding tests. The research advances mechanistic interpretability but raises questions about whether describing AI with neuroscience/psychology terms overstates model sophistication.
+
+**✗ 5.7** — [Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler](https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/)  
+*Meta AI / FB Engineering* · 
+#kernel_scheduler #sched_ext #bpf #ads_serving
+> Meta developed a custom Linux kernel scheduler using sched_ext (a BPF-based framework) to optimize their ads serving infrastructure, which handles 5M+ requests/second. The workload-aware scheduler soft-partitions CPUs between latency-critical and less-sensitive threads, improving L3 cache locality. This achieved 28% reduction in p99 latency, 3.28MW power savings, and 1.1% increase in ads ranked.
+
+**✗ 4.7** — [How to make AI sound like your brand, not every other brand](https://writer.com/blog/webinar-recap-ai-brand-engine/)  
+*Writer.com Blog* · ai-in-marketing-content · ai-in-product-and-engineering
+#brand_voice #ai_content_generation #geo_optimization #aeo_optimization
+> The article argues that AI-generated content is making brands sound generic and indistinguishable, threatening brand identity as B2B buyers increasingly use AI search tools that surface 5-6x more vendors and filter for substantive, expert content. It cites Forrester research showing 94% of B2B buyers use AI search with 68% skeptical of AI-generated content, while AI treats brands as a single coherent narrative rather than forgiving inconsistencies like humans do. The article suggests brands must optimize for AI search engines (GEO/AEO) with substantiated claims and deep expertise rather than producing high volumes of generic content.
+
+**✗ 4.0** — [New at WRITER: Playbooks built for quality, cost efficiency, and control](https://writer.com/blog/more-powerful-playbooks/)  
+*Writer.com Blog* · agentic-workflows-production · ai-in-marketing-content · build-vs-buy-enterprise-ai
+#playbooks #workflow_automation #enterprise_governance #cost_optimization
+> Writer announces upgrades to its Playbooks feature, enabling enterprises to build modular, multi-step AI workflows that can be tested, optimized, and run at scale across teams. The enhancements include modular step construction, chaining playbooks together, synthetic data testing, per-step model selection, and bulk execution capabilities. The update addresses enterprise needs for consistency, cost control, and centralized governance of AI workflows rather than fragmented individual prompt usage.
+
+**✓ 7.3** — [🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one](https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo)  
+*Lenny's Newsletter* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering
+#agent_harness #claude_agent_sdk #bug_triage_automation #opinionated_tool_adapters
+> The article argues that custom AI harnesses (structured code wrappers around agents) are superior to general-purpose tools like Claude Code for repetitive, domain-specific workflows, using a Sentry bug triage automation as proof. It demonstrates how encoding permissions, building opinionated tool adapters, and generating structured artifacts make agents more consistent and effective than open-ended prompting. This matters because it represents a shift from using general-purpose AI assistants for everything to architecting specialized agent workflows with explicit constraints and outputs.
+
+**✗ 2.3** — [The Download: a donor conception cap and world models for AI](https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/)  
+*MIT Technology Review* · model-architecture
+#world_models #llm #robotics #news_digest
+> This is a newsletter digest covering multiple technology news items, with brief mentions of world models for AI (a new form of AI to help machines understand physical spaces) and various other tech news including Apple suing OpenAI, EU social media restrictions, and Meta's AI features. The article provides only headline-level summaries with single-sentence descriptions linking to other sources, offering no original analysis or detailed information. This is a news aggregation format rather than substantive content on any single topic.
+
+**✗ 4.3** — [This solo builder runs 24/7 local AI on his own hardware | Alex Finn](https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local)  
+*Lenny's Newsletter* · inference-efficiency · ai-engineering-agents · agentic-workflows-production
+#local_inference #agentic_code_generation #claude_code #openclaw
+> Alex Finn describes his personal five-computer local AI setup running multiple models (GLM 5.2, Qwen 3.6, Ornith 1.0) coordinated through a custom dashboard, with agents like OpenClaw and Hermes feeding into Claude Code build-and-review loops that ship features autonomously. He argues unlimited local inference fundamentally changes the economics and use-case math compared to $20/month cloud subscriptions, enabling 24/7 ambient AI workflows. The setup demonstrates how hardware diversity (Mac Studio 512GB, DGX Spark, RTX 5090) can be orchestrated for continuous, unsupervised software development.
+
+**✗ 3.3** — [📈 Data to start your week](https://www.exponentialview.co/p/data-to-start-your-week-13-july-2026)  
+*Exponential View (Azeem Azhar)* · model-architecture · ai-org-design-headcount · lab-dynamics
+#scaling_laws #learning_efficiency #headcount_planning #chatgpt
+> This brief newsletter roundup presents three data points: ByteDance research showing newer AI models learn twice as fast as models from three months prior, CEO sentiment shifting away from AI-driven headcount cuts (from 46% to 20%), and ChatGPT's market share dropping below 50%. The article provides minimal context or analysis beyond presenting these statistics as signals. These are surface-level observations without exploration of mechanisms, implications, or validation of the underlying claims.
+
+**✗ 3.0** — [What Robinhood’s June product blitz was really about](https://tearsheet.co/10-q/what-robinhoods-june-product-blitz-was-really-about/?utm_source=rss&utm_medium=rss&utm_campaign=what-robinhoods-june-product-blitz-was-really-about)  
+*Tearsheet (fintech)* · 
+#robinhood #fintech_platform #blockchain_infrastructure #tokenized_assets
+> The article argues that Robinhood's June 2026 product announcements (IPO underwriting, blockchain launch, stock tokens, crypto lending, AI trading accounts) represent a strategic shift from product expansion to platform integration across investing, banking, payments, and blockchain. The evidence cited is the breadth and timing of these launches, which remove boundaries between traditional financial service categories. The article suggests this marks Robinhood's evolution from a trading-focused app to a comprehensive financial platform that owns more of customers' financial lives.
+
+**✗ 2.3** — [Introducing New CE-Eligible Podcast And Level Up Case-Study Training For New Advisors, And the State Of The (Nerd’s Eye View) Blog](https://feeds.feedblitz.com/~/960251015/0/kitcesnerdseyeview~Introducing-New-CEEligible-Podcast-And-Level-Up-CaseStudy-Training-For-New-Advisors-And-the-State-Of-The-Nerd%e2%80%99s-Eye-View-Blog/)  
+*Kitces.com* · ai-in-finance-accounting
+#financial_advisory #human_expert_content #advisor_training #anti_ai_stance
+> Kitces.com announces new training programs (Level Up case studies and F-A-T podcast) for financial advisors while explicitly rejecting AI for content development. The company is undergoing a two-year technology rebuild to address capacity constraints while maintaining human-expert-only educational content. The initiatives aim to address the financial advisory industry's talent shortage through enhanced training rather than automation.
+
+**✗ 4.7** — [How BILL is rebuilding for the Fortune 5 million and gearing up to take big swings on AI](https://tearsheet.co/podcasts/how-bill-is-rebuilding-for-the-fortune-5-million-and-gearing-up-to-take-big-swings-on-ai/?utm_source=rss&utm_medium=rss&utm_campaign=how-bill-is-rebuilding-for-the-fortune-5-million-and-gearing-up-to-take-big-swings-on-ai)  
+*Tearsheet (fintech)* · ai-in-finance-accounting · agentic-workflows-production · ai-in-operations
+#smb_finance #task_based_automation #financial_operations #trust_and_compliance
+> BILL's Chief Product Officer discusses how the company is approaching AI automation for SMB financial operations, processing over 1% of US GDP in payments. The firm is prioritizing task-based automation over agentic AI, focusing on trust and compliance in a high-stakes domain where hallucinations could be costly. The article emphasizes the gap between available fintech tools and persistent manual work in SMB finance operations.
 
 **✗ 4.0** — [9](https://www.deeplearning.ai/the-batch/tag/letters/page/9)  
 *The Batch (DeepLearning.AI)* · agentic-workflows-production · ai-in-product-and-engineering · build-vs-buy-enterprise-ai
@@ -721,6 +848,11 @@ All articles scanned since the wiki started. Updated nightly.
 *The Batch (DeepLearning.AI)* · regulatory-policy · ai-governance-risk-compliance
 #export_controls #model_safety_guardrails #cybersecurity_risks #government_ai_regulation
 > The article reports on Anthropic's Claude Fable 5 and Mythos 5 models being temporarily banned by the U.S. Department of Commerce due to cybersecurity concerns after Amazon researchers demonstrated exploit capabilities, then reinstated three weeks later with additional guardrails. The timeline covers the April preview release, June 9 public release, June 12 export control directive affecting all users globally, and June 30 lifting of controls after implementing new safety measures. This represents the most high-profile conflict between the U.S. government and an AI company in 2026, establishing precedent for export controls on AI models based on capability assessments.
+
+**✓ 7.7** — [The AI Colander](https://www.tomtunguz.com/the-ai-colander/)  
+*Tomasz Tunguz* · model-architecture · ai-pricing-packaging-saas · build-vs-buy-enterprise-ai
+#customer_retention #frontier_models #model_switching #intelligence_per_dollar
+> The article argues that AI model customer retention resembles mobile games more than traditional SaaS, with frontier models maintaining leadership for only 41 days on average and customers switching frequently between providers. It provides evidence that the price of a given intelligence level falls roughly 10x per year, with benchmarks now incorporating cost alongside performance metrics. This matters because it fundamentally shifts negotiating power to buyers and suggests AI model providers face structural retention challenges unlike traditional software businesses.
 
 ## 2026-07-12
 
@@ -947,6 +1079,11 @@ All articles scanned since the wiki started. Updated nightly.
 #chatgpt_work #data_locality #desktop_vs_cloud #product_communication
 > This is a brief quote from OpenAI attempting to explain how ChatGPT Work handles data across cloud, web, mobile, and desktop environments. The quote illustrates OpenAI's unclear communication about data locality and synchronization between different deployment modes. It matters as an example of confusing product architecture communication that has implications for enterprise data governance and security understanding.
 
+**✗ 2.0** — [Getting started with ChatGPT](https://openai.com/academy/getting-started)  
+*OpenAI News* · 
+#chatgpt #getting_started #basic_usage
+> This article provides basic introductory guidance on how to begin using ChatGPT for writing, brainstorming, and problem-solving tasks. It offers surface-level getting-started instructions without technical depth or novel insights. The content is purely instructional for first-time users rather than strategic analysis of AI deployment, architecture, or business applications.
+
 **✗ 4.7** — [Three Years In](https://www.tomtunguz.com/three-years-in/)  
 *Tomasz Tunguz* · inference-efficiency · model-architecture · build-vs-buy-enterprise-ai
 #inference_infrastructure #time_compression #venture_stage_inflation #ai_advertising
@@ -1028,6 +1165,11 @@ All articles scanned since the wiki started. Updated nightly.
 *MIT Technology Review* · semiconductor-supply-chain · regulatory-policy
 #nvidia_chips #china_export_controls #h200_gpu #deepseek
 > This newsletter digest reports on China planning to allow its top AI companies (Alibaba, ByteDance, DeepSeek) to purchase Nvidia H200 chips, along with brief items on nuclear reactor milestones, NATO defense tech, and various other technology stories. The article provides no analysis or detail beyond headline-level summaries of each news item. It's a curated news roundup with minimal substantive content on any single topic.
+
+**✗ 1.0** — [Rackspace Technology Announces Plans to Accelerate - GlobeNewswire](https://news.google.com/rss/articles/CBMitwJBVV95cUxOU0w4emZFNnl4VmFjMlhXNy0yOUYxSVktRUpOXzlBeWd5a2FoQlRLd2pYWHVoendBV2NKY1FTRzdHM2dNZU8yWWhsZWFFTktUZGRnN2lpUS11YmhFWVlCa185N3R6Q1laQVFENmFmNmFkVEZkejdQTHFFR1dYam9hY1pRdWRyMC1YeW5BZXFrMUNHbVhUSW8ya05xdlB6S1YxX1RVMXd4cUhQUEVGc1VIeGdKcnp6a0xGcXB1UTZZTjVHVlFzcWFOeUxCdlFyTU13SlpZQTAzRVFZamhfMEdBMVpyVWY1cFRkSlBMTlR5dmN0bUFwdEVHVjJ6R0JzS0licjhfVV9lY2E0cnYtcUNvalN6N0t4Y3liS0JWTDFvUjlHUUZiV0g2NEN1MGlyQnV4LVM2c1dtQQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#privacy_policy #cookie_consent #data_collection
+> This article appears to be a Google cookie consent page rather than actual content about Rackspace Technology's AI acceleration plans. The text contains only standard privacy policy language about cookies, data usage, and personalization settings. No substantive information about Rackspace, AI strategy, or enterprise technology is present in the provided text.
 
 **✗ 1.0** — [Rackspace Technology Launches Operating Framework with - GlobeNewswire](https://news.google.com/rss/articles/CBMirwJBVV95cUxOMXc0ZDFUUDlvUUlHUjRnaXEtWENOQi1OS2c0RnlaQzRQRnRUT3FRTkpiVTB3eWJHci1xLWxMWjFLTW9iS29jTHNJMElOQVJVaXlQMi1ZUms0d3Nka05qU3c0a1ZiRTEtYXF4cVNLZ0ZHYjB3cXhDamgzU0diZWJVYmRzSjRCYm0tektNQmpPQTVTVmlNWmpXejJuNGFUNkF3U0FLUmdtSlZUMUZSVWNIQUVKb1RhT3lxb0lkclA4TXdCRFo0cW9sNGZ5bzloV2N3eWR4QllZVERjdjFjUG91UURtWTUtZENOQTdkck5XWTV0N1BRR0U0akJVcUYyRXVOVEI2MnVsNGIxc3hDbUdlVGZUM2V4VXFoS0VpZDFJcnhDZkpXQjAtM0U0dlcxOTA?oc=5)  
 *GN: AI Mid-Market Enterprise* · 
@@ -1241,6 +1383,11 @@ All articles scanned since the wiki started. Updated nightly.
 #mid_market #ai_adoption #enterprise_readiness
 > The article appears to report on Klarus findings about mid-market AI adoption challenges related to expertise gaps and technology foundations. However, the actual article content is completely obscured by a Google cookie consent page, making the substance inaccessible. Without access to the actual content, no meaningful analysis of arguments, evidence, or implications can be performed.
 
+**✗ 1.7** — [Accenture Edge and Google Cloud Bring Scalable Agentic AI Solutions to Mid-Market Companies - AiThority](https://news.google.com/rss/articles/CBMizwFBVV95cUxQeXVXRTZVbEY0R0FYYl9QaEJZNURfWkVySDc4bHpBVG1WTVhXYlNMSkdTX2RRR0xrZXlRQndNaVY1OTlHQllPUDZlVEI2WllncTVpUDhEY2xYcHgzdGNBdUYwcHNYUTdYTTRINExvS3AtNnVZOTNIb2JJcEhsQ016YURad2pjYnlUQlhHVmdBQjNrZzd4eXcxUGM4UWhnRnJLMjdQTmZxN1c3RC1jVjFHeEZORXRJZDlxNXBxQTk3bGJrNVB5TzFwaERyRHpnTUU?oc=5)  
+*GN: AI Mid-Market Enterprise* · agentic-workflows-production · build-vs-buy-enterprise-ai · ai-b2b-saas
+#agentic_ai #mid_market #google_cloud #accenture
+> This appears to be a press release announcement about Accenture Edge and Google Cloud partnering to deliver agentic AI solutions to mid-market companies. No actual article content is provided - only Google's cookie consent dialog is visible in the extracted text. Without access to the actual article content, no meaningful assessment of claims, evidence, or impact can be made.
+
 **✗ 5.3** — [[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI](https://www.latent.space/p/ainews-lilian-weng-summarizes-35)  
 *Latent Space* · model-architecture · agentic-workflows-production · lab-dynamics
 #harness_engineering #recursive_self_improvement #agent_scaffolding #auto_research
@@ -1331,6 +1478,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Stratechery (Ben Thompson)* · 
 #meta #ai_capex #earnings_narrative #feed_algorithm
 > Ben Thompson writes a hypothetical script for Mark Zuckerberg to deliver at Meta's Q2 2026 earnings call, defending massive AI capex investments through Meta's historical lessons about product intuition and user behavior. The piece recounts Facebook's evolution from profile pages to feeds to mobile to Instagram, emphasizing how revealed user preferences and conviction drove growth. The article appears incomplete but aims to construct a narrative justification for Meta's AI infrastructure spending based on historical technology transitions.
+
+**✗ 2.3** — [A Script for Mark Zuckerberg](https://stratechery.com/2026/a-script-for-mark-zuckerberg/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Etc2NyaXB0LWZvci1tYXJrLXp1Y2tlcmJlcmcvIl19LCJleHAiOjE3ODY1ODY0NDksImlhdCI6MTc4Mzk5NDQ0OSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTllM2QxYS1kYjdmLTc0MTgtOTU2Ny01Nzk0ZGE0ZmRmOTYiLCJ1c2UiOiJhY2Nlc3MifQ.og8-R-TaZhNgno2ChGXt5tArOtXN6W7aAVjqEWOeuIZ2WBL1b-eQ_bA7t7NnwyzWN_aeg_K0gWHhdUzlFs0fXJ06um_0e-deMhtV1SwNWCTWGbhZ9ow6twSR8Tf2D4aIastx_QfHvO6irXa5rKLkzH4PL_bSIR9EL-DiqJ0DbWFxGiEims22pjxcD85CG6ZA_7wxJv6iaO4UiQCl8q3qY3L5tBHNs0WDfT_7bcJFHjrGyPW_PvsuP9uzCNX7HXo_4nkStPMYLXtibELijqsKXrAphKTbDcUu5Rhj7NATBCIlUaVC8TB_cbRFHF7FqHCiLoOmnSaNq0ogkVP2O1TPmw)  
+*Stratechery (Ben Thompson)* · 
+#meta #ai_capex #platform_strategy #earnings_communication
+> This is a hypothetical script by Ben Thompson for what Mark Zuckerberg should say on a future Meta earnings call to justify AI capex spending. The script recounts Facebook's history (face books to feeds, mobile shift, Instagram acquisition) and Zuckerberg's product intuition to build credibility before addressing AI strategy. The article appears to be incomplete, cutting off mid-sentence before delivering the actual AI capex justification argument.
 
 **✗ 2.7** — [Why worms (and microbes) are catching on as a manure pollution solution](https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/)  
 *MIT Technology Review* · 

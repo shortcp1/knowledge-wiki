@@ -1358,3 +1358,9 @@ Note: This represents a distinct domain (brand discoverability in AI systems) th
 - Various product leader perspectives (Nikhyl Singhal, Karri Saarinen, Katie Dill, Jenny Wen, Andrew Ambrosino)
 
 These references suggest follow-up content exists but specific implementation details not captured in this transcript.
+
+---
+**What Anthropic’s latest AI discovery does—and doesn’t—show** (MIT Technology Review, 2026-07-13T18:00:00+00:00)
+**Anthropic valuation context (2026)**: Anthropic described as "currently the world's most valuable AI company, with a nearly $1 trillion valuation." This represents significant market positioning but doesn't clearly fit existing technical topic files.
+
+**Anthropic research culture**: Company has reputation for "strange and heady research" including investigating whether AI models can feel pain and cutting off conversations suspected of "abusing" the model. This relates to [[ai-safety]] but represents corporate culture/approach rather than technical claims.
