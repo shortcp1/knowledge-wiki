@@ -1364,3 +1364,16 @@ These references suggest follow-up content exists but specific implementation de
 **Anthropic valuation context (2026)**: Anthropic described as "currently the world's most valuable AI company, with a nearly $1 trillion valuation." This represents significant market positioning but doesn't clearly fit existing technical topic files.
 
 **Anthropic research culture**: Company has reputation for "strange and heady research" including investigating whether AI models can feel pain and cutting off conversations suspected of "abusing" the model. This relates to [[ai-safety]] but represents corporate culture/approach rather than technical claims.
+
+---
+**The Harness Is the New Battleground** (Tomasz Tunguz, 2026-07-14T00:00:00+00:00)
+**Trajectory Data Market Economics (2026)**
+- New category: Companies producing training trajectories generating ~$10B revenue
+- Two business models:
+  1. Paying experts to use AI and capturing interaction data
+  2. Training AIs to synthetically create trajectories mimicking users
+- Described as "some of the fastest growing startups ever"
+- Creates economic incentive structure for AI vendors to maximize data collection
+- Analogous to Google Analytics in web era, but with trajectory data becoming vendor IP
+
+**Note**: This represents a new market segment that may warrant its own topic file (e.g., 'trajectory-data-markets' or 'ai-training-data-economy') if more examples accumulate.

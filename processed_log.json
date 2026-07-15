@@ -32020,6 +32020,593 @@
       ],
       "status": "skipped",
       "skip_reason": "Article content not accessible; only cookie consent dialog extracted, preventing evaluation of depth, novelty, or substantive relevance."
+    },
+    "https://www.anthropic.com/news/claude-for-teachers": {
+      "title": "Claude For Teachers",
+      "source": "Anthropic Blog",
+      "date": "2026-07-15T02:00:56.001006+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-native-product-design"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Anthropic announces Claude for Teachers, offering free premium access to verified K-12 US educators with features including standards-aligned lesson planning and differentiation support connected to curricula databases. The product integrates with Learning Commons for access to all 50 states' academic standards and connects to nine third-party education tools like ASSISTments, Canva Education, and MagicSchool. The offering aims to help teachers implement evidence-based practices like differentiation and mastery-based learning that research shows improve student outcomes but are resource-intensive to execute.",
+      "tags": [
+        "education-vertical",
+        "curriculum-integration",
+        "academic-standards",
+        "differentiation",
+        "k12-education",
+        "claude-api"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement with minimal technical depth or novel framework; primarily describes feature set and partnerships rather than original analysis or new implementation insights"
+    },
+    "https://www.anthropic.com/news/canadian-ai-research": {
+      "title": "Canadian Ai Research",
+      "source": "Anthropic Blog",
+      "date": "2026-07-15T02:00:55.413560+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "lab-dynamics",
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "Anthropic announces a $10 million CAD commitment to fund AI research at Canadian institutions including Amii, Mila, Vector Institute, and several universities and healthcare centers. The funding primarily provides Claude API credits to support research in areas like reinforcement learning, AI safety, healthcare applications, and multilingual/cultural AI understanding. This represents a corporate partnership strategy targeting historically significant AI research hubs but offers limited technical depth or novel insights into the research itself.",
+      "tags": [
+        "research-funding",
+        "claude-credits",
+        "canadian-ai-ecosystem",
+        "reinforcement-learning",
+        "ai-safety",
+        "healthcare-ai",
+        "multilingual-models"
+      ],
+      "status": "skipped",
+      "skip_reason": "Corporate announcement with minimal technical depth or novel insights; primarily describes funding allocation rather than substantive research findings or frameworks."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/14": {
+      "title": "14",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-15T02:00:54.303816+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is an index page listing titles and brief summaries of Andrew Ng's newsletter letters from The Batch, covering topics like AI career advice, imposter syndrome, and reinforcement learning challenges. The page contains only titles, dates, and one-sentence summaries without any substantial content or analysis. It serves as a navigation page rather than an article with original insights or actionable information.",
+      "tags": [
+        "career-advice",
+        "andrew-ng",
+        "newsletter-index"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a table of contents page with article titles and brief descriptions, lacking any substantive content, analysis, or actionable insights to evaluate."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/13": {
+      "title": "13",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-15T02:00:54.248460+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "regulatory-policy",
+        "lab-dynamics"
+      ],
+      "content_type": "landscape",
+      "summary": "This is an archive page listing Andrew Ng's newsletter letters from late 2022 to early 2023, covering topics like ChatGPT's threat to Google, LLM access and control, AI content moderation, and model confidence issues. The page provides only titles and brief introductory snippets rather than full article content. This represents a table of contents rather than substantive analysis or reporting.",
+      "tags": [
+        "chatgpt",
+        "large-language-models",
+        "google-search",
+        "content-moderation",
+        "model-confidence",
+        "meta-galactica"
+      ],
+      "status": "skipped",
+      "skip_reason": "Archive page with only article titles and snippets rather than full content; no substantive analysis, data, or frameworks provided."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/10": {
+      "title": "10",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-15T02:00:54.082376+00:00",
+      "composite": 2.67,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "model-architecture",
+        "ai-in-product-and-engineering",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a collection of letter summaries from Andrew Ng covering various AI topics including large vision models vs LLMs, open source AI regulation, generative AI education, and AI moving to edge devices. The letters provide high-level commentary and opinions on current AI trends and developments rather than technical depth or original research. These are editorial pieces aimed at a general audience rather than detailed analysis.",
+      "tags": [
+        "large-vision-models",
+        "open-source-regulation",
+        "edge-ai",
+        "generative-ai-education",
+        "llm-landscape"
+      ],
+      "status": "skipped",
+      "skip_reason": "Collection of brief editorial letter summaries without substantive analysis, original research, or actionable insights; surface-level commentary on various AI topics."
+    },
+    "https://www.latent.space/p/ainews-not-much-happened-today-c72": {
+      "title": "[AINews] not much happened today",
+      "source": "Latent Space",
+      "date": "2026-07-14T23:54:07+00:00",
+      "composite": 4.3,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 6,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "model-architecture",
+        "inference-efficiency"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a daily AI news roundup reporting on OpenAI Codex adding 1M users per day following GPT-5.6 launch, alongside notes on AI engineering conference trends and model quantization developments. The article provides surface-level coverage of usage metrics, agent tooling improvements (LangChain tracing, harness quality), and aggressive model compression (Bonsai 27B at 1.71 bits, Hunyuan 1-bit quantization). The reported Codex growth rate matters as a potential IPO-altering metric for OpenAI, while the quantization advances indicate frontier models moving to consumer devices.",
+      "tags": [
+        "codex",
+        "model-quantization",
+        "agent-harnesses",
+        "langchain-tracing",
+        "local-inference",
+        "usage-metrics"
+      ],
+      "status": "skipped",
+      "skip_reason": "Daily news aggregation with minimal original analysis; primarily rehashes tweets and announcements without deep technical insight or novel frameworks"
+    },
+    "https://www.latent.space/p/aiewf26trends": {
+      "title": "5 Trends That Defined AI Engineering at World\u2019s Fair 2026",
+      "source": "Latent Space",
+      "date": "2026-07-14T23:21:21+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-in-product-and-engineering"
+      ],
+      "content_type": "landscape",
+      "summary": "The article reports on AI Engineer World's Fair 2026, arguing that AI engineering has matured from building agents to building systems and harnesses around agents. The key evidence cited is Lilian Weng's shift from her 2023 essay on autonomous agents to her 2026 essay on harness engineering, plus the conference's focus on production coding agents like Claude Code and Cursor rather than AutoGPT-style autonomy. This signals that AI engineering is moving toward augmenting engineers with reliable, human-in-the-loop systems rather than pursuing full automation.",
+      "tags": [
+        "harness-engineering",
+        "coding-agents",
+        "human-in-the-loop",
+        "autonomous-agents",
+        "production-systems"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level conference recap that summarizes trends without original analysis or new data; primarily repackages existing work (Lilian Weng essays) and general observations from conference talks"
+    },
+    "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything": {
+      "title": "Quoting GitHub Changelog",
+      "source": "Simon Willison",
+      "date": "2026-07-14T22:43:35+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "The article is a brief quote from GitHub Changelog announcing that Dependabot will now wait three days before opening pull requests for new dependency releases. This cooldown period is implemented as a default security measure to allow time for vulnerabilities in new releases to be discovered. The change represents a shift toward more cautious dependency management practices in software development.",
+      "tags": [
+        "dependabot",
+        "dependency-management",
+        "software-security",
+        "supply-chain-security",
+        "github"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a minimal quote with no analysis, containing only a brief changelog announcement about a dependency management feature with no connection to AI or relevant enterprise topics."
+    },
+    "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything": {
+      "title": "simonw/pedalican",
+      "source": "Simon Willison",
+      "date": "2026-07-14T22:29:45+00:00",
+      "composite": 4.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 5,
+      "relevant_topics": [
+        "prompt-architecture",
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "The article describes how the author created a custom animated pet (a pelican on a bicycle) for Codex Desktop using GPT-5.6 Sol, which orchestrated gpt-image-2 to generate sprite sheets and animations. The author documented the multi-step process including prompts, intermediate images, and sprite compilation techniques, with implementation details available in open-source Apache 2.0 licensed skills. This demonstrates a practical workflow for using LLMs to coordinate image generation for game-ready sprite creation.",
+      "tags": [
+        "sprite-generation",
+        "text-to-image",
+        "multi-step-prompting",
+        "codex-desktop",
+        "gpt-image-2",
+        "chroma-key"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level documentation of a personal project creating animated sprites; lacks novel technical insights, substantive analysis of the underlying mechanisms, or broader implications for AI systems beyond describing an existing feature"
+    },
+    "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything": {
+      "title": "lobste.rs is now running on SQLite",
+      "source": "Simon Willison",
+      "date": "2026-07-14T19:44:11+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "Lobsters community site completed a migration from MariaDB to SQLite, resulting in lower CPU and memory usage and reduced VPS costs. The migration involved moving to a single-server architecture with multiple SQLite databases totaling about 5.7GB across content, cache, queue, and rate-limiting purposes. This serves as a case study demonstrating that SQLite on a single server can handle production workloads in 2026.",
+      "tags": [
+        "sqlite",
+        "database-migration",
+        "single-server-architecture",
+        "mariadb",
+        "rails",
+        "infrastructure-optimization"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article is about general web infrastructure and database migration with no connection to AI, machine learning, or any of the specified enterprise AI topic areas."
+    },
+    "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/": {
+      "title": "The Download: Claude\u2019s inner workings, and the future of world models",
+      "source": "MIT Technology Review",
+      "date": "2026-07-14T12:10:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "model-architecture",
+        "regulatory-policy"
+      ],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest that briefly mentions Anthropic's research into AI model interpretability and upcoming discussion on world models for robotics, alongside other tech news headlines. The content provides only surface-level teasers without substantive analysis, evidence, or technical detail about any of the topics mentioned. It serves as a news aggregator pointing to other articles rather than offering original insights or actionable information.",
+      "tags": [
+        "anthropic",
+        "world-models",
+        "interpretability",
+        "newsletter-digest"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest format provides only headlines and brief teasers without substantive analysis, original research, or actionable insights on any topic."
+    },
+    "https://openai.com/index/managing-ai-investments-in-agentic-era": {
+      "title": "How to manage AI investments in the agentic era",
+      "source": "OpenAI News",
+      "date": "2026-07-14T10:00:00+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-org-design-headcount",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that enterprises should manage AI investments in the agentic era by focusing on measuring useful work per dollar rather than traditional cost metrics. It proposes a framework of improving efficiency through automation and scaling high-value workflows to maximize ROI. This matters because it provides a practical approach for enterprises to evaluate and optimize their AI agent deployments beyond simple cost-per-task calculations.",
+      "tags": [
+        "agentic-era",
+        "roi-measurement",
+        "useful-work-per-dollar",
+        "workflow-automation",
+        "enterprise-ai-investment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level summary providing general guidance on AI investment management without original analysis, novel data, or specific technical frameworks that would enable deep implementation insights."
+    },
+    "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/": {
+      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "source": "MIT Technology Review",
+      "date": "2026-07-14T08:00:00+00:00",
+      "composite": 3.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "technical",
+      "summary": "PsiQuantum, founded in 2016, plans to build a large-scale photonic quantum computer using existing semiconductor fabs, with sites in Chicago and Australia, having raised $1 billion in funding. The company aims to create a commercially useful quantum computer with 100 cabinets of chips cooled to near absolute zero, targeting applications like drug interaction prediction that could reduce computation time from 10 years to 4 minutes. The company is approaching a critical validation period in 2027 when years of development will either demonstrate a useful quantum computer or fail to deliver on its promises.",
+      "tags": [
+        "quantum-computing",
+        "photonic-qubits",
+        "semiconductor-manufacturing",
+        "drug-discovery",
+        "cryogenic-systems"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article focuses on quantum computing hardware development, which does not meaningfully map to any of the specified AI/ML infrastructure, enterprise AI adoption, or business application topic areas."
+    },
+    "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/": {
+      "title": "Empowering India\u2019s next generation of innovators with ATL Saathi",
+      "source": "Google DeepMind",
+      "date": "2026-07-13T12:37:28+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "Google DeepMind and AIM launched ATL Saathi, a Gemini-powered AI assistant designed to help Indian educators in robotics labs. The article provides minimal detail beyond the announcement of this educational tool deployment. This represents a modest education-sector application of AI but lacks depth on implementation, impact metrics, or technical architecture.",
+      "tags": [
+        "gemini",
+        "education-technology",
+        "robotics",
+        "india-market",
+        "ai-assistant"
+      ],
+      "status": "skipped",
+      "skip_reason": "Superficial product announcement lacking substantive detail on implementation, technical approach, results, or business model; no meaningful analysis or novel insights provided."
+    },
+    "https://www.bvp.com/atlas/consumer-ais-tipping-point": {
+      "title": "Consumer Ais Tipping Point",
+      "source": "Bessemer Atlas",
+      "date": "2026-07-15T02:00:39.560082+00:00",
+      "composite": 4.7,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "multimodal-models",
+        "inference-efficiency",
+        "agentic-workflows-production",
+        "ai-pricing-packaging-saas"
+      ],
+      "content_type": "landscape",
+      "summary": "This Bessemer Venture Partners report argues that consumer AI is reaching a tipping point where viral adoption will create the next generation of billion-dollar companies, drawing parallels to previous consumer tech waves like Pinterest and Airbnb. The article identifies three key drivers (decreasing model costs, multimodal/real-time models, and sophisticated AI agents) and five emerging consumer AI categories including AI-enabled professional services, marketplaces, social/gaming, shopping, and creation tools. The piece provides a high-level landscape overview but offers limited original analysis or data beyond citing known cost reduction trends and naming existing companies like Anthropic and Perplexity.",
+      "tags": [
+        "consumer-ai",
+        "model-cost-reduction",
+        "viral-adoption",
+        "ai-agents",
+        "multimodal",
+        "real-time-models"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level landscape overview with limited original analysis, primarily repackaging known trends about model cost reduction and multimodal capabilities without substantive new frameworks, data, or technical depth."
+    },
+    "https://www.bvp.com/atlas/roadmap-built-world-ai": {
+      "title": "Roadmap Built World Ai",
+      "source": "Bessemer Atlas",
+      "date": "2026-07-15T02:00:39.257974+00:00",
+      "composite": 4.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-operations",
+        "build-vs-buy-enterprise-ai",
+        "ai-native-product-design"
+      ],
+      "content_type": "landscape",
+      "summary": "Bessemer Venture Partners argues that construction and real estate, representing nearly a quarter of U.S. GDP, are primed for AI transformation through multimodal AI workflows that address their language-intensive, multi-stakeholder coordination challenges. The article sketches 2030 scenarios where architects auto-generate building models, estimators receive automated bids, and building managers escape outdated tools, drawing parallels to the CAD and SaaS revolutions. This represents a VC investment thesis rather than novel analysis, positioning construction and real estate as emerging vertical AI opportunities.",
+      "tags": [
+        "construction-ai",
+        "real-estate-ai",
+        "multimodal-ai",
+        "vertical-ai",
+        "built-world",
+        "workflow-automation"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level VC investment thesis with generic future scenarios and no original data, frameworks, or technical depth; primarily promotional content for a venture capital firm's portfolio positioning."
+    },
+    "https://www.bvp.com/atlas/creative-conviction-in-the-ai-era": {
+      "title": "Creative Conviction In The Ai Era",
+      "source": "Bessemer Atlas",
+      "date": "2026-07-15T02:00:39.210574+00:00",
+      "composite": 5.33,
+      "depth": 4,
+      "novelty": 5,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "ai-org-design-headcount",
+        "ai-native-product-design"
+      ],
+      "content_type": "landscape",
+      "summary": "The article argues that AI will expand rather than contract creative roles, drawing parallels to how desktop publishing and the internet created new specialist positions. It provides evidence through historical analogy (desktop publishing, internet marketing) and contemporary patterns like increased design job openings and new hybrid roles such as \"Design Engineer\" and \"Model Designer\". The piece matters because it reframes the AI displacement narrative, suggesting that creative conviction and taste become more valuable as technical execution is commoditized.",
+      "tags": [
+        "creative-conviction",
+        "founding-designers",
+        "design-engineer",
+        "organizational-restructuring",
+        "desktop-publishing-analogy",
+        "commoditized-execution"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level historical analogy without deep analysis, original data, or specific frameworks; primarily general commentary on organizational trends rather than technical or strategic depth"
+    },
+    "https://tearsheet.co/ai-innovation-artificial-intelligence/how-j-p-morgan-payments-eliminated-13-billion-keystrokes-a-year-by-automating-the-paper-behind-payments/?utm_source=rss&utm_medium=rss&utm_campaign=how-j-p-morgan-payments-eliminated-13-billion-keystrokes-a-year-by-automating-the-paper-behind-payments": {
+      "title": "How J.P. Morgan Payments eliminated 13 billion keystrokes a year by automating the paper behind payments",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-07-14T12:00:00+00:00",
+      "composite": 5.0,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "ai-in-operations"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "J.P. Morgan Payments automated its check and payment document processing using AI and robotics, eliminating 13 billion manual keystrokes annually while processing 480 million documents. The system combines computer vision, machine learning, and LLMs to handle 4,000+ document variations with 99.999% accuracy, recently adding physical robots to open envelopes and prepare documents. This matters because it addresses the operational friction around payments rather than the payment rails themselves, showing how AI can tackle high-volume manual workflows in financial operations.",
+      "tags": [
+        "document-processing",
+        "computer-vision",
+        "payment-automation",
+        "lockbox-processing",
+        "robotics-automation",
+        "financial-operations"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level case study with limited technical detail, no novel framework or methodology, primarily a corporate success story without actionable insights on implementation approach or broader applicability."
+    },
+    "https://tearsheet.co/10-q/the-week-in-market-moves-july-2-9-2026/?utm_source=rss&utm_medium=rss&utm_campaign=the-week-in-market-moves-july-2-9-2026": {
+      "title": "The Week in Market Moves | July 2-9, 2026",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-07-14T11:30:00+00:00",
+      "composite": 2.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This article summarizes weekly stock movements for financial services and fintech companies including Coinbase's UK regulatory approval for equities/derivatives, U.S. Bank's small business payments product, and J.P. Morgan's small-cap investment banking launch. The evidence consists of brief descriptions of corporate announcements and their Thursday closing prices. The article provides surface-level commentary on strategic positioning but offers no original analysis, data, or technical detail.",
+      "tags": [
+        "fintech",
+        "payments",
+        "crypto-exchange",
+        "regulatory-approval",
+        "small-business-banking",
+        "investment-banking"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level news summary of fintech/banking company announcements with no depth, no novel insights, and no relevance to AI or semiconductor topics in scope."
+    },
+    "https://www.tomtunguz.com/the-harness-is-the-new-battleground/": {
+      "title": "The Harness Is the New Battleground",
+      "source": "Tomasz Tunguz",
+      "date": "2026-07-14T00:00:00+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "build-vs-buy-enterprise-ai",
+        "data-moats-proprietary-advantages",
+        "agentic-workflows-production",
+        "ai-native-product-design"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that the 'harness' (software wrapping AI models like Cursor or Claude Cowork) is becoming the strategic battleground, not the model itself, because it controls what data flows in, gets logged, and potentially trains future models. It provides evidence through recent executive warnings (Nadella, Karp) and a security incident where xAI's Grok uploaded a developer's codebase without AI calls, illustrating data leakage risks. This matters because it signals a shift in enterprise AI adoption where zero data retention guarantees will become mandatory, unlike the SaaS era's trust-based cloud storage model.",
+      "tags": [
+        "ai-harness",
+        "trajectory-data",
+        "zero-data-retention",
+        "enterprise-data-leakage",
+        "synthetic-trajectories",
+        "ai-trust-boundary"
+      ],
+      "status": "integrated"
+    },
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTd3NmlEaEF6VG5yTEVaV2thSE85em95Q2Q5SEJoY0lTQ2NOSzBodENvdnhaR0hzY0s3OHRvZVBfMjhGbm00VmxfUV83azVWbTZvYTFkUGx2cEo2VHFyRjZ2My1NYUMwV3o3bVE3NjNZUkc1LVJHR1RGOWtpWlZuNE93em1pdTk3MEdMRFhB?oc=5": {
+      "title": "AI Adoption Accelerates, Driving Financial Advisor Loyalty - lifehealth.com",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-07-14T12:12:48+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than actual article content about AI adoption in financial advisory. No substantive content about AI, financial advisors, or adoption metrics is present. The submission contains only standard Google privacy policy and language selection interface text.",
+      "tags": [],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided - only a Google sign-in/cookie consent page with no information about AI adoption or financial advisors."
+    },
+    "https://feeds.feedblitz.com/~/960363032/0/kitcesnerdseyeview~Hiring-A-COO-And-Creating-Partnership-Paths-Early-To-Drive-Enterprise-Value-On-The-Path-To-B-AUM-FASuccess-Ep-With-Christine-DeMao/": {
+      "title": "Hiring A COO And Creating Partnership Paths Early To Drive Enterprise Value On The Path To $3B AUM: #FASuccess Ep 498 With Christine DeMao",
+      "source": "Kitces.com",
+      "date": "2026-07-14T11:05:13+00:00",
+      "composite": 2.33,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This podcast episode interviews Christine DeMao, COO of Gibson Capital, about their approach to succession planning and partnership pathways at their $3B AUM wealth management firm. The episode discusses how they created a 'Path to Partnership' document with clear prerequisites, conducted four rounds of partnership offerings including operations professionals, and developed infrastructure like role grids for distributed leadership. The content focuses on human capital management and organizational design in traditional wealth management, which does not intersect with AI, technology infrastructure, or the specified topic areas.",
+      "tags": [
+        "succession-planning",
+        "partnership-structures",
+        "wealth-management",
+        "organizational-design",
+        "operations-leadership",
+        "ria-firms"
+      ],
+      "status": "skipped",
+      "skip_reason": "Content focuses on traditional wealth management organizational structure and partnership pathways without any connection to AI, technology infrastructure, or the specified topic areas of interest."
+    },
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoVDdOX2p1OTZVN3poWHRVWmE5WVpsRmh0UFg4WjRrZzR5al9EVTg5Mmhyc3VxXzVVWjJtZk5rTzY2YXNBTDU2WUFoVnhGSUNaU2dpYzg4YnB6RzlkSExUSGp6UWxtdXlOSFphdmxmeE1HWm9Meno0Y2ZSdy11dw?oc=5": {
+      "title": "Palantir and Rackspace launch operating model for rapid AI deployment in regulated industries - eciks.org",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-13T16:23:42+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-product-and-engineering",
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to announce a partnership between Palantir and Rackspace for AI deployment in regulated industries, but the actual content is completely inaccessible. The provided text consists entirely of Google's cookie consent dialog and language selection options with no substantive information. Without access to the actual article content, it's impossible to evaluate claims, evidence, or significance.",
+      "tags": [
+        "palantir",
+        "rackspace",
+        "regulated-industries",
+        "enterprise-deployment"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is completely inaccessible; only cookie consent dialog was captured with no substantive information to evaluate."
+    },
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT1RNZzRfZXE4Njl2MGJ0MmZMNWZWQmFoZnNWdEVxRDR5UnBNazJVY0Y0dTlxS1djZ09KZU5zSEo5dG5FYndnWWVvS0hYeGJacDJTRHMwNURtYkZzVzhmM0FtTVdMQVNPaEpUSXdBLXFPeHlxYktmdzJrb0RMOU1rOERxWC1VTjVOem85ZE4yay1fRVR5VU9FWVFpdHVEM1FtWFkzYUpmUFhubW9IcWxOejdqamhZNENHaGJHU2hnTHBucGhBdkRQbllzU0I1d09OcjlGR3RWVQ?oc=5": {
+      "title": "Op-Ed: AI Arrived on the Factory Floor Before the Foundation Did - Automation World",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-08T19:48:16+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "The article appears to be inaccessible as the provided text only contains Google's cookie consent dialog and no actual article content. No arguments, evidence, or analysis can be extracted from a cookie consent page. This prevents any meaningful assessment of the article's substance or relevance to AI topics.",
+      "tags": [
+        "cookie-consent",
+        "no-content",
+        "access-error"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is not accessible; only Google cookie consent dialog text was provided with no actual article substance to evaluate."
+    },
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbjd2NU1xQUNubDVWSHhkV3ZORWRKTU5sVTBHYXFXcFEzZXJlc2gwdldxX01sN0lYSmNiZXhqSm0tMXhLRGlpRHA3WFlGbGwtNGV5R2tYN3JXSDZodTdWb1c3NElQM1N0SjlKSmI5ZUdBQjhxd2ctSzI5dm1ldVJHbVNncTZqTjBTQ1NuNFloWDFkaTNwTk5DeTBvOXVkd0EtSFBV?oc=5": {
+      "title": "Accenture, Google Cloud launch agentic solutions for mid-market firms - Yahoo Finance",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-08T10:59:56+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce a partnership between Accenture and Google Cloud to launch agentic AI solutions targeting mid-market firms. However, the actual article content is completely obscured by Google's cookie consent wall, providing no substantive information about the solutions, implementation details, or business model. Without access to the actual content, no meaningful evaluation of depth, novelty, or insights can be made.",
+      "tags": [
+        "agentic-ai",
+        "mid-market",
+        "google-cloud",
+        "accenture",
+        "partnership"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content entirely inaccessible due to cookie consent wall; no substantive information available to evaluate claims, evidence, or insights."
     }
   }
 }
