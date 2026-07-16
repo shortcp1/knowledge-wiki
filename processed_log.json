@@ -32607,6 +32607,499 @@
       ],
       "status": "skipped",
       "skip_reason": "Article content entirely inaccessible due to cookie consent wall; no substantive information available to evaluate claims, evidence, or insights."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/17": {
+      "title": "17",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-16T02:00:51.027875+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a table of contents page listing Andrew Ng's newsletter letters from The Batch covering topics like data-centric AI competitions, AI product development, and mental health. The page shows titles and brief excerpts from 12 different letters published between June and October 2021. It serves as a navigation index rather than substantive content.",
+      "tags": [
+        "data-centric-ai",
+        "ai-product-development",
+        "newsletter-index"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is merely a table of contents/navigation page with article titles and brief excerpts, containing no substantive analysis, novel insights, or actionable content."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/16": {
+      "title": "16",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-16T02:00:50.892341+00:00",
+      "composite": 1.67,
+      "depth": 2,
+      "novelty": 1,
+      "relevance": 2,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is an index page listing titles and brief excerpts from Andrew Ng's newsletter letters spanning late 2021 to early 2022. The letters cover various topics including AGI, data-centric AI, AI careers, and industrial automation, but provide no substantive content beyond headlines and opening sentences. This is purely navigational content with no analytical depth, novel insights, or actionable information.",
+      "tags": [
+        "newsletter-index",
+        "data-centric-ai",
+        "ai-careers"
+      ],
+      "status": "skipped",
+      "skip_reason": "This is a navigation/index page with no substantive content, only listing newsletter titles and excerpts without any actual analysis, insights, or information to evaluate."
+    },
+    "https://www.deeplearning.ai/the-batch/tag/letters/page/15": {
+      "title": "15",
+      "source": "The Batch (DeepLearning.AI)",
+      "date": "2026-07-16T02:00:50.892289+00:00",
+      "composite": 2.33,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "data-moats-proprietary-advantages",
+        "funding-and-market-structure"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This is an index page listing titles and brief excerpts from Andrew Ng's newsletter letters from 2022, covering topics like AI startup building, data moats, interest rates' impact on AI investment, and AI sentience debates. The page provides only headlines and opening sentences without substantive analysis or original research. It serves as a table of contents rather than containing actionable insights or novel frameworks.",
+      "tags": [
+        "ai-startups",
+        "data-moats",
+        "venture-funding",
+        "newsletter-index"
+      ],
+      "status": "skipped",
+      "skip_reason": "Index page containing only article titles and brief excerpts without substantive content, analysis, or actionable insights."
+    },
+    "https://www.anthropic.com/news/finance-agents": {
+      "title": "Finance Agents",
+      "source": "Anthropic Blog",
+      "date": "2026-07-16T02:00:47.929133+00:00",
+      "composite": 5.0,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-finance-accounting",
+        "agentic-workflows-production",
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "Anthropic announces ten pre-built AI agent templates for financial services tasks like pitchbook creation, KYC screening, and month-end closing, available as plugins for Claude Cowork/Code or as managed agents. The templates package task-specific instructions, data connectors, and sub-agents, with integration across Microsoft 365 applications and a new finance-focused Claude Opus 4.7 model scoring 64.37% on Vals AI's Finance Agent benchmark. This represents a productization strategy to reduce deployment time from months to days for financial institutions adopting AI agents.",
+      "tags": [
+        "financial-services-agents",
+        "pre-built-templates",
+        "microsoft-365-integration",
+        "kyc-automation",
+        "pitchbook-generation",
+        "month-end-close"
+      ],
+      "status": "skipped",
+      "skip_reason": "Product announcement with limited technical depth or novel insights; primarily describes commercial offerings rather than original analysis or research on agent architecture, evaluation methodology, or deployment challenges."
+    },
+    "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything": {
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "source": "Simon Willison",
+      "date": "2026-07-16T00:33:18+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-engineering-agents"
+      ],
+      "content_type": "technical",
+      "summary": "The article describes a small tool that converts Mermaid diagrams to Unicode box art in browsers using WebAssembly, extracted from the Grok CLI coding agent codebase. The author used Claude Code to port the Rust mermaid renderer to run via WebAssembly in a browser. This is a minor tooling note about repurposing a component from an AI coding agent rather than substantial analysis or research.",
+      "tags": [
+        "mermaid-diagrams",
+        "webassembly",
+        "rust",
+        "coding-agents",
+        "developer-tools"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level blog post about a minor developer tool extraction with no original analysis, novel claims, or meaningful relevance to core AI/ML topics."
+    },
+    "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything": {
+      "title": "xai-org/grok-build, now open source",
+      "source": "Simon Willison",
+      "date": "2026-07-15T23:59:30+00:00",
+      "composite": 7.0,
+      "depth": 7,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-engineering-agents",
+        "agentic-workflows-production",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "technical",
+      "summary": "xAI open-sourced their Grok Build CLI tool codebase (844,530 lines of Rust) after severe backlash when users discovered it was uploading entire directories including sensitive data like SSH keys and password databases to xAI's cloud storage. The company responded by deleting all previously uploaded data, disabling default data retention, and releasing the full codebase under Apache 2.0 to regain user trust. The codebase reveals system prompts, tool implementations ported from other coding agents (Codex, OpenCode), and disabled remnants of the problematic cloud upload functionality.",
+      "tags": [
+        "grok-build",
+        "coding-agents",
+        "data-privacy",
+        "open-source-release",
+        "rust-codebase",
+        "system-prompts"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/": {
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "source": "MIT Technology Review",
+      "date": "2026-07-15T17:09:37+00:00",
+      "composite": 7.0,
+      "depth": 6,
+      "novelty": 7,
+      "relevance": 8,
+      "relevant_topics": [
+        "evals-production-deployment",
+        "ai-governance-risk-compliance",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "OpenAI built GPT-Red, an AI red-teaming system that uses self-play loops to discover novel attack vectors against LLMs, particularly prompt injection attacks, and used it to harden GPT-5.6. GPT-Red discovered previously unknown attack types like 'fake chain of thought' injections that trick models by inserting spoofed entries into their reasoning process. This automates safety testing as LLMs become more complex and deployed as agents, addressing the growing attack surface that human red-teamers struggle to cover comprehensively.",
+      "tags": [
+        "red-teaming",
+        "prompt-injection",
+        "self-play",
+        "chain-of-thought",
+        "adversarial-testing",
+        "llm-security"
+      ],
+      "status": "integrated"
+    },
+    "https://engineering.fb.com/2026/07/15/ai-research/exploring-hierarchical-interest-representation-for-meta-ads-deep-funnel-optimization/": {
+      "title": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
+      "source": "Meta AI / FB Engineering",
+      "date": "2026-07-15T17:00:52+00:00",
+      "composite": 6.67,
+      "depth": 6,
+      "novelty": 6,
+      "relevance": 8,
+      "relevant_topics": [
+        "ai-in-marketing-content",
+        "ai-in-sales-gtm",
+        "model-architecture"
+      ],
+      "content_type": "technical",
+      "summary": "Meta introduces Hierarchical Interest Representation (HIR), a transformer-based graph learning system that creates unified embeddings connecting user interests with advertiser offerings for deep funnel ad optimization. The system uses bias-aware attention, self-supervised cross-view distillation, and multimodal LLM-processed content to learn interest representations across billions of interactions on Meta's massive user-advertiser-product graph. This aims to improve ad relevance by mapping latent interests from sparse engagement signals to advertiser offerings, enabling better deep funnel conversion optimization.",
+      "tags": [
+        "hierarchical-interest-representation",
+        "graph-learning",
+        "ad-targeting",
+        "deep-funnel-optimization",
+        "self-supervised-learning",
+        "multimodal-embeddings"
+      ],
+      "status": "integrated"
+    },
+    "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything": {
+      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+      "source": "Simon Willison",
+      "date": "2026-07-15T14:21:54+00:00",
+      "composite": 8.0,
+      "depth": 7,
+      "novelty": 8,
+      "relevance": 9,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "evals-production-deployment",
+        "agentic-workflows-production"
+      ],
+      "content_type": "technical",
+      "summary": "This article reports on a data exfiltration vulnerability in Claude's web_fetch tool where an attacker bypassed Anthropic's URL restrictions by creating nested links that progressively leaked user data (name, location, employer). The attack exploited the fact that while web_fetch couldn't visit attacker-controlled URLs directly, it could follow links embedded in pages it had already fetched, allowing a letter-by-letter extraction scheme. This matters because it demonstrates how even carefully designed safety restrictions in agentic systems can have subtle loopholes that enable the 'lethal trifecta' attack pattern of memory access + web tools + data exfiltration.",
+      "tags": [
+        "data-exfiltration",
+        "prompt-injection",
+        "web-fetch-tool",
+        "lethal-trifecta",
+        "agentic-security",
+        "claude-vulnerabilities"
+      ],
+      "status": "integrated"
+    },
+    "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/": {
+      "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
+      "source": "MIT Technology Review",
+      "date": "2026-07-15T12:10:00+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is a newsletter digest summarizing multiple technology news items, including PsiQuantum's photonic quantum computer plans, Meta's alleged AI-driven worker targeting, OpenAI's upcoming smart speaker device, and various other tech industry updates. The content provides surface-level summaries with links to other sources rather than original reporting or analysis. It functions as a news aggregation service rather than substantive content on any single topic.",
+      "tags": [
+        "quantum-computing",
+        "photonic-computing",
+        "news-digest",
+        "ai-devices",
+        "workforce-layoffs"
+      ],
+      "status": "skipped",
+      "skip_reason": "Newsletter digest format provides only surface-level summaries without original analysis, depth, or substantive coverage of any relevant AI/semiconductor topic areas."
+    },
+    "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action": {
+      "title": "The US is advancing AI safety through state and federal action",
+      "source": "OpenAI News",
+      "date": "2026-07-15T12:00:00+00:00",
+      "composite": 4.67,
+      "depth": 3,
+      "novelty": 4,
+      "relevance": 7,
+      "relevant_topics": [
+        "regulatory-policy",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "landscape",
+      "summary": "OpenAI proposes a 'reverse federalism' approach where state-level AI legislation informs and builds toward a cohesive federal AI governance framework in the US. The article outlines this governance philosophy without providing specific policy mechanisms, technical details, or comparative analysis of existing state laws. This represents OpenAI's policy positioning on multi-level AI regulation rather than substantive analysis of how such governance would work in practice.",
+      "tags": [
+        "reverse-federalism",
+        "state-legislation",
+        "ai-governance",
+        "regulatory-framework",
+        "policy-positioning"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level policy announcement without detailed mechanisms, evidence, or original analysis of governance approaches."
+    },
+    "https://openai.com/index/unlocking-self-improvement-gpt-red": {
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "source": "OpenAI News",
+      "date": "2026-07-15T10:00:00+00:00",
+      "composite": 3.0,
+      "depth": 2,
+      "novelty": 3,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-governance-risk-compliance",
+        "evals-production-deployment"
+      ],
+      "content_type": "technical",
+      "summary": "The article introduces GPT-Red, OpenAI's automated red teaming system that uses self-play to enhance AI safety and robustness against prompt injection attacks. The provided text is minimal and appears to be only a meta description or headline without substantive technical details about the mechanism, methodology, or results. Without the actual article content, it's impossible to assess the evidence, implementation details, or practical implications for AI safety practices.",
+      "tags": [
+        "red-teaming",
+        "prompt-injection",
+        "ai-safety",
+        "self-play"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text appears to be only a meta description without substantive content - lacks technical depth, methodology details, or actionable insights needed for knowledge base inclusion."
+    },
+    "https://www.bain.com/insights/topics/gaming-report/2025/": {
+      "title": "2025",
+      "source": "Bain Insights",
+      "date": "2026-07-16T02:00:51.476167+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This appears to be a navigation page or header content from Bain & Company's website listing their offices and service areas globally. It contains no substantive content about gaming, AI, or any analytical topics\u2014only website navigation elements, office locations, and menu structures. This is not an article but rather web page scaffolding that was likely scraped in error.",
+      "tags": [
+        "web-navigation",
+        "bain-company",
+        "office-locations"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content present; this is website navigation scaffolding with no analytical claims, data, or relevant insights."
+    },
+    "https://www.bain.com/insights/events/bain-at-sibos-2026/": {
+      "title": "Bain At Sibos 2026",
+      "source": "Bain Insights",
+      "date": "2026-07-16T02:00:51.242663+00:00",
+      "composite": 1,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a navigation page or event listing for Bain's attendance at Sibos 2026, a financial services conference. No substantive content, analysis, or insights are provided beyond basic website navigation elements and office locations. This is purely promotional/navigational content with no actionable information or analysis.",
+      "tags": [
+        "sibos",
+        "financial-services",
+        "conference"
+      ],
+      "status": "skipped",
+      "skip_reason": "No substantive content - purely a navigation/promotional page with no analysis, insights, data, or actionable information relevant to AI or technical topics."
+    },
+    "https://www.bain.com/insights/events/mwc/": {
+      "title": "Mwc",
+      "source": "Bain Insights",
+      "date": "2026-07-16T02:00:50.721751+00:00",
+      "composite": 1.0,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 1,
+      "relevant_topics": [],
+      "content_type": "landscape",
+      "summary": "This is not an article but a navigation menu from Bain & Company's website, showing only office locations, practice areas, and site structure. It contains no substantive content, analysis, research, or insights of any kind. This appears to be a web scraping error that captured only the header/navigation elements rather than actual article content.",
+      "tags": [
+        "web-navigation",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content present; only website navigation menu and office listings were captured."
+    },
+    "https://tearsheet.co/banking/the-four-questions-steering-modern-banking-strategy/?utm_source=rss&utm_medium=rss&utm_campaign=the-four-questions-steering-modern-banking-strategy": {
+      "title": "The four questions steering modern banking strategy",
+      "source": "Tearsheet (fintech)",
+      "date": "2026-07-15T11:30:00+00:00",
+      "composite": 4.67,
+      "depth": 4,
+      "novelty": 3,
+      "relevance": 7,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article argues that banks are making strategic choices about their role in the financial ecosystem as AI automates routine transactions and advice. It presents KeyBank's case that AI should compress customer insight gathering from 30 minutes to 30 seconds, freeing bankers for higher-value relationship work and complex financial guidance. The piece suggests competitive advantage is shifting from transaction processing and product ownership to contextual customer understanding and ecosystem positioning.",
+      "tags": [
+        "relationship-banking",
+        "transaction-automation",
+        "customer-insights",
+        "financial-advice",
+        "banking-strategy"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level summary of banking AI strategy with limited concrete evidence, incomplete article text, and no novel frameworks or data beyond generic claims about AI automating routine work."
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ2V1NktpLVdYbmFFckxVWDFlcUF4cFdLUzgzeUs3Mkh0LTl1aXp0UUpUeXFQODV0RmdPN1V2MURNRFdXTEZ4SU5Fc2ZvRG90a2JaR1VRWWx5Nzh3Xzh5cGZnZnRyaFA1UEJPb1B4XzBMRUtqX0lab2Rmb3RRY3Vadk44QThJeXU3ZDFHTjQ3VjlCYzRPOHBPdnlWTmo?oc=5": {
+      "title": "AI in Fintech: Use Case, Benefits & More - Intuit",
+      "source": "GN: AI Fintech Deployment",
+      "date": "2026-07-15T22:57:21+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-in-finance-accounting"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This article appears to be inaccessible as the provided text only contains Google's cookie consent dialog and language selection interface. No actual content about AI in fintech use cases, benefits, or implementations is present in the extracted text. The article cannot be evaluated for its claims, evidence, or impact due to the absence of substantive content.",
+      "tags": [
+        "fintech",
+        "cookies-consent",
+        "no-content"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text consists entirely of a Google consent dialog with no actual content about AI in fintech; cannot evaluate claims, analysis, or relevance."
+    },
+    "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOY1JVSEV3aF94czZ6Vl91aWxZUWkyZktmR2h5T091TmJNVnFIemkzSmpXSjRoUFh4U0dldlhqYWVJNkhJTzczSDB2T1MxQjJlQzIzTnhpcEVzTHFYRjc3SWNfRTFIV3hJek9rQ292WGEyRWg2WmgyclhOd1loMDI4YXByQmVpdGFRVmF4Q21qWlJhSFBEVlI2QXo0b3JWcHQ1S3Jmd1FPX21tU2ZLR1dTQ1NVRkRKMVpKSGxoZ2JIeXNjbXI0NkpwNEh4QVQ5RlN3akhZVEI3ZE11T3NNc1JJWkY1a2lWbEpVbjB0aFhfZkhTLTVZ?oc=5": {
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem \u2014 and most are calling chatbots agents - VentureBeat",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-15T22:24:17+00:00",
+      "composite": 2.3,
+      "depth": 2,
+      "novelty": 2,
+      "relevance": 3,
+      "relevant_topics": [
+        "agentic-workflows-production",
+        "ai-org-design-headcount"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to argue that enterprise AI organizations face deployment challenges rather than platform issues, and that many are mislabeling chatbots as AI agents. However, the provided text contains only a Google cookie consent page without any actual article content. Without access to the substantive article text, no meaningful evaluation of evidence, mechanisms, or impact can be made.",
+      "tags": [
+        "agentic-orchestration",
+        "enterprise-deployment",
+        "chatbots",
+        "ai-agents"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article text not accessible - only cookie consent page provided, preventing evaluation of actual content depth, novelty, or substantive claims."
+    },
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZnBaeEZOT1h5Xy1PNHE4VmttLWlIZ1hGVWpNaWM4bFhPWk44RWxnanBIRkc0bmhiX1dVTGc1aWVkNGkycGh6VDZKMEtIV09rM1NlTlNLT01wWGtFbUhXTWwtU3Q0TnFlTEFEMzFGeE1HbVBEMUhoWUQ5RkZPLXNQU3dtZHpJZUVSNFBCcHBudHQxZ2prYWdJbmJKcldjNFY4b3FtNlBhaDFnck9EZEt0TkhyaGV6UmFYeV9lVjkzcEJHeHNHNkFBczBFV3Q3Q1pqUDVHOUZDaHpXZUE?oc=5": {
+      "title": "QumulusAI, AI GPU Cloud Infrastructure Provider, Files for Nasdaq Global Market IPO - TradingView",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-15T20:09:02+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "funding-and-market-structure"
+      ],
+      "content_type": "landscape",
+      "summary": "The article title indicates QumulusAI, an AI GPU cloud infrastructure provider, has filed for a Nasdaq IPO. However, the article body contains only a Google cookie consent page with no actual content about QumulusAI or the IPO filing. Without access to the actual article content, no substantive information about the company, its business model, market position, or IPO details can be evaluated.",
+      "tags": [
+        "gpu-cloud",
+        "ipo",
+        "infrastructure-provider"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article contains no actual content\u2014only a Google cookie consent page with no information about the purported QumulusAI IPO filing."
+    },
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTN3Q3l2SUNkY1JwVE5zNU9JNjV0b1dtNXZTMmFoQ1FXQnVqbFppQ3k3YkZiZDlJbDdZRjRzeDIzVDNUMVZPQU1rMzNKcUJDX1FIeV94Xy1tanh2OThLRzlkOHJjM1ZwaGVSR0lrRXF3Snc0UE51T2NVYl9zYTN0Z29adjRTZw?oc=5": {
+      "title": "How to Use AI Lead Scoring as a Financial Advisor - SmartAsset",
+      "source": "GN: AI Financial Advisor Workflow",
+      "date": "2026-07-15T14:07:32+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "ai-wealth-management-advisory"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "This appears to be a Google cookie consent page rather than actual article content about AI lead scoring for financial advisors. No substantive content about AI, lead scoring methodology, or financial advisory workflows is present in the provided text. The article cannot be evaluated as it contains only standard web consent language with no actual analysis or information.",
+      "tags": [
+        "lead-scoring",
+        "financial-advisors",
+        "consent-page"
+      ],
+      "status": "skipped",
+      "skip_reason": "No actual article content provided - only a Google cookie consent page with no substantive information about AI lead scoring or financial advisory applications."
+    },
+    "https://feeds.feedblitz.com/~/960480776/0/kitcesnerdseyeview~The-Tiers-Of-Documents-That-Advisory-Firms-Retain-To-Stay-Compliant-And-Better-Serve-Their-Clients/": {
+      "title": "The 3 Tiers Of Documents That Advisory Firms Retain To Stay Compliant (And Better Serve Their Clients)",
+      "source": "Kitces.com",
+      "date": "2026-07-15T11:01:55+00:00",
+      "composite": 3.0,
+      "depth": 3,
+      "novelty": 2,
+      "relevance": 4,
+      "relevant_topics": [
+        "ai-wealth-management-advisory",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article outlines a three-tier framework for financial advisory documentation: regulatory-required documents (Tier 1), records of client interactions (Tier 2), and rationale documentation for recommendations (Tier 3). It provides practical advice on implementing consistent documentation processes, including building time into client meeting workflows and using dictation tools for efficiency. The framework matters for regulatory compliance, fiduciary duty fulfillment, and protecting against future client disputes.",
+      "tags": [
+        "financial-advisory",
+        "compliance-documentation",
+        "client-relationship-management",
+        "fiduciary-duty",
+        "regulatory-compliance",
+        "workflow-processes"
+      ],
+      "status": "skipped",
+      "skip_reason": "Surface-level operational framework for traditional advisory firms with no AI-specific insights, limited depth in implementation details, and only tangential relevance to AI topics through potential automation opportunities."
+    },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ETDNsRFZQZGZNWU9BeHBJVDlSVnRMWFVUZThMdjZocUF3R2NxVXpZd2taN0JZekE1T25DcGRZR1FSV1JsbFQ1d1BmMDZfUklQVUdyZlQyN21uR3h3R0dWYlQzOGtzblR2MEZoMk04c2hRWWtydjlIVQ?oc=5": {
+      "title": "Palantir partners with Rackspace to deploy AI in regulated sectors - eciks.org",
+      "source": "GN: AI Mid-Market Enterprise",
+      "date": "2026-07-13T15:56:44+00:00",
+      "composite": 1.67,
+      "depth": 1,
+      "novelty": 1,
+      "relevance": 3,
+      "relevant_topics": [
+        "build-vs-buy-enterprise-ai",
+        "ai-governance-risk-compliance"
+      ],
+      "content_type": "enterprise_use_case",
+      "summary": "The article appears to announce a partnership between Palantir and Rackspace to deploy AI solutions in regulated sectors. However, the actual article text provided is only a Google cookie consent page with no substantive content about the partnership, its technical details, or business implications. Without access to the real article content, it's impossible to evaluate the depth, novelty, or specific relevance of the claims being made.",
+      "tags": [
+        "palantir",
+        "rackspace",
+        "regulated-industries",
+        "enterprise-partnership"
+      ],
+      "status": "skipped",
+      "skip_reason": "Article content is inaccessible (only Google cookie consent page provided); no substantive information available to evaluate claims, evidence, or impact."
     }
   }
 }

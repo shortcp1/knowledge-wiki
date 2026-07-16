@@ -1,5 +1,5 @@
 ---
-tags: [agentic-operations, ai-adoption-barriers, ai-adoption-fear, ai-discoverability, ai-governance, ai-in-marketing-content, ai-leadership-gap, answer-layer, b2b-marketing-maturity, brand-representation, brand-safety, claude-anthropic, code-generation, content-quality-control, cost-vs-growth-narrative, cursor-ide, data-quality-blockers, employee-anxiety, employee-displacement-anxiety, executive-messaging, function-specific-adoption, generative-engine-optimization, geo-optimization, geo-playbook, governed-inference-portfolio, human-centered-ai, inference-costs, manager-ai-competence, marketing-ai-maturity, marketing-transformation, open-weight-models, organizational-change-management, retrieval-signals, tool-fragmentation, training-signals, workforce-displacement]
+tags: [ad-targeting, agentic-operations, ai-adoption-barriers, ai-adoption-fear, ai-discoverability, ai-governance, ai-in-marketing-content, ai-leadership-gap, answer-layer, b2b-marketing-maturity, brand-representation, brand-safety, claude-anthropic, code-generation, content-quality-control, cost-vs-growth-narrative, cross-view-distillation, cursor-ide, data-quality-blockers, deep-funnel-optimization, employee-anxiety, employee-displacement-anxiety, executive-messaging, function-specific-adoption, generative-engine-optimization, geo-optimization, geo-playbook, governed-inference-portfolio, graph-learning, hierarchical-interest-representation, human-centered-ai, inference-costs, interest-embeddings, manager-ai-competence, marketing-ai-maturity, marketing-transformation, meta-ads, multimodal-embeddings, multimodal-enrichment, open-weight-models, organizational-change-management, retrieval-signals, self-supervised-learning, sparse-signal-modeling, tool-fragmentation, training-signals, workforce-displacement]
 ---
 
 # AI in Marketing & Content
@@ -19,25 +19,22 @@ Key questions tracked: How are brands managing quality and brand voice at AI-gen
   - **Level 0**: Chat-as-thought-partner (individual exploration)
   - **Level 1**: Skill-driven production (structured individual use)
   - **Level 2**: Team-level collaboration (coordinated workflows)
-  - **Level 3**: Agentic operations (autonomous, governed systems)
-- **Success Factor**: Prerequisite levels cannot be skipped; transitions between levels are where most teams stall
-- **Quantitative Outcome**: Only 7% reach Level 3 with measurable business impact
-- **Generalizability**: Framework applies to any enterprise function adopting AI
+  - **Level 3**: Agentic operations (autonomous, governed)
 
-### The AI Leadership Gap in Marketing (Lomanto/Writer, June 2026)
-- **Business Problem**: Marketing teams adopting AI tools but facing displacement anxiety and leadership vacuum — 43% of marketing employees using AI believe their company would replace them with AI agents immediately
-- **Industry/Function**: Marketing / All functions within marketing organizations
-- **AI Pattern**: Agentic marketing transformation (multi-agent workflows)
-- **Critical Failure Patterns**:
-  - **Cost narrative dominance**: 53% of executives cite "efficiency with leaner team" as 3-year success metric; 47% say "productivity without adding headcount" is primary AI investment driver
-  - **Manager competence gap**: 55% of marketing employees know more about AI in their role than their direct manager; only 35% have managers who actively champion AI
-  - **Psychological safety collapse**: 25.8% believe openly criticizing company AI approach is career risk; 26%+ believe refusing AI use would result in termination
-  - **Direction vacuum**: 58% say their manager is "open to AI" but provides little real direction or encouragement
-  - **Executive stress**: 72% of C-suite leaders report company AI strategy is a source of personal stress
-- **Success Factors**:
-  - Leaders must articulate human-centered vision before efficiency narrative fills vacuum
-  - Connect AI adoption to revenue growth, not just cost reduction
-  - Manager competence through hands-on tool use (credibility threshold)
-  - Clear role definition in AI-augmented workflows
-- **Quantitative Outcomes**: Survey shows widespread adoption (high %) but low trust and strategic clarity
-- **Generalizability**: Leadership gap pattern applies to any knowledge work function undergoing AI transformation where cost-cutting narrative dominates without growth/value-creation counter-narrative
+### Meta Ads Hierarchical Interest Representation (July 2026)
+- **Research Area**: Deep funnel optimization for Meta advertising platform
+- **Scale**: Trained end-to-end on billions of interactions across Meta's ads network
+- **Network Size**: "One of the largest graph networks in the industry" — millions of advertisers, millions of ads, billions of users monthly
+- **Core Innovation**: Upstream representation layer learning unified embeddings connecting user interests with advertiser offerings across graph topology
+- **Technical Architecture**:
+  - In-house transformer-based graph learning with bias-aware attention
+  - Self-supervised cross-view distillation
+  - Multi-hierarchical interest representations (stable high-level anchors + specialized sparse deep funnel signals)
+  - Multimodal advertiser and product content processed through LLMs to enrich sparse interactions
+- **Key Challenge Addressed**: Signal scarcity in deep funnel — ad impressions are limited and conversion feedback is sparse despite massive scale
+- **Output Format**: Universal embeddings for ads entities + "Bag-of-Meaning" interest tokens
+- **Intended Applications**: Personalization, retrieval, supervision, specialized ranking across ads stack
+- **Integration Points**: Designed to work with Meta's Generative Ads Model (GEM), Andromeda, Adaptive Ranking Model (see [[meta-ads-infrastructure]])
+- **Knowledge Fusion Approach**: Blends real-world multimodal knowledge with engagement signals to enable generalization to rare and unseen entities
+- **Graph Learning Innovation**: Navigates long-range graph topologies while remaining memory-efficient despite computational demands of global relationship modeling
+- **User Signal Handling**: Incorporates both explicit feedback (e.g., "Interested/Not interested") and inferred interests from engagement patterns
