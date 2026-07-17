@@ -705,7 +705,119 @@ All articles scanned since the wiki started. Updated nightly.
 #end_to_end_encryption #hsm #key_management #infrastructure_security
 > Meta describes infrastructure improvements to their HSM-based Backup Key Vault that powers end-to-end encrypted backups for WhatsApp and Messenger, including over-the-air fleet key distribution for Messenger and commitments to publish deployment evidence. The system uses tamper-resistant hardware security modules with majority-consensus replication across datacenters, and now delivers fleet public keys via Cloudflare-signed validation bundles. This represents incremental security infrastructure improvements for consumer messaging apps rather than novel cryptographic or AI-related advances.
 
+## 2026-07-17
+
+**✗ 2.0** — [18](https://www.deeplearning.ai/the-batch/tag/letters/page/18)  
+*The Batch (DeepLearning.AI)* · ai-in-product-and-engineering
+#mlops #data_centric_ai #ai_project_scoping #andrew_ng
+> This is a table of contents page listing Andrew Ng's newsletter letters from March-May 2021, covering topics like MLOps, data-centric AI, and AI project management. The page provides only titles and brief excerpts without full article content or detailed analysis. It serves as an index rather than substantive content on any single topic.
+
+**✗ 2.3** — [19](https://www.deeplearning.ai/the-batch/tag/letters/page/19)  
+*The Batch (DeepLearning.AI)* · 
+#newsletter_index #andrew_ng #deeplearning_ai
+> This is a table of contents page listing Andrew Ng's newsletter letters from late 2020 to early 2021, covering topics like AI development best practices, ethical AI, startup advice, and data-centric AI. The page provides only article titles and brief excerpts without substantive content. It serves as an index rather than containing analyzable technical or business insights.
+
+**✗ 5.3** — [Apple Sues Former Partner Openai](https://www.deeplearning.ai/the-batch/apple-sues-former-partner-openai)  
+*The Batch (DeepLearning.AI)* · lab-dynamics · agentic-workflows-production · ai-engineering-agents
+#trade_secrets #agentic_workflows #multimodal_reasoning #tool_use
+> The article reports on three major developments: Apple's lawsuit against OpenAI alleging theft of hardware trade secrets through former employees, Meta's release of Muse Spark 1.1 with improved agentic capabilities and a one-million-token context window, and OpenAI's launch of ChatGPT Work to compete with Claude Cowork. The evidence includes specific allegations about employee conduct, technical benchmarks for the Meta model, and product features for the OpenAI agent. These developments signal intensifying competition in agentic AI systems and growing legal/IP tensions as AI labs expand into hardware and enterprise workflows.
+
+**✗ 2.3** — [Infra](https://a16z.com/infra/)  
+*a16z* · ai-engineering-agents
+#venture_capital #portfolio_companies #investment_announcements
+> This is a portfolio landing page from a16z's infrastructure investment team showcasing recent investments and content. The page lists portfolio announcements (Runta, Netris, Mirendil, Exa, Glif, GitButler) and podcast episodes covering topics like AI agents, search infrastructure, coding tools, and version control. This is marketing/promotional content rather than substantive analysis or research.
+
+**✓ 6.0** — [[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing](https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest)  
+*Latent Space* · model-architecture · lab-dynamics · funding-and-market-structure
+#open_weights #kimi_k3 #2_8t_parameters #delta_attention
+> Moonshot AI released Kimi K3, a 2.8 trillion parameter open-weights model that ranks competitively with Claude Opus 4.8 and GPT-5.5, claiming it will be the largest open model ever when weights are released by July 27, 2026. The model scores 57 on the Artificial Analysis Intelligence Index and achieved #1 ranking in Frontend Code Arena (76% win rate vs 63% for Fable 5), with notable improvements in long-context processing (1M tokens), multimodal capabilities, and new architectural features like Kimi Delta Attention and Attention Residuals. This represents a major step in open model competitiveness with frontier closed models, though Moonshot acknowledges a "noticeable gap in user experience" versus Claude Fable 5 and GPT-5.6 Sol.
+
 ## 2026-07-16
+
+**✗ 3.0** — [Firefox in WebAssembly](https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything)  
+*Simon Willison* · 
+#webassembly #browser_compilation #ai_assisted_programming #claude_opus
+> The article reports on Puter's compilation of Firefox/Gecko to WebAssembly, enabling a full browser to run inside another browser, developed using approximately $25,000 worth of Claude Opus and Fable AI tokens. The implementation requires WebSocket proxying through Puter's servers for network connectivity and supports end-to-end encryption for HTTPS traffic. This demonstrates AI-assisted programming capabilities for large-scale systems engineering but is primarily a technical demonstration rather than a production use case.
+
+**✗ 4.0** — [Kimi K3, and what we can still learn from the pelican benchmark](https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything)  
+*Simon Willison* · model-architecture · lab-dynamics
+#kimi_k3 #model_benchmarking #parameter_count #api_pricing
+> Simon Willison reports on Moonshot AI's release of Kimi K3, a 2.8 trillion parameter model that beats most current models except Claude Fable 5 and GPT-5.6 Sol, priced at $3/$15 per million tokens. He tests it using his informal 'pelican benchmark' (generating an SVG of a pelican on a bicycle), which produced decent output for 25 cents but consumed 16,658 output tokens. Willison concludes the pelican test no longer correlates well with model quality since it doesn't evaluate agentic tool calling or long-context reliability, which are now the key differentiators.
+
+**✗ 1.7** — [Q&A: Vanguard Forecasts AI to Drive Strong Economic Growth - Wealth Management](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN1lFUjl3OTNfUU16OThEd1dGaDVsWi1hZ3Mtek0xMXB2ajR6WVRJb3g3RVlMR0ozVFU5MTV6eVR3OFIzTk0xOTBrMHlaTXVMc1BpaDZpVlNfbDVuTmgtTWVKZW1lUXNCWEp6Z0VFdDN6UTAwR0pVdktNMDFYWnlVSEpzNFFLX0hrbnkzQkNjR2YtQjZMdFRNdU9HN29udDM4TWZjN1NrV25SZw?oc=5)  
+*GN: AI Wealth Management* · ai-wealth-management-advisory
+#vanguard #economic_forecasting #wealth_management
+> This appears to be a Google cookie consent page rather than the actual article content about Vanguard's AI economic forecasts. No substantive content about AI, wealth management, or economic growth predictions is present in the provided text. The article cannot be properly evaluated as only the pre-content consent screen was captured.
+
+**✗ 5.0** — [Quoting Thibault Sottiaux](https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything)  
+*Simon Willison* · ai-engineering-agents · agentic-workflows-production
+#coding_agents #codex #file_deletion_bug #sandboxing
+> This article quotes a description of a critical bug in GPT-5.6's Codex where the model, when given full access without sandboxing, attempts to override the $HOME environment variable and accidentally deletes the home directory instead. The bug occurs specifically when auto-review protections are disabled and the model is attempting to define a temporary directory. This highlights significant safety risks in deploying AI coding agents without proper sandboxing and review mechanisms in production environments.
+
+**✗ 5.0** — [Partnering with Bunkerhill Health: AI Agents that Improve Patient Outcomes](https://sequoiacap.com/article/partnering-with-bunkerhill-health-ai-agents-that-improve-patient-outcomes/)  
+*Sequoia* · agentic-workflows-production · ai-in-operations · build-vs-buy-enterprise-ai
+#healthcare_ai #ai_agents #clinical_deployment #health_systems
+> Sequoia announces continued investment in Bunkerhill Health, which built Carebricks, an AI agent platform that enables health systems to deploy agents across clinical, operational, and administrative functions. The platform emerged from founder Nish Khandwala's experience seeing his Stanford research on cardiovascular risk detection fail to reach clinical practice (including his own father's case), learning that deployment infrastructure—not algorithm quality—is healthcare AI's main bottleneck. UTMB Health has deployed over 20 agents on the platform, consolidating multiple vendor point solutions into a single system.
+
+**✗ 4.3** — [Partnering with Sable: Closing the Diffusion Gap](https://sequoiacap.com/article/partnering-with-sable-closing-the-diffusion-gap/)  
+*Sequoia* · ai-in-sales-gtm · ai-in-customer-success-support · agentic-workflows-production
+#ai_employee #multimodal_agents #browser_automation #product_demos
+> Sequoia announces investment in Sable, a company building 'Aidan,' an AI employee that conducts customer calls using real-time browser interaction, vision, and voice to demonstrate products. The company has attracted 150+ waitlist companies including Notion and Decagon, with a founding team from Harvard that previously worked at SpaceX, Google, Meta, and Together AI. The investment thesis centers on closing the 'diffusion gap' between AI capability advancement and enterprise adoption through automated product demonstrations and customer education.
+
+**✗ 2.3** — [Why teens deserve access to safe AI](https://openai.com/index/why-teens-deserve-access-safe-ai)  
+*OpenAI News* · 
+#age_verification #parental_controls #safety_features #chatgpt
+> OpenAI announces age-appropriate safety features and parental controls for teenage users of ChatGPT. The article mentions partnerships with experts and learning tools but provides no technical details, implementation specifics, or novel safety mechanisms. This is a corporate communications piece about product policy rather than substantive analysis of AI safety, governance, or deployment challenges.
+
+**✗ 1.0** — [Schwab: Client Referrals Lead RIA Priority List in 2026 - Wealth Management](https://news.google.com/rss/articles/CBMipAFBVV95cUxOSmYxRkFldzZGSXJQUWJyakM5RFNUZEhvTEVWSmJ5QmNGcnUzNkd6MlRSVkxYVjhKLW5EY3hGLU5Xc2NWQ2VnRVJFTnlpUDEyUXg2Y2U2czlYODhENi1lZUlrSFZMaGY3OTZLZmx3bk83aVZxQ3VTQlJHOXpJMDNQYUxualp0TUFzMWp1bXp1MnNQRHdHZ2lpTHNhc1F0SzN1c0ZRbw?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#cookie_consent #access_blocked #no_content
+> This is not an article but a Google cookie consent page that appears before accessing content. It contains no substantive information about wealth management, RIAs, or client referrals. The actual article content was not successfully retrieved or provided.
+
+**✓ 8.0** — [🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences](https://www.latent.space/p/the-lab-of-the-future-should-feel)  
+*Latent Space Podcast* · ai-engineering-agents · agentic-workflows-production · lab-dynamics
+#lab_automation #scientific_reasoning_tokens #experimental_data_generation #cross_domain_transfer_learning
+> Lila Sciences is building an automated, AI-guided laboratory that operates 24/7 like a data center, treating the scientific method as an infinite token generator to produce over 10 trillion experimentally validated reasoning tokens across biology, chemistry, and materials science simultaneously. Their approach applies the bitter lesson to science: massive data generation at scale from real experiments creates a general scientific reasoner, with cross-domain transfer learning (e.g., small molecule chemistry priors helping carbon capture materials) and evidence of novel discoveries like unexpected electrocatalyst candidates. This represents a paradigm shift from software AI labs to AI-driven physical experimentation infrastructure, creating proprietary datasets that don't exist on the internet and potentially enabling scientific superintelligence through lab automation.
+
+**✗ 1.0** — [RIA Buyers Predict Valuations to Flatline - Wealth Management](https://news.google.com/rss/articles/CBMikAFBVV95cUxQcUQ2TWctN2NOVjRWSzZYZ2VYZDlnOTRxX3J0bE9PNXkxaVBSTmVLa3hCY3NYa0xNOGJ6WHVYdGJXUnM1UXRvUWdmNzFETV96WXJlY19VX2hlMEpFWVNpNmFlbUViUGluSXJXaDMzTWpucDZaYWFGQW9EcG1LVHFuOFBWbExBYTM0Y2hic1c0UVY?oc=5)  
+*GN: AI Financial Advisor Workflow* · 
+#cookie_consent #web_scraping_error #missing_content
+> This appears to be a Google cookie consent page rather than the actual article content about RIA buyer valuations. No substantive content about wealth management, RIA valuations, or AI financial advisor workflows is present in the provided text. The article cannot be evaluated as the actual content was not successfully captured.
+
+**✗ 3.0** — [The Download: OpenAI unveils GPT-Red and heat pumps rise in the US](https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/)  
+*MIT Technology Review* · model-architecture · ai-governance-risk-compliance
+#gpt_red #red_teaming #automated_safety #heat_pumps
+> This newsletter aggregates brief technology news including OpenAI's GPT-Red automated red-teaming system, rising US heat pump adoption despite ended tax credits, and various tech industry updates. The coverage provides surface-level summaries with minimal detail, primarily linking to other sources for full stories. It functions as a news digest rather than original analysis or investigation.
+
+**✗ 2.3** — [9 Best OCR Software for Insurance Document Processing: Ranked and Reviewed 2026 - Programming Insider](https://news.google.com/rss/articles/CBMirwFBVV95cUxNdDNTci1RTGxMQ3dNNlNldTlQTG5KVjM1WC11RU5zWVFlVW9jcnhTTHRGbHVJd0h2Sy1lSVhJcEtvcDBCcmw1aUR5c0JlVDlfQTMzOFUxdUh2a0xHdVBDOEM1VUlZdzdZUVdGVmp4bXp5OUpSZTc3LVJQOHYwcVBfTjJFRUE0aVBHck9jV21pT2FjdkRnbUlJQm9MOVQtOUJPYVZBSVN1Z0otLVFtT2lz?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-insurance-claims
+#ocr #insurance #document_processing
+> This article purports to rank and review OCR software for insurance document processing in 2026. However, the actual content provided is only a Google sign-in page with cookie consent information, containing no substantive analysis, reviews, or rankings. The article cannot be evaluated for its actual claims or evidence as the content is inaccessible.
+
+**✗ 3.0** — [With BNPL mainstream, Klarna shifts its focus to better economics](https://tearsheet.co/funding/with-bnpl-mainstream-klarna-shifts-its-focus-to-better-economics/?utm_source=rss&utm_medium=rss&utm_campaign=with-bnpl-mainstream-klarna-shifts-its-focus-to-better-economics)  
+*Tearsheet (fintech)* · 
+#bnpl #fintech_monetization #customer_engagement #banking_charter
+> The article argues that Klarna is shifting from growth through customer acquisition to monetizing existing relationships as BNPL becomes commoditized, pursuing strategies like a U.S. bank charter and embedding financial tools. The key evidence is that 43% of consumers now expect BNPL at checkout, making it table stakes rather than differentiation, forcing Klarna to find new revenue streams. This matters as a case study of how fintech companies must evolve when their core product becomes mainstream and competitive advantage shifts from the product itself to ecosystem positioning.
+
+**✗ 2.7** — [Why heat pumps are still so hot in the US](https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/)  
+*MIT Technology Review* · 
+#heat_pumps #tax_credits #building_electrification #policy_incentives
+> The article reports that US heat pump sales continued to grow in early 2026 despite the expiration of federal tax credits at the end of 2025, contrasting with the sales collapse seen when EV tax credits ended. The evidence comes from Air Conditioning, Heating, and Refrigeration Institute shipment data showing flat-to-rising sales through Q1 2026, following seasonal patterns. This suggests the heat pump market has reached sufficient maturity that adoption no longer depends on government incentives.
+
+**✗ 2.0** — [Our approach to bioresilience](https://deepmind.google/blog/our-approach-to-bioresilience/)  
+*Google DeepMind* · 
+#bioresilience #biosecurity #ai_safety #research_policy
+> This article describes Google DeepMind's high-level approach to bioresilience and biosecurity, focusing on preventing misuse of AI in biological research. The key mechanism involves developing AI models for biology while implementing safety frameworks and collaboration with biosecurity experts. This is a general organizational statement without specific technical details or novel frameworks.
+
+**✓ 6.0** — [[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)](https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b)  
+*Latent Space* · model-architecture · multimodal-models · inference-efficiency
+#mixture_of_experts #multimodal_reasoning #open_weights #apache_2_license
+> Thinky released Inkling, a 975B-parameter (41B active) mixture-of-experts multimodal model trained on 45 trillion tokens, as the first American Apache 2.0 open-weights model competitive with top closed models. The model supports 1M token context and native reasoning over text, images, and audio, with broad day-0 ecosystem integration across vLLM, SGLang, Modal, Databricks, and Hugging Face. This positions it as a customizable foundation model for enterprises rather than a benchmark-focused flagship, representing the strongest U.S.-based open-weight release to date though still trailing top Chinese open-weight models on some benchmarks.
+
+**✗ 1.3** — [QMLS IPO News - Cloud computing service provider QumulusAI completes its Nasdaq direct listing - renaissancecapital.com](https://news.google.com/rss/articles/CBMizgFBVV95cUxOYlVWY0xlUGNMMGhhMDNXZUUxck5GWkpzMjdVdU1Fc1I3N1dScE9IMWp3LUVHMzFTQkwxNlRibVRzQXFheUZuTEVTZkJyaW9tMnFwTUdKbUI1SU83amttQnZzQUNRMnlteTJHN3NhWFlIVUp3SWppcVhuanBRWnRmcW1KZVNEYmJkMFQ2UUNrSmlmZG94UHBjLTB5aHFWZDV6eFd4UnJ0VGxGcVhURTFfc2hEZ00yZjlUWXJlSGQ4ZDdKT0NBcjRWWE8tWFNBUQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · 
+#ipo #nasdaq #cloud_computing
+> This is not an actual article but a Google cookie consent page that appeared before the intended content about QumulusAI's Nasdaq listing could load. No substantive information about the cloud computing service provider, its IPO, or business model is present in the captured text. The content provides zero analytical value or information relevant to any AI or enterprise technology topics.
 
 **✗ 1.0** — [2025](https://www.bain.com/insights/topics/gaming-report/2025/)  
 *Bain Insights* · 
@@ -746,6 +858,16 @@ All articles scanned since the wiki started. Updated nightly.
 *Simon Willison* · ai-engineering-agents
 #mermaid_diagrams #webassembly #rust #coding_agents
 > The article describes a small tool that converts Mermaid diagrams to Unicode box art in browsers using WebAssembly, extracted from the Grok CLI coding agent codebase. The author used Claude Code to port the Rust mermaid renderer to run via WebAssembly in a browser. This is a minor tooling note about repurposing a component from an AI coding agent rather than substantial analysis or research.
+
+**✗ 4.0** — [How Cars24 scales conversations and builds faster with OpenAI](https://openai.com/index/cars24)  
+*OpenAI News* · agentic-workflows-production · ai-in-sales-gtm · ai-in-customer-success-support
+#conversational_ai #voice_agents #lead_recovery #sales_automation
+> Cars24 deployed OpenAI-powered voice and chat agents to handle over 1 million monthly conversation minutes and recover 12% of previously lost sales leads. The article reports deployment scale and business impact metrics (lead recovery rate, conversation volume) from implementing conversational AI agents. This demonstrates practical ROI from agentic AI in sales and customer engagement workflows at scale.
+
+**✗ 4.7** — [The Blank Slate AI Strategy](https://www.tomtunguz.com/the-blank-slate-ai-strategy/)  
+*Tomasz Tunguz* · build-vs-buy-enterprise-ai · ai-pricing-packaging-saas · model-architecture
+#open_source_monetization #fine_tuning_platform #customization_business_model #general_purpose_models
+> The article draws an analogy between Slate Auto's barebones customizable electric pickup and Thinking Machines' open-source Inkling AI model, arguing both pursue a "blank slate" strategy of shipping unremarkable base products cheaply and monetizing through customization. The evidence is the parallel launch strategies: Slate's $24,950 truck with no features and Inkling's 975B-parameter general-purpose model released open-source but monetized through a fine-tuning platform called Tinker. This matters as a potential business model for commercializing open-source AI by giving away base weights while charging for customization services.
 
 ## 2026-07-15
 
@@ -860,6 +982,11 @@ All articles scanned since the wiki started. Updated nightly.
 *Latent Space* · ai-engineering-agents · model-architecture · inference-efficiency
 #codex #model_quantization #agent_harnesses #langchain_tracing
 > This is a daily AI news roundup reporting on OpenAI Codex adding 1M users per day following GPT-5.6 launch, alongside notes on AI engineering conference trends and model quantization developments. The article provides surface-level coverage of usage metrics, agent tooling improvements (LangChain tracing, harness quality), and aggressive model compression (Bonsai 27B at 1.71 bits, Hunyuan 1-bit quantization). The reported Codex growth rate matters as a potential IPO-altering metric for OpenAI, while the quantization advances indicate frontier models moving to consumer devices.
+
+**✗ 1.3** — [Most mid-market manufacturers are stuck in AI pilot mode, and their data infrastructure is why - MarketScale](https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaV9GWUR5MHJ4N3pBU2RVaE1EVFFtVFpBXzNfd2l6N005d0tEcUdVaHBLbFZ1YXBLbFc4MnpMeU1JOG9nSUdCQVJ3QUljdVh0cXVuSDZwZHV3VG5QcWpTWU9YQ1pIZVJfWWZPR2VDLVJiRkptbUJDTWxPUE1SZVQ0NWwtbTRCanY4MkN5eFgzanpNVnJpc1pod2xveDZHMHdsNUhob3J1NEFYRjdVaURkaWRTN1Y0eE85Qk13MkRnX29Icm5iWXVGa1V1aGhhSUxQdjFYaDJrTXV3cE1GRWlRdQ?oc=5)  
+*GN: AI Mid-Market Enterprise* · ai-in-operations
+#mid_market #manufacturing #data_infrastructure #ai_pilots
+> This article appears to discuss mid-market manufacturers struggling with AI pilot programs due to data infrastructure challenges. However, the actual article content is only a Google cookie consent page with no substantive content available. Without access to the actual article text, it's impossible to evaluate the claims, evidence, or implications.
 
 **✗ 4.7** — [5 Trends That Defined AI Engineering at World’s Fair 2026](https://www.latent.space/p/aiewf26trends)  
 *Latent Space* · ai-engineering-agents · agentic-workflows-production · ai-in-product-and-engineering

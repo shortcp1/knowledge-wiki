@@ -1377,3 +1377,21 @@ These references suggest follow-up content exists but specific implementation de
 - Analogous to Google Analytics in web era, but with trajectory data becoming vendor IP
 
 **Note**: This represents a new market segment that may warrant its own topic file (e.g., 'trajectory-data-markets' or 'ai-training-data-economy') if more examples accumulate.
+
+---
+**🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences** (Latent Space, 2026-07-16T13:30:44+00:00)
+**Lab Infrastructure Innovation Details**: Lila's physical setup includes magnetically levitating 'PCI bus' transport layer, instruments as nodes on a graph, orchestration as slurm queue, vision-language models controlling Windows 95 boxes. CTO Andy Beam uses data center analogies extensively. This is interesting technical detail but doesn't clearly fit existing topics - could warrant new 'ai-lab-infrastructure' or 'scientific-automation-architecture' topic if more examples emerge.
+
+---
+**🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences** (Latent Space Podcast, 2026-07-16T13:30:00+00:00)
+**Potential New Topic: AI-for-Science / Scientific AI**
+
+This content reveals an emerging pattern that doesn't cleanly fit existing categories:
+
+1. **Physical-World RL**: Agents with experiments as verification loops - distinct from digital agents
+2. **Cross-Domain Scientific Reasoning**: Multi-discipline AI models (biology + chemistry + materials) as strategic advantage
+3. **Lab Automation Economics**: When to automate vs. keep humans in loop based on ROI
+4. **Experimentally Verified Reasoning Traces**: New data type for training scientific models
+5. **Machine Creativity in Science**: Open-ended exploration vs. optimization (Ken Stanley's focus)
+
+This could warrant a dedicated topic file for "AI for Scientific Discovery" or "Scientific AI Systems" to track patterns, players, and outcomes in this vertical.
